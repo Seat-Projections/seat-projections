@@ -1,0 +1,37 @@
+{
+  "model": "model1",
+  "run_id": "VIC2026 (2025)",
+  "timestamp": "2026-11-09T11:14:49+00:00",
+  "git_commit": null,
+  "runs": 1000,
+  "seed": 1,
+  "noise_log_sd": {
+    "state": 0.08,
+    "seat": 0.12,
+    "flow": 0.15
+  },
+  "inputs": {
+    "state": "VIC",
+    "state_election": "2026-11-28",
+    "districts": 88,
+    "federal_election": 2025,
+    "aec_event": 31496,
+    "aec_download": {
+      "source": "https://results.aec.gov.au/31496/Website/",
+      "retrieved": "2026-11-09T01:20:16+00:00",
+      "file_count": 111,
+      "total_bytes": 78209238
+    },
+    "booths": "inside the district and within 1.0 km of their own federal division",
+    "polls": null,
+    "winners": null,
+    "state_field": "data/2026/candidates_vic2026.csv"
+  },
+  "predicted_seats_mean": {
+    "ALP": 59.15,
+    "GRN": 2.05,
+    "IND*": 6.85,
+    "LP": 10.18,
+    "NP": 9.77
+  }
+}

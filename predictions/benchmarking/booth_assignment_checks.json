@@ -1,0 +1,317 @@
+[
+ {
+  "run": "QLD2020 (2019)",
+  "state": "QLD",
+  "federal": 2019,
+  "districts": 93,
+  "polling_places": 1697,
+  "booth_votes": 2305336,
+  "declaration_votes": 523682,
+  "reasons": {
+   "counted": 1466,
+   "no coordinates": 115,
+   "outside own division (> 1 km)": 115,
+   "nearest": 1
+  },
+  "reason_votes": {
+   "counted": 2180290,
+   "no coordinates": 22936,
+   "outside own division (> 1 km)": 99954,
+   "nearest": 2156
+  },
+  "counted_share": 94.6,
+  "conserved": true,
+  "empty_districts": [],
+  "multi_district_booths": [],
+  "divisions_without_boundary": [],
+  "median_district_votes": 22453,
+  "outlier_districts": [],
+  "min_booths": 6
+ },
+ {
+  "run": "WA2021 (2019)",
+  "state": "WA",
+  "federal": 2019,
+  "districts": 59,
+  "polling_places": 900,
+  "booth_votes": 1127874,
+  "declaration_votes": 274000,
+  "reasons": {
+   "counted": 800,
+   "outside own division (> 1 km)": 31,
+   "no coordinates": 69
+  },
+  "reason_votes": {
+   "counted": 1091766,
+   "outside own division (> 1 km)": 21927,
+   "no coordinates": 14181
+  },
+  "counted_share": 96.8,
+  "conserved": true,
+  "empty_districts": [],
+  "multi_district_booths": [
+   [
+    "Doubleview",
+    [
+     "Churchlands",
+     "Scarborough"
+    ],
+    2824
+   ]
+  ],
+  "divisions_without_boundary": [],
+  "median_district_votes": 17738,
+  "outlier_districts": [
+   [
+    "North West Central",
+    5897,
+    0.33
+   ]
+  ],
+  "min_booths": 7
+ },
+ {
+  "run": "SA2022 (2019)",
+  "state": "SA",
+  "federal": 2019,
+  "districts": 47,
+  "polling_places": 771,
+  "booth_votes": 882178,
+  "declaration_votes": 190470,
+  "reasons": {
+   "counted": 660,
+   "outside own division (> 1 km)": 35,
+   "no coordinates": 76
+  },
+  "reason_votes": {
+   "counted": 849347,
+   "outside own division (> 1 km)": 8634,
+   "no coordinates": 24197
+  },
+  "counted_share": 96.3,
+  "conserved": true,
+  "empty_districts": [],
+  "multi_district_booths": [],
+  "divisions_without_boundary": [],
+  "median_district_votes": 18257,
+  "outlier_districts": [],
+  "min_booths": 7
+ },
+ {
+  "run": "VIC2022 (2022)",
+  "state": "VIC",
+  "federal": 2022,
+  "districts": 88,
+  "polling_places": 1939,
+  "booth_votes": 2849569,
+  "declaration_votes": 896864,
+  "reasons": {
+   "counted": 1742,
+   "outside": 78,
+   "no coordinates": 7,
+   "outside own division (> 1 km)": 111,
+   "nearest": 1
+  },
+  "reason_votes": {
+   "counted": 2675801,
+   "outside": 18977,
+   "no coordinates": 832,
+   "outside own division (> 1 km)": 153157,
+   "nearest": 802
+  },
+  "counted_share": 93.9,
+  "conserved": true,
+  "empty_districts": [],
+  "multi_district_booths": [],
+  "divisions_without_boundary": [],
+  "median_district_votes": 30971.0,
+  "outlier_districts": [],
+  "min_booths": 10
+ },
+ {
+  "run": "NSW2023 (2022)",
+  "state": "NSW",
+  "federal": 2022,
+  "districts": 93,
+  "polling_places": 2882,
+  "booth_votes": 3849708,
+  "declaration_votes": 801232,
+  "reasons": {
+   "counted": 2582,
+   "outside own division (> 1 km)": 189,
+   "outside": 101,
+   "no coordinates": 8,
+   "nearest": 2
+  },
+  "reason_votes": {
+   "counted": 3693307,
+   "outside own division (> 1 km)": 132526,
+   "outside": 19688,
+   "no coordinates": 611,
+   "nearest": 3576
+  },
+  "counted_share": 95.9,
+  "conserved": true,
+  "empty_districts": [],
+  "multi_district_booths": [],
+  "divisions_without_boundary": [],
+  "median_district_votes": 40235,
+  "outlier_districts": [],
+  "min_booths": 18
+ },
+ {
+  "run": "QLD2024 (2022)",
+  "state": "QLD",
+  "federal": 2022,
+  "districts": 93,
+  "polling_places": 1559,
+  "booth_votes": 2215041,
+  "declaration_votes": 742985,
+  "reasons": {
+   "counted": 1383,
+   "outside": 60,
+   "outside own division (> 1 km)": 104,
+   "no coordinates": 11,
+   "nearest": 1
+  },
+  "reason_votes": {
+   "counted": 2090985,
+   "outside": 9244,
+   "outside own division (> 1 km)": 110641,
+   "no coordinates": 2827,
+   "nearest": 1344
+  },
+  "counted_share": 94.4,
+  "conserved": true,
+  "empty_districts": [],
+  "multi_district_booths": [],
+  "divisions_without_boundary": [],
+  "median_district_votes": 21858,
+  "outlier_districts": [],
+  "min_booths": 7
+ },
+ {
+  "run": "WA2025 (2022)",
+  "state": "WA",
+  "federal": 2022,
+  "districts": 59,
+  "polling_places": 857,
+  "booth_votes": 1106031,
+  "declaration_votes": 367194,
+  "reasons": {
+   "counted": 783,
+   "outside": 30,
+   "outside own division (> 1 km)": 33,
+   "no coordinates": 11
+  },
+  "reason_votes": {
+   "counted": 1053414,
+   "outside": 19307,
+   "outside own division (> 1 km)": 31550,
+   "no coordinates": 1760
+  },
+  "counted_share": 95.2,
+  "conserved": true,
+  "empty_districts": [],
+  "multi_district_booths": [],
+  "divisions_without_boundary": [],
+  "median_district_votes": 17229,
+  "outlier_districts": [],
+  "min_booths": 8
+ },
+ {
+  "run": "SA2026 (2022)",
+  "state": "SA",
+  "federal": 2022,
+  "districts": 47,
+  "polling_places": 716,
+  "booth_votes": 850748,
+  "declaration_votes": 247038,
+  "reasons": {
+   "counted": 653,
+   "outside own division (> 1 km)": 34,
+   "outside": 21,
+   "no coordinates": 8
+  },
+  "reason_votes": {
+   "counted": 812768,
+   "outside own division (> 1 km)": 28811,
+   "outside": 8108,
+   "no coordinates": 1061
+  },
+  "counted_share": 95.5,
+  "conserved": true,
+  "empty_districts": [],
+  "multi_district_booths": [],
+  "divisions_without_boundary": [],
+  "median_district_votes": 18123,
+  "outlier_districts": [],
+  "min_booths": 7
+ },
+ {
+  "run": "SA2026 (2025)",
+  "state": "SA",
+  "federal": 2025,
+  "districts": 47,
+  "polling_places": 750,
+  "booth_votes": 902637,
+  "declaration_votes": 229601,
+  "reasons": {
+   "counted": 649,
+   "outside own division (> 1 km)": 28,
+   "outside": 10,
+   "no coordinates": 63
+  },
+  "reason_votes": {
+   "counted": 856135,
+   "outside own division (> 1 km)": 37448,
+   "outside": 143,
+   "no coordinates": 8911
+  },
+  "counted_share": 94.8,
+  "conserved": true,
+  "empty_districts": [],
+  "multi_district_booths": [],
+  "divisions_without_boundary": [],
+  "median_district_votes": 18074,
+  "outlier_districts": [],
+  "min_booths": 8
+ },
+ {
+  "run": "VIC2026 (2025)",
+  "state": "VIC",
+  "federal": 2025,
+  "districts": 88,
+  "polling_places": 2072,
+  "booth_votes": 3069088,
+  "declaration_votes": 983976,
+  "reasons": {
+   "counted": 1751,
+   "outside": 38,
+   "outside own division (> 1 km)": 142,
+   "no coordinates": 140,
+   "nearest": 1
+  },
+  "reason_votes": {
+   "counted": 2874969,
+   "outside": 620,
+   "outside own division (> 1 km)": 172386,
+   "no coordinates": 20090,
+   "nearest": 1023
+  },
+  "counted_share": 93.7,
+  "conserved": true,
+  "empty_districts": [],
+  "multi_district_booths": [],
+  "divisions_without_boundary": [],
+  "median_district_votes": 33670.5,
+  "outlier_districts": [
+   [
+    "Caulfield",
+    12310,
+    0.37
+   ]
+  ],
+  "min_booths": 10
+ }
+]

@@ -1,0 +1,48 @@
+{
+  "model": "model1",
+  "run_id": "VIC2022 (2022)",
+  "timestamp": "2026-11-09T01:17:47+00:00",
+  "git_commit": null,
+  "runs": 1000,
+  "seed": 1,
+  "noise_log_sd": {
+    "state": 0.08,
+    "seat": 0.12,
+    "flow": 0.15
+  },
+  "inputs": {
+    "state": "VIC",
+    "state_election": "2022-11-26",
+    "districts": 88,
+    "federal_election": 2022,
+    "aec_event": 27966,
+    "aec_download": {
+      "source": "https://results.aec.gov.au/27966/Website/",
+      "retrieved": "2026-11-09T01:14:02+00:00",
+      "file_count": 212,
+      "total_bytes": 165786165
+    },
+    "booths": "inside the district and within 1.0 km of their own federal division",
+    "polls": null,
+    "winners": "vec:2022"
+  },
+  "scores": {
+    "districts": 88,
+    "raw_seat_count": 72,
+    "brier": 0.2376,
+    "log_loss": 0.4359
+  },
+  "actual_seats": {
+    "ALP": 56,
+    "GRN": 4,
+    "LP": 19,
+    "NP": 9
+  },
+  "predicted_seats_mean": {
+    "ALP": 57.23,
+    "GRN": 3.26,
+    "IND*": 7.17,
+    "LP": 13.82,
+    "NP": 6.53
+  }
+}

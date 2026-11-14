@@ -1,0 +1,380 @@
+district,candidate,party,p_win,p_final_two,tcp_p10,tcp_p50,tcp_p90
+Adelaide,Labor,ALP,1.0,1.0,62.43,66.94,70.77
+Adelaide,Liberal,LP,0.0,0.88,29.52,33.26,37.75
+Adelaide,Greens,GRN,0.0,0.12,28.27,31.75,34.38
+Adelaide,One Nation,ON,0.0,0.0,,,
+Adelaide,Animal Justice,AJP,0.0,0.0,,,
+Adelaide,Trumpet of Patriots,CYA,0.0,0.0,,,
+Adelaide,FUSION,SOPA,0.0,0.0,,,
+Badcoe,Labor,ALP,1.0,1.0,58.47,63.31,67.91
+Badcoe,Liberal,LP,0.0,1.0,32.09,36.71,41.53
+Badcoe,Greens,GRN,0.0,0.0,,,
+Badcoe,One Nation,ON,0.0,0.0,,,
+Badcoe,Trumpet of Patriots,CYA,0.0,0.0,,,
+Badcoe,Family First,FFP,0.0,0.0,,,
+Badcoe,Animal Justice,AJP,0.0,0.0,,,
+Badcoe,FUSION,SOPA,0.0,0.0,,,
+Badcoe,Independent*,IND*,0.0,0.0,,,
+Black,Labor,ALP,1.0,1.0,61.84,66.23,70.79
+Black,Liberal,LP,0.0,1.0,29.21,33.78,38.16
+Black,Greens,GRN,0.0,0.0,,,
+Black,One Nation,ON,0.0,0.0,,,
+Black,Trumpet of Patriots,CYA,0.0,0.0,,,
+Black,Family First,FFP,0.0,0.0,,,
+Black,Animal Justice,AJP,0.0,0.0,,,
+Bragg,Liberal,LP,0.217,1.0,42.12,46.75,52.24
+Bragg,Labor,ALP,0.783,1.0,47.76,53.25,57.88
+Bragg,Greens,GRN,0.0,0.0,,,
+Bragg,Independent*,IND*,0.0,0.0,,,
+Bragg,One Nation,ON,0.0,0.0,,,
+Bragg,Family First,FFP,0.0,0.0,,,
+Bragg,Trumpet of Patriots,CYA,0.0,0.0,,,
+Chaffey,Liberal,LP,1.0,1.0,60.17,64.72,69.16
+Chaffey,Labor,ALP,0.0,1.0,30.84,35.29,39.83
+Chaffey,One Nation,ON,0.0,0.0,,,
+Chaffey,Greens,GRN,0.0,0.0,,,
+Chaffey,Independent*,IND*,0.0,0.0,,,
+Chaffey,Trumpet of Patriots,CYA,0.0,0.0,,,
+Chaffey,Family First,FFP,0.0,0.0,,,
+Chaffey,Nationals,NP,0.0,0.0,,,
+Cheltenham,Labor,ALP,1.0,1.0,69.03,72.5,76.13
+Cheltenham,Greens,GRN,0.0,0.025,22.45,25.96,28.81
+Cheltenham,Liberal,LP,0.0,0.975,23.93,27.55,31.07
+Cheltenham,Trumpet of Patriots,CYA,0.0,0.0,,,
+Cheltenham,One Nation,ON,0.0,0.0,,,
+Cheltenham,Family First,FFP,0.0,0.0,,,
+Cheltenham,Animal Justice,AJP,0.0,0.0,,,
+Cheltenham,Independent*,IND*,0.0,0.0,,,
+Cheltenham,FUSION,SOPA,0.0,0.0,,,
+Colton,Labor,ALP,1.0,1.0,57.7,62.31,66.91
+Colton,Liberal,LP,0.0,1.0,33.09,37.7,42.3
+Colton,Greens,GRN,0.0,0.0,,,
+Colton,One Nation,ON,0.0,0.0,,,
+Colton,Trumpet of Patriots,CYA,0.0,0.0,,,
+Colton,Family First,FFP,0.0,0.0,,,
+Colton,Independent*,IND*,0.0,0.0,,,
+Colton,Animal Justice,AJP,0.0,0.0,,,
+Colton,FUSION,SOPA,0.0,0.0,,,
+Croydon,Labor,ALP,1.0,1.0,72.19,75.69,78.96
+Croydon,Greens,GRN,0.0,0.447,21.24,24.57,27.95
+Croydon,Liberal,LP,0.0,0.553,20.82,24.06,27.75
+Croydon,One Nation,ON,0.0,0.0,,,
+Croydon,Trumpet of Patriots,CYA,0.0,0.0,,,
+Croydon,Animal Justice,AJP,0.0,0.0,,,
+Croydon,FUSION,SOPA,0.0,0.0,,,
+Croydon,Family First,FFP,0.0,0.0,,,
+Croydon,Independent*,IND*,0.0,0.0,,,
+Davenport,Labor,ALP,1.0,1.0,63.17,67.68,71.94
+Davenport,Liberal,LP,0.0,0.999,28.1,32.33,36.83
+Davenport,Greens,GRN,0.0,0.001,26.1,26.1,26.1
+Davenport,One Nation,ON,0.0,0.0,,,
+Davenport,Trumpet of Patriots,CYA,0.0,0.0,,,
+Davenport,Family First,FFP,0.0,0.0,,,
+Davenport,Animal Justice,AJP,0.0,0.0,,,
+Davenport,XEN,XEN,0.0,0.0,,,
+Dunstan,Labor,ALP,0.966,1.0,51.95,57.1,61.86
+Dunstan,Liberal,LP,0.034,1.0,38.14,42.92,48.05
+Dunstan,Greens,GRN,0.0,0.0,,,
+Dunstan,Independent*,IND*,0.0,0.0,,,
+Dunstan,One Nation,ON,0.0,0.0,,,
+Dunstan,Trumpet of Patriots,CYA,0.0,0.0,,,
+Dunstan,Family First,FFP,0.0,0.0,,,
+Dunstan,Animal Justice,AJP,0.0,0.0,,,
+Dunstan,FUSION,SOPA,0.0,0.0,,,
+Elder,Labor,ALP,0.995,1.0,56.55,61.81,66.67
+Elder,Liberal,LP,0.005,1.0,33.33,38.2,43.45
+Elder,Greens,GRN,0.0,0.0,,,
+Elder,One Nation,ON,0.0,0.0,,,
+Elder,Trumpet of Patriots,CYA,0.0,0.0,,,
+Elder,Family First,FFP,0.0,0.0,,,
+Elizabeth,Labor,ALP,1.0,1.0,65.29,69.45,73.21
+Elizabeth,Greens,GRN,0.0,0.001,26.79,26.79,26.79
+Elizabeth,Liberal,LP,0.0,0.999,26.8,30.58,34.71
+Elizabeth,One Nation,ON,0.0,0.0,,,
+Elizabeth,Family First,FFP,0.0,0.0,,,
+Elizabeth,Trumpet of Patriots,CYA,0.0,0.0,,,
+Elizabeth,Independent*,IND*,0.0,0.0,,,
+Elizabeth,Animal Justice,AJP,0.0,0.0,,,
+Enfield,Labor,ALP,1.0,1.0,63.82,68.43,72.74
+Enfield,Liberal,LP,0.0,0.999,27.27,31.57,36.18
+Enfield,Greens,GRN,0.0,0.001,26.64,26.64,26.64
+Enfield,One Nation,ON,0.0,0.0,,,
+Enfield,Trumpet of Patriots,CYA,0.0,0.0,,,
+Enfield,Animal Justice,AJP,0.0,0.0,,,
+Enfield,FUSION,SOPA,0.0,0.0,,,
+Enfield,Family First,FFP,0.0,0.0,,,
+Enfield,Independent*,IND*,0.0,0.0,,,
+Finniss,XEN,XEN,0.999,0.999,60.07,64.23,68.09
+Finniss,Liberal,LP,0.0,0.844,32.32,36.35,40.22
+Finniss,Labor,ALP,0.001,0.157,30.19,33.35,36.23
+Finniss,Greens,GRN,0.0,0.0,,,
+Finniss,One Nation,ON,0.0,0.0,,,
+Finniss,Family First,FFP,0.0,0.0,,,
+Finniss,Trumpet of Patriots,CYA,0.0,0.0,,,
+Flinders,Liberal,LP,1.0,1.0,57.45,62.65,73.28
+Flinders,Independent*,IND*,0.0,0.216,23.89,26.9,30.41
+Flinders,Labor,ALP,0.0,0.784,34.08,38.39,43.09
+Flinders,One Nation,ON,0.0,0.0,,,
+Flinders,Greens,GRN,0.0,0.0,,,
+Flinders,Family First,FFP,0.0,0.0,,,
+Flinders,Trumpet of Patriots,CYA,0.0,0.0,,,
+Flinders,Nationals,NP,0.0,0.0,,,
+Florey,Labor,ALP,1.0,1.0,64.75,69.22,73.18
+Florey,Liberal,LP,0.0,1.0,26.82,30.79,35.25
+Florey,Greens,GRN,0.0,0.0,,,
+Florey,One Nation,ON,0.0,0.0,,,
+Florey,Trumpet of Patriots,CYA,0.0,0.0,,,
+Florey,Family First,FFP,0.0,0.0,,,
+Florey,Animal Justice,AJP,0.0,0.0,,,
+Florey,FUSION,SOPA,0.0,0.0,,,
+Gibson,Labor,ALP,0.982,1.0,53.7,59.16,64.56
+Gibson,Liberal,LP,0.018,1.0,35.44,40.87,46.3
+Gibson,Greens,GRN,0.0,0.0,,,
+Gibson,One Nation,ON,0.0,0.0,,,
+Gibson,Trumpet of Patriots,CYA,0.0,0.0,,,
+Gibson,Family First,FFP,0.0,0.0,,,
+Giles,Labor,ALP,0.996,1.0,54.46,59.05,63.5
+Giles,Liberal,LP,0.004,1.0,36.5,40.97,45.54
+Giles,Independent*,IND*,0.0,0.0,,,
+Giles,One Nation,ON,0.0,0.0,,,
+Giles,Nationals,NP,0.0,0.0,,,
+Giles,Greens,GRN,0.0,0.0,,,
+Giles,Family First,FFP,0.0,0.0,,,
+Giles,Trumpet of Patriots,CYA,0.0,0.0,,,
+Hammond,Liberal,LP,0.9,1.0,50.0,54.74,59.33
+Hammond,Labor,ALP,0.097,0.986,40.67,45.24,49.98
+Hammond,XEN,XEN,0.003,0.014,43.25,47.05,52.44
+Hammond,Greens,GRN,0.0,0.0,,,
+Hammond,One Nation,ON,0.0,0.0,,,
+Hammond,Independent*,IND*,0.0,0.0,,,
+Hammond,Trumpet of Patriots,CYA,0.0,0.0,,,
+Hammond,Family First,FFP,0.0,0.0,,,
+Hammond,Nationals,NP,0.0,0.0,,,
+Hartley,Labor,ALP,0.957,1.0,51.8,57.02,61.83
+Hartley,Liberal,LP,0.043,1.0,38.17,43.0,48.2
+Hartley,Greens,GRN,0.0,0.0,,,
+Hartley,Independent*,IND*,0.0,0.0,,,
+Hartley,One Nation,ON,0.0,0.0,,,
+Hartley,Trumpet of Patriots,CYA,0.0,0.0,,,
+Hartley,Family First,FFP,0.0,0.0,,,
+Heysen,XEN,XEN,1.0,1.0,61.83,65.77,69.59
+Heysen,Liberal,LP,0.0,0.425,30.18,34.09,38.1
+Heysen,Labor,ALP,0.0,0.571,30.74,34.43,38.29
+Heysen,Greens,GRN,0.0,0.004,24.12,25.2,26.74
+Heysen,One Nation,ON,0.0,0.0,,,
+Heysen,Family First,FFP,0.0,0.0,,,
+Heysen,Trumpet of Patriots,CYA,0.0,0.0,,,
+Hurtle Vale,Labor,ALP,1.0,1.0,70.06,73.63,77.03
+Hurtle Vale,Greens,GRN,0.0,0.005,21.93,24.41,27.56
+Hurtle Vale,Liberal,LP,0.0,0.995,22.97,26.38,29.95
+Hurtle Vale,One Nation,ON,0.0,0.0,,,
+Hurtle Vale,Trumpet of Patriots,CYA,0.0,0.0,,,
+Hurtle Vale,Family First,FFP,0.0,0.0,,,
+Hurtle Vale,Animal Justice,AJP,0.0,0.0,,,
+Kaurna,Labor,ALP,1.0,1.0,67.96,72.27,75.72
+Kaurna,Liberal,LP,0.0,1.0,24.28,27.74,32.04
+Kaurna,Greens,GRN,0.0,0.0,,,
+Kaurna,One Nation,ON,0.0,0.0,,,
+Kaurna,Trumpet of Patriots,CYA,0.0,0.0,,,
+Kaurna,Family First,FFP,0.0,0.0,,,
+Kaurna,Animal Justice,AJP,0.0,0.0,,,
+Kavel,XEN,XEN,1.0,1.0,63.3,66.89,70.57
+Kavel,Liberal,LP,0.0,0.396,30.48,34.13,37.1
+Kavel,Labor,ALP,0.0,0.604,29.09,32.57,36.18
+Kavel,Greens,GRN,0.0,0.0,,,
+Kavel,One Nation,ON,0.0,0.0,,,
+Kavel,Family First,FFP,0.0,0.0,,,
+Kavel,Trumpet of Patriots,CYA,0.0,0.0,,,
+King,Labor,ALP,1.0,1.0,59.4,64.08,68.11
+King,Liberal,LP,0.0,1.0,31.89,35.93,40.6
+King,Greens,GRN,0.0,0.0,,,
+King,One Nation,ON,0.0,0.0,,,
+King,Trumpet of Patriots,CYA,0.0,0.0,,,
+King,Family First,FFP,0.0,0.0,,,
+King,Animal Justice,AJP,0.0,0.0,,,
+King,Independent*,IND*,0.0,0.0,,,
+King,FUSION,SOPA,0.0,0.0,,,
+Lee,Labor,ALP,1.0,1.0,61.53,66.03,70.2
+Lee,Liberal,LP,0.0,1.0,29.8,33.97,38.47
+Lee,Greens,GRN,0.0,0.0,,,
+Lee,One Nation,ON,0.0,0.0,,,
+Lee,Trumpet of Patriots,CYA,0.0,0.0,,,
+Lee,Family First,FFP,0.0,0.0,,,
+Lee,Independent*,IND*,0.0,0.0,,,
+Lee,Animal Justice,AJP,0.0,0.0,,,
+Lee,FUSION,SOPA,0.0,0.0,,,
+Light,Labor,ALP,1.0,1.0,59.4,63.72,67.94
+Light,Liberal,LP,0.0,1.0,32.06,36.28,40.6
+Light,Greens,GRN,0.0,0.0,,,
+Light,One Nation,ON,0.0,0.0,,,
+Light,Family First,FFP,0.0,0.0,,,
+Light,Trumpet of Patriots,CYA,0.0,0.0,,,
+Light,Independent*,IND*,0.0,0.0,,,
+Light,Animal Justice,AJP,0.0,0.0,,,
+Mackillop,Liberal,LP,1.0,1.0,64.87,69.32,73.39
+Mackillop,Labor,ALP,0.0,1.0,26.61,30.69,35.13
+Mackillop,One Nation,ON,0.0,0.0,,,
+Mackillop,Greens,GRN,0.0,0.0,,,
+Mackillop,Nationals,NP,0.0,0.0,,,
+Mackillop,Independent*,IND*,0.0,0.0,,,
+Mackillop,Family First,FFP,0.0,0.0,,,
+Mackillop,Trumpet of Patriots,CYA,0.0,0.0,,,
+Mawson,Labor,ALP,0.269,0.988,39.76,44.78,58.07
+Mawson,Liberal,LP,0.002,0.267,38.88,42.66,46.74
+Mawson,XEN,XEN,0.729,0.745,52.44,56.88,60.65
+Mawson,Greens,GRN,0.0,0.0,,,
+Mawson,One Nation,ON,0.0,0.0,,,
+Mawson,Trumpet of Patriots,CYA,0.0,0.0,,,
+Mawson,Family First,FFP,0.0,0.0,,,
+Mawson,Animal Justice,AJP,0.0,0.0,,,
+Morialta,Labor,ALP,0.998,1.0,55.66,60.43,64.9
+Morialta,Liberal,LP,0.002,1.0,35.1,39.57,44.34
+Morialta,Greens,GRN,0.0,0.0,,,
+Morialta,Independent*,IND*,0.0,0.0,,,
+Morialta,One Nation,ON,0.0,0.0,,,
+Morialta,Trumpet of Patriots,CYA,0.0,0.0,,,
+Morialta,Family First,FFP,0.0,0.0,,,
+Morphett,Labor,ALP,0.992,1.0,53.93,58.95,64.07
+Morphett,Liberal,LP,0.008,1.0,35.93,41.07,46.07
+Morphett,Greens,GRN,0.0,0.0,,,
+Morphett,One Nation,ON,0.0,0.0,,,
+Morphett,Trumpet of Patriots,CYA,0.0,0.0,,,
+Morphett,Family First,FFP,0.0,0.0,,,
+Morphett,Animal Justice,AJP,0.0,0.0,,,
+Morphett,Independent*,IND*,0.0,0.0,,,
+Morphett,FUSION,SOPA,0.0,0.0,,,
+Mount Gambier,Liberal,LP,0.997,1.0,55.67,60.42,64.98
+Mount Gambier,Labor,ALP,0.003,1.0,35.02,39.59,44.33
+Mount Gambier,Independent*,IND*,0.0,0.0,,,
+Mount Gambier,Greens,GRN,0.0,0.0,,,
+Mount Gambier,One Nation,ON,0.0,0.0,,,
+Mount Gambier,Family First,FFP,0.0,0.0,,,
+Mount Gambier,Trumpet of Patriots,CYA,0.0,0.0,,,
+Mount Gambier,Nationals,NP,0.0,0.0,,,
+Narungga,Liberal,LP,0.999,1.0,56.12,60.78,65.52
+Narungga,Labor,ALP,0.001,1.0,34.48,39.23,43.88
+Narungga,Independent*,IND*,0.0,0.0,,,
+Narungga,One Nation,ON,0.0,0.0,,,
+Narungga,Greens,GRN,0.0,0.0,,,
+Narungga,Family First,FFP,0.0,0.0,,,
+Narungga,Trumpet of Patriots,CYA,0.0,0.0,,,
+Narungga,Nationals,NP,0.0,0.0,,,
+Newland,Labor,ALP,1.0,1.0,59.13,63.85,68.19
+Newland,Liberal,LP,0.0,1.0,31.81,36.15,40.87
+Newland,Greens,GRN,0.0,0.0,,,
+Newland,One Nation,ON,0.0,0.0,,,
+Newland,Trumpet of Patriots,CYA,0.0,0.0,,,
+Newland,Family First,FFP,0.0,0.0,,,
+Newland,Animal Justice,AJP,0.0,0.0,,,
+Newland,FUSION,SOPA,0.0,0.0,,,
+Newland,Independent*,IND*,0.0,0.0,,,
+Ngadjuri,Liberal,LP,0.882,1.0,49.62,54.58,59.13
+Ngadjuri,Labor,ALP,0.118,1.0,40.87,45.42,50.38
+Ngadjuri,One Nation,ON,0.0,0.0,,,
+Ngadjuri,Independent*,IND*,0.0,0.0,,,
+Ngadjuri,Greens,GRN,0.0,0.0,,,
+Ngadjuri,Family First,FFP,0.0,0.0,,,
+Ngadjuri,Trumpet of Patriots,CYA,0.0,0.0,,,
+Ngadjuri,Nationals,NP,0.0,0.0,,,
+Ngadjuri,Animal Justice,AJP,0.0,0.0,,,
+Playford,Labor,ALP,1.0,1.0,67.11,71.03,74.67
+Playford,Liberal,LP,0.0,0.999,25.34,28.98,32.89
+Playford,Greens,GRN,0.0,0.001,21.62,21.62,21.62
+Playford,One Nation,ON,0.0,0.0,,,
+Playford,Family First,FFP,0.0,0.0,,,
+Playford,Trumpet of Patriots,CYA,0.0,0.0,,,
+Playford,Animal Justice,AJP,0.0,0.0,,,
+Playford,Independent*,IND*,0.0,0.0,,,
+Playford,FUSION,SOPA,0.0,0.0,,,
+Port Adelaide,Labor,ALP,1.0,1.0,69.02,72.88,76.56
+Port Adelaide,Greens,GRN,0.0,0.019,21.9,25.01,28.16
+Port Adelaide,Liberal,LP,0.0,0.981,23.45,27.15,30.99
+Port Adelaide,One Nation,ON,0.0,0.0,,,
+Port Adelaide,Trumpet of Patriots,CYA,0.0,0.0,,,
+Port Adelaide,Family First,FFP,0.0,0.0,,,
+Port Adelaide,Animal Justice,AJP,0.0,0.0,,,
+Port Adelaide,Independent*,IND*,0.0,0.0,,,
+Port Adelaide,FUSION,SOPA,0.0,0.0,,,
+Ramsay,Labor,ALP,1.0,1.0,65.14,69.23,72.82
+Ramsay,Liberal,LP,0.0,1.0,27.18,30.77,34.86
+Ramsay,Greens,GRN,0.0,0.0,,,
+Ramsay,One Nation,ON,0.0,0.0,,,
+Ramsay,Trumpet of Patriots,CYA,0.0,0.0,,,
+Ramsay,Family First,FFP,0.0,0.0,,,
+Ramsay,Independent*,IND*,0.0,0.0,,,
+Ramsay,Animal Justice,AJP,0.0,0.0,,,
+Reynell,Labor,ALP,1.0,1.0,70.71,74.31,77.72
+Reynell,Greens,GRN,0.0,0.007,21.74,24.77,25.52
+Reynell,Liberal,LP,0.0,0.993,22.29,25.73,29.29
+Reynell,One Nation,ON,0.0,0.0,,,
+Reynell,Family First,FFP,0.0,0.0,,,
+Reynell,Trumpet of Patriots,CYA,0.0,0.0,,,
+Reynell,Animal Justice,AJP,0.0,0.0,,,
+Schubert,Liberal,LP,0.721,1.0,47.09,52.21,57.17
+Schubert,Labor,ALP,0.279,1.0,42.83,47.81,52.91
+Schubert,Greens,GRN,0.0,0.0,,,
+Schubert,One Nation,ON,0.0,0.0,,,
+Schubert,XEN,XEN,0.0,0.0,,,
+Schubert,Trumpet of Patriots,CYA,0.0,0.0,,,
+Schubert,Independent*,IND*,0.0,0.0,,,
+Schubert,Family First,FFP,0.0,0.0,,,
+Schubert,Nationals,NP,0.0,0.0,,,
+Stuart,Liberal,LP,0.913,0.999,50.49,59.58,68.36
+Stuart,Independent*,IND*,0.0,0.501,30.66,33.78,37.53
+Stuart,Labor,ALP,0.087,0.5,42.47,46.76,51.29
+Stuart,One Nation,ON,0.0,0.0,,,
+Stuart,Greens,GRN,0.0,0.0,,,
+Stuart,Family First,FFP,0.0,0.0,,,
+Stuart,Trumpet of Patriots,CYA,0.0,0.0,,,
+Stuart,Nationals,NP,0.0,0.0,,,
+Taylor,Labor,ALP,1.0,1.0,62.26,66.49,70.34
+Taylor,Liberal,LP,0.0,1.0,29.66,33.53,37.74
+Taylor,Greens,GRN,0.0,0.0,,,
+Taylor,One Nation,ON,0.0,0.0,,,
+Taylor,Family First,FFP,0.0,0.0,,,
+Taylor,Trumpet of Patriots,CYA,0.0,0.0,,,
+Taylor,Independent*,IND*,0.0,0.0,,,
+Taylor,Animal Justice,AJP,0.0,0.0,,,
+Taylor,Nationals,NP,0.0,0.0,,,
+Torrens,Labor,ALP,1.0,1.0,62.74,66.86,70.52
+Torrens,Liberal,LP,0.0,0.967,29.52,33.23,37.4
+Torrens,Greens,GRN,0.0,0.033,28.16,30.69,32.71
+Torrens,Independent*,IND*,0.0,0.0,,,
+Torrens,One Nation,ON,0.0,0.0,,,
+Torrens,Trumpet of Patriots,CYA,0.0,0.0,,,
+Torrens,Family First,FFP,0.0,0.0,,,
+Torrens,Animal Justice,AJP,0.0,0.0,,,
+Torrens,FUSION,SOPA,0.0,0.0,,,
+Unley,Liberal,LP,0.171,1.0,41.02,45.71,51.35
+Unley,Labor,ALP,0.829,1.0,48.65,54.32,58.98
+Unley,Greens,GRN,0.0,0.0,,,
+Unley,Independent*,IND*,0.0,0.0,,,
+Unley,One Nation,ON,0.0,0.0,,,
+Unley,Trumpet of Patriots,CYA,0.0,0.0,,,
+Unley,Family First,FFP,0.0,0.0,,,
+Unley,Animal Justice,AJP,0.0,0.0,,,
+Unley,FUSION,SOPA,0.0,0.0,,,
+Waite,Labor,ALP,1.0,1.0,60.94,65.64,69.86
+Waite,Liberal,LP,0.0,0.964,30.32,34.48,39.1
+Waite,Greens,GRN,0.0,0.036,28.74,32.35,35.33
+Waite,XEN,XEN,0.0,0.0,,,
+Waite,One Nation,ON,0.0,0.0,,,
+Waite,Trumpet of Patriots,CYA,0.0,0.0,,,
+Waite,Family First,FFP,0.0,0.0,,,
+West Torrens,Labor,ALP,1.0,1.0,67.26,71.29,74.81
+West Torrens,Greens,GRN,0.0,0.046,24.3,27.4,30.21
+West Torrens,Liberal,LP,0.0,0.954,25.33,28.82,32.9
+West Torrens,One Nation,ON,0.0,0.0,,,
+West Torrens,Trumpet of Patriots,CYA,0.0,0.0,,,
+West Torrens,Animal Justice,AJP,0.0,0.0,,,
+West Torrens,Family First,FFP,0.0,0.0,,,
+West Torrens,FUSION,SOPA,0.0,0.0,,,
+West Torrens,Independent*,IND*,0.0,0.0,,,
+Wright,Labor,ALP,1.0,1.0,62.44,66.82,71.09
+Wright,Liberal,LP,0.0,1.0,28.91,33.2,37.56
+Wright,Greens,GRN,0.0,0.0,,,
+Wright,One Nation,ON,0.0,0.0,,,
+Wright,Trumpet of Patriots,CYA,0.0,0.0,,,
+Wright,Family First,FFP,0.0,0.0,,,
+Wright,Animal Justice,AJP,0.0,0.0,,,
+Wright,FUSION,SOPA,0.0,0.0,,,

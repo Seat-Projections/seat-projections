@@ -1,0 +1,750 @@
+{
+ "meta": {
+  "description": "2018 Victorian first preferences on 2022 district boundaries (party groups)",
+  "method": "election-day voting centres placed by coordinates; all other votes of each 2018 district spread over 2022 districts in proportion to that district's located election-day votes",
+  "formal_votes": 3514474,
+  "located_election_day_votes": 1650560,
+  "located_share_of_formal": 47.0,
+  "unlocated_election_day_votes": {
+   "outside own district": 42908
+  },
+  "fallback_districts": {
+   "Brunswick": "pre-recheck workbook, rescaled to official totals (recheck page holds the wrong election)",
+   "Ripon": "pre-recheck workbook, rescaled to official totals (recheck page has no voting-centre breakdown)"
+  },
+  "sources": {
+   "results": "VEC fpvbyvotingcentre<district>.html (2018 recheck)",
+   "locations": "VEC voting centre locations 2018 (xlsx)",
+   "old_boundaries": "Vicmap Admin State Assembly Polygon 2013 (WFS)",
+   "new_boundaries": "EBC 2021 redivision KMZ"
+  }
+ },
+ "districts": {
+  "Albert Park": {
+   "ALP": 17287.0,
+   "LP": 12457.0,
+   "GRN": 6601.0,
+   "AJP": 1555.0,
+   "FIONA PATTEN'S REASON PARTY": 1079.0,
+   "SUSTAINABLE AUSTRALIA": 597.0,
+   "IND*": 282.0
+  },
+  "Ashwood": {
+   "LP": 21816.5,
+   "ALP": 19713.5,
+   "GRN": 5887.4,
+   "SUSTAINABLE AUSTRALIA": 780.8,
+   "AJP": 705.1,
+   "IND*": 85.3
+  },
+  "Bass": {
+   "LP": 17460.1,
+   "ALP": 15772.8,
+   "GRN": 2535.4,
+   "IND*": 2322.8,
+   "SHOOTERS, FISHERS & FARMERS VIC": 1367.3,
+   "LABOUR DLP": 807.0,
+   "AJP": 523.5
+  },
+  "Bayswater": {
+   "LP": 20276.8,
+   "ALP": 17375.2,
+   "GRN": 3799.7,
+   "AJP": 1044.2
+  },
+  "Bellarine": {
+   "ALP": 21239.6,
+   "LP": 15165.9,
+   "GRN": 3871.0,
+   "AJP": 1905.9,
+   "VNS": 504.3
+  },
+  "Benambra": {
+   "LP": 15393.2,
+   "IND*": 11326.2,
+   "ALP": 6886.7,
+   "SHOOTERS, FISHERS & FARMERS VIC": 3527.4,
+   "GRN": 1400.0
+  },
+  "Bendigo East": {
+   "ALP": 21693.0,
+   "LP": 8987.0,
+   "NP": 6864.0,
+   "GRN": 3465.0,
+   "LABOUR DLP": 1080.0,
+   "IND*": 999.0
+  },
+  "Bendigo West": {
+   "ALP": 21004.0,
+   "LP": 10641.0,
+   "GRN": 5127.0,
+   "AJP": 2504.0
+  },
+  "Bentleigh": {
+   "ALP": 21285.2,
+   "LP": 13683.0,
+   "GRN": 3404.2,
+   "IND*": 1158.3,
+   "AJP": 680.7,
+   "DERRYN HINCH'S JUSTICE PARTY": 541.7,
+   "FIONA PATTEN'S REASON PARTY": 431.4,
+   "LABOUR DLP": 391.9,
+   "SUSTAINABLE AUSTRALIA": 298.7,
+   "TRANSPORT MATTERS": 264.9
+  },
+  "Berwick": {
+   "LP": 17564.9,
+   "ALP": 16819.7,
+   "GRN": 3121.1,
+   "TRANSPORT MATTERS": 840.0,
+   "IND*": 139.4,
+   "SHOOTERS, FISHERS & FARMERS VIC": 80.0,
+   "LABOUR DLP": 75.2
+  },
+  "Box Hill": {
+   "LP": 18891.8,
+   "ALP": 17003.7,
+   "GRN": 5633.4,
+   "SUSTAINABLE AUSTRALIA": 310.1,
+   "AJP": 301.4,
+   "IND*": 118.5
+  },
+  "Brighton": {
+   "LP": 18202.4,
+   "ALP": 13089.6,
+   "GRN": 6024.9,
+   "AJP": 1989.3,
+   "SUSTAINABLE AUSTRALIA": 894.3,
+   "IND*": 306.2,
+   "DERRYN HINCH'S JUSTICE PARTY": 30.3,
+   "FIONA PATTEN'S REASON PARTY": 20.6,
+   "LABOUR DLP": 20.1
+  },
+  "Broadmeadows": {
+   "ALP": 20780.8,
+   "LP": 5432.4,
+   "IND*": 5217.2,
+   "GRN": 3461.9,
+   "VNS": 1881.5,
+   "AJP": 291.7
+  },
+  "Brunswick": {
+   "GRN": 19342.9,
+   "ALP": 18371.8,
+   "LP": 4542.8,
+   "FIONA PATTEN'S REASON PARTY": 2215.2,
+   "IND*": 1947.5,
+   "AJP": 985.9,
+   "LDP": 497.3,
+   "AUSSIE BATTLER PARTY": 50.3
+  },
+  "Bulleen": {
+   "LP": 20466.3,
+   "ALP": 14331.4,
+   "GRN": 4408.5,
+   "AJP": 83.4
+  },
+  "Bundoora": {
+   "ALP": 21888.6,
+   "LP": 11619.8,
+   "GRN": 3204.8,
+   "AJP": 1011.0,
+   "FIONA PATTEN'S REASON PARTY": 818.0,
+   "VNS": 805.0,
+   "LABOUR DLP": 78.2
+  },
+  "Carrum": {
+   "ALP": 23204.6,
+   "LP": 14455.9,
+   "GRN": 2457.7,
+   "DERRYN HINCH'S JUSTICE PARTY": 1904.9,
+   "TRANSPORT MATTERS": 763.9,
+   "LABOUR DLP": 745.2,
+   "IND*": 584.2
+  },
+  "Caulfield": {
+   "LP": 17317.7,
+   "ALP": 12522.5,
+   "GRN": 5421.7,
+   "AJP": 1094.2,
+   "SUSTAINABLE AUSTRALIA": 634.3,
+   "LABOUR DLP": 56.7,
+   "FIONA PATTEN'S REASON PARTY": 55.0,
+   "AUSSIE BATTLER PARTY": 9.9,
+   "IND*": 8.6
+  },
+  "Clarinda": {
+   "ALP": 23735.4,
+   "LP": 11993.1,
+   "GRN": 3264.6,
+   "IND*": 2329.5,
+   "TRANSPORT MATTERS": 1127.0,
+   "AJP": 871.6,
+   "DERRYN HINCH'S JUSTICE PARTY": 169.4,
+   "LABOUR DLP": 85.5
+  },
+  "Cranbourne": {
+   "ALP": 16133.2,
+   "LP": 10684.7,
+   "DERRYN HINCH'S JUSTICE PARTY": 1466.3,
+   "GRN": 1285.9,
+   "IND*": 1186.7,
+   "TRANSPORT MATTERS": 1117.4,
+   "LABOUR DLP": 574.1
+  },
+  "Croydon": {
+   "LP": 19313.7,
+   "ALP": 16010.6,
+   "GRN": 3713.4,
+   "AJP": 1928.6,
+   "LABOUR DLP": 70.8,
+   "IND*": 44.8
+  },
+  "Dandenong": {
+   "ALP": 24736.0,
+   "LP": 9196.2,
+   "GRN": 2678.6,
+   "TRANSPORT MATTERS": 1222.7,
+   "IND*": 662.0,
+   "AJP": 368.5
+  },
+  "Eildon": {
+   "LP": 19591.4,
+   "ALP": 15596.3,
+   "GRN": 4402.4,
+   "IND*": 2138.8,
+   "SHOOTERS, FISHERS & FARMERS VIC": 140.5,
+   "LABOUR DLP": 102.9,
+   "AUSTRALIAN LIBERTY ALLIANCE": 68.8
+  },
+  "Eltham": {
+   "ALP": 22616.1,
+   "LP": 16523.5,
+   "GRN": 4547.6,
+   "LABOUR DLP": 862.3,
+   "SHOOTERS, FISHERS & FARMERS VIC": 351.9,
+   "AUSTRALIAN LIBERTY ALLIANCE": 212.4,
+   "IND*": 82.5
+  },
+  "Essendon": {
+   "ALP": 19173.0,
+   "LP": 11414.0,
+   "GRN": 6971.0,
+   "IND*": 3058.0,
+   "LABOUR DLP": 856.0
+  },
+  "Eureka": {
+   "ALP": 19701.1,
+   "LP": 13288.9,
+   "IND*": 5380.4,
+   "GRN": 3747.5,
+   "AJP": 1672.1,
+   "VNS": 445.8,
+   "LABOUR DLP": 342.6
+  },
+  "Euroa": {
+   "NP": 23798.8,
+   "ALP": 11326.5,
+   "IND*": 2930.4,
+   "GRN": 2098.5
+  },
+  "Evelyn": {
+   "LP": 19167.3,
+   "ALP": 16287.7,
+   "GRN": 4106.5,
+   "LABOUR DLP": 236.0,
+   "IND*": 173.8
+  },
+  "Footscray": {
+   "ALP": 21276.9,
+   "GRN": 7021.5,
+   "LP": 6891.5,
+   "AJP": 2440.5,
+   "IND*": 833.7
+  },
+  "Frankston": {
+   "ALP": 17741.2,
+   "LP": 12527.2,
+   "GRN": 2916.7,
+   "DERRYN HINCH'S JUSTICE PARTY": 1653.5,
+   "LABOUR DLP": 1394.8,
+   "AJP": 1142.0,
+   "IND*": 807.1,
+   "TRANSPORT MATTERS": 262.7
+  },
+  "Geelong": {
+   "ALP": 18419.3,
+   "IND*": 10210.5,
+   "LP": 10207.9,
+   "GRN": 4134.1,
+   "AJP": 1379.1,
+   "VNS": 535.5
+  },
+  "Gippsland East": {
+   "NP": 22438.0,
+   "ALP": 8589.0,
+   "IND*": 3561.0,
+   "LDP": 2507.0,
+   "GRN": 2455.0
+  },
+  "Gippsland South": {
+   "NP": 23306.3,
+   "ALP": 11738.0,
+   "GRN": 3756.6,
+   "IND*": 1238.0,
+   "LP": 511.0,
+   "SHOOTERS, FISHERS & FARMERS VIC": 346.3,
+   "AUSSIE BATTLER PARTY": 80.6,
+   "LABOUR DLP": 59.5
+  },
+  "Glen Waverley": {
+   "LP": 21219.2,
+   "ALP": 19331.1,
+   "GRN": 3911.2,
+   "IND*": 515.8,
+   "LABOUR DLP": 141.7,
+   "TRANSPORT MATTERS": 71.6
+  },
+  "Greenvale": {
+   "ALP": 22128.0,
+   "LP": 8756.7,
+   "GRN": 2516.6,
+   "VNS": 1699.8,
+   "IND*": 1288.7
+  },
+  "Hastings": {
+   "LP": 18058.1,
+   "ALP": 15287.3,
+   "GRN": 3851.6,
+   "AJP": 2356.5,
+   "IND*": 195.5
+  },
+  "Hawthorn": {
+   "LP": 17773.7,
+   "ALP": 13593.0,
+   "GRN": 7136.9,
+   "SUSTAINABLE AUSTRALIA": 970.2,
+   "AJP": 878.4,
+   "IND*": 315.1
+  },
+  "Ivanhoe": {
+   "ALP": 18800.0,
+   "LP": 13084.0,
+   "GRN": 5962.0,
+   "IND*": 1969.0,
+   "LABOUR DLP": 660.0
+  },
+  "Kalkallo": {
+   "ALP": 18830.2,
+   "LP": 8367.1,
+   "GRN": 2006.2,
+   "IND*": 908.7,
+   "VNS": 761.9,
+   "SHOOTERS, FISHERS & FARMERS VIC": 614.0,
+   "LABOUR DLP": 420.1,
+   "AUSTRALIAN LIBERTY ALLIANCE": 301.8
+  },
+  "Kew": {
+   "LP": 21451.0,
+   "ALP": 13791.4,
+   "GRN": 6664.7,
+   "AJP": 915.0,
+   "SUSTAINABLE AUSTRALIA": 835.0
+  },
+  "Kororoit": {
+   "ALP": 23728.4,
+   "LP": 7672.5,
+   "GRN": 3154.3,
+   "AJP": 2827.4
+  },
+  "Lara": {
+   "ALP": 22951.0,
+   "LP": 9559.0,
+   "GRN": 2966.0,
+   "AJP": 2740.0,
+   "VNS": 1408.0
+  },
+  "Laverton": {
+   "ALP": 16777.6,
+   "LP": 6218.4,
+   "GRN": 3641.0,
+   "IND*": 1588.4,
+   "AJP": 1051.3
+  },
+  "Lowan": {
+   "NP": 25562.0,
+   "ALP": 8965.2,
+   "IND*": 2534.9,
+   "GRN": 2256.8,
+   "LP": 1722.8,
+   "VNS": 488.6,
+   "SHOOTERS, FISHERS & FARMERS VIC": 153.0,
+   "DERRYN HINCH'S JUSTICE PARTY": 111.7,
+   "AJP": 104.2,
+   "LABOUR DLP": 76.4,
+   "AUSTRALIAN COUNTRY PARTY": 12.9
+  },
+  "Macedon": {
+   "ALP": 19031.2,
+   "LP": 12644.1,
+   "GRN": 3904.1,
+   "AJP": 1564.1,
+   "LABOUR DLP": 1270.6,
+   "IND*": 1213.9
+  },
+  "Malvern": {
+   "LP": 20413.5,
+   "ALP": 12034.9,
+   "GRN": 5484.2,
+   "SUSTAINABLE AUSTRALIA": 1203.3,
+   "AJP": 1183.7,
+   "LABOUR DLP": 63.6,
+   "FIONA PATTEN'S REASON PARTY": 57.7,
+   "AUSSIE BATTLER PARTY": 11.1,
+   "IND*": 9.1
+  },
+  "Melbourne": {
+   "GRN": 12259.2,
+   "ALP": 11351.0,
+   "LP": 5503.0,
+   "FIONA PATTEN'S REASON PARTY": 1204.4,
+   "AJP": 640.2,
+   "LDP": 336.0,
+   "IND*": 271.8,
+   "AUSSIE BATTLER PARTY": 182.7
+  },
+  "Melton": {
+   "IND*": 11044.8,
+   "ALP": 10382.8,
+   "LP": 5319.3,
+   "GRN": 1397.8,
+   "LABOUR DLP": 848.8,
+   "AJP": 827.4,
+   "VNS": 183.5
+  },
+  "Mildura": {
+   "IND*": 14762.9,
+   "NP": 14654.0,
+   "ALP": 7090.7,
+   "GRN": 1498.1,
+   "LP": 1131.2,
+   "SHOOTERS, FISHERS & FARMERS VIC": 153.3,
+   "DERRYN HINCH'S JUSTICE PARTY": 116.8,
+   "LABOUR DLP": 66.3,
+   "AJP": 45.1,
+   "VNS": 7.6
+  },
+  "Mill Park": {
+   "ALP": 24729.0,
+   "LP": 8421.0,
+   "AJP": 2655.0,
+   "GRN": 2088.0,
+   "VNS": 1540.0
+  },
+  "Monbulk": {
+   "ALP": 20617.4,
+   "LP": 19776.4,
+   "GRN": 7197.3,
+   "IND*": 1052.0,
+   "LABOUR DLP": 944.2,
+   "AJP": 63.1
+  },
+  "Mordialloc": {
+   "ALP": 20315.8,
+   "LP": 12332.0,
+   "GRN": 2977.2,
+   "IND*": 1238.0,
+   "AJP": 1193.8,
+   "DERRYN HINCH'S JUSTICE PARTY": 932.6,
+   "LABOUR DLP": 557.5,
+   "TRANSPORT MATTERS": 323.9
+  },
+  "Mornington": {
+   "LP": 20963.0,
+   "ALP": 14204.0,
+   "GRN": 4060.0,
+   "AJP": 2208.0
+  },
+  "Morwell": {
+   "ALP": 15781.3,
+   "IND*": 10628.2,
+   "LP": 7430.0,
+   "NP": 3789.7,
+   "SHOOTERS, FISHERS & FARMERS VIC": 2509.7,
+   "GRN": 1692.8,
+   "AUSSIE BATTLER PARTY": 811.4,
+   "LABOUR DLP": 594.5
+  },
+  "Mulgrave": {
+   "ALP": 20830.0,
+   "LP": 10814.4,
+   "GRN": 2320.2,
+   "LABOUR DLP": 800.3,
+   "TRANSPORT MATTERS": 689.5,
+   "IND*": 452.2,
+   "AJP": 90.1
+  },
+  "Murray Plains": {
+   "NP": 24234.0,
+   "ALP": 7790.0,
+   "SHOOTERS, FISHERS & FARMERS VIC": 6438.0,
+   "GRN": 1706.0
+  },
+  "Narracan": {
+   "LP": 20221.0,
+   "ALP": 12615.7,
+   "IND*": 2488.8,
+   "GRN": 2262.6
+  },
+  "Narre Warren North": {
+   "ALP": 22061.7,
+   "LP": 14843.9,
+   "GRN": 2670.9,
+   "LABOUR DLP": 1680.0,
+   "TRANSPORT MATTERS": 1401.5
+  },
+  "Narre Warren South": {
+   "ALP": 20141.6,
+   "LP": 13704.5,
+   "GRN": 2213.9,
+   "TRANSPORT MATTERS": 1987.1,
+   "DERRYN HINCH'S JUSTICE PARTY": 649.3,
+   "IND*": 539.0,
+   "LABOUR DLP": 281.0
+  },
+  "Nepean": {
+   "LP": 16730.5,
+   "ALP": 14332.5,
+   "GRN": 4385.5,
+   "IND*": 2576.5
+  },
+  "Niddrie": {
+   "ALP": 22225.1,
+   "LP": 13860.0,
+   "GRN": 2798.4,
+   "AJP": 1615.0
+  },
+  "Northcote": {
+   "ALP": 17748.0,
+   "GRN": 16816.0,
+   "LP": 4570.0,
+   "FIONA PATTEN'S REASON PARTY": 1448.0,
+   "AJP": 1026.0,
+   "LDP": 500.0,
+   "IND*": 444.0
+  },
+  "Oakleigh": {
+   "ALP": 22505.8,
+   "LP": 12504.5,
+   "GRN": 4658.3,
+   "AJP": 835.0,
+   "IND*": 688.9,
+   "SUSTAINABLE AUSTRALIA": 594.0,
+   "TRANSPORT MATTERS": 240.9
+  },
+  "Ovens Valley": {
+   "NP": 16646.0,
+   "IND*": 8974.8,
+   "ALP": 8283.3,
+   "AUSTRALIAN COUNTRY PARTY": 3214.0,
+   "GRN": 1852.0,
+   "LP": 1121.8,
+   "SHOOTERS, FISHERS & FARMERS VIC": 246.6
+  },
+  "Pakenham": {
+   "LP": 11462.2,
+   "ALP": 11237.8,
+   "GRN": 2018.2,
+   "IND*": 737.8,
+   "SHOOTERS, FISHERS & FARMERS VIC": 563.8,
+   "LABOUR DLP": 405.9
+  },
+  "Pascoe Vale": {
+   "ALP": 14485.6,
+   "IND*": 9163.3,
+   "GRN": 7886.5,
+   "LP": 4283.8,
+   "VNS": 852.7,
+   "AJP": 769.3,
+   "FIONA PATTEN'S REASON PARTY": 507.7,
+   "LDP": 189.8
+  },
+  "Point Cook": {
+   "ALP": 19944.9,
+   "LP": 9421.0,
+   "IND*": 6758.2,
+   "GRN": 3335.9,
+   "LABOUR DLP": 33.5
+  },
+  "Polwarth": {
+   "LP": 17590.5,
+   "ALP": 11893.4,
+   "GRN": 3724.9,
+   "AJP": 1373.0,
+   "IND*": 1148.0,
+   "VNS": 614.9,
+   "LABOUR DLP": 230.0,
+   "SHOOTERS, FISHERS & FARMERS VIC": 156.4
+  },
+  "Prahran": {
+   "LP": 13088.9,
+   "ALP": 11339.6,
+   "GRN": 10487.1,
+   "AJP": 891.1,
+   "LABOUR DLP": 812.7,
+   "FIONA PATTEN'S REASON PARTY": 717.3,
+   "SUSTAINABLE AUSTRALIA": 456.4,
+   "AUSSIE BATTLER PARTY": 135.0,
+   "IND*": 112.3
+  },
+  "Preston": {
+   "ALP": 19409.0,
+   "LP": 6083.0,
+   "GRN": 5636.0,
+   "IND*": 2570.0,
+   "VNS": 1453.0,
+   "FIONA PATTEN'S REASON PARTY": 1116.0,
+   "AJP": 1079.0
+  },
+  "Richmond": {
+   "ALP": 16760.8,
+   "GRN": 12826.7,
+   "IND*": 4659.2,
+   "FIONA PATTEN'S REASON PARTY": 2470.7,
+   "AJP": 1078.8
+  },
+  "Ringwood": {
+   "LP": 21179.1,
+   "ALP": 19895.6,
+   "GRN": 6161.4,
+   "AJP": 335.5,
+   "IND*": 28.2
+  },
+  "Ripon": {
+   "ALP": 17321.0,
+   "LP": 15870.3,
+   "SHOOTERS, FISHERS & FARMERS VIC": 2315.7,
+   "GRN": 2075.0,
+   "DERRYN HINCH'S JUSTICE PARTY": 1700.5,
+   "LABOUR DLP": 1175.2,
+   "AJP": 1033.0,
+   "IND*": 972.4,
+   "VNS": 271.6
+  },
+  "Rowville": {
+   "LP": 22151.7,
+   "ALP": 15697.1,
+   "GRN": 4262.8,
+   "IND*": 1763.5
+  },
+  "Sandringham": {
+   "LP": 16770.0,
+   "ALP": 12918.0,
+   "IND*": 3317.0,
+   "GRN": 3201.0,
+   "AJP": 1310.0,
+   "LABOUR DLP": 1149.0,
+   "SUSTAINABLE AUSTRALIA": 609.0
+  },
+  "Shepparton": {
+   "IND*": 15856.0,
+   "LP": 10967.0,
+   "NP": 5382.0,
+   "ALP": 4772.0,
+   "SHOOTERS, FISHERS & FARMERS VIC": 3314.0,
+   "GRN": 999.0
+  },
+  "South Barwon": {
+   "ALP": 15759.7,
+   "LP": 15610.7,
+   "GRN": 3566.7,
+   "IND*": 3090.5,
+   "AJP": 1269.4,
+   "LABOUR DLP": 1231.0,
+   "SHOOTERS, FISHERS & FARMERS VIC": 841.6,
+   "VNS": 299.2
+  },
+  "South-West Coast": {
+   "LP": 15033.4,
+   "ALP": 10907.0,
+   "IND*": 10840.7,
+   "AUSTRALIAN COUNTRY PARTY": 3339.1,
+   "GRN": 2773.3,
+   "LABOUR DLP": 679.1,
+   "VNS": 306.3,
+   "AJP": 111.5
+  },
+  "St Albans": {
+   "ALP": 22389.1,
+   "LP": 8857.9,
+   "GRN": 4328.2,
+   "IND*": 1187.2,
+   "AJP": 352.6
+  },
+  "Sunbury": {
+   "ALP": 21565.9,
+   "LP": 12439.0,
+   "GRN": 2858.6
+  },
+  "Sydenham": {
+   "ALP": 26264.0,
+   "LP": 12303.0,
+   "GRN": 2754.0,
+   "IND*": 1780.0
+  },
+  "Tarneit": {
+   "ALP": 21943.0,
+   "LP": 9999.4,
+   "IND*": 4332.6,
+   "GRN": 2988.3,
+   "LABOUR DLP": 84.4
+  },
+  "Thomastown": {
+   "ALP": 21397.0,
+   "LP": 5420.0,
+   "IND*": 4012.0,
+   "GRN": 1474.0,
+   "VNS": 967.0,
+   "AJP": 861.0,
+   "FIONA PATTEN'S REASON PARTY": 554.0
+  },
+  "Warrandyte": {
+   "LP": 24220.8,
+   "ALP": 17794.6,
+   "GRN": 5171.9,
+   "AJP": 1818.2
+  },
+  "Wendouree": {
+   "ALP": 20219.9,
+   "LP": 13931.9,
+   "GRN": 3808.8,
+   "AJP": 1454.1,
+   "IND*": 736.1,
+   "VNS": 415.8
+  },
+  "Werribee": {
+   "ALP": 15726.0,
+   "IND*": 9572.3,
+   "LP": 5852.3,
+   "GRN": 2241.0,
+   "LABOUR DLP": 1057.1
+  },
+  "Williamstown": {
+   "ALP": 19789.1,
+   "LP": 7667.1,
+   "GRN": 5597.6,
+   "IND*": 5429.6,
+   "AJP": 936.2
+  },
+  "Yan Yean": {
+   "ALP": 15425.3,
+   "LP": 7212.5,
+   "GRN": 1715.7,
+   "SHOOTERS, FISHERS & FARMERS VIC": 1137.6,
+   "LABOUR DLP": 995.6,
+   "NP": 950.2,
+   "AUSTRALIAN LIBERTY ALLIANCE": 649.0,
+   "IND*": 388.9
+  }
+ }
+}

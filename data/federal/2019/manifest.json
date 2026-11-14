@@ -1,0 +1,752 @@
+{
+  "event_id": 24310,
+  "states": [
+    "QLD",
+    "WA",
+    "SA"
+  ],
+  "source": "https://results.aec.gov.au/24310/Website/",
+  "retrieved": "2026-11-09T01:13:50+00:00",
+  "file_count": 123,
+  "total_bytes": 48206179,
+  "files": [
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/GeneralDecVotesIssuedByDivisionDownload-24310.csv",
+      "path": "general/GeneralDecVotesIssuedByDivisionDownload-24310.csv",
+      "bytes": 7364,
+      "sha256": "61802f9ae6778a41991d7ae0fd8616a06d4d8edb8556430081fcc3fbab1ec671"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/GeneralDecVotesIssuedByStateDownload-24310.csv",
+      "path": "general/GeneralDecVotesIssuedByStateDownload-24310.csv",
+      "bytes": 857,
+      "sha256": "8004b976471b0472f361881c7827bd64c21b6882fa9a6df28d93a9f9cc4c0c27"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/GeneralDecVotesReceivedByDivisionDownload-24310.csv",
+      "path": "general/GeneralDecVotesReceivedByDivisionDownload-24310.csv",
+      "bytes": 7253,
+      "sha256": "60a9d1370e8cfa723410688841dd754c16bb081676276586e1afe2bba9af348f"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/GeneralDecVotesReceivedByStateDownload-24310.csv",
+      "path": "general/GeneralDecVotesReceivedByStateDownload-24310.csv",
+      "bytes": 800,
+      "sha256": "339f7f8936b3d680e5c050f8eea51667cba95651437a4d8cdee89720f9177aef"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/GeneralEnrolmentByDivisionDownload-24310.csv",
+      "path": "general/GeneralEnrolmentByDivisionDownload-24310.csv",
+      "bytes": 7159,
+      "sha256": "c427386bbb8046606d3ceef827c6ec9fd1c5ce39b6e7bdbfb4d871bd4c6dd883"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/GeneralEnrolmentByStateDownload-24310.csv",
+      "path": "general/GeneralEnrolmentByStateDownload-24310.csv",
+      "bytes": 871,
+      "sha256": "eb3654cf7c6e28009a2dc1ba73f8ec3d62bc4dad794f462fa195930d511da734"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/GeneralPartyDetailsDownload-24310.csv",
+      "path": "general/GeneralPartyDetailsDownload-24310.csv",
+      "bytes": 4447,
+      "sha256": "564890e3cdee6b0f8d960579bc7388d943d4787879e0220056120bfcd66a02ca"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/GeneralPollingPlacesDownload-24310.csv",
+      "path": "general/GeneralPollingPlacesDownload-24310.csv",
+      "bytes": 1077031,
+      "sha256": "013ddadddc6ffc3b1ee7185bc61febab99722d6c03a5e4aaa5758b9ab0533ac6"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseCandidatesDownload-24310.csv",
+      "path": "house/HouseCandidatesDownload-24310.csv",
+      "bytes": 69984,
+      "sha256": "baf5198dd3949409df5a96ef92014f007ce0b5c74ba2f3d76aadf8f5a613bfd9"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseDopByDivisionDownload-24310.csv",
+      "path": "house/HouseDopByDivisionDownload-24310.csv",
+      "bytes": 2426147,
+      "sha256": "dc797df1ac390e1a6a66ae5f121b0a2e32d46cf757ec4089743738cc82ad7e2a"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/External/HouseDopByPPDownload-24310-QLD.zip",
+      "path": "house/HouseDopByPPDownload-24310-QLD.zip",
+      "bytes": 2044911,
+      "sha256": "1d669b1e6709751b5429fb99e28883692fc04a2b5d028ab661802a57aefb38ef"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/External/HouseDopByPPDownload-24310-SA.zip",
+      "path": "house/HouseDopByPPDownload-24310-SA.zip",
+      "bytes": 728779,
+      "sha256": "52bb0c2b10a245be313b345cc92f25bb934dc5cc2713b143106f2b2a574cbbf5"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/External/HouseDopByPPDownload-24310-WA.zip",
+      "path": "house/HouseDopByPPDownload-24310-WA.zip",
+      "bytes": 1301281,
+      "sha256": "3ae1a858a94f6d43b25c773751247e25aae5479d778c8807c10dbf8ebcf633ab"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseFirstPrefsByCandidateByVoteTypeDownload-24310.csv",
+      "path": "house/HouseFirstPrefsByCandidateByVoteTypeDownload-24310.csv",
+      "bytes": 117828,
+      "sha256": "44493b87fdf5093f748d5c0c0da0c997f65c2f8897ed803ab4cc9259932b0590"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseFirstPrefsByPartyDownload-24310.csv",
+      "path": "house/HouseFirstPrefsByPartyDownload-24310.csv",
+      "bytes": 4686,
+      "sha256": "a40b7196c98ed857df4c432424bcb923f0df97f8858d19bb9603f6b1a6979f9a"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseFirstPrefsByStateByPartyDownload-24310.csv",
+      "path": "house/HouseFirstPrefsByStateByPartyDownload-24310.csv",
+      "bytes": 12751,
+      "sha256": "f52394474fca30bba84eb0009f48c69f68494be5ad13049ffd3335250bea63b2"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseInformalByDivisionDownload-24310.csv",
+      "path": "house/HouseInformalByDivisionDownload-24310.csv",
+      "bytes": 7137,
+      "sha256": "c700bf4024469494a8be000a21e410d7acf8e1fb58dfa3f111bde05e7c84b860"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseInformalByStateDownload-24310.csv",
+      "path": "house/HouseInformalByStateDownload-24310.csv",
+      "bytes": 777,
+      "sha256": "a535a72a81958cc14d1609bc937e4c2ff12ecc4e98914a8a906efcc7f883a84d"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseMembersElectedDownload-24310.csv",
+      "path": "house/HouseMembersElectedDownload-24310.csv",
+      "bytes": 9058,
+      "sha256": "b5e02956edd3d5588a937d2ce0af483443a36fb13773a817cd7cc6d52a7a86c1"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseNominationsByDivisionDownload-24310.csv",
+      "path": "house/HouseNominationsByDivisionDownload-24310.csv",
+      "bytes": 8077,
+      "sha256": "090f45adcdd0d16352f0e38cf84816d3d3e36196649ea627c58b9bdd2e1ae778"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseNominationsByGenderDownload-24310.csv",
+      "path": "house/HouseNominationsByGenderDownload-24310.csv",
+      "bytes": 4117,
+      "sha256": "1183df10049f570f93ad177b6302825c2dd1c9a011eec395d15b58dceb6ff760"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseNominationsByStateDownload-24310.csv",
+      "path": "house/HouseNominationsByStateDownload-24310.csv",
+      "bytes": 525,
+      "sha256": "70b25fc972e27af4d767aeb3b63108f145301b4f6b572fdb76b64b166f15a1a9"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseNonClassicDivisionsDownload-24310.csv",
+      "path": "house/HouseNonClassicDivisionsDownload-24310.csv",
+      "bytes": 2540,
+      "sha256": "e1d041cda2ba648dc6c5d6ca410543eab66311de613c09aacb20482fb0a0bf84"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HousePartyRepresentationLeadingDownload-24310.csv",
+      "path": "house/HousePartyRepresentationLeadingDownload-24310.csv",
+      "bytes": 2212,
+      "sha256": "443e05751c70a36df9647f4a0fd0c9ffb95f480c701cbe5a1f323c7de8d64d00"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseSeatsDecidedOnFirstPrefsDownload-24310.csv",
+      "path": "house/HouseSeatsDecidedOnFirstPrefsDownload-24310.csv",
+      "bytes": 1924,
+      "sha256": "f2070b66b53080ae0405f987afed35a95283b56d1c0771ef3ac5f8fbc3f6b90b"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseSeatsDecidedOnPrefsDownload-24310.csv",
+      "path": "house/HouseSeatsDecidedOnPrefsDownload-24310.csv",
+      "bytes": 4494,
+      "sha256": "370be34ffb6308eb51116da368c9deff4a48c156add93c902d941c41be49005a"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseSeatsWhichChangedHandsDownload-24310.csv",
+      "path": "house/HouseSeatsWhichChangedHandsDownload-24310.csv",
+      "bytes": 1084,
+      "sha256": "4894baf7ce6e57375396ae7dddc2ad5102adb2299a56bd35f8305c220364565a"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseStateFirstPrefsByPollingPlaceDownload-24310-QLD.csv",
+      "path": "house/HouseStateFirstPrefsByPollingPlaceDownload-24310-QLD.csv",
+      "bytes": 1436774,
+      "sha256": "eb8b67d1ae26f89b9052937f7721dd102286ef129df87855b11dedde63650434"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseStateFirstPrefsByPollingPlaceDownload-24310-SA.csv",
+      "path": "house/HouseStateFirstPrefsByPollingPlaceDownload-24310-SA.csv",
+      "bytes": 535075,
+      "sha256": "d18ce5655cfa2fcca6e65badb9199e9a91ade841a609a369b3917749d1fa79f0"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseStateFirstPrefsByPollingPlaceDownload-24310-WA.csv",
+      "path": "house/HouseStateFirstPrefsByPollingPlaceDownload-24310-WA.csv",
+      "bytes": 776475,
+      "sha256": "0d39501a02b0ac2eeb0caeece376c7a681f4ef40942cbe30274016ca356cae5a"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseTcpByCandidateByPollingPlaceDownload-24310.csv",
+      "path": "house/HouseTcpByCandidateByPollingPlaceDownload-24310.csv",
+      "bytes": 1627125,
+      "sha256": "8db2ab9caaafc8f21337e205b16c7bcb80c730543f33acb96bde057acac604e5"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseTcpByCandidateByVoteTypeDownload-24310.csv",
+      "path": "house/HouseTcpByCandidateByVoteTypeDownload-24310.csv",
+      "bytes": 30251,
+      "sha256": "d20412bc41cd435a1060475e84dc2fc11670ceb99fb3c1a727d98c593d13f71b"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseTcpFlowByDivisionDownload-24310.csv",
+      "path": "house/HouseTcpFlowByDivisionDownload-24310.csv",
+      "bytes": 208503,
+      "sha256": "50feddcd211de0821da3090f39fe5411783a15112f67ce4495785c7d3c0348c1"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/External/HouseTcpFlowByPPDownload-24310-QLD.zip",
+      "path": "house/HouseTcpFlowByPPDownload-24310-QLD.zip",
+      "bytes": 260171,
+      "sha256": "f430a210d0c818ab6cb8ffaccb937eebbbcac35f259ffe214dc9fa5d37a80ae0"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/External/HouseTcpFlowByPPDownload-24310-SA.zip",
+      "path": "house/HouseTcpFlowByPPDownload-24310-SA.zip",
+      "bytes": 100122,
+      "sha256": "e28741927003a98b7ad90c3a9ef5e1239f1d8dd7e83f07badd518a43c3efd768"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/External/HouseTcpFlowByPPDownload-24310-WA.zip",
+      "path": "house/HouseTcpFlowByPPDownload-24310-WA.zip",
+      "bytes": 150651,
+      "sha256": "0e7b419507d478a4e283b95f7f78d8a64cb9ea1f405f7d09a104e57f1ff3c299"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseTcpFlowByPartyDownload-24310.csv",
+      "path": "house/HouseTcpFlowByPartyDownload-24310.csv",
+      "bytes": 30401,
+      "sha256": "c33ee6aaef9564f4b950ff9239d485f096a55800079795b5280cb7eac0892ef7"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseTcpFlowByStateByPartyDownload-24310.csv",
+      "path": "house/HouseTcpFlowByStateByPartyDownload-24310.csv",
+      "bytes": 32344,
+      "sha256": "1401e3114e26e681d6c18d7f11cfae39a88fe030d946955ae29741e16ecc3de9"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseTppByDivisionByVoteTypeDownload-24310.csv",
+      "path": "house/HouseTppByDivisionByVoteTypeDownload-24310.csv",
+      "bytes": 21506,
+      "sha256": "2968cfee57934fd69c2441eb539c1639f2e696991dfa087bc8bd581e1d74ceb5"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseTppByDivisionDownload-24310.csv",
+      "path": "house/HouseTppByDivisionDownload-24310.csv",
+      "bytes": 8881,
+      "sha256": "33fb2d43a91cf3591b96b3fddb985199fbd14e48b130117a5ffe8a2dbefedeb2"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseTppByPollingPlaceDownload-24310.csv",
+      "path": "house/HouseTppByPollingPlaceDownload-24310.csv",
+      "bytes": 585513,
+      "sha256": "0561ee289d7094a38128f8de34a00b25f7e161c25f6c41e0781c49ba41f9b613"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseTppByStateDownload-24310.csv",
+      "path": "house/HouseTppByStateDownload-24310.csv",
+      "bytes": 925,
+      "sha256": "c33bed0968390c7e81b178298526bd69be7228820783445feb221e4f54e93cb5"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseTppFlowByPartyDownload-24310.csv",
+      "path": "house/HouseTppFlowByPartyDownload-24310.csv",
+      "bytes": 2482,
+      "sha256": "c7543adde7ff4fcc8e8fc61e1ad6bb8fc0de7d5aa3d991e0287a53dc66287406"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseTppFlowByStateByPartyDownload-24310.csv",
+      "path": "house/HouseTppFlowByStateByPartyDownload-24310.csv",
+      "bytes": 6351,
+      "sha256": "3a84af2407a2d37cd96a571fde25e501dfccfbc6fe238004fbcd45d33eb18fc1"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseTurnoutByDivisionDownload-24310.csv",
+      "path": "house/HouseTurnoutByDivisionDownload-24310.csv",
+      "bytes": 6573,
+      "sha256": "6980c61a9478c7743fe58bf117bb07fc522b23e0955610b89b332f8f19e3ade7"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseTurnoutByStateDownload-24310.csv",
+      "path": "house/HouseTurnoutByStateDownload-24310.csv",
+      "bytes": 710,
+      "sha256": "d8ade6a1615f65700b18eb17f1bdc1b09b7c57673d2ef31f3b0c1cfe7057e403"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseVotesCountedByDivisionDownload-24310.csv",
+      "path": "house/HouseVotesCountedByDivisionDownload-24310.csv",
+      "bytes": 9681,
+      "sha256": "d26e07b112321e7f8b55e17d5993cc7eb8d33b6bf042003f40dfaf29a843ac07"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/HouseVotesCountedByStateDownload-24310.csv",
+      "path": "house/HouseVotesCountedByStateDownload-24310.csv",
+      "bytes": 972,
+      "sha256": "820d051bb61bb6e0dd7e3878f63ffb19139254ad49eaa8f51f7d378f5ab329e3"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateCandidatesDownload-24310.csv",
+      "path": "senate/SenateCandidatesDownload-24310.csv",
+      "bytes": 26545,
+      "sha256": "e1035312033225171cbe04234f783d260e30b2e9ccc469706708f3af2d714219"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/External/SenateDopDownload-24310.zip",
+      "path": "senate/SenateDopDownload-24310.zip",
+      "bytes": 1192331,
+      "sha256": "78481d2f05d4640fea4a5f7ccc020be221894113e899c5cadbd554246d5bd431"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateFirstPrefsByDivisionByVoteTypeDownload-24310.csv",
+      "path": "senate/SenateFirstPrefsByDivisionByVoteTypeDownload-24310.csv",
+      "bytes": 1529376,
+      "sha256": "71c9f372ad2f55f04e62084ed789e00606019d8ac5802756168d0405aaba8f4b"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateFirstPrefsByGroupByVoteTypeDownload-24310.csv",
+      "path": "senate/SenateFirstPrefsByGroupByVoteTypeDownload-24310.csv",
+      "bytes": 5185,
+      "sha256": "c6fd411c8418a61de751e465c264f3c337fb938959d367723ebe5e20edf0c220"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateFirstPrefsByStateByGroupByVoteTypeDownload-24310.csv",
+      "path": "senate/SenateFirstPrefsByStateByGroupByVoteTypeDownload-24310.csv",
+      "bytes": 16225,
+      "sha256": "7f83bad440862ef42e1a75a86eb696dff898ac6d45aecc34b5f457d3c3480b69"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateFirstPrefsByStateByVoteTypeDownload-24310.csv",
+      "path": "senate/SenateFirstPrefsByStateByVoteTypeDownload-24310.csv",
+      "bytes": 48877,
+      "sha256": "19c5132e5dcc6524263001bc45e8d3d7b25aaa0e740e893815fe73b86918c0b3"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateInformalByDivisionDownload-24310.csv",
+      "path": "senate/SenateInformalByDivisionDownload-24310.csv",
+      "bytes": 6319,
+      "sha256": "e6234e145e2d2563f4d899c4ca8a9c89cc475fe151ee4d2c3f9dfccaa63cafc4"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateInformalByStateDownload-24310.csv",
+      "path": "senate/SenateInformalByStateDownload-24310.csv",
+      "bytes": 757,
+      "sha256": "1befc394ab43c7532785e19f7acc973d33539a4ae56fa99c4c2d4d290d8fcc14"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateNominationsByGenderDownload-24310.csv",
+      "path": "senate/SenateNominationsByGenderDownload-24310.csv",
+      "bytes": 4876,
+      "sha256": "33f1e12764064b5e81767af3609031abe1b75521ae005cbae898589119c5d496"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateNominationsByStateDownload-24310.csv",
+      "path": "senate/SenateNominationsByStateDownload-24310.csv",
+      "bytes": 561,
+      "sha256": "5816a1eff033ffc1e3de6384f5793074fe8fdd02390aeecb5556ec014db3f66e"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenatePartyRepresentationDownload-24310.csv",
+      "path": "senate/SenatePartyRepresentationDownload-24310.csv",
+      "bytes": 688,
+      "sha256": "4ea764d9af20784fa459369cc49e8efc7d0247724cbda96e99d46da0e30a4619"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateSenatorsElectedDownload-24310.csv",
+      "path": "senate/SenateSenatorsElectedDownload-24310.csv",
+      "bytes": 1944,
+      "sha256": "bd5cea7bd10ed2936fa5f1b59c3f7884e53bd4b715da80d3891789051da9db2f"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/External/SenateStateFirstPrefsByPollingPlaceDownload-24310-QLD.zip",
+      "path": "senate/SenateStateFirstPrefsByPollingPlaceDownload-24310-QLD.zip",
+      "bytes": 1953491,
+      "sha256": "ff8309bfd1fef971221da7282eec5fcd833ca9b70a576a1eafcf2300ea4919b4"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/External/SenateStateFirstPrefsByPollingPlaceDownload-24310-SA.zip",
+      "path": "senate/SenateStateFirstPrefsByPollingPlaceDownload-24310-SA.zip",
+      "bytes": 475713,
+      "sha256": "be10cb2ba699fd630d1f560f078b1e1f986531efdc00055f84454f623ca494b9"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/External/SenateStateFirstPrefsByPollingPlaceDownload-24310-WA.zip",
+      "path": "senate/SenateStateFirstPrefsByPollingPlaceDownload-24310-WA.zip",
+      "bytes": 837335,
+      "sha256": "0f29d43e1e6f9b11a1a2d4489a232a7d77d072e0918dc8190311be4d25faf1e8"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateTurnoutByDivisionDownload-24310.csv",
+      "path": "senate/SenateTurnoutByDivisionDownload-24310.csv",
+      "bytes": 5776,
+      "sha256": "81e5b5df637bde1805d17efdb4b0567610da3d2b8f24bc4c2937e328fd142f27"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateTurnoutByStateDownload-24310.csv",
+      "path": "senate/SenateTurnoutByStateDownload-24310.csv",
+      "bytes": 690,
+      "sha256": "edde795563d5ebd6490cce5cc1c2eee98531fff2d28a2140997bd229e7d6ad12"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateVotesCountedByDivisionDownload-24310.csv",
+      "path": "senate/SenateVotesCountedByDivisionDownload-24310.csv",
+      "bytes": 9684,
+      "sha256": "63a13bd7c2f8135a878acea7ae8595675aa91feb8dfe8dbcc08c5d2fe36fe24a"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateVotesCountedByStateDownload-24310.csv",
+      "path": "senate/SenateVotesCountedByStateDownload-24310.csv",
+      "bytes": 956,
+      "sha256": "1bdc8fa7131e554d018dd0e20670486a2173b3ff5bd12dba355024f72ff76de6"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-155.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-155.csv",
+      "bytes": 408042,
+      "sha256": "df0285022282ce0d94f42d33fe2fd078c8165146975fad1b5b9196ba8b908779"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-156.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-156.csv",
+      "bytes": 480761,
+      "sha256": "5a077364fd034b33d4b20ec0de3d9f706e0d839363bc97fa8ada6445a6eff883"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-157.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-157.csv",
+      "bytes": 619402,
+      "sha256": "e8aee8d6a543f9448070fff009dfe41c7e66b595434df877099ad0316ace7c2e"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-158.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-158.csv",
+      "bytes": 561453,
+      "sha256": "d0b18b2f42187290cfb8bb168981c8b1d50325aec217167705714bde972a5b44"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-159.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-159.csv",
+      "bytes": 414426,
+      "sha256": "de38d49d5661922b4de781b4c7a2cda1666a1235c276e3d902ba8630dbf505bd"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-160.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-160.csv",
+      "bytes": 519689,
+      "sha256": "23c5bc549a7898ec584cf4025ade702b09c46472bfa04eeb0e37836aa5e2ce45"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-161.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-161.csv",
+      "bytes": 512531,
+      "sha256": "4d8b5fe38f514de56865fb5116ecf221880802e085345c83d217ace8373c203b"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-162.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-162.csv",
+      "bytes": 448109,
+      "sha256": "8ebd3f5f3b2e87cdfc95040478a050722e76e02f9702d8d6818025a25493b9b1"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-163.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-163.csv",
+      "bytes": 509658,
+      "sha256": "44654a2e73d5a2d845cf4e30e8a6847b408f93d9b4389b090eccc5d9e29a2ffd"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-164.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-164.csv",
+      "bytes": 577748,
+      "sha256": "c22a27955e7bdb9ddfbbaf774f1d68ad58e30fa3002a6b7de553d56ad318d0ff"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-165.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-165.csv",
+      "bytes": 442093,
+      "sha256": "70d78993bf48d2f1e1cec88293549956c60e8ad0cdd3b0a7aeddaea4fb11e323"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-166.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-166.csv",
+      "bytes": 554982,
+      "sha256": "91b9bfc61e6c4e29b248275fb98c75301d64cccec0bfd6e7672abb879abf608b"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-167.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-167.csv",
+      "bytes": 1074541,
+      "sha256": "30937e2c2a9a2303a1a9225c45d69a581aabcc043a0c1ff802c58d5269fec780"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-168.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-168.csv",
+      "bytes": 684558,
+      "sha256": "599bf5502c554c1fe1d8807d21cebba38a174d3dc39c3597f1e9c6f0040ead55"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-169.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-169.csv",
+      "bytes": 509819,
+      "sha256": "a96ec1fa324c08fd6851fab4d908208cc96cf19b0a7dedf134028fc81dfb52eb"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-170.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-170.csv",
+      "bytes": 1232124,
+      "sha256": "a6d5c3489e94770142e1d480083ad4acca361455c8368a98a4781cc4d35d55e5"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-171.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-171.csv",
+      "bytes": 468258,
+      "sha256": "4eb4b0d19f1d77959a27eab768e3113a31a5c403ac2ba678a30227b495f8d540"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-172.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-172.csv",
+      "bytes": 477165,
+      "sha256": "0f164aa228aade4912685a9be80a7ac3ba6c10916e24999d40134fe6f4c70443"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-173.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-173.csv",
+      "bytes": 547350,
+      "sha256": "66c9af5d76447ec4fe14c8e214059be468f63cf5fbb7f10d46a8465e58a556e7"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-174.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-174.csv",
+      "bytes": 456588,
+      "sha256": "bb0ea285b4ef147f0dfbd18d6f62832137f3c00da39d5f9f8f24f7fdddceea44"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-175.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-175.csv",
+      "bytes": 497608,
+      "sha256": "eda8d0c19fd72a3f967a2469cd9f9af059307337be043a55875093274cb7fcb4"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-176.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-176.csv",
+      "bytes": 456839,
+      "sha256": "5e7b2139f7eeb1fe81f835728bcb42739e8034f2b7f76b925979e05721b29fbf"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-177.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-177.csv",
+      "bytes": 451746,
+      "sha256": "df5be42680f7af58f1cc1584e9180e97735241bbc8090eec4d3ed5c6b9742ff1"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-178.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-178.csv",
+      "bytes": 655413,
+      "sha256": "362cbf7c08a4f6bfb9b73e41ee50b2e15c3eeffc7fce612cda6c166bcce7d31e"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-252.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-252.csv",
+      "bytes": 481781,
+      "sha256": "582070c5ccbc937e93c06ef05e91af24de5045098719ae06a68eef1e7b0a0802"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-302.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-302.csv",
+      "bytes": 461498,
+      "sha256": "0e2335f5b8055d42bf3092a761c859e3ccbb126996dd1318ce3fdedff0bbbaa6"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-304.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-304.csv",
+      "bytes": 570598,
+      "sha256": "ebb8ef3ff1b34114ee563725915d64cfb3d2d15eec43b6a8c5702e03bd560b88"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-310.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-310.csv",
+      "bytes": 472839,
+      "sha256": "25f5262d71dc405b00484c40b187f5399e8c9cf82d69429ec7532bcd8c445dcf"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-311.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-311.csv",
+      "bytes": 892966,
+      "sha256": "6d619bee264d92e07a57a04db51a9559e6951a4ae47e8ca81d78a0d3f521652b"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-316.csv",
+      "path": "senate/first_prefs_by_polling_place/QLD/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-316.csv",
+      "bytes": 784984,
+      "sha256": "bd7f149edabf105a777e3b0dfcde117737e47a717e77b9e83a53212f3ee8e8a4"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-179.csv",
+      "path": "senate/first_prefs_by_polling_place/SA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-179.csv",
+      "bytes": 355777,
+      "sha256": "22f2f2b1e90b2308f84a7fb1986b8f2bdda45b69cbd363e42a545c48a51e0974"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-180.csv",
+      "path": "senate/first_prefs_by_polling_place/SA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-180.csv",
+      "bytes": 589492,
+      "sha256": "759d942845fcc3dd8e9698d40e47e63fe3aac33877ae22958e9755bb8295631b"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-182.csv",
+      "path": "senate/first_prefs_by_polling_place/SA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-182.csv",
+      "bytes": 328171,
+      "sha256": "2965219603ce3856960352eb383f40b1d4640c63185b490fc30a18a983f57f28"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-183.csv",
+      "path": "senate/first_prefs_by_polling_place/SA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-183.csv",
+      "bytes": 702058,
+      "sha256": "26f2fd47b1b6b94e5286b292a19b138a3cbea5571753e5378ecf81278b1cd930"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-185.csv",
+      "path": "senate/first_prefs_by_polling_place/SA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-185.csv",
+      "bytes": 360494,
+      "sha256": "ab0c68e5847b39ccdb870bb8ecde2e7d72bdb87d4129c9b83055b367ab78d235"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-186.csv",
+      "path": "senate/first_prefs_by_polling_place/SA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-186.csv",
+      "bytes": 284684,
+      "sha256": "59062d4bd35888ac2cbd6d7874992e556f2a892965ad3ce4f91d9c5eae8b392d"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-187.csv",
+      "path": "senate/first_prefs_by_polling_place/SA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-187.csv",
+      "bytes": 269134,
+      "sha256": "db758f3a4b398da094e11a2c1a3c0491ef57ded90748e52083eb18c696e71ad5"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-188.csv",
+      "path": "senate/first_prefs_by_polling_place/SA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-188.csv",
+      "bytes": 438243,
+      "sha256": "aebbd97e98250e0c95d6b95bc3947d32ef339882b9abbb9410793c424a6ef7f1"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-190.csv",
+      "path": "senate/first_prefs_by_polling_place/SA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-190.csv",
+      "bytes": 296854,
+      "sha256": "840f658ee020c11190d50dba513841a25e80b8b54a9a2f7bb6673f1a592e9509"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-325.csv",
+      "path": "senate/first_prefs_by_polling_place/SA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-325.csv",
+      "bytes": 295348,
+      "sha256": "153c2e3402a0b7add0f3794967f764f3dae721207d763db73605b017c43fe2a3"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-235.csv",
+      "path": "senate/first_prefs_by_polling_place/WA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-235.csv",
+      "bytes": 327836,
+      "sha256": "b4b64ae777f952cd807c0074c3d60d59e03a65c3150ceb8c87c36bb5b15f8e4e"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-236.csv",
+      "path": "senate/first_prefs_by_polling_place/WA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-236.csv",
+      "bytes": 439334,
+      "sha256": "fc34612430f6e2ca8c80bb37dde4d4d0534c11c481b6fd3e124577bccd7f6c59"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-237.csv",
+      "path": "senate/first_prefs_by_polling_place/WA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-237.csv",
+      "bytes": 326991,
+      "sha256": "31eea88b53fe92c108b1afa05b7350341b2717e8427ec1ba588c3e4810b0f58f"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-238.csv",
+      "path": "senate/first_prefs_by_polling_place/WA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-238.csv",
+      "bytes": 396852,
+      "sha256": "1d8e23b2321958d73c7a765deea0a03880c81e9fa40fa6d40aa3f93f125c2de0"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-239.csv",
+      "path": "senate/first_prefs_by_polling_place/WA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-239.csv",
+      "bytes": 522756,
+      "sha256": "53512f600b1d059d1f57b5b9c61db898308b98ae4d79e5fe2f2f2ade17a61436"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-240.csv",
+      "path": "senate/first_prefs_by_polling_place/WA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-240.csv",
+      "bytes": 343453,
+      "sha256": "386d20c8936917efe93f9b24a2f39d0a97e739bda4a12192e9d2f6d74d3f53d5"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-242.csv",
+      "path": "senate/first_prefs_by_polling_place/WA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-242.csv",
+      "bytes": 313990,
+      "sha256": "a0340b8d60e87b54fbe48d44305c50ae44924125cc9baf67bd3019b28f76de26"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-243.csv",
+      "path": "senate/first_prefs_by_polling_place/WA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-243.csv",
+      "bytes": 896551,
+      "sha256": "d93b3e506533c00a9abdbf4ce43e3fc0b45fd28aa82179cc306eeaae6d5ad6f0"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-244.csv",
+      "path": "senate/first_prefs_by_polling_place/WA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-244.csv",
+      "bytes": 509611,
+      "sha256": "44db13ffdbc12ce413fe295c8e335a75932edd1bb4ef73e020532fe752dcafad"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-245.csv",
+      "path": "senate/first_prefs_by_polling_place/WA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-245.csv",
+      "bytes": 414178,
+      "sha256": "e911f0e79471be053ad8f11e181933cf80da74ef4f789adcdc60ee0583c4af83"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-246.csv",
+      "path": "senate/first_prefs_by_polling_place/WA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-246.csv",
+      "bytes": 377048,
+      "sha256": "7fbefb8e0ae9db3f730b37fd7d064655a0fe71b0a6076a67c0124f198d6c3829"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-247.csv",
+      "path": "senate/first_prefs_by_polling_place/WA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-247.csv",
+      "bytes": 400732,
+      "sha256": "76cd075bdd006bb53891e7bc82553c5493801865336f5544279c5d6ea3cc1404"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-248.csv",
+      "path": "senate/first_prefs_by_polling_place/WA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-248.csv",
+      "bytes": 375695,
+      "sha256": "904223c2fe9f1a5b510649119514f00fe9dc1c89a8762ce69a2ee11881b24def"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-305.csv",
+      "path": "senate/first_prefs_by_polling_place/WA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-305.csv",
+      "bytes": 400050,
+      "sha256": "04c478481bf8b56507c4d75444f6c9c315b8f840cb771020dece8b0030cb2cad"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-312.csv",
+      "path": "senate/first_prefs_by_polling_place/WA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-312.csv",
+      "bytes": 866228,
+      "sha256": "933a45e88654fb38ce3b13387797fbcd6eed035336270359e5140e7e6334df19"
+    },
+    {
+      "url": "https://results.aec.gov.au/24310/Website/Downloads/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-317.csv",
+      "path": "senate/first_prefs_by_polling_place/WA/SenateDivisionFirstPrefsByPollingPlaceDownload-24310-317.csv",
+      "bytes": 346141,
+      "sha256": "6cd5c3f4abfb4d00f5b1eb68b57f1a7e4649a501e07acb13be9623fc48dd6416"
+    }
+  ]
+}

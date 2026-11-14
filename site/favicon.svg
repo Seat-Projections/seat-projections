@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-label="Seat Projections emblem">
+  <polygon points="80,128 556,92 592,382 424,566 178,536 66,322"
+           fill="#e2e8f0" stroke="#000" stroke-width="18" stroke-linejoin="round"/>
+  <g>
+    <circle cx="256" cy="240" r="32" fill="#DE3533"/>
+    <circle cx="336" cy="205" r="32" fill="#00A3A6"/>
+    <circle cx="420" cy="240" r="32" fill="#1C4F9C"/>
+    <circle cx="210" cy="302" r="32" fill="#DE3533"/>
+    <circle cx="294" cy="333" r="32" fill="#10C25B"/>
+    <circle cx="358" cy="333" r="32" fill="#006644"/>
+    <circle cx="466" cy="302" r="32" fill="#1C4F9C"/>
+    <circle cx="240" cy="388" r="32" fill="#DE3533"/>
+    <circle cx="426" cy="388" r="32" fill="#1C4F9C"/>
+  </g>
+  <polygon points="326,410 341,449 383,451 350,477 362,518 326,495 290,518 302,477 269,451 311,449"
+           fill="#fff" stroke="#000" stroke-width="10" stroke-linejoin="round"/>
+</svg>

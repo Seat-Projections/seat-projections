@@ -1,0 +1,20 @@
+Forecasts, benchmark results, model writeups and derived data
+Copyright (c) 2026 Seat Projections
+
+Licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+You may share and adapt this material for any purpose, including commercially, provided you give
+appropriate credit, link to the licence, indicate if changes were made, and distribute your
+contributions under the same licence.
+
+Full licence text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+This covers, unless a file states otherwise:
+  - predictions/          (model outputs, forecasts, benchmark results, archives and writeups)
+  - data/benchmarks/      (declared-winner files, compiled from public sources)
+  - data/federal/*/district_flows_VIC.*, data/federal/*/booth_districts_VIC.csv
+  - visualiser/data/, site/data/  (derived from the sources below)
+
+Third-party data remains under its own terms; see "License and data sources" in README.md.
+The code (everything else, including visualiser/*.js and site/*.js, *.html, *.css) is under the
+MIT License in LICENSE, except visualiser/vendor/leaflet/ and site/vendor/leaflet/ (Leaflet,
+BSD-2-Clause; see its LICENSE file).

@@ -1,0 +1,530 @@
+district,party,votes,share
+Albany,LP,8820,41.68
+Albany,ALP,4823,22.79
+Albany,GRN,2318,10.95
+Albany,NP,1930,9.12
+Albany,ON,1294,6.11
+Albany,AUC,1140,5.39
+Albany,UAPP,341,1.61
+Albany,GAP,251,1.19
+Albany,WAP,245,1.16
+Armadale,ALP,9773,43.87
+Armadale,LP,5977,26.83
+Armadale,GRN,1950,8.75
+Armadale,ON,1580,7.09
+Armadale,AUC,1140,5.12
+Armadale,ASP,691,3.1
+Armadale,UAPP,521,2.34
+Armadale,IND*,358,1.61
+Armadale,WAP,278,1.25
+Armadale,FACN,9,0.04
+Balcatta,LP,11388,47.54
+Balcatta,ALP,7858,32.8
+Balcatta,GRN,2606,10.88
+Balcatta,ON,841,3.51
+Balcatta,WAP,452,1.89
+Balcatta,UAPP,416,1.74
+Balcatta,AUC,393,1.64
+Baldivis,ALP,4897,38.96
+Baldivis,LP,3892,30.97
+Baldivis,GRN,1648,13.11
+Baldivis,ON,867,6.9
+Baldivis,AUC,456,3.63
+Baldivis,UAPP,305,2.43
+Baldivis,WAP,290,2.31
+Baldivis,FACN,214,1.7
+Bassendean,ALP,6705,43.32
+Bassendean,LP,4781,30.89
+Bassendean,GRN,2238,14.46
+Bassendean,ON,710,4.59
+Bassendean,UAPP,314,2.03
+Bassendean,WAP,284,1.83
+Bassendean,AUC,142,0.92
+Bassendean,ASP,132,0.85
+Bassendean,FUT,118,0.76
+Bassendean,FLUX,55,0.36
+Bateman,LP,15323,58.93
+Bateman,ALP,5836,22.44
+Bateman,GRN,2770,10.65
+Bateman,IND*,719,2.77
+Bateman,AUC,436,1.68
+Bateman,ON,408,1.57
+Bateman,UAPP,267,1.03
+Bateman,WAP,242,0.93
+Bateman,SAL,2,0.01
+Belmont,LP,7470,40.77
+Belmont,ALP,6885,37.58
+Belmont,GRN,2020,11.02
+Belmont,ON,559,3.05
+Belmont,UAPP,400,2.18
+Belmont,AUC,261,1.42
+Belmont,AJP,260,1.42
+Belmont,WAP,241,1.32
+Belmont,FACN,143,0.78
+Belmont,AFN,52,0.28
+Belmont,ASP,32,0.17
+Bicton,LP,7074,50.31
+Bicton,ALP,4017,28.57
+Bicton,GRN,2044,14.54
+Bicton,IND*,237,1.69
+Bicton,ON,232,1.65
+Bicton,WAP,176,1.25
+Bicton,UAPP,141,1.0
+Bicton,AUC,102,0.73
+Bicton,SAL,37,0.26
+Bunbury,LP,13078,50.41
+Bunbury,ALP,6464,24.92
+Bunbury,GRN,2764,10.65
+Bunbury,ON,1679,6.47
+Bunbury,ASP,776,2.99
+Bunbury,UAPP,478,1.84
+Bunbury,IND*,352,1.36
+Bunbury,WAP,351,1.35
+Burns Beach,LP,8087,46.74
+Burns Beach,ALP,4909,28.37
+Burns Beach,GRN,2064,11.93
+Burns Beach,ON,924,5.34
+Burns Beach,UAPP,362,2.09
+Burns Beach,AUC,291,1.68
+Burns Beach,IND*,276,1.6
+Burns Beach,WAP,224,1.29
+Burns Beach,ASP,136,0.79
+Burns Beach,NP,30,0.17
+Butler,LP,7236,41.47
+Butler,ALP,5690,32.61
+Butler,GRN,1746,10.01
+Butler,ON,1275,7.31
+Butler,UAPP,435,2.49
+Butler,ASP,316,1.81
+Butler,AUC,243,1.39
+Butler,IND*,224,1.28
+Butler,WAP,216,1.24
+Butler,NP,69,0.4
+Cannington,LP,7603,39.57
+Cannington,ALP,7406,38.55
+Cannington,GRN,2002,10.42
+Cannington,ON,560,2.91
+Cannington,AUC,483,2.51
+Cannington,UAPP,393,2.05
+Cannington,WAP,241,1.25
+Cannington,IND*,234,1.22
+Cannington,AJP,120,0.62
+Cannington,ASP,85,0.44
+Cannington,FACN,60,0.31
+Cannington,AFN,25,0.13
+Carine,LP,11744,57.29
+Carine,ALP,4647,22.67
+Carine,GRN,2598,12.67
+Carine,ON,423,2.06
+Carine,WAP,292,1.42
+Carine,AUC,278,1.36
+Carine,IND*,271,1.32
+Carine,UAPP,247,1.2
+Central Wheatbelt,LP,7500,44.19
+Central Wheatbelt,NP,3132,18.45
+Central Wheatbelt,ALP,2940,17.32
+Central Wheatbelt,ON,1545,9.1
+Central Wheatbelt,GRN,702,4.14
+Central Wheatbelt,UAPP,347,2.04
+Central Wheatbelt,WAP,284,1.67
+Central Wheatbelt,ASP,230,1.36
+Central Wheatbelt,AUC,145,0.85
+Central Wheatbelt,IND*,110,0.65
+Central Wheatbelt,FACN,24,0.14
+Central Wheatbelt,GAP,15,0.09
+Churchlands,LP,11008,53.43
+Churchlands,ALP,3890,18.88
+Churchlands,GRN,3280,15.92
+Churchlands,IND*,1497,7.27
+Churchlands,WAP,287,1.39
+Churchlands,UAPP,221,1.07
+Churchlands,AUC,214,1.04
+Churchlands,ON,204,0.99
+Cockburn,LP,10290,38.65
+Cockburn,ALP,10101,37.94
+Cockburn,GRN,2930,11.01
+Cockburn,ON,1293,4.86
+Cockburn,WAP,721,2.71
+Cockburn,UAPP,655,2.46
+Cockburn,AUC,531,1.99
+Cockburn,SAL,103,0.39
+Collie-Preston,LP,9714,47.46
+Collie-Preston,ALP,5578,27.25
+Collie-Preston,GRN,1718,8.39
+Collie-Preston,ON,1656,8.09
+Collie-Preston,ASP,608,2.97
+Collie-Preston,UAPP,391,1.91
+Collie-Preston,WAP,293,1.43
+Collie-Preston,IND*,232,1.13
+Collie-Preston,NP,163,0.8
+Collie-Preston,GAP,63,0.31
+Collie-Preston,AUC,50,0.24
+Cottesloe,LP,10885,58.04
+Cottesloe,GRN,2853,15.21
+Cottesloe,ALP,2771,14.78
+Cottesloe,IND*,1591,8.48
+Cottesloe,WAP,245,1.31
+Cottesloe,UAPP,175,0.93
+Cottesloe,ON,124,0.66
+Cottesloe,AUC,101,0.54
+Cottesloe,SAL,8,0.04
+Darling Range,LP,7934,44.73
+Darling Range,ALP,4784,26.97
+Darling Range,GRN,1715,9.67
+Darling Range,ON,1283,7.23
+Darling Range,AUC,811,4.57
+Darling Range,UAPP,493,2.78
+Darling Range,WAP,394,2.22
+Darling Range,FACN,287,1.62
+Darling Range,ASP,24,0.14
+Darling Range,IND*,13,0.07
+Dawesville,LP,8946,52.97
+Dawesville,ALP,4622,27.37
+Dawesville,GRN,1243,7.36
+Dawesville,ON,894,5.29
+Dawesville,WAP,472,2.79
+Dawesville,UAPP,321,1.9
+Dawesville,FACN,253,1.5
+Dawesville,AUC,139,0.82
+Forrestfield,LP,6510,42.09
+Forrestfield,ALP,5294,34.23
+Forrestfield,GRN,1399,9.05
+Forrestfield,ON,804,5.2
+Forrestfield,UAPP,373,2.41
+Forrestfield,AUC,365,2.36
+Forrestfield,ASP,287,1.86
+Forrestfield,WAP,242,1.56
+Forrestfield,AJP,99,0.64
+Forrestfield,FACN,65,0.42
+Forrestfield,AFN,29,0.19
+Fremantle,ALP,10347,41.55
+Fremantle,LP,6971,27.99
+Fremantle,GRN,5435,21.82
+Fremantle,SAL,552,2.22
+Fremantle,ON,546,2.19
+Fremantle,WAP,471,1.89
+Fremantle,UAPP,349,1.4
+Fremantle,AUC,232,0.93
+Geraldton,LP,10118,49.85
+Geraldton,ALP,4355,21.46
+Geraldton,ON,1971,9.71
+Geraldton,GRN,1383,6.81
+Geraldton,NP,1256,6.19
+Geraldton,WAP,613,3.02
+Geraldton,UAPP,600,2.96
+Hillarys,LP,8701,49.31
+Hillarys,ALP,4548,25.78
+Hillarys,GRN,2290,12.98
+Hillarys,ON,822,4.66
+Hillarys,IND*,481,2.73
+Hillarys,WAP,302,1.71
+Hillarys,UAPP,265,1.5
+Hillarys,AUC,236,1.34
+Jandakot,LP,7095,45.27
+Jandakot,ALP,5300,33.82
+Jandakot,GRN,1513,9.65
+Jandakot,AUC,566,3.61
+Jandakot,ON,486,3.1
+Jandakot,UAPP,232,1.48
+Jandakot,IND*,224,1.43
+Jandakot,ASP,140,0.89
+Jandakot,WAP,117,0.75
+Joondalup,LP,13230,50.21
+Joondalup,ALP,6783,25.74
+Joondalup,GRN,2854,10.83
+Joondalup,ON,1375,5.22
+Joondalup,IND*,811,3.08
+Joondalup,UAPP,548,2.08
+Joondalup,WAP,389,1.48
+Joondalup,AUC,357,1.35
+Kalamunda,LP,9530,49.73
+Kalamunda,ALP,4984,26.01
+Kalamunda,GRN,2599,13.56
+Kalamunda,ON,711,3.71
+Kalamunda,AUC,374,1.95
+Kalamunda,ASP,365,1.9
+Kalamunda,UAPP,300,1.57
+Kalamunda,WAP,289,1.51
+Kalamunda,FACN,11,0.06
+Kalgoorlie,LP,5099,38.65
+Kalgoorlie,ALP,3208,24.31
+Kalgoorlie,ON,1903,14.42
+Kalgoorlie,NP,1196,9.06
+Kalgoorlie,GRN,697,5.28
+Kalgoorlie,UAPP,342,2.59
+Kalgoorlie,AUC,320,2.43
+Kalgoorlie,WAP,260,1.97
+Kalgoorlie,GAP,169,1.28
+Kimberley,LP,3049,37.21
+Kimberley,ALP,2533,30.92
+Kimberley,GRN,1466,17.89
+Kimberley,ON,475,5.8
+Kimberley,NP,301,3.67
+Kimberley,WAP,216,2.64
+Kimberley,UAPP,153,1.87
+Kingsley,LP,9026,48.82
+Kingsley,ALP,5491,29.7
+Kingsley,GRN,2188,11.83
+Kingsley,ON,672,3.63
+Kingsley,AUC,343,1.86
+Kingsley,UAPP,281,1.52
+Kingsley,IND*,261,1.41
+Kingsley,WAP,140,0.76
+Kingsley,ASP,87,0.47
+Kwinana,ALP,6376,43.64
+Kwinana,LP,4108,28.12
+Kwinana,GRN,1735,11.88
+Kwinana,ON,956,6.54
+Kwinana,AUC,500,3.42
+Kwinana,WAP,381,2.61
+Kwinana,UAPP,362,2.48
+Kwinana,FACN,181,1.24
+Kwinana,SAL,11,0.08
+Landsdale,LP,8092,45.04
+Landsdale,ALP,6329,35.23
+Landsdale,GRN,1587,8.83
+Landsdale,ON,826,4.6
+Landsdale,AUC,447,2.49
+Landsdale,UAPP,426,2.37
+Landsdale,ASP,259,1.44
+Mandurah,LP,14291,49.61
+Mandurah,ALP,8805,30.57
+Mandurah,ON,1974,6.85
+Mandurah,GRN,1740,6.04
+Mandurah,WAP,723,2.51
+Mandurah,UAPP,537,1.86
+Mandurah,FACN,407,1.41
+Mandurah,AUC,327,1.14
+Maylands,LP,10822,37.95
+Maylands,ALP,10183,35.71
+Maylands,GRN,5001,17.54
+Maylands,ON,772,2.71
+Maylands,WAP,622,2.18
+Maylands,UAPP,567,1.99
+Maylands,FUT,342,1.2
+Maylands,FLUX,148,0.52
+Maylands,AUC,56,0.2
+Midland,LP,9355,41.86
+Midland,ALP,7396,33.09
+Midland,GRN,2420,10.83
+Midland,ON,1244,5.57
+Midland,ASP,640,2.86
+Midland,UAPP,520,2.33
+Midland,WAP,400,1.79
+Midland,AUC,373,1.67
+Mirrabooka,ALP,7760,48.28
+Mirrabooka,LP,4862,30.25
+Mirrabooka,GRN,1593,9.91
+Mirrabooka,ON,772,4.8
+Mirrabooka,AUC,442,2.75
+Mirrabooka,UAPP,383,2.38
+Mirrabooka,ASP,152,0.95
+Mirrabooka,WAP,108,0.67
+Moore,LP,7771,54.23
+Moore,ALP,2247,15.68
+Moore,NP,1488,10.38
+Moore,ON,1319,9.21
+Moore,GRN,599,4.18
+Moore,UAPP,332,2.32
+Moore,WAP,270,1.88
+Moore,ASP,157,1.1
+Moore,IND*,85,0.59
+Moore,AUC,61,0.43
+Morley,LP,6517,40.56
+Morley,ALP,6081,37.85
+Morley,GRN,1880,11.7
+Morley,ON,606,3.77
+Morley,UAPP,356,2.22
+Morley,WAP,331,2.06
+Morley,AUC,150,0.93
+Morley,FUT,89,0.55
+Morley,FLUX,37,0.23
+Morley,ASP,21,0.13
+Mount Lawley,LP,6731,45.95
+Mount Lawley,ALP,4600,31.4
+Mount Lawley,GRN,2267,15.48
+Mount Lawley,ON,323,2.2
+Mount Lawley,WAP,288,1.97
+Mount Lawley,UAPP,184,1.26
+Mount Lawley,AUC,146,1.0
+Mount Lawley,FUT,81,0.55
+Mount Lawley,FLUX,29,0.2
+Murray-Wellington,LP,7178,52.17
+Murray-Wellington,ALP,3372,24.51
+Murray-Wellington,ON,1063,7.73
+Murray-Wellington,GRN,939,6.83
+Murray-Wellington,WAP,333,2.42
+Murray-Wellington,UAPP,288,2.09
+Murray-Wellington,ASP,263,1.91
+Murray-Wellington,FACN,147,1.07
+Murray-Wellington,IND*,94,0.68
+Murray-Wellington,AUC,81,0.59
+Nedlands,LP,12288,53.7
+Nedlands,ALP,3969,17.34
+Nedlands,GRN,3529,15.42
+Nedlands,IND*,2061,9.01
+Nedlands,WAP,353,1.54
+Nedlands,UAPP,245,1.07
+Nedlands,AUC,211,0.92
+Nedlands,ON,204,0.89
+Nedlands,FUT,16,0.07
+Nedlands,FLUX,8,0.03
+North West Central,LP,2215,37.56
+North West Central,ALP,1310,22.21
+North West Central,NP,637,10.8
+North West Central,ON,595,10.09
+North West Central,WAP,559,9.48
+North West Central,GRN,434,7.36
+North West Central,UAPP,147,2.49
+Perth,LP,7198,35.41
+Perth,ALP,6930,34.09
+Perth,GRN,4739,23.31
+Perth,WAP,381,1.87
+Perth,FUT,358,1.76
+Perth,ON,296,1.46
+Perth,UAPP,279,1.37
+Perth,FLUX,145,0.71
+Pilbara,LP,4090,33.5
+Pilbara,ALP,3231,26.46
+Pilbara,ON,1549,12.69
+Pilbara,NP,1374,11.25
+Pilbara,GRN,1067,8.74
+Pilbara,WAP,481,3.94
+Pilbara,UAPP,417,3.42
+Riverton,LP,9006,51.06
+Riverton,ALP,5061,28.69
+Riverton,GRN,1837,10.41
+Riverton,AUC,555,3.15
+Riverton,IND*,419,2.38
+Riverton,ON,356,2.02
+Riverton,WAP,213,1.21
+Riverton,UAPP,192,1.09
+Rockingham,ALP,12381,42.64
+Rockingham,LP,8802,30.32
+Rockingham,GRN,2776,9.56
+Rockingham,ON,2538,8.74
+Rockingham,AUC,773,2.66
+Rockingham,UAPP,754,2.6
+Rockingham,WAP,618,2.13
+Rockingham,FACN,393,1.35
+Roe,LP,8131,48.17
+Roe,NP,3115,18.45
+Roe,ALP,2388,14.15
+Roe,ON,1259,7.46
+Roe,GRN,948,5.62
+Roe,AUC,409,2.42
+Roe,UAPP,297,1.76
+Roe,WAP,186,1.1
+Roe,GAP,148,0.88
+Scarborough,LP,6037,49.16
+Scarborough,ALP,3105,25.28
+Scarborough,GRN,2058,16.76
+Scarborough,IND*,280,2.28
+Scarborough,ON,246,2.0
+Scarborough,WAP,207,1.69
+Scarborough,UAPP,174,1.42
+Scarborough,AUC,174,1.42
+South Perth,LP,9051,55.11
+South Perth,ALP,4411,26.86
+South Perth,GRN,1982,12.07
+South Perth,AUC,206,1.25
+South Perth,AJP,183,1.11
+South Perth,ON,168,1.02
+South Perth,UAPP,167,1.02
+South Perth,WAP,162,0.99
+South Perth,FACN,72,0.44
+South Perth,AFN,23,0.14
+Southern River,ALP,7099,42.64
+Southern River,LP,5795,34.81
+Southern River,GRN,1517,9.11
+Southern River,ON,825,4.96
+Southern River,AUC,549,3.3
+Southern River,UAPP,322,1.93
+Southern River,ASP,246,1.48
+Southern River,IND*,171,1.03
+Southern River,WAP,123,0.74
+Swan Hills,LP,6066,44.03
+Swan Hills,ALP,3915,28.42
+Swan Hills,GRN,1294,9.39
+Swan Hills,ON,1152,8.36
+Swan Hills,ASP,348,2.53
+Swan Hills,UAPP,339,2.46
+Swan Hills,AUC,249,1.81
+Swan Hills,IND*,177,1.28
+Swan Hills,WAP,166,1.2
+Swan Hills,NP,71,0.52
+Thornlie,ALP,6412,43.98
+Thornlie,LP,4603,31.57
+Thornlie,GRN,1384,9.49
+Thornlie,ON,813,5.58
+Thornlie,AUC,490,3.36
+Thornlie,UAPP,303,2.08
+Thornlie,ASP,292,2.0
+Thornlie,WAP,162,1.11
+Thornlie,IND*,120,0.82
+Vasse,LP,12074,57.23
+Vasse,ALP,3702,17.55
+Vasse,GRN,3146,14.91
+Vasse,ON,919,4.36
+Vasse,ASP,483,2.29
+Vasse,UAPP,302,1.43
+Vasse,IND*,252,1.19
+Vasse,WAP,220,1.04
+Victoria Park,LP,6203,38.27
+Victoria Park,ALP,5940,36.65
+Victoria Park,GRN,2665,16.44
+Victoria Park,AUC,338,2.09
+Victoria Park,ON,261,1.61
+Victoria Park,AJP,249,1.54
+Victoria Park,UAPP,239,1.47
+Victoria Park,WAP,189,1.17
+Victoria Park,FACN,91,0.56
+Victoria Park,AFN,32,0.2
+Wanneroo,LP,7552,42.44
+Wanneroo,ALP,5996,33.7
+Wanneroo,GRN,1712,9.62
+Wanneroo,ON,1224,6.88
+Wanneroo,UAPP,477,2.68
+Wanneroo,AUC,382,2.15
+Wanneroo,ASP,321,1.8
+Wanneroo,IND*,64,0.36
+Wanneroo,WAP,53,0.3
+Wanneroo,NP,12,0.07
+Warnbro,ALP,7457,39.47
+Warnbro,LP,5832,30.87
+Warnbro,GRN,2137,11.31
+Warnbro,ON,1627,8.61
+Warnbro,UAPP,548,2.9
+Warnbro,AUC,495,2.62
+Warnbro,WAP,487,2.58
+Warnbro,FACN,309,1.64
+Warren-Blackwood,LP,8118,42.49
+Warren-Blackwood,ALP,3941,20.63
+Warren-Blackwood,GRN,3357,17.57
+Warren-Blackwood,NP,1468,7.68
+Warren-Blackwood,ON,1031,5.4
+Warren-Blackwood,UAPP,308,1.61
+Warren-Blackwood,AUC,253,1.32
+Warren-Blackwood,WAP,242,1.27
+Warren-Blackwood,ASP,170,0.89
+Warren-Blackwood,GAP,128,0.67
+Warren-Blackwood,IND*,90,0.47
+West Swan,LP,11073,40.23
+West Swan,ALP,10431,37.9
+West Swan,GRN,2281,8.29
+West Swan,ON,1852,6.73
+West Swan,UAPP,580,2.11
+West Swan,AUC,515,1.87
+West Swan,ASP,426,1.55
+West Swan,WAP,170,0.62
+West Swan,IND*,152,0.55
+West Swan,NP,46,0.17
+Willagee,ALP,5543,40.18
+Willagee,LP,4726,34.25
+Willagee,GRN,1977,14.33
+Willagee,ON,556,4.03
+Willagee,WAP,319,2.31
+Willagee,AUC,253,1.83
+Willagee,UAPP,246,1.78
+Willagee,SAL,109,0.79
+Willagee,IND*,68,0.49

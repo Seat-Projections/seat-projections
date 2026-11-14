@@ -1,0 +1,7227 @@
+{
+ "Albany": {
+  "candidates": [
+   {
+    "candidate_id": "MADEO - NMV",
+    "name": "MADEO - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "DODSON - LDP",
+    "name": "DODSON - LDP",
+    "party": "LDP"
+   },
+   {
+    "candidate_id": "BACANARU - WAXIT",
+    "name": "BACANARU - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "PURCELL - SAPSOC",
+    "name": "PURCELL - SAPSOC",
+    "party": "SAPSOC"
+   },
+   {
+    "candidate_id": "LOUDEN - SFFP",
+    "name": "LOUDEN - SFFP",
+    "party": "SFFP"
+   },
+   {
+    "candidate_id": "LEARY - LIB",
+    "name": "LEARY - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "CULL - LCWA",
+    "name": "CULL - LCWA",
+    "party": "LCWA"
+   },
+   {
+    "candidate_id": "KINSELLA - PHON",
+    "name": "KINSELLA - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "GILMOUR - GRN",
+    "name": "GILMOUR - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "STEPHENS - ALP",
+    "name": "STEPHENS - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "'t HART - ACP",
+    "name": "'t HART - ACP",
+    "party": "ACP"
+   },
+   {
+    "candidate_id": "BAESJOU - NAT",
+    "name": "BAESJOU - NAT",
+    "party": "NP"
+   }
+  ],
+  "first_preferences": {
+   "MADEO - NMV": 325.0,
+   "DODSON - LDP": 170.0,
+   "BACANARU - WAXIT": 47.0,
+   "PURCELL - SAPSOC": 143.0,
+   "LOUDEN - SFFP": 459.0,
+   "LEARY - LIB": 4236.0,
+   "CULL - LCWA": 417.0,
+   "KINSELLA - PHON": 602.0,
+   "GILMOUR - GRN": 1310.0,
+   "STEPHENS - ALP": 11804.0,
+   "'t HART - ACP": 1246.0,
+   "BAESJOU - NAT": 2480.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "BACANARU - WAXIT",
+    "transfers": {
+     "MADEO - NMV": 9.0,
+     "DODSON - LDP": 5.0,
+     "PURCELL - SAPSOC": 2.0,
+     "LOUDEN - SFFP": 7.0,
+     "LEARY - LIB": 6.0,
+     "CULL - LCWA": 5.0,
+     "KINSELLA - PHON": 2.0,
+     "GILMOUR - GRN": 0.0,
+     "STEPHENS - ALP": 6.0,
+     "'t HART - ACP": 1.0,
+     "BAESJOU - NAT": 3.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "PURCELL - SAPSOC",
+    "transfers": {
+     "MADEO - NMV": 11.0,
+     "DODSON - LDP": 7.0,
+     "LOUDEN - SFFP": 9.0,
+     "LEARY - LIB": 12.0,
+     "CULL - LCWA": 20.0,
+     "KINSELLA - PHON": 9.0,
+     "GILMOUR - GRN": 39.0,
+     "STEPHENS - ALP": 23.0,
+     "'t HART - ACP": 4.0,
+     "BAESJOU - NAT": 11.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "DODSON - LDP",
+    "transfers": {
+     "MADEO - NMV": 31.0,
+     "LOUDEN - SFFP": 15.0,
+     "LEARY - LIB": 61.0,
+     "CULL - LCWA": 9.0,
+     "KINSELLA - PHON": 10.0,
+     "GILMOUR - GRN": 5.0,
+     "STEPHENS - ALP": 26.0,
+     "'t HART - ACP": 4.0,
+     "BAESJOU - NAT": 21.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MADEO - NMV",
+    "transfers": {
+     "LOUDEN - SFFP": 134.0,
+     "LEARY - LIB": 32.0,
+     "CULL - LCWA": 54.0,
+     "KINSELLA - PHON": 37.0,
+     "GILMOUR - GRN": 30.0,
+     "STEPHENS - ALP": 30.0,
+     "'t HART - ACP": 30.0,
+     "BAESJOU - NAT": 20.0
+    },
+    "exhausted": 9.0
+   },
+   {
+    "excluded_candidate": "CULL - LCWA",
+    "transfers": {
+     "LOUDEN - SFFP": 93.0,
+     "LEARY - LIB": 35.0,
+     "KINSELLA - PHON": 58.0,
+     "GILMOUR - GRN": 139.0,
+     "STEPHENS - ALP": 139.0,
+     "'t HART - ACP": 15.0,
+     "BAESJOU - NAT": 24.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "LOUDEN - SFFP",
+    "transfers": {
+     "LEARY - LIB": 218.0,
+     "KINSELLA - PHON": 159.0,
+     "GILMOUR - GRN": 60.0,
+     "STEPHENS - ALP": 164.0,
+     "'t HART - ACP": 29.0,
+     "BAESJOU - NAT": 84.0
+    },
+    "exhausted": 3.0
+   },
+   {
+    "excluded_candidate": "KINSELLA - PHON",
+    "transfers": {
+     "LEARY - LIB": 144.0,
+     "GILMOUR - GRN": 119.0,
+     "STEPHENS - ALP": 196.0,
+     "'t HART - ACP": 252.0,
+     "BAESJOU - NAT": 162.0
+    },
+    "exhausted": 4.0
+   },
+   {
+    "excluded_candidate": "'t HART - ACP",
+    "transfers": {
+     "LEARY - LIB": 1073.0,
+     "GILMOUR - GRN": 51.0,
+     "STEPHENS - ALP": 148.0,
+     "BAESJOU - NAT": 305.0
+    },
+    "exhausted": 4.0
+   },
+   {
+    "excluded_candidate": "GILMOUR - GRN",
+    "transfers": {
+     "LEARY - LIB": 152.0,
+     "STEPHENS - ALP": 1319.0,
+     "BAESJOU - NAT": 281.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "BAESJOU - NAT",
+    "transfers": {
+     "LEARY - LIB": 2463.0,
+     "STEPHENS - ALP": 925.0
+    },
+    "exhausted": 3.0
+   }
+  ],
+  "final_totals": {
+   "LEARY - LIB": 8432.0,
+   "STEPHENS - ALP": 14780.0
+  },
+  "formal_votes": 23239
+ },
+ "Armadale": {
+  "candidates": [
+   {
+    "candidate_id": "CLARKE - WAP",
+    "name": "CLARKE - WAP",
+    "party": "WAP"
+   },
+   {
+    "candidate_id": "KLEYN - ACP",
+    "name": "KLEYN - ACP",
+    "party": "ACP"
+   },
+   {
+    "candidate_id": "CARR - PHON",
+    "name": "CARR - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "ARUMUGAM - LIB",
+    "name": "ARUMUGAM - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "BUTI - ALP",
+    "name": "BUTI - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "OPENSHAW - GRN",
+    "name": "OPENSHAW - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "MOODY - NMV",
+    "name": "MOODY - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "MATHEW - WAXIT",
+    "name": "MATHEW - WAXIT",
+    "party": "WAXIT"
+   }
+  ],
+  "first_preferences": {
+   "CLARKE - WAP": 649.0,
+   "KLEYN - ACP": 1424.0,
+   "CARR - PHON": 682.0,
+   "ARUMUGAM - LIB": 1859.0,
+   "BUTI - ALP": 18434.0,
+   "OPENSHAW - GRN": 1135.0,
+   "MOODY - NMV": 417.0,
+   "MATHEW - WAXIT": 171.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "MATHEW - WAXIT",
+    "transfers": {
+     "CLARKE - WAP": 34.0,
+     "KLEYN - ACP": 8.0,
+     "CARR - PHON": 19.0,
+     "ARUMUGAM - LIB": 17.0,
+     "BUTI - ALP": 44.0,
+     "OPENSHAW - GRN": 18.0,
+     "MOODY - NMV": 29.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "MOODY - NMV",
+    "transfers": {
+     "CLARKE - WAP": 61.0,
+     "KLEYN - ACP": 55.0,
+     "CARR - PHON": 96.0,
+     "ARUMUGAM - LIB": 25.0,
+     "BUTI - ALP": 126.0,
+     "OPENSHAW - GRN": 82.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "CLARKE - WAP",
+    "transfers": {
+     "KLEYN - ACP": 221.0,
+     "CARR - PHON": 176.0,
+     "ARUMUGAM - LIB": 94.0,
+     "BUTI - ALP": 192.0,
+     "OPENSHAW - GRN": 55.0
+    },
+    "exhausted": 6.0
+   },
+   {
+    "excluded_candidate": "CARR - PHON",
+    "transfers": {
+     "KLEYN - ACP": 298.0,
+     "ARUMUGAM - LIB": 216.0,
+     "BUTI - ALP": 342.0,
+     "OPENSHAW - GRN": 117.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "OPENSHAW - GRN",
+    "transfers": {
+     "KLEYN - ACP": 168.0,
+     "ARUMUGAM - LIB": 142.0,
+     "BUTI - ALP": 1095.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "KLEYN - ACP",
+    "transfers": {
+     "ARUMUGAM - LIB": 1244.0,
+     "BUTI - ALP": 926.0
+    },
+    "exhausted": 4.0
+   }
+  ],
+  "final_totals": {
+   "ARUMUGAM - LIB": 3597.0,
+   "BUTI - ALP": 21159.0
+  },
+  "formal_votes": 24771
+ },
+ "Balcatta": {
+  "candidates": [
+   {
+    "candidate_id": "COLETTA - LDP",
+    "name": "COLETTA - LDP",
+    "party": "LDP"
+   },
+   {
+    "candidate_id": "EVANS - LIB",
+    "name": "EVANS - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "STALTARI - WAXIT",
+    "name": "STALTARI - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "GUINERY - GRN",
+    "name": "GUINERY - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "MICHAEL - ALP",
+    "name": "MICHAEL - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "THORNTON - NMV",
+    "name": "THORNTON - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "ANDERSON - ACP",
+    "name": "ANDERSON - ACP",
+    "party": "ACP"
+   }
+  ],
+  "first_preferences": {
+   "COLETTA - LDP": 489.0,
+   "EVANS - LIB": 4497.0,
+   "STALTARI - WAXIT": 238.0,
+   "GUINERY - GRN": 1818.0,
+   "MICHAEL - ALP": 15894.0,
+   "THORNTON - NMV": 453.0,
+   "ANDERSON - ACP": 504.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "STALTARI - WAXIT",
+    "transfers": {
+     "COLETTA - LDP": 29.0,
+     "EVANS - LIB": 50.0,
+     "GUINERY - GRN": 39.0,
+     "MICHAEL - ALP": 71.0,
+     "THORNTON - NMV": 33.0,
+     "ANDERSON - ACP": 14.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "THORNTON - NMV",
+    "transfers": {
+     "COLETTA - LDP": 35.0,
+     "EVANS - LIB": 63.0,
+     "GUINERY - GRN": 114.0,
+     "MICHAEL - ALP": 127.0,
+     "ANDERSON - ACP": 146.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "COLETTA - LDP",
+    "transfers": {
+     "EVANS - LIB": 371.0,
+     "GUINERY - GRN": 44.0,
+     "MICHAEL - ALP": 79.0,
+     "ANDERSON - ACP": 49.0
+    },
+    "exhausted": 10.0
+   },
+   {
+    "excluded_candidate": "ANDERSON - ACP",
+    "transfers": {
+     "EVANS - LIB": 444.0,
+     "GUINERY - GRN": 100.0,
+     "MICHAEL - ALP": 168.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "GUINERY - GRN",
+    "transfers": {
+     "EVANS - LIB": 365.0,
+     "MICHAEL - ALP": 1748.0
+    },
+    "exhausted": 2.0
+   }
+  ],
+  "final_totals": {
+   "EVANS - LIB": 5790.0,
+   "MICHAEL - ALP": 18087.0
+  },
+  "formal_votes": 23893
+ },
+ "Baldivis": {
+  "candidates": [
+   {
+    "candidate_id": "TOKAJI - IND",
+    "name": "TOKAJI - IND",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "McLERNON - WAXIT",
+    "name": "McLERNON - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "DERRICK - LIB",
+    "name": "DERRICK - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "RIZZO - NMV",
+    "name": "RIZZO - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "SUTER - PHON",
+    "name": "SUTER - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "MARSHALL - LDP",
+    "name": "MARSHALL - LDP",
+    "party": "LDP"
+   },
+   {
+    "candidate_id": "FREEMAN - GRN",
+    "name": "FREEMAN - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "WHITBY - ALP",
+    "name": "WHITBY - ALP",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "TOKAJI - IND": 932.0,
+   "McLERNON - WAXIT": 149.0,
+   "DERRICK - LIB": 2122.0,
+   "RIZZO - NMV": 333.0,
+   "SUTER - PHON": 464.0,
+   "MARSHALL - LDP": 321.0,
+   "FREEMAN - GRN": 1037.0,
+   "WHITBY - ALP": 21130.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "McLERNON - WAXIT",
+    "transfers": {
+     "TOKAJI - IND": 34.0,
+     "DERRICK - LIB": 19.0,
+     "RIZZO - NMV": 19.0,
+     "SUTER - PHON": 21.0,
+     "MARSHALL - LDP": 7.0,
+     "FREEMAN - GRN": 8.0,
+     "WHITBY - ALP": 41.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MARSHALL - LDP",
+    "transfers": {
+     "TOKAJI - IND": 53.0,
+     "DERRICK - LIB": 109.0,
+     "RIZZO - NMV": 21.0,
+     "SUTER - PHON": 46.0,
+     "FREEMAN - GRN": 33.0,
+     "WHITBY - ALP": 66.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "RIZZO - NMV",
+    "transfers": {
+     "TOKAJI - IND": 96.0,
+     "DERRICK - LIB": 46.0,
+     "SUTER - PHON": 103.0,
+     "FREEMAN - GRN": 44.0,
+     "WHITBY - ALP": 82.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "SUTER - PHON",
+    "transfers": {
+     "TOKAJI - IND": 198.0,
+     "DERRICK - LIB": 192.0,
+     "FREEMAN - GRN": 64.0,
+     "WHITBY - ALP": 180.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "FREEMAN - GRN",
+    "transfers": {
+     "TOKAJI - IND": 164.0,
+     "DERRICK - LIB": 126.0,
+     "WHITBY - ALP": 894.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "TOKAJI - IND",
+    "transfers": {
+     "DERRICK - LIB": 855.0,
+     "WHITBY - ALP": 620.0
+    },
+    "exhausted": 2.0
+   }
+  ],
+  "final_totals": {
+   "DERRICK - LIB": 3469.0,
+   "WHITBY - ALP": 23013.0
+  },
+  "formal_votes": 26488
+ },
+ "Bassendean": {
+  "candidates": [
+   {
+    "candidate_id": "ERCEG - NMV",
+    "name": "ERCEG - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "ADENIYI - LIB",
+    "name": "ADENIYI - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "MARTIN - WAXIT",
+    "name": "MARTIN - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "PALLISTER - PHON",
+    "name": "PALLISTER - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "PRATT - GRN",
+    "name": "PRATT - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "KELLY - ALP",
+    "name": "KELLY - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "POWELL - ACP",
+    "name": "POWELL - ACP",
+    "party": "ACP"
+   }
+  ],
+  "first_preferences": {
+   "ERCEG - NMV": 685.0,
+   "ADENIYI - LIB": 2954.0,
+   "MARTIN - WAXIT": 265.0,
+   "PALLISTER - PHON": 486.0,
+   "PRATT - GRN": 2005.0,
+   "KELLY - ALP": 17094.0,
+   "POWELL - ACP": 705.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "MARTIN - WAXIT",
+    "transfers": {
+     "ERCEG - NMV": 41.0,
+     "ADENIYI - LIB": 56.0,
+     "PALLISTER - PHON": 41.0,
+     "PRATT - GRN": 36.0,
+     "KELLY - ALP": 72.0,
+     "POWELL - ACP": 18.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "PALLISTER - PHON",
+    "transfers": {
+     "ERCEG - NMV": 91.0,
+     "ADENIYI - LIB": 167.0,
+     "PRATT - GRN": 59.0,
+     "KELLY - ALP": 153.0,
+     "POWELL - ACP": 57.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "POWELL - ACP",
+    "transfers": {
+     "ERCEG - NMV": 110.0,
+     "ADENIYI - LIB": 381.0,
+     "PRATT - GRN": 81.0,
+     "KELLY - ALP": 208.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "ERCEG - NMV",
+    "transfers": {
+     "ADENIYI - LIB": 489.0,
+     "PRATT - GRN": 201.0,
+     "KELLY - ALP": 225.0
+    },
+    "exhausted": 12.0
+   },
+   {
+    "excluded_candidate": "PRATT - GRN",
+    "transfers": {
+     "ADENIYI - LIB": 405.0,
+     "KELLY - ALP": 1975.0
+    },
+    "exhausted": 2.0
+   }
+  ],
+  "final_totals": {
+   "ADENIYI - LIB": 4452.0,
+   "KELLY - ALP": 19727.0
+  },
+  "formal_votes": 24194
+ },
+ "Bateman": {
+  "candidates": [
+   {
+    "candidate_id": "McKENZIE-BROWN - ACP",
+    "name": "McKENZIE-BROWN - ACP",
+    "party": "ACP"
+   },
+   {
+    "candidate_id": "ABDUL RAZAK - GRN",
+    "name": "ABDUL RAZAK - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "GIDDENS - ALP",
+    "name": "GIDDENS - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "WOODALL - LIB",
+    "name": "WOODALL - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "TSENG - NMV",
+    "name": "TSENG - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "LEECH - LDP",
+    "name": "LEECH - LDP",
+    "party": "LDP"
+   },
+   {
+    "candidate_id": "KEPERT - IND",
+    "name": "KEPERT - IND",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "KOUL - WAP",
+    "name": "KOUL - WAP",
+    "party": "WAP"
+   },
+   {
+    "candidate_id": "MASON - PHON",
+    "name": "MASON - PHON",
+    "party": "ON"
+   }
+  ],
+  "first_preferences": {
+   "McKENZIE-BROWN - ACP": 774.0,
+   "ABDUL RAZAK - GRN": 1815.0,
+   "GIDDENS - ALP": 12106.0,
+   "WOODALL - LIB": 9762.0,
+   "TSENG - NMV": 314.0,
+   "LEECH - LDP": 341.0,
+   "KEPERT - IND": 856.0,
+   "KOUL - WAP": 228.0,
+   "MASON - PHON": 213.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "MASON - PHON",
+    "transfers": {
+     "McKENZIE-BROWN - ACP": 13.0,
+     "ABDUL RAZAK - GRN": 10.0,
+     "GIDDENS - ALP": 24.0,
+     "WOODALL - LIB": 54.0,
+     "TSENG - NMV": 28.0,
+     "LEECH - LDP": 13.0,
+     "KEPERT - IND": 24.0,
+     "KOUL - WAP": 47.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "KOUL - WAP",
+    "transfers": {
+     "McKENZIE-BROWN - ACP": 20.0,
+     "ABDUL RAZAK - GRN": 19.0,
+     "GIDDENS - ALP": 68.0,
+     "WOODALL - LIB": 48.0,
+     "TSENG - NMV": 17.0,
+     "LEECH - LDP": 19.0,
+     "KEPERT - IND": 84.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "TSENG - NMV",
+    "transfers": {
+     "McKENZIE-BROWN - ACP": 71.0,
+     "ABDUL RAZAK - GRN": 64.0,
+     "GIDDENS - ALP": 56.0,
+     "WOODALL - LIB": 57.0,
+     "LEECH - LDP": 25.0,
+     "KEPERT - IND": 86.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "LEECH - LDP",
+    "transfers": {
+     "McKENZIE-BROWN - ACP": 105.0,
+     "ABDUL RAZAK - GRN": 21.0,
+     "GIDDENS - ALP": 51.0,
+     "WOODALL - LIB": 160.0,
+     "KEPERT - IND": 60.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "McKENZIE-BROWN - ACP",
+    "transfers": {
+     "ABDUL RAZAK - GRN": 152.0,
+     "GIDDENS - ALP": 173.0,
+     "WOODALL - LIB": 542.0,
+     "KEPERT - IND": 110.0
+    },
+    "exhausted": 6.0
+   },
+   {
+    "excluded_candidate": "KEPERT - IND",
+    "transfers": {
+     "ABDUL RAZAK - GRN": 242.0,
+     "GIDDENS - ALP": 527.0,
+     "WOODALL - LIB": 448.0
+    },
+    "exhausted": 3.0
+   },
+   {
+    "excluded_candidate": "ABDUL RAZAK - GRN",
+    "transfers": {
+     "GIDDENS - ALP": 1958.0,
+     "WOODALL - LIB": 365.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "GIDDENS - ALP": 14963.0,
+   "WOODALL - LIB": 11436.0
+  },
+  "formal_votes": 26409
+ },
+ "Belmont": {
+  "candidates": [
+   {
+    "candidate_id": "ROWE - ALP",
+    "name": "ROWE - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "ROSE - NMV",
+    "name": "ROSE - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "FENECH - PHON",
+    "name": "FENECH - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "BOKSMATI - WAXIT",
+    "name": "BOKSMATI - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "NAIDU - ACP",
+    "name": "NAIDU - ACP",
+    "party": "ACP"
+   },
+   {
+    "candidate_id": "BUTLER - LIB",
+    "name": "BUTLER - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "UINK - GRN",
+    "name": "UINK - GRN",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "ROWE - ALP": 16722.0,
+   "ROSE - NMV": 374.0,
+   "FENECH - PHON": 433.0,
+   "BOKSMATI - WAXIT": 174.0,
+   "NAIDU - ACP": 566.0,
+   "BUTLER - LIB": 3819.0,
+   "UINK - GRN": 1651.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "BOKSMATI - WAXIT",
+    "transfers": {
+     "ROWE - ALP": 63.0,
+     "ROSE - NMV": 30.0,
+     "FENECH - PHON": 22.0,
+     "NAIDU - ACP": 14.0,
+     "BUTLER - LIB": 28.0,
+     "UINK - GRN": 17.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "ROSE - NMV",
+    "transfers": {
+     "ROWE - ALP": 122.0,
+     "FENECH - PHON": 112.0,
+     "NAIDU - ACP": 49.0,
+     "BUTLER - LIB": 49.0,
+     "UINK - GRN": 71.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "FENECH - PHON",
+    "transfers": {
+     "ROWE - ALP": 176.0,
+     "NAIDU - ACP": 171.0,
+     "BUTLER - LIB": 164.0,
+     "UINK - GRN": 54.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "NAIDU - ACP",
+    "transfers": {
+     "ROWE - ALP": 213.0,
+     "BUTLER - LIB": 481.0,
+     "UINK - GRN": 105.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "UINK - GRN",
+    "transfers": {
+     "ROWE - ALP": 1499.0,
+     "BUTLER - LIB": 397.0
+    },
+    "exhausted": 2.0
+   }
+  ],
+  "final_totals": {
+   "ROWE - ALP": 18795.0,
+   "BUTLER - LIB": 4938.0
+  },
+  "formal_votes": 23739
+ },
+ "Bicton": {
+  "candidates": [
+   {
+    "candidate_id": "GRAHAM - PHON",
+    "name": "GRAHAM - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "ROBINS - LIB",
+    "name": "ROBINS - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "PRINZ - LDP",
+    "name": "PRINZ - LDP",
+    "party": "LDP"
+   },
+   {
+    "candidate_id": "OTNESS - GRN",
+    "name": "OTNESS - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "HIRSBRUNNER - NMV",
+    "name": "HIRSBRUNNER - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "KINGSFORD - ACP",
+    "name": "KINGSFORD - ACP",
+    "party": "ACP"
+   },
+   {
+    "candidate_id": "O'MALLEY - ALP",
+    "name": "O'MALLEY - ALP",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "GRAHAM - PHON": 297.0,
+   "ROBINS - LIB": 7559.0,
+   "PRINZ - LDP": 267.0,
+   "OTNESS - GRN": 2450.0,
+   "HIRSBRUNNER - NMV": 293.0,
+   "KINGSFORD - ACP": 185.0,
+   "O'MALLEY - ALP": 13556.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "KINGSFORD - ACP",
+    "transfers": {
+     "GRAHAM - PHON": 26.0,
+     "ROBINS - LIB": 80.0,
+     "PRINZ - LDP": 13.0,
+     "OTNESS - GRN": 14.0,
+     "HIRSBRUNNER - NMV": 16.0,
+     "O'MALLEY - ALP": 34.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "PRINZ - LDP",
+    "transfers": {
+     "GRAHAM - PHON": 29.0,
+     "ROBINS - LIB": 124.0,
+     "OTNESS - GRN": 26.0,
+     "HIRSBRUNNER - NMV": 42.0,
+     "O'MALLEY - ALP": 59.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HIRSBRUNNER - NMV",
+    "transfers": {
+     "GRAHAM - PHON": 135.0,
+     "ROBINS - LIB": 41.0,
+     "OTNESS - GRN": 79.0,
+     "O'MALLEY - ALP": 96.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "GRAHAM - PHON",
+    "transfers": {
+     "ROBINS - LIB": 284.0,
+     "OTNESS - GRN": 87.0,
+     "O'MALLEY - ALP": 115.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "OTNESS - GRN",
+    "transfers": {
+     "ROBINS - LIB": 378.0,
+     "O'MALLEY - ALP": 2276.0
+    },
+    "exhausted": 2.0
+   }
+  ],
+  "final_totals": {
+   "ROBINS - LIB": 8466.0,
+   "O'MALLEY - ALP": 16136.0
+  },
+  "formal_votes": 24607
+ },
+ "Bunbury": {
+  "candidates": [
+   {
+    "candidate_id": "JONES - PHON",
+    "name": "JONES - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "HIBBERT - LCWA",
+    "name": "HIBBERT - LCWA",
+    "party": "LCWA"
+   },
+   {
+    "candidate_id": "HASTIE - SFFP",
+    "name": "HASTIE - SFFP",
+    "party": "SFFP"
+   },
+   {
+    "candidate_id": "MERRIFIELD - NMV",
+    "name": "MERRIFIELD - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "NOONAN - WAP",
+    "name": "NOONAN - WAP",
+    "party": "WAP"
+   },
+   {
+    "candidate_id": "MINSON - SAPSOC",
+    "name": "MINSON - SAPSOC",
+    "party": "SAPSOC"
+   },
+   {
+    "candidate_id": "PUNCH - ALP",
+    "name": "PUNCH - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "PERKS - GRN",
+    "name": "PERKS - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "ACATINCA - WAXIT",
+    "name": "ACATINCA - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "FOREMAN - LIB",
+    "name": "FOREMAN - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "DOWN - NAT",
+    "name": "DOWN - NAT",
+    "party": "NP"
+   }
+  ],
+  "first_preferences": {
+   "JONES - PHON": 656.0,
+   "HIBBERT - LCWA": 582.0,
+   "HASTIE - SFFP": 615.0,
+   "MERRIFIELD - NMV": 348.0,
+   "NOONAN - WAP": 415.0,
+   "MINSON - SAPSOC": 158.0,
+   "PUNCH - ALP": 14791.0,
+   "PERKS - GRN": 1170.0,
+   "ACATINCA - WAXIT": 43.0,
+   "FOREMAN - LIB": 4604.0,
+   "DOWN - NAT": 1081.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "ACATINCA - WAXIT",
+    "transfers": {
+     "JONES - PHON": 11.0,
+     "HIBBERT - LCWA": 4.0,
+     "HASTIE - SFFP": 3.0,
+     "MERRIFIELD - NMV": 5.0,
+     "NOONAN - WAP": 4.0,
+     "MINSON - SAPSOC": 1.0,
+     "PUNCH - ALP": 9.0,
+     "PERKS - GRN": 2.0,
+     "FOREMAN - LIB": 3.0,
+     "DOWN - NAT": 1.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MINSON - SAPSOC",
+    "transfers": {
+     "JONES - PHON": 9.0,
+     "HIBBERT - LCWA": 31.0,
+     "HASTIE - SFFP": 9.0,
+     "MERRIFIELD - NMV": 11.0,
+     "NOONAN - WAP": 18.0,
+     "PUNCH - ALP": 33.0,
+     "PERKS - GRN": 27.0,
+     "FOREMAN - LIB": 11.0,
+     "DOWN - NAT": 10.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MERRIFIELD - NMV",
+    "transfers": {
+     "JONES - PHON": 98.0,
+     "HIBBERT - LCWA": 90.0,
+     "HASTIE - SFFP": 36.0,
+     "NOONAN - WAP": 34.0,
+     "PUNCH - ALP": 37.0,
+     "PERKS - GRN": 29.0,
+     "FOREMAN - LIB": 27.0,
+     "DOWN - NAT": 12.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "NOONAN - WAP",
+    "transfers": {
+     "JONES - PHON": 43.0,
+     "HIBBERT - LCWA": 33.0,
+     "HASTIE - SFFP": 100.0,
+     "PUNCH - ALP": 128.0,
+     "PERKS - GRN": 52.0,
+     "FOREMAN - LIB": 58.0,
+     "DOWN - NAT": 56.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "HIBBERT - LCWA",
+    "transfers": {
+     "JONES - PHON": 116.0,
+     "HASTIE - SFFP": 244.0,
+     "PUNCH - ALP": 180.0,
+     "PERKS - GRN": 131.0,
+     "FOREMAN - LIB": 40.0,
+     "DOWN - NAT": 28.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "JONES - PHON",
+    "transfers": {
+     "HASTIE - SFFP": 536.0,
+     "PUNCH - ALP": 147.0,
+     "PERKS - GRN": 54.0,
+     "FOREMAN - LIB": 96.0,
+     "DOWN - NAT": 94.0
+    },
+    "exhausted": 6.0
+   },
+   {
+    "excluded_candidate": "DOWN - NAT",
+    "transfers": {
+     "HASTIE - SFFP": 139.0,
+     "PUNCH - ALP": 217.0,
+     "PERKS - GRN": 85.0,
+     "FOREMAN - LIB": 840.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "PERKS - GRN",
+    "transfers": {
+     "HASTIE - SFFP": 204.0,
+     "PUNCH - ALP": 1112.0,
+     "FOREMAN - LIB": 231.0
+    },
+    "exhausted": 3.0
+   },
+   {
+    "excluded_candidate": "HASTIE - SFFP",
+    "transfers": {
+     "PUNCH - ALP": 1076.0,
+     "FOREMAN - LIB": 809.0
+    },
+    "exhausted": 1.0
+   }
+  ],
+  "final_totals": {
+   "PUNCH - ALP": 17730.0,
+   "FOREMAN - LIB": 6719.0
+  },
+  "formal_votes": 24463
+ },
+ "Burns Beach": {
+  "candidates": [
+   {
+    "candidate_id": "FOLKARD - ALP",
+    "name": "FOLKARD - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "MARCHANT - GRN",
+    "name": "MARCHANT - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "BOTHA - LIB",
+    "name": "BOTHA - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "ROSENGRAVE - WAXIT",
+    "name": "ROSENGRAVE - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "CAMPBELL - NMV",
+    "name": "CAMPBELL - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "OFFEREINS - ACP",
+    "name": "OFFEREINS - ACP",
+    "party": "ACP"
+   }
+  ],
+  "first_preferences": {
+   "FOLKARD - ALP": 17193.0,
+   "MARCHANT - GRN": 1355.0,
+   "BOTHA - LIB": 4545.0,
+   "ROSENGRAVE - WAXIT": 223.0,
+   "CAMPBELL - NMV": 585.0,
+   "OFFEREINS - ACP": 625.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "ROSENGRAVE - WAXIT",
+    "transfers": {
+     "FOLKARD - ALP": 70.0,
+     "MARCHANT - GRN": 29.0,
+     "BOTHA - LIB": 54.0,
+     "CAMPBELL - NMV": 46.0,
+     "OFFEREINS - ACP": 23.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "CAMPBELL - NMV",
+    "transfers": {
+     "FOLKARD - ALP": 136.0,
+     "MARCHANT - GRN": 157.0,
+     "BOTHA - LIB": 113.0,
+     "OFFEREINS - ACP": 223.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "OFFEREINS - ACP",
+    "transfers": {
+     "FOLKARD - ALP": 149.0,
+     "MARCHANT - GRN": 128.0,
+     "BOTHA - LIB": 592.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "MARCHANT - GRN",
+    "transfers": {
+     "FOLKARD - ALP": 1301.0,
+     "BOTHA - LIB": 365.0
+    },
+    "exhausted": 3.0
+   }
+  ],
+  "final_totals": {
+   "FOLKARD - ALP": 18849.0,
+   "BOTHA - LIB": 5669.0
+  },
+  "formal_votes": 24526
+ },
+ "Butler": {
+  "candidates": [
+   {
+    "candidate_id": "QUIGLEY - ALP",
+    "name": "QUIGLEY - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "BAWA - WAXIT",
+    "name": "BAWA - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "AITKEN - LIB",
+    "name": "AITKEN - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "KAMARA - GRN",
+    "name": "KAMARA - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "BECKER - NMV",
+    "name": "BECKER - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "HILDEBRANDT - ACP",
+    "name": "HILDEBRANDT - ACP",
+    "party": "ACP"
+   }
+  ],
+  "first_preferences": {
+   "QUIGLEY - ALP": 19806.0,
+   "BAWA - WAXIT": 178.0,
+   "AITKEN - LIB": 3565.0,
+   "KAMARA - GRN": 1037.0,
+   "BECKER - NMV": 609.0,
+   "HILDEBRANDT - ACP": 542.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "BAWA - WAXIT",
+    "transfers": {
+     "QUIGLEY - ALP": 65.0,
+     "AITKEN - LIB": 44.0,
+     "KAMARA - GRN": 23.0,
+     "BECKER - NMV": 30.0,
+     "HILDEBRANDT - ACP": 16.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HILDEBRANDT - ACP",
+    "transfers": {
+     "QUIGLEY - ALP": 102.0,
+     "AITKEN - LIB": 298.0,
+     "KAMARA - GRN": 24.0,
+     "BECKER - NMV": 134.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BECKER - NMV",
+    "transfers": {
+     "QUIGLEY - ALP": 237.0,
+     "AITKEN - LIB": 270.0,
+     "KAMARA - GRN": 266.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "KAMARA - GRN",
+    "transfers": {
+     "QUIGLEY - ALP": 958.0,
+     "AITKEN - LIB": 392.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "QUIGLEY - ALP": 21168.0,
+   "AITKEN - LIB": 4569.0
+  },
+  "formal_votes": 25737
+ },
+ "Cannington": {
+  "candidates": [
+   {
+    "candidate_id": "STAER - ACP",
+    "name": "STAER - ACP",
+    "party": "ACP"
+   },
+   {
+    "candidate_id": "IRIKS - PHON",
+    "name": "IRIKS - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "HENDERSON - LIB",
+    "name": "HENDERSON - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "CLARKE - GRN",
+    "name": "CLARKE - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "CAHILL - NMV",
+    "name": "CAHILL - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "ONDRA - LDP",
+    "name": "ONDRA - LDP",
+    "party": "LDP"
+   },
+   {
+    "candidate_id": "JOHNSTON - ALP",
+    "name": "JOHNSTON - ALP",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "STAER - ACP": 1092.0,
+   "IRIKS - PHON": 385.0,
+   "HENDERSON - LIB": 3059.0,
+   "CLARKE - GRN": 1476.0,
+   "CAHILL - NMV": 302.0,
+   "ONDRA - LDP": 304.0,
+   "JOHNSTON - ALP": 16884.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "CAHILL - NMV",
+    "transfers": {
+     "STAER - ACP": 37.0,
+     "IRIKS - PHON": 84.0,
+     "HENDERSON - LIB": 24.0,
+     "CLARKE - GRN": 66.0,
+     "ONDRA - LDP": 22.0,
+     "JOHNSTON - ALP": 69.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "ONDRA - LDP",
+    "transfers": {
+     "STAER - ACP": 37.0,
+     "IRIKS - PHON": 34.0,
+     "HENDERSON - LIB": 106.0,
+     "CLARKE - GRN": 43.0,
+     "JOHNSTON - ALP": 105.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "IRIKS - PHON",
+    "transfers": {
+     "STAER - ACP": 152.0,
+     "HENDERSON - LIB": 170.0,
+     "CLARKE - GRN": 62.0,
+     "JOHNSTON - ALP": 118.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "STAER - ACP",
+    "transfers": {
+     "HENDERSON - LIB": 898.0,
+     "CLARKE - GRN": 129.0,
+     "JOHNSTON - ALP": 287.0
+    },
+    "exhausted": 4.0
+   },
+   {
+    "excluded_candidate": "CLARKE - GRN",
+    "transfers": {
+     "HENDERSON - LIB": 339.0,
+     "JOHNSTON - ALP": 1436.0
+    },
+    "exhausted": 1.0
+   }
+  ],
+  "final_totals": {
+   "HENDERSON - LIB": 4596.0,
+   "JOHNSTON - ALP": 18899.0
+  },
+  "formal_votes": 23502
+ },
+ "Carine": {
+  "candidates": [
+   {
+    "candidate_id": "KRSTICEVIC - LIB",
+    "name": "KRSTICEVIC - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "D'ALONZO - GRN",
+    "name": "D'ALONZO - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "LILBURNE - ALP",
+    "name": "LILBURNE - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "TRINGAS - WAXIT",
+    "name": "TRINGAS - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "COX - NMV",
+    "name": "COX - NMV",
+    "party": "NMV"
+   }
+  ],
+  "first_preferences": {
+   "KRSTICEVIC - LIB": 12012.0,
+   "D'ALONZO - GRN": 2369.0,
+   "LILBURNE - ALP": 11993.0,
+   "TRINGAS - WAXIT": 197.0,
+   "COX - NMV": 490.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "TRINGAS - WAXIT",
+    "transfers": {
+     "KRSTICEVIC - LIB": 66.0,
+     "D'ALONZO - GRN": 38.0,
+     "LILBURNE - ALP": 56.0,
+     "COX - NMV": 37.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "COX - NMV",
+    "transfers": {
+     "KRSTICEVIC - LIB": 224.0,
+     "D'ALONZO - GRN": 172.0,
+     "LILBURNE - ALP": 130.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "D'ALONZO - GRN",
+    "transfers": {
+     "KRSTICEVIC - LIB": 562.0,
+     "LILBURNE - ALP": 2016.0
+    },
+    "exhausted": 1.0
+   }
+  ],
+  "final_totals": {
+   "KRSTICEVIC - LIB": 12864.0,
+   "LILBURNE - ALP": 14195.0
+  },
+  "formal_votes": 27061
+ },
+ "Central Wheatbelt": {
+  "candidates": [
+   {
+    "candidate_id": "NELSON - ALP",
+    "name": "NELSON - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "FORSTER - LIB",
+    "name": "FORSTER - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "GOM - WAXIT",
+    "name": "GOM - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "DAVIES - NAT",
+    "name": "DAVIES - NAT",
+    "party": "NP"
+   },
+   {
+    "candidate_id": "REID - PHON",
+    "name": "REID - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "CAHILL - NMV",
+    "name": "CAHILL - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "SINGLETON - SFFP",
+    "name": "SINGLETON - SFFP",
+    "party": "SFFP"
+   },
+   {
+    "candidate_id": "NEWBURY - GRN",
+    "name": "NEWBURY - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "PEASE - ACP",
+    "name": "PEASE - ACP",
+    "party": "ACP"
+   }
+  ],
+  "first_preferences": {
+   "NELSON - ALP": 7191.0,
+   "FORSTER - LIB": 1762.0,
+   "GOM - WAXIT": 70.0,
+   "DAVIES - NAT": 10101.0,
+   "REID - PHON": 405.0,
+   "CAHILL - NMV": 179.0,
+   "SINGLETON - SFFP": 739.0,
+   "NEWBURY - GRN": 388.0,
+   "PEASE - ACP": 427.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "GOM - WAXIT",
+    "transfers": {
+     "NELSON - ALP": 10.0,
+     "FORSTER - LIB": 7.0,
+     "DAVIES - NAT": 22.0,
+     "REID - PHON": 9.0,
+     "CAHILL - NMV": 10.0,
+     "SINGLETON - SFFP": 8.0,
+     "NEWBURY - GRN": 3.0,
+     "PEASE - ACP": 1.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "CAHILL - NMV",
+    "transfers": {
+     "NELSON - ALP": 24.0,
+     "FORSTER - LIB": 10.0,
+     "DAVIES - NAT": 14.0,
+     "REID - PHON": 66.0,
+     "SINGLETON - SFFP": 49.0,
+     "NEWBURY - GRN": 11.0,
+     "PEASE - ACP": 15.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "NEWBURY - GRN",
+    "transfers": {
+     "NELSON - ALP": 263.0,
+     "FORSTER - LIB": 18.0,
+     "DAVIES - NAT": 66.0,
+     "REID - PHON": 13.0,
+     "SINGLETON - SFFP": 30.0,
+     "PEASE - ACP": 12.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "PEASE - ACP",
+    "transfers": {
+     "NELSON - ALP": 44.0,
+     "FORSTER - LIB": 150.0,
+     "DAVIES - NAT": 123.0,
+     "REID - PHON": 56.0,
+     "SINGLETON - SFFP": 80.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "REID - PHON",
+    "transfers": {
+     "NELSON - ALP": 94.0,
+     "FORSTER - LIB": 60.0,
+     "DAVIES - NAT": 166.0,
+     "SINGLETON - SFFP": 229.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SINGLETON - SFFP",
+    "transfers": {
+     "NELSON - ALP": 314.0,
+     "FORSTER - LIB": 194.0,
+     "DAVIES - NAT": 627.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "FORSTER - LIB",
+    "transfers": {
+     "NELSON - ALP": 417.0,
+     "DAVIES - NAT": 1782.0
+    },
+    "exhausted": 2.0
+   }
+  ],
+  "final_totals": {
+   "NELSON - ALP": 8357.0,
+   "DAVIES - NAT": 12901.0
+  },
+  "formal_votes": 21262
+ },
+ "Churchlands": {
+  "candidates": [
+   {
+    "candidate_id": "BIVOLTSIS - IND",
+    "name": "BIVOLTSIS - IND",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "TONKIN - ALP",
+    "name": "TONKIN - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "TWISS - GRN",
+    "name": "TWISS - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "L'ESTRANGE - LIB",
+    "name": "L'ESTRANGE - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "PEARCE - NMV",
+    "name": "PEARCE - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "FARSALAS - WAXIT",
+    "name": "FARSALAS - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "MORAN - ACP",
+    "name": "MORAN - ACP",
+    "party": "ACP"
+   }
+  ],
+  "first_preferences": {
+   "BIVOLTSIS - IND": 714.0,
+   "TONKIN - ALP": 9938.0,
+   "TWISS - GRN": 2640.0,
+   "L'ESTRANGE - LIB": 11087.0,
+   "PEARCE - NMV": 320.0,
+   "FARSALAS - WAXIT": 146.0,
+   "MORAN - ACP": 394.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "FARSALAS - WAXIT",
+    "transfers": {
+     "BIVOLTSIS - IND": 28.0,
+     "TONKIN - ALP": 27.0,
+     "TWISS - GRN": 17.0,
+     "L'ESTRANGE - LIB": 40.0,
+     "PEARCE - NMV": 17.0,
+     "MORAN - ACP": 17.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "PEARCE - NMV",
+    "transfers": {
+     "BIVOLTSIS - IND": 66.0,
+     "TONKIN - ALP": 47.0,
+     "TWISS - GRN": 70.0,
+     "L'ESTRANGE - LIB": 77.0,
+     "MORAN - ACP": 76.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "MORAN - ACP",
+    "transfers": {
+     "BIVOLTSIS - IND": 90.0,
+     "TONKIN - ALP": 55.0,
+     "TWISS - GRN": 31.0,
+     "L'ESTRANGE - LIB": 309.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "BIVOLTSIS - IND",
+    "transfers": {
+     "TONKIN - ALP": 320.0,
+     "TWISS - GRN": 184.0,
+     "L'ESTRANGE - LIB": 393.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "TWISS - GRN",
+    "transfers": {
+     "TONKIN - ALP": 2434.0,
+     "L'ESTRANGE - LIB": 507.0
+    },
+    "exhausted": 1.0
+   }
+  ],
+  "final_totals": {
+   "TONKIN - ALP": 12821.0,
+   "L'ESTRANGE - LIB": 12413.0
+  },
+  "formal_votes": 25239
+ },
+ "Cockburn": {
+  "candidates": [
+   {
+    "candidate_id": "BAKER - WAXIT",
+    "name": "BAKER - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "MULDER - LIB",
+    "name": "MULDER - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "TAIMRE - NMV",
+    "name": "TAIMRE - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "MIRONENKO - PHON",
+    "name": "MIRONENKO - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "MURRAY - LDP",
+    "name": "MURRAY - LDP",
+    "party": "LDP"
+   },
+   {
+    "candidate_id": "SCAIFE - ALP",
+    "name": "SCAIFE - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "SMITH - GRN",
+    "name": "SMITH - GRN",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "BAKER - WAXIT": 426.0,
+   "MULDER - LIB": 4822.0,
+   "TAIMRE - NMV": 461.0,
+   "MIRONENKO - PHON": 456.0,
+   "MURRAY - LDP": 374.0,
+   "SCAIFE - ALP": 17714.0,
+   "SMITH - GRN": 1655.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "MURRAY - LDP",
+    "transfers": {
+     "BAKER - WAXIT": 44.0,
+     "MULDER - LIB": 144.0,
+     "TAIMRE - NMV": 24.0,
+     "MIRONENKO - PHON": 47.0,
+     "SCAIFE - ALP": 79.0,
+     "SMITH - GRN": 35.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "BAKER - WAXIT",
+    "transfers": {
+     "MULDER - LIB": 256.0,
+     "TAIMRE - NMV": 59.0,
+     "MIRONENKO - PHON": 38.0,
+     "SCAIFE - ALP": 77.0,
+     "SMITH - GRN": 37.0
+    },
+    "exhausted": 3.0
+   },
+   {
+    "excluded_candidate": "MIRONENKO - PHON",
+    "transfers": {
+     "MULDER - LIB": 192.0,
+     "TAIMRE - NMV": 143.0,
+     "SCAIFE - ALP": 161.0,
+     "SMITH - GRN": 44.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "TAIMRE - NMV",
+    "transfers": {
+     "MULDER - LIB": 291.0,
+     "SCAIFE - ALP": 219.0,
+     "SMITH - GRN": 173.0
+    },
+    "exhausted": 4.0
+   },
+   {
+    "excluded_candidate": "SMITH - GRN",
+    "transfers": {
+     "MULDER - LIB": 319.0,
+     "SCAIFE - ALP": 1620.0
+    },
+    "exhausted": 5.0
+   }
+  ],
+  "final_totals": {
+   "MULDER - LIB": 6024.0,
+   "SCAIFE - ALP": 19870.0
+  },
+  "formal_votes": 25908
+ },
+ "Collie-Preston": {
+  "candidates": [
+   {
+    "candidate_id": "MERRIFIELD - NMV",
+    "name": "MERRIFIELD - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "SCANTLEBURY - GRN",
+    "name": "SCANTLEBURY - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "HANNS - ALP",
+    "name": "HANNS - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "GOFF - LIB",
+    "name": "GOFF - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "BUTLER - SAPSOC",
+    "name": "BUTLER - SAPSOC",
+    "party": "SAPSOC"
+   },
+   {
+    "candidate_id": "SHERIDAN - IND",
+    "name": "SHERIDAN - IND",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "TOMIC - WAXIT",
+    "name": "TOMIC - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "SANFORD - NAT",
+    "name": "SANFORD - NAT",
+    "party": "NP"
+   },
+   {
+    "candidate_id": "WILKINSON - LCWA",
+    "name": "WILKINSON - LCWA",
+    "party": "LCWA"
+   },
+   {
+    "candidate_id": "WILLIAMS - PHON",
+    "name": "WILLIAMS - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "THOMAS - SFFP",
+    "name": "THOMAS - SFFP",
+    "party": "SFFP"
+   }
+  ],
+  "first_preferences": {
+   "MERRIFIELD - NMV": 487.0,
+   "SCANTLEBURY - GRN": 889.0,
+   "HANNS - ALP": 16085.0,
+   "GOFF - LIB": 3778.0,
+   "BUTLER - SAPSOC": 149.0,
+   "SHERIDAN - IND": 385.0,
+   "TOMIC - WAXIT": 71.0,
+   "SANFORD - NAT": 2245.0,
+   "WILKINSON - LCWA": 458.0,
+   "WILLIAMS - PHON": 533.0,
+   "THOMAS - SFFP": 773.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "TOMIC - WAXIT",
+    "transfers": {
+     "MERRIFIELD - NMV": 4.0,
+     "SCANTLEBURY - GRN": 2.0,
+     "HANNS - ALP": 16.0,
+     "GOFF - LIB": 6.0,
+     "BUTLER - SAPSOC": 4.0,
+     "SHERIDAN - IND": 4.0,
+     "SANFORD - NAT": 14.0,
+     "WILKINSON - LCWA": 8.0,
+     "WILLIAMS - PHON": 7.0,
+     "THOMAS - SFFP": 6.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BUTLER - SAPSOC",
+    "transfers": {
+     "MERRIFIELD - NMV": 18.0,
+     "SCANTLEBURY - GRN": 24.0,
+     "HANNS - ALP": 31.0,
+     "GOFF - LIB": 12.0,
+     "SHERIDAN - IND": 19.0,
+     "SANFORD - NAT": 11.0,
+     "WILKINSON - LCWA": 11.0,
+     "WILLIAMS - PHON": 9.0,
+     "THOMAS - SFFP": 18.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SHERIDAN - IND",
+    "transfers": {
+     "MERRIFIELD - NMV": 16.0,
+     "SCANTLEBURY - GRN": 113.0,
+     "HANNS - ALP": 91.0,
+     "GOFF - LIB": 66.0,
+     "SANFORD - NAT": 70.0,
+     "WILKINSON - LCWA": 16.0,
+     "WILLIAMS - PHON": 15.0,
+     "THOMAS - SFFP": 20.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "WILKINSON - LCWA",
+    "transfers": {
+     "MERRIFIELD - NMV": 36.0,
+     "SCANTLEBURY - GRN": 76.0,
+     "HANNS - ALP": 112.0,
+     "GOFF - LIB": 32.0,
+     "SANFORD - NAT": 36.0,
+     "WILLIAMS - PHON": 71.0,
+     "THOMAS - SFFP": 129.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "MERRIFIELD - NMV",
+    "transfers": {
+     "SCANTLEBURY - GRN": 171.0,
+     "HANNS - ALP": 97.0,
+     "GOFF - LIB": 43.0,
+     "SANFORD - NAT": 38.0,
+     "WILLIAMS - PHON": 115.0,
+     "THOMAS - SFFP": 96.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "WILLIAMS - PHON",
+    "transfers": {
+     "SCANTLEBURY - GRN": 28.0,
+     "HANNS - ALP": 96.0,
+     "GOFF - LIB": 95.0,
+     "SANFORD - NAT": 113.0,
+     "THOMAS - SFFP": 416.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "SCANTLEBURY - GRN",
+    "transfers": {
+     "HANNS - ALP": 891.0,
+     "GOFF - LIB": 173.0,
+     "SANFORD - NAT": 114.0,
+     "THOMAS - SFFP": 124.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "THOMAS - SFFP",
+    "transfers": {
+     "HANNS - ALP": 641.0,
+     "GOFF - LIB": 334.0,
+     "SANFORD - NAT": 604.0
+    },
+    "exhausted": 3.0
+   },
+   {
+    "excluded_candidate": "SANFORD - NAT",
+    "transfers": {
+     "HANNS - ALP": 903.0,
+     "GOFF - LIB": 2340.0
+    },
+    "exhausted": 2.0
+   }
+  ],
+  "final_totals": {
+   "HANNS - ALP": 18963.0,
+   "GOFF - LIB": 6879.0
+  },
+  "formal_votes": 25853
+ },
+ "Cottesloe": {
+  "candidates": [
+   {
+    "candidate_id": "BATSIOUDIS - WAXIT",
+    "name": "BATSIOUDIS - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "DRAYTON - NMV",
+    "name": "DRAYTON - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "PARKER - IND",
+    "name": "PARKER - IND",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "HONEY - LIB",
+    "name": "HONEY - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "WEST - ALP",
+    "name": "WEST - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "MOSS - GRN",
+    "name": "MOSS - GRN",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "BATSIOUDIS - WAXIT": 276.0,
+   "DRAYTON - NMV": 329.0,
+   "PARKER - IND": 2670.0,
+   "HONEY - LIB": 12624.0,
+   "WEST - ALP": 7637.0,
+   "MOSS - GRN": 3410.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "BATSIOUDIS - WAXIT",
+    "transfers": {
+     "DRAYTON - NMV": 80.0,
+     "PARKER - IND": 56.0,
+     "HONEY - LIB": 56.0,
+     "WEST - ALP": 54.0,
+     "MOSS - GRN": 30.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "DRAYTON - NMV",
+    "transfers": {
+     "PARKER - IND": 184.0,
+     "HONEY - LIB": 92.0,
+     "WEST - ALP": 50.0,
+     "MOSS - GRN": 81.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "PARKER - IND",
+    "transfers": {
+     "HONEY - LIB": 1890.0,
+     "WEST - ALP": 571.0,
+     "MOSS - GRN": 447.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "MOSS - GRN",
+    "transfers": {
+     "HONEY - LIB": 808.0,
+     "WEST - ALP": 3158.0
+    },
+    "exhausted": 2.0
+   }
+  ],
+  "final_totals": {
+   "HONEY - LIB": 15470.0,
+   "WEST - ALP": 11470.0
+  },
+  "formal_votes": 26946
+ },
+ "Darling Range": {
+  "candidates": [
+   {
+    "candidate_id": "THOMPSON - LDP",
+    "name": "THOMPSON - LDP",
+    "party": "LDP"
+   },
+   {
+    "candidate_id": "CONGRENE - NMV",
+    "name": "CONGRENE - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "SVILICIC - WAXIT",
+    "name": "SVILICIC - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "CLARKE - WAP",
+    "name": "CLARKE - WAP",
+    "party": "WAP"
+   },
+   {
+    "candidate_id": "HAYDEN - LIB",
+    "name": "HAYDEN - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "EIKELBOOM - ACP",
+    "name": "EIKELBOOM - ACP",
+    "party": "ACP"
+   },
+   {
+    "candidate_id": "FENECH - PHON",
+    "name": "FENECH - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "STRAUTINS - IND",
+    "name": "STRAUTINS - IND",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "JONES - ALP",
+    "name": "JONES - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "LACEY - GRN",
+    "name": "LACEY - GRN",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "THOMPSON - LDP": 335.0,
+   "CONGRENE - NMV": 406.0,
+   "SVILICIC - WAXIT": 65.0,
+   "CLARKE - WAP": 187.0,
+   "HAYDEN - LIB": 7494.0,
+   "EIKELBOOM - ACP": 1230.0,
+   "FENECH - PHON": 524.0,
+   "STRAUTINS - IND": 157.0,
+   "JONES - ALP": 14854.0,
+   "LACEY - GRN": 1254.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "SVILICIC - WAXIT",
+    "transfers": {
+     "THOMPSON - LDP": 5.0,
+     "CONGRENE - NMV": 10.0,
+     "CLARKE - WAP": 12.0,
+     "HAYDEN - LIB": 7.0,
+     "EIKELBOOM - ACP": 5.0,
+     "FENECH - PHON": 8.0,
+     "STRAUTINS - IND": 4.0,
+     "JONES - ALP": 9.0,
+     "LACEY - GRN": 4.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "STRAUTINS - IND",
+    "transfers": {
+     "THOMPSON - LDP": 5.0,
+     "CONGRENE - NMV": 9.0,
+     "CLARKE - WAP": 24.0,
+     "HAYDEN - LIB": 22.0,
+     "EIKELBOOM - ACP": 5.0,
+     "FENECH - PHON": 18.0,
+     "JONES - ALP": 58.0,
+     "LACEY - GRN": 20.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "CLARKE - WAP",
+    "transfers": {
+     "THOMPSON - LDP": 24.0,
+     "CONGRENE - NMV": 18.0,
+     "HAYDEN - LIB": 55.0,
+     "EIKELBOOM - ACP": 16.0,
+     "FENECH - PHON": 34.0,
+     "JONES - ALP": 56.0,
+     "LACEY - GRN": 19.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "THOMPSON - LDP",
+    "transfers": {
+     "CONGRENE - NMV": 123.0,
+     "HAYDEN - LIB": 114.0,
+     "EIKELBOOM - ACP": 15.0,
+     "FENECH - PHON": 44.0,
+     "JONES - ALP": 47.0,
+     "LACEY - GRN": 24.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "CONGRENE - NMV",
+    "transfers": {
+     "HAYDEN - LIB": 166.0,
+     "EIKELBOOM - ACP": 81.0,
+     "FENECH - PHON": 157.0,
+     "JONES - ALP": 72.0,
+     "LACEY - GRN": 86.0
+    },
+    "exhausted": 4.0
+   },
+   {
+    "excluded_candidate": "FENECH - PHON",
+    "transfers": {
+     "HAYDEN - LIB": 227.0,
+     "EIKELBOOM - ACP": 204.0,
+     "JONES - ALP": 263.0,
+     "LACEY - GRN": 89.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "LACEY - GRN",
+    "transfers": {
+     "HAYDEN - LIB": 221.0,
+     "EIKELBOOM - ACP": 95.0,
+     "JONES - ALP": 1177.0
+    },
+    "exhausted": 3.0
+   },
+   {
+    "excluded_candidate": "EIKELBOOM - ACP",
+    "transfers": {
+     "HAYDEN - LIB": 1362.0,
+     "JONES - ALP": 286.0
+    },
+    "exhausted": 3.0
+   }
+  ],
+  "final_totals": {
+   "HAYDEN - LIB": 9668.0,
+   "JONES - ALP": 16822.0
+  },
+  "formal_votes": 26506
+ },
+ "Dawesville": {
+  "candidates": [
+   {
+    "candidate_id": "GODDEN - GRN",
+    "name": "GODDEN - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "MUNDAY - ALP",
+    "name": "MUNDAY - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "OBORN - SAPSOC",
+    "name": "OBORN - SAPSOC",
+    "party": "SAPSOC"
+   },
+   {
+    "candidate_id": "STONEHOUSE - NMV",
+    "name": "STONEHOUSE - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "STACEY - SFFP",
+    "name": "STACEY - SFFP",
+    "party": "SFFP"
+   },
+   {
+    "candidate_id": "CHARLES - LCWA",
+    "name": "CHARLES - LCWA",
+    "party": "LCWA"
+   },
+   {
+    "candidate_id": "OANCEA - WAXIT",
+    "name": "OANCEA - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "GILMOUR - PHON",
+    "name": "GILMOUR - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "KIRKUP - LIB",
+    "name": "KIRKUP - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "CHALKE - LDP",
+    "name": "CHALKE - LDP",
+    "party": "LDP"
+   },
+   {
+    "candidate_id": "LEAKE - NAT",
+    "name": "LEAKE - NAT",
+    "party": "NP"
+   }
+  ],
+  "first_preferences": {
+   "GODDEN - GRN": 820.0,
+   "MUNDAY - ALP": 15024.0,
+   "OBORN - SAPSOC": 125.0,
+   "STONEHOUSE - NMV": 238.0,
+   "STACEY - SFFP": 337.0,
+   "CHARLES - LCWA": 363.0,
+   "OANCEA - WAXIT": 74.0,
+   "GILMOUR - PHON": 398.0,
+   "KIRKUP - LIB": 8400.0,
+   "CHALKE - LDP": 62.0,
+   "LEAKE - NAT": 178.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "CHALKE - LDP",
+    "transfers": {
+     "GODDEN - GRN": 4.0,
+     "MUNDAY - ALP": 10.0,
+     "OBORN - SAPSOC": 0.0,
+     "STONEHOUSE - NMV": 0.0,
+     "STACEY - SFFP": 5.0,
+     "CHARLES - LCWA": 4.0,
+     "OANCEA - WAXIT": 1.0,
+     "GILMOUR - PHON": 6.0,
+     "KIRKUP - LIB": 18.0,
+     "LEAKE - NAT": 13.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "OANCEA - WAXIT",
+    "transfers": {
+     "GODDEN - GRN": 1.0,
+     "MUNDAY - ALP": 18.0,
+     "OBORN - SAPSOC": 6.0,
+     "STONEHOUSE - NMV": 8.0,
+     "STACEY - SFFP": 6.0,
+     "CHARLES - LCWA": 13.0,
+     "GILMOUR - PHON": 7.0,
+     "KIRKUP - LIB": 10.0,
+     "LEAKE - NAT": 6.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "OBORN - SAPSOC",
+    "transfers": {
+     "GODDEN - GRN": 25.0,
+     "MUNDAY - ALP": 31.0,
+     "STONEHOUSE - NMV": 10.0,
+     "STACEY - SFFP": 12.0,
+     "CHARLES - LCWA": 12.0,
+     "GILMOUR - PHON": 19.0,
+     "KIRKUP - LIB": 15.0,
+     "LEAKE - NAT": 7.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "LEAKE - NAT",
+    "transfers": {
+     "GODDEN - GRN": 19.0,
+     "MUNDAY - ALP": 30.0,
+     "STONEHOUSE - NMV": 1.0,
+     "STACEY - SFFP": 13.0,
+     "CHARLES - LCWA": 4.0,
+     "GILMOUR - PHON": 24.0,
+     "KIRKUP - LIB": 113.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "STONEHOUSE - NMV",
+    "transfers": {
+     "GODDEN - GRN": 34.0,
+     "MUNDAY - ALP": 45.0,
+     "STACEY - SFFP": 36.0,
+     "CHARLES - LCWA": 65.0,
+     "GILMOUR - PHON": 57.0,
+     "KIRKUP - LIB": 19.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "STACEY - SFFP",
+    "transfers": {
+     "GODDEN - GRN": 30.0,
+     "MUNDAY - ALP": 107.0,
+     "CHARLES - LCWA": 91.0,
+     "GILMOUR - PHON": 96.0,
+     "KIRKUP - LIB": 85.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "CHARLES - LCWA",
+    "transfers": {
+     "GODDEN - GRN": 146.0,
+     "MUNDAY - ALP": 198.0,
+     "GILMOUR - PHON": 125.0,
+     "KIRKUP - LIB": 82.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "GILMOUR - PHON",
+    "transfers": {
+     "GODDEN - GRN": 121.0,
+     "MUNDAY - ALP": 236.0,
+     "KIRKUP - LIB": 375.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "GODDEN - GRN",
+    "transfers": {
+     "MUNDAY - ALP": 934.0,
+     "KIRKUP - LIB": 261.0
+    },
+    "exhausted": 5.0
+   }
+  ],
+  "final_totals": {
+   "MUNDAY - ALP": 16633.0,
+   "KIRKUP - LIB": 9378.0
+  },
+  "formal_votes": 26019
+ },
+ "Forrestfield": {
+  "candidates": [
+   {
+    "candidate_id": "PRICE - ALP",
+    "name": "PRICE - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "PETERS - NMV",
+    "name": "PETERS - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "McMULLAN - GRN",
+    "name": "McMULLAN - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "TILBURY - LIB",
+    "name": "TILBURY - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "DOYE - WAP",
+    "name": "DOYE - WAP",
+    "party": "WAP"
+   },
+   {
+    "candidate_id": "LAMPARD - ACP",
+    "name": "LAMPARD - ACP",
+    "party": "ACP"
+   },
+   {
+    "candidate_id": "SHAHALAM - WAXIT",
+    "name": "SHAHALAM - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "BARNETT - PHON",
+    "name": "BARNETT - PHON",
+    "party": "ON"
+   }
+  ],
+  "first_preferences": {
+   "PRICE - ALP": 15770.0,
+   "PETERS - NMV": 339.0,
+   "McMULLAN - GRN": 1008.0,
+   "TILBURY - LIB": 4438.0,
+   "DOYE - WAP": 207.0,
+   "LAMPARD - ACP": 604.0,
+   "SHAHALAM - WAXIT": 99.0,
+   "BARNETT - PHON": 518.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "SHAHALAM - WAXIT",
+    "transfers": {
+     "PRICE - ALP": 39.0,
+     "PETERS - NMV": 8.0,
+     "McMULLAN - GRN": 5.0,
+     "TILBURY - LIB": 9.0,
+     "DOYE - WAP": 18.0,
+     "LAMPARD - ACP": 5.0,
+     "BARNETT - PHON": 15.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "DOYE - WAP",
+    "transfers": {
+     "PRICE - ALP": 68.0,
+     "PETERS - NMV": 14.0,
+     "McMULLAN - GRN": 39.0,
+     "TILBURY - LIB": 44.0,
+     "LAMPARD - ACP": 24.0,
+     "BARNETT - PHON": 36.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "PETERS - NMV",
+    "transfers": {
+     "PRICE - ALP": 96.0,
+     "McMULLAN - GRN": 68.0,
+     "TILBURY - LIB": 45.0,
+     "LAMPARD - ACP": 45.0,
+     "BARNETT - PHON": 105.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "BARNETT - PHON",
+    "transfers": {
+     "PRICE - ALP": 218.0,
+     "McMULLAN - GRN": 76.0,
+     "TILBURY - LIB": 201.0,
+     "LAMPARD - ACP": 178.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "LAMPARD - ACP",
+    "transfers": {
+     "PRICE - ALP": 190.0,
+     "McMULLAN - GRN": 105.0,
+     "TILBURY - LIB": 560.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "McMULLAN - GRN",
+    "transfers": {
+     "PRICE - ALP": 968.0,
+     "TILBURY - LIB": 332.0
+    },
+    "exhausted": 1.0
+   }
+  ],
+  "final_totals": {
+   "PRICE - ALP": 17349.0,
+   "TILBURY - LIB": 5629.0
+  },
+  "formal_votes": 22983
+ },
+ "Fremantle": {
+  "candidates": [
+   {
+    "candidate_id": "SCHELLING - LDP",
+    "name": "SCHELLING - LDP",
+    "party": "LDP"
+   },
+   {
+    "candidate_id": "WAINWRIGHT - SA",
+    "name": "WAINWRIGHT - SA",
+    "party": "SA"
+   },
+   {
+    "candidate_id": "RILEY - LIB",
+    "name": "RILEY - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "CRAMER - GRN",
+    "name": "CRAMER - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "SCHULZE - NMV",
+    "name": "SCHULZE - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "GRLJUSICH - IND",
+    "name": "GRLJUSICH - IND",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "KNAPP - WAP",
+    "name": "KNAPP - WAP",
+    "party": "WAP"
+   },
+   {
+    "candidate_id": "McGURK - ALP",
+    "name": "McGURK - ALP",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "SCHELLING - LDP": 492.0,
+   "WAINWRIGHT - SA": 726.0,
+   "RILEY - LIB": 3837.0,
+   "CRAMER - GRN": 4769.0,
+   "SCHULZE - NMV": 577.0,
+   "GRLJUSICH - IND": 318.0,
+   "KNAPP - WAP": 216.0,
+   "McGURK - ALP": 14646.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "KNAPP - WAP",
+    "transfers": {
+     "SCHELLING - LDP": 18.0,
+     "WAINWRIGHT - SA": 7.0,
+     "RILEY - LIB": 26.0,
+     "CRAMER - GRN": 32.0,
+     "SCHULZE - NMV": 14.0,
+     "GRLJUSICH - IND": 32.0,
+     "McGURK - ALP": 85.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "GRLJUSICH - IND",
+    "transfers": {
+     "SCHELLING - LDP": 34.0,
+     "WAINWRIGHT - SA": 27.0,
+     "RILEY - LIB": 113.0,
+     "CRAMER - GRN": 34.0,
+     "SCHULZE - NMV": 49.0,
+     "McGURK - ALP": 93.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SCHELLING - LDP",
+    "transfers": {
+     "WAINWRIGHT - SA": 159.0,
+     "RILEY - LIB": 234.0,
+     "CRAMER - GRN": 32.0,
+     "SCHULZE - NMV": 37.0,
+     "McGURK - ALP": 80.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "SCHULZE - NMV",
+    "transfers": {
+     "WAINWRIGHT - SA": 159.0,
+     "RILEY - LIB": 187.0,
+     "CRAMER - GRN": 203.0,
+     "McGURK - ALP": 124.0
+    },
+    "exhausted": 4.0
+   },
+   {
+    "excluded_candidate": "WAINWRIGHT - SA",
+    "transfers": {
+     "RILEY - LIB": 286.0,
+     "CRAMER - GRN": 628.0,
+     "McGURK - ALP": 159.0
+    },
+    "exhausted": 5.0
+   },
+   {
+    "excluded_candidate": "RILEY - LIB",
+    "transfers": {
+     "CRAMER - GRN": 3055.0,
+     "McGURK - ALP": 1613.0
+    },
+    "exhausted": 15.0
+   }
+  ],
+  "final_totals": {
+   "CRAMER - GRN": 8753.0,
+   "McGURK - ALP": 16800.0
+  },
+  "formal_votes": 25581
+ },
+ "Geraldton": {
+  "candidates": [
+   {
+    "candidate_id": "KUNG - WAXIT",
+    "name": "KUNG - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "GENOVESE - LDP",
+    "name": "GENOVESE - LDP",
+    "party": "LDP"
+   },
+   {
+    "candidate_id": "DINES - LIB",
+    "name": "DINES - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "MELLON - SFFP",
+    "name": "MELLON - SFFP",
+    "party": "SFFP"
+   },
+   {
+    "candidate_id": "DAVIES - PHON",
+    "name": "DAVIES - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "DALTON - ALP",
+    "name": "DALTON - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "LONG - NMV",
+    "name": "LONG - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "BLAYNEY - NAT",
+    "name": "BLAYNEY - NAT",
+    "party": "NP"
+   },
+   {
+    "candidate_id": "ROBERTS - GRN",
+    "name": "ROBERTS - GRN",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "KUNG - WAXIT": 127.0,
+   "GENOVESE - LDP": 77.0,
+   "DINES - LIB": 2750.0,
+   "MELLON - SFFP": 380.0,
+   "DAVIES - PHON": 336.0,
+   "DALTON - ALP": 11676.0,
+   "LONG - NMV": 248.0,
+   "BLAYNEY - NAT": 5222.0,
+   "ROBERTS - GRN": 536.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "GENOVESE - LDP",
+    "transfers": {
+     "KUNG - WAXIT": 5.0,
+     "DINES - LIB": 19.0,
+     "MELLON - SFFP": 17.0,
+     "DAVIES - PHON": 10.0,
+     "DALTON - ALP": 14.0,
+     "LONG - NMV": 1.0,
+     "BLAYNEY - NAT": 7.0,
+     "ROBERTS - GRN": 4.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "KUNG - WAXIT",
+    "transfers": {
+     "DINES - LIB": 72.0,
+     "MELLON - SFFP": 21.0,
+     "DAVIES - PHON": 6.0,
+     "DALTON - ALP": 13.0,
+     "LONG - NMV": 4.0,
+     "BLAYNEY - NAT": 9.0,
+     "ROBERTS - GRN": 7.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "LONG - NMV",
+    "transfers": {
+     "DINES - LIB": 25.0,
+     "MELLON - SFFP": 40.0,
+     "DAVIES - PHON": 59.0,
+     "DALTON - ALP": 44.0,
+     "BLAYNEY - NAT": 45.0,
+     "ROBERTS - GRN": 40.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "DAVIES - PHON",
+    "transfers": {
+     "DINES - LIB": 57.0,
+     "MELLON - SFFP": 143.0,
+     "DALTON - ALP": 69.0,
+     "BLAYNEY - NAT": 114.0,
+     "ROBERTS - GRN": 26.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "MELLON - SFFP",
+    "transfers": {
+     "DINES - LIB": 150.0,
+     "DALTON - ALP": 201.0,
+     "BLAYNEY - NAT": 184.0,
+     "ROBERTS - GRN": 62.0
+    },
+    "exhausted": 4.0
+   },
+   {
+    "excluded_candidate": "ROBERTS - GRN",
+    "transfers": {
+     "DINES - LIB": 69.0,
+     "DALTON - ALP": 414.0,
+     "BLAYNEY - NAT": 191.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "DINES - LIB",
+    "transfers": {
+     "DALTON - ALP": 739.0,
+     "BLAYNEY - NAT": 2401.0
+    },
+    "exhausted": 2.0
+   }
+  ],
+  "final_totals": {
+   "DALTON - ALP": 13170.0,
+   "BLAYNEY - NAT": 8173.0
+  },
+  "formal_votes": 21352
+ },
+ "Hillarys": {
+  "candidates": [
+   {
+    "candidate_id": "TYLKA - LFC",
+    "name": "TYLKA - LFC",
+    "party": "LFC"
+   },
+   {
+    "candidate_id": "GLAZOV - GRN",
+    "name": "GLAZOV - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "SEETO - NMV",
+    "name": "SEETO - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "KATSAMBANIS - LIB",
+    "name": "KATSAMBANIS - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "WINFIELD - LCWA",
+    "name": "WINFIELD - LCWA",
+    "party": "LCWA"
+   },
+   {
+    "candidate_id": "COLLINS - ALP",
+    "name": "COLLINS - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "JANKULOVSKI - WAXIT",
+    "name": "JANKULOVSKI - WAXIT",
+    "party": "WAXIT"
+   }
+  ],
+  "first_preferences": {
+   "TYLKA - LFC": 339.0,
+   "GLAZOV - GRN": 1366.0,
+   "SEETO - NMV": 476.0,
+   "KATSAMBANIS - LIB": 6900.0,
+   "WINFIELD - LCWA": 582.0,
+   "COLLINS - ALP": 15671.0,
+   "JANKULOVSKI - WAXIT": 184.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "JANKULOVSKI - WAXIT",
+    "transfers": {
+     "TYLKA - LFC": 15.0,
+     "GLAZOV - GRN": 12.0,
+     "SEETO - NMV": 19.0,
+     "KATSAMBANIS - LIB": 51.0,
+     "WINFIELD - LCWA": 30.0,
+     "COLLINS - ALP": 57.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "TYLKA - LFC",
+    "transfers": {
+     "GLAZOV - GRN": 135.0,
+     "SEETO - NMV": 23.0,
+     "KATSAMBANIS - LIB": 116.0,
+     "WINFIELD - LCWA": 21.0,
+     "COLLINS - ALP": 58.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "SEETO - NMV",
+    "transfers": {
+     "GLAZOV - GRN": 106.0,
+     "KATSAMBANIS - LIB": 112.0,
+     "WINFIELD - LCWA": 224.0,
+     "COLLINS - ALP": 75.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "WINFIELD - LCWA",
+    "transfers": {
+     "GLAZOV - GRN": 308.0,
+     "KATSAMBANIS - LIB": 205.0,
+     "COLLINS - ALP": 344.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "GLAZOV - GRN",
+    "transfers": {
+     "KATSAMBANIS - LIB": 535.0,
+     "COLLINS - ALP": 1392.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "KATSAMBANIS - LIB": 7919.0,
+   "COLLINS - ALP": 17597.0
+  },
+  "formal_votes": 25518
+ },
+ "Jandakot": {
+  "candidates": [
+   {
+    "candidate_id": "McCOY - LIB",
+    "name": "McCOY - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "PRETORIUS - ACP",
+    "name": "PRETORIUS - ACP",
+    "party": "ACP"
+   },
+   {
+    "candidate_id": "LONSDALE - GRN",
+    "name": "LONSDALE - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "MILES - LDP",
+    "name": "MILES - LDP",
+    "party": "LDP"
+   },
+   {
+    "candidate_id": "HALLIFAX - NMV",
+    "name": "HALLIFAX - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "SINGH - WAXIT",
+    "name": "SINGH - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "KELLY - PHON",
+    "name": "KELLY - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "MUBARAKAI - ALP",
+    "name": "MUBARAKAI - ALP",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "McCOY - LIB": 6460.0,
+   "PRETORIUS - ACP": 921.0,
+   "LONSDALE - GRN": 1347.0,
+   "MILES - LDP": 265.0,
+   "HALLIFAX - NMV": 262.0,
+   "SINGH - WAXIT": 251.0,
+   "KELLY - PHON": 388.0,
+   "MUBARAKAI - ALP": 17950.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "SINGH - WAXIT",
+    "transfers": {
+     "McCOY - LIB": 45.0,
+     "PRETORIUS - ACP": 20.0,
+     "LONSDALE - GRN": 22.0,
+     "MILES - LDP": 15.0,
+     "HALLIFAX - NMV": 12.0,
+     "KELLY - PHON": 28.0,
+     "MUBARAKAI - ALP": 109.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HALLIFAX - NMV",
+    "transfers": {
+     "McCOY - LIB": 26.0,
+     "PRETORIUS - ACP": 43.0,
+     "LONSDALE - GRN": 44.0,
+     "MILES - LDP": 19.0,
+     "KELLY - PHON": 90.0,
+     "MUBARAKAI - ALP": 52.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MILES - LDP",
+    "transfers": {
+     "McCOY - LIB": 131.0,
+     "PRETORIUS - ACP": 25.0,
+     "LONSDALE - GRN": 42.0,
+     "KELLY - PHON": 43.0,
+     "MUBARAKAI - ALP": 57.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "KELLY - PHON",
+    "transfers": {
+     "McCOY - LIB": 167.0,
+     "PRETORIUS - ACP": 132.0,
+     "LONSDALE - GRN": 65.0,
+     "MUBARAKAI - ALP": 185.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "PRETORIUS - ACP",
+    "transfers": {
+     "McCOY - LIB": 814.0,
+     "LONSDALE - GRN": 113.0,
+     "MUBARAKAI - ALP": 213.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "LONSDALE - GRN",
+    "transfers": {
+     "McCOY - LIB": 424.0,
+     "MUBARAKAI - ALP": 1207.0
+    },
+    "exhausted": 2.0
+   }
+  ],
+  "final_totals": {
+   "McCOY - LIB": 8067.0,
+   "MUBARAKAI - ALP": 19773.0
+  },
+  "formal_votes": 27844
+ },
+ "Joondalup": {
+  "candidates": [
+   {
+    "candidate_id": "RIKKERS - WAXIT",
+    "name": "RIKKERS - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "MURPHY - IND",
+    "name": "MURPHY - IND",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "TREASURE - LCWA",
+    "name": "TREASURE - LCWA",
+    "party": "LCWA"
+   },
+   {
+    "candidate_id": "McLOUGHLIN - LDP",
+    "name": "McLOUGHLIN - LDP",
+    "party": "LDP"
+   },
+   {
+    "candidate_id": "HILDEBRANDT - ACP",
+    "name": "HILDEBRANDT - ACP",
+    "party": "ACP"
+   },
+   {
+    "candidate_id": "HAMILTON - ALP",
+    "name": "HAMILTON - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "WATTS - GRN",
+    "name": "WATTS - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "WESTCOTT - WAP",
+    "name": "WESTCOTT - WAP",
+    "party": "WAP"
+   },
+   {
+    "candidate_id": "DAVEY - NMV",
+    "name": "DAVEY - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "INGHAM - LIB",
+    "name": "INGHAM - LIB",
+    "party": "LP"
+   }
+  ],
+  "first_preferences": {
+   "RIKKERS - WAXIT": 240.0,
+   "MURPHY - IND": 484.0,
+   "TREASURE - LCWA": 465.0,
+   "McLOUGHLIN - LDP": 286.0,
+   "HILDEBRANDT - ACP": 537.0,
+   "HAMILTON - ALP": 15892.0,
+   "WATTS - GRN": 1102.0,
+   "WESTCOTT - WAP": 203.0,
+   "DAVEY - NMV": 334.0,
+   "INGHAM - LIB": 4756.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "WESTCOTT - WAP",
+    "transfers": {
+     "RIKKERS - WAXIT": 14.0,
+     "MURPHY - IND": 48.0,
+     "TREASURE - LCWA": 9.0,
+     "McLOUGHLIN - LDP": 6.0,
+     "HILDEBRANDT - ACP": 5.0,
+     "HAMILTON - ALP": 43.0,
+     "WATTS - GRN": 18.0,
+     "DAVEY - NMV": 26.0,
+     "INGHAM - LIB": 34.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "RIKKERS - WAXIT",
+    "transfers": {
+     "MURPHY - IND": 117.0,
+     "TREASURE - LCWA": 46.0,
+     "McLOUGHLIN - LDP": 4.0,
+     "HILDEBRANDT - ACP": 5.0,
+     "HAMILTON - ALP": 37.0,
+     "WATTS - GRN": 11.0,
+     "DAVEY - NMV": 10.0,
+     "INGHAM - LIB": 23.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "McLOUGHLIN - LDP",
+    "transfers": {
+     "MURPHY - IND": 37.0,
+     "TREASURE - LCWA": 25.0,
+     "HILDEBRANDT - ACP": 21.0,
+     "HAMILTON - ALP": 73.0,
+     "WATTS - GRN": 24.0,
+     "DAVEY - NMV": 12.0,
+     "INGHAM - LIB": 104.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "DAVEY - NMV",
+    "transfers": {
+     "MURPHY - IND": 76.0,
+     "TREASURE - LCWA": 88.0,
+     "HILDEBRANDT - ACP": 57.0,
+     "HAMILTON - ALP": 51.0,
+     "WATTS - GRN": 56.0,
+     "INGHAM - LIB": 54.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HILDEBRANDT - ACP",
+    "transfers": {
+     "MURPHY - IND": 66.0,
+     "TREASURE - LCWA": 38.0,
+     "HAMILTON - ALP": 104.0,
+     "WATTS - GRN": 28.0,
+     "INGHAM - LIB": 387.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "TREASURE - LCWA",
+    "transfers": {
+     "MURPHY - IND": 215.0,
+     "HAMILTON - ALP": 232.0,
+     "WATTS - GRN": 145.0,
+     "INGHAM - LIB": 79.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MURPHY - IND",
+    "transfers": {
+     "HAMILTON - ALP": 455.0,
+     "WATTS - GRN": 341.0,
+     "INGHAM - LIB": 241.0
+    },
+    "exhausted": 6.0
+   },
+   {
+    "excluded_candidate": "WATTS - GRN",
+    "transfers": {
+     "HAMILTON - ALP": 1263.0,
+     "INGHAM - LIB": 459.0
+    },
+    "exhausted": 3.0
+   }
+  ],
+  "final_totals": {
+   "HAMILTON - ALP": 18150.0,
+   "INGHAM - LIB": 6137.0
+  },
+  "formal_votes": 24299
+ },
+ "Kalamunda": {
+  "candidates": [
+   {
+    "candidate_id": "TRIGWELL - LDP",
+    "name": "TRIGWELL - LDP",
+    "party": "LDP"
+   },
+   {
+    "candidate_id": "HUGHES - ALP",
+    "name": "HUGHES - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "ELLIS - WAXIT",
+    "name": "ELLIS - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "FANE - NMV",
+    "name": "FANE - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "MILES - GRN",
+    "name": "MILES - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "STALTARI - LIB",
+    "name": "STALTARI - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "PHELAN - WAP",
+    "name": "PHELAN - WAP",
+    "party": "WAP"
+   },
+   {
+    "candidate_id": "BUTTERS - PHON",
+    "name": "BUTTERS - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "WILLIAMS - ACP",
+    "name": "WILLIAMS - ACP",
+    "party": "ACP"
+   }
+  ],
+  "first_preferences": {
+   "TRIGWELL - LDP": 382.0,
+   "HUGHES - ALP": 13100.0,
+   "ELLIS - WAXIT": 74.0,
+   "FANE - NMV": 415.0,
+   "MILES - GRN": 2164.0,
+   "STALTARI - LIB": 8124.0,
+   "PHELAN - WAP": 267.0,
+   "BUTTERS - PHON": 372.0,
+   "WILLIAMS - ACP": 651.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "ELLIS - WAXIT",
+    "transfers": {
+     "TRIGWELL - LDP": 6.0,
+     "HUGHES - ALP": 22.0,
+     "FANE - NMV": 11.0,
+     "MILES - GRN": 4.0,
+     "STALTARI - LIB": 5.0,
+     "PHELAN - WAP": 18.0,
+     "BUTTERS - PHON": 5.0,
+     "WILLIAMS - ACP": 3.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "PHELAN - WAP",
+    "transfers": {
+     "TRIGWELL - LDP": 18.0,
+     "HUGHES - ALP": 76.0,
+     "FANE - NMV": 21.0,
+     "MILES - GRN": 25.0,
+     "STALTARI - LIB": 74.0,
+     "BUTTERS - PHON": 50.0,
+     "WILLIAMS - ACP": 21.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "TRIGWELL - LDP",
+    "transfers": {
+     "HUGHES - ALP": 171.0,
+     "FANE - NMV": 28.0,
+     "MILES - GRN": 43.0,
+     "STALTARI - LIB": 117.0,
+     "BUTTERS - PHON": 34.0,
+     "WILLIAMS - ACP": 13.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BUTTERS - PHON",
+    "transfers": {
+     "HUGHES - ALP": 108.0,
+     "FANE - NMV": 83.0,
+     "MILES - GRN": 43.0,
+     "STALTARI - LIB": 143.0,
+     "WILLIAMS - ACP": 84.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "FANE - NMV",
+    "transfers": {
+     "HUGHES - ALP": 117.0,
+     "MILES - GRN": 159.0,
+     "STALTARI - LIB": 87.0,
+     "WILLIAMS - ACP": 193.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "WILLIAMS - ACP",
+    "transfers": {
+     "HUGHES - ALP": 155.0,
+     "MILES - GRN": 130.0,
+     "STALTARI - LIB": 679.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "MILES - GRN",
+    "transfers": {
+     "HUGHES - ALP": 2032.0,
+     "STALTARI - LIB": 534.0
+    },
+    "exhausted": 2.0
+   }
+  ],
+  "final_totals": {
+   "HUGHES - ALP": 15781.0,
+   "STALTARI - LIB": 9763.0
+  },
+  "formal_votes": 25549
+ },
+ "Kalgoorlie": {
+  "candidates": [
+   {
+    "candidate_id": "RENNIE - LDP",
+    "name": "RENNIE - LDP",
+    "party": "LDP"
+   },
+   {
+    "candidate_id": "CARMODY - SFFP",
+    "name": "CARMODY - SFFP",
+    "party": "SFFP"
+   },
+   {
+    "candidate_id": "O'DONNELL - LIB",
+    "name": "O'DONNELL - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "REDREAU - PHON",
+    "name": "REDREAU - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "WALLACE - GRN",
+    "name": "WALLACE - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "BUYUKCAKAR - WAXIT",
+    "name": "BUYUKCAKAR - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "PIAZZA - NMV",
+    "name": "PIAZZA - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "OLSEN - NAT",
+    "name": "OLSEN - NAT",
+    "party": "NP"
+   },
+   {
+    "candidate_id": "KENT - ALP",
+    "name": "KENT - ALP",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "RENNIE - LDP": 217.0,
+   "CARMODY - SFFP": 465.0,
+   "O'DONNELL - LIB": 3695.0,
+   "REDREAU - PHON": 494.0,
+   "WALLACE - GRN": 328.0,
+   "BUYUKCAKAR - WAXIT": 31.0,
+   "PIAZZA - NMV": 140.0,
+   "OLSEN - NAT": 1608.0,
+   "KENT - ALP": 7782.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "BUYUKCAKAR - WAXIT",
+    "transfers": {
+     "RENNIE - LDP": 2.0,
+     "CARMODY - SFFP": 6.0,
+     "O'DONNELL - LIB": 1.0,
+     "REDREAU - PHON": 6.0,
+     "WALLACE - GRN": 4.0,
+     "PIAZZA - NMV": 5.0,
+     "OLSEN - NAT": 3.0,
+     "KENT - ALP": 4.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "PIAZZA - NMV",
+    "transfers": {
+     "RENNIE - LDP": 2.0,
+     "CARMODY - SFFP": 30.0,
+     "O'DONNELL - LIB": 15.0,
+     "REDREAU - PHON": 36.0,
+     "WALLACE - GRN": 26.0,
+     "OLSEN - NAT": 18.0,
+     "KENT - ALP": 17.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "RENNIE - LDP",
+    "transfers": {
+     "CARMODY - SFFP": 92.0,
+     "O'DONNELL - LIB": 64.0,
+     "REDREAU - PHON": 17.0,
+     "WALLACE - GRN": 5.0,
+     "OLSEN - NAT": 19.0,
+     "KENT - ALP": 24.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WALLACE - GRN",
+    "transfers": {
+     "CARMODY - SFFP": 40.0,
+     "O'DONNELL - LIB": 38.0,
+     "REDREAU - PHON": 27.0,
+     "OLSEN - NAT": 40.0,
+     "KENT - ALP": 218.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "REDREAU - PHON",
+    "transfers": {
+     "CARMODY - SFFP": 279.0,
+     "O'DONNELL - LIB": 123.0,
+     "OLSEN - NAT": 84.0,
+     "KENT - ALP": 93.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "CARMODY - SFFP",
+    "transfers": {
+     "O'DONNELL - LIB": 409.0,
+     "OLSEN - NAT": 255.0,
+     "KENT - ALP": 247.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "OLSEN - NAT",
+    "transfers": {
+     "O'DONNELL - LIB": 1256.0,
+     "KENT - ALP": 767.0
+    },
+    "exhausted": 4.0
+   }
+  ],
+  "final_totals": {
+   "O'DONNELL - LIB": 5601.0,
+   "KENT - ALP": 9152.0
+  },
+  "formal_votes": 14760
+ },
+ "Kimberley": {
+  "candidates": [
+   {
+    "candidate_id": "HAEREWA - LIB",
+    "name": "HAEREWA - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "JONES - IND",
+    "name": "JONES - IND",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "MODOLO - PHON",
+    "name": "MODOLO - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "HERMAN - NMV",
+    "name": "HERMAN - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "HILLS - NAT",
+    "name": "HILLS - NAT",
+    "party": "NP"
+   },
+   {
+    "candidate_id": "D'ANNA - ALP",
+    "name": "D'ANNA - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "FEHLAUER - WAP",
+    "name": "FEHLAUER - WAP",
+    "party": "WAP"
+   },
+   {
+    "candidate_id": "PIGRAM - GRN",
+    "name": "PIGRAM - GRN",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "HAEREWA - LIB": 2187.0,
+   "JONES - IND": 98.0,
+   "MODOLO - PHON": 221.0,
+   "HERMAN - NMV": 85.0,
+   "HILLS - NAT": 658.0,
+   "D'ANNA - ALP": 5747.0,
+   "FEHLAUER - WAP": 68.0,
+   "PIGRAM - GRN": 1601.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "FEHLAUER - WAP",
+    "transfers": {
+     "HAEREWA - LIB": 12.0,
+     "JONES - IND": 6.0,
+     "MODOLO - PHON": 8.0,
+     "HERMAN - NMV": 3.0,
+     "HILLS - NAT": 8.0,
+     "D'ANNA - ALP": 21.0,
+     "PIGRAM - GRN": 10.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HERMAN - NMV",
+    "transfers": {
+     "HAEREWA - LIB": 9.0,
+     "JONES - IND": 11.0,
+     "MODOLO - PHON": 27.0,
+     "HILLS - NAT": 4.0,
+     "D'ANNA - ALP": 17.0,
+     "PIGRAM - GRN": 19.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "JONES - IND",
+    "transfers": {
+     "HAEREWA - LIB": 23.0,
+     "MODOLO - PHON": 18.0,
+     "HILLS - NAT": 24.0,
+     "D'ANNA - ALP": 31.0,
+     "PIGRAM - GRN": 18.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "MODOLO - PHON",
+    "transfers": {
+     "HAEREWA - LIB": 109.0,
+     "HILLS - NAT": 84.0,
+     "D'ANNA - ALP": 50.0,
+     "PIGRAM - GRN": 31.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HILLS - NAT",
+    "transfers": {
+     "HAEREWA - LIB": 435.0,
+     "D'ANNA - ALP": 228.0,
+     "PIGRAM - GRN": 114.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "PIGRAM - GRN",
+    "transfers": {
+     "HAEREWA - LIB": 269.0,
+     "D'ANNA - ALP": 1524.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "HAEREWA - LIB": 3044.0,
+   "D'ANNA - ALP": 7618.0
+  },
+  "formal_votes": 10665
+ },
+ "Kingsley": {
+  "candidates": [
+   {
+    "candidate_id": "WEBBER - PHON",
+    "name": "WEBBER - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "STOJKOVSKI - ALP",
+    "name": "STOJKOVSKI - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "CRAWFORD - NMV",
+    "name": "CRAWFORD - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "EDWARDES - LIB",
+    "name": "EDWARDES - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "TRIPP - GRN",
+    "name": "TRIPP - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "McGARRY - WAXIT",
+    "name": "McGARRY - WAXIT",
+    "party": "WAXIT"
+   }
+  ],
+  "first_preferences": {
+   "WEBBER - PHON": 436.0,
+   "STOJKOVSKI - ALP": 15883.0,
+   "CRAWFORD - NMV": 373.0,
+   "EDWARDES - LIB": 7925.0,
+   "TRIPP - GRN": 1461.0,
+   "McGARRY - WAXIT": 164.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "McGARRY - WAXIT",
+    "transfers": {
+     "WEBBER - PHON": 28.0,
+     "STOJKOVSKI - ALP": 55.0,
+     "CRAWFORD - NMV": 9.0,
+     "EDWARDES - LIB": 38.0,
+     "TRIPP - GRN": 32.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "CRAWFORD - NMV",
+    "transfers": {
+     "WEBBER - PHON": 162.0,
+     "STOJKOVSKI - ALP": 64.0,
+     "EDWARDES - LIB": 83.0,
+     "TRIPP - GRN": 71.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "WEBBER - PHON",
+    "transfers": {
+     "STOJKOVSKI - ALP": 236.0,
+     "EDWARDES - LIB": 267.0,
+     "TRIPP - GRN": 121.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "TRIPP - GRN",
+    "transfers": {
+     "STOJKOVSKI - ALP": 1310.0,
+     "EDWARDES - LIB": 374.0
+    },
+    "exhausted": 1.0
+   }
+  ],
+  "final_totals": {
+   "STOJKOVSKI - ALP": 17548.0,
+   "EDWARDES - LIB": 8687.0
+  },
+  "formal_votes": 26242
+ },
+ "Kwinana": {
+  "candidates": [
+   {
+    "candidate_id": "SUMMERELL - PHON",
+    "name": "SUMMERELL - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "BURNET - WAXIT",
+    "name": "BURNET - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "TALBOT - LIB",
+    "name": "TALBOT - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "DEVARAPALLI - WAP",
+    "name": "DEVARAPALLI - WAP",
+    "party": "WAP"
+   },
+   {
+    "candidate_id": "RICKERT - GRN",
+    "name": "RICKERT - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "VELLNAGEL - LDP",
+    "name": "VELLNAGEL - LDP",
+    "party": "LDP"
+   },
+   {
+    "candidate_id": "COOK - ALP",
+    "name": "COOK - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "PORTELLI - NMV",
+    "name": "PORTELLI - NMV",
+    "party": "NMV"
+   }
+  ],
+  "first_preferences": {
+   "SUMMERELL - PHON": 699.0,
+   "BURNET - WAXIT": 208.0,
+   "TALBOT - LIB": 2533.0,
+   "DEVARAPALLI - WAP": 165.0,
+   "RICKERT - GRN": 1189.0,
+   "VELLNAGEL - LDP": 175.0,
+   "COOK - ALP": 17936.0,
+   "PORTELLI - NMV": 405.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "DEVARAPALLI - WAP",
+    "transfers": {
+     "SUMMERELL - PHON": 25.0,
+     "BURNET - WAXIT": 18.0,
+     "TALBOT - LIB": 31.0,
+     "RICKERT - GRN": 20.0,
+     "VELLNAGEL - LDP": 17.0,
+     "COOK - ALP": 47.0,
+     "PORTELLI - NMV": 7.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "VELLNAGEL - LDP",
+    "transfers": {
+     "SUMMERELL - PHON": 27.0,
+     "BURNET - WAXIT": 9.0,
+     "TALBOT - LIB": 57.0,
+     "RICKERT - GRN": 17.0,
+     "COOK - ALP": 68.0,
+     "PORTELLI - NMV": 13.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "BURNET - WAXIT",
+    "transfers": {
+     "SUMMERELL - PHON": 68.0,
+     "TALBOT - LIB": 42.0,
+     "RICKERT - GRN": 29.0,
+     "COOK - ALP": 73.0,
+     "PORTELLI - NMV": 22.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "PORTELLI - NMV",
+    "transfers": {
+     "SUMMERELL - PHON": 172.0,
+     "TALBOT - LIB": 48.0,
+     "RICKERT - GRN": 88.0,
+     "COOK - ALP": 139.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SUMMERELL - PHON",
+    "transfers": {
+     "TALBOT - LIB": 545.0,
+     "RICKERT - GRN": 150.0,
+     "COOK - ALP": 293.0
+    },
+    "exhausted": 3.0
+   },
+   {
+    "excluded_candidate": "RICKERT - GRN",
+    "transfers": {
+     "TALBOT - LIB": 294.0,
+     "COOK - ALP": 1198.0
+    },
+    "exhausted": 1.0
+   }
+  ],
+  "final_totals": {
+   "TALBOT - LIB": 3550.0,
+   "COOK - ALP": 19754.0
+  },
+  "formal_votes": 23310
+ },
+ "Landsdale": {
+  "candidates": [
+   {
+    "candidate_id": "DESAI - WAP",
+    "name": "DESAI - WAP",
+    "party": "WAP"
+   },
+   {
+    "candidate_id": "DOOBREE - WAXIT",
+    "name": "DOOBREE - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "RAPONI - LIB",
+    "name": "RAPONI - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "BEEDHAM - NMV",
+    "name": "BEEDHAM - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "HOUSE - GRN",
+    "name": "HOUSE - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "QUIRK - ALP",
+    "name": "QUIRK - ALP",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "DESAI - WAP": 878.0,
+   "DOOBREE - WAXIT": 236.0,
+   "RAPONI - LIB": 5293.0,
+   "BEEDHAM - NMV": 579.0,
+   "HOUSE - GRN": 1090.0,
+   "QUIRK - ALP": 18217.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "DOOBREE - WAXIT",
+    "transfers": {
+     "DESAI - WAP": 84.0,
+     "RAPONI - LIB": 36.0,
+     "BEEDHAM - NMV": 32.0,
+     "HOUSE - GRN": 20.0,
+     "QUIRK - ALP": 64.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BEEDHAM - NMV",
+    "transfers": {
+     "DESAI - WAP": 171.0,
+     "RAPONI - LIB": 176.0,
+     "HOUSE - GRN": 116.0,
+     "QUIRK - ALP": 148.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "DESAI - WAP",
+    "transfers": {
+     "RAPONI - LIB": 595.0,
+     "HOUSE - GRN": 168.0,
+     "QUIRK - ALP": 368.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "HOUSE - GRN",
+    "transfers": {
+     "RAPONI - LIB": 371.0,
+     "QUIRK - ALP": 1023.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "RAPONI - LIB": 6471.0,
+   "QUIRK - ALP": 19820.0
+  },
+  "formal_votes": 26293
+ },
+ "Mandurah": {
+  "candidates": [
+   {
+    "candidate_id": "BLEVIN - SFFP",
+    "name": "BLEVIN - SFFP",
+    "party": "SFFP"
+   },
+   {
+    "candidate_id": "ORTHEIL - NAT",
+    "name": "ORTHEIL - NAT",
+    "party": "NP"
+   },
+   {
+    "candidate_id": "TURNER - GRN",
+    "name": "TURNER - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "BURNS - LIB",
+    "name": "BURNS - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "REGTERSCHOT - PHON",
+    "name": "REGTERSCHOT - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "TEMPLEMAN - ALP",
+    "name": "TEMPLEMAN - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "TIMIS - WAXIT",
+    "name": "TIMIS - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "SPINOLA - NMV",
+    "name": "SPINOLA - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "SUMMERS - SAPSOC",
+    "name": "SUMMERS - SAPSOC",
+    "party": "SAPSOC"
+   },
+   {
+    "candidate_id": "FARBEY - IND",
+    "name": "FARBEY - IND",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "BEATON - LCWA",
+    "name": "BEATON - LCWA",
+    "party": "LCWA"
+   }
+  ],
+  "first_preferences": {
+   "BLEVIN - SFFP": 531.0,
+   "ORTHEIL - NAT": 144.0,
+   "TURNER - GRN": 726.0,
+   "BURNS - LIB": 4875.0,
+   "REGTERSCHOT - PHON": 388.0,
+   "TEMPLEMAN - ALP": 16776.0,
+   "TIMIS - WAXIT": 60.0,
+   "SPINOLA - NMV": 214.0,
+   "SUMMERS - SAPSOC": 117.0,
+   "FARBEY - IND": 177.0,
+   "BEATON - LCWA": 412.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "TIMIS - WAXIT",
+    "transfers": {
+     "BLEVIN - SFFP": 9.0,
+     "ORTHEIL - NAT": 1.0,
+     "TURNER - GRN": 3.0,
+     "BURNS - LIB": 6.0,
+     "REGTERSCHOT - PHON": 4.0,
+     "TEMPLEMAN - ALP": 16.0,
+     "SPINOLA - NMV": 7.0,
+     "SUMMERS - SAPSOC": 3.0,
+     "FARBEY - IND": 3.0,
+     "BEATON - LCWA": 8.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SUMMERS - SAPSOC",
+    "transfers": {
+     "BLEVIN - SFFP": 8.0,
+     "ORTHEIL - NAT": 1.0,
+     "TURNER - GRN": 15.0,
+     "BURNS - LIB": 18.0,
+     "REGTERSCHOT - PHON": 9.0,
+     "TEMPLEMAN - ALP": 19.0,
+     "SPINOLA - NMV": 19.0,
+     "FARBEY - IND": 18.0,
+     "BEATON - LCWA": 13.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "ORTHEIL - NAT",
+    "transfers": {
+     "BLEVIN - SFFP": 28.0,
+     "TURNER - GRN": 6.0,
+     "BURNS - LIB": 80.0,
+     "REGTERSCHOT - PHON": 11.0,
+     "TEMPLEMAN - ALP": 10.0,
+     "SPINOLA - NMV": 3.0,
+     "FARBEY - IND": 6.0,
+     "BEATON - LCWA": 2.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "FARBEY - IND",
+    "transfers": {
+     "BLEVIN - SFFP": 21.0,
+     "TURNER - GRN": 26.0,
+     "BURNS - LIB": 27.0,
+     "REGTERSCHOT - PHON": 11.0,
+     "TEMPLEMAN - ALP": 63.0,
+     "SPINOLA - NMV": 12.0,
+     "BEATON - LCWA": 43.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "SPINOLA - NMV",
+    "transfers": {
+     "BLEVIN - SFFP": 34.0,
+     "TURNER - GRN": 26.0,
+     "BURNS - LIB": 30.0,
+     "REGTERSCHOT - PHON": 38.0,
+     "TEMPLEMAN - ALP": 45.0,
+     "BEATON - LCWA": 82.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "REGTERSCHOT - PHON",
+    "transfers": {
+     "BLEVIN - SFFP": 177.0,
+     "TURNER - GRN": 26.0,
+     "BURNS - LIB": 109.0,
+     "TEMPLEMAN - ALP": 82.0,
+     "BEATON - LCWA": 67.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BEATON - LCWA",
+    "transfers": {
+     "BLEVIN - SFFP": 202.0,
+     "TURNER - GRN": 129.0,
+     "BURNS - LIB": 71.0,
+     "TEMPLEMAN - ALP": 224.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "TURNER - GRN",
+    "transfers": {
+     "BLEVIN - SFFP": 169.0,
+     "BURNS - LIB": 131.0,
+     "TEMPLEMAN - ALP": 656.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "BLEVIN - SFFP",
+    "transfers": {
+     "BURNS - LIB": 702.0,
+     "TEMPLEMAN - ALP": 477.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "BURNS - LIB": 6049.0,
+   "TEMPLEMAN - ALP": 18368.0
+  },
+  "formal_votes": 24420
+ },
+ "Maylands": {
+  "candidates": [
+   {
+    "candidate_id": "ADDINK - NMV",
+    "name": "ADDINK - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "BAKER - ALP",
+    "name": "BAKER - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "BAKER - WAXIT",
+    "name": "BAKER - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "ANDREEVA - PHON",
+    "name": "ANDREEVA - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "PRINGLE - GRN",
+    "name": "PRINGLE - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "IEMMA - LIB",
+    "name": "IEMMA - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "BURNETT - ACP",
+    "name": "BURNETT - ACP",
+    "party": "ACP"
+   }
+  ],
+  "first_preferences": {
+   "ADDINK - NMV": 528.0,
+   "BAKER - ALP": 15303.0,
+   "BAKER - WAXIT": 226.0,
+   "ANDREEVA - PHON": 339.0,
+   "PRINGLE - GRN": 3985.0,
+   "IEMMA - LIB": 3848.0,
+   "BURNETT - ACP": 449.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "BAKER - WAXIT",
+    "transfers": {
+     "ADDINK - NMV": 28.0,
+     "BAKER - ALP": 81.0,
+     "ANDREEVA - PHON": 38.0,
+     "PRINGLE - GRN": 41.0,
+     "IEMMA - LIB": 29.0,
+     "BURNETT - ACP": 8.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "ANDREEVA - PHON",
+    "transfers": {
+     "ADDINK - NMV": 67.0,
+     "BAKER - ALP": 101.0,
+     "PRINGLE - GRN": 40.0,
+     "IEMMA - LIB": 111.0,
+     "BURNETT - ACP": 55.0
+    },
+    "exhausted": 3.0
+   },
+   {
+    "excluded_candidate": "BURNETT - ACP",
+    "transfers": {
+     "ADDINK - NMV": 86.0,
+     "BAKER - ALP": 92.0,
+     "PRINGLE - GRN": 45.0,
+     "IEMMA - LIB": 289.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "ADDINK - NMV",
+    "transfers": {
+     "BAKER - ALP": 314.0,
+     "PRINGLE - GRN": 184.0,
+     "IEMMA - LIB": 207.0
+    },
+    "exhausted": 4.0
+   },
+   {
+    "excluded_candidate": "PRINGLE - GRN",
+    "transfers": {
+     "BAKER - ALP": 3675.0,
+     "IEMMA - LIB": 619.0
+    },
+    "exhausted": 1.0
+   }
+  ],
+  "final_totals": {
+   "BAKER - ALP": 19566.0,
+   "IEMMA - LIB": 5103.0
+  },
+  "formal_votes": 24678
+ },
+ "Midland": {
+  "candidates": [
+   {
+    "candidate_id": "NABATE - ACP",
+    "name": "NABATE - ACP",
+    "party": "ACP"
+   },
+   {
+    "candidate_id": "STURCKE - GRN",
+    "name": "STURCKE - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "KELLY - NMV",
+    "name": "KELLY - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "ROBERTS - ALP",
+    "name": "ROBERTS - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "BEDFORD - WAP",
+    "name": "BEDFORD - WAP",
+    "party": "WAP"
+   },
+   {
+    "candidate_id": "CICCHINI - LIB",
+    "name": "CICCHINI - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "OLOW - PHON",
+    "name": "OLOW - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "BHASIN - WAXIT",
+    "name": "BHASIN - WAXIT",
+    "party": "WAXIT"
+   }
+  ],
+  "first_preferences": {
+   "NABATE - ACP": 685.0,
+   "STURCKE - GRN": 1697.0,
+   "KELLY - NMV": 399.0,
+   "ROBERTS - ALP": 16684.0,
+   "BEDFORD - WAP": 360.0,
+   "CICCHINI - LIB": 4892.0,
+   "OLOW - PHON": 545.0,
+   "BHASIN - WAXIT": 104.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "BHASIN - WAXIT",
+    "transfers": {
+     "NABATE - ACP": 8.0,
+     "STURCKE - GRN": 10.0,
+     "KELLY - NMV": 4.0,
+     "ROBERTS - ALP": 28.0,
+     "BEDFORD - WAP": 17.0,
+     "CICCHINI - LIB": 11.0,
+     "OLOW - PHON": 25.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "BEDFORD - WAP",
+    "transfers": {
+     "NABATE - ACP": 26.0,
+     "STURCKE - GRN": 58.0,
+     "KELLY - NMV": 39.0,
+     "ROBERTS - ALP": 116.0,
+     "CICCHINI - LIB": 90.0,
+     "OLOW - PHON": 48.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "KELLY - NMV",
+    "transfers": {
+     "NABATE - ACP": 71.0,
+     "STURCKE - GRN": 94.0,
+     "ROBERTS - ALP": 81.0,
+     "CICCHINI - LIB": 53.0,
+     "OLOW - PHON": 141.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "OLOW - PHON",
+    "transfers": {
+     "NABATE - ACP": 197.0,
+     "STURCKE - GRN": 79.0,
+     "ROBERTS - ALP": 220.0,
+     "CICCHINI - LIB": 262.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "NABATE - ACP",
+    "transfers": {
+     "STURCKE - GRN": 251.0,
+     "ROBERTS - ALP": 201.0,
+     "CICCHINI - LIB": 525.0
+    },
+    "exhausted": 10.0
+   },
+   {
+    "excluded_candidate": "STURCKE - GRN",
+    "transfers": {
+     "ROBERTS - ALP": 1801.0,
+     "CICCHINI - LIB": 388.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "ROBERTS - ALP": 19131.0,
+   "CICCHINI - LIB": 6221.0
+  },
+  "formal_votes": 25366
+ },
+ "Mirrabooka": {
+  "candidates": [
+   {
+    "candidate_id": "MABOOD - PHON",
+    "name": "MABOOD - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "DUNNE - IND",
+    "name": "DUNNE - IND",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "MUBARAK - IND",
+    "name": "MUBARAK - IND",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "COOPER - GRN",
+    "name": "COOPER - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "HAMMAT - ALP",
+    "name": "HAMMAT - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "RANDALL - ACP",
+    "name": "RANDALL - ACP",
+    "party": "ACP"
+   },
+   {
+    "candidate_id": "SAWMADAL - LIB",
+    "name": "SAWMADAL - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "CHHINA - WAXIT",
+    "name": "CHHINA - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "AYRE - NMV",
+    "name": "AYRE - NMV",
+    "party": "NMV"
+   }
+  ],
+  "first_preferences": {
+   "MABOOD - PHON": 939.0,
+   "DUNNE - IND": 257.0,
+   "MUBARAK - IND": 200.0,
+   "COOPER - GRN": 1333.0,
+   "HAMMAT - ALP": 16173.0,
+   "RANDALL - ACP": 790.0,
+   "SAWMADAL - LIB": 2276.0,
+   "CHHINA - WAXIT": 140.0,
+   "AYRE - NMV": 477.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "CHHINA - WAXIT",
+    "transfers": {
+     "MABOOD - PHON": 16.0,
+     "DUNNE - IND": 7.0,
+     "MUBARAK - IND": 7.0,
+     "COOPER - GRN": 11.0,
+     "HAMMAT - ALP": 40.0,
+     "RANDALL - ACP": 13.0,
+     "SAWMADAL - LIB": 27.0,
+     "AYRE - NMV": 19.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MUBARAK - IND",
+    "transfers": {
+     "MABOOD - PHON": 36.0,
+     "DUNNE - IND": 58.0,
+     "COOPER - GRN": 34.0,
+     "HAMMAT - ALP": 45.0,
+     "RANDALL - ACP": 15.0,
+     "SAWMADAL - LIB": 10.0,
+     "AYRE - NMV": 8.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "DUNNE - IND",
+    "transfers": {
+     "MABOOD - PHON": 81.0,
+     "COOPER - GRN": 83.0,
+     "HAMMAT - ALP": 82.0,
+     "RANDALL - ACP": 23.0,
+     "SAWMADAL - LIB": 30.0,
+     "AYRE - NMV": 21.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "AYRE - NMV",
+    "transfers": {
+     "MABOOD - PHON": 153.0,
+     "COOPER - GRN": 89.0,
+     "HAMMAT - ALP": 110.0,
+     "RANDALL - ACP": 63.0,
+     "SAWMADAL - LIB": 107.0
+    },
+    "exhausted": 3.0
+   },
+   {
+    "excluded_candidate": "RANDALL - ACP",
+    "transfers": {
+     "MABOOD - PHON": 174.0,
+     "COOPER - GRN": 71.0,
+     "HAMMAT - ALP": 199.0,
+     "SAWMADAL - LIB": 460.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MABOOD - PHON",
+    "transfers": {
+     "COOPER - GRN": 657.0,
+     "HAMMAT - ALP": 388.0,
+     "SAWMADAL - LIB": 334.0
+    },
+    "exhausted": 20.0
+   },
+   {
+    "excluded_candidate": "COOPER - GRN",
+    "transfers": {
+     "HAMMAT - ALP": 1841.0,
+     "SAWMADAL - LIB": 432.0
+    },
+    "exhausted": 5.0
+   }
+  ],
+  "final_totals": {
+   "HAMMAT - ALP": 18878.0,
+   "SAWMADAL - LIB": 3676.0
+  },
+  "formal_votes": 22585
+ },
+ "Moore": {
+  "candidates": [
+   {
+    "candidate_id": "SLYNS - LIB",
+    "name": "SLYNS - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "LOVE - NAT",
+    "name": "LOVE - NAT",
+    "party": "NP"
+   },
+   {
+    "candidate_id": "BANKA - WAXIT",
+    "name": "BANKA - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "FRIZZELL - PHON",
+    "name": "FRIZZELL - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "ASMUTAITIS - NMV",
+    "name": "ASMUTAITIS - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "NORTON - ALP",
+    "name": "NORTON - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "WILLIAMSON - SFFP",
+    "name": "WILLIAMSON - SFFP",
+    "party": "SFFP"
+   },
+   {
+    "candidate_id": "SPITTLES - GRN",
+    "name": "SPITTLES - GRN",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "SLYNS - LIB": 3701.0,
+   "LOVE - NAT": 8353.0,
+   "BANKA - WAXIT": 86.0,
+   "FRIZZELL - PHON": 579.0,
+   "ASMUTAITIS - NMV": 233.0,
+   "NORTON - ALP": 7432.0,
+   "WILLIAMSON - SFFP": 984.0,
+   "SPITTLES - GRN": 638.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "BANKA - WAXIT",
+    "transfers": {
+     "SLYNS - LIB": 11.0,
+     "LOVE - NAT": 23.0,
+     "FRIZZELL - PHON": 12.0,
+     "ASMUTAITIS - NMV": 8.0,
+     "NORTON - ALP": 14.0,
+     "WILLIAMSON - SFFP": 10.0,
+     "SPITTLES - GRN": 8.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "ASMUTAITIS - NMV",
+    "transfers": {
+     "SLYNS - LIB": 16.0,
+     "LOVE - NAT": 31.0,
+     "FRIZZELL - PHON": 85.0,
+     "NORTON - ALP": 23.0,
+     "WILLIAMSON - SFFP": 59.0,
+     "SPITTLES - GRN": 27.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SPITTLES - GRN",
+    "transfers": {
+     "SLYNS - LIB": 51.0,
+     "LOVE - NAT": 103.0,
+     "FRIZZELL - PHON": 21.0,
+     "NORTON - ALP": 394.0,
+     "WILLIAMSON - SFFP": 104.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "FRIZZELL - PHON",
+    "transfers": {
+     "SLYNS - LIB": 98.0,
+     "LOVE - NAT": 198.0,
+     "NORTON - ALP": 129.0,
+     "WILLIAMSON - SFFP": 272.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WILLIAMSON - SFFP",
+    "transfers": {
+     "SLYNS - LIB": 296.0,
+     "LOVE - NAT": 617.0,
+     "NORTON - ALP": 515.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "SLYNS - LIB",
+    "transfers": {
+     "LOVE - NAT": 3545.0,
+     "NORTON - ALP": 625.0
+    },
+    "exhausted": 3.0
+   }
+  ],
+  "final_totals": {
+   "LOVE - NAT": 12870.0,
+   "NORTON - ALP": 9132.0
+  },
+  "formal_votes": 22006
+ },
+ "Morley": {
+  "candidates": [
+   {
+    "candidate_id": "WELLS - ACP",
+    "name": "WELLS - ACP",
+    "party": "ACP"
+   },
+   {
+    "candidate_id": "SETH - LIB",
+    "name": "SETH - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "SCULLY - PHON",
+    "name": "SCULLY - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "SINGH - WAXIT",
+    "name": "SINGH - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "MARCINKOWSKI - GRN",
+    "name": "MARCINKOWSKI - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "KERSLAKE - NMV",
+    "name": "KERSLAKE - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "SANDERSON - ALP",
+    "name": "SANDERSON - ALP",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "WELLS - ACP": 815.0,
+   "SETH - LIB": 3931.0,
+   "SCULLY - PHON": 452.0,
+   "SINGH - WAXIT": 217.0,
+   "MARCINKOWSKI - GRN": 1525.0,
+   "KERSLAKE - NMV": 396.0,
+   "SANDERSON - ALP": 17447.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "SINGH - WAXIT",
+    "transfers": {
+     "WELLS - ACP": 23.0,
+     "SETH - LIB": 37.0,
+     "SCULLY - PHON": 30.0,
+     "MARCINKOWSKI - GRN": 35.0,
+     "KERSLAKE - NMV": 21.0,
+     "SANDERSON - ALP": 66.0
+    },
+    "exhausted": 5.0
+   },
+   {
+    "excluded_candidate": "KERSLAKE - NMV",
+    "transfers": {
+     "WELLS - ACP": 57.0,
+     "SETH - LIB": 42.0,
+     "SCULLY - PHON": 98.0,
+     "MARCINKOWSKI - GRN": 93.0,
+     "SANDERSON - ALP": 127.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SCULLY - PHON",
+    "transfers": {
+     "WELLS - ACP": 173.0,
+     "SETH - LIB": 177.0,
+     "MARCINKOWSKI - GRN": 91.0,
+     "SANDERSON - ALP": 139.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WELLS - ACP",
+    "transfers": {
+     "SETH - LIB": 732.0,
+     "MARCINKOWSKI - GRN": 116.0,
+     "SANDERSON - ALP": 213.0
+    },
+    "exhausted": 7.0
+   },
+   {
+    "excluded_candidate": "MARCINKOWSKI - GRN",
+    "transfers": {
+     "SETH - LIB": 392.0,
+     "SANDERSON - ALP": 1466.0
+    },
+    "exhausted": 2.0
+   }
+  ],
+  "final_totals": {
+   "SETH - LIB": 5311.0,
+   "SANDERSON - ALP": 19458.0
+  },
+  "formal_votes": 24783
+ },
+ "Mount Lawley": {
+  "candidates": [
+   {
+    "candidate_id": "WATT - NMV",
+    "name": "WATT - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "JOUBERT - ACP",
+    "name": "JOUBERT - ACP",
+    "party": "ACP"
+   },
+   {
+    "candidate_id": "MIGDALE - LIB",
+    "name": "MIGDALE - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "MILLMAN - ALP",
+    "name": "MILLMAN - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "GOODRICK - WAP",
+    "name": "GOODRICK - WAP",
+    "party": "WAP"
+   },
+   {
+    "candidate_id": "SANGHA - WAXIT",
+    "name": "SANGHA - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "SCHAAL - PHON",
+    "name": "SCHAAL - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "NICOL - GRN",
+    "name": "NICOL - GRN",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "WATT - NMV": 549.0,
+   "JOUBERT - ACP": 425.0,
+   "MIGDALE - LIB": 5807.0,
+   "MILLMAN - ALP": 14653.0,
+   "GOODRICK - WAP": 321.0,
+   "SANGHA - WAXIT": 108.0,
+   "SCHAAL - PHON": 203.0,
+   "NICOL - GRN": 2768.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "SANGHA - WAXIT",
+    "transfers": {
+     "WATT - NMV": 9.0,
+     "JOUBERT - ACP": 11.0,
+     "MIGDALE - LIB": 18.0,
+     "MILLMAN - ALP": 32.0,
+     "GOODRICK - WAP": 13.0,
+     "SCHAAL - PHON": 12.0,
+     "NICOL - GRN": 13.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SCHAAL - PHON",
+    "transfers": {
+     "WATT - NMV": 35.0,
+     "JOUBERT - ACP": 18.0,
+     "MIGDALE - LIB": 52.0,
+     "MILLMAN - ALP": 40.0,
+     "GOODRICK - WAP": 45.0,
+     "NICOL - GRN": 25.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "GOODRICK - WAP",
+    "transfers": {
+     "WATT - NMV": 40.0,
+     "JOUBERT - ACP": 42.0,
+     "MIGDALE - LIB": 100.0,
+     "MILLMAN - ALP": 131.0,
+     "NICOL - GRN": 65.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "JOUBERT - ACP",
+    "transfers": {
+     "WATT - NMV": 106.0,
+     "MIGDALE - LIB": 257.0,
+     "MILLMAN - ALP": 97.0,
+     "NICOL - GRN": 36.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WATT - NMV",
+    "transfers": {
+     "MIGDALE - LIB": 335.0,
+     "MILLMAN - ALP": 182.0,
+     "NICOL - GRN": 221.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "NICOL - GRN",
+    "transfers": {
+     "MIGDALE - LIB": 494.0,
+     "MILLMAN - ALP": 2633.0
+    },
+    "exhausted": 1.0
+   }
+  ],
+  "final_totals": {
+   "MIGDALE - LIB": 7063.0,
+   "MILLMAN - ALP": 17768.0
+  },
+  "formal_votes": 24834
+ },
+ "Murray-Wellington": {
+  "candidates": [
+   {
+    "candidate_id": "CARNEY - LCWA",
+    "name": "CARNEY - LCWA",
+    "party": "LCWA"
+   },
+   {
+    "candidate_id": "McCALL - SFFP",
+    "name": "McCALL - SFFP",
+    "party": "SFFP"
+   },
+   {
+    "candidate_id": "BOYLAN - LIB",
+    "name": "BOYLAN - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "WANSBROUGH - PHON",
+    "name": "WANSBROUGH - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "BROWN - SAPSOC",
+    "name": "BROWN - SAPSOC",
+    "party": "SAPSOC"
+   },
+   {
+    "candidate_id": "GOLEM - WAXIT",
+    "name": "GOLEM - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "STASZEWSKI - LDP",
+    "name": "STASZEWSKI - LDP",
+    "party": "LDP"
+   },
+   {
+    "candidate_id": "PUCCIO - GRN",
+    "name": "PUCCIO - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "CLARKE - ALP",
+    "name": "CLARKE - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "HERRIOT - NMV",
+    "name": "HERRIOT - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "LEMMEY - NAT",
+    "name": "LEMMEY - NAT",
+    "party": "NP"
+   }
+  ],
+  "first_preferences": {
+   "CARNEY - LCWA": 726.0,
+   "McCALL - SFFP": 1149.0,
+   "BOYLAN - LIB": 6099.0,
+   "WANSBROUGH - PHON": 513.0,
+   "BROWN - SAPSOC": 164.0,
+   "GOLEM - WAXIT": 66.0,
+   "STASZEWSKI - LDP": 110.0,
+   "PUCCIO - GRN": 706.0,
+   "CLARKE - ALP": 14486.0,
+   "HERRIOT - NMV": 281.0,
+   "LEMMEY - NAT": 728.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "GOLEM - WAXIT",
+    "transfers": {
+     "CARNEY - LCWA": 8.0,
+     "McCALL - SFFP": 7.0,
+     "BOYLAN - LIB": 10.0,
+     "WANSBROUGH - PHON": 7.0,
+     "BROWN - SAPSOC": 6.0,
+     "STASZEWSKI - LDP": 2.0,
+     "PUCCIO - GRN": 7.0,
+     "CLARKE - ALP": 10.0,
+     "HERRIOT - NMV": 4.0,
+     "LEMMEY - NAT": 5.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "STASZEWSKI - LDP",
+    "transfers": {
+     "CARNEY - LCWA": 9.0,
+     "McCALL - SFFP": 9.0,
+     "BOYLAN - LIB": 23.0,
+     "WANSBROUGH - PHON": 8.0,
+     "BROWN - SAPSOC": 4.0,
+     "PUCCIO - GRN": 15.0,
+     "CLARKE - ALP": 19.0,
+     "HERRIOT - NMV": 6.0,
+     "LEMMEY - NAT": 19.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BROWN - SAPSOC",
+    "transfers": {
+     "CARNEY - LCWA": 20.0,
+     "McCALL - SFFP": 17.0,
+     "BOYLAN - LIB": 23.0,
+     "WANSBROUGH - PHON": 20.0,
+     "PUCCIO - GRN": 34.0,
+     "CLARKE - ALP": 40.0,
+     "HERRIOT - NMV": 8.0,
+     "LEMMEY - NAT": 12.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HERRIOT - NMV",
+    "transfers": {
+     "CARNEY - LCWA": 69.0,
+     "McCALL - SFFP": 49.0,
+     "BOYLAN - LIB": 23.0,
+     "WANSBROUGH - PHON": 60.0,
+     "PUCCIO - GRN": 32.0,
+     "CLARKE - ALP": 40.0,
+     "LEMMEY - NAT": 24.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "WANSBROUGH - PHON",
+    "transfers": {
+     "CARNEY - LCWA": 89.0,
+     "McCALL - SFFP": 214.0,
+     "BOYLAN - LIB": 111.0,
+     "PUCCIO - GRN": 36.0,
+     "CLARKE - ALP": 85.0,
+     "LEMMEY - NAT": 71.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "PUCCIO - GRN",
+    "transfers": {
+     "CARNEY - LCWA": 198.0,
+     "McCALL - SFFP": 53.0,
+     "BOYLAN - LIB": 69.0,
+     "CLARKE - ALP": 461.0,
+     "LEMMEY - NAT": 48.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "LEMMEY - NAT",
+    "transfers": {
+     "CARNEY - LCWA": 50.0,
+     "McCALL - SFFP": 120.0,
+     "BOYLAN - LIB": 531.0,
+     "CLARKE - ALP": 206.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "CARNEY - LCWA",
+    "transfers": {
+     "McCALL - SFFP": 576.0,
+     "BOYLAN - LIB": 159.0,
+     "CLARKE - ALP": 424.0
+    },
+    "exhausted": 10.0
+   },
+   {
+    "excluded_candidate": "McCALL - SFFP",
+    "transfers": {
+     "BOYLAN - LIB": 1145.0,
+     "CLARKE - ALP": 1045.0
+    },
+    "exhausted": 4.0
+   }
+  ],
+  "final_totals": {
+   "BOYLAN - LIB": 8193.0,
+   "CLARKE - ALP": 16816.0
+  },
+  "formal_votes": 25028
+ },
+ "Nedlands": {
+  "candidates": [
+   {
+    "candidate_id": "FORREST - NMV",
+    "name": "FORREST - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "ARGYLE - IND",
+    "name": "ARGYLE - IND",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "JENNINGS - WAXIT",
+    "name": "JENNINGS - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "MANGANO - IND",
+    "name": "MANGANO - IND",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "STRATTON - ALP",
+    "name": "STRATTON - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "MARMION - LIB",
+    "name": "MARMION - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "ALDERDICE - GRN",
+    "name": "ALDERDICE - GRN",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "FORREST - NMV": 412.0,
+   "ARGYLE - IND": 2883.0,
+   "JENNINGS - WAXIT": 179.0,
+   "MANGANO - IND": 632.0,
+   "STRATTON - ALP": 9327.0,
+   "MARMION - LIB": 9160.0,
+   "ALDERDICE - GRN": 3549.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "JENNINGS - WAXIT",
+    "transfers": {
+     "FORREST - NMV": 23.0,
+     "ARGYLE - IND": 39.0,
+     "MANGANO - IND": 25.0,
+     "STRATTON - ALP": 34.0,
+     "MARMION - LIB": 45.0,
+     "ALDERDICE - GRN": 13.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "FORREST - NMV",
+    "transfers": {
+     "ARGYLE - IND": 184.0,
+     "MANGANO - IND": 38.0,
+     "STRATTON - ALP": 70.0,
+     "MARMION - LIB": 85.0,
+     "ALDERDICE - GRN": 57.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "MANGANO - IND",
+    "transfers": {
+     "ARGYLE - IND": 390.0,
+     "STRATTON - ALP": 72.0,
+     "MARMION - LIB": 163.0,
+     "ALDERDICE - GRN": 70.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "ARGYLE - IND",
+    "transfers": {
+     "STRATTON - ALP": 811.0,
+     "MARMION - LIB": 2005.0,
+     "ALDERDICE - GRN": 677.0
+    },
+    "exhausted": 3.0
+   },
+   {
+    "excluded_candidate": "ALDERDICE - GRN",
+    "transfers": {
+     "STRATTON - ALP": 3491.0,
+     "MARMION - LIB": 872.0
+    },
+    "exhausted": 3.0
+   }
+  ],
+  "final_totals": {
+   "STRATTON - ALP": 13805.0,
+   "MARMION - LIB": 12330.0
+  },
+  "formal_votes": 26142
+ },
+ "North West Central": {
+  "candidates": [
+   {
+    "candidate_id": "CATANIA - NAT",
+    "name": "CATANIA - NAT",
+    "party": "NP"
+   },
+   {
+    "candidate_id": "TONKIN - PHON",
+    "name": "TONKIN - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "McKAY - WAXIT",
+    "name": "McKAY - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "McKEOUGH - LIB",
+    "name": "McKEOUGH - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "AGYPUTRI - NMV",
+    "name": "AGYPUTRI - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "COLAGIURI - SFFP",
+    "name": "COLAGIURI - SFFP",
+    "party": "SFFP"
+   },
+   {
+    "candidate_id": "SIBOSADO - ALP",
+    "name": "SIBOSADO - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "BURT - GRN",
+    "name": "BURT - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "SEDDON - IND",
+    "name": "SEDDON - IND",
+    "party": "IND*"
+   }
+  ],
+  "first_preferences": {
+   "CATANIA - NAT": 3075.0,
+   "TONKIN - PHON": 232.0,
+   "McKAY - WAXIT": 37.0,
+   "McKEOUGH - LIB": 611.0,
+   "AGYPUTRI - NMV": 81.0,
+   "COLAGIURI - SFFP": 233.0,
+   "SIBOSADO - ALP": 3114.0,
+   "BURT - GRN": 318.0,
+   "SEDDON - IND": 40.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "McKAY - WAXIT",
+    "transfers": {
+     "CATANIA - NAT": 11.0,
+     "TONKIN - PHON": 4.0,
+     "McKEOUGH - LIB": 5.0,
+     "AGYPUTRI - NMV": 4.0,
+     "COLAGIURI - SFFP": 7.0,
+     "SIBOSADO - ALP": 1.0,
+     "BURT - GRN": 3.0,
+     "SEDDON - IND": 1.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "SEDDON - IND",
+    "transfers": {
+     "CATANIA - NAT": 3.0,
+     "TONKIN - PHON": 4.0,
+     "McKEOUGH - LIB": 4.0,
+     "AGYPUTRI - NMV": 0.0,
+     "COLAGIURI - SFFP": 6.0,
+     "SIBOSADO - ALP": 9.0,
+     "BURT - GRN": 15.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "AGYPUTRI - NMV",
+    "transfers": {
+     "CATANIA - NAT": 17.0,
+     "TONKIN - PHON": 25.0,
+     "McKEOUGH - LIB": 8.0,
+     "COLAGIURI - SFFP": 17.0,
+     "SIBOSADO - ALP": 6.0,
+     "BURT - GRN": 11.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "COLAGIURI - SFFP",
+    "transfers": {
+     "CATANIA - NAT": 61.0,
+     "TONKIN - PHON": 56.0,
+     "McKEOUGH - LIB": 23.0,
+     "SIBOSADO - ALP": 91.0,
+     "BURT - GRN": 32.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "TONKIN - PHON",
+    "transfers": {
+     "CATANIA - NAT": 134.0,
+     "McKEOUGH - LIB": 78.0,
+     "SIBOSADO - ALP": 70.0,
+     "BURT - GRN": 37.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "BURT - GRN",
+    "transfers": {
+     "CATANIA - NAT": 105.0,
+     "McKEOUGH - LIB": 47.0,
+     "SIBOSADO - ALP": 264.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "McKEOUGH - LIB",
+    "transfers": {
+     "CATANIA - NAT": 591.0,
+     "SIBOSADO - ALP": 183.0
+    },
+    "exhausted": 2.0
+   }
+  ],
+  "final_totals": {
+   "CATANIA - NAT": 3997.0,
+   "SIBOSADO - ALP": 3738.0
+  },
+  "formal_votes": 7741
+ },
+ "Perth": {
+  "candidates": [
+   {
+    "candidate_id": "PANDOLFINO - GRN",
+    "name": "PANDOLFINO - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "CAREY - ALP",
+    "name": "CAREY - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "VESKOVICH - LIB",
+    "name": "VESKOVICH - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "MINNITI - WAXIT",
+    "name": "MINNITI - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "BEARD - NMV",
+    "name": "BEARD - NMV",
+    "party": "NMV"
+   }
+  ],
+  "first_preferences": {
+   "PANDOLFINO - GRN": 4177.0,
+   "CAREY - ALP": 16594.0,
+   "VESKOVICH - LIB": 4666.0,
+   "MINNITI - WAXIT": 225.0,
+   "BEARD - NMV": 476.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "MINNITI - WAXIT",
+    "transfers": {
+     "PANDOLFINO - GRN": 48.0,
+     "CAREY - ALP": 56.0,
+     "VESKOVICH - LIB": 72.0,
+     "BEARD - NMV": 49.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BEARD - NMV",
+    "transfers": {
+     "PANDOLFINO - GRN": 153.0,
+     "CAREY - ALP": 143.0,
+     "VESKOVICH - LIB": 229.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "PANDOLFINO - GRN",
+    "transfers": {
+     "CAREY - ALP": 3926.0,
+     "VESKOVICH - LIB": 451.0
+    },
+    "exhausted": 1.0
+   }
+  ],
+  "final_totals": {
+   "CAREY - ALP": 20719.0,
+   "VESKOVICH - LIB": 5418.0
+  },
+  "formal_votes": 26138
+ },
+ "Pilbara": {
+  "candidates": [
+   {
+    "candidate_id": "MICHEL - ALP",
+    "name": "MICHEL - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "VAUGHAN-CARTNER - GRN",
+    "name": "VAUGHAN-CARTNER - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "CROUCH - PHON",
+    "name": "CROUCH - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "BLANCO - LIB",
+    "name": "BLANCO - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "ALLISON-FORREST - SFFP",
+    "name": "ALLISON-FORREST - SFFP",
+    "party": "SFFP"
+   },
+   {
+    "candidate_id": "BOURNE - NAT",
+    "name": "BOURNE - NAT",
+    "party": "NP"
+   },
+   {
+    "candidate_id": "ELLIOTT - NMV",
+    "name": "ELLIOTT - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "HYLAND - WAP",
+    "name": "HYLAND - WAP",
+    "party": "WAP"
+   },
+   {
+    "candidate_id": "JAWANDA - WAXIT",
+    "name": "JAWANDA - WAXIT",
+    "party": "WAXIT"
+   }
+  ],
+  "first_preferences": {
+   "MICHEL - ALP": 9075.0,
+   "VAUGHAN-CARTNER - GRN": 504.0,
+   "CROUCH - PHON": 432.0,
+   "BLANCO - LIB": 1241.0,
+   "ALLISON-FORREST - SFFP": 453.0,
+   "BOURNE - NAT": 2715.0,
+   "ELLIOTT - NMV": 270.0,
+   "HYLAND - WAP": 115.0,
+   "JAWANDA - WAXIT": 68.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "JAWANDA - WAXIT",
+    "transfers": {
+     "MICHEL - ALP": 14.0,
+     "VAUGHAN-CARTNER - GRN": 1.0,
+     "CROUCH - PHON": 9.0,
+     "BLANCO - LIB": 6.0,
+     "ALLISON-FORREST - SFFP": 3.0,
+     "BOURNE - NAT": 2.0,
+     "ELLIOTT - NMV": 5.0,
+     "HYLAND - WAP": 28.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HYLAND - WAP",
+    "transfers": {
+     "MICHEL - ALP": 37.0,
+     "VAUGHAN-CARTNER - GRN": 11.0,
+     "CROUCH - PHON": 8.0,
+     "BLANCO - LIB": 11.0,
+     "ALLISON-FORREST - SFFP": 28.0,
+     "BOURNE - NAT": 26.0,
+     "ELLIOTT - NMV": 22.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "ELLIOTT - NMV",
+    "transfers": {
+     "MICHEL - ALP": 33.0,
+     "VAUGHAN-CARTNER - GRN": 35.0,
+     "CROUCH - PHON": 103.0,
+     "BLANCO - LIB": 17.0,
+     "ALLISON-FORREST - SFFP": 61.0,
+     "BOURNE - NAT": 48.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "ALLISON-FORREST - SFFP",
+    "transfers": {
+     "MICHEL - ALP": 160.0,
+     "VAUGHAN-CARTNER - GRN": 51.0,
+     "CROUCH - PHON": 153.0,
+     "BLANCO - LIB": 62.0,
+     "BOURNE - NAT": 117.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "VAUGHAN-CARTNER - GRN",
+    "transfers": {
+     "MICHEL - ALP": 371.0,
+     "CROUCH - PHON": 63.0,
+     "BLANCO - LIB": 50.0,
+     "BOURNE - NAT": 118.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "CROUCH - PHON",
+    "transfers": {
+     "MICHEL - ALP": 285.0,
+     "BLANCO - LIB": 170.0,
+     "BOURNE - NAT": 310.0
+    },
+    "exhausted": 3.0
+   },
+   {
+    "excluded_candidate": "BLANCO - LIB",
+    "transfers": {
+     "MICHEL - ALP": 484.0,
+     "BOURNE - NAT": 1072.0
+    },
+    "exhausted": 1.0
+   }
+  ],
+  "final_totals": {
+   "MICHEL - ALP": 10459.0,
+   "BOURNE - NAT": 4408.0
+  },
+  "formal_votes": 14873
+ },
+ "Riverton": {
+  "candidates": [
+   {
+    "candidate_id": "BLACKBURN - GRN",
+    "name": "BLACKBURN - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "HOLMAN - LDP",
+    "name": "HOLMAN - LDP",
+    "party": "LDP"
+   },
+   {
+    "candidate_id": "LEE - WAP",
+    "name": "LEE - WAP",
+    "party": "WAP"
+   },
+   {
+    "candidate_id": "SCULL - NMV",
+    "name": "SCULL - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "GOWER - ACP",
+    "name": "GOWER - ACP",
+    "party": "ACP"
+   },
+   {
+    "candidate_id": "KRISHNAN - ALP",
+    "name": "KRISHNAN - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "SPAGNOLO - LIB",
+    "name": "SPAGNOLO - LIB",
+    "party": "LP"
+   }
+  ],
+  "first_preferences": {
+   "BLACKBURN - GRN": 1989.0,
+   "HOLMAN - LDP": 444.0,
+   "LEE - WAP": 293.0,
+   "SCULL - NMV": 242.0,
+   "GOWER - ACP": 955.0,
+   "KRISHNAN - ALP": 12850.0,
+   "SPAGNOLO - LIB": 8928.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "SCULL - NMV",
+    "transfers": {
+     "BLACKBURN - GRN": 56.0,
+     "HOLMAN - LDP": 17.0,
+     "LEE - WAP": 61.0,
+     "GOWER - ACP": 51.0,
+     "KRISHNAN - ALP": 29.0,
+     "SPAGNOLO - LIB": 28.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "LEE - WAP",
+    "transfers": {
+     "BLACKBURN - GRN": 73.0,
+     "HOLMAN - LDP": 71.0,
+     "GOWER - ACP": 47.0,
+     "KRISHNAN - ALP": 101.0,
+     "SPAGNOLO - LIB": 62.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HOLMAN - LDP",
+    "transfers": {
+     "BLACKBURN - GRN": 96.0,
+     "GOWER - ACP": 80.0,
+     "KRISHNAN - ALP": 160.0,
+     "SPAGNOLO - LIB": 196.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "GOWER - ACP",
+    "transfers": {
+     "BLACKBURN - GRN": 109.0,
+     "KRISHNAN - ALP": 230.0,
+     "SPAGNOLO - LIB": 792.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "BLACKBURN - GRN",
+    "transfers": {
+     "KRISHNAN - ALP": 1787.0,
+     "SPAGNOLO - LIB": 531.0
+    },
+    "exhausted": 5.0
+   }
+  ],
+  "final_totals": {
+   "KRISHNAN - ALP": 15157.0,
+   "SPAGNOLO - LIB": 10537.0
+  },
+  "formal_votes": 25701
+ },
+ "Rockingham": {
+  "candidates": [
+   {
+    "candidate_id": "GEORGE - PHON",
+    "name": "GEORGE - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "LOFTS - LDP",
+    "name": "LOFTS - LDP",
+    "party": "LDP"
+   },
+   {
+    "candidate_id": "HAWKINS - NMV",
+    "name": "HAWKINS - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "McGOWAN - ALP",
+    "name": "McGOWAN - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "MORGAN - GRN",
+    "name": "MORGAN - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "McCLURE - LIB",
+    "name": "McCLURE - LIB",
+    "party": "LP"
+   }
+  ],
+  "first_preferences": {
+   "GEORGE - PHON": 489.0,
+   "LOFTS - LDP": 151.0,
+   "HAWKINS - NMV": 383.0,
+   "McGOWAN - ALP": 19661.0,
+   "MORGAN - GRN": 753.0,
+   "McCLURE - LIB": 2322.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "LOFTS - LDP",
+    "transfers": {
+     "GEORGE - PHON": 38.0,
+     "HAWKINS - NMV": 20.0,
+     "McGOWAN - ALP": 34.0,
+     "MORGAN - GRN": 15.0,
+     "McCLURE - LIB": 43.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "HAWKINS - NMV",
+    "transfers": {
+     "GEORGE - PHON": 165.0,
+     "McGOWAN - ALP": 103.0,
+     "MORGAN - GRN": 87.0,
+     "McCLURE - LIB": 48.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "GEORGE - PHON",
+    "transfers": {
+     "McGOWAN - ALP": 270.0,
+     "MORGAN - GRN": 100.0,
+     "McCLURE - LIB": 317.0
+    },
+    "exhausted": 5.0
+   },
+   {
+    "excluded_candidate": "MORGAN - GRN",
+    "transfers": {
+     "McGOWAN - ALP": 768.0,
+     "McCLURE - LIB": 186.0
+    },
+    "exhausted": 1.0
+   }
+  ],
+  "final_totals": {
+   "McGOWAN - ALP": 20836.0,
+   "McCLURE - LIB": 2916.0
+  },
+  "formal_votes": 23759
+ },
+ "Roe": {
+  "candidates": [
+   {
+    "candidate_id": "JAMMU - WAXIT",
+    "name": "JAMMU - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "DWYER - LIB",
+    "name": "DWYER - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "WILLIS - ALP",
+    "name": "WILLIS - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "STARR - GRN",
+    "name": "STARR - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "BUSHBY - PHON",
+    "name": "BUSHBY - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "STEELE - SFFP",
+    "name": "STEELE - SFFP",
+    "party": "SFFP"
+   },
+   {
+    "candidate_id": "RUNDLE - NAT",
+    "name": "RUNDLE - NAT",
+    "party": "NP"
+   },
+   {
+    "candidate_id": "THAKRAR - NMV",
+    "name": "THAKRAR - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "KELLY - ACP",
+    "name": "KELLY - ACP",
+    "party": "ACP"
+   }
+  ],
+  "first_preferences": {
+   "JAMMU - WAXIT": 180.0,
+   "DWYER - LIB": 3004.0,
+   "WILLIS - ALP": 5979.0,
+   "STARR - GRN": 809.0,
+   "BUSHBY - PHON": 352.0,
+   "STEELE - SFFP": 982.0,
+   "RUNDLE - NAT": 8506.0,
+   "THAKRAR - NMV": 131.0,
+   "KELLY - ACP": 502.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "THAKRAR - NMV",
+    "transfers": {
+     "JAMMU - WAXIT": 14.0,
+     "DWYER - LIB": 1.0,
+     "WILLIS - ALP": 12.0,
+     "STARR - GRN": 15.0,
+     "BUSHBY - PHON": 24.0,
+     "STEELE - SFFP": 25.0,
+     "RUNDLE - NAT": 11.0,
+     "KELLY - ACP": 27.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "JAMMU - WAXIT",
+    "transfers": {
+     "DWYER - LIB": 90.0,
+     "WILLIS - ALP": 34.0,
+     "STARR - GRN": 15.0,
+     "BUSHBY - PHON": 15.0,
+     "STEELE - SFFP": 15.0,
+     "RUNDLE - NAT": 17.0,
+     "KELLY - ACP": 7.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "BUSHBY - PHON",
+    "transfers": {
+     "DWYER - LIB": 44.0,
+     "WILLIS - ALP": 51.0,
+     "STARR - GRN": 20.0,
+     "STEELE - SFFP": 156.0,
+     "RUNDLE - NAT": 83.0,
+     "KELLY - ACP": 37.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "KELLY - ACP",
+    "transfers": {
+     "DWYER - LIB": 214.0,
+     "WILLIS - ALP": 35.0,
+     "STARR - GRN": 23.0,
+     "STEELE - SFFP": 127.0,
+     "RUNDLE - NAT": 174.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "STARR - GRN",
+    "transfers": {
+     "DWYER - LIB": 104.0,
+     "WILLIS - ALP": 526.0,
+     "STEELE - SFFP": 74.0,
+     "RUNDLE - NAT": 176.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "STEELE - SFFP",
+    "transfers": {
+     "DWYER - LIB": 242.0,
+     "WILLIS - ALP": 412.0,
+     "RUNDLE - NAT": 722.0
+    },
+    "exhausted": 3.0
+   },
+   {
+    "excluded_candidate": "DWYER - LIB",
+    "transfers": {
+     "WILLIS - ALP": 897.0,
+     "RUNDLE - NAT": 2794.0
+    },
+    "exhausted": 8.0
+   }
+  ],
+  "final_totals": {
+   "WILLIS - ALP": 7946.0,
+   "RUNDLE - NAT": 12483.0
+  },
+  "formal_votes": 20445
+ },
+ "Scarborough": {
+  "candidates": [
+   {
+    "candidate_id": "VOS - IND",
+    "name": "VOS - IND",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "HARVEY - LIB",
+    "name": "HARVEY - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "BECKER - GRN",
+    "name": "BECKER - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "BOCCARDI - WAXIT",
+    "name": "BOCCARDI - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "COWARD - WAP",
+    "name": "COWARD - WAP",
+    "party": "WAP"
+   },
+   {
+    "candidate_id": "AUBREY - ALP",
+    "name": "AUBREY - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "BRIDGEWATER - LFC",
+    "name": "BRIDGEWATER - LFC",
+    "party": "LFC"
+   },
+   {
+    "candidate_id": "MARKOVINA - NMV",
+    "name": "MARKOVINA - NMV",
+    "party": "NMV"
+   }
+  ],
+  "first_preferences": {
+   "VOS - IND": 337.0,
+   "HARVEY - LIB": 8808.0,
+   "BECKER - GRN": 2331.0,
+   "BOCCARDI - WAXIT": 125.0,
+   "COWARD - WAP": 300.0,
+   "AUBREY - ALP": 12750.0,
+   "BRIDGEWATER - LFC": 213.0,
+   "MARKOVINA - NMV": 498.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "BOCCARDI - WAXIT",
+    "transfers": {
+     "VOS - IND": 11.0,
+     "HARVEY - LIB": 28.0,
+     "BECKER - GRN": 21.0,
+     "COWARD - WAP": 23.0,
+     "AUBREY - ALP": 28.0,
+     "BRIDGEWATER - LFC": 3.0,
+     "MARKOVINA - NMV": 10.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "BRIDGEWATER - LFC",
+    "transfers": {
+     "VOS - IND": 22.0,
+     "HARVEY - LIB": 53.0,
+     "BECKER - GRN": 57.0,
+     "COWARD - WAP": 15.0,
+     "AUBREY - ALP": 53.0,
+     "MARKOVINA - NMV": 15.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "COWARD - WAP",
+    "transfers": {
+     "VOS - IND": 84.0,
+     "HARVEY - LIB": 101.0,
+     "BECKER - GRN": 45.0,
+     "AUBREY - ALP": 82.0,
+     "MARKOVINA - NMV": 26.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "VOS - IND",
+    "transfers": {
+     "HARVEY - LIB": 232.0,
+     "BECKER - GRN": 96.0,
+     "AUBREY - ALP": 94.0,
+     "MARKOVINA - NMV": 31.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "MARKOVINA - NMV",
+    "transfers": {
+     "HARVEY - LIB": 227.0,
+     "BECKER - GRN": 229.0,
+     "AUBREY - ALP": 123.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "BECKER - GRN",
+    "transfers": {
+     "HARVEY - LIB": 590.0,
+     "AUBREY - ALP": 2185.0
+    },
+    "exhausted": 4.0
+   }
+  ],
+  "final_totals": {
+   "HARVEY - LIB": 10039.0,
+   "AUBREY - ALP": 15315.0
+  },
+  "formal_votes": 25362
+ },
+ "South Perth": {
+  "candidates": [
+   {
+    "candidate_id": "BAKER - ALP",
+    "name": "BAKER - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "HILL - NMV",
+    "name": "HILL - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "CHORLEY - LIB",
+    "name": "CHORLEY - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "TAYLOR - LDP",
+    "name": "TAYLOR - LDP",
+    "party": "LDP"
+   },
+   {
+    "candidate_id": "BROGAN - GRN",
+    "name": "BROGAN - GRN",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "BAKER - ALP": 12473.0,
+   "HILL - NMV": 440.0,
+   "CHORLEY - LIB": 8846.0,
+   "TAYLOR - LDP": 617.0,
+   "BROGAN - GRN": 2597.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "HILL - NMV",
+    "transfers": {
+     "BAKER - ALP": 111.0,
+     "CHORLEY - LIB": 126.0,
+     "TAYLOR - LDP": 93.0,
+     "BROGAN - GRN": 109.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "TAYLOR - LDP",
+    "transfers": {
+     "BAKER - ALP": 136.0,
+     "CHORLEY - LIB": 468.0,
+     "BROGAN - GRN": 105.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "BROGAN - GRN",
+    "transfers": {
+     "BAKER - ALP": 2287.0,
+     "CHORLEY - LIB": 522.0
+    },
+    "exhausted": 2.0
+   }
+  ],
+  "final_totals": {
+   "BAKER - ALP": 15007.0,
+   "CHORLEY - LIB": 9962.0
+  },
+  "formal_votes": 24973
+ },
+ "Southern River": {
+  "candidates": [
+   {
+    "candidate_id": "SIDDIQUI - WAXIT",
+    "name": "SIDDIQUI - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "HAWKES - NMV",
+    "name": "HAWKES - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "HEALY - ALP",
+    "name": "HEALY - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "COLLINS - GRN",
+    "name": "COLLINS - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "WALSH - IND",
+    "name": "WALSH - IND",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "HEFFERNAN - PHON",
+    "name": "HEFFERNAN - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "DU PREEZ - LDP",
+    "name": "DU PREEZ - LDP",
+    "party": "LDP"
+   },
+   {
+    "candidate_id": "SPOELSTRA - ACP",
+    "name": "SPOELSTRA - ACP",
+    "party": "ACP"
+   },
+   {
+    "candidate_id": "ZANDMAN - LIB",
+    "name": "ZANDMAN - LIB",
+    "party": "LP"
+   }
+  ],
+  "first_preferences": {
+   "SIDDIQUI - WAXIT": 283.0,
+   "HAWKES - NMV": 307.0,
+   "HEALY - ALP": 18718.0,
+   "COLLINS - GRN": 875.0,
+   "WALSH - IND": 188.0,
+   "HEFFERNAN - PHON": 334.0,
+   "DU PREEZ - LDP": 257.0,
+   "SPOELSTRA - ACP": 799.0,
+   "ZANDMAN - LIB": 2879.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "WALSH - IND",
+    "transfers": {
+     "SIDDIQUI - WAXIT": 8.0,
+     "HAWKES - NMV": 19.0,
+     "HEALY - ALP": 58.0,
+     "COLLINS - GRN": 39.0,
+     "HEFFERNAN - PHON": 20.0,
+     "DU PREEZ - LDP": 13.0,
+     "SPOELSTRA - ACP": 13.0,
+     "ZANDMAN - LIB": 18.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "DU PREEZ - LDP",
+    "transfers": {
+     "SIDDIQUI - WAXIT": 32.0,
+     "HAWKES - NMV": 12.0,
+     "HEALY - ALP": 58.0,
+     "COLLINS - GRN": 16.0,
+     "HEFFERNAN - PHON": 24.0,
+     "SPOELSTRA - ACP": 23.0,
+     "ZANDMAN - LIB": 104.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "SIDDIQUI - WAXIT",
+    "transfers": {
+     "HAWKES - NMV": 127.0,
+     "HEALY - ALP": 113.0,
+     "COLLINS - GRN": 27.0,
+     "HEFFERNAN - PHON": 14.0,
+     "SPOELSTRA - ACP": 14.0,
+     "ZANDMAN - LIB": 25.0
+    },
+    "exhausted": 3.0
+   },
+   {
+    "excluded_candidate": "HEFFERNAN - PHON",
+    "transfers": {
+     "HAWKES - NMV": 76.0,
+     "HEALY - ALP": 130.0,
+     "COLLINS - GRN": 37.0,
+     "SPOELSTRA - ACP": 48.0,
+     "ZANDMAN - LIB": 99.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "HAWKES - NMV",
+    "transfers": {
+     "HEALY - ALP": 200.0,
+     "COLLINS - GRN": 125.0,
+     "SPOELSTRA - ACP": 134.0,
+     "ZANDMAN - LIB": 79.0
+    },
+    "exhausted": 3.0
+   },
+   {
+    "excluded_candidate": "SPOELSTRA - ACP",
+    "transfers": {
+     "HEALY - ALP": 226.0,
+     "COLLINS - GRN": 87.0,
+     "ZANDMAN - LIB": 717.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "COLLINS - GRN",
+    "transfers": {
+     "HEALY - ALP": 969.0,
+     "ZANDMAN - LIB": 234.0
+    },
+    "exhausted": 3.0
+   }
+  ],
+  "final_totals": {
+   "HEALY - ALP": 20472.0,
+   "ZANDMAN - LIB": 4155.0
+  },
+  "formal_votes": 24640
+ },
+ "Swan Hills": {
+  "candidates": [
+   {
+    "candidate_id": "BUNTON - NMV",
+    "name": "BUNTON - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "ALI - WAXIT",
+    "name": "ALI - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "SHAW - ALP",
+    "name": "SHAW - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "HENDERSON - LIB",
+    "name": "HENDERSON - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "STRAUSS - ACP",
+    "name": "STRAUSS - ACP",
+    "party": "ACP"
+   },
+   {
+    "candidate_id": "WAWRIK - GRN",
+    "name": "WAWRIK - GRN",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "BUNTON - NMV": 782.0,
+   "ALI - WAXIT": 256.0,
+   "SHAW - ALP": 17255.0,
+   "HENDERSON - LIB": 4571.0,
+   "STRAUSS - ACP": 675.0,
+   "WAWRIK - GRN": 1189.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "ALI - WAXIT",
+    "transfers": {
+     "BUNTON - NMV": 58.0,
+     "SHAW - ALP": 93.0,
+     "HENDERSON - LIB": 48.0,
+     "STRAUSS - ACP": 37.0,
+     "WAWRIK - GRN": 20.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "STRAUSS - ACP",
+    "transfers": {
+     "BUNTON - NMV": 136.0,
+     "SHAW - ALP": 148.0,
+     "HENDERSON - LIB": 381.0,
+     "WAWRIK - GRN": 46.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "BUNTON - NMV",
+    "transfers": {
+     "SHAW - ALP": 442.0,
+     "HENDERSON - LIB": 282.0,
+     "WAWRIK - GRN": 250.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "WAWRIK - GRN",
+    "transfers": {
+     "SHAW - ALP": 1131.0,
+     "HENDERSON - LIB": 373.0
+    },
+    "exhausted": 1.0
+   }
+  ],
+  "final_totals": {
+   "SHAW - ALP": 19069.0,
+   "HENDERSON - LIB": 5655.0
+  },
+  "formal_votes": 24728
+ },
+ "Thornlie": {
+  "candidates": [
+   {
+    "candidate_id": "TALLENTIRE - ALP",
+    "name": "TALLENTIRE - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "HALL - NMV",
+    "name": "HALL - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "MASIH - WAXIT",
+    "name": "MASIH - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "GOIRAN - ACP",
+    "name": "GOIRAN - ACP",
+    "party": "ACP"
+   },
+   {
+    "candidate_id": "McDONALD - LIB",
+    "name": "McDONALD - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "WRIGHT - GRN",
+    "name": "WRIGHT - GRN",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "TALLENTIRE - ALP": 17501.0,
+   "HALL - NMV": 488.0,
+   "MASIH - WAXIT": 177.0,
+   "GOIRAN - ACP": 1002.0,
+   "McDONALD - LIB": 3273.0,
+   "WRIGHT - GRN": 1159.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "MASIH - WAXIT",
+    "transfers": {
+     "TALLENTIRE - ALP": 58.0,
+     "HALL - NMV": 47.0,
+     "GOIRAN - ACP": 24.0,
+     "McDONALD - LIB": 29.0,
+     "WRIGHT - GRN": 16.0
+    },
+    "exhausted": 3.0
+   },
+   {
+    "excluded_candidate": "HALL - NMV",
+    "transfers": {
+     "TALLENTIRE - ALP": 169.0,
+     "GOIRAN - ACP": 179.0,
+     "McDONALD - LIB": 83.0,
+     "WRIGHT - GRN": 101.0
+    },
+    "exhausted": 3.0
+   },
+   {
+    "excluded_candidate": "GOIRAN - ACP",
+    "transfers": {
+     "TALLENTIRE - ALP": 292.0,
+     "McDONALD - LIB": 794.0,
+     "WRIGHT - GRN": 118.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "WRIGHT - GRN",
+    "transfers": {
+     "TALLENTIRE - ALP": 1061.0,
+     "McDONALD - LIB": 329.0
+    },
+    "exhausted": 4.0
+   }
+  ],
+  "final_totals": {
+   "TALLENTIRE - ALP": 19081.0,
+   "McDONALD - LIB": 4508.0
+  },
+  "formal_votes": 23600
+ },
+ "Vasse": {
+  "candidates": [
+   {
+    "candidate_id": "KRASENSTEIN - GRN",
+    "name": "KRASENSTEIN - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "JUDD - NMV",
+    "name": "JUDD - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "METTAM - LIB",
+    "name": "METTAM - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "VAN VEEN - SFFP",
+    "name": "VAN VEEN - SFFP",
+    "party": "SFFP"
+   },
+   {
+    "candidate_id": "RICH - LCWA",
+    "name": "RICH - LCWA",
+    "party": "LCWA"
+   },
+   {
+    "candidate_id": "HOSSEN - ALP",
+    "name": "HOSSEN - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "SATCHELL - SAPSOC",
+    "name": "SATCHELL - SAPSOC",
+    "party": "SAPSOC"
+   },
+   {
+    "candidate_id": "WREFORD - PHON",
+    "name": "WREFORD - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "GORDON - NAT",
+    "name": "GORDON - NAT",
+    "party": "NP"
+   },
+   {
+    "candidate_id": "OANCEA - WAXIT",
+    "name": "OANCEA - WAXIT",
+    "party": "WAXIT"
+   }
+  ],
+  "first_preferences": {
+   "KRASENSTEIN - GRN": 2765.0,
+   "JUDD - NMV": 489.0,
+   "METTAM - LIB": 11697.0,
+   "VAN VEEN - SFFP": 521.0,
+   "RICH - LCWA": 403.0,
+   "HOSSEN - ALP": 8998.0,
+   "SATCHELL - SAPSOC": 191.0,
+   "WREFORD - PHON": 253.0,
+   "GORDON - NAT": 1135.0,
+   "OANCEA - WAXIT": 46.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "OANCEA - WAXIT",
+    "transfers": {
+     "KRASENSTEIN - GRN": 7.0,
+     "JUDD - NMV": 4.0,
+     "METTAM - LIB": 1.0,
+     "VAN VEEN - SFFP": 2.0,
+     "RICH - LCWA": 4.0,
+     "HOSSEN - ALP": 5.0,
+     "SATCHELL - SAPSOC": 4.0,
+     "WREFORD - PHON": 9.0,
+     "GORDON - NAT": 10.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SATCHELL - SAPSOC",
+    "transfers": {
+     "KRASENSTEIN - GRN": 73.0,
+     "JUDD - NMV": 10.0,
+     "METTAM - LIB": 14.0,
+     "VAN VEEN - SFFP": 10.0,
+     "RICH - LCWA": 20.0,
+     "HOSSEN - ALP": 45.0,
+     "WREFORD - PHON": 13.0,
+     "GORDON - NAT": 9.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "WREFORD - PHON",
+    "transfers": {
+     "KRASENSTEIN - GRN": 13.0,
+     "JUDD - NMV": 48.0,
+     "METTAM - LIB": 56.0,
+     "VAN VEEN - SFFP": 51.0,
+     "RICH - LCWA": 19.0,
+     "HOSSEN - ALP": 41.0,
+     "GORDON - NAT": 47.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "RICH - LCWA",
+    "transfers": {
+     "KRASENSTEIN - GRN": 117.0,
+     "JUDD - NMV": 66.0,
+     "METTAM - LIB": 53.0,
+     "VAN VEEN - SFFP": 96.0,
+     "HOSSEN - ALP": 97.0,
+     "GORDON - NAT": 16.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "JUDD - NMV",
+    "transfers": {
+     "KRASENSTEIN - GRN": 204.0,
+     "METTAM - LIB": 96.0,
+     "VAN VEEN - SFFP": 180.0,
+     "HOSSEN - ALP": 70.0,
+     "GORDON - NAT": 67.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "VAN VEEN - SFFP",
+    "transfers": {
+     "KRASENSTEIN - GRN": 159.0,
+     "METTAM - LIB": 266.0,
+     "HOSSEN - ALP": 227.0,
+     "GORDON - NAT": 208.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "GORDON - NAT",
+    "transfers": {
+     "KRASENSTEIN - GRN": 151.0,
+     "METTAM - LIB": 1014.0,
+     "HOSSEN - ALP": 326.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "KRASENSTEIN - GRN",
+    "transfers": {
+     "METTAM - LIB": 1190.0,
+     "HOSSEN - ALP": 2298.0
+    },
+    "exhausted": 1.0
+   }
+  ],
+  "final_totals": {
+   "METTAM - LIB": 14387.0,
+   "HOSSEN - ALP": 12107.0
+  },
+  "formal_votes": 26498
+ },
+ "Victoria Park": {
+  "candidates": [
+   {
+    "candidate_id": "FARRELL - LDP",
+    "name": "FARRELL - LDP",
+    "party": "LDP"
+   },
+   {
+    "candidate_id": "CONNOLLY - NMV",
+    "name": "CONNOLLY - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "MARKHAM - LIB",
+    "name": "MARKHAM - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "SIERO - GRN",
+    "name": "SIERO - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "BEAZLEY - ALP",
+    "name": "BEAZLEY - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "SANDOW - PHON",
+    "name": "SANDOW - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "VANDER VEN - ACP",
+    "name": "VANDER VEN - ACP",
+    "party": "ACP"
+   }
+  ],
+  "first_preferences": {
+   "FARRELL - LDP": 542.0,
+   "CONNOLLY - NMV": 350.0,
+   "MARKHAM - LIB": 3733.0,
+   "SIERO - GRN": 2912.0,
+   "BEAZLEY - ALP": 14673.0,
+   "SANDOW - PHON": 307.0,
+   "VANDER VEN - ACP": 522.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "SANDOW - PHON",
+    "transfers": {
+     "FARRELL - LDP": 37.0,
+     "CONNOLLY - NMV": 45.0,
+     "MARKHAM - LIB": 67.0,
+     "SIERO - GRN": 19.0,
+     "BEAZLEY - ALP": 76.0,
+     "VANDER VEN - ACP": 63.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "CONNOLLY - NMV",
+    "transfers": {
+     "FARRELL - LDP": 60.0,
+     "MARKHAM - LIB": 56.0,
+     "SIERO - GRN": 98.0,
+     "BEAZLEY - ALP": 88.0,
+     "VANDER VEN - ACP": 92.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "FARRELL - LDP",
+    "transfers": {
+     "MARKHAM - LIB": 403.0,
+     "SIERO - GRN": 62.0,
+     "BEAZLEY - ALP": 107.0,
+     "VANDER VEN - ACP": 67.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "VANDER VEN - ACP",
+    "transfers": {
+     "MARKHAM - LIB": 462.0,
+     "SIERO - GRN": 97.0,
+     "BEAZLEY - ALP": 184.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "SIERO - GRN",
+    "transfers": {
+     "MARKHAM - LIB": 384.0,
+     "BEAZLEY - ALP": 2804.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "MARKHAM - LIB": 5105.0,
+   "BEAZLEY - ALP": 17932.0
+  },
+  "formal_votes": 23039
+ },
+ "Wanneroo": {
+  "candidates": [
+   {
+    "candidate_id": "CULUM-BUZAK - WAXIT",
+    "name": "CULUM-BUZAK - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "WARD - GRN",
+    "name": "WARD - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "WINTON - ALP",
+    "name": "WINTON - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "MILES - LIB",
+    "name": "MILES - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "BULLOCK - NMV",
+    "name": "BULLOCK - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "SIVIOUR - WAP",
+    "name": "SIVIOUR - WAP",
+    "party": "WAP"
+   }
+  ],
+  "first_preferences": {
+   "CULUM-BUZAK - WAXIT": 335.0,
+   "WARD - GRN": 1150.0,
+   "WINTON - ALP": 18366.0,
+   "MILES - LIB": 4686.0,
+   "BULLOCK - NMV": 637.0,
+   "SIVIOUR - WAP": 404.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "CULUM-BUZAK - WAXIT",
+    "transfers": {
+     "WARD - GRN": 140.0,
+     "WINTON - ALP": 73.0,
+     "MILES - LIB": 30.0,
+     "BULLOCK - NMV": 43.0,
+     "SIVIOUR - WAP": 48.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "SIVIOUR - WAP",
+    "transfers": {
+     "WARD - GRN": 75.0,
+     "WINTON - ALP": 141.0,
+     "MILES - LIB": 135.0,
+     "BULLOCK - NMV": 101.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BULLOCK - NMV",
+    "transfers": {
+     "WARD - GRN": 241.0,
+     "WINTON - ALP": 212.0,
+     "MILES - LIB": 326.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "WARD - GRN",
+    "transfers": {
+     "WINTON - ALP": 1267.0,
+     "MILES - LIB": 339.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "WINTON - ALP": 20059.0,
+   "MILES - LIB": 5516.0
+  },
+  "formal_votes": 25578
+ },
+ "Warnbro": {
+  "candidates": [
+   {
+    "candidate_id": "VELEV - WAXIT",
+    "name": "VELEV - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "HALL - PHON",
+    "name": "HALL - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "PAPALIA - ALP",
+    "name": "PAPALIA - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "JONES - LIB",
+    "name": "JONES - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "SUCHALLA-YOUNG - NMV",
+    "name": "SUCHALLA-YOUNG - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "McMASTER - LDP",
+    "name": "McMASTER - LDP",
+    "party": "LDP"
+   },
+   {
+    "candidate_id": "DELVES - GRN",
+    "name": "DELVES - GRN",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "VELEV - WAXIT": 218.0,
+   "HALL - PHON": 616.0,
+   "PAPALIA - ALP": 19300.0,
+   "JONES - LIB": 3324.0,
+   "SUCHALLA-YOUNG - NMV": 463.0,
+   "McMASTER - LDP": 171.0,
+   "DELVES - GRN": 1016.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "McMASTER - LDP",
+    "transfers": {
+     "VELEV - WAXIT": 9.0,
+     "HALL - PHON": 31.0,
+     "PAPALIA - ALP": 32.0,
+     "JONES - LIB": 60.0,
+     "SUCHALLA-YOUNG - NMV": 14.0,
+     "DELVES - GRN": 25.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "VELEV - WAXIT",
+    "transfers": {
+     "HALL - PHON": 113.0,
+     "PAPALIA - ALP": 52.0,
+     "JONES - LIB": 24.0,
+     "SUCHALLA-YOUNG - NMV": 9.0,
+     "DELVES - GRN": 29.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SUCHALLA-YOUNG - NMV",
+    "transfers": {
+     "HALL - PHON": 197.0,
+     "PAPALIA - ALP": 122.0,
+     "JONES - LIB": 65.0,
+     "DELVES - GRN": 101.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "HALL - PHON",
+    "transfers": {
+     "PAPALIA - ALP": 446.0,
+     "JONES - LIB": 365.0,
+     "DELVES - GRN": 143.0
+    },
+    "exhausted": 3.0
+   },
+   {
+    "excluded_candidate": "DELVES - GRN",
+    "transfers": {
+     "PAPALIA - ALP": 993.0,
+     "JONES - LIB": 319.0
+    },
+    "exhausted": 2.0
+   }
+  ],
+  "final_totals": {
+   "PAPALIA - ALP": 20945.0,
+   "JONES - LIB": 4157.0
+  },
+  "formal_votes": 25108
+ },
+ "Warren-Blackwood": {
+  "candidates": [
+   {
+    "candidate_id": "DA SILVA - SFFP",
+    "name": "DA SILVA - SFFP",
+    "party": "SFFP"
+   },
+   {
+    "candidate_id": "LETHBRIDGE - LCWA",
+    "name": "LETHBRIDGE - LCWA",
+    "party": "LCWA"
+   },
+   {
+    "candidate_id": "POW - GRN",
+    "name": "POW - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "O'DEA - LIB",
+    "name": "O'DEA - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "KELSBIE - ALP",
+    "name": "KELSBIE - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "REDMAN - NAT",
+    "name": "REDMAN - NAT",
+    "party": "NP"
+   },
+   {
+    "candidate_id": "REGTERSCHOT - PHON",
+    "name": "REGTERSCHOT - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "ALLAN - NMV",
+    "name": "ALLAN - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "STRACHAN - SAPSOC",
+    "name": "STRACHAN - SAPSOC",
+    "party": "SAPSOC"
+   }
+  ],
+  "first_preferences": {
+   "DA SILVA - SFFP": 1048.0,
+   "LETHBRIDGE - LCWA": 588.0,
+   "POW - GRN": 3362.0,
+   "O'DEA - LIB": 2513.0,
+   "KELSBIE - ALP": 8197.0,
+   "REDMAN - NAT": 8219.0,
+   "REGTERSCHOT - PHON": 419.0,
+   "ALLAN - NMV": 526.0,
+   "STRACHAN - SAPSOC": 309.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "STRACHAN - SAPSOC",
+    "transfers": {
+     "DA SILVA - SFFP": 25.0,
+     "LETHBRIDGE - LCWA": 25.0,
+     "POW - GRN": 95.0,
+     "O'DEA - LIB": 17.0,
+     "KELSBIE - ALP": 44.0,
+     "REDMAN - NAT": 32.0,
+     "REGTERSCHOT - PHON": 21.0,
+     "ALLAN - NMV": 50.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "REGTERSCHOT - PHON",
+    "transfers": {
+     "DA SILVA - SFFP": 121.0,
+     "LETHBRIDGE - LCWA": 38.0,
+     "POW - GRN": 12.0,
+     "O'DEA - LIB": 41.0,
+     "KELSBIE - ALP": 47.0,
+     "REDMAN - NAT": 87.0,
+     "ALLAN - NMV": 92.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "LETHBRIDGE - LCWA",
+    "transfers": {
+     "DA SILVA - SFFP": 173.0,
+     "POW - GRN": 191.0,
+     "O'DEA - LIB": 41.0,
+     "KELSBIE - ALP": 125.0,
+     "REDMAN - NAT": 39.0,
+     "ALLAN - NMV": 81.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "ALLAN - NMV",
+    "transfers": {
+     "DA SILVA - SFFP": 252.0,
+     "POW - GRN": 228.0,
+     "O'DEA - LIB": 48.0,
+     "KELSBIE - ALP": 80.0,
+     "REDMAN - NAT": 140.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "DA SILVA - SFFP",
+    "transfers": {
+     "POW - GRN": 411.0,
+     "O'DEA - LIB": 345.0,
+     "KELSBIE - ALP": 337.0,
+     "REDMAN - NAT": 522.0
+    },
+    "exhausted": 4.0
+   },
+   {
+    "excluded_candidate": "O'DEA - LIB",
+    "transfers": {
+     "POW - GRN": 336.0,
+     "KELSBIE - ALP": 436.0,
+     "REDMAN - NAT": 2232.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "POW - GRN",
+    "transfers": {
+     "KELSBIE - ALP": 3637.0,
+     "REDMAN - NAT": 995.0
+    },
+    "exhausted": 3.0
+   }
+  ],
+  "final_totals": {
+   "KELSBIE - ALP": 12903.0,
+   "REDMAN - NAT": 12266.0
+  },
+  "formal_votes": 25181
+ },
+ "West Swan": {
+  "candidates": [
+   {
+    "candidate_id": "SAINI - WAXIT",
+    "name": "SAINI - WAXIT",
+    "party": "WAXIT"
+   },
+   {
+    "candidate_id": "SAFFIOTI - ALP",
+    "name": "SAFFIOTI - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "WARBURTON - ACP",
+    "name": "WARBURTON - ACP",
+    "party": "ACP"
+   },
+   {
+    "candidate_id": "NESBIT - LIB",
+    "name": "NESBIT - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "SINGH - GRN",
+    "name": "SINGH - GRN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "COCLIFF - NMV",
+    "name": "COCLIFF - NMV",
+    "party": "NMV"
+   }
+  ],
+  "first_preferences": {
+   "SAINI - WAXIT": 421.0,
+   "SAFFIOTI - ALP": 20635.0,
+   "WARBURTON - ACP": 823.0,
+   "NESBIT - LIB": 3122.0,
+   "SINGH - GRN": 1038.0,
+   "COCLIFF - NMV": 438.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "SAINI - WAXIT",
+    "transfers": {
+     "SAFFIOTI - ALP": 224.0,
+     "WARBURTON - ACP": 38.0,
+     "NESBIT - LIB": 58.0,
+     "SINGH - GRN": 54.0,
+     "COCLIFF - NMV": 46.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "COCLIFF - NMV",
+    "transfers": {
+     "SAFFIOTI - ALP": 106.0,
+     "WARBURTON - ACP": 167.0,
+     "NESBIT - LIB": 98.0,
+     "SINGH - GRN": 111.0
+    },
+    "exhausted": 2.0
+   },
+   {
+    "excluded_candidate": "WARBURTON - ACP",
+    "transfers": {
+     "SAFFIOTI - ALP": 312.0,
+     "NESBIT - LIB": 591.0,
+     "SINGH - GRN": 124.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "SINGH - GRN",
+    "transfers": {
+     "SAFFIOTI - ALP": 1001.0,
+     "NESBIT - LIB": 325.0
+    },
+    "exhausted": 1.0
+   }
+  ],
+  "final_totals": {
+   "SAFFIOTI - ALP": 22278.0,
+   "NESBIT - LIB": 4194.0
+  },
+  "formal_votes": 26477
+ },
+ "Willagee": {
+  "candidates": [
+   {
+    "candidate_id": "JONES - LIB",
+    "name": "JONES - LIB",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "MITCHELL - LDP",
+    "name": "MITCHELL - LDP",
+    "party": "LDP"
+   },
+   {
+    "candidate_id": "TINLEY - ALP",
+    "name": "TINLEY - ALP",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "POOLE - NMV",
+    "name": "POOLE - NMV",
+    "party": "NMV"
+   },
+   {
+    "candidate_id": "DALRYMPLE - PHON",
+    "name": "DALRYMPLE - PHON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "TOWNSEND - GRN",
+    "name": "TOWNSEND - GRN",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "JONES - LIB": 4525.0,
+   "MITCHELL - LDP": 310.0,
+   "TINLEY - ALP": 15576.0,
+   "POOLE - NMV": 507.0,
+   "DALRYMPLE - PHON": 434.0,
+   "TOWNSEND - GRN": 2197.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "MITCHELL - LDP",
+    "transfers": {
+     "JONES - LIB": 162.0,
+     "TINLEY - ALP": 67.0,
+     "POOLE - NMV": 25.0,
+     "DALRYMPLE - PHON": 27.0,
+     "TOWNSEND - GRN": 28.0
+    },
+    "exhausted": 1.0
+   },
+   {
+    "excluded_candidate": "DALRYMPLE - PHON",
+    "transfers": {
+     "JONES - LIB": 141.0,
+     "TINLEY - ALP": 141.0,
+     "POOLE - NMV": 118.0,
+     "TOWNSEND - GRN": 61.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "POOLE - NMV",
+    "transfers": {
+     "JONES - LIB": 211.0,
+     "TINLEY - ALP": 199.0,
+     "TOWNSEND - GRN": 240.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "TOWNSEND - GRN",
+    "transfers": {
+     "JONES - LIB": 348.0,
+     "TINLEY - ALP": 2173.0
+    },
+    "exhausted": 5.0
+   }
+  ],
+  "final_totals": {
+   "JONES - LIB": 5387.0,
+   "TINLEY - ALP": 18156.0
+  },
+  "formal_votes": 23549
+ }
+}

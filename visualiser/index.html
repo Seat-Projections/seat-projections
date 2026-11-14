@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Victoria — 2025 federal booths and the 2026 state forecast</title>
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 id="title">2025 federal polling places &middot; Victorian state districts</h1>
+    <label>View
+      <select id="view">
+        <option value="booths">2025 federal polling booths</option>
+        <option value="model1">Model 1 forecast: 2026 state election</option>
+        <option value="model2">Model 2 forecast: 2026 state election</option>
+      </select>
+    </label>
+    <span id="booth-controls">
+      <label>Colour by
+        <select id="colour-by">
+          <option value="lead">Leading party (first preferences)</option>
+          <option value="ON">One Nation %</option>
+          <option value="ALP">Labor %</option>
+          <option value="COAL">Coalition %</option>
+          <option value="GRN">Greens %</option>
+          <option value="IND">Independent %</option>
+        </select>
+      </label>
+      <label><input type="checkbox" id="show-ppvc" checked /> Pre-poll centres</label>
+    </span>
+    <input id="search" list="search-list" placeholder="Search booth or district…" autocomplete="off" />
+    <datalist id="search-list"></datalist>
+  </header>
+  <main>
+    <div id="map"></div>
+    <aside id="panel"><p class="muted">Loading…</p></aside>
+  </main>
+  <script src="vendor/leaflet/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+{
+  "model": "model1",
+  "run_id": "NSW2023 (2022)",
+  "timestamp": "2026-11-08T11:07:20+00:00",
+  "git_commit": null,
+  "runs": 1000,
+  "seed": 1,
+  "noise_log_sd": {
+    "state": 0.08,
+    "seat": 0.12,
+    "flow": 0.15
+  },
+  "inputs": {
+    "state": "NSW",
+    "state_election": "2023-03-25",
+    "districts": 93,
+    "federal_election": 2022,
+    "aec_event": 27966,
+    "booths": "inside the district and within 1 km of their own federal division",
+    "polls": null,
+    "winners": "NSW2023"
+  },
+  "scores": {
+    "districts": 93,
+    "raw_seat_count": 64,
+    "brier": 0.5066,
+    "log_loss": 1.2824
+  },
+  "actual_seats": {
+    "ALP": 45,
+    "GRN": 3,
+    "IND*": 9,
+    "LP": 25,
+    "NP": 11
+  },
+  "predicted_seats_mean": {
+    "ALP": 50.13,
+    "GRN": 0.21,
+    "IND*": 6.86,
+    "LP": 21.5,
+    "NP": 14.29
+  }
+}

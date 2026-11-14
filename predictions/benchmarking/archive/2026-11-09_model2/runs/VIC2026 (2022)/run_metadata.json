@@ -1,0 +1,87 @@
+{
+  "model": "model2",
+  "run_id": "VIC2026 (2022)",
+  "timestamp": "2026-11-09T09:52:14+00:00",
+  "git_commit": null,
+  "runs": 5000,
+  "seed": 1,
+  "noise": {
+    "poll_sd": 2.5,
+    "region_sd": 2.0,
+    "seat_sd": 3.5,
+    "flow_state": 0.15,
+    "flow_seat": 0.05
+  },
+  "on_priors": {
+    "ON->LP|LP,ALP": [
+      0.65,
+      0.8,
+      0.9
+    ],
+    "LP->ON|ON,ALP": [
+      0.45,
+      0.65,
+      0.8
+    ],
+    "ALP->LP|LP,ON": [
+      0.45,
+      0.6,
+      0.75
+    ],
+    "GRN->ON:ALP": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "RIGHT->ON:LP": [
+      1.0,
+      1.43,
+      2.0
+    ],
+    "OTHER->ON:LP": [
+      0.6,
+      0.86,
+      1.2
+    ]
+  },
+  "exhaust": false,
+  "core_rule": {
+    "top": 4,
+    "share": 0.05
+  },
+  "inputs": {
+    "state": "VIC",
+    "state_election": "2026-11-28",
+    "districts": 88,
+    "baseline": "VEC 2022 state election",
+    "federal_election": null,
+    "winners": null,
+    "primaries": "2022 VEC primaries, proportional swing to the 2026 polling average",
+    "flows": "2022 VEC distributions (all districts)",
+    "polls": {
+      "ALP": 22.7,
+      "LNP": 30.7,
+      "ON": 22.0,
+      "GRN": 14.9,
+      "OTH": 9.7
+    },
+    "polls_used": [
+      "Newspoll / Pyxis 2026-10-22",
+      "demosau 2026-11-05",
+      "redbridge-accent 2026-10-08",
+      "resolve 2026-10-10",
+      "roy-morgan 2026-10-29"
+    ],
+    "polls_source": "electiontracker.au/data/vic2026/polls.csv",
+    "one_nation_pattern": "federal 2025 booth share per district (model1 'VIC2026 (2025)'), elasticity 0.7",
+    "independents": "data/2026/independents_vic2026.csv"
+  },
+  "predicted_seats_mean": {
+    "ALP": 18.85,
+    "GRN": 7.7,
+    "IND*": 0.65,
+    "LP": 42.16,
+    "NP": 7.56,
+    "ON": 11.08
+  }
+}

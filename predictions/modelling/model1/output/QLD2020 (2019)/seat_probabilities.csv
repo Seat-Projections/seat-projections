@@ -1,0 +1,739 @@
+district,candidate,party,p_win,p_final_two,tcp_p10,tcp_p50,tcp_p90
+Algester,Labor,ALP,0.804,1.0,47.95,53.45,58.53
+Algester,LNP,LNP,0.196,1.0,41.47,46.55,52.05
+Algester,Greens,GRN,0.0,0.0,,,
+Algester,One Nation,ON,0.0,0.0,,,
+Algester,United Australia,UAPP,0.0,0.0,,,
+Algester,Liberal Democrats,LDP,0.0,0.0,,,
+Algester,FACN,FACN,0.0,0.0,,,
+Algester,Independent*,IND*,0.0,0.0,,,
+Algester,KAP,KAP,0.0,0.0,,,
+Algester,SEP,SEP,0.0,0.0,,,
+Aspley,LNP,LNP,0.882,1.0,49.64,54.91,59.93
+Aspley,Labor,ALP,0.118,1.0,40.07,45.09,50.36
+Aspley,Greens,GRN,0.0,0.0,,,
+Aspley,One Nation,ON,0.0,0.0,,,
+Aspley,United Australia,UAPP,0.0,0.0,,,
+Aspley,FACN,FACN,0.0,0.0,,,
+Aspley,Socialist Alliance,SAL,0.0,0.0,,,
+Aspley,Independent*,IND*,0.0,0.0,,,
+Aspley,Animal Justice,AJP,0.0,0.0,,,
+Bancroft,LNP,LNP,0.966,1.0,52.2,57.32,62.16
+Bancroft,Labor,ALP,0.034,1.0,37.84,42.68,47.8
+Bancroft,One Nation,ON,0.0,0.0,,,
+Bancroft,Greens,GRN,0.0,0.0,,,
+Bancroft,United Australia,UAPP,0.0,0.0,,,
+Bancroft,FACN,FACN,0.0,0.0,,,
+Bancroft,AUP,AUP,0.0,0.0,,,
+Bancroft,AFN,AFN,0.0,0.0,,,
+Barron River,LNP,LNP,0.899,1.0,49.96,54.32,58.89
+Barron River,Labor,ALP,0.101,1.0,41.11,45.68,50.04
+Barron River,Greens,GRN,0.0,0.0,,,
+Barron River,KAP,KAP,0.0,0.0,,,
+Barron River,One Nation,ON,0.0,0.0,,,
+Barron River,United Australia,UAPP,0.0,0.0,,,
+Barron River,Independent*,IND*,0.0,0.0,,,
+Barron River,FACN,FACN,0.0,0.0,,,
+Bonney,LNP,LNP,0.885,1.0,49.76,54.96,59.33
+Bonney,Labor,ALP,0.115,1.0,40.67,45.04,50.24
+Bonney,Greens,GRN,0.0,0.0,,,
+Bonney,One Nation,ON,0.0,0.0,,,
+Bonney,United Australia,UAPP,0.0,0.0,,,
+Bonney,Liberal Democrats,LDP,0.0,0.0,,,
+Bonney,FACN,FACN,0.0,0.0,,,
+Bonney,Animal Justice,AJP,0.0,0.0,,,
+Broadwater,LNP,LNP,1.0,1.0,66.51,70.99,75.1
+Broadwater,Labor,ALP,0.0,1.0,24.9,29.01,33.49
+Broadwater,One Nation,ON,0.0,0.0,,,
+Broadwater,Greens,GRN,0.0,0.0,,,
+Broadwater,United Australia,UAPP,0.0,0.0,,,
+Broadwater,Liberal Democrats,LDP,0.0,0.0,,,
+Broadwater,FACN,FACN,0.0,0.0,,,
+Buderim,LNP,LNP,1.0,1.0,60.49,65.19,69.61
+Buderim,Labor,ALP,0.0,1.0,30.39,34.81,39.51
+Buderim,Greens,GRN,0.0,0.0,,,
+Buderim,One Nation,ON,0.0,0.0,,,
+Buderim,United Australia,UAPP,0.0,0.0,,,
+Buderim,FACN,FACN,0.0,0.0,,,
+Buderim,SPP,SPP,0.0,0.0,,,
+Buderim,Liberal Democrats,LDP,0.0,0.0,,,
+Buderim,Independent*,IND*,0.0,0.0,,,
+Buderim,LAOL,LAOL,0.0,0.0,,,
+Bulimba,LNP,LNP,0.535,1.0,44.8,50.57,55.65
+Bulimba,Labor,ALP,0.465,0.997,44.42,49.43,55.21
+Bulimba,Greens,GRN,0.0,0.003,29.88,30.48,30.52
+Bulimba,One Nation,ON,0.0,0.0,,,
+Bulimba,United Australia,UAPP,0.0,0.0,,,
+Bulimba,FACN,FACN,0.0,0.0,,,
+Bundaberg,LNP,LNP,0.997,1.0,56.62,61.67,66.01
+Bundaberg,Labor,ALP,0.003,1.0,33.99,38.33,43.38
+Bundaberg,One Nation,ON,0.0,0.0,,,
+Bundaberg,Independent*,IND*,0.0,0.0,,,
+Bundaberg,United Australia,UAPP,0.0,0.0,,,
+Bundaberg,Greens,GRN,0.0,0.0,,,
+Bundaberg,FACN,FACN,0.0,0.0,,,
+Bundaberg,Animal Justice,AJP,0.0,0.0,,,
+Bundamba,Labor,ALP,0.995,1.0,55.87,60.68,65.23
+Bundamba,LNP,LNP,0.005,0.998,34.79,39.32,44.13
+Bundamba,One Nation,ON,0.0,0.002,28.35,31.06,33.77
+Bundamba,Greens,GRN,0.0,0.0,,,
+Bundamba,United Australia,UAPP,0.0,0.0,,,
+Bundamba,Independent*,IND*,0.0,0.0,,,
+Bundamba,FACN,FACN,0.0,0.0,,,
+Bundamba,DLP,DLP,0.0,0.0,,,
+Bundamba,SEP,SEP,0.0,0.0,,,
+Burdekin,LNP,LNP,1.0,1.0,59.76,63.94,67.94
+Burdekin,Labor,ALP,0.0,0.861,32.13,36.1,40.37
+Burdekin,One Nation,ON,0.0,0.139,31.64,35.6,39.21
+Burdekin,KAP,KAP,0.0,0.0,,,
+Burdekin,United Australia,UAPP,0.0,0.0,,,
+Burdekin,DLP,DLP,0.0,0.0,,,
+Burdekin,FACN,FACN,0.0,0.0,,,
+Burdekin,Greens,GRN,0.0,0.0,,,
+Burdekin,Independent*,IND*,0.0,0.0,,,
+Burleigh,LNP,LNP,0.997,1.0,55.75,60.19,65.22
+Burleigh,Labor,ALP,0.003,1.0,34.78,39.81,44.25
+Burleigh,Greens,GRN,0.0,0.0,,,
+Burleigh,One Nation,ON,0.0,0.0,,,
+Burleigh,Liberal Democrats,LDP,0.0,0.0,,,
+Burleigh,United Australia,UAPP,0.0,0.0,,,
+Burleigh,Animal Justice,AJP,0.0,0.0,,,
+Burleigh,Independent*,IND*,0.0,0.0,,,
+Burleigh,FACN,FACN,0.0,0.0,,,
+Burnett,LNP,LNP,0.999,1.0,58.75,63.24,67.66
+Burnett,Labor,ALP,0.001,0.995,32.35,36.78,41.27
+Burnett,One Nation,ON,0.0,0.005,31.74,33.2,37.62
+Burnett,United Australia,UAPP,0.0,0.0,,,
+Burnett,Greens,GRN,0.0,0.0,,,
+Burnett,Independent*,IND*,0.0,0.0,,,
+Burnett,FACN,FACN,0.0,0.0,,,
+Burnett,Animal Justice,AJP,0.0,0.0,,,
+Cairns,LNP,LNP,0.921,1.0,50.48,55.34,60.08
+Cairns,Labor,ALP,0.079,1.0,39.92,44.66,49.52
+Cairns,Greens,GRN,0.0,0.0,,,
+Cairns,KAP,KAP,0.0,0.0,,,
+Cairns,One Nation,ON,0.0,0.0,,,
+Cairns,United Australia,UAPP,0.0,0.0,,,
+Cairns,Independent*,IND*,0.0,0.0,,,
+Cairns,FACN,FACN,0.0,0.0,,,
+Callide,LNP,LNP,1.0,1.0,62.18,66.35,70.22
+Callide,Labor,ALP,0.0,0.565,29.46,33.37,37.92
+Callide,One Nation,ON,0.0,0.435,30.15,33.94,37.7
+Callide,United Australia,UAPP,0.0,0.0,,,
+Callide,FACN,FACN,0.0,0.0,,,
+Callide,Greens,GRN,0.0,0.0,,,
+Callide,Independent*,IND*,0.0,0.0,,,
+Callide,KAP,KAP,0.0,0.0,,,
+Caloundra,LNP,LNP,1.0,1.0,58.84,63.99,68.42
+Caloundra,Labor,ALP,0.0,1.0,31.58,36.01,41.16
+Caloundra,Greens,GRN,0.0,0.0,,,
+Caloundra,One Nation,ON,0.0,0.0,,,
+Caloundra,United Australia,UAPP,0.0,0.0,,,
+Caloundra,FACN,FACN,0.0,0.0,,,
+Caloundra,LAOL,LAOL,0.0,0.0,,,
+Capalaba,LNP,LNP,0.947,1.0,51.22,56.28,61.53
+Capalaba,Labor,ALP,0.053,1.0,38.47,43.72,48.78
+Capalaba,Greens,GRN,0.0,0.0,,,
+Capalaba,One Nation,ON,0.0,0.0,,,
+Capalaba,United Australia,UAPP,0.0,0.0,,,
+Capalaba,FACN,FACN,0.0,0.0,,,
+Chatsworth,LNP,LNP,0.97,1.0,51.89,57.32,62.35
+Chatsworth,Labor,ALP,0.03,1.0,37.65,42.68,48.11
+Chatsworth,Greens,GRN,0.0,0.0,,,
+Chatsworth,One Nation,ON,0.0,0.0,,,
+Chatsworth,United Australia,UAPP,0.0,0.0,,,
+Chatsworth,FACN,FACN,0.0,0.0,,,
+Clayfield,LNP,LNP,0.996,1.0,54.65,60.14,66.75
+Clayfield,Labor,ALP,0.004,0.938,34.75,40.13,45.51
+Clayfield,Greens,GRN,0.0,0.062,20.95,24.34,27.42
+Clayfield,One Nation,ON,0.0,0.0,,,
+Clayfield,United Australia,UAPP,0.0,0.0,,,
+Clayfield,FACN,FACN,0.0,0.0,,,
+Clayfield,Socialist Alliance,SAL,0.0,0.0,,,
+Condamine,LNP,LNP,1.0,1.0,64.08,68.78,72.61
+Condamine,One Nation,ON,0.0,0.906,27.69,31.37,36.06
+Condamine,Labor,ALP,0.0,0.094,25.17,29.26,33.26
+Condamine,Greens,GRN,0.0,0.0,,,
+Condamine,United Australia,UAPP,0.0,0.0,,,
+Condamine,FACN,FACN,0.0,0.0,,,
+Condamine,KAP,KAP,0.0,0.0,,,
+Cook,LNP,LNP,0.94,0.998,51.51,56.59,61.19
+Cook,Labor,ALP,0.028,0.959,38.73,43.21,47.71
+Cook,KAP,KAP,0.032,0.043,48.05,52.51,56.48
+Cook,Greens,GRN,0.0,0.0,,,
+Cook,United Australia,UAPP,0.0,0.0,,,
+Cook,One Nation,ON,0.0,0.0,,,
+Cook,FACN,FACN,0.0,0.0,,,
+Cook,Independent*,IND*,0.0,0.0,,,
+Coomera,LNP,LNP,0.992,1.0,55.02,59.76,64.3
+Coomera,Labor,ALP,0.008,1.0,35.7,40.24,44.98
+Coomera,One Nation,ON,0.0,0.0,,,
+Coomera,Greens,GRN,0.0,0.0,,,
+Coomera,United Australia,UAPP,0.0,0.0,,,
+Coomera,Liberal Democrats,LDP,0.0,0.0,,,
+Coomera,FACN,FACN,0.0,0.0,,,
+Cooper,LNP,LNP,0.808,1.0,48.23,53.72,69.8
+Cooper,Labor,ALP,0.192,0.847,41.94,47.17,51.96
+Cooper,Greens,GRN,0.0,0.153,25.93,29.14,32.17
+Cooper,One Nation,ON,0.0,0.0,,,
+Cooper,United Australia,UAPP,0.0,0.0,,,
+Cooper,Animal Justice,AJP,0.0,0.0,,,
+Cooper,FACN,FACN,0.0,0.0,,,
+Cooper,Socialist Alliance,SAL,0.0,0.0,,,
+Currumbin,LNP,LNP,0.963,1.0,52.27,56.84,61.62
+Currumbin,Labor,ALP,0.037,1.0,38.38,43.16,47.73
+Currumbin,Greens,GRN,0.0,0.0,,,
+Currumbin,One Nation,ON,0.0,0.0,,,
+Currumbin,United Australia,UAPP,0.0,0.0,,,
+Currumbin,Liberal Democrats,LDP,0.0,0.0,,,
+Currumbin,Animal Justice,AJP,0.0,0.0,,,
+Currumbin,Independent*,IND*,0.0,0.0,,,
+Currumbin,FACN,FACN,0.0,0.0,,,
+Everton,LNP,LNP,0.95,1.0,51.78,56.71,61.76
+Everton,Labor,ALP,0.05,1.0,38.24,43.29,48.22
+Everton,Greens,GRN,0.0,0.0,,,
+Everton,One Nation,ON,0.0,0.0,,,
+Everton,United Australia,UAPP,0.0,0.0,,,
+Everton,Independent*,IND*,0.0,0.0,,,
+Everton,Animal Justice,AJP,0.0,0.0,,,
+Everton,FACN,FACN,0.0,0.0,,,
+Everton,Socialist Alliance,SAL,0.0,0.0,,,
+Ferny Grove,LNP,LNP,0.49,1.0,44.82,49.9,55.67
+Ferny Grove,Labor,ALP,0.51,1.0,44.33,50.1,55.18
+Ferny Grove,Greens,GRN,0.0,0.0,,,
+Ferny Grove,One Nation,ON,0.0,0.0,,,
+Ferny Grove,Animal Justice,AJP,0.0,0.0,,,
+Ferny Grove,United Australia,UAPP,0.0,0.0,,,
+Ferny Grove,FACN,FACN,0.0,0.0,,,
+Ferny Grove,Independent*,IND*,0.0,0.0,,,
+Ferny Grove,Socialist Alliance,SAL,0.0,0.0,,,
+Gaven,LNP,LNP,0.995,1.0,55.25,60.43,65.0
+Gaven,Labor,ALP,0.005,1.0,35.0,39.57,44.75
+Gaven,One Nation,ON,0.0,0.0,,,
+Gaven,Greens,GRN,0.0,0.0,,,
+Gaven,United Australia,UAPP,0.0,0.0,,,
+Gaven,Animal Justice,AJP,0.0,0.0,,,
+Gaven,Liberal Democrats,LDP,0.0,0.0,,,
+Gaven,FACN,FACN,0.0,0.0,,,
+Gaven,Independent*,IND*,0.0,0.0,,,
+Gaven,KAP,KAP,0.0,0.0,,,
+Gladstone,Labor,ALP,0.816,1.0,48.68,53.53,58.55
+Gladstone,LNP,LNP,0.184,0.997,41.53,46.5,51.32
+Gladstone,One Nation,ON,0.0,0.003,35.77,40.04,40.53
+Gladstone,Independent*,IND*,0.0,0.0,,,
+Gladstone,United Australia,UAPP,0.0,0.0,,,
+Gladstone,Greens,GRN,0.0,0.0,,,
+Gladstone,FACN,FACN,0.0,0.0,,,
+Glass House,LNP,LNP,0.975,1.0,52.53,57.53,62.18
+Glass House,Labor,ALP,0.025,1.0,37.82,42.47,47.47
+Glass House,Greens,GRN,0.0,0.0,,,
+Glass House,One Nation,ON,0.0,0.0,,,
+Glass House,United Australia,UAPP,0.0,0.0,,,
+Glass House,FACN,FACN,0.0,0.0,,,
+Glass House,LAOL,LAOL,0.0,0.0,,,
+Glass House,AFN,AFN,0.0,0.0,,,
+Glass House,AUP,AUP,0.0,0.0,,,
+Greenslopes,LNP,LNP,0.521,1.0,45.22,50.24,55.85
+Greenslopes,Labor,ALP,0.479,0.979,44.72,49.86,54.84
+Greenslopes,Greens,GRN,0.0,0.021,27.62,30.63,32.39
+Greenslopes,One Nation,ON,0.0,0.0,,,
+Greenslopes,United Australia,UAPP,0.0,0.0,,,
+Greenslopes,FACN,FACN,0.0,0.0,,,
+Gregory,LNP,LNP,1.0,1.0,61.31,65.3,69.22
+Gregory,Labor,ALP,0.0,0.505,30.63,34.45,38.63
+Gregory,One Nation,ON,0.0,0.495,30.93,34.91,38.7
+Gregory,United Australia,UAPP,0.0,0.0,,,
+Gregory,FACN,FACN,0.0,0.0,,,
+Gregory,Independent*,IND*,0.0,0.0,,,
+Gregory,Greens,GRN,0.0,0.0,,,
+Gregory,KAP,KAP,0.0,0.0,,,
+Gympie,LNP,LNP,1.0,1.0,60.4,64.9,69.12
+Gympie,Labor,ALP,0.0,1.0,30.88,35.1,39.6
+Gympie,One Nation,ON,0.0,0.0,,,
+Gympie,Greens,GRN,0.0,0.0,,,
+Gympie,Independent*,IND*,0.0,0.0,,,
+Gympie,United Australia,UAPP,0.0,0.0,,,
+Gympie,FACN,FACN,0.0,0.0,,,
+Hervey Bay,LNP,LNP,1.0,1.0,60.04,64.6,69.33
+Hervey Bay,Labor,ALP,0.0,0.957,30.68,35.46,40.11
+Hervey Bay,One Nation,ON,0.0,0.043,29.94,33.95,37.17
+Hervey Bay,Greens,GRN,0.0,0.0,,,
+Hervey Bay,United Australia,UAPP,0.0,0.0,,,
+Hervey Bay,Independent*,IND*,0.0,0.0,,,
+Hervey Bay,Animal Justice,AJP,0.0,0.0,,,
+Hervey Bay,FACN,FACN,0.0,0.0,,,
+Hill,KAP,KAP,1.0,1.0,58.02,62.58,67.04
+Hill,LNP,LNP,0.0,0.982,32.98,37.47,42.0
+Hill,Labor,ALP,0.0,0.018,31.52,35.41,37.24
+Hill,Greens,GRN,0.0,0.0,,,
+Hill,United Australia,UAPP,0.0,0.0,,,
+Hill,FACN,FACN,0.0,0.0,,,
+Hinchinbrook,LNP,LNP,0.601,1.0,46.44,51.03,57.35
+Hinchinbrook,KAP,KAP,0.399,0.927,44.57,49.38,53.67
+Hinchinbrook,Labor,ALP,0.0,0.073,34.24,38.11,42.03
+Hinchinbrook,One Nation,ON,0.0,0.0,,,
+Hinchinbrook,United Australia,UAPP,0.0,0.0,,,
+Hinchinbrook,Greens,GRN,0.0,0.0,,,
+Hinchinbrook,FACN,FACN,0.0,0.0,,,
+Hinchinbrook,Animal Justice,AJP,0.0,0.0,,,
+Inala,Labor,ALP,0.999,1.0,59.77,64.63,69.61
+Inala,LNP,LNP,0.001,1.0,30.39,35.37,40.23
+Inala,Greens,GRN,0.0,0.0,,,
+Inala,One Nation,ON,0.0,0.0,,,
+Inala,United Australia,UAPP,0.0,0.0,,,
+Inala,FACN,FACN,0.0,0.0,,,
+Inala,SEP,SEP,0.0,0.0,,,
+Ipswich,Labor,ALP,0.835,1.0,48.99,53.46,58.13
+Ipswich,LNP,LNP,0.165,0.999,41.87,46.54,51.01
+Ipswich,One Nation,ON,0.0,0.001,33.01,33.01,33.01
+Ipswich,Greens,GRN,0.0,0.0,,,
+Ipswich,Independent*,IND*,0.0,0.0,,,
+Ipswich,United Australia,UAPP,0.0,0.0,,,
+Ipswich,DLP,DLP,0.0,0.0,,,
+Ipswich,FACN,FACN,0.0,0.0,,,
+Ipswich West,Labor,ALP,0.323,1.0,43.68,48.38,53.1
+Ipswich West,LNP,LNP,0.677,0.994,47.0,51.64,56.32
+Ipswich West,One Nation,ON,0.0,0.006,38.26,41.66,45.06
+Ipswich West,Greens,GRN,0.0,0.0,,,
+Ipswich West,Independent*,IND*,0.0,0.0,,,
+Ipswich West,United Australia,UAPP,0.0,0.0,,,
+Ipswich West,FACN,FACN,0.0,0.0,,,
+Ipswich West,DLP,DLP,0.0,0.0,,,
+Jordan,Labor,ALP,0.621,1.0,46.23,51.06,56.23
+Jordan,LNP,LNP,0.379,1.0,43.77,48.94,53.77
+Jordan,Greens,GRN,0.0,0.0,,,
+Jordan,One Nation,ON,0.0,0.0,,,
+Jordan,United Australia,UAPP,0.0,0.0,,,
+Jordan,FACN,FACN,0.0,0.0,,,
+Jordan,Independent*,IND*,0.0,0.0,,,
+Jordan,DLP,DLP,0.0,0.0,,,
+Jordan,SEP,SEP,0.0,0.0,,,
+Jordan,KAP,KAP,0.0,0.0,,,
+Kawana,LNP,LNP,1.0,1.0,57.52,62.37,66.93
+Kawana,Labor,ALP,0.0,1.0,33.07,37.63,42.48
+Kawana,Greens,GRN,0.0,0.0,,,
+Kawana,One Nation,ON,0.0,0.0,,,
+Kawana,United Australia,UAPP,0.0,0.0,,,
+Kawana,LAOL,LAOL,0.0,0.0,,,
+Kawana,FACN,FACN,0.0,0.0,,,
+Keppel,LNP,LNP,1.0,1.0,57.31,62.26,66.56
+Keppel,Labor,ALP,0.0,1.0,33.44,37.74,42.69
+Keppel,One Nation,ON,0.0,0.0,,,
+Keppel,Greens,GRN,0.0,0.0,,,
+Keppel,United Australia,UAPP,0.0,0.0,,,
+Keppel,Independent*,IND*,0.0,0.0,,,
+Keppel,KAP,KAP,0.0,0.0,,,
+Keppel,FACN,FACN,0.0,0.0,,,
+Keppel,DLP,DLP,0.0,0.0,,,
+Kurwongbah,LNP,LNP,0.77,1.0,48.03,52.98,58.14
+Kurwongbah,Labor,ALP,0.23,1.0,41.86,47.02,51.97
+Kurwongbah,One Nation,ON,0.0,0.0,,,
+Kurwongbah,Greens,GRN,0.0,0.0,,,
+Kurwongbah,United Australia,UAPP,0.0,0.0,,,
+Kurwongbah,FACN,FACN,0.0,0.0,,,
+Kurwongbah,Independent*,IND*,0.0,0.0,,,
+Kurwongbah,AFN,AFN,0.0,0.0,,,
+Kurwongbah,Animal Justice,AJP,0.0,0.0,,,
+Kurwongbah,AUP,AUP,0.0,0.0,,,
+Lockyer,LNP,LNP,0.999,1.0,58.2,62.57,66.82
+Lockyer,One Nation,ON,0.001,0.557,33.19,37.73,41.96
+Lockyer,Labor,ALP,0.0,0.443,33.14,37.03,41.53
+Lockyer,United Australia,UAPP,0.0,0.0,,,
+Lockyer,Greens,GRN,0.0,0.0,,,
+Lockyer,Independent*,IND*,0.0,0.0,,,
+Lockyer,FACN,FACN,0.0,0.0,,,
+Lockyer,KAP,KAP,0.0,0.0,,,
+Lockyer,DLP,DLP,0.0,0.0,,,
+Logan,LNP,LNP,0.965,1.0,51.96,57.11,61.79
+Logan,Labor,ALP,0.035,1.0,38.21,42.89,48.04
+Logan,One Nation,ON,0.0,0.0,,,
+Logan,Greens,GRN,0.0,0.0,,,
+Logan,United Australia,UAPP,0.0,0.0,,,
+Logan,Independent*,IND*,0.0,0.0,,,
+Logan,FACN,FACN,0.0,0.0,,,
+Logan,KAP,KAP,0.0,0.0,,,
+Logan,Liberal Democrats,LDP,0.0,0.0,,,
+Lytton,LNP,LNP,0.757,1.0,47.47,52.93,58.52
+Lytton,Labor,ALP,0.243,1.0,41.48,47.07,52.53
+Lytton,Greens,GRN,0.0,0.0,,,
+Lytton,One Nation,ON,0.0,0.0,,,
+Lytton,United Australia,UAPP,0.0,0.0,,,
+Lytton,FACN,FACN,0.0,0.0,,,
+Macalister,LNP,LNP,0.986,1.0,53.43,58.48,63.39
+Macalister,Labor,ALP,0.014,1.0,36.61,41.52,46.57
+Macalister,One Nation,ON,0.0,0.0,,,
+Macalister,Greens,GRN,0.0,0.0,,,
+Macalister,United Australia,UAPP,0.0,0.0,,,
+Macalister,FACN,FACN,0.0,0.0,,,
+Macalister,Liberal Democrats,LDP,0.0,0.0,,,
+Mackay,LNP,LNP,1.0,1.0,58.19,62.45,66.99
+Mackay,Labor,ALP,0.0,0.999,33.01,37.56,41.82
+Mackay,One Nation,ON,0.0,0.001,35.43,35.43,35.43
+Mackay,United Australia,UAPP,0.0,0.0,,,
+Mackay,Greens,GRN,0.0,0.0,,,
+Mackay,KAP,KAP,0.0,0.0,,,
+Mackay,DLP,DLP,0.0,0.0,,,
+Mackay,Independent*,IND*,0.0,0.0,,,
+Mackay,FACN,FACN,0.0,0.0,,,
+Maiwar,LNP,LNP,0.965,1.0,52.48,67.09,74.07
+Maiwar,Greens,GRN,0.0,0.519,24.98,28.34,31.83
+Maiwar,Labor,ALP,0.035,0.481,39.84,44.57,49.27
+Maiwar,Animal Justice,AJP,0.0,0.0,,,
+Maiwar,One Nation,ON,0.0,0.0,,,
+Maiwar,United Australia,UAPP,0.0,0.0,,,
+Maiwar,FACN,FACN,0.0,0.0,,,
+Mansfield,LNP,LNP,0.943,1.0,50.93,56.25,61.81
+Mansfield,Labor,ALP,0.057,1.0,38.19,43.75,49.07
+Mansfield,Greens,GRN,0.0,0.0,,,
+Mansfield,One Nation,ON,0.0,0.0,,,
+Mansfield,United Australia,UAPP,0.0,0.0,,,
+Mansfield,FACN,FACN,0.0,0.0,,,
+Mansfield,Liberal Democrats,LDP,0.0,0.0,,,
+Mansfield,Independent*,IND*,0.0,0.0,,,
+Maroochydore,LNP,LNP,1.0,1.0,59.51,64.73,69.05
+Maroochydore,Labor,ALP,0.0,1.0,30.95,35.27,40.49
+Maroochydore,Greens,GRN,0.0,0.0,,,
+Maroochydore,One Nation,ON,0.0,0.0,,,
+Maroochydore,United Australia,UAPP,0.0,0.0,,,
+Maroochydore,FACN,FACN,0.0,0.0,,,
+Maroochydore,SPP,SPP,0.0,0.0,,,
+Maroochydore,Independent*,IND*,0.0,0.0,,,
+Maroochydore,Liberal Democrats,LDP,0.0,0.0,,,
+Maroochydore,LAOL,LAOL,0.0,0.0,,,
+Maryborough,LNP,LNP,0.995,1.0,55.19,60.44,64.79
+Maryborough,Labor,ALP,0.005,1.0,35.21,39.56,44.81
+Maryborough,One Nation,ON,0.0,0.0,,,
+Maryborough,United Australia,UAPP,0.0,0.0,,,
+Maryborough,Greens,GRN,0.0,0.0,,,
+Maryborough,Independent*,IND*,0.0,0.0,,,
+Maryborough,FACN,FACN,0.0,0.0,,,
+Maryborough,Animal Justice,AJP,0.0,0.0,,,
+Mcconnel,LNP,LNP,0.694,1.0,46.02,53.03,70.52
+Mcconnel,Labor,ALP,0.306,0.667,44.36,49.66,54.65
+Mcconnel,Greens,GRN,0.0,0.333,27.69,30.93,34.88
+Mcconnel,One Nation,ON,0.0,0.0,,,
+Mcconnel,United Australia,UAPP,0.0,0.0,,,
+Mcconnel,FACN,FACN,0.0,0.0,,,
+Mcconnel,Socialist Alliance,SAL,0.0,0.0,,,
+Mermaid Beach,LNP,LNP,1.0,1.0,61.55,66.17,70.73
+Mermaid Beach,Labor,ALP,0.0,1.0,29.27,33.83,38.45
+Mermaid Beach,Greens,GRN,0.0,0.0,,,
+Mermaid Beach,One Nation,ON,0.0,0.0,,,
+Mermaid Beach,United Australia,UAPP,0.0,0.0,,,
+Mermaid Beach,Animal Justice,AJP,0.0,0.0,,,
+Mermaid Beach,Liberal Democrats,LDP,0.0,0.0,,,
+Mermaid Beach,Independent*,IND*,0.0,0.0,,,
+Mermaid Beach,FACN,FACN,0.0,0.0,,,
+Miller,LNP,LNP,0.412,1.0,43.92,49.12,54.56
+Miller,Labor,ALP,0.588,0.995,45.51,50.91,56.08
+Miller,Greens,GRN,0.0,0.005,29.55,32.43,33.64
+Miller,One Nation,ON,0.0,0.0,,,
+Miller,United Australia,UAPP,0.0,0.0,,,
+Miller,FACN,FACN,0.0,0.0,,,
+Mirani,LNP,LNP,0.999,1.0,56.08,60.71,64.86
+Mirani,One Nation,ON,0.0,0.74,35.35,39.62,44.05
+Mirani,Labor,ALP,0.001,0.26,34.61,38.63,43.68
+Mirani,United Australia,UAPP,0.0,0.0,,,
+Mirani,KAP,KAP,0.0,0.0,,,
+Mirani,FACN,FACN,0.0,0.0,,,
+Mirani,Greens,GRN,0.0,0.0,,,
+Mirani,Independent*,IND*,0.0,0.0,,,
+Mirani,DLP,DLP,0.0,0.0,,,
+Moggill,LNP,LNP,0.997,1.0,55.7,61.32,68.44
+Moggill,Labor,ALP,0.003,0.91,34.72,39.16,44.57
+Moggill,Greens,GRN,0.0,0.09,21.94,24.39,27.02
+Moggill,One Nation,ON,0.0,0.0,,,
+Moggill,Independent*,IND*,0.0,0.0,,,
+Moggill,United Australia,UAPP,0.0,0.0,,,
+Moggill,Animal Justice,AJP,0.0,0.0,,,
+Moggill,FACN,FACN,0.0,0.0,,,
+Moggill,DLP,DLP,0.0,0.0,,,
+Morayfield,Labor,ALP,0.44,1.0,44.68,49.47,54.02
+Morayfield,LNP,LNP,0.56,1.0,45.98,50.53,55.32
+Morayfield,One Nation,ON,0.0,0.0,,,
+Morayfield,Greens,GRN,0.0,0.0,,,
+Morayfield,United Australia,UAPP,0.0,0.0,,,
+Morayfield,FACN,FACN,0.0,0.0,,,
+Morayfield,AFN,AFN,0.0,0.0,,,
+Morayfield,AUP,AUP,0.0,0.0,,,
+Mount Ommaney,LNP,LNP,0.648,1.0,46.12,51.66,56.97
+Mount Ommaney,Labor,ALP,0.352,1.0,43.03,48.34,53.88
+Mount Ommaney,Greens,GRN,0.0,0.0,,,
+Mount Ommaney,One Nation,ON,0.0,0.0,,,
+Mount Ommaney,United Australia,UAPP,0.0,0.0,,,
+Mount Ommaney,FACN,FACN,0.0,0.0,,,
+Mount Ommaney,SEP,SEP,0.0,0.0,,,
+Mudgeeraba,LNP,LNP,1.0,1.0,59.16,64.3,68.42
+Mudgeeraba,Labor,ALP,0.0,1.0,31.58,35.7,40.84
+Mudgeeraba,Greens,GRN,0.0,0.0,,,
+Mudgeeraba,One Nation,ON,0.0,0.0,,,
+Mudgeeraba,United Australia,UAPP,0.0,0.0,,,
+Mudgeeraba,Liberal Democrats,LDP,0.0,0.0,,,
+Mudgeeraba,Independent*,IND*,0.0,0.0,,,
+Mudgeeraba,Animal Justice,AJP,0.0,0.0,,,
+Mudgeeraba,FACN,FACN,0.0,0.0,,,
+Mudgeeraba,KAP,KAP,0.0,0.0,,,
+Mulgrave,LNP,LNP,0.398,0.688,41.66,51.64,56.74
+Mulgrave,Labor,ALP,0.067,0.76,42.01,45.68,49.78
+Mulgrave,KAP,KAP,0.535,0.552,52.13,56.04,59.42
+Mulgrave,United Australia,UAPP,0.0,0.0,,,
+Mulgrave,Greens,GRN,0.0,0.0,,,
+Mulgrave,One Nation,ON,0.0,0.0,,,
+Mulgrave,FACN,FACN,0.0,0.0,,,
+Mulgrave,Independent*,IND*,0.0,0.0,,,
+Mundingburra,LNP,LNP,0.977,1.0,52.3,57.08,61.66
+Mundingburra,Labor,ALP,0.023,1.0,38.34,42.92,47.7
+Mundingburra,Greens,GRN,0.0,0.0,,,
+Mundingburra,One Nation,ON,0.0,0.0,,,
+Mundingburra,KAP,KAP,0.0,0.0,,,
+Mundingburra,United Australia,UAPP,0.0,0.0,,,
+Mundingburra,FACN,FACN,0.0,0.0,,,
+Mundingburra,DLP,DLP,0.0,0.0,,,
+Mundingburra,Animal Justice,AJP,0.0,0.0,,,
+Mundingburra,Independent*,IND*,0.0,0.0,,,
+Murrumba,LNP,LNP,0.721,1.0,47.25,52.4,57.49
+Murrumba,Labor,ALP,0.279,1.0,42.51,47.6,52.75
+Murrumba,Greens,GRN,0.0,0.0,,,
+Murrumba,One Nation,ON,0.0,0.0,,,
+Murrumba,United Australia,UAPP,0.0,0.0,,,
+Murrumba,FACN,FACN,0.0,0.0,,,
+Murrumba,Independent*,IND*,0.0,0.0,,,
+Murrumba,Animal Justice,AJP,0.0,0.0,,,
+Murrumba,AFN,AFN,0.0,0.0,,,
+Murrumba,AUP,AUP,0.0,0.0,,,
+Nanango,LNP,LNP,1.0,1.0,61.98,66.31,70.68
+Nanango,Labor,ALP,0.0,0.863,29.35,33.74,38.19
+Nanango,One Nation,ON,0.0,0.137,29.26,33.38,36.92
+Nanango,United Australia,UAPP,0.0,0.0,,,
+Nanango,Greens,GRN,0.0,0.0,,,
+Nanango,FACN,FACN,0.0,0.0,,,
+Nanango,KAP,KAP,0.0,0.0,,,
+Nanango,Independent*,IND*,0.0,0.0,,,
+Nanango,DLP,DLP,0.0,0.0,,,
+Nicklin,LNP,LNP,0.998,1.0,54.65,59.75,64.21
+Nicklin,Labor,ALP,0.002,1.0,35.79,40.25,45.35
+Nicklin,Greens,GRN,0.0,0.0,,,
+Nicklin,One Nation,ON,0.0,0.0,,,
+Nicklin,United Australia,UAPP,0.0,0.0,,,
+Nicklin,Independent*,IND*,0.0,0.0,,,
+Nicklin,FACN,FACN,0.0,0.0,,,
+Nicklin,SPP,SPP,0.0,0.0,,,
+Nicklin,Liberal Democrats,LDP,0.0,0.0,,,
+Nicklin,LAOL,LAOL,0.0,0.0,,,
+Ninderry,LNP,LNP,0.985,1.0,54.41,59.07,63.92
+Ninderry,Labor,ALP,0.015,0.999,36.09,40.93,45.59
+Ninderry,Greens,GRN,0.0,0.001,22.48,22.48,22.48
+Ninderry,One Nation,ON,0.0,0.0,,,
+Ninderry,United Australia,UAPP,0.0,0.0,,,
+Ninderry,SPP,SPP,0.0,0.0,,,
+Ninderry,FACN,FACN,0.0,0.0,,,
+Ninderry,Independent*,IND*,0.0,0.0,,,
+Ninderry,Liberal Democrats,LDP,0.0,0.0,,,
+Noosa,LNP,LNP,0.996,1.0,55.3,60.14,64.96
+Noosa,Labor,ALP,0.004,0.983,35.21,39.96,44.76
+Noosa,Greens,GRN,0.0,0.017,22.38,23.68,26.13
+Noosa,One Nation,ON,0.0,0.0,,,
+Noosa,Independent*,IND*,0.0,0.0,,,
+Noosa,United Australia,UAPP,0.0,0.0,,,
+Noosa,FACN,FACN,0.0,0.0,,,
+Nudgee,Labor,ALP,0.839,1.0,48.68,54.18,58.92
+Nudgee,LNP,LNP,0.161,1.0,41.08,45.82,51.32
+Nudgee,Greens,GRN,0.0,0.0,,,
+Nudgee,One Nation,ON,0.0,0.0,,,
+Nudgee,United Australia,UAPP,0.0,0.0,,,
+Nudgee,FACN,FACN,0.0,0.0,,,
+Nudgee,Socialist Alliance,SAL,0.0,0.0,,,
+Oodgeroo,LNP,LNP,1.0,1.0,57.28,62.52,67.41
+Oodgeroo,Labor,ALP,0.0,1.0,32.59,37.48,42.72
+Oodgeroo,Greens,GRN,0.0,0.0,,,
+Oodgeroo,One Nation,ON,0.0,0.0,,,
+Oodgeroo,United Australia,UAPP,0.0,0.0,,,
+Oodgeroo,FACN,FACN,0.0,0.0,,,
+Pine Rivers,LNP,LNP,0.851,1.0,49.08,54.28,59.2
+Pine Rivers,Labor,ALP,0.149,1.0,40.8,45.72,50.92
+Pine Rivers,Greens,GRN,0.0,0.0,,,
+Pine Rivers,One Nation,ON,0.0,0.0,,,
+Pine Rivers,United Australia,UAPP,0.0,0.0,,,
+Pine Rivers,Independent*,IND*,0.0,0.0,,,
+Pine Rivers,Animal Justice,AJP,0.0,0.0,,,
+Pine Rivers,FACN,FACN,0.0,0.0,,,
+Pumicestone,LNP,LNP,0.972,1.0,52.34,57.74,62.64
+Pumicestone,Labor,ALP,0.028,1.0,37.36,42.26,47.66
+Pumicestone,One Nation,ON,0.0,0.0,,,
+Pumicestone,Greens,GRN,0.0,0.0,,,
+Pumicestone,United Australia,UAPP,0.0,0.0,,,
+Pumicestone,FACN,FACN,0.0,0.0,,,
+Pumicestone,AFN,AFN,0.0,0.0,,,
+Pumicestone,AUP,AUP,0.0,0.0,,,
+Redcliffe,LNP,LNP,0.977,1.0,52.7,58.38,63.64
+Redcliffe,Labor,ALP,0.023,1.0,36.36,41.62,47.3
+Redcliffe,Greens,GRN,0.0,0.0,,,
+Redcliffe,One Nation,ON,0.0,0.0,,,
+Redcliffe,United Australia,UAPP,0.0,0.0,,,
+Redcliffe,FACN,FACN,0.0,0.0,,,
+Redlands,LNP,LNP,0.991,1.0,54.03,59.29,63.98
+Redlands,Labor,ALP,0.009,1.0,36.02,40.71,45.97
+Redlands,Greens,GRN,0.0,0.0,,,
+Redlands,One Nation,ON,0.0,0.0,,,
+Redlands,United Australia,UAPP,0.0,0.0,,,
+Redlands,FACN,FACN,0.0,0.0,,,
+Rockhampton,LNP,LNP,0.963,1.0,51.89,56.78,61.52
+Rockhampton,Labor,ALP,0.037,0.997,38.48,43.25,48.11
+Rockhampton,One Nation,ON,0.0,0.003,38.93,42.54,42.77
+Rockhampton,Greens,GRN,0.0,0.0,,,
+Rockhampton,United Australia,UAPP,0.0,0.0,,,
+Rockhampton,Independent*,IND*,0.0,0.0,,,
+Rockhampton,KAP,KAP,0.0,0.0,,,
+Rockhampton,FACN,FACN,0.0,0.0,,,
+Rockhampton,DLP,DLP,0.0,0.0,,,
+Sandgate,LNP,LNP,0.413,1.0,43.79,48.95,54.42
+Sandgate,Labor,ALP,0.587,1.0,45.58,51.05,56.21
+Sandgate,Greens,GRN,0.0,0.0,,,
+Sandgate,One Nation,ON,0.0,0.0,,,
+Sandgate,United Australia,UAPP,0.0,0.0,,,
+Sandgate,FACN,FACN,0.0,0.0,,,
+Sandgate,Socialist Alliance,SAL,0.0,0.0,,,
+Scenic Rim,LNP,LNP,1.0,1.0,62.86,67.42,71.43
+Scenic Rim,Labor,ALP,0.0,1.0,28.57,32.58,37.14
+Scenic Rim,One Nation,ON,0.0,0.0,,,
+Scenic Rim,Independent*,IND*,0.0,0.0,,,
+Scenic Rim,Greens,GRN,0.0,0.0,,,
+Scenic Rim,KAP,KAP,0.0,0.0,,,
+Scenic Rim,United Australia,UAPP,0.0,0.0,,,
+Scenic Rim,FACN,FACN,0.0,0.0,,,
+Scenic Rim,DLP,DLP,0.0,0.0,,,
+South Brisbane,Greens,GRN,0.0,0.823,35.03,38.66,42.65
+South Brisbane,LNP,LNP,0.552,0.728,40.81,60.15,64.9
+South Brisbane,Labor,ALP,0.448,0.449,55.48,59.84,63.49
+South Brisbane,One Nation,ON,0.0,0.0,,,
+South Brisbane,United Australia,UAPP,0.0,0.0,,,
+South Brisbane,FACN,FACN,0.0,0.0,,,
+Southern Downs,LNP,LNP,1.0,1.0,67.32,71.74,75.31
+Southern Downs,Labor,ALP,0.0,0.708,24.69,28.12,32.7
+Southern Downs,One Nation,ON,0.0,0.292,24.79,28.37,32.54
+Southern Downs,Greens,GRN,0.0,0.0,,,
+Southern Downs,United Australia,UAPP,0.0,0.0,,,
+Southern Downs,KAP,KAP,0.0,0.0,,,
+Southern Downs,FACN,FACN,0.0,0.0,,,
+Southport,LNP,LNP,0.999,1.0,58.27,63.16,67.53
+Southport,Labor,ALP,0.001,1.0,32.47,36.84,41.73
+Southport,Greens,GRN,0.0,0.0,,,
+Southport,One Nation,ON,0.0,0.0,,,
+Southport,United Australia,UAPP,0.0,0.0,,,
+Southport,Animal Justice,AJP,0.0,0.0,,,
+Southport,Liberal Democrats,LDP,0.0,0.0,,,
+Southport,FACN,FACN,0.0,0.0,,,
+Springwood,LNP,LNP,0.845,1.0,49.01,53.81,59.02
+Springwood,Labor,ALP,0.155,1.0,40.98,46.19,50.99
+Springwood,Greens,GRN,0.0,0.0,,,
+Springwood,One Nation,ON,0.0,0.0,,,
+Springwood,United Australia,UAPP,0.0,0.0,,,
+Springwood,FACN,FACN,0.0,0.0,,,
+Springwood,Liberal Democrats,LDP,0.0,0.0,,,
+Springwood,Independent*,IND*,0.0,0.0,,,
+Stafford,LNP,LNP,0.706,1.0,47.15,52.24,57.75
+Stafford,Labor,ALP,0.294,1.0,42.25,47.76,52.85
+Stafford,Greens,GRN,0.0,0.0,,,
+Stafford,One Nation,ON,0.0,0.0,,,
+Stafford,United Australia,UAPP,0.0,0.0,,,
+Stafford,FACN,FACN,0.0,0.0,,,
+Stafford,Socialist Alliance,SAL,0.0,0.0,,,
+Stretton,Labor,ALP,0.729,1.0,46.98,52.69,57.66
+Stretton,LNP,LNP,0.271,1.0,42.34,47.31,53.02
+Stretton,Greens,GRN,0.0,0.0,,,
+Stretton,One Nation,ON,0.0,0.0,,,
+Stretton,United Australia,UAPP,0.0,0.0,,,
+Stretton,FACN,FACN,0.0,0.0,,,
+Stretton,Liberal Democrats,LDP,0.0,0.0,,,
+Stretton,Independent*,IND*,0.0,0.0,,,
+Surfers Paradise,LNP,LNP,1.0,1.0,64.56,68.66,73.27
+Surfers Paradise,Labor,ALP,0.0,1.0,26.73,31.34,35.44
+Surfers Paradise,Greens,GRN,0.0,0.0,,,
+Surfers Paradise,One Nation,ON,0.0,0.0,,,
+Surfers Paradise,United Australia,UAPP,0.0,0.0,,,
+Surfers Paradise,Animal Justice,AJP,0.0,0.0,,,
+Surfers Paradise,Liberal Democrats,LDP,0.0,0.0,,,
+Surfers Paradise,FACN,FACN,0.0,0.0,,,
+Theodore,LNP,LNP,0.999,1.0,57.81,62.81,67.46
+Theodore,Labor,ALP,0.001,1.0,32.54,37.19,42.19
+Theodore,One Nation,ON,0.0,0.0,,,
+Theodore,Greens,GRN,0.0,0.0,,,
+Theodore,United Australia,UAPP,0.0,0.0,,,
+Theodore,Liberal Democrats,LDP,0.0,0.0,,,
+Theodore,FACN,FACN,0.0,0.0,,,
+Theodore,Independent*,IND*,0.0,0.0,,,
+Theodore,KAP,KAP,0.0,0.0,,,
+Thuringowa,LNP,LNP,0.959,0.999,51.93,56.61,60.93
+Thuringowa,Labor,ALP,0.041,0.998,39.07,43.39,48.13
+Thuringowa,One Nation,ON,0.0,0.003,41.17,43.11,43.18
+Thuringowa,KAP,KAP,0.0,0.0,,,
+Thuringowa,United Australia,UAPP,0.0,0.0,,,
+Thuringowa,Greens,GRN,0.0,0.0,,,
+Thuringowa,FACN,FACN,0.0,0.0,,,
+Thuringowa,Animal Justice,AJP,0.0,0.0,,,
+Toohey,Labor,ALP,0.814,1.0,48.61,53.48,58.55
+Toohey,LNP,LNP,0.186,1.0,41.45,46.52,51.39
+Toohey,Greens,GRN,0.0,0.0,,,
+Toohey,One Nation,ON,0.0,0.0,,,
+Toohey,United Australia,UAPP,0.0,0.0,,,
+Toohey,FACN,FACN,0.0,0.0,,,
+Toohey,Liberal Democrats,LDP,0.0,0.0,,,
+Toohey,Independent*,IND*,0.0,0.0,,,
+Toowoomba North,LNP,LNP,1.0,1.0,62.04,66.69,70.85
+Toowoomba North,Labor,ALP,0.0,0.999,29.15,33.31,37.97
+Toowoomba North,One Nation,ON,0.0,0.001,31.45,31.45,31.45
+Toowoomba North,Greens,GRN,0.0,0.0,,,
+Toowoomba North,United Australia,UAPP,0.0,0.0,,,
+Toowoomba North,FACN,FACN,0.0,0.0,,,
+Toowoomba South,LNP,LNP,1.0,1.0,61.07,65.68,69.84
+Toowoomba South,Labor,ALP,0.0,1.0,30.16,34.32,38.93
+Toowoomba South,One Nation,ON,0.0,0.0,,,
+Toowoomba South,Greens,GRN,0.0,0.0,,,
+Toowoomba South,United Australia,UAPP,0.0,0.0,,,
+Toowoomba South,FACN,FACN,0.0,0.0,,,
+Townsville,LNP,LNP,0.994,1.0,55.54,59.91,64.35
+Townsville,Labor,ALP,0.006,1.0,35.65,40.09,44.46
+Townsville,KAP,KAP,0.0,0.0,,,
+Townsville,One Nation,ON,0.0,0.0,,,
+Townsville,Greens,GRN,0.0,0.0,,,
+Townsville,United Australia,UAPP,0.0,0.0,,,
+Townsville,FACN,FACN,0.0,0.0,,,
+Townsville,Animal Justice,AJP,0.0,0.0,,,
+Traeger,KAP,KAP,1.0,1.0,66.6,70.88,75.13
+Traeger,LNP,LNP,0.0,0.974,24.94,29.17,33.44
+Traeger,Labor,ALP,0.0,0.026,23.64,27.71,29.86
+Traeger,United Australia,UAPP,0.0,0.0,,,
+Traeger,Greens,GRN,0.0,0.0,,,
+Traeger,FACN,FACN,0.0,0.0,,,
+Warrego,LNP,LNP,1.0,1.0,67.0,71.35,75.17
+Warrego,One Nation,ON,0.0,0.83,24.94,28.84,33.23
+Warrego,Labor,ALP,0.0,0.17,24.24,27.46,32.14
+Warrego,KAP,KAP,0.0,0.0,,,
+Warrego,United Australia,UAPP,0.0,0.0,,,
+Warrego,FACN,FACN,0.0,0.0,,,
+Warrego,Greens,GRN,0.0,0.0,,,
+Waterford,Labor,ALP,0.714,1.0,47.19,52.11,57.28
+Waterford,LNP,LNP,0.286,1.0,42.72,47.89,52.81
+Waterford,One Nation,ON,0.0,0.0,,,
+Waterford,Greens,GRN,0.0,0.0,,,
+Waterford,United Australia,UAPP,0.0,0.0,,,
+Waterford,FACN,FACN,0.0,0.0,,,
+Waterford,Liberal Democrats,LDP,0.0,0.0,,,
+Waterford,Independent*,IND*,0.0,0.0,,,
+Whitsunday,LNP,LNP,1.0,1.0,59.76,64.07,68.41
+Whitsunday,Labor,ALP,0.0,0.98,31.63,35.98,40.29
+Whitsunday,One Nation,ON,0.0,0.02,31.24,33.35,35.78
+Whitsunday,Greens,GRN,0.0,0.0,,,
+Whitsunday,United Australia,UAPP,0.0,0.0,,,
+Whitsunday,KAP,KAP,0.0,0.0,,,
+Whitsunday,Independent*,IND*,0.0,0.0,,,
+Whitsunday,DLP,DLP,0.0,0.0,,,
+Whitsunday,FACN,FACN,0.0,0.0,,,
+Woodridge,Labor,ALP,1.0,1.0,59.39,64.04,68.33
+Woodridge,LNP,LNP,0.0,1.0,31.67,35.96,40.61
+Woodridge,One Nation,ON,0.0,0.0,,,
+Woodridge,Greens,GRN,0.0,0.0,,,
+Woodridge,United Australia,UAPP,0.0,0.0,,,
+Woodridge,Liberal Democrats,LDP,0.0,0.0,,,
+Woodridge,FACN,FACN,0.0,0.0,,,
+Woodridge,Independent*,IND*,0.0,0.0,,,

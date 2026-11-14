@@ -1,0 +1,45 @@
+{
+  "model": "model1",
+  "run_id": "WA2025 (2022)",
+  "timestamp": "2026-11-09T01:18:41+00:00",
+  "git_commit": null,
+  "runs": 1000,
+  "seed": 1,
+  "noise_log_sd": {
+    "state": 0.08,
+    "seat": 0.12,
+    "flow": 0.15
+  },
+  "inputs": {
+    "state": "WA",
+    "state_election": "2025-03-08",
+    "districts": 59,
+    "federal_election": 2022,
+    "aec_event": 27966,
+    "aec_download": {
+      "source": "https://results.aec.gov.au/27966/Website/",
+      "retrieved": "2026-11-09T01:14:02+00:00",
+      "file_count": 212,
+      "total_bytes": 165786165
+    },
+    "booths": "inside the district and within 1.0 km of their own federal division",
+    "polls": null,
+    "winners": "WA2025"
+  },
+  "scores": {
+    "districts": 59,
+    "raw_seat_count": 42,
+    "brier": 0.3998,
+    "log_loss": 1.0203
+  },
+  "actual_seats": {
+    "ALP": 46,
+    "LP": 7,
+    "NP": 6
+  },
+  "predicted_seats_mean": {
+    "ALP": 40.67,
+    "IND*": 2.81,
+    "LP": 15.53
+  }
+}

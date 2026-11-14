@@ -1,0 +1,3420 @@
+{
+ "Adelaide": {
+  "candidates": [
+   {
+    "candidate_id": "SANDERSON",
+    "name": "SANDERSON",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "HOOD",
+    "name": "HOOD",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "CARBONE",
+    "name": "CARBONE",
+    "party": "AJP"
+   },
+   {
+    "candidate_id": "BIRDSEYE",
+    "name": "BIRDSEYE",
+    "party": "RCH"
+   },
+   {
+    "candidate_id": "WALKER",
+    "name": "WALKER",
+    "party": "AFP"
+   },
+   {
+    "candidate_id": "CULLEN-MacASKILL",
+    "name": "CULLEN-MacASKILL",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "SANDERSON": 9273.0,
+   "HOOD": 9477.0,
+   "CARBONE": 502.0,
+   "BIRDSEYE": 380.0,
+   "WALKER": 545.0,
+   "CULLEN-MacASKILL": 3146.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "BIRDSEYE",
+    "exhausted": 0.0,
+    "transfers": {
+     "SANDERSON": 52.0,
+     "HOOD": 48.0,
+     "CARBONE": 104.0,
+     "WALKER": 106.0,
+     "CULLEN-MacASKILL": 70.0
+    }
+   },
+   {
+    "excluded_candidate": "CARBONE",
+    "exhausted": 0.0,
+    "transfers": {
+     "SANDERSON": 64.0,
+     "HOOD": 167.0,
+     "WALKER": 122.0,
+     "CULLEN-MacASKILL": 253.0
+    }
+   },
+   {
+    "excluded_candidate": "WALKER",
+    "exhausted": 0.0,
+    "transfers": {
+     "SANDERSON": 289.0,
+     "HOOD": 239.0,
+     "CULLEN-MacASKILL": 245.0
+    }
+   },
+   {
+    "excluded_candidate": "CULLEN-MacASKILL",
+    "exhausted": 0.0,
+    "transfers": {
+     "SANDERSON": 548.0,
+     "HOOD": 3166.0
+    }
+   }
+  ],
+  "final_totals": {
+   "SANDERSON": 10226.0,
+   "HOOD": 13097.0
+  },
+  "formal_votes": 23323
+ },
+ "Badcoe": {
+  "candidates": [
+   {
+    "candidate_id": "HUSSEY",
+    "name": "HUSSEY",
+    "party": "AFP"
+   },
+   {
+    "candidate_id": "STINSON",
+    "name": "STINSON",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "CAULFIELD",
+    "name": "CAULFIELD",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "TURNER",
+    "name": "TURNER",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "IVESON",
+    "name": "IVESON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "DODD",
+    "name": "DODD",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "ECKERSLEY",
+    "name": "ECKERSLEY",
+    "party": "AJP"
+   }
+  ],
+  "first_preferences": {
+   "HUSSEY": 488.0,
+   "STINSON": 11780.0,
+   "CAULFIELD": 2697.0,
+   "TURNER": 428.0,
+   "IVESON": 722.0,
+   "DODD": 6876.0,
+   "ECKERSLEY": 571.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "TURNER",
+    "exhausted": 0.0,
+    "transfers": {
+     "HUSSEY": 220.0,
+     "STINSON": 40.0,
+     "CAULFIELD": 38.0,
+     "IVESON": 52.0,
+     "DODD": 55.0,
+     "ECKERSLEY": 23.0
+    }
+   },
+   {
+    "excluded_candidate": "ECKERSLEY",
+    "exhausted": 0.0,
+    "transfers": {
+     "HUSSEY": 120.0,
+     "STINSON": 122.0,
+     "CAULFIELD": 225.0,
+     "IVESON": 56.0,
+     "DODD": 71.0
+    }
+   },
+   {
+    "excluded_candidate": "HUSSEY",
+    "exhausted": 0.0,
+    "transfers": {
+     "STINSON": 260.0,
+     "CAULFIELD": 119.0,
+     "IVESON": 271.0,
+     "DODD": 178.0
+    }
+   },
+   {
+    "excluded_candidate": "IVESON",
+    "exhausted": 0.0,
+    "transfers": {
+     "STINSON": 246.0,
+     "CAULFIELD": 277.0,
+     "DODD": 578.0
+    }
+   },
+   {
+    "excluded_candidate": "CAULFIELD",
+    "exhausted": 0.0,
+    "transfers": {
+     "STINSON": 2815.0,
+     "DODD": 541.0
+    }
+   }
+  ],
+  "final_totals": {
+   "STINSON": 15263.0,
+   "DODD": 8299.0
+  },
+  "formal_votes": 23562
+ },
+ "Black": {
+  "candidates": [
+   {
+    "candidate_id": "DIGHTON",
+    "name": "DIGHTON",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "TIDEMANN",
+    "name": "TIDEMANN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "SPEIRS",
+    "name": "SPEIRS",
+    "party": "LP"
+   }
+  ],
+  "first_preferences": {
+   "DIGHTON": 9037.0,
+   "TIDEMANN": 2785.0,
+   "SPEIRS": 11862.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "TIDEMANN",
+    "exhausted": 0.0,
+    "transfers": {
+     "DIGHTON": 2154.0,
+     "SPEIRS": 631.0
+    }
+   }
+  ],
+  "final_totals": {
+   "DIGHTON": 11191.0,
+   "SPEIRS": 12493.0
+  },
+  "formal_votes": 23684
+ },
+ "Bragg": {
+  "candidates": [
+   {
+    "candidate_id": "CHAPMAN",
+    "name": "CHAPMAN",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "SARRE",
+    "name": "SARRE",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "PETRILLI",
+    "name": "PETRILLI",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "McCANN",
+    "name": "McCANN",
+    "party": "FFP"
+   }
+  ],
+  "first_preferences": {
+   "CHAPMAN": 12751.0,
+   "SARRE": 6793.0,
+   "PETRILLI": 3000.0,
+   "McCANN": 1175.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "McCANN",
+    "exhausted": 0.0,
+    "transfers": {
+     "CHAPMAN": 418.0,
+     "SARRE": 467.0,
+     "PETRILLI": 290.0
+    }
+   },
+   {
+    "excluded_candidate": "PETRILLI",
+    "exhausted": 0.0,
+    "transfers": {
+     "CHAPMAN": 627.0,
+     "SARRE": 2663.0
+    }
+   }
+  ],
+  "final_totals": {
+   "CHAPMAN": 13796.0,
+   "SARRE": 9923.0
+  },
+  "formal_votes": 23719
+ },
+ "Chaffey": {
+  "candidates": [
+   {
+    "candidate_id": "SUTTON",
+    "name": "SUTTON",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "FRANCIS",
+    "name": "FRANCIS",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "WHETSTONE",
+    "name": "WHETSTONE",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "BUIJS",
+    "name": "BUIJS",
+    "party": "NP"
+   },
+   {
+    "candidate_id": "SCHLOITHE",
+    "name": "SCHLOITHE",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "FELEPPA",
+    "name": "FELEPPA",
+    "party": "ON"
+   }
+  ],
+  "first_preferences": {
+   "SUTTON": 4395.0,
+   "FRANCIS": 831.0,
+   "WHETSTONE": 12050.0,
+   "BUIJS": 1267.0,
+   "SCHLOITHE": 1334.0,
+   "FELEPPA": 2180.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "FRANCIS",
+    "exhausted": 0.0,
+    "transfers": {
+     "SUTTON": 159.0,
+     "WHETSTONE": 188.0,
+     "BUIJS": 228.0,
+     "SCHLOITHE": 114.0,
+     "FELEPPA": 142.0
+    }
+   },
+   {
+    "excluded_candidate": "SCHLOITHE",
+    "exhausted": 0.0,
+    "transfers": {
+     "SUTTON": 803.0,
+     "WHETSTONE": 239.0,
+     "BUIJS": 202.0,
+     "FELEPPA": 204.0
+    }
+   },
+   {
+    "excluded_candidate": "BUIJS",
+    "exhausted": 0.0,
+    "transfers": {
+     "SUTTON": 363.0,
+     "WHETSTONE": 837.0,
+     "FELEPPA": 497.0
+    }
+   },
+   {
+    "excluded_candidate": "FELEPPA",
+    "exhausted": 0.0,
+    "transfers": {
+     "SUTTON": 1517.0,
+     "WHETSTONE": 1506.0
+    }
+   }
+  ],
+  "final_totals": {
+   "SUTTON": 7237.0,
+   "WHETSTONE": 14820.0
+  },
+  "formal_votes": 22057
+ },
+ "Cheltenham": {
+  "candidates": [
+   {
+    "candidate_id": "RIX",
+    "name": "RIX",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "TENNIKOFF",
+    "name": "TENNIKOFF",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "SZAKACS",
+    "name": "SZAKACS",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "LESIW",
+    "name": "LESIW",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "MEDROW",
+    "name": "MEDROW",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "RIX": 5730.0,
+   "TENNIKOFF": 1513.0,
+   "SZAKACS": 13027.0,
+   "LESIW": 633.0,
+   "MEDROW": 2545.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "LESIW",
+    "exhausted": 0.0,
+    "transfers": {
+     "RIX": 68.0,
+     "TENNIKOFF": 293.0,
+     "SZAKACS": 112.0,
+     "MEDROW": 160.0
+    }
+   },
+   {
+    "excluded_candidate": "TENNIKOFF",
+    "exhausted": 0.0,
+    "transfers": {
+     "RIX": 849.0,
+     "SZAKACS": 450.0,
+     "MEDROW": 507.0
+    }
+   },
+   {
+    "excluded_candidate": "MEDROW",
+    "exhausted": 0.0,
+    "transfers": {
+     "RIX": 607.0,
+     "SZAKACS": 2605.0
+    }
+   }
+  ],
+  "final_totals": {
+   "RIX": 7254.0,
+   "SZAKACS": 16194.0
+  },
+  "formal_votes": 23448
+ },
+ "Colton": {
+  "candidates": [
+   {
+    "candidate_id": "COWDREY",
+    "name": "COWDREY",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "CASHEL",
+    "name": "CASHEL",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "ALEXANDRIDES",
+    "name": "ALEXANDRIDES",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "COWDREY": 13171.0,
+   "CASHEL": 2759.0,
+   "ALEXANDRIDES": 9277.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "CASHEL",
+    "exhausted": 0.0,
+    "transfers": {
+     "COWDREY": 645.0,
+     "ALEXANDRIDES": 2114.0
+    }
+   }
+  ],
+  "final_totals": {
+   "COWDREY": 13816.0,
+   "ALEXANDRIDES": 11391.0
+  },
+  "formal_votes": 25207
+ },
+ "Croydon": {
+  "candidates": [
+   {
+    "candidate_id": "SANTAGATA",
+    "name": "SANTAGATA",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "MALINAUSKAS",
+    "name": "MALINAUSKAS",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "DAVIS",
+    "name": "DAVIS",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "HAMMERSTEIN",
+    "name": "HAMMERSTEIN",
+    "party": "AJP"
+   }
+  ],
+  "first_preferences": {
+   "SANTAGATA": 5197.0,
+   "MALINAUSKAS": 14064.0,
+   "DAVIS": 2858.0,
+   "HAMMERSTEIN": 1029.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "HAMMERSTEIN",
+    "exhausted": 0.0,
+    "transfers": {
+     "SANTAGATA": 167.0,
+     "MALINAUSKAS": 224.0,
+     "DAVIS": 638.0
+    }
+   },
+   {
+    "excluded_candidate": "DAVIS",
+    "exhausted": 0.0,
+    "transfers": {
+     "SANTAGATA": 479.0,
+     "MALINAUSKAS": 3017.0
+    }
+   }
+  ],
+  "final_totals": {
+   "SANTAGATA": 5843.0,
+   "MALINAUSKAS": 17305.0
+  },
+  "formal_votes": 23148
+ },
+ "Davenport": {
+  "candidates": [
+   {
+    "candidate_id": "GOLDING",
+    "name": "GOLDING",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "PHOTAKIS",
+    "name": "PHOTAKIS",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "THOMPSON",
+    "name": "THOMPSON",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "MURRAY",
+    "name": "MURRAY",
+    "party": "LP"
+   }
+  ],
+  "first_preferences": {
+   "GOLDING": 2063.0,
+   "PHOTAKIS": 2266.0,
+   "THOMPSON": 9835.0,
+   "MURRAY": 9928.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "GOLDING",
+    "exhausted": 0.0,
+    "transfers": {
+     "PHOTAKIS": 508.0,
+     "THOMPSON": 733.0,
+     "MURRAY": 822.0
+    }
+   },
+   {
+    "excluded_candidate": "PHOTAKIS",
+    "exhausted": 0.0,
+    "transfers": {
+     "THOMPSON": 2302.0,
+     "MURRAY": 472.0
+    }
+   }
+  ],
+  "final_totals": {
+   "THOMPSON": 12870.0,
+   "MURRAY": 11222.0
+  },
+  "formal_votes": 24092
+ },
+ "Dunstan": {
+  "candidates": [
+   {
+    "candidate_id": "MARSHALL",
+    "name": "MARSHALL",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "O'HANLON",
+    "name": "O'HANLON",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "HOLLOWAY",
+    "name": "HOLLOWAY",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "MONCRIEFF",
+    "name": "MONCRIEFF",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "MARSHALL": 11219.0,
+   "O'HANLON": 8445.0,
+   "HOLLOWAY": 1067.0,
+   "MONCRIEFF": 3279.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "HOLLOWAY",
+    "exhausted": 0.0,
+    "transfers": {
+     "MARSHALL": 384.0,
+     "O'HANLON": 446.0,
+     "MONCRIEFF": 237.0
+    }
+   },
+   {
+    "excluded_candidate": "MONCRIEFF",
+    "exhausted": 0.0,
+    "transfers": {
+     "MARSHALL": 532.0,
+     "O'HANLON": 2984.0
+    }
+   }
+  ],
+  "final_totals": {
+   "MARSHALL": 12135.0,
+   "O'HANLON": 11875.0
+  },
+  "formal_votes": 24010
+ },
+ "Elder": {
+  "candidates": [
+   {
+    "candidate_id": "SMITH",
+    "name": "SMITH",
+    "party": "LDP"
+   },
+   {
+    "candidate_id": "CLANCY",
+    "name": "CLANCY",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "POWER",
+    "name": "POWER",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "CROSBY-WRIGHT",
+    "name": "CROSBY-WRIGHT",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "PASTRO",
+    "name": "PASTRO",
+    "party": "AJP"
+   },
+   {
+    "candidate_id": "HOEBEE",
+    "name": "HOEBEE",
+    "party": "RCH"
+   },
+   {
+    "candidate_id": "Le CERF",
+    "name": "Le CERF",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "SMITH": 730.0,
+   "CLANCY": 10587.0,
+   "POWER": 9289.0,
+   "CROSBY-WRIGHT": 619.0,
+   "PASTRO": 450.0,
+   "HOEBEE": 303.0,
+   "Le CERF": 2402.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "HOEBEE",
+    "exhausted": 0.0,
+    "transfers": {
+     "SMITH": 51.0,
+     "CLANCY": 26.0,
+     "POWER": 33.0,
+     "CROSBY-WRIGHT": 59.0,
+     "PASTRO": 64.0,
+     "Le CERF": 70.0
+    }
+   },
+   {
+    "excluded_candidate": "PASTRO",
+    "exhausted": 0.0,
+    "transfers": {
+     "SMITH": 33.0,
+     "CLANCY": 111.0,
+     "POWER": 51.0,
+     "CROSBY-WRIGHT": 111.0,
+     "Le CERF": 208.0
+    }
+   },
+   {
+    "excluded_candidate": "CROSBY-WRIGHT",
+    "exhausted": 0.0,
+    "transfers": {
+     "SMITH": 180.0,
+     "CLANCY": 101.0,
+     "POWER": 340.0,
+     "Le CERF": 168.0
+    }
+   },
+   {
+    "excluded_candidate": "SMITH",
+    "exhausted": 0.0,
+    "transfers": {
+     "CLANCY": 242.0,
+     "POWER": 528.0,
+     "Le CERF": 224.0
+    }
+   },
+   {
+    "excluded_candidate": "Le CERF",
+    "exhausted": 0.0,
+    "transfers": {
+     "CLANCY": 2485.0,
+     "POWER": 587.0
+    }
+   }
+  ],
+  "final_totals": {
+   "CLANCY": 13552.0,
+   "POWER": 10828.0
+  },
+  "formal_votes": 24380
+ },
+ "Elizabeth": {
+  "candidates": [
+   {
+    "candidate_id": "LUTMAN",
+    "name": "LUTMAN",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "ODENWALDER",
+    "name": "ODENWALDER",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "SMALLWOOD",
+    "name": "SMALLWOOD",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "FEDCZYSZYN",
+    "name": "FEDCZYSZYN",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "BENNETT",
+    "name": "BENNETT",
+    "party": "FFP"
+   }
+  ],
+  "first_preferences": {
+   "LUTMAN": 2290.0,
+   "ODENWALDER": 12086.0,
+   "SMALLWOOD": 1736.0,
+   "FEDCZYSZYN": 4281.0,
+   "BENNETT": 1705.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "BENNETT",
+    "exhausted": 0.0,
+    "transfers": {
+     "LUTMAN": 448.0,
+     "ODENWALDER": 338.0,
+     "SMALLWOOD": 398.0,
+     "FEDCZYSZYN": 521.0
+    }
+   },
+   {
+    "excluded_candidate": "SMALLWOOD",
+    "exhausted": 0.0,
+    "transfers": {
+     "LUTMAN": 472.0,
+     "ODENWALDER": 1265.0,
+     "FEDCZYSZYN": 397.0
+    }
+   },
+   {
+    "excluded_candidate": "LUTMAN",
+    "exhausted": 0.0,
+    "transfers": {
+     "ODENWALDER": 1901.0,
+     "FEDCZYSZYN": 1309.0
+    }
+   }
+  ],
+  "final_totals": {
+   "ODENWALDER": 15590.0,
+   "FEDCZYSZYN": 6508.0
+  },
+  "formal_votes": 22098
+ },
+ "Enfield": {
+  "candidates": [
+   {
+    "candidate_id": "MICHAELS",
+    "name": "MICHAELS",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "VAID",
+    "name": "VAID",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "RANA",
+    "name": "RANA",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "PETHO",
+    "name": "PETHO",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "CAVANAGH",
+    "name": "CAVANAGH",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "MICHAELS": 12145.0,
+   "VAID": 1041.0,
+   "RANA": 6768.0,
+   "PETHO": 938.0,
+   "CAVANAGH": 2310.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "PETHO",
+    "exhausted": 0.0,
+    "transfers": {
+     "MICHAELS": 328.0,
+     "VAID": 200.0,
+     "RANA": 210.0,
+     "CAVANAGH": 200.0
+    }
+   },
+   {
+    "excluded_candidate": "VAID",
+    "exhausted": 0.0,
+    "transfers": {
+     "MICHAELS": 314.0,
+     "RANA": 573.0,
+     "CAVANAGH": 354.0
+    }
+   },
+   {
+    "excluded_candidate": "CAVANAGH",
+    "exhausted": 0.0,
+    "transfers": {
+     "MICHAELS": 2185.0,
+     "RANA": 679.0
+    }
+   }
+  ],
+  "final_totals": {
+   "MICHAELS": 14972.0,
+   "RANA": 8230.0
+  },
+  "formal_votes": 23202
+ },
+ "Finniss": {
+  "candidates": [
+   {
+    "candidate_id": "HUEPPAUFF",
+    "name": "HUEPPAUFF",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "BASHAM",
+    "name": "BASHAM",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "CARLI",
+    "name": "CARLI",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "QUAREMBA",
+    "name": "QUAREMBA",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "IENCO",
+    "name": "IENCO",
+    "party": "NP"
+   },
+   {
+    "candidate_id": "NICHOLSON",
+    "name": "NICHOLSON",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "BOURNE",
+    "name": "BOURNE",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "HUEPPAUFF": 5532.0,
+   "BASHAM": 10424.0,
+   "CARLI": 614.0,
+   "QUAREMBA": 1146.0,
+   "IENCO": 82.0,
+   "NICHOLSON": 4728.0,
+   "BOURNE": 1647.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "IENCO",
+    "exhausted": 0.0,
+    "transfers": {
+     "HUEPPAUFF": 4.0,
+     "BASHAM": 23.0,
+     "CARLI": 10.0,
+     "QUAREMBA": 17.0,
+     "NICHOLSON": 18.0,
+     "BOURNE": 10.0
+    }
+   },
+   {
+    "excluded_candidate": "CARLI",
+    "exhausted": 0.0,
+    "transfers": {
+     "HUEPPAUFF": 61.0,
+     "BASHAM": 130.0,
+     "QUAREMBA": 207.0,
+     "NICHOLSON": 174.0,
+     "BOURNE": 52.0
+    }
+   },
+   {
+    "excluded_candidate": "QUAREMBA",
+    "exhausted": 0.0,
+    "transfers": {
+     "HUEPPAUFF": 128.0,
+     "BASHAM": 230.0,
+     "NICHOLSON": 918.0,
+     "BOURNE": 94.0
+    }
+   },
+   {
+    "excluded_candidate": "BOURNE",
+    "exhausted": 0.0,
+    "transfers": {
+     "HUEPPAUFF": 537.0,
+     "BASHAM": 164.0,
+     "NICHOLSON": 1102.0
+    }
+   },
+   {
+    "excluded_candidate": "HUEPPAUFF",
+    "exhausted": 0.0,
+    "transfers": {
+     "BASHAM": 1287.0,
+     "NICHOLSON": 4975.0
+    }
+   }
+  ],
+  "final_totals": {
+   "BASHAM": 12258.0,
+   "NICHOLSON": 11915.0
+  },
+  "formal_votes": 24173
+ },
+ "Flinders": {
+  "candidates": [
+   {
+    "candidate_id": "TYNAN",
+    "name": "TYNAN",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "HARDWICK-FRANCO",
+    "name": "HARDWICK-FRANCO",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "POYNTER",
+    "name": "POYNTER",
+    "party": "NP"
+   },
+   {
+    "candidate_id": "DALTON",
+    "name": "DALTON",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "HABERMANN",
+    "name": "HABERMANN",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "TELFER",
+    "name": "TELFER",
+    "party": "LP"
+   }
+  ],
+  "first_preferences": {
+   "TYNAN": 2943.0,
+   "HARDWICK-FRANCO": 996.0,
+   "POYNTER": 886.0,
+   "DALTON": 860.0,
+   "HABERMANN": 5757.0,
+   "TELFER": 9743.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "DALTON",
+    "exhausted": 0.0,
+    "transfers": {
+     "TYNAN": 76.0,
+     "HARDWICK-FRANCO": 77.0,
+     "POYNTER": 273.0,
+     "HABERMANN": 277.0,
+     "TELFER": 157.0
+    }
+   },
+   {
+    "excluded_candidate": "HARDWICK-FRANCO",
+    "exhausted": 0.0,
+    "transfers": {
+     "TYNAN": 373.0,
+     "POYNTER": 127.0,
+     "HABERMANN": 456.0,
+     "TELFER": 117.0
+    }
+   },
+   {
+    "excluded_candidate": "POYNTER",
+    "exhausted": 0.0,
+    "transfers": {
+     "TYNAN": 231.0,
+     "HABERMANN": 573.0,
+     "TELFER": 482.0
+    }
+   },
+   {
+    "excluded_candidate": "TYNAN",
+    "exhausted": 0.0,
+    "transfers": {
+     "HABERMANN": 2898.0,
+     "TELFER": 725.0
+    }
+   }
+  ],
+  "final_totals": {
+   "HABERMANN": 9961.0,
+   "TELFER": 11224.0
+  },
+  "formal_votes": 21185
+ },
+ "Florey": {
+  "candidates": [
+   {
+    "candidate_id": "GREEN",
+    "name": "GREEN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "KOWALIW",
+    "name": "KOWALIW",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "McSHANE",
+    "name": "McSHANE",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "MASULLO",
+    "name": "MASULLO",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "BROWN",
+    "name": "BROWN",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "GREEN": 2294.0,
+   "KOWALIW": 1326.0,
+   "McSHANE": 6298.0,
+   "MASULLO": 1428.0,
+   "BROWN": 10866.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "KOWALIW",
+    "exhausted": 0.0,
+    "transfers": {
+     "GREEN": 360.0,
+     "McSHANE": 224.0,
+     "MASULLO": 443.0,
+     "BROWN": 299.0
+    }
+   },
+   {
+    "excluded_candidate": "MASULLO",
+    "exhausted": 0.0,
+    "transfers": {
+     "GREEN": 609.0,
+     "McSHANE": 615.0,
+     "BROWN": 647.0
+    }
+   },
+   {
+    "excluded_candidate": "GREEN",
+    "exhausted": 0.0,
+    "transfers": {
+     "McSHANE": 1120.0,
+     "BROWN": 2143.0
+    }
+   }
+  ],
+  "final_totals": {
+   "McSHANE": 8257.0,
+   "BROWN": 13955.0
+  },
+  "formal_votes": 22212
+ },
+ "Frome": {
+  "candidates": [
+   {
+    "candidate_id": "HUNTER",
+    "name": "HUNTER",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "SILSBURY",
+    "name": "SILSBURY",
+    "party": "NP"
+   },
+   {
+    "candidate_id": "JOHNSTON",
+    "name": "JOHNSTON",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "CHARVETTO",
+    "name": "CHARVETTO",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "PRATT",
+    "name": "PRATT",
+    "party": "LP"
+   }
+  ],
+  "first_preferences": {
+   "HUNTER": 3908.0,
+   "SILSBURY": 410.0,
+   "JOHNSTON": 2588.0,
+   "CHARVETTO": 6002.0,
+   "PRATT": 10573.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "SILSBURY",
+    "exhausted": 0.0,
+    "transfers": {
+     "HUNTER": 130.0,
+     "JOHNSTON": 100.0,
+     "CHARVETTO": 45.0,
+     "PRATT": 135.0
+    }
+   },
+   {
+    "excluded_candidate": "JOHNSTON",
+    "exhausted": 0.0,
+    "transfers": {
+     "HUNTER": 1671.0,
+     "CHARVETTO": 532.0,
+     "PRATT": 485.0
+    }
+   },
+   {
+    "excluded_candidate": "HUNTER",
+    "exhausted": 0.0,
+    "transfers": {
+     "CHARVETTO": 3258.0,
+     "PRATT": 2451.0
+    }
+   }
+  ],
+  "final_totals": {
+   "CHARVETTO": 9837.0,
+   "PRATT": 13644.0
+  },
+  "formal_votes": 23481
+ },
+ "Gibson": {
+  "candidates": [
+   {
+    "candidate_id": "ATKINSON",
+    "name": "ATKINSON",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "MIDZI",
+    "name": "MIDZI",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "ANDREWS",
+    "name": "ANDREWS",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "WINGARD",
+    "name": "WINGARD",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "LESLIE",
+    "name": "LESLIE",
+    "party": "FFP"
+   }
+  ],
+  "first_preferences": {
+   "ATKINSON": 2712.0,
+   "MIDZI": 746.0,
+   "ANDREWS": 9701.0,
+   "WINGARD": 10431.0,
+   "LESLIE": 913.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "MIDZI",
+    "exhausted": 0.0,
+    "transfers": {
+     "ATKINSON": 229.0,
+     "ANDREWS": 133.0,
+     "WINGARD": 115.0,
+     "LESLIE": 269.0
+    }
+   },
+   {
+    "excluded_candidate": "LESLIE",
+    "exhausted": 0.0,
+    "transfers": {
+     "ATKINSON": 370.0,
+     "ANDREWS": 357.0,
+     "WINGARD": 455.0
+    }
+   },
+   {
+    "excluded_candidate": "ATKINSON",
+    "exhausted": 0.0,
+    "transfers": {
+     "ANDREWS": 2676.0,
+     "WINGARD": 635.0
+    }
+   }
+  ],
+  "final_totals": {
+   "ANDREWS": 12867.0,
+   "WINGARD": 11636.0
+  },
+  "formal_votes": 24503
+ },
+ "Giles": {
+  "candidates": [
+   {
+    "candidate_id": "HUGHES",
+    "name": "HUGHES",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "MOUNT",
+    "name": "MOUNT",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "DRAGE",
+    "name": "DRAGE",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "McCOMB",
+    "name": "McCOMB",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "ANTONIO",
+    "name": "ANTONIO",
+    "party": "SAB"
+   },
+   {
+    "candidate_id": "TAYLOR",
+    "name": "TAYLOR",
+    "party": "LP"
+   }
+  ],
+  "first_preferences": {
+   "HUGHES": 11285.0,
+   "MOUNT": 753.0,
+   "DRAGE": 1236.0,
+   "McCOMB": 536.0,
+   "ANTONIO": 2171.0,
+   "TAYLOR": 3460.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "McCOMB",
+    "exhausted": 0.0,
+    "transfers": {
+     "HUGHES": 88.0,
+     "MOUNT": 69.0,
+     "DRAGE": 141.0,
+     "ANTONIO": 156.0,
+     "TAYLOR": 82.0
+    }
+   },
+   {
+    "excluded_candidate": "MOUNT",
+    "exhausted": 0.0,
+    "transfers": {
+     "HUGHES": 494.0,
+     "DRAGE": 116.0,
+     "ANTONIO": 137.0,
+     "TAYLOR": 75.0
+    }
+   },
+   {
+    "excluded_candidate": "DRAGE",
+    "exhausted": 0.0,
+    "transfers": {
+     "HUGHES": 354.0,
+     "ANTONIO": 824.0,
+     "TAYLOR": 315.0
+    }
+   },
+   {
+    "excluded_candidate": "ANTONIO",
+    "exhausted": 0.0,
+    "transfers": {
+     "HUGHES": 1577.0,
+     "TAYLOR": 1711.0
+    }
+   }
+  ],
+  "final_totals": {
+   "HUGHES": 13798.0,
+   "TAYLOR": 5643.0
+  },
+  "formal_votes": 19441
+ },
+ "Hammond": {
+  "candidates": [
+   {
+    "candidate_id": "WHITE",
+    "name": "WHITE",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "SCOTT",
+    "name": "SCOTT",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "KEEN",
+    "name": "KEEN",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "ILLINGWORTH",
+    "name": "ILLINGWORTH",
+    "party": "NP"
+   },
+   {
+    "candidate_id": "OWENS",
+    "name": "OWENS",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "LOCK",
+    "name": "LOCK",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "PEDERICK",
+    "name": "PEDERICK",
+    "party": "LP"
+   }
+  ],
+  "first_preferences": {
+   "WHITE": 1377.0,
+   "SCOTT": 1548.0,
+   "KEEN": 3550.0,
+   "ILLINGWORTH": 720.0,
+   "OWENS": 5244.0,
+   "LOCK": 979.0,
+   "PEDERICK": 9130.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "ILLINGWORTH",
+    "exhausted": 0.0,
+    "transfers": {
+     "WHITE": 49.0,
+     "SCOTT": 74.0,
+     "KEEN": 279.0,
+     "OWENS": 92.0,
+     "LOCK": 57.0,
+     "PEDERICK": 169.0
+    }
+   },
+   {
+    "excluded_candidate": "LOCK",
+    "exhausted": 0.0,
+    "transfers": {
+     "WHITE": 130.0,
+     "SCOTT": 210.0,
+     "KEEN": 173.0,
+     "OWENS": 135.0,
+     "PEDERICK": 388.0
+    }
+   },
+   {
+    "excluded_candidate": "WHITE",
+    "exhausted": 0.0,
+    "transfers": {
+     "SCOTT": 312.0,
+     "KEEN": 535.0,
+     "OWENS": 525.0,
+     "PEDERICK": 184.0
+    }
+   },
+   {
+    "excluded_candidate": "SCOTT",
+    "exhausted": 0.0,
+    "transfers": {
+     "KEEN": 1441.0,
+     "OWENS": 288.0,
+     "PEDERICK": 415.0
+    }
+   },
+   {
+    "excluded_candidate": "KEEN",
+    "exhausted": 0.0,
+    "transfers": {
+     "OWENS": 3833.0,
+     "PEDERICK": 2145.0
+    }
+   }
+  ],
+  "final_totals": {
+   "OWENS": 10117.0,
+   "PEDERICK": 12431.0
+  },
+  "formal_votes": 22548
+ },
+ "Hartley": {
+  "candidates": [
+   {
+    "candidate_id": "AMES",
+    "name": "AMES",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "TARZIA",
+    "name": "TARZIA",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "DEAR",
+    "name": "DEAR",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "AMES": 8511.0,
+   "TARZIA": 11591.0,
+   "DEAR": 2627.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "DEAR",
+    "exhausted": 0.0,
+    "transfers": {
+     "AMES": 2039.0,
+     "TARZIA": 588.0
+    }
+   }
+  ],
+  "final_totals": {
+   "AMES": 10550.0,
+   "TARZIA": 12179.0
+  },
+  "formal_votes": 22729
+ },
+ "Heysen": {
+  "candidates": [
+   {
+    "candidate_id": "VOOGT",
+    "name": "VOOGT",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "ALLWOOD",
+    "name": "ALLWOOD",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "NIKITINS",
+    "name": "NIKITINS",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "VONOW",
+    "name": "VONOW",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "TEAGUE",
+    "name": "TEAGUE",
+    "party": "LP"
+   }
+  ],
+  "first_preferences": {
+   "VOOGT": 6410.0,
+   "ALLWOOD": 1159.0,
+   "NIKITINS": 1008.0,
+   "VONOW": 4937.0,
+   "TEAGUE": 10336.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "NIKITINS",
+    "exhausted": 0.0,
+    "transfers": {
+     "VOOGT": 121.0,
+     "ALLWOOD": 453.0,
+     "VONOW": 185.0,
+     "TEAGUE": 249.0
+    }
+   },
+   {
+    "excluded_candidate": "ALLWOOD",
+    "exhausted": 0.0,
+    "transfers": {
+     "VOOGT": 535.0,
+     "VONOW": 414.0,
+     "TEAGUE": 663.0
+    }
+   },
+   {
+    "excluded_candidate": "VONOW",
+    "exhausted": 0.0,
+    "transfers": {
+     "VOOGT": 4407.0,
+     "TEAGUE": 1129.0
+    }
+   }
+  ],
+  "final_totals": {
+   "VOOGT": 11473.0,
+   "TEAGUE": 12377.0
+  },
+  "formal_votes": 23850
+ },
+ "Hurtle Vale": {
+  "candidates": [
+   {
+    "candidate_id": "DE JONGE",
+    "name": "DE JONGE",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "ROBINS",
+    "name": "ROBINS",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "COOK",
+    "name": "COOK",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "SIRES",
+    "name": "SIRES",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "JOHNS",
+    "name": "JOHNS",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "ZSCHECH",
+    "name": "ZSCHECH",
+    "party": "AFP"
+   }
+  ],
+  "first_preferences": {
+   "DE JONGE": 915.0,
+   "ROBINS": 6021.0,
+   "COOK": 12161.0,
+   "SIRES": 1022.0,
+   "JOHNS": 1850.0,
+   "ZSCHECH": 641.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "ZSCHECH",
+    "exhausted": 0.0,
+    "transfers": {
+     "DE JONGE": 109.0,
+     "ROBINS": 29.0,
+     "COOK": 42.0,
+     "SIRES": 394.0,
+     "JOHNS": 67.0
+    }
+   },
+   {
+    "excluded_candidate": "DE JONGE",
+    "exhausted": 0.0,
+    "transfers": {
+     "ROBINS": 290.0,
+     "COOK": 186.0,
+     "SIRES": 412.0,
+     "JOHNS": 136.0
+    }
+   },
+   {
+    "excluded_candidate": "SIRES",
+    "exhausted": 0.0,
+    "transfers": {
+     "ROBINS": 853.0,
+     "COOK": 354.0,
+     "JOHNS": 621.0
+    }
+   },
+   {
+    "excluded_candidate": "JOHNS",
+    "exhausted": 0.0,
+    "transfers": {
+     "ROBINS": 604.0,
+     "COOK": 2070.0
+    }
+   }
+  ],
+  "final_totals": {
+   "ROBINS": 7797.0,
+   "COOK": 14813.0
+  },
+  "formal_votes": 22610
+ },
+ "Kaurna": {
+  "candidates": [
+   {
+    "candidate_id": "HEGGIE",
+    "name": "HEGGIE",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "SHARMA",
+    "name": "SHARMA",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "WEATHERLY",
+    "name": "WEATHERLY",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "PRICE",
+    "name": "PRICE",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "PICTON",
+    "name": "PICTON",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "HEGGIE": 2000.0,
+   "SHARMA": 5053.0,
+   "WEATHERLY": 2649.0,
+   "PRICE": 1050.0,
+   "PICTON": 13696.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "PRICE",
+    "exhausted": 0.0,
+    "transfers": {
+     "HEGGIE": 400.0,
+     "SHARMA": 199.0,
+     "WEATHERLY": 223.0,
+     "PICTON": 228.0
+    }
+   },
+   {
+    "excluded_candidate": "HEGGIE",
+    "exhausted": 0.0,
+    "transfers": {
+     "SHARMA": 1153.0,
+     "WEATHERLY": 672.0,
+     "PICTON": 575.0
+    }
+   },
+   {
+    "excluded_candidate": "WEATHERLY",
+    "exhausted": 0.0,
+    "transfers": {
+     "SHARMA": 902.0,
+     "PICTON": 2642.0
+    }
+   }
+  ],
+  "final_totals": {
+   "SHARMA": 7307.0,
+   "PICTON": 17141.0
+  },
+  "formal_votes": 24448
+ },
+ "Kavel": {
+  "candidates": [
+   {
+    "candidate_id": "CHAPLIN",
+    "name": "CHAPLIN",
+    "party": "AJP"
+   },
+   {
+    "candidate_id": "SELWOOD",
+    "name": "SELWOOD",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "DALLIMORE",
+    "name": "DALLIMORE",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "CREGAN",
+    "name": "CREGAN",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "MUMFORD",
+    "name": "MUMFORD",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "ALLWOOD",
+    "name": "ALLWOOD",
+    "party": "ON"
+   }
+  ],
+  "first_preferences": {
+   "CHAPLIN": 599.0,
+   "SELWOOD": 1978.0,
+   "DALLIMORE": 3458.0,
+   "CREGAN": 12199.0,
+   "MUMFORD": 5036.0,
+   "ALLWOOD": 894.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "CHAPLIN",
+    "exhausted": 0.0,
+    "transfers": {
+     "SELWOOD": 347.0,
+     "DALLIMORE": 67.0,
+     "CREGAN": 103.0,
+     "MUMFORD": 30.0,
+     "ALLWOOD": 52.0
+    }
+   },
+   {
+    "excluded_candidate": "ALLWOOD",
+    "exhausted": 0.0,
+    "transfers": {
+     "SELWOOD": 79.0,
+     "DALLIMORE": 67.0,
+     "CREGAN": 662.0,
+     "MUMFORD": 138.0
+    }
+   },
+   {
+    "excluded_candidate": "SELWOOD",
+    "exhausted": 0.0,
+    "transfers": {
+     "DALLIMORE": 1299.0,
+     "CREGAN": 968.0,
+     "MUMFORD": 137.0
+    }
+   },
+   {
+    "excluded_candidate": "DALLIMORE",
+    "exhausted": 0.0,
+    "transfers": {
+     "CREGAN": 4299.0,
+     "MUMFORD": 592.0
+    }
+   }
+  ],
+  "final_totals": {
+   "CREGAN": 18231.0,
+   "MUMFORD": 5933.0
+  },
+  "formal_votes": 24164
+ },
+ "King": {
+  "candidates": [
+   {
+    "candidate_id": "RANDELL",
+    "name": "RANDELL",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "HUTCHINSON",
+    "name": "HUTCHINSON",
+    "party": "RCH"
+   },
+   {
+    "candidate_id": "BANKS",
+    "name": "BANKS",
+    "party": "AFP"
+   },
+   {
+    "candidate_id": "LUETHEN",
+    "name": "LUETHEN",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "MINAHAN",
+    "name": "MINAHAN",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "PEARCE",
+    "name": "PEARCE",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "BRAY",
+    "name": "BRAY",
+    "party": "AJP"
+   }
+  ],
+  "first_preferences": {
+   "RANDELL": 1347.0,
+   "HUTCHINSON": 308.0,
+   "BANKS": 865.0,
+   "LUETHEN": 9644.0,
+   "MINAHAN": 874.0,
+   "PEARCE": 10366.0,
+   "BRAY": 604.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "HUTCHINSON",
+    "exhausted": 0.0,
+    "transfers": {
+     "RANDELL": 37.0,
+     "BANKS": 97.0,
+     "LUETHEN": 24.0,
+     "MINAHAN": 63.0,
+     "PEARCE": 26.0,
+     "BRAY": 61.0
+    }
+   },
+   {
+    "excluded_candidate": "BRAY",
+    "exhausted": 0.0,
+    "transfers": {
+     "RANDELL": 212.0,
+     "BANKS": 67.0,
+     "LUETHEN": 74.0,
+     "MINAHAN": 103.0,
+     "PEARCE": 209.0
+    }
+   },
+   {
+    "excluded_candidate": "BANKS",
+    "exhausted": 0.0,
+    "transfers": {
+     "RANDELL": 95.0,
+     "LUETHEN": 125.0,
+     "MINAHAN": 736.0,
+     "PEARCE": 73.0
+    }
+   },
+   {
+    "excluded_candidate": "RANDELL",
+    "exhausted": 0.0,
+    "transfers": {
+     "LUETHEN": 376.0,
+     "MINAHAN": 364.0,
+     "PEARCE": 951.0
+    }
+   },
+   {
+    "excluded_candidate": "MINAHAN",
+    "exhausted": 0.0,
+    "transfers": {
+     "LUETHEN": 1073.0,
+     "PEARCE": 1067.0
+    }
+   }
+  ],
+  "final_totals": {
+   "LUETHEN": 11316.0,
+   "PEARCE": 12692.0
+  },
+  "formal_votes": 24008
+ },
+ "Lee": {
+  "candidates": [
+   {
+    "candidate_id": "PAYNE",
+    "name": "PAYNE",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "MULLIGHAN",
+    "name": "MULLIGHAN",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "HALL-EVANS",
+    "name": "HALL-EVANS",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "MOLDOVAN",
+    "name": "MOLDOVAN",
+    "party": "FFP"
+   }
+  ],
+  "first_preferences": {
+   "PAYNE": 1854.0,
+   "MULLIGHAN": 11371.0,
+   "HALL-EVANS": 7556.0,
+   "MOLDOVAN": 1403.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "MOLDOVAN",
+    "exhausted": 0.0,
+    "transfers": {
+     "PAYNE": 433.0,
+     "MULLIGHAN": 415.0,
+     "HALL-EVANS": 555.0
+    }
+   },
+   {
+    "excluded_candidate": "PAYNE",
+    "exhausted": 0.0,
+    "transfers": {
+     "MULLIGHAN": 1791.0,
+     "HALL-EVANS": 496.0
+    }
+   }
+  ],
+  "final_totals": {
+   "MULLIGHAN": 13577.0,
+   "HALL-EVANS": 8607.0
+  },
+  "formal_votes": 22184
+ },
+ "Light": {
+  "candidates": [
+   {
+    "candidate_id": "HACKETT",
+    "name": "HACKETT",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "PICCOLO",
+    "name": "PICCOLO",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "DUNCAN",
+    "name": "DUNCAN",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "WILLIAMSON",
+    "name": "WILLIAMSON",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "FERRIS",
+    "name": "FERRIS",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "HACKETT": 1184.0,
+   "PICCOLO": 13144.0,
+   "DUNCAN": 1542.0,
+   "WILLIAMSON": 5468.0,
+   "FERRIS": 1506.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "HACKETT",
+    "exhausted": 0.0,
+    "transfers": {
+     "PICCOLO": 472.0,
+     "DUNCAN": 310.0,
+     "WILLIAMSON": 183.0,
+     "FERRIS": 219.0
+    }
+   },
+   {
+    "excluded_candidate": "FERRIS",
+    "exhausted": 0.0,
+    "transfers": {
+     "PICCOLO": 1169.0,
+     "DUNCAN": 275.0,
+     "WILLIAMSON": 281.0
+    }
+   },
+   {
+    "excluded_candidate": "DUNCAN",
+    "exhausted": 0.0,
+    "transfers": {
+     "PICCOLO": 1088.0,
+     "WILLIAMSON": 1039.0
+    }
+   }
+  ],
+  "final_totals": {
+   "PICCOLO": 15873.0,
+   "WILLIAMSON": 6971.0
+  },
+  "formal_votes": 22844
+ },
+ "MacKillop": {
+  "candidates": [
+   {
+    "candidate_id": "McBRIDE",
+    "name": "McBRIDE",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "BRAES",
+    "name": "BRAES",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "BAKER",
+    "name": "BAKER",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "PIETZSCH",
+    "name": "PIETZSCH",
+    "party": "NP"
+   },
+   {
+    "candidate_id": "GIEHR",
+    "name": "GIEHR",
+    "party": "ON"
+   }
+  ],
+  "first_preferences": {
+   "McBRIDE": 14623.0,
+   "BRAES": 4703.0,
+   "BAKER": 1139.0,
+   "PIETZSCH": 1109.0,
+   "GIEHR": 1892.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "PIETZSCH",
+    "exhausted": 0.0,
+    "transfers": {
+     "McBRIDE": 457.0,
+     "BRAES": 102.0,
+     "BAKER": 361.0,
+     "GIEHR": 189.0
+    }
+   },
+   {
+    "excluded_candidate": "BAKER",
+    "exhausted": 0.0,
+    "transfers": {
+     "McBRIDE": 519.0,
+     "BRAES": 416.0,
+     "GIEHR": 565.0
+    }
+   },
+   {
+    "excluded_candidate": "GIEHR",
+    "exhausted": 0.0,
+    "transfers": {
+     "McBRIDE": 1449.0,
+     "BRAES": 1197.0
+    }
+   }
+  ],
+  "final_totals": {
+   "McBRIDE": 17048.0,
+   "BRAES": 6418.0
+  },
+  "formal_votes": 23466
+ },
+ "Mawson": {
+  "candidates": [
+   {
+    "candidate_id": "GAME",
+    "name": "GAME",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "CAMPBELL",
+    "name": "CAMPBELL",
+    "party": "AJP"
+   },
+   {
+    "candidate_id": "BARRY",
+    "name": "BARRY",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "GARROOD",
+    "name": "GARROOD",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "IERACI",
+    "name": "IERACI",
+    "party": "AFP"
+   },
+   {
+    "candidate_id": "WILLIAMS",
+    "name": "WILLIAMS",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "BIGNELL",
+    "name": "BIGNELL",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "GAME": 1574.0,
+   "CAMPBELL": 574.0,
+   "BARRY": 443.0,
+   "GARROOD": 2126.0,
+   "IERACI": 279.0,
+   "WILLIAMS": 6724.0,
+   "BIGNELL": 12288.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "IERACI",
+    "exhausted": 0.0,
+    "transfers": {
+     "GAME": 84.0,
+     "CAMPBELL": 12.0,
+     "BARRY": 123.0,
+     "GARROOD": 25.0,
+     "WILLIAMS": 16.0,
+     "BIGNELL": 19.0
+    }
+   },
+   {
+    "excluded_candidate": "BARRY",
+    "exhausted": 0.0,
+    "transfers": {
+     "GAME": 202.0,
+     "CAMPBELL": 100.0,
+     "GARROOD": 70.0,
+     "WILLIAMS": 119.0,
+     "BIGNELL": 75.0
+    }
+   },
+   {
+    "excluded_candidate": "CAMPBELL",
+    "exhausted": 0.0,
+    "transfers": {
+     "GAME": 167.0,
+     "GARROOD": 270.0,
+     "WILLIAMS": 64.0,
+     "BIGNELL": 185.0
+    }
+   },
+   {
+    "excluded_candidate": "GAME",
+    "exhausted": 0.0,
+    "transfers": {
+     "GARROOD": 780.0,
+     "WILLIAMS": 837.0,
+     "BIGNELL": 410.0
+    }
+   },
+   {
+    "excluded_candidate": "GARROOD",
+    "exhausted": 0.0,
+    "transfers": {
+     "WILLIAMS": 926.0,
+     "BIGNELL": 2345.0
+    }
+   }
+  ],
+  "final_totals": {
+   "WILLIAMS": 8686.0,
+   "BIGNELL": 15322.0
+  },
+  "formal_votes": 24008
+ },
+ "Morialta": {
+  "candidates": [
+   {
+    "candidate_id": "GARDNER",
+    "name": "GARDNER",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "ZOLLO",
+    "name": "ZOLLO",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "MAROZZI",
+    "name": "MAROZZI",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "DINOVITSER",
+    "name": "DINOVITSER",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "GARDNER": 10935.0,
+   "ZOLLO": 1763.0,
+   "MAROZZI": 8545.0,
+   "DINOVITSER": 2441.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "ZOLLO",
+    "exhausted": 0.0,
+    "transfers": {
+     "GARDNER": 695.0,
+     "MAROZZI": 698.0,
+     "DINOVITSER": 370.0
+    }
+   },
+   {
+    "excluded_candidate": "DINOVITSER",
+    "exhausted": 0.0,
+    "transfers": {
+     "GARDNER": 535.0,
+     "MAROZZI": 2276.0
+    }
+   }
+  ],
+  "final_totals": {
+   "GARDNER": 12165.0,
+   "MAROZZI": 11519.0
+  },
+  "formal_votes": 23684
+ },
+ "Morphett": {
+  "candidates": [
+   {
+    "candidate_id": "PATTERSON",
+    "name": "PATTERSON",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "SLAVIN",
+    "name": "SLAVIN",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "HURST",
+    "name": "HURST",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "PATTERSON": 11730.0,
+   "SLAVIN": 2881.0,
+   "HURST": 8086.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "SLAVIN",
+    "exhausted": 0.0,
+    "transfers": {
+     "PATTERSON": 650.0,
+     "HURST": 2231.0
+    }
+   }
+  ],
+  "final_totals": {
+   "PATTERSON": 12380.0,
+   "HURST": 10317.0
+  },
+  "formal_votes": 22697
+ },
+ "Mount Gambier": {
+  "candidates": [
+   {
+    "candidate_id": "HOOD",
+    "name": "HOOD",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "HEAVEN",
+    "name": "HEAVEN",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "DAVIES",
+    "name": "DAVIES",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "BELL",
+    "name": "BELL",
+    "party": "IND*"
+   }
+  ],
+  "first_preferences": {
+   "HOOD": 6433.0,
+   "HEAVEN": 1032.0,
+   "DAVIES": 4578.0,
+   "BELL": 10135.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "HEAVEN",
+    "exhausted": 0.0,
+    "transfers": {
+     "HOOD": 284.0,
+     "DAVIES": 243.0,
+     "BELL": 505.0
+    }
+   },
+   {
+    "excluded_candidate": "DAVIES",
+    "exhausted": 0.0,
+    "transfers": {
+     "HOOD": 1460.0,
+     "BELL": 3361.0
+    }
+   }
+  ],
+  "final_totals": {
+   "HOOD": 8177.0,
+   "BELL": 14001.0
+  },
+  "formal_votes": 22178
+ },
+ "Narungga": {
+  "candidates": [
+   {
+    "candidate_id": "ELLIS",
+    "name": "ELLIS",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "MICHAEL",
+    "name": "MICHAEL",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "WRIGHT",
+    "name": "WRIGHT",
+    "party": "NP"
+   },
+   {
+    "candidate_id": "WALTER",
+    "name": "WALTER",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "WHITE",
+    "name": "WHITE",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "JOYCE",
+    "name": "JOYCE",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "PAULL",
+    "name": "PAULL",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "ELLIS": 7139.0,
+   "MICHAEL": 6327.0,
+   "WRIGHT": 283.0,
+   "WALTER": 1826.0,
+   "WHITE": 1183.0,
+   "JOYCE": 770.0,
+   "PAULL": 4427.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "WRIGHT",
+    "exhausted": 0.0,
+    "transfers": {
+     "ELLIS": 51.0,
+     "MICHAEL": 120.0,
+     "WALTER": 46.0,
+     "WHITE": 30.0,
+     "JOYCE": 17.0,
+     "PAULL": 19.0
+    }
+   },
+   {
+    "excluded_candidate": "JOYCE",
+    "exhausted": 0.0,
+    "transfers": {
+     "ELLIS": 268.0,
+     "MICHAEL": 85.0,
+     "WALTER": 112.0,
+     "WHITE": 198.0,
+     "PAULL": 124.0
+    }
+   },
+   {
+    "excluded_candidate": "WHITE",
+    "exhausted": 0.0,
+    "transfers": {
+     "ELLIS": 502.0,
+     "MICHAEL": 165.0,
+     "WALTER": 544.0,
+     "PAULL": 200.0
+    }
+   },
+   {
+    "excluded_candidate": "WALTER",
+    "exhausted": 0.0,
+    "transfers": {
+     "ELLIS": 1135.0,
+     "MICHAEL": 524.0,
+     "PAULL": 869.0
+    }
+   },
+   {
+    "excluded_candidate": "PAULL",
+    "exhausted": 0.0,
+    "transfers": {
+     "ELLIS": 3713.0,
+     "MICHAEL": 1926.0
+    }
+   }
+  ],
+  "final_totals": {
+   "ELLIS": 12808.0,
+   "MICHAEL": 9147.0
+  },
+  "formal_votes": 21955
+ },
+ "Newland": {
+  "candidates": [
+   {
+    "candidate_id": "HARVEY",
+    "name": "HARVEY",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "MATTISKE",
+    "name": "MATTISKE",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "SIMPSON",
+    "name": "SIMPSON",
+    "party": "RCH"
+   },
+   {
+    "candidate_id": "SHERLOCK",
+    "name": "SHERLOCK",
+    "party": "AJP"
+   },
+   {
+    "candidate_id": "GREEN",
+    "name": "GREEN",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "SAVVAS",
+    "name": "SAVVAS",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "MARLEY-DUNCAN",
+    "name": "MARLEY-DUNCAN",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "CASEY",
+    "name": "CASEY",
+    "party": "AFP"
+   },
+   {
+    "candidate_id": "BEDFORD",
+    "name": "BEDFORD",
+    "party": "IND*"
+   }
+  ],
+  "first_preferences": {
+   "HARVEY": 8076.0,
+   "MATTISKE": 1344.0,
+   "SIMPSON": 147.0,
+   "SHERLOCK": 351.0,
+   "GREEN": 844.0,
+   "SAVVAS": 8599.0,
+   "MARLEY-DUNCAN": 885.0,
+   "CASEY": 225.0,
+   "BEDFORD": 2861.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "SIMPSON",
+    "exhausted": 0.0,
+    "transfers": {
+     "HARVEY": 6.0,
+     "MATTISKE": 27.0,
+     "SHERLOCK": 36.0,
+     "GREEN": 29.0,
+     "SAVVAS": 13.0,
+     "MARLEY-DUNCAN": 9.0,
+     "CASEY": 6.0,
+     "BEDFORD": 21.0
+    }
+   },
+   {
+    "excluded_candidate": "CASEY",
+    "exhausted": 0.0,
+    "transfers": {
+     "HARVEY": 12.0,
+     "MATTISKE": 7.0,
+     "SHERLOCK": 6.0,
+     "GREEN": 119.0,
+     "SAVVAS": 12.0,
+     "MARLEY-DUNCAN": 47.0,
+     "BEDFORD": 28.0
+    }
+   },
+   {
+    "excluded_candidate": "SHERLOCK",
+    "exhausted": 0.0,
+    "transfers": {
+     "HARVEY": 48.0,
+     "MATTISKE": 138.0,
+     "GREEN": 72.0,
+     "SAVVAS": 55.0,
+     "MARLEY-DUNCAN": 33.0,
+     "BEDFORD": 47.0
+    }
+   },
+   {
+    "excluded_candidate": "MARLEY-DUNCAN",
+    "exhausted": 0.0,
+    "transfers": {
+     "HARVEY": 123.0,
+     "MATTISKE": 46.0,
+     "GREEN": 441.0,
+     "SAVVAS": 88.0,
+     "BEDFORD": 276.0
+    }
+   },
+   {
+    "excluded_candidate": "GREEN",
+    "exhausted": 0.0,
+    "transfers": {
+     "HARVEY": 351.0,
+     "MATTISKE": 200.0,
+     "SAVVAS": 518.0,
+     "BEDFORD": 436.0
+    }
+   },
+   {
+    "excluded_candidate": "MATTISKE",
+    "exhausted": 0.0,
+    "transfers": {
+     "HARVEY": 265.0,
+     "SAVVAS": 1026.0,
+     "BEDFORD": 471.0
+    }
+   },
+   {
+    "excluded_candidate": "BEDFORD",
+    "exhausted": 0.0,
+    "transfers": {
+     "HARVEY": 1535.0,
+     "SAVVAS": 2605.0
+    }
+   }
+  ],
+  "final_totals": {
+   "HARVEY": 10416.0,
+   "SAVVAS": 12916.0
+  },
+  "formal_votes": 23332
+ },
+ "Playford": {
+  "candidates": [
+   {
+    "candidate_id": "WRIGHT",
+    "name": "WRIGHT",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "QUINN",
+    "name": "QUINN",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "DAVE",
+    "name": "DAVE",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "FULBROOK",
+    "name": "FULBROOK",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "JOSE",
+    "name": "JOSE",
+    "party": "FFP"
+   }
+  ],
+  "first_preferences": {
+   "WRIGHT": 2118.0,
+   "QUINN": 973.0,
+   "DAVE": 5511.0,
+   "FULBROOK": 11922.0,
+   "JOSE": 1773.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "QUINN",
+    "exhausted": 0.0,
+    "transfers": {
+     "WRIGHT": 220.0,
+     "DAVE": 154.0,
+     "FULBROOK": 139.0,
+     "JOSE": 460.0
+    }
+   },
+   {
+    "excluded_candidate": "JOSE",
+    "exhausted": 0.0,
+    "transfers": {
+     "WRIGHT": 759.0,
+     "DAVE": 695.0,
+     "FULBROOK": 779.0
+    }
+   },
+   {
+    "excluded_candidate": "WRIGHT",
+    "exhausted": 0.0,
+    "transfers": {
+     "DAVE": 1160.0,
+     "FULBROOK": 1937.0
+    }
+   }
+  ],
+  "final_totals": {
+   "DAVE": 7520.0,
+   "FULBROOK": 14777.0
+  },
+  "formal_votes": 22297
+ },
+ "Port Adelaide": {
+  "candidates": [
+   {
+    "candidate_id": "MCLAREN",
+    "name": "MCLAREN",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "MOSS",
+    "name": "MOSS",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "ROMEO",
+    "name": "ROMEO",
+    "party": "AJP"
+   },
+   {
+    "candidate_id": "SNELLING",
+    "name": "SNELLING",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "CLOSE",
+    "name": "CLOSE",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "MCLAREN": 5448.0,
+   "MOSS": 2471.0,
+   "ROMEO": 945.0,
+   "SNELLING": 1204.0,
+   "CLOSE": 14074.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "ROMEO",
+    "exhausted": 0.0,
+    "transfers": {
+     "MCLAREN": 90.0,
+     "MOSS": 374.0,
+     "SNELLING": 304.0,
+     "CLOSE": 177.0
+    }
+   },
+   {
+    "excluded_candidate": "SNELLING",
+    "exhausted": 0.0,
+    "transfers": {
+     "MCLAREN": 530.0,
+     "MOSS": 584.0,
+     "CLOSE": 394.0
+    }
+   },
+   {
+    "excluded_candidate": "MOSS",
+    "exhausted": 0.0,
+    "transfers": {
+     "MCLAREN": 739.0,
+     "CLOSE": 2690.0
+    }
+   }
+  ],
+  "final_totals": {
+   "MCLAREN": 6807.0,
+   "CLOSE": 17335.0
+  },
+  "formal_votes": 24142
+ },
+ "Ramsay": {
+  "candidates": [
+   {
+    "candidate_id": "SEE",
+    "name": "SEE",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "CHARLES",
+    "name": "CHARLES",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "LOCK",
+    "name": "LOCK",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "BETTISON",
+    "name": "BETTISON",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "SEE": 2556.0,
+   "CHARLES": 4780.0,
+   "LOCK": 1598.0,
+   "BETTISON": 13401.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "LOCK",
+    "exhausted": 0.0,
+    "transfers": {
+     "SEE": 498.0,
+     "CHARLES": 214.0,
+     "BETTISON": 886.0
+    }
+   },
+   {
+    "excluded_candidate": "SEE",
+    "exhausted": 0.0,
+    "transfers": {
+     "CHARLES": 1721.0,
+     "BETTISON": 1333.0
+    }
+   }
+  ],
+  "final_totals": {
+   "CHARLES": 6715.0,
+   "BETTISON": 15620.0
+  },
+  "formal_votes": 22335
+ },
+ "Reynell": {
+  "candidates": [
+   {
+    "candidate_id": "JOVANOVIC",
+    "name": "JOVANOVIC",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "ADAMS",
+    "name": "ADAMS",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "MOLLER",
+    "name": "MOLLER",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "HILDYARD",
+    "name": "HILDYARD",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "JOVANOVIC": 2237.0,
+   "ADAMS": 2516.0,
+   "MOLLER": 5639.0,
+   "HILDYARD": 12458.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "JOVANOVIC",
+    "exhausted": 0.0,
+    "transfers": {
+     "ADAMS": 811.0,
+     "MOLLER": 956.0,
+     "HILDYARD": 470.0
+    }
+   },
+   {
+    "excluded_candidate": "ADAMS",
+    "exhausted": 0.0,
+    "transfers": {
+     "MOLLER": 1006.0,
+     "HILDYARD": 2321.0
+    }
+   }
+  ],
+  "final_totals": {
+   "MOLLER": 7601.0,
+   "HILDYARD": 15249.0
+  },
+  "formal_votes": 22850
+ },
+ "Schubert": {
+  "candidates": [
+   {
+    "candidate_id": "MORRIS",
+    "name": "MORRIS",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "PREECE",
+    "name": "PREECE",
+    "party": "NP"
+   },
+   {
+    "candidate_id": "GERHARD",
+    "name": "GERHARD",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "REBANE",
+    "name": "REBANE",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "MUELLER",
+    "name": "MUELLER",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "WATSON",
+    "name": "WATSON",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "HURN",
+    "name": "HURN",
+    "party": "LP"
+   }
+  ],
+  "first_preferences": {
+   "MORRIS": 2493.0,
+   "PREECE": 522.0,
+   "GERHARD": 934.0,
+   "REBANE": 707.0,
+   "MUELLER": 1658.0,
+   "WATSON": 5557.0,
+   "HURN": 12580.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "PREECE",
+    "exhausted": 0.0,
+    "transfers": {
+     "MORRIS": 70.0,
+     "GERHARD": 85.0,
+     "REBANE": 38.0,
+     "MUELLER": 71.0,
+     "WATSON": 32.0,
+     "HURN": 226.0
+    }
+   },
+   {
+    "excluded_candidate": "REBANE",
+    "exhausted": 0.0,
+    "transfers": {
+     "MORRIS": 219.0,
+     "GERHARD": 133.0,
+     "MUELLER": 123.0,
+     "WATSON": 156.0,
+     "HURN": 114.0
+    }
+   },
+   {
+    "excluded_candidate": "GERHARD",
+    "exhausted": 0.0,
+    "transfers": {
+     "MORRIS": 245.0,
+     "MUELLER": 529.0,
+     "WATSON": 139.0,
+     "HURN": 239.0
+    }
+   },
+   {
+    "excluded_candidate": "MUELLER",
+    "exhausted": 0.0,
+    "transfers": {
+     "MORRIS": 722.0,
+     "WATSON": 552.0,
+     "HURN": 1107.0
+    }
+   },
+   {
+    "excluded_candidate": "MORRIS",
+    "exhausted": 0.0,
+    "transfers": {
+     "WATSON": 2891.0,
+     "HURN": 858.0
+    }
+   }
+  ],
+  "final_totals": {
+   "WATSON": 9327.0,
+   "HURN": 15124.0
+  },
+  "formal_votes": 24451
+ },
+ "Stuart": {
+  "candidates": [
+   {
+    "candidate_id": "STONE",
+    "name": "STONE",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "WRIGHT",
+    "name": "WRIGHT",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "BROCK",
+    "name": "BROCK",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "VAN HOLST PELLEKAAN",
+    "name": "VAN HOLST PELLEKAAN",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "LEESE",
+    "name": "LEESE",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "STONE": 1192.0,
+   "WRIGHT": 3124.0,
+   "BROCK": 10396.0,
+   "VAN HOLST PELLEKAAN": 6079.0,
+   "LEESE": 660.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "LEESE",
+    "exhausted": 0.0,
+    "transfers": {
+     "STONE": 79.0,
+     "WRIGHT": 220.0,
+     "BROCK": 260.0,
+     "VAN HOLST PELLEKAAN": 101.0
+    }
+   },
+   {
+    "excluded_candidate": "STONE",
+    "exhausted": 0.0,
+    "transfers": {
+     "WRIGHT": 339.0,
+     "BROCK": 667.0,
+     "VAN HOLST PELLEKAAN": 265.0
+    }
+   },
+   {
+    "excluded_candidate": "WRIGHT",
+    "exhausted": 0.0,
+    "transfers": {
+     "BROCK": 3080.0,
+     "VAN HOLST PELLEKAAN": 603.0
+    }
+   }
+  ],
+  "final_totals": {
+   "BROCK": 14403.0,
+   "VAN HOLST PELLEKAAN": 7048.0
+  },
+  "formal_votes": 21451
+ },
+ "Taylor": {
+  "candidates": [
+   {
+    "candidate_id": "BALFORT",
+    "name": "BALFORT",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "WISHART",
+    "name": "WISHART",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "KUHLMANN",
+    "name": "KUHLMANN",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "CHAMPION",
+    "name": "CHAMPION",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "CROWLEY",
+    "name": "CROWLEY",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "LOCK",
+    "name": "LOCK",
+    "party": "LP"
+   }
+  ],
+  "first_preferences": {
+   "BALFORT": 1695.0,
+   "WISHART": 1314.0,
+   "KUHLMANN": 668.0,
+   "CHAMPION": 11752.0,
+   "CROWLEY": 1934.0,
+   "LOCK": 4629.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "KUHLMANN",
+    "exhausted": 0.0,
+    "transfers": {
+     "BALFORT": 171.0,
+     "WISHART": 186.0,
+     "CHAMPION": 129.0,
+     "CROWLEY": 130.0,
+     "LOCK": 52.0
+    }
+   },
+   {
+    "excluded_candidate": "WISHART",
+    "exhausted": 0.0,
+    "transfers": {
+     "BALFORT": 484.0,
+     "CHAMPION": 787.0,
+     "CROWLEY": 94.0,
+     "LOCK": 135.0
+    }
+   },
+   {
+    "excluded_candidate": "CROWLEY",
+    "exhausted": 0.0,
+    "transfers": {
+     "BALFORT": 1283.0,
+     "CHAMPION": 475.0,
+     "LOCK": 400.0
+    }
+   },
+   {
+    "excluded_candidate": "BALFORT",
+    "exhausted": 0.0,
+    "transfers": {
+     "CHAMPION": 2176.0,
+     "LOCK": 1457.0
+    }
+   }
+  ],
+  "final_totals": {
+   "CHAMPION": 15319.0,
+   "LOCK": 6673.0
+  },
+  "formal_votes": 21992
+ },
+ "Torrens": {
+  "candidates": [
+   {
+    "candidate_id": "PANAYIOTOU",
+    "name": "PANAYIOTOU",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "WORTLEY",
+    "name": "WORTLEY",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "HENDERSON",
+    "name": "HENDERSON",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "JOSHUA",
+    "name": "JOSHUA",
+    "party": "FFP"
+   }
+  ],
+  "first_preferences": {
+   "PANAYIOTOU": 2559.0,
+   "WORTLEY": 11732.0,
+   "HENDERSON": 8114.0,
+   "JOSHUA": 1737.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "JOSHUA",
+    "exhausted": 0.0,
+    "transfers": {
+     "PANAYIOTOU": 440.0,
+     "WORTLEY": 334.0,
+     "HENDERSON": 963.0
+    }
+   },
+   {
+    "excluded_candidate": "PANAYIOTOU",
+    "exhausted": 0.0,
+    "transfers": {
+     "WORTLEY": 2409.0,
+     "HENDERSON": 590.0
+    }
+   }
+  ],
+  "final_totals": {
+   "WORTLEY": 14475.0,
+   "HENDERSON": 9667.0
+  },
+  "formal_votes": 24142
+ },
+ "Unley": {
+  "candidates": [
+   {
+    "candidate_id": "HART",
+    "name": "HART",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "HARRISON",
+    "name": "HARRISON",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "PISONI",
+    "name": "PISONI",
+    "party": "LP"
+   }
+  ],
+  "first_preferences": {
+   "HART": 4577.0,
+   "HARRISON": 7825.0,
+   "PISONI": 12019.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "HART",
+    "exhausted": 0.0,
+    "transfers": {
+     "HARRISON": 3859.0,
+     "PISONI": 718.0
+    }
+   }
+  ],
+  "final_totals": {
+   "HARRISON": 11684.0,
+   "PISONI": 12737.0
+  },
+  "formal_votes": 24421
+ },
+ "Waite": {
+  "candidates": [
+   {
+    "candidate_id": "HOLMES-ROSS",
+    "name": "HOLMES-ROSS",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "WHITE",
+    "name": "WHITE",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "DULUK",
+    "name": "DULUK",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "FREELING",
+    "name": "FREELING",
+    "party": "AJP"
+   },
+   {
+    "candidate_id": "HUTCHESSON",
+    "name": "HUTCHESSON",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "HYDE",
+    "name": "HYDE",
+    "party": "LP"
+   }
+  ],
+  "first_preferences": {
+   "HOLMES-ROSS": 3665.0,
+   "WHITE": 2872.0,
+   "DULUK": 4949.0,
+   "FREELING": 482.0,
+   "HUTCHESSON": 6698.0,
+   "HYDE": 6509.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "FREELING",
+    "exhausted": 0.0,
+    "transfers": {
+     "HOLMES-ROSS": 109.0,
+     "WHITE": 185.0,
+     "DULUK": 81.0,
+     "HUTCHESSON": 65.0,
+     "HYDE": 42.0
+    }
+   },
+   {
+    "excluded_candidate": "WHITE",
+    "exhausted": 0.0,
+    "transfers": {
+     "HOLMES-ROSS": 1332.0,
+     "DULUK": 252.0,
+     "HUTCHESSON": 1321.0,
+     "HYDE": 152.0
+    }
+   },
+   {
+    "excluded_candidate": "HOLMES-ROSS",
+    "exhausted": 0.0,
+    "transfers": {
+     "DULUK": 1173.0,
+     "HUTCHESSON": 3281.0,
+     "HYDE": 652.0
+    }
+   },
+   {
+    "excluded_candidate": "DULUK",
+    "exhausted": 0.0,
+    "transfers": {
+     "HUTCHESSON": 2232.0,
+     "HYDE": 4223.0
+    }
+   }
+  ],
+  "final_totals": {
+   "HUTCHESSON": 13597.0,
+   "HYDE": 11578.0
+  },
+  "formal_votes": 25175
+ },
+ "West Torrens": {
+  "candidates": [
+   {
+    "candidate_id": "KOUTSANTONIS",
+    "name": "KOUTSANTONIS",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "CRUZ",
+    "name": "CRUZ",
+    "party": "LP"
+   },
+   {
+    "candidate_id": "LOUTH",
+    "name": "LOUTH",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "KOUTSANTONIS": 12496.0,
+   "CRUZ": 6353.0,
+   "LOUTH": 3919.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "LOUTH",
+    "exhausted": 0.0,
+    "transfers": {
+     "KOUTSANTONIS": 3158.0,
+     "CRUZ": 761.0
+    }
+   }
+  ],
+  "final_totals": {
+   "KOUTSANTONIS": 15654.0,
+   "CRUZ": 7114.0
+  },
+  "formal_votes": 22768
+ },
+ "Wright": {
+  "candidates": [
+   {
+    "candidate_id": "McGEE",
+    "name": "McGEE",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "BOYER",
+    "name": "BOYER",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "NANCARROW",
+    "name": "NANCARROW",
+    "party": "FFP"
+   },
+   {
+    "candidate_id": "REYNOLDS",
+    "name": "REYNOLDS",
+    "party": "LP"
+   }
+  ],
+  "first_preferences": {
+   "McGEE": 2001.0,
+   "BOYER": 12231.0,
+   "NANCARROW": 1737.0,
+   "REYNOLDS": 7550.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "NANCARROW",
+    "exhausted": 0.0,
+    "transfers": {
+     "McGEE": 480.0,
+     "BOYER": 398.0,
+     "REYNOLDS": 859.0
+    }
+   },
+   {
+    "excluded_candidate": "McGEE",
+    "exhausted": 0.0,
+    "transfers": {
+     "BOYER": 1919.0,
+     "REYNOLDS": 562.0
+    }
+   }
+  ],
+  "final_totals": {
+   "BOYER": 14548.0,
+   "REYNOLDS": 8971.0
+  },
+  "formal_votes": 23519
+ }
+}

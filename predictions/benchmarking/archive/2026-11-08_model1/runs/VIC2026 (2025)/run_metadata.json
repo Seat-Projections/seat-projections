@@ -1,0 +1,30 @@
+{
+  "model": "model1",
+  "run_id": "VIC2026 (2025)",
+  "timestamp": "2026-11-08T11:08:45+00:00",
+  "git_commit": null,
+  "runs": 1000,
+  "seed": 1,
+  "noise_log_sd": {
+    "state": 0.08,
+    "seat": 0.12,
+    "flow": 0.15
+  },
+  "inputs": {
+    "state": "VIC",
+    "state_election": "2026-11-28",
+    "districts": 88,
+    "federal_election": 2025,
+    "aec_event": 31496,
+    "booths": "inside the district and within 1 km of their own federal division",
+    "polls": null,
+    "winners": null
+  },
+  "predicted_seats_mean": {
+    "ALP": 57.81,
+    "GRN": 2.69,
+    "IND*": 9.04,
+    "LP": 9.19,
+    "NP": 9.28
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "model": "model1",
+  "run_id": "SA2022 (2019)",
+  "timestamp": "2026-11-09T01:17:18+00:00",
+  "git_commit": null,
+  "runs": 1000,
+  "seed": 1,
+  "noise_log_sd": {
+    "state": 0.08,
+    "seat": 0.12,
+    "flow": 0.15
+  },
+  "inputs": {
+    "state": "SA",
+    "state_election": "2022-03-19",
+    "districts": 47,
+    "federal_election": 2019,
+    "aec_event": 24310,
+    "aec_download": {
+      "source": "https://results.aec.gov.au/24310/Website/",
+      "retrieved": "2026-11-09T01:13:50+00:00",
+      "file_count": 123,
+      "total_bytes": 48206179
+    },
+    "booths": "inside the district and within 1.0 km of their own federal division",
+    "polls": null,
+    "winners": "SA2022"
+  },
+  "scores": {
+    "districts": 47,
+    "raw_seat_count": 37,
+    "brier": 0.3589,
+    "log_loss": 0.906
+  },
+  "actual_seats": {
+    "ALP": 27,
+    "IND*": 4,
+    "LP": 16
+  },
+  "predicted_seats_mean": {
+    "ALP": 25.05,
+    "LP": 18.9,
+    "XEN": 3.04
+  }
+}

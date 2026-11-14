@@ -1,0 +1,40 @@
+{
+  "model": "model1",
+  "run_id": "SA2026 (2025)",
+  "timestamp": "2026-11-08T11:08:26+00:00",
+  "git_commit": null,
+  "runs": 1000,
+  "seed": 1,
+  "noise_log_sd": {
+    "state": 0.08,
+    "seat": 0.12,
+    "flow": 0.15
+  },
+  "inputs": {
+    "state": "SA",
+    "state_election": "2026-03-21",
+    "districts": 47,
+    "federal_election": 2025,
+    "aec_event": 31496,
+    "booths": "inside the district and within 1 km of their own federal division",
+    "polls": null,
+    "winners": "SA2026"
+  },
+  "scores": {
+    "districts": 47,
+    "raw_seat_count": 36,
+    "brier": 0.4246,
+    "log_loss": 1.3966
+  },
+  "actual_seats": {
+    "ALP": 34,
+    "IND*": 4,
+    "LP": 5,
+    "ON": 4
+  },
+  "predicted_seats_mean": {
+    "ALP": 34.35,
+    "LP": 8.92,
+    "XEN": 3.73
+  }
+}

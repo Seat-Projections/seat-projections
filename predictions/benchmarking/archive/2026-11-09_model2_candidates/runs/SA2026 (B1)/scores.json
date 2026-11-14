@@ -1,0 +1,8 @@
+{
+  "districts": 47,
+  "raw_seat_count": 45,
+  "brier": 0.0618,
+  "log_loss": 0.1085,
+  "final_two_accuracy": 0.9362,
+  "tcp_margin_mae": 1.5
+}

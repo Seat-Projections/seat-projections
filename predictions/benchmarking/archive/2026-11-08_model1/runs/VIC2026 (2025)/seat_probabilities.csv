@@ -1,0 +1,748 @@
+district,candidate,party,p_win,p_final_two,tcp_p10,tcp_p50,tcp_p90
+Albert Park,Labor,ALP,0.986,0.986,58.12,63.61,67.78
+Albert Park,Greens,GRN,0.0,0.404,35.59,39.35,43.64
+Albert Park,Liberal,LP,0.014,0.61,31.59,34.72,39.26
+Albert Park,One Nation,ON,0.0,0.0,,,
+Albert Park,Independent*,IND*,0.0,0.0,,,
+Albert Park,Libertarian,LTP,0.0,0.0,,,
+Albert Park,FUSION,SOPA,0.0,0.0,,,
+Ashwood,Labor,ALP,0.992,1.0,54.29,59.27,64.96
+Ashwood,Liberal,LP,0.008,1.0,35.04,40.73,45.71
+Ashwood,Greens,GRN,0.0,0.0,,,
+Ashwood,Independent*,IND*,0.0,0.0,,,
+Ashwood,Family First,FFP,0.0,0.0,,,
+Ashwood,One Nation,ON,0.0,0.0,,,
+Ashwood,Trumpet of Patriots,CYA,0.0,0.0,,,
+Ashwood,Citizens Party,CEC,0.0,0.0,,,
+Ashwood,Libertarian,LTP,0.0,0.0,,,
+Bass,Liberal,LP,0.095,0.982,41.07,45.31,49.91
+Bass,Labor,ALP,0.883,0.994,49.62,54.61,58.87
+Bass,Independent*,IND*,0.022,0.024,52.25,55.44,57.75
+Bass,One Nation,ON,0.0,0.0,,,
+Bass,Greens,GRN,0.0,0.0,,,
+Bass,Legalise Cannabis,HMP,0.0,0.0,,,
+Bass,Family First,FFP,0.0,0.0,,,
+Bass,Trumpet of Patriots,CYA,0.0,0.0,,,
+Bayswater,Labor,ALP,0.981,1.0,53.31,58.44,63.1
+Bayswater,Liberal,LP,0.019,1.0,36.9,41.58,46.69
+Bayswater,Greens,GRN,0.0,0.0,,,
+Bayswater,Independent*,IND*,0.0,0.0,,,
+Bayswater,One Nation,ON,0.0,0.0,,,
+Bayswater,Family First,FFP,0.0,0.0,,,
+Bayswater,Trumpet of Patriots,CYA,0.0,0.0,,,
+Bayswater,Libertarian,LTP,0.0,0.0,,,
+Bellarine,Labor,ALP,0.985,1.0,54.0,58.89,63.29
+Bellarine,Liberal,LP,0.015,1.0,36.71,41.12,46.0
+Bellarine,Greens,GRN,0.0,0.0,,,
+Bellarine,Independent*,IND*,0.0,0.0,,,
+Bellarine,One Nation,ON,0.0,0.0,,,
+Bellarine,Legalise Cannabis,HMP,0.0,0.0,,,
+Bellarine,Trumpet of Patriots,CYA,0.0,0.0,,,
+Bellarine,Libertarian,LTP,0.0,0.0,,,
+Benambra,Independent*,IND*,0.996,1.0,55.93,61.01,65.63
+Benambra,Liberal,LP,0.004,1.0,34.37,38.99,44.07
+Benambra,One Nation,ON,0.0,0.0,,,
+Benambra,Labor,ALP,0.0,0.0,,,
+Benambra,Greens,GRN,0.0,0.0,,,
+Benambra,Legalise Cannabis,HMP,0.0,0.0,,,
+Benambra,Family First,FFP,0.0,0.0,,,
+Benambra,Libertarian,LTP,0.0,0.0,,,
+Bendigo East,Nationals,NP,0.881,1.0,49.61,54.41,59.61
+Bendigo East,Labor,ALP,0.119,1.0,40.39,45.6,50.39
+Bendigo East,Liberal,LP,0.0,0.0,,,
+Bendigo East,Greens,GRN,0.0,0.0,,,
+Bendigo East,One Nation,ON,0.0,0.0,,,
+Bendigo East,Legalise Cannabis,HMP,0.0,0.0,,,
+Bendigo East,Family First,FFP,0.0,0.0,,,
+Bendigo East,Victorian Socialists,VNS,0.0,0.0,,,
+Bendigo East,Independent*,IND*,0.0,0.0,,,
+Bendigo East,Libertarian,LTP,0.0,0.0,,,
+Bendigo East,Trumpet of Patriots,CYA,0.0,0.0,,,
+Bendigo East,Citizens Party,CEC,0.0,0.0,,,
+Bendigo West,Labor,ALP,0.865,1.0,49.4,53.72,58.11
+Bendigo West,Nationals,NP,0.135,1.0,41.89,46.28,50.6
+Bendigo West,Greens,GRN,0.0,0.0,,,
+Bendigo West,Liberal,LP,0.0,0.0,,,
+Bendigo West,One Nation,ON,0.0,0.0,,,
+Bendigo West,Legalise Cannabis,HMP,0.0,0.0,,,
+Bendigo West,Family First,FFP,0.0,0.0,,,
+Bendigo West,Victorian Socialists,VNS,0.0,0.0,,,
+Bendigo West,Libertarian,LTP,0.0,0.0,,,
+Bendigo West,Independent*,IND*,0.0,0.0,,,
+Bentleigh,Liberal,LP,0.124,1.0,40.75,45.87,50.56
+Bentleigh,Labor,ALP,0.876,1.0,49.44,54.15,59.25
+Bentleigh,Independent*,IND*,0.0,0.0,,,
+Bentleigh,Greens,GRN,0.0,0.0,,,
+Bentleigh,One Nation,ON,0.0,0.0,,,
+Bentleigh,Family First,FFP,0.0,0.0,,,
+Bentleigh,Trumpet of Patriots,CYA,0.0,0.0,,,
+Bentleigh,Libertarian,LTP,0.0,0.0,,,
+Bentleigh,Citizens Party,CEC,0.0,0.0,,,
+Berwick,Labor,ALP,0.844,1.0,48.84,53.83,59.1
+Berwick,Liberal,LP,0.156,1.0,40.9,46.18,51.16
+Berwick,Greens,GRN,0.0,0.0,,,
+Berwick,One Nation,ON,0.0,0.0,,,
+Berwick,Family First,FFP,0.0,0.0,,,
+Berwick,Trumpet of Patriots,CYA,0.0,0.0,,,
+Berwick,Legalise Cannabis,HMP,0.0,0.0,,,
+Berwick,Libertarian,LTP,0.0,0.0,,,
+Box Hill,Labor,ALP,0.996,1.0,56.56,61.32,66.14
+Box Hill,Liberal,LP,0.004,1.0,33.86,38.7,43.44
+Box Hill,Greens,GRN,0.0,0.0,,,
+Box Hill,Independent*,IND*,0.0,0.0,,,
+Box Hill,Family First,FFP,0.0,0.0,,,
+Box Hill,Trumpet of Patriots,CYA,0.0,0.0,,,
+Box Hill,One Nation,ON,0.0,0.0,,,
+Box Hill,Libertarian,LTP,0.0,0.0,,,
+Brighton,Liberal,LP,0.577,1.0,45.55,50.78,55.4
+Brighton,Independent*,IND*,0.423,0.995,44.63,49.24,54.46
+Brighton,Labor,ALP,0.0,0.005,38.98,40.69,48.4
+Brighton,Greens,GRN,0.0,0.0,,,
+Brighton,One Nation,ON,0.0,0.0,,,
+Brighton,Libertarian,LTP,0.0,0.0,,,
+Brighton,Trumpet of Patriots,CYA,0.0,0.0,,,
+Broadmeadows,Labor,ALP,0.997,1.0,55.28,64.27,70.34
+Broadmeadows,Greens,GRN,0.0,0.474,31.52,35.23,39.21
+Broadmeadows,Liberal,LP,0.0,0.226,27.23,30.22,33.05
+Broadmeadows,Independent*,IND*,0.003,0.3,37.91,43.12,47.55
+Broadmeadows,One Nation,ON,0.0,0.0,,,
+Broadmeadows,Citizens Party,CEC,0.0,0.0,,,
+Broadmeadows,Socialist Alliance,SAL,0.0,0.0,,,
+Broadmeadows,Legalise Cannabis,HMP,0.0,0.0,,,
+Broadmeadows,Trumpet of Patriots,CYA,0.0,0.0,,,
+Broadmeadows,Family First,FFP,0.0,0.0,,,
+Broadmeadows,Victorian Socialists,VNS,0.0,0.0,,,
+Broadmeadows,Libertarian,LTP,0.0,0.0,,,
+Broadmeadows,FUSION,SOPA,0.0,0.0,,,
+Broadmeadows,Gerard Rennick People First,GRPF,0.0,0.0,,,
+Brunswick,Greens,GRN,0.921,1.0,50.56,56.0,61.44
+Brunswick,Labor,ALP,0.079,1.0,38.56,44.0,49.44
+Brunswick,Socialist Alliance,SAL,0.0,0.0,,,
+Brunswick,Liberal,LP,0.0,0.0,,,
+Brunswick,One Nation,ON,0.0,0.0,,,
+Brunswick,Legalise Cannabis,HMP,0.0,0.0,,,
+Brunswick,FUSION,SOPA,0.0,0.0,,,
+Brunswick,Libertarian,LTP,0.0,0.0,,,
+Brunswick,Independent*,IND*,0.0,0.0,,,
+Bulleen,Liberal,LP,0.53,1.0,45.18,50.26,55.66
+Bulleen,Labor,ALP,0.47,1.0,44.34,49.75,54.82
+Bulleen,Greens,GRN,0.0,0.0,,,
+Bulleen,Independent*,IND*,0.0,0.0,,,
+Bulleen,Trumpet of Patriots,CYA,0.0,0.0,,,
+Bulleen,One Nation,ON,0.0,0.0,,,
+Bulleen,Libertarian,LTP,0.0,0.0,,,
+Bulleen,Family First,FFP,0.0,0.0,,,
+Bundoora,Labor,ALP,0.999,1.0,57.75,62.7,67.33
+Bundoora,Liberal,LP,0.001,1.0,32.67,37.3,42.25
+Bundoora,Greens,GRN,0.0,0.0,,,
+Bundoora,One Nation,ON,0.0,0.0,,,
+Bundoora,Independent*,IND*,0.0,0.0,,,
+Bundoora,Family First,FFP,0.0,0.0,,,
+Bundoora,Victorian Socialists,VNS,0.0,0.0,,,
+Bundoora,Trumpet of Patriots,CYA,0.0,0.0,,,
+Bundoora,Gerard Rennick People First,GRPF,0.0,0.0,,,
+Bundoora,Legalise Cannabis,HMP,0.0,0.0,,,
+Carrum,Labor,ALP,0.998,1.0,55.14,59.79,64.39
+Carrum,Liberal,LP,0.002,1.0,35.61,40.22,44.86
+Carrum,Greens,GRN,0.0,0.0,,,
+Carrum,One Nation,ON,0.0,0.0,,,
+Carrum,Legalise Cannabis,HMP,0.0,0.0,,,
+Carrum,Family First,FFP,0.0,0.0,,,
+Carrum,Independent*,IND*,0.0,0.0,,,
+Carrum,FUSION,SOPA,0.0,0.0,,,
+Caulfield,Liberal,LP,0.114,1.0,40.64,45.26,50.37
+Caulfield,Labor,ALP,0.886,0.997,49.67,54.76,59.36
+Caulfield,Greens,GRN,0.0,0.003,30.71,31.43,32.29
+Caulfield,Independent*,IND*,0.0,0.0,,,
+Caulfield,One Nation,ON,0.0,0.0,,,
+Caulfield,Libertarian,LTP,0.0,0.0,,,
+Caulfield,Trumpet of Patriots,CYA,0.0,0.0,,,
+Clarinda,Labor,ALP,1.0,1.0,62.62,67.28,71.52
+Clarinda,Liberal,LP,0.0,1.0,28.48,32.72,37.38
+Clarinda,Greens,GRN,0.0,0.0,,,
+Clarinda,One Nation,ON,0.0,0.0,,,
+Clarinda,Family First,FFP,0.0,0.0,,,
+Clarinda,Citizens Party,CEC,0.0,0.0,,,
+Cranbourne,Labor,ALP,1.0,1.0,60.73,65.32,69.67
+Cranbourne,Liberal,LP,0.0,1.0,30.33,34.69,39.27
+Cranbourne,Greens,GRN,0.0,0.0,,,
+Cranbourne,One Nation,ON,0.0,0.0,,,
+Cranbourne,Family First,FFP,0.0,0.0,,,
+Cranbourne,Legalise Cannabis,HMP,0.0,0.0,,,
+Cranbourne,Trumpet of Patriots,CYA,0.0,0.0,,,
+Croydon,Liberal,LP,0.135,1.0,40.7,45.53,50.96
+Croydon,Labor,ALP,0.865,1.0,49.04,54.47,59.3
+Croydon,Greens,GRN,0.0,0.0,,,
+Croydon,Independent*,IND*,0.0,0.0,,,
+Croydon,One Nation,ON,0.0,0.0,,,
+Croydon,Family First,FFP,0.0,0.0,,,
+Croydon,Trumpet of Patriots,CYA,0.0,0.0,,,
+Croydon,Libertarian,LTP,0.0,0.0,,,
+Croydon,Animal Justice,AJP,0.0,0.0,,,
+Dandenong,Labor,ALP,1.0,1.0,68.02,72.19,76.16
+Dandenong,Liberal,LP,0.0,0.999,23.84,27.82,31.99
+Dandenong,Greens,GRN,0.0,0.001,27.6,27.6,27.6
+Dandenong,One Nation,ON,0.0,0.0,,,
+Dandenong,Family First,FFP,0.0,0.0,,,
+Dandenong,Trumpet of Patriots,CYA,0.0,0.0,,,
+Dandenong,Legalise Cannabis,HMP,0.0,0.0,,,
+Dandenong,Libertarian,LTP,0.0,0.0,,,
+Eildon,Liberal,LP,0.436,0.998,44.66,49.43,54.48
+Eildon,Independent*,IND*,0.353,0.469,47.59,52.2,56.55
+Eildon,Labor,ALP,0.211,0.533,44.25,48.95,53.52
+Eildon,Greens,GRN,0.0,0.0,,,
+Eildon,One Nation,ON,0.0,0.0,,,
+Eildon,Family First,FFP,0.0,0.0,,,
+Eildon,Trumpet of Patriots,CYA,0.0,0.0,,,
+Eildon,Legalise Cannabis,HMP,0.0,0.0,,,
+Eildon,Animal Justice,AJP,0.0,0.0,,,
+Eildon,Libertarian,LTP,0.0,0.0,,,
+Eildon,Gerard Rennick People First,GRPF,0.0,0.0,,,
+Eildon,FUSION,SOPA,0.0,0.0,,,
+Eltham,Labor,ALP,1.0,1.0,59.62,64.37,68.75
+Eltham,Liberal,LP,0.0,0.999,31.24,35.63,40.38
+Eltham,Greens,GRN,0.0,0.001,33.4,33.4,33.4
+Eltham,Independent*,IND*,0.0,0.0,,,
+Eltham,One Nation,ON,0.0,0.0,,,
+Eltham,Family First,FFP,0.0,0.0,,,
+Eltham,Legalise Cannabis,HMP,0.0,0.0,,,
+Eltham,Gerard Rennick People First,GRPF,0.0,0.0,,,
+Eltham,Animal Justice,AJP,0.0,0.0,,,
+Eltham,FUSION,SOPA,0.0,0.0,,,
+Essendon,Labor,ALP,0.999,0.999,58.51,63.25,67.69
+Essendon,Liberal,LP,0.001,0.966,32.31,36.71,41.53
+Essendon,Greens,GRN,0.0,0.035,32.72,37.11,40.37
+Essendon,One Nation,ON,0.0,0.0,,,
+Eureka,Labor,ALP,0.991,1.0,53.84,58.55,62.94
+Eureka,Liberal,LP,0.009,1.0,37.06,41.45,46.16
+Eureka,Greens,GRN,0.0,0.0,,,
+Eureka,One Nation,ON,0.0,0.0,,,
+Eureka,Family First,FFP,0.0,0.0,,,
+Eureka,Legalise Cannabis,HMP,0.0,0.0,,,
+Eureka,Independent*,IND*,0.0,0.0,,,
+Eureka,Animal Justice,AJP,0.0,0.0,,,
+Eureka,Libertarian,LTP,0.0,0.0,,,
+Eureka,Trumpet of Patriots,CYA,0.0,0.0,,,
+Euroa,Nationals,NP,0.905,1.0,50.37,56.97,62.11
+Euroa,Labor,ALP,0.018,0.914,37.65,42.62,47.23
+Euroa,Independent*,IND*,0.077,0.086,49.9,54.0,57.48
+Euroa,Liberal,LP,0.0,0.0,,,
+Euroa,One Nation,ON,0.0,0.0,,,
+Euroa,Greens,GRN,0.0,0.0,,,
+Euroa,Family First,FFP,0.0,0.0,,,
+Euroa,Trumpet of Patriots,CYA,0.0,0.0,,,
+Euroa,Legalise Cannabis,HMP,0.0,0.0,,,
+Euroa,Citizens Party,CEC,0.0,0.0,,,
+Euroa,Libertarian,LTP,0.0,0.0,,,
+Euroa,Victorian Socialists,VNS,0.0,0.0,,,
+Euroa,Gerard Rennick People First,GRPF,0.0,0.0,,,
+Euroa,Animal Justice,AJP,0.0,0.0,,,
+Euroa,FUSION,SOPA,0.0,0.0,,,
+Evelyn,Liberal,LP,0.96,1.0,51.67,56.75,61.63
+Evelyn,Labor,ALP,0.04,1.0,38.37,43.26,48.33
+Evelyn,Greens,GRN,0.0,0.0,,,
+Evelyn,Independent*,IND*,0.0,0.0,,,
+Evelyn,One Nation,ON,0.0,0.0,,,
+Evelyn,Family First,FFP,0.0,0.0,,,
+Evelyn,Trumpet of Patriots,CYA,0.0,0.0,,,
+Evelyn,Animal Justice,AJP,0.0,0.0,,,
+Footscray,Labor,ALP,0.907,1.0,50.18,54.79,59.45
+Footscray,Greens,GRN,0.093,1.0,40.55,45.23,49.82
+Footscray,Liberal,LP,0.0,0.0,,,
+Footscray,Victorian Socialists,VNS,0.0,0.0,,,
+Footscray,One Nation,ON,0.0,0.0,,,
+Footscray,Family First,FFP,0.0,0.0,,,
+Frankston,Labor,ALP,1.0,1.0,56.45,61.36,65.81
+Frankston,Liberal,LP,0.0,1.0,34.19,38.65,43.55
+Frankston,Greens,GRN,0.0,0.0,,,
+Frankston,One Nation,ON,0.0,0.0,,,
+Frankston,Legalise Cannabis,HMP,0.0,0.0,,,
+Frankston,Independent*,IND*,0.0,0.0,,,
+Frankston,Family First,FFP,0.0,0.0,,,
+Frankston,FUSION,SOPA,0.0,0.0,,,
+Geelong,Labor,ALP,1.0,1.0,61.11,65.65,69.82
+Geelong,Liberal,LP,0.0,0.987,30.17,34.35,38.89
+Geelong,Greens,GRN,0.0,0.013,32.67,33.84,37.51
+Geelong,One Nation,ON,0.0,0.0,,,
+Geelong,Independent*,IND*,0.0,0.0,,,
+Geelong,Socialist Alliance,SAL,0.0,0.0,,,
+Geelong,Legalise Cannabis,HMP,0.0,0.0,,,
+Geelong,Trumpet of Patriots,CYA,0.0,0.0,,,
+Geelong,Libertarian,LTP,0.0,0.0,,,
+Gippsland East,Nationals,NP,1.0,1.0,68.41,72.46,76.29
+Gippsland East,Labor,ALP,0.0,1.0,23.71,27.55,31.59
+Gippsland East,One Nation,ON,0.0,0.0,,,
+Gippsland East,Greens,GRN,0.0,0.0,,,
+Gippsland East,Libertarian,LTP,0.0,0.0,,,
+Gippsland South,Nationals,NP,0.998,1.0,61.32,67.55,71.61
+Gippsland South,Labor,ALP,0.0,0.932,28.31,32.23,36.6
+Gippsland South,Liberal,LP,0.0,0.01,42.85,46.03,48.85
+Gippsland South,Independent*,IND*,0.002,0.058,41.21,44.66,48.6
+Gippsland South,One Nation,ON,0.0,0.0,,,
+Gippsland South,Greens,GRN,0.0,0.0,,,
+Gippsland South,Libertarian,LTP,0.0,0.0,,,
+Gippsland South,Legalise Cannabis,HMP,0.0,0.0,,,
+Gippsland South,Trumpet of Patriots,CYA,0.0,0.0,,,
+Gippsland South,Family First,FFP,0.0,0.0,,,
+Glen Waverley,Labor,ALP,0.988,1.0,54.24,59.7,64.52
+Glen Waverley,Liberal,LP,0.012,1.0,35.48,40.3,45.76
+Glen Waverley,Greens,GRN,0.0,0.0,,,
+Glen Waverley,Independent*,IND*,0.0,0.0,,,
+Glen Waverley,Family First,FFP,0.0,0.0,,,
+Glen Waverley,One Nation,ON,0.0,0.0,,,
+Glen Waverley,Trumpet of Patriots,CYA,0.0,0.0,,,
+Glen Waverley,Libertarian,LTP,0.0,0.0,,,
+Greenvale,Independent*,IND*,0.899,1.0,50.0,54.55,59.02
+Greenvale,Labor,ALP,0.101,1.0,40.98,45.48,50.0
+Greenvale,Liberal,LP,0.0,0.0,,,
+Greenvale,Greens,GRN,0.0,0.0,,,
+Greenvale,Legalise Cannabis,HMP,0.0,0.0,,,
+Greenvale,Citizens Party,CEC,0.0,0.0,,,
+Greenvale,One Nation,ON,0.0,0.0,,,
+Greenvale,Trumpet of Patriots,CYA,0.0,0.0,,,
+Greenvale,Family First,FFP,0.0,0.0,,,
+Hastings,Liberal,LP,0.39,1.0,44.58,48.94,53.67
+Hastings,Labor,ALP,0.604,0.991,46.28,51.06,55.41
+Hastings,Independent*,IND*,0.006,0.009,48.67,52.51,57.47
+Hastings,One Nation,ON,0.0,0.0,,,
+Hastings,Greens,GRN,0.0,0.0,,,
+Hastings,Trumpet of Patriots,CYA,0.0,0.0,,,
+Hastings,Legalise Cannabis,HMP,0.0,0.0,,,
+Hastings,Family First,FFP,0.0,0.0,,,
+Hastings,FUSION,SOPA,0.0,0.0,,,
+Hawthorn,Independent*,IND*,0.991,1.0,54.54,59.29,64.19
+Hawthorn,Liberal,LP,0.009,1.0,35.81,40.72,45.46
+Hawthorn,Labor,ALP,0.0,0.0,,,
+Hawthorn,Greens,GRN,0.0,0.0,,,
+Hawthorn,Libertarian,LTP,0.0,0.0,,,
+Hawthorn,One Nation,ON,0.0,0.0,,,
+Hawthorn,Trumpet of Patriots,CYA,0.0,0.0,,,
+Hawthorn,Family First,FFP,0.0,0.0,,,
+Ivanhoe,Labor,ALP,1.0,1.0,62.39,67.06,71.35
+Ivanhoe,Liberal,LP,0.0,0.994,28.67,32.96,37.61
+Ivanhoe,Greens,GRN,0.0,0.006,29.14,32.57,33.98
+Ivanhoe,Independent*,IND*,0.0,0.0,,,
+Ivanhoe,One Nation,ON,0.0,0.0,,,
+Ivanhoe,Family First,FFP,0.0,0.0,,,
+Ivanhoe,Trumpet of Patriots,CYA,0.0,0.0,,,
+Ivanhoe,Libertarian,LTP,0.0,0.0,,,
+Kalkallo,Labor,ALP,0.229,1.0,42.41,47.25,52.23
+Kalkallo,Independent*,IND*,0.771,1.0,47.77,52.75,57.59
+Kalkallo,Liberal,LP,0.0,0.0,,,
+Kalkallo,Greens,GRN,0.0,0.0,,,
+Kalkallo,One Nation,ON,0.0,0.0,,,
+Kalkallo,Legalise Cannabis,HMP,0.0,0.0,,,
+Kalkallo,Family First,FFP,0.0,0.0,,,
+Kalkallo,Citizens Party,CEC,0.0,0.0,,,
+Kalkallo,Trumpet of Patriots,CYA,0.0,0.0,,,
+Kalkallo,Gerard Rennick People First,GRPF,0.0,0.0,,,
+Kalkallo,Animal Justice,AJP,0.0,0.0,,,
+Kalkallo,FUSION,SOPA,0.0,0.0,,,
+Kew,Liberal,LP,0.261,1.0,42.06,47.14,52.16
+Kew,Independent*,IND*,0.739,1.0,47.84,52.87,57.94
+Kew,Labor,ALP,0.0,0.0,,,
+Kew,Greens,GRN,0.0,0.0,,,
+Kew,Libertarian,LTP,0.0,0.0,,,
+Kew,Trumpet of Patriots,CYA,0.0,0.0,,,
+Kew,One Nation,ON,0.0,0.0,,,
+Kew,Family First,FFP,0.0,0.0,,,
+Kororoit,Labor,ALP,1.0,1.0,58.73,63.86,68.11
+Kororoit,Liberal,LP,0.0,1.0,31.89,36.15,41.27
+Kororoit,Greens,GRN,0.0,0.0,,,
+Kororoit,Legalise Cannabis,HMP,0.0,0.0,,,
+Kororoit,One Nation,ON,0.0,0.0,,,
+Kororoit,Family First,FFP,0.0,0.0,,,
+Kororoit,Libertarian,LTP,0.0,0.0,,,
+Lara,Labor,ALP,1.0,1.0,62.13,66.64,70.67
+Lara,Liberal,LP,0.0,0.998,29.35,33.37,37.87
+Lara,Greens,GRN,0.0,0.001,24.14,24.14,24.14
+Lara,One Nation,ON,0.0,0.001,24.52,24.52,24.52
+Lara,Socialist Alliance,SAL,0.0,0.0,,,
+Lara,Independent*,IND*,0.0,0.0,,,
+Laverton,Labor,ALP,1.0,1.0,60.75,65.77,70.64
+Laverton,Greens,GRN,0.0,0.824,31.17,34.92,39.68
+Laverton,Liberal,LP,0.0,0.176,26.42,29.75,33.14
+Laverton,One Nation,ON,0.0,0.0,,,
+Laverton,Family First,FFP,0.0,0.0,,,
+Laverton,Victorian Socialists,VNS,0.0,0.0,,,
+Lowan,Nationals,NP,0.75,1.0,46.55,61.28,70.51
+Lowan,Liberal,LP,0.25,0.398,46.2,51.25,55.45
+Lowan,Labor,ALP,0.0,0.458,28.52,31.33,35.18
+Lowan,Independent*,IND*,0.0,0.144,36.01,41.02,44.14
+Lowan,One Nation,ON,0.0,0.0,,,
+Lowan,Greens,GRN,0.0,0.0,,,
+Lowan,Family First,FFP,0.0,0.0,,,
+Lowan,Trumpet of Patriots,CYA,0.0,0.0,,,
+Lowan,Libertarian,LTP,0.0,0.0,,,
+Lowan,Legalise Cannabis,HMP,0.0,0.0,,,
+Lowan,Citizens Party,CEC,0.0,0.0,,,
+Macedon,Labor,ALP,1.0,1.0,57.51,61.98,66.28
+Macedon,Liberal,LP,0.0,1.0,33.72,38.03,42.49
+Macedon,Greens,GRN,0.0,0.0,,,
+Macedon,One Nation,ON,0.0,0.0,,,
+Macedon,Legalise Cannabis,HMP,0.0,0.0,,,
+Macedon,Nationals,NP,0.0,0.0,,,
+Macedon,Gerard Rennick People First,GRPF,0.0,0.0,,,
+Macedon,Animal Justice,AJP,0.0,0.0,,,
+Macedon,Family First,FFP,0.0,0.0,,,
+Macedon,FUSION,SOPA,0.0,0.0,,,
+Macedon,Independent*,IND*,0.0,0.0,,,
+Macedon,Libertarian,LTP,0.0,0.0,,,
+Macedon,Victorian Socialists,VNS,0.0,0.0,,,
+Malvern,Liberal,LP,0.917,1.0,50.4,55.32,60.41
+Malvern,Independent*,IND*,0.082,0.91,40.01,45.07,49.78
+Malvern,Labor,ALP,0.001,0.09,36.95,40.83,45.77
+Malvern,Greens,GRN,0.0,0.0,,,
+Malvern,One Nation,ON,0.0,0.0,,,
+Malvern,Trumpet of Patriots,CYA,0.0,0.0,,,
+Malvern,Libertarian,LTP,0.0,0.0,,,
+Malvern,Family First,FFP,0.0,0.0,,,
+Melbourne,Greens,GRN,0.69,1.0,46.62,51.83,57.15
+Melbourne,Labor,ALP,0.31,1.0,42.85,48.18,53.38
+Melbourne,Liberal,LP,0.0,0.0,,,
+Melbourne,Independent*,IND*,0.0,0.0,,,
+Melbourne,One Nation,ON,0.0,0.0,,,
+Melbourne,FUSION,SOPA,0.0,0.0,,,
+Melbourne,Libertarian,LTP,0.0,0.0,,,
+Melton,Labor,ALP,0.999,1.0,56.88,61.54,66.34
+Melton,Liberal,LP,0.001,1.0,33.66,38.47,43.12
+Melton,Greens,GRN,0.0,0.0,,,
+Melton,One Nation,ON,0.0,0.0,,,
+Melton,Legalise Cannabis,HMP,0.0,0.0,,,
+Melton,Family First,FFP,0.0,0.0,,,
+Melton,Animal Justice,AJP,0.0,0.0,,,
+Melton,Libertarian,LTP,0.0,0.0,,,
+Mildura,Nationals,NP,1.0,1.0,64.5,68.58,72.96
+Mildura,Labor,ALP,0.0,1.0,27.04,31.44,35.5
+Mildura,One Nation,ON,0.0,0.0,,,
+Mildura,Greens,GRN,0.0,0.0,,,
+Mildura,Family First,FFP,0.0,0.0,,,
+Mildura,Trumpet of Patriots,CYA,0.0,0.0,,,
+Mildura,Libertarian,LTP,0.0,0.0,,,
+Mildura,Citizens Party,CEC,0.0,0.0,,,
+Mill Park,Labor,ALP,1.0,1.0,60.88,64.97,69.01
+Mill Park,Liberal,LP,0.0,1.0,30.99,35.05,39.12
+Mill Park,Greens,GRN,0.0,0.0,,,
+Mill Park,One Nation,ON,0.0,0.0,,,
+Mill Park,Trumpet of Patriots,CYA,0.0,0.0,,,
+Mill Park,Victorian Socialists,VNS,0.0,0.0,,,
+Mill Park,Family First,FFP,0.0,0.0,,,
+Mill Park,Gerard Rennick People First,GRPF,0.0,0.0,,,
+Monbulk,Labor,ALP,0.992,1.0,55.0,59.96,64.63
+Monbulk,Liberal,LP,0.004,0.987,35.37,40.01,44.92
+Monbulk,Greens,GRN,0.0,0.006,36.42,41.24,42.74
+Monbulk,Independent*,IND*,0.004,0.007,44.69,50.91,53.38
+Monbulk,One Nation,ON,0.0,0.0,,,
+Monbulk,Trumpet of Patriots,CYA,0.0,0.0,,,
+Monbulk,Family First,FFP,0.0,0.0,,,
+Monbulk,Animal Justice,AJP,0.0,0.0,,,
+Monbulk,Libertarian,LTP,0.0,0.0,,,
+Mordialloc,Labor,ALP,0.999,1.0,58.12,63.32,68.38
+Mordialloc,Liberal,LP,0.001,1.0,31.62,36.7,41.88
+Mordialloc,Greens,GRN,0.0,0.0,,,
+Mordialloc,One Nation,ON,0.0,0.0,,,
+Mordialloc,Family First,FFP,0.0,0.0,,,
+Mordialloc,Legalise Cannabis,HMP,0.0,0.0,,,
+Mordialloc,Independent*,IND*,0.0,0.0,,,
+Mordialloc,FUSION,SOPA,0.0,0.0,,,
+Mornington,Liberal,LP,0.695,1.0,46.71,52.03,57.31
+Mornington,Independent*,IND*,0.217,0.484,44.55,49.5,54.33
+Mornington,Labor,ALP,0.088,0.516,41.33,46.64,51.14
+Mornington,Greens,GRN,0.0,0.0,,,
+Mornington,One Nation,ON,0.0,0.0,,,
+Mornington,Trumpet of Patriots,CYA,0.0,0.0,,,
+Mornington,Legalise Cannabis,HMP,0.0,0.0,,,
+Mornington,FUSION,SOPA,0.0,0.0,,,
+Mornington,Family First,FFP,0.0,0.0,,,
+Morwell,Nationals,NP,0.995,1.0,55.45,59.57,63.91
+Morwell,Labor,ALP,0.005,1.0,36.09,40.45,44.55
+Morwell,One Nation,ON,0.0,0.0,,,
+Morwell,Greens,GRN,0.0,0.0,,,
+Morwell,Independent*,IND*,0.0,0.0,,,
+Morwell,Liberal,LP,0.0,0.0,,,
+Morwell,Libertarian,LTP,0.0,0.0,,,
+Morwell,Legalise Cannabis,HMP,0.0,0.0,,,
+Morwell,Trumpet of Patriots,CYA,0.0,0.0,,,
+Morwell,Family First,FFP,0.0,0.0,,,
+Mulgrave,Labor,ALP,1.0,1.0,63.66,67.9,71.98
+Mulgrave,Liberal,LP,0.0,1.0,28.02,32.11,36.34
+Mulgrave,Greens,GRN,0.0,0.0,,,
+Mulgrave,One Nation,ON,0.0,0.0,,,
+Mulgrave,Family First,FFP,0.0,0.0,,,
+Mulgrave,Citizens Party,CEC,0.0,0.0,,,
+Mulgrave,Trumpet of Patriots,CYA,0.0,0.0,,,
+Mulgrave,Legalise Cannabis,HMP,0.0,0.0,,,
+Mulgrave,Independent*,IND*,0.0,0.0,,,
+Mulgrave,Libertarian,LTP,0.0,0.0,,,
+Murray Plains,Nationals,NP,1.0,1.0,68.14,72.21,76.01
+Murray Plains,Labor,ALP,0.0,1.0,23.99,27.8,31.86
+Murray Plains,One Nation,ON,0.0,0.0,,,
+Murray Plains,Greens,GRN,0.0,0.0,,,
+Murray Plains,Family First,FFP,0.0,0.0,,,
+Murray Plains,Trumpet of Patriots,CYA,0.0,0.0,,,
+Murray Plains,Citizens Party,CEC,0.0,0.0,,,
+Murray Plains,Libertarian,LTP,0.0,0.0,,,
+Murray Plains,Liberal,LP,0.0,0.0,,,
+Murray Plains,Legalise Cannabis,HMP,0.0,0.0,,,
+Murray Plains,Independent*,IND*,0.0,0.0,,,
+Murray Plains,Victorian Socialists,VNS,0.0,0.0,,,
+Narracan,Liberal,LP,0.467,1.0,44.64,49.69,54.47
+Narracan,Independent*,IND*,0.505,0.89,46.02,50.58,55.6
+Narracan,Labor,ALP,0.028,0.11,43.93,47.65,51.18
+Narracan,One Nation,ON,0.0,0.0,,,
+Narracan,Greens,GRN,0.0,0.0,,,
+Narracan,Trumpet of Patriots,CYA,0.0,0.0,,,
+Narracan,Legalise Cannabis,HMP,0.0,0.0,,,
+Narracan,Family First,FFP,0.0,0.0,,,
+Narre Warren North,Labor,ALP,1.0,1.0,63.46,67.84,71.7
+Narre Warren North,Liberal,LP,0.0,0.999,28.29,32.17,36.54
+Narre Warren North,Greens,GRN,0.0,0.001,28.4,28.4,28.4
+Narre Warren North,One Nation,ON,0.0,0.0,,,
+Narre Warren North,Family First,FFP,0.0,0.0,,,
+Narre Warren North,Legalise Cannabis,HMP,0.0,0.0,,,
+Narre Warren North,Trumpet of Patriots,CYA,0.0,0.0,,,
+Narre Warren North,Libertarian,LTP,0.0,0.0,,,
+Narre Warren South,Labor,ALP,1.0,1.0,64.66,69.24,73.09
+Narre Warren South,Liberal,LP,0.0,1.0,26.91,30.76,35.34
+Narre Warren South,Greens,GRN,0.0,0.0,,,
+Narre Warren South,One Nation,ON,0.0,0.0,,,
+Narre Warren South,Family First,FFP,0.0,0.0,,,
+Narre Warren South,Legalise Cannabis,HMP,0.0,0.0,,,
+Narre Warren South,Trumpet of Patriots,CYA,0.0,0.0,,,
+Narre Warren South,Libertarian,LTP,0.0,0.0,,,
+Nepean,Liberal,LP,0.421,0.999,43.96,49.19,54.13
+Nepean,Independent*,IND*,0.517,0.784,46.84,51.64,56.38
+Nepean,Labor,ALP,0.062,0.217,43.43,48.25,52.22
+Nepean,Greens,GRN,0.0,0.0,,,
+Nepean,One Nation,ON,0.0,0.0,,,
+Nepean,Trumpet of Patriots,CYA,0.0,0.0,,,
+Niddrie,Labor,ALP,0.942,1.0,51.26,56.81,62.2
+Niddrie,Liberal,LP,0.058,1.0,37.8,43.2,48.74
+Niddrie,Greens,GRN,0.0,0.0,,,
+Niddrie,One Nation,ON,0.0,0.0,,,
+Niddrie,Legalise Cannabis,HMP,0.0,0.0,,,
+Niddrie,Family First,FFP,0.0,0.0,,,
+Niddrie,Libertarian,LTP,0.0,0.0,,,
+Northcote,Labor,ALP,0.971,1.0,52.3,56.95,61.64
+Northcote,Greens,GRN,0.029,1.0,38.36,43.05,47.7
+Northcote,Liberal,LP,0.0,0.0,,,
+Northcote,Victorian Socialists,VNS,0.0,0.0,,,
+Northcote,One Nation,ON,0.0,0.0,,,
+Northcote,Legalise Cannabis,HMP,0.0,0.0,,,
+Oakleigh,Labor,ALP,1.0,1.0,63.5,68.38,72.28
+Oakleigh,Liberal,LP,0.0,0.996,27.71,31.62,36.49
+Oakleigh,Greens,GRN,0.0,0.004,29.3,33.87,35.93
+Oakleigh,One Nation,ON,0.0,0.0,,,
+Oakleigh,Family First,FFP,0.0,0.0,,,
+Oakleigh,Citizens Party,CEC,0.0,0.0,,,
+Oakleigh,Independent*,IND*,0.0,0.0,,,
+Oakleigh,Trumpet of Patriots,CYA,0.0,0.0,,,
+Oakleigh,Libertarian,LTP,0.0,0.0,,,
+Ovens Valley,Independent*,IND*,0.983,1.0,55.44,63.91,68.32
+Ovens Valley,Liberal,LP,0.0,0.827,31.31,35.36,39.64
+Ovens Valley,Nationals,NP,0.017,0.168,40.04,45.01,49.95
+Ovens Valley,Labor,ALP,0.0,0.005,35.51,37.98,39.53
+Ovens Valley,One Nation,ON,0.0,0.0,,,
+Ovens Valley,Greens,GRN,0.0,0.0,,,
+Ovens Valley,Family First,FFP,0.0,0.0,,,
+Ovens Valley,Legalise Cannabis,HMP,0.0,0.0,,,
+Ovens Valley,Trumpet of Patriots,CYA,0.0,0.0,,,
+Ovens Valley,Libertarian,LTP,0.0,0.0,,,
+Ovens Valley,Citizens Party,CEC,0.0,0.0,,,
+Pakenham,Liberal,LP,0.396,1.0,44.37,49.12,53.65
+Pakenham,Labor,ALP,0.604,1.0,46.35,50.89,55.63
+Pakenham,Greens,GRN,0.0,0.0,,,
+Pakenham,One Nation,ON,0.0,0.0,,,
+Pakenham,Trumpet of Patriots,CYA,0.0,0.0,,,
+Pakenham,Family First,FFP,0.0,0.0,,,
+Pascoe Vale,Labor,ALP,0.628,1.0,46.68,51.31,56.12
+Pascoe Vale,Greens,GRN,0.372,1.0,43.88,48.7,53.32
+Pascoe Vale,Liberal,LP,0.0,0.0,,,
+Pascoe Vale,Socialist Alliance,SAL,0.0,0.0,,,
+Pascoe Vale,One Nation,ON,0.0,0.0,,,
+Pascoe Vale,Legalise Cannabis,HMP,0.0,0.0,,,
+Pascoe Vale,Libertarian,LTP,0.0,0.0,,,
+Pascoe Vale,FUSION,SOPA,0.0,0.0,,,
+Pascoe Vale,Victorian Socialists,VNS,0.0,0.0,,,
+Point Cook,Labor,ALP,1.0,1.0,59.82,64.82,69.16
+Point Cook,Liberal,LP,0.0,1.0,30.84,35.19,40.18
+Point Cook,Greens,GRN,0.0,0.0,,,
+Point Cook,One Nation,ON,0.0,0.0,,,
+Point Cook,Family First,FFP,0.0,0.0,,,
+Point Cook,Independent*,IND*,0.0,0.0,,,
+Point Cook,Libertarian,LTP,0.0,0.0,,,
+Polwarth,Liberal,LP,0.643,1.0,46.46,51.4,56.19
+Polwarth,Labor,ALP,0.343,0.974,43.77,48.56,53.47
+Polwarth,Independent*,IND*,0.014,0.026,46.53,50.98,55.45
+Polwarth,Greens,GRN,0.0,0.0,,,
+Polwarth,One Nation,ON,0.0,0.0,,,
+Polwarth,Legalise Cannabis,HMP,0.0,0.0,,,
+Polwarth,Trumpet of Patriots,CYA,0.0,0.0,,,
+Polwarth,Family First,FFP,0.0,0.0,,,
+Polwarth,Libertarian,LTP,0.0,0.0,,,
+Prahran,Greens,GRN,0.092,0.984,40.14,44.79,49.89
+Prahran,Labor,ALP,0.88,0.972,50.09,55.21,60.01
+Prahran,Liberal,LP,0.028,0.044,34.52,56.33,61.74
+Prahran,Independent*,IND*,0.0,0.0,,,
+Prahran,One Nation,ON,0.0,0.0,,,
+Prahran,FUSION,SOPA,0.0,0.0,,,
+Prahran,Libertarian,LTP,0.0,0.0,,,
+Prahran,Trumpet of Patriots,CYA,0.0,0.0,,,
+Preston,Labor,ALP,0.999,1.0,55.77,60.87,65.34
+Preston,Greens,GRN,0.001,0.999,34.67,39.14,44.23
+Preston,Liberal,LP,0.0,0.001,27.64,27.64,27.64
+Preston,Victorian Socialists,VNS,0.0,0.0,,,
+Preston,One Nation,ON,0.0,0.0,,,
+Preston,Legalise Cannabis,HMP,0.0,0.0,,,
+Richmond,Greens,GRN,0.488,1.0,44.59,49.93,55.02
+Richmond,Labor,ALP,0.512,1.0,44.98,50.08,55.41
+Richmond,Liberal,LP,0.0,0.0,,,
+Richmond,Independent*,IND*,0.0,0.0,,,
+Richmond,One Nation,ON,0.0,0.0,,,
+Richmond,FUSION,SOPA,0.0,0.0,,,
+Richmond,Victorian Socialists,VNS,0.0,0.0,,,
+Richmond,Legalise Cannabis,HMP,0.0,0.0,,,
+Richmond,Trumpet of Patriots,CYA,0.0,0.0,,,
+Richmond,Libertarian,LTP,0.0,0.0,,,
+Ringwood,Labor,ALP,0.998,1.0,57.26,61.6,66.1
+Ringwood,Liberal,LP,0.002,0.999,33.89,38.42,42.74
+Ringwood,Greens,GRN,0.0,0.001,37.91,37.91,37.91
+Ringwood,Independent*,IND*,0.0,0.0,,,
+Ringwood,One Nation,ON,0.0,0.0,,,
+Ringwood,Family First,FFP,0.0,0.0,,,
+Ringwood,Trumpet of Patriots,CYA,0.0,0.0,,,
+Ringwood,Libertarian,LTP,0.0,0.0,,,
+Ripon,Labor,ALP,0.403,1.0,43.0,48.32,61.55
+Ripon,Liberal,LP,0.0,0.298,35.9,39.65,43.84
+Ripon,Nationals,NP,0.597,0.702,49.26,53.75,57.79
+Ripon,One Nation,ON,0.0,0.0,,,
+Ripon,Greens,GRN,0.0,0.0,,,
+Ripon,Independent*,IND*,0.0,0.0,,,
+Ripon,Family First,FFP,0.0,0.0,,,
+Ripon,Trumpet of Patriots,CYA,0.0,0.0,,,
+Ripon,Libertarian,LTP,0.0,0.0,,,
+Ripon,Legalise Cannabis,HMP,0.0,0.0,,,
+Ripon,Citizens Party,CEC,0.0,0.0,,,
+Rowville,Liberal,LP,0.234,1.0,42.06,47.1,52.33
+Rowville,Labor,ALP,0.766,1.0,47.67,52.91,57.94
+Rowville,Greens,GRN,0.0,0.0,,,
+Rowville,Independent*,IND*,0.0,0.0,,,
+Rowville,One Nation,ON,0.0,0.0,,,
+Rowville,Family First,FFP,0.0,0.0,,,
+Rowville,Trumpet of Patriots,CYA,0.0,0.0,,,
+Rowville,Libertarian,LTP,0.0,0.0,,,
+Sandringham,Liberal,LP,0.24,1.0,42.31,47.16,52.21
+Sandringham,Independent*,IND*,0.76,1.0,47.79,52.86,57.69
+Sandringham,Labor,ALP,0.0,0.0,,,
+Sandringham,Greens,GRN,0.0,0.0,,,
+Sandringham,One Nation,ON,0.0,0.0,,,
+Sandringham,Trumpet of Patriots,CYA,0.0,0.0,,,
+Sandringham,Libertarian,LTP,0.0,0.0,,,
+Sandringham,Family First,FFP,0.0,0.0,,,
+Shepparton,Nationals,NP,1.0,1.0,60.01,64.74,69.28
+Shepparton,Labor,ALP,0.0,1.0,30.72,35.27,39.99
+Shepparton,One Nation,ON,0.0,0.0,,,
+Shepparton,Greens,GRN,0.0,0.0,,,
+Shepparton,Trumpet of Patriots,CYA,0.0,0.0,,,
+Shepparton,Family First,FFP,0.0,0.0,,,
+Shepparton,Citizens Party,CEC,0.0,0.0,,,
+South Barwon,Labor,ALP,1.0,1.0,60.06,64.33,68.42
+South Barwon,Liberal,LP,0.0,0.996,31.59,35.68,39.93
+South Barwon,Greens,GRN,0.0,0.004,31.98,36.1,40.16
+South Barwon,One Nation,ON,0.0,0.0,,,
+South Barwon,Independent*,IND*,0.0,0.0,,,
+South Barwon,Legalise Cannabis,HMP,0.0,0.0,,,
+South Barwon,Trumpet of Patriots,CYA,0.0,0.0,,,
+South Barwon,Libertarian,LTP,0.0,0.0,,,
+South Barwon,Socialist Alliance,SAL,0.0,0.0,,,
+South Barwon,Family First,FFP,0.0,0.0,,,
+South-West Coast,Liberal,LP,0.327,1.0,42.78,48.17,53.3
+South-West Coast,Independent*,IND*,0.673,1.0,46.7,51.84,57.22
+South-West Coast,Labor,ALP,0.0,0.0,,,
+South-West Coast,One Nation,ON,0.0,0.0,,,
+South-West Coast,Legalise Cannabis,HMP,0.0,0.0,,,
+South-West Coast,Greens,GRN,0.0,0.0,,,
+South-West Coast,Family First,FFP,0.0,0.0,,,
+South-West Coast,Trumpet of Patriots,CYA,0.0,0.0,,,
+St Albans,Labor,ALP,1.0,1.0,63.09,68.17,72.68
+St Albans,Greens,GRN,0.0,0.573,30.01,33.96,37.95
+St Albans,Liberal,LP,0.0,0.427,26.21,29.3,32.77
+St Albans,One Nation,ON,0.0,0.0,,,
+St Albans,Family First,FFP,0.0,0.0,,,
+St Albans,Victorian Socialists,VNS,0.0,0.0,,,
+St Albans,Legalise Cannabis,HMP,0.0,0.0,,,
+St Albans,Libertarian,LTP,0.0,0.0,,,
+Sunbury,Labor,ALP,0.989,1.0,53.93,58.68,63.27
+Sunbury,Liberal,LP,0.011,1.0,36.73,41.33,46.07
+Sunbury,Greens,GRN,0.0,0.0,,,
+Sunbury,One Nation,ON,0.0,0.0,,,
+Sunbury,Legalise Cannabis,HMP,0.0,0.0,,,
+Sunbury,Family First,FFP,0.0,0.0,,,
+Sunbury,Animal Justice,AJP,0.0,0.0,,,
+Sunbury,Independent*,IND*,0.0,0.0,,,
+Sunbury,Trumpet of Patriots,CYA,0.0,0.0,,,
+Sunbury,Citizens Party,CEC,0.0,0.0,,,
+Sydenham,Labor,ALP,0.994,1.0,54.96,59.64,64.61
+Sydenham,Liberal,LP,0.006,1.0,35.39,40.37,45.04
+Sydenham,Greens,GRN,0.0,0.0,,,
+Sydenham,One Nation,ON,0.0,0.0,,,
+Sydenham,Legalise Cannabis,HMP,0.0,0.0,,,
+Sydenham,Family First,FFP,0.0,0.0,,,
+Sydenham,Libertarian,LTP,0.0,0.0,,,
+Sydenham,Animal Justice,AJP,0.0,0.0,,,
+Tarneit,Labor,ALP,1.0,1.0,62.49,66.83,70.82
+Tarneit,Liberal,LP,0.0,0.995,29.18,33.17,37.55
+Tarneit,Greens,GRN,0.0,0.005,27.56,34.48,36.54
+Tarneit,One Nation,ON,0.0,0.0,,,
+Tarneit,Family First,FFP,0.0,0.0,,,
+Tarneit,Independent*,IND*,0.0,0.0,,,
+Tarneit,Libertarian,LTP,0.0,0.0,,,
+Thomastown,Labor,ALP,1.0,1.0,64.26,68.48,72.5
+Thomastown,Liberal,LP,0.0,1.0,27.5,31.54,35.74
+Thomastown,Victorian Socialists,VNS,0.0,0.0,,,
+Thomastown,Greens,GRN,0.0,0.0,,,
+Thomastown,One Nation,ON,0.0,0.0,,,
+Thomastown,Trumpet of Patriots,CYA,0.0,0.0,,,
+Thomastown,Family First,FFP,0.0,0.0,,,
+Thomastown,Gerard Rennick People First,GRPF,0.0,0.0,,,
+Warrandyte,Liberal,LP,0.571,1.0,45.45,50.73,55.99
+Warrandyte,Labor,ALP,0.429,1.0,44.01,49.27,54.55
+Warrandyte,Greens,GRN,0.0,0.0,,,
+Warrandyte,Independent*,IND*,0.0,0.0,,,
+Warrandyte,One Nation,ON,0.0,0.0,,,
+Warrandyte,Trumpet of Patriots,CYA,0.0,0.0,,,
+Warrandyte,Family First,FFP,0.0,0.0,,,
+Warrandyte,Libertarian,LTP,0.0,0.0,,,
+Warrandyte,Animal Justice,AJP,0.0,0.0,,,
+Wendouree,Labor,ALP,0.997,1.0,56.93,61.88,66.38
+Wendouree,Liberal,LP,0.003,1.0,33.62,38.12,43.07
+Wendouree,Greens,GRN,0.0,0.0,,,
+Wendouree,One Nation,ON,0.0,0.0,,,
+Wendouree,Family First,FFP,0.0,0.0,,,
+Wendouree,Independent*,IND*,0.0,0.0,,,
+Wendouree,Libertarian,LTP,0.0,0.0,,,
+Werribee,Labor,ALP,1.0,1.0,58.41,63.12,67.26
+Werribee,Liberal,LP,0.0,1.0,32.74,36.88,41.59
+Werribee,Greens,GRN,0.0,0.0,,,
+Werribee,One Nation,ON,0.0,0.0,,,
+Werribee,Family First,FFP,0.0,0.0,,,
+Werribee,Independent*,IND*,0.0,0.0,,,
+Werribee,Libertarian,LTP,0.0,0.0,,,
+Werribee,Socialist Alliance,SAL,0.0,0.0,,,
+Williamstown,Labor,ALP,1.0,1.0,63.44,67.78,71.61
+Williamstown,Liberal,LP,0.0,0.874,28.2,31.69,36.28
+Williamstown,Greens,GRN,0.0,0.126,31.15,34.98,38.66
+Williamstown,One Nation,ON,0.0,0.0,,,
+Williamstown,Family First,FFP,0.0,0.0,,,
+Williamstown,Victorian Socialists,VNS,0.0,0.0,,,
+Yan Yean,Labor,ALP,0.958,1.0,51.59,56.46,61.29
+Yan Yean,Liberal,LP,0.042,1.0,38.71,43.54,48.41
+Yan Yean,Greens,GRN,0.0,0.0,,,
+Yan Yean,One Nation,ON,0.0,0.0,,,
+Yan Yean,Legalise Cannabis,HMP,0.0,0.0,,,
+Yan Yean,Gerard Rennick People First,GRPF,0.0,0.0,,,
+Yan Yean,Family First,FFP,0.0,0.0,,,
+Yan Yean,Animal Justice,AJP,0.0,0.0,,,
+Yan Yean,FUSION,SOPA,0.0,0.0,,,
+Yan Yean,Trumpet of Patriots,CYA,0.0,0.0,,,
+Yan Yean,Victorian Socialists,VNS,0.0,0.0,,,

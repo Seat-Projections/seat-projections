@@ -1,0 +1,43 @@
+{
+  "model": "model1",
+  "run_id": "QLD2024 (2022)",
+  "timestamp": "2026-11-08T11:07:37+00:00",
+  "git_commit": null,
+  "runs": 1000,
+  "seed": 1,
+  "noise_log_sd": {
+    "state": 0.08,
+    "seat": 0.12,
+    "flow": 0.15
+  },
+  "inputs": {
+    "state": "QLD",
+    "state_election": "2024-10-26",
+    "districts": 93,
+    "federal_election": 2022,
+    "aec_event": 27966,
+    "booths": "inside the district and within 1 km of their own federal division",
+    "polls": null,
+    "winners": "QLD2024"
+  },
+  "scores": {
+    "districts": 93,
+    "raw_seat_count": 76,
+    "brier": 0.272,
+    "log_loss": 0.5069
+  },
+  "actual_seats": {
+    "ALP": 36,
+    "GRN": 1,
+    "IND*": 1,
+    "KAP": 3,
+    "LNP": 52
+  },
+  "predicted_seats_mean": {
+    "ALP": 28.63,
+    "GRN": 6.58,
+    "IND*": 0.7,
+    "KAP": 3.04,
+    "LNP": 54.05
+  }
+}

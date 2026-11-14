@@ -1,0 +1,8863 @@
+{
+ "Algester": {
+  "candidates": [
+   {
+    "candidate_id": "AITKEN, Nerissa",
+    "name": "AITKEN, Nerissa",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "STACEY, Wayne",
+    "name": "STACEY, Wayne",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "MIRA, Josie",
+    "name": "MIRA, Josie",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "ENOCH, Leeanne",
+    "name": "ENOCH, Leeanne",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "AITKEN, Nerissa": 7505.0,
+   "STACEY, Wayne": 2147.0,
+   "MIRA, Josie": 2514.0,
+   "ENOCH, Leeanne": 17452.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "STACEY, Wayne",
+    "transfers": {
+     "AITKEN, Nerissa": 1141.0,
+     "MIRA, Josie": 451.0,
+     "ENOCH, Leeanne": 555.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MIRA, Josie",
+    "transfers": {
+     "AITKEN, Nerissa": 899.0,
+     "ENOCH, Leeanne": 2066.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "AITKEN, Nerissa": 9545.0,
+   "ENOCH, Leeanne": 20073.0
+  },
+  "formal_votes": 29618
+ },
+ "Aspley": {
+  "candidates": [
+   {
+    "candidate_id": "HARDY, Walter",
+    "name": "HARDY, Walter",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "SKILBECK, Neil",
+    "name": "SKILBECK, Neil",
+    "party": "CLMP"
+   },
+   {
+    "candidate_id": "HANSEN, James",
+    "name": "HANSEN, James",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "MORRISON, Joshua",
+    "name": "MORRISON, Joshua",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "MELLISH, Bart",
+    "name": "MELLISH, Bart",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "COOPER, Amanda",
+    "name": "COOPER, Amanda",
+    "party": "LNP"
+   }
+  ],
+  "first_preferences": {
+   "HARDY, Walter": 1141.0,
+   "SKILBECK, Neil": 305.0,
+   "HANSEN, James": 2997.0,
+   "MORRISON, Joshua": 247.0,
+   "MELLISH, Bart": 15261.0,
+   "COOPER, Amanda": 13579.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "MORRISON, Joshua",
+    "transfers": {
+     "HARDY, Walter": 94.0,
+     "SKILBECK, Neil": 20.0,
+     "HANSEN, James": 29.0,
+     "MELLISH, Bart": 41.0,
+     "COOPER, Amanda": 63.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SKILBECK, Neil",
+    "transfers": {
+     "HARDY, Walter": 122.0,
+     "HANSEN, James": 70.0,
+     "MELLISH, Bart": 75.0,
+     "COOPER, Amanda": 58.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HARDY, Walter",
+    "transfers": {
+     "HANSEN, James": 378.0,
+     "MELLISH, Bart": 284.0,
+     "COOPER, Amanda": 695.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HANSEN, James",
+    "transfers": {
+     "MELLISH, Bart": 2833.0,
+     "COOPER, Amanda": 641.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "MELLISH, Bart": 18494.0,
+   "COOPER, Amanda": 15036.0
+  },
+  "formal_votes": 33530
+ },
+ "Bancroft": {
+  "candidates": [
+   {
+    "candidate_id": "WHITING, Chris",
+    "name": "WHITING, Chris",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "GRANT, Barry",
+    "name": "GRANT, Barry",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "ACKERMAN, Ell-Leigh",
+    "name": "ACKERMAN, Ell-Leigh",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "CARLSON, Phil",
+    "name": "CARLSON, Phil",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "AAI REDDY, Nik",
+    "name": "AAI REDDY, Nik",
+    "party": "ON"
+   }
+  ],
+  "first_preferences": {
+   "WHITING, Chris": 16301.0,
+   "GRANT, Barry": 1001.0,
+   "ACKERMAN, Ell-Leigh": 1820.0,
+   "CARLSON, Phil": 8626.0,
+   "AAI REDDY, Nik": 2666.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "GRANT, Barry",
+    "transfers": {
+     "WHITING, Chris": 282.0,
+     "ACKERMAN, Ell-Leigh": 209.0,
+     "CARLSON, Phil": 239.0,
+     "AAI REDDY, Nik": 271.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "ACKERMAN, Ell-Leigh",
+    "transfers": {
+     "WHITING, Chris": 1374.0,
+     "CARLSON, Phil": 393.0,
+     "AAI REDDY, Nik": 262.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "AAI REDDY, Nik",
+    "transfers": {
+     "WHITING, Chris": 1143.0,
+     "CARLSON, Phil": 2056.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "WHITING, Chris": 19100.0,
+   "CARLSON, Phil": 11314.0
+  },
+  "formal_votes": 30414
+ },
+ "Barron River": {
+  "candidates": [
+   {
+    "candidate_id": "MCDONALD, Aaron",
+    "name": "MCDONALD, Aaron",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "CRAWFORD, Craig",
+    "name": "CRAWFORD, Craig",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "BROWN, Jenny",
+    "name": "BROWN, Jenny",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "ANDREWS, Susan",
+    "name": "ANDREWS, Susan",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "ROWE, Adam",
+    "name": "ROWE, Adam",
+    "party": "IMOP"
+   },
+   {
+    "candidate_id": "COOPER, Linda",
+    "name": "COOPER, Linda",
+    "party": "LNP"
+   }
+  ],
+  "first_preferences": {
+   "MCDONALD, Aaron": 4134.0,
+   "CRAWFORD, Craig": 12385.0,
+   "BROWN, Jenny": 345.0,
+   "ANDREWS, Susan": 1852.0,
+   "ROWE, Adam": 575.0,
+   "COOPER, Linda": 12092.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "BROWN, Jenny",
+    "transfers": {
+     "MCDONALD, Aaron": 33.0,
+     "CRAWFORD, Craig": 47.0,
+     "ANDREWS, Susan": 166.0,
+     "ROWE, Adam": 38.0,
+     "COOPER, Linda": 61.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "ROWE, Adam",
+    "transfers": {
+     "MCDONALD, Aaron": 196.0,
+     "CRAWFORD, Craig": 68.0,
+     "ANDREWS, Susan": 242.0,
+     "COOPER, Linda": 107.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "ANDREWS, Susan",
+    "transfers": {
+     "MCDONALD, Aaron": 475.0,
+     "CRAWFORD, Craig": 477.0,
+     "COOPER, Linda": 1308.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MCDONALD, Aaron",
+    "transfers": {
+     "CRAWFORD, Craig": 3676.0,
+     "COOPER, Linda": 1162.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "CRAWFORD, Craig": 16653.0,
+   "COOPER, Linda": 14730.0
+  },
+  "formal_votes": 31383
+ },
+ "Bonney": {
+  "candidates": [
+   {
+    "candidate_id": "MARQUET, Leana",
+    "name": "MARQUET, Leana",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "O'CONNOR, Sam",
+    "name": "O'CONNOR, Sam",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "BORG, Ash",
+    "name": "BORG, Ash",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "BARK, David",
+    "name": "BARK, David",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "RIX, Michael",
+    "name": "RIX, Michael",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "JAVANMARD, Amin",
+    "name": "JAVANMARD, Amin",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "MARQUET, Leana": 498.0,
+   "O'CONNOR, Sam": 15323.0,
+   "BORG, Ash": 9226.0,
+   "BARK, David": 381.0,
+   "RIX, Michael": 1113.0,
+   "JAVANMARD, Amin": 2229.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "BARK, David",
+    "transfers": {
+     "MARQUET, Leana": 23.0,
+     "O'CONNOR, Sam": 97.0,
+     "BORG, Ash": 52.0,
+     "RIX, Michael": 166.0,
+     "JAVANMARD, Amin": 43.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MARQUET, Leana",
+    "transfers": {
+     "O'CONNOR, Sam": 256.0,
+     "BORG, Ash": 112.0,
+     "RIX, Michael": 65.0,
+     "JAVANMARD, Amin": 88.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "RIX, Michael",
+    "transfers": {
+     "O'CONNOR, Sam": 742.0,
+     "BORG, Ash": 277.0,
+     "JAVANMARD, Amin": 325.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "JAVANMARD, Amin",
+    "transfers": {
+     "O'CONNOR, Sam": 865.0,
+     "BORG, Ash": 1820.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "O'CONNOR, Sam": 17283.0,
+   "BORG, Ash": 11487.0
+  },
+  "formal_votes": 28770
+ },
+ "Broadwater": {
+  "candidates": [
+   {
+    "candidate_id": "SCHNEIDER, Jesse",
+    "name": "SCHNEIDER, Jesse",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "SIMPSON, Maureen",
+    "name": "SIMPSON, Maureen",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "BROADBENT, April",
+    "name": "BROADBENT, April",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "KRISCHKER, Mara",
+    "name": "KRISCHKER, Mara",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "CRISAFULLI, David",
+    "name": "CRISAFULLI, David",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "O'DONNELL, Natalie",
+    "name": "O'DONNELL, Natalie",
+    "party": "IMOP"
+   }
+  ],
+  "first_preferences": {
+   "SCHNEIDER, Jesse": 1796.0,
+   "SIMPSON, Maureen": 8041.0,
+   "BROADBENT, April": 1583.0,
+   "KRISCHKER, Mara": 441.0,
+   "CRISAFULLI, David": 18059.0,
+   "O'DONNELL, Natalie": 386.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "O'DONNELL, Natalie",
+    "transfers": {
+     "SCHNEIDER, Jesse": 129.0,
+     "SIMPSON, Maureen": 43.0,
+     "BROADBENT, April": 78.0,
+     "KRISCHKER, Mara": 51.0,
+     "CRISAFULLI, David": 85.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "KRISCHKER, Mara",
+    "transfers": {
+     "SCHNEIDER, Jesse": 207.0,
+     "SIMPSON, Maureen": 58.0,
+     "BROADBENT, April": 70.0,
+     "CRISAFULLI, David": 157.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BROADBENT, April",
+    "transfers": {
+     "SCHNEIDER, Jesse": 238.0,
+     "SIMPSON, Maureen": 1058.0,
+     "CRISAFULLI, David": 435.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SCHNEIDER, Jesse",
+    "transfers": {
+     "SIMPSON, Maureen": 932.0,
+     "CRISAFULLI, David": 1438.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "SIMPSON, Maureen": 10132.0,
+   "CRISAFULLI, David": 20174.0
+  },
+  "formal_votes": 30306
+ },
+ "Buderim": {
+  "candidates": [
+   {
+    "candidate_id": "ANDREWS, Michael",
+    "name": "ANDREWS, Michael",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "MOSELEY, Deborah",
+    "name": "MOSELEY, Deborah",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "BARRY-JONES, Alison",
+    "name": "BARRY-JONES, Alison",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "HOSKING, Joyce",
+    "name": "HOSKING, Joyce",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "MACKENZIE, Ken",
+    "name": "MACKENZIE, Ken",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "DICKSON, Steve",
+    "name": "DICKSON, Steve",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "PHILP, Daniel",
+    "name": "PHILP, Daniel",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "MICKELBERG, Brent",
+    "name": "MICKELBERG, Brent",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "LEE, Alina",
+    "name": "LEE, Alina",
+    "party": "IMOP"
+   }
+  ],
+  "first_preferences": {
+   "ANDREWS, Michael": 741.0,
+   "MOSELEY, Deborah": 3422.0,
+   "BARRY-JONES, Alison": 572.0,
+   "HOSKING, Joyce": 1477.0,
+   "MACKENZIE, Ken": 8932.0,
+   "DICKSON, Steve": 2234.0,
+   "PHILP, Daniel": 191.0,
+   "MICKELBERG, Brent": 13443.0,
+   "LEE, Alina": 601.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "PHILP, Daniel",
+    "transfers": {
+     "ANDREWS, Michael": 10.0,
+     "MOSELEY, Deborah": 14.0,
+     "BARRY-JONES, Alison": 6.0,
+     "HOSKING, Joyce": 59.0,
+     "MACKENZIE, Ken": 8.0,
+     "DICKSON, Steve": 32.0,
+     "MICKELBERG, Brent": 53.0,
+     "LEE, Alina": 9.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BARRY-JONES, Alison",
+    "transfers": {
+     "ANDREWS, Michael": 96.0,
+     "MOSELEY, Deborah": 141.0,
+     "HOSKING, Joyce": 38.0,
+     "MACKENZIE, Ken": 102.0,
+     "DICKSON, Steve": 67.0,
+     "MICKELBERG, Brent": 103.0,
+     "LEE, Alina": 31.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "LEE, Alina",
+    "transfers": {
+     "ANDREWS, Michael": 81.0,
+     "MOSELEY, Deborah": 144.0,
+     "HOSKING, Joyce": 183.0,
+     "MACKENZIE, Ken": 62.0,
+     "DICKSON, Steve": 74.0,
+     "MICKELBERG, Brent": 97.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "ANDREWS, Michael",
+    "transfers": {
+     "MOSELEY, Deborah": 399.0,
+     "HOSKING, Joyce": 75.0,
+     "MACKENZIE, Ken": 157.0,
+     "DICKSON, Steve": 139.0,
+     "MICKELBERG, Brent": 158.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HOSKING, Joyce",
+    "transfers": {
+     "MOSELEY, Deborah": 287.0,
+     "MACKENZIE, Ken": 281.0,
+     "DICKSON, Steve": 656.0,
+     "MICKELBERG, Brent": 608.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "DICKSON, Steve",
+    "transfers": {
+     "MOSELEY, Deborah": 834.0,
+     "MACKENZIE, Ken": 709.0,
+     "MICKELBERG, Brent": 1659.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MOSELEY, Deborah",
+    "transfers": {
+     "MACKENZIE, Ken": 3884.0,
+     "MICKELBERG, Brent": 1357.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "MACKENZIE, Ken": 14135.0,
+   "MICKELBERG, Brent": 17478.0
+  },
+  "formal_votes": 31613
+ },
+ "Bulimba": {
+  "candidates": [
+   {
+    "candidate_id": "BISHOP, Anthony",
+    "name": "BISHOP, Anthony",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "KUELSEN, Rolf",
+    "name": "KUELSEN, Rolf",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "ARMSTRONG-SCHMAKEIT, Finn",
+    "name": "ARMSTRONG-SCHMAKEIT, Finn",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "CONWAY, Doug",
+    "name": "CONWAY, Doug",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "FARMER, Di",
+    "name": "FARMER, Di",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "BISHOP, Anthony": 11883.0,
+   "KUELSEN, Rolf": 4665.0,
+   "ARMSTRONG-SCHMAKEIT, Finn": 659.0,
+   "CONWAY, Doug": 785.0,
+   "FARMER, Di": 16764.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "ARMSTRONG-SCHMAKEIT, Finn",
+    "transfers": {
+     "BISHOP, Anthony": 131.0,
+     "KUELSEN, Rolf": 258.0,
+     "CONWAY, Doug": 108.0,
+     "FARMER, Di": 162.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "CONWAY, Doug",
+    "transfers": {
+     "BISHOP, Anthony": 489.0,
+     "KUELSEN, Rolf": 153.0,
+     "FARMER, Di": 251.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "KUELSEN, Rolf",
+    "transfers": {
+     "BISHOP, Anthony": 917.0,
+     "FARMER, Di": 4159.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "BISHOP, Anthony": 13420.0,
+   "FARMER, Di": 21336.0
+  },
+  "formal_votes": 34756
+ },
+ "Bundaberg": {
+  "candidates": [
+   {
+    "candidate_id": "ZUNKER, Ian",
+    "name": "ZUNKER, Ian",
+    "party": "LCQP"
+   },
+   {
+    "candidate_id": "OGDEN, Claire",
+    "name": "OGDEN, Claire",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "SMELTZ, Shane",
+    "name": "SMELTZ, Shane",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "JONES, Stewart",
+    "name": "JONES, Stewart",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "BATT, David",
+    "name": "BATT, David",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "SMITH, Tom",
+    "name": "SMITH, Tom",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "ZUNKER, Ian": 1669.0,
+   "OGDEN, Claire": 964.0,
+   "SMELTZ, Shane": 244.0,
+   "JONES, Stewart": 1766.0,
+   "BATT, David": 12577.0,
+   "SMITH, Tom": 13053.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "SMELTZ, Shane",
+    "transfers": {
+     "ZUNKER, Ian": 57.0,
+     "OGDEN, Claire": 23.0,
+     "JONES, Stewart": 98.0,
+     "BATT, David": 45.0,
+     "SMITH, Tom": 21.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "OGDEN, Claire",
+    "transfers": {
+     "ZUNKER, Ian": 319.0,
+     "JONES, Stewart": 119.0,
+     "BATT, David": 115.0,
+     "SMITH, Tom": 434.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "JONES, Stewart",
+    "transfers": {
+     "ZUNKER, Ian": 768.0,
+     "BATT, David": 847.0,
+     "SMITH, Tom": 368.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "ZUNKER, Ian",
+    "transfers": {
+     "BATT, David": 1548.0,
+     "SMITH, Tom": 1265.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "BATT, David": 15132.0,
+   "SMITH, Tom": 15141.0
+  },
+  "formal_votes": 30273
+ },
+ "Bundamba": {
+  "candidates": [
+   {
+    "candidate_id": "MCCALLUM, Lance",
+    "name": "MCCALLUM, Lance",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "BELL, Sharon",
+    "name": "BELL, Sharon",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "LOWERY, Angela",
+    "name": "LOWERY, Angela",
+    "party": "AJP"
+   },
+   {
+    "candidate_id": "MUTTON, Danielle",
+    "name": "MUTTON, Danielle",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "SHEARMAN, Rob",
+    "name": "SHEARMAN, Rob",
+    "party": "LNP"
+   }
+  ],
+  "first_preferences": {
+   "MCCALLUM, Lance": 17015.0,
+   "BELL, Sharon": 4553.0,
+   "LOWERY, Angela": 1099.0,
+   "MUTTON, Danielle": 3127.0,
+   "SHEARMAN, Rob": 4635.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "LOWERY, Angela",
+    "transfers": {
+     "MCCALLUM, Lance": 270.0,
+     "BELL, Sharon": 256.0,
+     "MUTTON, Danielle": 470.0,
+     "SHEARMAN, Rob": 103.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MUTTON, Danielle",
+    "transfers": {
+     "MCCALLUM, Lance": 2359.0,
+     "BELL, Sharon": 672.0,
+     "SHEARMAN, Rob": 566.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SHEARMAN, Rob",
+    "transfers": {
+     "MCCALLUM, Lance": 1863.0,
+     "BELL, Sharon": 3441.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "MCCALLUM, Lance": 21507.0,
+   "BELL, Sharon": 8922.0
+  },
+  "formal_votes": 30429
+ },
+ "Burdekin": {
+  "candidates": [
+   {
+    "candidate_id": "THIRIET, Dominique",
+    "name": "THIRIET, Dominique",
+    "party": "AJP"
+   },
+   {
+    "candidate_id": "SMITH, Jack",
+    "name": "SMITH, Jack",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "BRUNKER, Michael",
+    "name": "BRUNKER, Michael",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "COX, Sam",
+    "name": "COX, Sam",
+    "party": "KAP"
+   },
+   {
+    "candidate_id": "REMMER, Clive",
+    "name": "REMMER, Clive",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "LAST, Dale",
+    "name": "LAST, Dale",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "WOOD, Benjamin",
+    "name": "WOOD, Benjamin",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "MORIARTY, Carolyn",
+    "name": "MORIARTY, Carolyn",
+    "party": "NQF"
+   }
+  ],
+  "first_preferences": {
+   "THIRIET, Dominique": 419.0,
+   "SMITH, Jack": 600.0,
+   "BRUNKER, Michael": 9425.0,
+   "COX, Sam": 4212.0,
+   "REMMER, Clive": 2080.0,
+   "LAST, Dale": 11792.0,
+   "WOOD, Benjamin": 274.0,
+   "MORIARTY, Carolyn": 900.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "WOOD, Benjamin",
+    "transfers": {
+     "THIRIET, Dominique": 19.0,
+     "SMITH, Jack": 6.0,
+     "BRUNKER, Michael": 25.0,
+     "COX, Sam": 43.0,
+     "REMMER, Clive": 97.0,
+     "LAST, Dale": 49.0,
+     "MORIARTY, Carolyn": 35.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "THIRIET, Dominique",
+    "transfers": {
+     "SMITH, Jack": 210.0,
+     "BRUNKER, Michael": 67.0,
+     "COX, Sam": 37.0,
+     "REMMER, Clive": 54.0,
+     "LAST, Dale": 34.0,
+     "MORIARTY, Carolyn": 36.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SMITH, Jack",
+    "transfers": {
+     "BRUNKER, Michael": 515.0,
+     "COX, Sam": 92.0,
+     "REMMER, Clive": 40.0,
+     "LAST, Dale": 93.0,
+     "MORIARTY, Carolyn": 76.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MORIARTY, Carolyn",
+    "transfers": {
+     "BRUNKER, Michael": 193.0,
+     "COX, Sam": 349.0,
+     "REMMER, Clive": 201.0,
+     "LAST, Dale": 304.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "REMMER, Clive",
+    "transfers": {
+     "BRUNKER, Michael": 446.0,
+     "COX, Sam": 1222.0,
+     "LAST, Dale": 804.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "COX, Sam",
+    "transfers": {
+     "BRUNKER, Michael": 2087.0,
+     "LAST, Dale": 3868.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "BRUNKER, Michael": 12758.0,
+   "LAST, Dale": 16944.0
+  },
+  "formal_votes": 29702
+ },
+ "Burleigh": {
+  "candidates": [
+   {
+    "candidate_id": "BATTY, Georgie",
+    "name": "BATTY, Georgie",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "WALLACE, Scott",
+    "name": "WALLACE, Scott",
+    "party": "AJP"
+   },
+   {
+    "candidate_id": "HART, Michael",
+    "name": "HART, Michael",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "WEBER, Ingrid",
+    "name": "WEBER, Ingrid",
+    "party": "LCQP"
+   },
+   {
+    "candidate_id": "MEBBERSON, Rachel",
+    "name": "MEBBERSON, Rachel",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "FILINGERI, Carlo",
+    "name": "FILINGERI, Carlo",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "BARTHOLOMEW, Wayne (Rabbit)",
+    "name": "BARTHOLOMEW, Wayne (Rabbit)",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "BATTY, Georgie": 2114.0,
+   "WALLACE, Scott": 948.0,
+   "HART, Michael": 11743.0,
+   "WEBER, Ingrid": 1085.0,
+   "MEBBERSON, Rachel": 2753.0,
+   "FILINGERI, Carlo": 321.0,
+   "BARTHOLOMEW, Wayne (Rabbit)": 10609.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "FILINGERI, Carlo",
+    "transfers": {
+     "BATTY, Georgie": 111.0,
+     "WALLACE, Scott": 20.0,
+     "HART, Michael": 69.0,
+     "WEBER, Ingrid": 39.0,
+     "MEBBERSON, Rachel": 32.0,
+     "BARTHOLOMEW, Wayne (Rabbit)": 50.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WALLACE, Scott",
+    "transfers": {
+     "BATTY, Georgie": 115.0,
+     "HART, Michael": 106.0,
+     "WEBER, Ingrid": 261.0,
+     "MEBBERSON, Rachel": 373.0,
+     "BARTHOLOMEW, Wayne (Rabbit)": 113.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WEBER, Ingrid",
+    "transfers": {
+     "BATTY, Georgie": 254.0,
+     "HART, Michael": 229.0,
+     "MEBBERSON, Rachel": 604.0,
+     "BARTHOLOMEW, Wayne (Rabbit)": 298.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BATTY, Georgie",
+    "transfers": {
+     "HART, Michael": 1621.0,
+     "MEBBERSON, Rachel": 519.0,
+     "BARTHOLOMEW, Wayne (Rabbit)": 454.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MEBBERSON, Rachel",
+    "transfers": {
+     "HART, Michael": 1375.0,
+     "BARTHOLOMEW, Wayne (Rabbit)": 2906.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "HART, Michael": 15143.0,
+   "BARTHOLOMEW, Wayne (Rabbit)": 14430.0
+  },
+  "formal_votes": 29573
+ },
+ "Burnett": {
+  "candidates": [
+   {
+    "candidate_id": "JOHNS, Liam",
+    "name": "JOHNS, Liam",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "GLASS, Ric",
+    "name": "GLASS, Ric",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "MANSELL, Geoffrey",
+    "name": "MANSELL, Geoffrey",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "BENNETT, Stephen",
+    "name": "BENNETT, Stephen",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "CASE, Elizabeth",
+    "name": "CASE, Elizabeth",
+    "party": "IMOP"
+   },
+   {
+    "candidate_id": "MORGAN, Kerri",
+    "name": "MORGAN, Kerri",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "HUDSON, Paul",
+    "name": "HUDSON, Paul",
+    "party": "KAP"
+   }
+  ],
+  "first_preferences": {
+   "JOHNS, Liam": 1436.0,
+   "GLASS, Ric": 235.0,
+   "MANSELL, Geoffrey": 2832.0,
+   "BENNETT, Stephen": 15330.0,
+   "CASE, Elizabeth": 682.0,
+   "MORGAN, Kerri": 9686.0,
+   "HUDSON, Paul": 1336.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "GLASS, Ric",
+    "transfers": {
+     "JOHNS, Liam": 56.0,
+     "MANSELL, Geoffrey": 45.0,
+     "BENNETT, Stephen": 47.0,
+     "CASE, Elizabeth": 34.0,
+     "MORGAN, Kerri": 18.0,
+     "HUDSON, Paul": 35.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "CASE, Elizabeth",
+    "transfers": {
+     "JOHNS, Liam": 144.0,
+     "MANSELL, Geoffrey": 165.0,
+     "BENNETT, Stephen": 108.0,
+     "MORGAN, Kerri": 123.0,
+     "HUDSON, Paul": 176.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HUDSON, Paul",
+    "transfers": {
+     "JOHNS, Liam": 111.0,
+     "MANSELL, Geoffrey": 864.0,
+     "BENNETT, Stephen": 329.0,
+     "MORGAN, Kerri": 243.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "JOHNS, Liam",
+    "transfers": {
+     "MANSELL, Geoffrey": 477.0,
+     "BENNETT, Stephen": 326.0,
+     "MORGAN, Kerri": 944.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MANSELL, Geoffrey",
+    "transfers": {
+     "BENNETT, Stephen": 3032.0,
+     "MORGAN, Kerri": 1351.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "BENNETT, Stephen": 19172.0,
+   "MORGAN, Kerri": 12365.0
+  },
+  "formal_votes": 31537
+ },
+ "Cairns": {
+  "candidates": [
+   {
+    "candidate_id": "MARINO, Sam",
+    "name": "MARINO, Sam",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "GRIFFITH, Darrin",
+    "name": "GRIFFITH, Darrin",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "BAXTER, Sarah",
+    "name": "BAXTER, Sarah",
+    "party": "IMOP"
+   },
+   {
+    "candidate_id": "WRIGHT, David",
+    "name": "WRIGHT, David",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "DENCH, Daniel",
+    "name": "DENCH, Daniel",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "HEALY, Michael",
+    "name": "HEALY, Michael",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "MARINO, Sam": 10505.0,
+   "GRIFFITH, Darrin": 1707.0,
+   "BAXTER, Sarah": 724.0,
+   "WRIGHT, David": 302.0,
+   "DENCH, Daniel": 2829.0,
+   "HEALY, Michael": 12727.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "WRIGHT, David",
+    "transfers": {
+     "MARINO, Sam": 57.0,
+     "GRIFFITH, Darrin": 132.0,
+     "BAXTER, Sarah": 40.0,
+     "DENCH, Daniel": 37.0,
+     "HEALY, Michael": 36.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BAXTER, Sarah",
+    "transfers": {
+     "MARINO, Sam": 161.0,
+     "GRIFFITH, Darrin": 243.0,
+     "DENCH, Daniel": 227.0,
+     "HEALY, Michael": 133.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "GRIFFITH, Darrin",
+    "transfers": {
+     "MARINO, Sam": 1307.0,
+     "DENCH, Daniel": 396.0,
+     "HEALY, Michael": 379.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "DENCH, Daniel",
+    "transfers": {
+     "MARINO, Sam": 758.0,
+     "HEALY, Michael": 2731.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "MARINO, Sam": 12788.0,
+   "HEALY, Michael": 16006.0
+  },
+  "formal_votes": 28794
+ },
+ "Callide": {
+  "candidates": [
+   {
+    "candidate_id": "WALSH, Anthony",
+    "name": "WALSH, Anthony",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "EARNSHAW, Gordon",
+    "name": "EARNSHAW, Gordon",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "BOYCE, Colin",
+    "name": "BOYCE, Colin",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "BURLING, Adam",
+    "name": "BURLING, Adam",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "DOESSEL, Loris",
+    "name": "DOESSEL, Loris",
+    "party": "IND*"
+   }
+  ],
+  "first_preferences": {
+   "WALSH, Anthony": 1147.0,
+   "EARNSHAW, Gordon": 7463.0,
+   "BOYCE, Colin": 16608.0,
+   "BURLING, Adam": 2444.0,
+   "DOESSEL, Loris": 1371.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "WALSH, Anthony",
+    "transfers": {
+     "EARNSHAW, Gordon": 622.0,
+     "BOYCE, Colin": 215.0,
+     "BURLING, Adam": 166.0,
+     "DOESSEL, Loris": 144.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "DOESSEL, Loris",
+    "transfers": {
+     "EARNSHAW, Gordon": 165.0,
+     "BOYCE, Colin": 272.0,
+     "BURLING, Adam": 1078.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BURLING, Adam",
+    "transfers": {
+     "EARNSHAW, Gordon": 1671.0,
+     "BOYCE, Colin": 2017.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "EARNSHAW, Gordon": 9921.0,
+   "BOYCE, Colin": 19112.0
+  },
+  "formal_votes": 29033
+ },
+ "Caloundra": {
+  "candidates": [
+   {
+    "candidate_id": "ELLIS, Raelene",
+    "name": "ELLIS, Raelene",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "JESSOP, Mike",
+    "name": "JESSOP, Mike",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "HART, Belinda",
+    "name": "HART, Belinda",
+    "party": "IMOP"
+   },
+   {
+    "candidate_id": "POLAND, Luke",
+    "name": "POLAND, Luke",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "HILL, Mathew",
+    "name": "HILL, Mathew",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "COWARD, Stuart",
+    "name": "COWARD, Stuart",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "GRAY, Trevor",
+    "name": "GRAY, Trevor",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "HUNT, Jason",
+    "name": "HUNT, Jason",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "ELLIS, Raelene": 3281.0,
+   "JESSOP, Mike": 245.0,
+   "HART, Belinda": 783.0,
+   "POLAND, Luke": 2007.0,
+   "HILL, Mathew": 238.0,
+   "COWARD, Stuart": 12234.0,
+   "GRAY, Trevor": 255.0,
+   "HUNT, Jason": 13406.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "HILL, Mathew",
+    "transfers": {
+     "ELLIS, Raelene": 24.0,
+     "JESSOP, Mike": 88.0,
+     "HART, Belinda": 26.0,
+     "POLAND, Luke": 29.0,
+     "COWARD, Stuart": 37.0,
+     "GRAY, Trevor": 8.0,
+     "HUNT, Jason": 26.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "GRAY, Trevor",
+    "transfers": {
+     "ELLIS, Raelene": 22.0,
+     "JESSOP, Mike": 13.0,
+     "HART, Belinda": 13.0,
+     "POLAND, Luke": 96.0,
+     "COWARD, Stuart": 75.0,
+     "HUNT, Jason": 44.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "JESSOP, Mike",
+    "transfers": {
+     "ELLIS, Raelene": 70.0,
+     "HART, Belinda": 93.0,
+     "POLAND, Luke": 65.0,
+     "COWARD, Stuart": 66.0,
+     "HUNT, Jason": 52.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HART, Belinda",
+    "transfers": {
+     "ELLIS, Raelene": 267.0,
+     "POLAND, Luke": 400.0,
+     "COWARD, Stuart": 118.0,
+     "HUNT, Jason": 130.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "POLAND, Luke",
+    "transfers": {
+     "ELLIS, Raelene": 664.0,
+     "COWARD, Stuart": 1371.0,
+     "HUNT, Jason": 562.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "ELLIS, Raelene",
+    "transfers": {
+     "COWARD, Stuart": 1508.0,
+     "HUNT, Jason": 2820.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "COWARD, Stuart": 15409.0,
+   "HUNT, Jason": 17040.0
+  },
+  "formal_votes": 32449
+ },
+ "Capalaba": {
+  "candidates": [
+   {
+    "candidate_id": "BROWN, Don",
+    "name": "BROWN, Don",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "METZEN, Michael",
+    "name": "METZEN, Michael",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "WINTERS, Marilyn",
+    "name": "WINTERS, Marilyn",
+    "party": "IMOP"
+   },
+   {
+    "candidate_id": "GILMORE, Neal",
+    "name": "GILMORE, Neal",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "CALLIL, Peter Ronald",
+    "name": "CALLIL, Peter Ronald",
+    "party": "CLMP"
+   },
+   {
+    "candidate_id": "WALTERS, Bev",
+    "name": "WALTERS, Bev",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "BRANAGAN, Paul",
+    "name": "BRANAGAN, Paul",
+    "party": "IND*"
+   }
+  ],
+  "first_preferences": {
+   "BROWN, Don": 15160.0,
+   "METZEN, Michael": 2500.0,
+   "WINTERS, Marilyn": 530.0,
+   "GILMORE, Neal": 1631.0,
+   "CALLIL, Peter Ronald": 252.0,
+   "WALTERS, Bev": 9719.0,
+   "BRANAGAN, Paul": 1655.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "CALLIL, Peter Ronald",
+    "transfers": {
+     "BROWN, Don": 34.0,
+     "METZEN, Michael": 40.0,
+     "WINTERS, Marilyn": 45.0,
+     "GILMORE, Neal": 58.0,
+     "WALTERS, Bev": 36.0,
+     "BRANAGAN, Paul": 39.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WINTERS, Marilyn",
+    "transfers": {
+     "BROWN, Don": 91.0,
+     "METZEN, Michael": 132.0,
+     "GILMORE, Neal": 186.0,
+     "WALTERS, Bev": 70.0,
+     "BRANAGAN, Paul": 96.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BRANAGAN, Paul",
+    "transfers": {
+     "BROWN, Don": 426.0,
+     "METZEN, Michael": 313.0,
+     "GILMORE, Neal": 295.0,
+     "WALTERS, Bev": 756.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "GILMORE, Neal",
+    "transfers": {
+     "BROWN, Don": 506.0,
+     "METZEN, Michael": 525.0,
+     "WALTERS, Bev": 1139.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "METZEN, Michael",
+    "transfers": {
+     "BROWN, Don": 2590.0,
+     "WALTERS, Bev": 920.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "BROWN, Don": 18807.0,
+   "WALTERS, Bev": 12640.0
+  },
+  "formal_votes": 31447
+ },
+ "Chatsworth": {
+  "candidates": [
+   {
+    "candidate_id": "CLARKE, Aaron",
+    "name": "CLARKE, Aaron",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "GUY, Madonna",
+    "name": "GUY, Madonna",
+    "party": "IMOP"
+   },
+   {
+    "candidate_id": "O'DONNELL, Lisa",
+    "name": "O'DONNELL, Lisa",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "MINNIKIN, Steve",
+    "name": "MINNIKIN, Steve",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "CROOK, Andrew",
+    "name": "CROOK, Andrew",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "FRY, Kathryn",
+    "name": "FRY, Kathryn",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "CLARKE, Aaron": 965.0,
+   "GUY, Madonna": 362.0,
+   "O'DONNELL, Lisa": 12497.0,
+   "MINNIKIN, Steve": 14614.0,
+   "CROOK, Andrew": 191.0,
+   "FRY, Kathryn": 2941.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "CROOK, Andrew",
+    "transfers": {
+     "CLARKE, Aaron": 76.0,
+     "GUY, Madonna": 12.0,
+     "O'DONNELL, Lisa": 13.0,
+     "MINNIKIN, Steve": 65.0,
+     "FRY, Kathryn": 25.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "GUY, Madonna",
+    "transfers": {
+     "CLARKE, Aaron": 154.0,
+     "O'DONNELL, Lisa": 66.0,
+     "MINNIKIN, Steve": 72.0,
+     "FRY, Kathryn": 82.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "CLARKE, Aaron",
+    "transfers": {
+     "O'DONNELL, Lisa": 337.0,
+     "MINNIKIN, Steve": 670.0,
+     "FRY, Kathryn": 188.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "FRY, Kathryn",
+    "transfers": {
+     "O'DONNELL, Lisa": 2466.0,
+     "MINNIKIN, Steve": 770.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "O'DONNELL, Lisa": 15379.0,
+   "MINNIKIN, Steve": 16191.0
+  },
+  "formal_votes": 31570
+ },
+ "Clayfield": {
+  "candidates": [
+   {
+    "candidate_id": "NICHOLLS, Tim",
+    "name": "NICHOLLS, Tim",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "BARTLETT, Andrew",
+    "name": "BARTLETT, Andrew",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "ANTHONY, Philip",
+    "name": "ANTHONY, Philip",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "MOLONEY, Kathy",
+    "name": "MOLONEY, Kathy",
+    "party": "CLMP"
+   },
+   {
+    "candidate_id": "KING, Robert",
+    "name": "KING, Robert",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "DOUGLAS, Abby",
+    "name": "DOUGLAS, Abby",
+    "party": "ON"
+   }
+  ],
+  "first_preferences": {
+   "NICHOLLS, Tim": 15979.0,
+   "BARTLETT, Andrew": 6132.0,
+   "ANTHONY, Philip": 11157.0,
+   "MOLONEY, Kathy": 254.0,
+   "KING, Robert": 478.0,
+   "DOUGLAS, Abby": 817.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "MOLONEY, Kathy",
+    "transfers": {
+     "NICHOLLS, Tim": 56.0,
+     "BARTLETT, Andrew": 44.0,
+     "ANTHONY, Philip": 35.0,
+     "KING, Robert": 65.0,
+     "DOUGLAS, Abby": 54.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "KING, Robert",
+    "transfers": {
+     "NICHOLLS, Tim": 182.0,
+     "BARTLETT, Andrew": 135.0,
+     "ANTHONY, Philip": 121.0,
+     "DOUGLAS, Abby": 105.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "DOUGLAS, Abby",
+    "transfers": {
+     "NICHOLLS, Tim": 576.0,
+     "BARTLETT, Andrew": 166.0,
+     "ANTHONY, Philip": 234.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BARTLETT, Andrew",
+    "transfers": {
+     "NICHOLLS, Tim": 1156.0,
+     "ANTHONY, Philip": 5321.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "NICHOLLS, Tim": 17949.0,
+   "ANTHONY, Philip": 16868.0
+  },
+  "formal_votes": 34817
+ },
+ "Condamine": {
+  "candidates": [
+   {
+    "candidate_id": "WOMERSLEY, Sean",
+    "name": "WOMERSLEY, Sean",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "PRIEBE, Greg",
+    "name": "PRIEBE, Greg",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "WEIR, Pat",
+    "name": "WEIR, Pat",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "HUYBREGTS, Brendon",
+    "name": "HUYBREGTS, Brendon",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "HARRIS, Nui",
+    "name": "HARRIS, Nui",
+    "party": "UAP"
+   }
+  ],
+  "first_preferences": {
+   "WOMERSLEY, Sean": 1659.0,
+   "PRIEBE, Greg": 5286.0,
+   "WEIR, Pat": 18466.0,
+   "HUYBREGTS, Brendon": 7775.0,
+   "HARRIS, Nui": 595.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "HARRIS, Nui",
+    "transfers": {
+     "WOMERSLEY, Sean": 63.0,
+     "PRIEBE, Greg": 256.0,
+     "WEIR, Pat": 144.0,
+     "HUYBREGTS, Brendon": 132.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WOMERSLEY, Sean",
+    "transfers": {
+     "PRIEBE, Greg": 406.0,
+     "WEIR, Pat": 395.0,
+     "HUYBREGTS, Brendon": 921.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "PRIEBE, Greg",
+    "transfers": {
+     "WEIR, Pat": 4371.0,
+     "HUYBREGTS, Brendon": 1577.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "WEIR, Pat": 23376.0,
+   "HUYBREGTS, Brendon": 10405.0
+  },
+  "formal_votes": 33781
+ },
+ "Cook": {
+  "candidates": [
+   {
+    "candidate_id": "BATZKE, Yodie",
+    "name": "BATZKE, Yodie",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "BROWN, Ed (Nipper)",
+    "name": "BROWN, Ed (Nipper)",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "TAYLEY, Desmond",
+    "name": "TAYLEY, Desmond",
+    "party": "NQF"
+   },
+   {
+    "candidate_id": "NEAL, Brett (Beaver)",
+    "name": "NEAL, Brett (Beaver)",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "RUDDELL, Deby",
+    "name": "RUDDELL, Deby",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "PARKER, Tanika",
+    "name": "PARKER, Tanika",
+    "party": "KAP"
+   },
+   {
+    "candidate_id": "LUI, Cynthia",
+    "name": "LUI, Cynthia",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "GOULMY, Stephen",
+    "name": "GOULMY, Stephen",
+    "party": "UAP"
+   }
+  ],
+  "first_preferences": {
+   "BATZKE, Yodie": 1000.0,
+   "BROWN, Ed (Nipper)": 6241.0,
+   "TAYLEY, Desmond": 624.0,
+   "NEAL, Brett (Beaver)": 1717.0,
+   "RUDDELL, Deby": 1306.0,
+   "PARKER, Tanika": 4458.0,
+   "LUI, Cynthia": 10363.0,
+   "GOULMY, Stephen": 184.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "GOULMY, Stephen",
+    "transfers": {
+     "BATZKE, Yodie": 20.0,
+     "BROWN, Ed (Nipper)": 27.0,
+     "TAYLEY, Desmond": 6.0,
+     "NEAL, Brett (Beaver)": 41.0,
+     "RUDDELL, Deby": 12.0,
+     "PARKER, Tanika": 31.0,
+     "LUI, Cynthia": 47.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "TAYLEY, Desmond",
+    "transfers": {
+     "BATZKE, Yodie": 80.0,
+     "BROWN, Ed (Nipper)": 118.0,
+     "NEAL, Brett (Beaver)": 59.0,
+     "RUDDELL, Deby": 42.0,
+     "PARKER, Tanika": 164.0,
+     "LUI, Cynthia": 167.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BATZKE, Yodie",
+    "transfers": {
+     "BROWN, Ed (Nipper)": 498.0,
+     "NEAL, Brett (Beaver)": 101.0,
+     "RUDDELL, Deby": 124.0,
+     "PARKER, Tanika": 131.0,
+     "LUI, Cynthia": 246.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "RUDDELL, Deby",
+    "transfers": {
+     "BROWN, Ed (Nipper)": 198.0,
+     "NEAL, Brett (Beaver)": 129.0,
+     "PARKER, Tanika": 201.0,
+     "LUI, Cynthia": 956.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "NEAL, Brett (Beaver)",
+    "transfers": {
+     "BROWN, Ed (Nipper)": 691.0,
+     "PARKER, Tanika": 1054.0,
+     "LUI, Cynthia": 302.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "PARKER, Tanika",
+    "transfers": {
+     "BROWN, Ed (Nipper)": 3553.0,
+     "LUI, Cynthia": 2486.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "BROWN, Ed (Nipper)": 11326.0,
+   "LUI, Cynthia": 14567.0
+  },
+  "formal_votes": 25893
+ },
+ "Coomera": {
+  "candidates": [
+   {
+    "candidate_id": "GAVRANICH, Lissy",
+    "name": "GAVRANICH, Lissy",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "JOHNSON, Chris",
+    "name": "JOHNSON, Chris",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "GALLAGHER, Heath",
+    "name": "GALLAGHER, Heath",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "D'MONTFORD, She",
+    "name": "D'MONTFORD, She",
+    "party": "IMOP"
+   },
+   {
+    "candidate_id": "CRANDON, Michael",
+    "name": "CRANDON, Michael",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "PROUT, Darryl",
+    "name": "PROUT, Darryl",
+    "party": "AJP"
+   },
+   {
+    "candidate_id": "BOURBON, Kris",
+    "name": "BOURBON, Kris",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "WILKINSON, Tabita",
+    "name": "WILKINSON, Tabita",
+    "party": "ON"
+   }
+  ],
+  "first_preferences": {
+   "GAVRANICH, Lissy": 3015.0,
+   "JOHNSON, Chris": 13310.0,
+   "GALLAGHER, Heath": 618.0,
+   "D'MONTFORD, She": 481.0,
+   "CRANDON, Michael": 14655.0,
+   "PROUT, Darryl": 977.0,
+   "BOURBON, Kris": 558.0,
+   "WILKINSON, Tabita": 3051.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "D'MONTFORD, She",
+    "transfers": {
+     "GAVRANICH, Lissy": 59.0,
+     "JOHNSON, Chris": 56.0,
+     "GALLAGHER, Heath": 45.0,
+     "CRANDON, Michael": 58.0,
+     "PROUT, Darryl": 107.0,
+     "BOURBON, Kris": 32.0,
+     "WILKINSON, Tabita": 124.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BOURBON, Kris",
+    "transfers": {
+     "GAVRANICH, Lissy": 80.0,
+     "JOHNSON, Chris": 113.0,
+     "GALLAGHER, Heath": 21.0,
+     "CRANDON, Michael": 98.0,
+     "PROUT, Darryl": 130.0,
+     "WILKINSON, Tabita": 148.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "GALLAGHER, Heath",
+    "transfers": {
+     "GAVRANICH, Lissy": 79.0,
+     "JOHNSON, Chris": 132.0,
+     "CRANDON, Michael": 191.0,
+     "PROUT, Darryl": 59.0,
+     "WILKINSON, Tabita": 223.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "PROUT, Darryl",
+    "transfers": {
+     "GAVRANICH, Lissy": 557.0,
+     "JOHNSON, Chris": 233.0,
+     "CRANDON, Michael": 203.0,
+     "WILKINSON, Tabita": 280.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "GAVRANICH, Lissy",
+    "transfers": {
+     "JOHNSON, Chris": 2586.0,
+     "CRANDON, Michael": 700.0,
+     "WILKINSON, Tabita": 504.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WILKINSON, Tabita",
+    "transfers": {
+     "JOHNSON, Chris": 1508.0,
+     "CRANDON, Michael": 2822.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "JOHNSON, Chris": 17938.0,
+   "CRANDON, Michael": 18727.0
+  },
+  "formal_votes": 36665
+ },
+ "Cooper": {
+  "candidates": [
+   {
+    "candidate_id": "WILTSHIRE, Robert",
+    "name": "WILTSHIRE, Robert",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "VENTNOR, Susan",
+    "name": "VENTNOR, Susan",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "WINSTON-ALLOM, Katinka",
+    "name": "WINSTON-ALLOM, Katinka",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "WISEMAN, Trent",
+    "name": "WISEMAN, Trent",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "BUSH, Jonty",
+    "name": "BUSH, Jonty",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "WILTSHIRE, Robert": 366.0,
+   "VENTNOR, Susan": 587.0,
+   "WINSTON-ALLOM, Katinka": 10000.0,
+   "WISEMAN, Trent": 11285.0,
+   "BUSH, Jonty": 11509.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "WILTSHIRE, Robert",
+    "transfers": {
+     "VENTNOR, Susan": 118.0,
+     "WINSTON-ALLOM, Katinka": 104.0,
+     "WISEMAN, Trent": 80.0,
+     "BUSH, Jonty": 64.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "VENTNOR, Susan",
+    "transfers": {
+     "WINSTON-ALLOM, Katinka": 197.0,
+     "WISEMAN, Trent": 413.0,
+     "BUSH, Jonty": 95.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WINSTON-ALLOM, Katinka",
+    "transfers": {
+     "WISEMAN, Trent": 1555.0,
+     "BUSH, Jonty": 8746.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "WISEMAN, Trent": 13333.0,
+   "BUSH, Jonty": 20414.0
+  },
+  "formal_votes": 33747
+ },
+ "Currumbin": {
+  "candidates": [
+   {
+    "candidate_id": "TAKACS-THORNE, Tracy",
+    "name": "TAKACS-THORNE, Tracy",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "STUCKEY, Richard",
+    "name": "STUCKEY, Richard",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "BURGOYNE, Peter",
+    "name": "BURGOYNE, Peter",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "CAMPRADT, Kaylee",
+    "name": "CAMPRADT, Kaylee",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "GERBER, Laura",
+    "name": "GERBER, Laura",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "WADSWORTH, Glen",
+    "name": "WADSWORTH, Glen",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "PALMER, Anna",
+    "name": "PALMER, Anna",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "LOGAN, Ian",
+    "name": "LOGAN, Ian",
+    "party": "IND*"
+   }
+  ],
+  "first_preferences": {
+   "TAKACS-THORNE, Tracy": 1048.0,
+   "STUCKEY, Richard": 1681.0,
+   "BURGOYNE, Peter": 2933.0,
+   "CAMPRADT, Kaylee": 10317.0,
+   "GERBER, Laura": 11957.0,
+   "WADSWORTH, Glen": 1193.0,
+   "PALMER, Anna": 460.0,
+   "LOGAN, Ian": 127.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "LOGAN, Ian",
+    "transfers": {
+     "TAKACS-THORNE, Tracy": 23.0,
+     "STUCKEY, Richard": 23.0,
+     "BURGOYNE, Peter": 15.0,
+     "CAMPRADT, Kaylee": 10.0,
+     "GERBER, Laura": 19.0,
+     "WADSWORTH, Glen": 7.0,
+     "PALMER, Anna": 30.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "PALMER, Anna",
+    "transfers": {
+     "TAKACS-THORNE, Tracy": 36.0,
+     "STUCKEY, Richard": 42.0,
+     "BURGOYNE, Peter": 37.0,
+     "CAMPRADT, Kaylee": 32.0,
+     "GERBER, Laura": 178.0,
+     "WADSWORTH, Glen": 165.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "TAKACS-THORNE, Tracy",
+    "transfers": {
+     "STUCKEY, Richard": 308.0,
+     "BURGOYNE, Peter": 116.0,
+     "CAMPRADT, Kaylee": 93.0,
+     "GERBER, Laura": 128.0,
+     "WADSWORTH, Glen": 462.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WADSWORTH, Glen",
+    "transfers": {
+     "STUCKEY, Richard": 518.0,
+     "BURGOYNE, Peter": 160.0,
+     "CAMPRADT, Kaylee": 251.0,
+     "GERBER, Laura": 898.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "STUCKEY, Richard",
+    "transfers": {
+     "BURGOYNE, Peter": 752.0,
+     "CAMPRADT, Kaylee": 1023.0,
+     "GERBER, Laura": 797.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BURGOYNE, Peter",
+    "transfers": {
+     "CAMPRADT, Kaylee": 2977.0,
+     "GERBER, Laura": 1036.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "CAMPRADT, Kaylee": 14703.0,
+   "GERBER, Laura": 15013.0
+  },
+  "formal_votes": 29716
+ },
+ "Everton": {
+  "candidates": [
+   {
+    "candidate_id": "JOHNSON, Mal",
+    "name": "JOHNSON, Mal",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "JORDAN, Frank",
+    "name": "JORDAN, Frank",
+    "party": "LCQP"
+   },
+   {
+    "candidate_id": "DISSANAYAKE, Joanne",
+    "name": "DISSANAYAKE, Joanne",
+    "party": "IMOP"
+   },
+   {
+    "candidate_id": "MANDER, Tim",
+    "name": "MANDER, Tim",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "SHANKEY, Danielle",
+    "name": "SHANKEY, Danielle",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "WELLS, Jabez",
+    "name": "WELLS, Jabez",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "RATH, Helen",
+    "name": "RATH, Helen",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "RUSS, Simon",
+    "name": "RUSS, Simon",
+    "party": "UAP"
+   }
+  ],
+  "first_preferences": {
+   "JOHNSON, Mal": 1051.0,
+   "JORDAN, Frank": 871.0,
+   "DISSANAYAKE, Joanne": 264.0,
+   "MANDER, Tim": 15455.0,
+   "SHANKEY, Danielle": 12755.0,
+   "WELLS, Jabez": 105.0,
+   "RATH, Helen": 3098.0,
+   "RUSS, Simon": 152.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "WELLS, Jabez",
+    "transfers": {
+     "JOHNSON, Mal": 10.0,
+     "JORDAN, Frank": 16.0,
+     "DISSANAYAKE, Joanne": 9.0,
+     "MANDER, Tim": 15.0,
+     "SHANKEY, Danielle": 23.0,
+     "RATH, Helen": 21.0,
+     "RUSS, Simon": 11.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "RUSS, Simon",
+    "transfers": {
+     "JOHNSON, Mal": 47.0,
+     "JORDAN, Frank": 14.0,
+     "DISSANAYAKE, Joanne": 13.0,
+     "MANDER, Tim": 37.0,
+     "SHANKEY, Danielle": 15.0,
+     "RATH, Helen": 37.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "DISSANAYAKE, Joanne",
+    "transfers": {
+     "JOHNSON, Mal": 58.0,
+     "JORDAN, Frank": 94.0,
+     "MANDER, Tim": 45.0,
+     "SHANKEY, Danielle": 42.0,
+     "RATH, Helen": 47.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "JORDAN, Frank",
+    "transfers": {
+     "JOHNSON, Mal": 219.0,
+     "MANDER, Tim": 194.0,
+     "SHANKEY, Danielle": 244.0,
+     "RATH, Helen": 338.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "JOHNSON, Mal",
+    "transfers": {
+     "MANDER, Tim": 848.0,
+     "SHANKEY, Danielle": 313.0,
+     "RATH, Helen": 224.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "RATH, Helen",
+    "transfers": {
+     "MANDER, Tim": 1036.0,
+     "SHANKEY, Danielle": 2729.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "MANDER, Tim": 17630.0,
+   "SHANKEY, Danielle": 16121.0
+  },
+  "formal_votes": 33751
+ },
+ "Ferny Grove": {
+  "candidates": [
+   {
+    "candidate_id": "PINI, Susan",
+    "name": "PINI, Susan",
+    "party": "IMOP"
+   },
+   {
+    "candidate_id": "MCCABE, John",
+    "name": "MCCABE, John",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "SCOFIELD, Mark",
+    "name": "SCOFIELD, Mark",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "FURNER, Mark",
+    "name": "FURNER, Mark",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "WILLIAMS, Elton",
+    "name": "WILLIAMS, Elton",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "COLLS, Joel",
+    "name": "COLLS, Joel",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "LEHMANN, Chris",
+    "name": "LEHMANN, Chris",
+    "party": "LNP"
+   }
+  ],
+  "first_preferences": {
+   "PINI, Susan": 510.0,
+   "MCCABE, John": 191.0,
+   "SCOFIELD, Mark": 467.0,
+   "FURNER, Mark": 14577.0,
+   "WILLIAMS, Elton": 956.0,
+   "COLLS, Joel": 4910.0,
+   "LEHMANN, Chris": 10714.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "MCCABE, John",
+    "transfers": {
+     "PINI, Susan": 35.0,
+     "SCOFIELD, Mark": 16.0,
+     "FURNER, Mark": 34.0,
+     "WILLIAMS, Elton": 48.0,
+     "COLLS, Joel": 18.0,
+     "LEHMANN, Chris": 40.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SCOFIELD, Mark",
+    "transfers": {
+     "PINI, Susan": 90.0,
+     "FURNER, Mark": 111.0,
+     "WILLIAMS, Elton": 98.0,
+     "COLLS, Joel": 84.0,
+     "LEHMANN, Chris": 100.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "PINI, Susan",
+    "transfers": {
+     "FURNER, Mark": 201.0,
+     "WILLIAMS, Elton": 181.0,
+     "COLLS, Joel": 152.0,
+     "LEHMANN, Chris": 101.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WILLIAMS, Elton",
+    "transfers": {
+     "FURNER, Mark": 334.0,
+     "COLLS, Joel": 235.0,
+     "LEHMANN, Chris": 714.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "COLLS, Joel",
+    "transfers": {
+     "FURNER, Mark": 4453.0,
+     "LEHMANN, Chris": 946.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "FURNER, Mark": 19710.0,
+   "LEHMANN, Chris": 12615.0
+  },
+  "formal_votes": 32325
+ },
+ "Gaven": {
+  "candidates": [
+   {
+    "candidate_id": "SEWELL, Sharon",
+    "name": "SEWELL, Sharon",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "SCANLON, Meaghan",
+    "name": "SCANLON, Meaghan",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "LUYKEN, Suzette",
+    "name": "LUYKEN, Suzette",
+    "party": "LCQP"
+   },
+   {
+    "candidate_id": "DRAKE, Reyna",
+    "name": "DRAKE, Reyna",
+    "party": "CLMP"
+   },
+   {
+    "candidate_id": "BECK, Garry",
+    "name": "BECK, Garry",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "JACKSON, Kirsten",
+    "name": "JACKSON, Kirsten",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "SPAIN, Sally",
+    "name": "SPAIN, Sally",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "SEWELL, Sharon": 2239.0,
+   "SCANLON, Meaghan": 12932.0,
+   "LUYKEN, Suzette": 1065.0,
+   "DRAKE, Reyna": 192.0,
+   "BECK, Garry": 292.0,
+   "JACKSON, Kirsten": 9021.0,
+   "SPAIN, Sally": 1503.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "DRAKE, Reyna",
+    "transfers": {
+     "SEWELL, Sharon": 31.0,
+     "SCANLON, Meaghan": 19.0,
+     "LUYKEN, Suzette": 71.0,
+     "BECK, Garry": 31.0,
+     "JACKSON, Kirsten": 16.0,
+     "SPAIN, Sally": 24.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BECK, Garry",
+    "transfers": {
+     "SEWELL, Sharon": 116.0,
+     "SCANLON, Meaghan": 30.0,
+     "LUYKEN, Suzette": 47.0,
+     "JACKSON, Kirsten": 102.0,
+     "SPAIN, Sally": 28.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "LUYKEN, Suzette",
+    "transfers": {
+     "SEWELL, Sharon": 297.0,
+     "SCANLON, Meaghan": 341.0,
+     "JACKSON, Kirsten": 168.0,
+     "SPAIN, Sally": 377.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SPAIN, Sally",
+    "transfers": {
+     "SEWELL, Sharon": 318.0,
+     "SCANLON, Meaghan": 1185.0,
+     "JACKSON, Kirsten": 429.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SEWELL, Sharon",
+    "transfers": {
+     "SCANLON, Meaghan": 1227.0,
+     "JACKSON, Kirsten": 1774.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "SCANLON, Meaghan": 15734.0,
+   "JACKSON, Kirsten": 11510.0
+  },
+  "formal_votes": 27244
+ },
+ "Gladstone": {
+  "candidates": [
+   {
+    "candidate_id": "PETERSON, Murray",
+    "name": "PETERSON, Murray",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "JORGENSEN, Kevin",
+    "name": "JORGENSEN, Kevin",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "HARDING, Ron",
+    "name": "HARDING, Ron",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "BUTCHER, Glenn",
+    "name": "BUTCHER, Glenn",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "EASTAUGHFFE, Emma",
+    "name": "EASTAUGHFFE, Emma",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "PETERSON, Murray": 1162.0,
+   "JORGENSEN, Kevin": 3677.0,
+   "HARDING, Ron": 4339.0,
+   "BUTCHER, Glenn": 18429.0,
+   "EASTAUGHFFE, Emma": 1011.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "EASTAUGHFFE, Emma",
+    "transfers": {
+     "PETERSON, Murray": 191.0,
+     "JORGENSEN, Kevin": 111.0,
+     "HARDING, Ron": 91.0,
+     "BUTCHER, Glenn": 618.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "PETERSON, Murray",
+    "transfers": {
+     "JORGENSEN, Kevin": 689.0,
+     "HARDING, Ron": 326.0,
+     "BUTCHER, Glenn": 338.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "JORGENSEN, Kevin",
+    "transfers": {
+     "HARDING, Ron": 2832.0,
+     "BUTCHER, Glenn": 1645.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "HARDING, Ron": 7588.0,
+   "BUTCHER, Glenn": 21030.0
+  },
+  "formal_votes": 28618
+ },
+ "Glass House": {
+  "candidates": [
+   {
+    "candidate_id": "CAMPBELL, Graeme",
+    "name": "CAMPBELL, Graeme",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "MCDONALD, James",
+    "name": "MCDONALD, James",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "HAMPSTEAD, Brent",
+    "name": "HAMPSTEAD, Brent",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "MCLEAN, Andrew",
+    "name": "MCLEAN, Andrew",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "POWELL, Andrew",
+    "name": "POWELL, Andrew",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "MCCOY, Laressa",
+    "name": "MCCOY, Laressa",
+    "party": "IMOP"
+   }
+  ],
+  "first_preferences": {
+   "CAMPBELL, Graeme": 3134.0,
+   "MCDONALD, James": 343.0,
+   "HAMPSTEAD, Brent": 9753.0,
+   "MCLEAN, Andrew": 3937.0,
+   "POWELL, Andrew": 12265.0,
+   "MCCOY, Laressa": 1015.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "MCDONALD, James",
+    "transfers": {
+     "CAMPBELL, Graeme": 197.0,
+     "HAMPSTEAD, Brent": 39.0,
+     "MCLEAN, Andrew": 30.0,
+     "POWELL, Andrew": 53.0,
+     "MCCOY, Laressa": 24.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MCCOY, Laressa",
+    "transfers": {
+     "CAMPBELL, Graeme": 436.0,
+     "HAMPSTEAD, Brent": 110.0,
+     "MCLEAN, Andrew": 334.0,
+     "POWELL, Andrew": 159.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "CAMPBELL, Graeme",
+    "transfers": {
+     "HAMPSTEAD, Brent": 1049.0,
+     "MCLEAN, Andrew": 705.0,
+     "POWELL, Andrew": 2013.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MCLEAN, Andrew",
+    "transfers": {
+     "HAMPSTEAD, Brent": 3790.0,
+     "POWELL, Andrew": 1216.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "HAMPSTEAD, Brent": 14741.0,
+   "POWELL, Andrew": 15706.0
+  },
+  "formal_votes": 30447
+ },
+ "Greenslopes": {
+  "candidates": [
+   {
+    "candidate_id": "BOOKER, John",
+    "name": "BOOKER, John",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "KELLY, Joe",
+    "name": "KELLY, Joe",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "HUML, Victor",
+    "name": "HUML, Victor",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "NEWBOLD, Andrew",
+    "name": "NEWBOLD, Andrew",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "MELHOP, Jasmine (Jazzy)",
+    "name": "MELHOP, Jasmine (Jazzy)",
+    "party": "IMOP"
+   }
+  ],
+  "first_preferences": {
+   "BOOKER, John": 805.0,
+   "KELLY, Joe": 13426.0,
+   "HUML, Victor": 7609.0,
+   "NEWBOLD, Andrew": 10238.0,
+   "MELHOP, Jasmine (Jazzy)": 403.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "MELHOP, Jasmine (Jazzy)",
+    "transfers": {
+     "BOOKER, John": 127.0,
+     "KELLY, Joe": 58.0,
+     "HUML, Victor": 149.0,
+     "NEWBOLD, Andrew": 69.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BOOKER, John",
+    "transfers": {
+     "KELLY, Joe": 233.0,
+     "HUML, Victor": 221.0,
+     "NEWBOLD, Andrew": 478.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HUML, Victor",
+    "transfers": {
+     "KELLY, Joe": 6812.0,
+     "NEWBOLD, Andrew": 1167.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "KELLY, Joe": 20529.0,
+   "NEWBOLD, Andrew": 11952.0
+  },
+  "formal_votes": 32481
+ },
+ "Gregory": {
+  "candidates": [
+   {
+    "candidate_id": "BAMBRICK, Paul",
+    "name": "BAMBRICK, Paul",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "MILLAR, Lachlan",
+    "name": "MILLAR, Lachlan",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "TURNER, Thomas",
+    "name": "TURNER, Thomas",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "KIARA, Tania",
+    "name": "KIARA, Tania",
+    "party": "IMOP"
+   },
+   {
+    "candidate_id": "KERRIGAN, Dave",
+    "name": "KERRIGAN, Dave",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "CURRIE, Bruce",
+    "name": "CURRIE, Bruce",
+    "party": "CLMP"
+   },
+   {
+    "candidate_id": "ROTHERY, Clint",
+    "name": "ROTHERY, Clint",
+    "party": "ON"
+   }
+  ],
+  "first_preferences": {
+   "BAMBRICK, Paul": 580.0,
+   "MILLAR, Lachlan": 11197.0,
+   "TURNER, Thomas": 288.0,
+   "KIARA, Tania": 256.0,
+   "KERRIGAN, Dave": 5121.0,
+   "CURRIE, Bruce": 370.0,
+   "ROTHERY, Clint": 2861.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "KIARA, Tania",
+    "transfers": {
+     "BAMBRICK, Paul": 34.0,
+     "MILLAR, Lachlan": 62.0,
+     "TURNER, Thomas": 23.0,
+     "KERRIGAN, Dave": 40.0,
+     "CURRIE, Bruce": 54.0,
+     "ROTHERY, Clint": 43.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "TURNER, Thomas",
+    "transfers": {
+     "BAMBRICK, Paul": 39.0,
+     "MILLAR, Lachlan": 88.0,
+     "KERRIGAN, Dave": 43.0,
+     "CURRIE, Bruce": 27.0,
+     "ROTHERY, Clint": 114.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "CURRIE, Bruce",
+    "transfers": {
+     "BAMBRICK, Paul": 68.0,
+     "MILLAR, Lachlan": 98.0,
+     "KERRIGAN, Dave": 96.0,
+     "ROTHERY, Clint": 189.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BAMBRICK, Paul",
+    "transfers": {
+     "MILLAR, Lachlan": 296.0,
+     "KERRIGAN, Dave": 307.0,
+     "ROTHERY, Clint": 118.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "ROTHERY, Clint",
+    "transfers": {
+     "MILLAR, Lachlan": 2161.0,
+     "KERRIGAN, Dave": 1164.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "MILLAR, Lachlan": 13902.0,
+   "KERRIGAN, Dave": 6771.0
+  },
+  "formal_votes": 20673
+ },
+ "Gympie": {
+  "candidates": [
+   {
+    "candidate_id": "MAERTENS, Roland",
+    "name": "MAERTENS, Roland",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "PERRETT, Tony",
+    "name": "PERRETT, Tony",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "JEROME, Tim",
+    "name": "JEROME, Tim",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "REARDON, Donna",
+    "name": "REARDON, Donna",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "BLAXLAND, Michael",
+    "name": "BLAXLAND, Michael",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "FAIRBAIRN, Nicholas",
+    "name": "FAIRBAIRN, Nicholas",
+    "party": "IMOP"
+   },
+   {
+    "candidate_id": "GRANGER-BROWN, Lauren",
+    "name": "GRANGER-BROWN, Lauren",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "WILLIAMS, Geoff",
+    "name": "WILLIAMS, Geoff",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "MAERTENS, Roland": 457.0,
+   "PERRETT, Tony": 14071.0,
+   "JEROME, Tim": 1709.0,
+   "REARDON, Donna": 636.0,
+   "BLAXLAND, Michael": 4172.0,
+   "FAIRBAIRN, Nicholas": 566.0,
+   "GRANGER-BROWN, Lauren": 2060.0,
+   "WILLIAMS, Geoff": 9501.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "MAERTENS, Roland",
+    "transfers": {
+     "PERRETT, Tony": 215.0,
+     "JEROME, Tim": 105.0,
+     "REARDON, Donna": 49.0,
+     "BLAXLAND, Michael": 26.0,
+     "FAIRBAIRN, Nicholas": 10.0,
+     "GRANGER-BROWN, Lauren": 15.0,
+     "WILLIAMS, Geoff": 37.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "FAIRBAIRN, Nicholas",
+    "transfers": {
+     "PERRETT, Tony": 60.0,
+     "JEROME, Tim": 137.0,
+     "REARDON, Donna": 62.0,
+     "BLAXLAND, Michael": 154.0,
+     "GRANGER-BROWN, Lauren": 93.0,
+     "WILLIAMS, Geoff": 70.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "REARDON, Donna",
+    "transfers": {
+     "PERRETT, Tony": 165.0,
+     "JEROME, Tim": 228.0,
+     "BLAXLAND, Michael": 100.0,
+     "GRANGER-BROWN, Lauren": 126.0,
+     "WILLIAMS, Geoff": 128.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "JEROME, Tim",
+    "transfers": {
+     "PERRETT, Tony": 736.0,
+     "BLAXLAND, Michael": 735.0,
+     "GRANGER-BROWN, Lauren": 353.0,
+     "WILLIAMS, Geoff": 355.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "GRANGER-BROWN, Lauren",
+    "transfers": {
+     "PERRETT, Tony": 508.0,
+     "BLAXLAND, Michael": 393.0,
+     "WILLIAMS, Geoff": 1746.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BLAXLAND, Michael",
+    "transfers": {
+     "PERRETT, Tony": 3647.0,
+     "WILLIAMS, Geoff": 1933.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "PERRETT, Tony": 19402.0,
+   "WILLIAMS, Geoff": 13770.0
+  },
+  "formal_votes": 33172
+ },
+ "Hervey Bay": {
+  "candidates": [
+   {
+    "candidate_id": "COLEMAN, Steve",
+    "name": "COLEMAN, Steve",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "HUXHAM, Damian",
+    "name": "HUXHAM, Damian",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "TANTARI, Adrian",
+    "name": "TANTARI, Adrian",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "BYRNES, Amy",
+    "name": "BYRNES, Amy",
+    "party": "AJP"
+   },
+   {
+    "candidate_id": "GERDSEN, Sonja",
+    "name": "GERDSEN, Sonja",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "TAYLOR, Stuart",
+    "name": "TAYLOR, Stuart",
+    "party": "IND*"
+   }
+  ],
+  "first_preferences": {
+   "COLEMAN, Steve": 11637.0,
+   "HUXHAM, Damian": 3773.0,
+   "TANTARI, Adrian": 13382.0,
+   "BYRNES, Amy": 1024.0,
+   "GERDSEN, Sonja": 1061.0,
+   "TAYLOR, Stuart": 3001.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "BYRNES, Amy",
+    "transfers": {
+     "COLEMAN, Steve": 132.0,
+     "HUXHAM, Damian": 158.0,
+     "TANTARI, Adrian": 175.0,
+     "GERDSEN, Sonja": 401.0,
+     "TAYLOR, Stuart": 158.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "GERDSEN, Sonja",
+    "transfers": {
+     "COLEMAN, Steve": 159.0,
+     "HUXHAM, Damian": 154.0,
+     "TANTARI, Adrian": 690.0,
+     "TAYLOR, Stuart": 459.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "TAYLOR, Stuart",
+    "transfers": {
+     "COLEMAN, Steve": 1137.0,
+     "HUXHAM, Damian": 723.0,
+     "TANTARI, Adrian": 1758.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HUXHAM, Damian",
+    "transfers": {
+     "COLEMAN, Steve": 3188.0,
+     "TANTARI, Adrian": 1620.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "COLEMAN, Steve": 16253.0,
+   "TANTARI, Adrian": 17625.0
+  },
+  "formal_votes": 33878
+ },
+ "Hill": {
+  "candidates": [
+   {
+    "candidate_id": "GAROZZO, Tara",
+    "name": "GAROZZO, Tara",
+    "party": "IMOP"
+   },
+   {
+    "candidate_id": "CAMPION, Peter",
+    "name": "CAMPION, Peter",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "KNUTH, Shane",
+    "name": "KNUTH, Shane",
+    "party": "KAP"
+   },
+   {
+    "candidate_id": "CUDA, Nick",
+    "name": "CUDA, Nick",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "TUXFORD, Chester Gordon",
+    "name": "TUXFORD, Chester Gordon",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "HODGKINS, Michael",
+    "name": "HODGKINS, Michael",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "COX, Jennifer",
+    "name": "COX, Jennifer",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "GAROZZO, Tara": 850.0,
+   "CAMPION, Peter": 414.0,
+   "KNUTH, Shane": 16970.0,
+   "CUDA, Nick": 5466.0,
+   "TUXFORD, Chester Gordon": 114.0,
+   "HODGKINS, Michael": 6354.0,
+   "COX, Jennifer": 2083.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "TUXFORD, Chester Gordon",
+    "transfers": {
+     "GAROZZO, Tara": 15.0,
+     "CAMPION, Peter": 22.0,
+     "KNUTH, Shane": 33.0,
+     "CUDA, Nick": 17.0,
+     "HODGKINS, Michael": 17.0,
+     "COX, Jennifer": 10.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "CAMPION, Peter",
+    "transfers": {
+     "GAROZZO, Tara": 95.0,
+     "KNUTH, Shane": 163.0,
+     "CUDA, Nick": 111.0,
+     "HODGKINS, Michael": 32.0,
+     "COX, Jennifer": 35.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "GAROZZO, Tara",
+    "transfers": {
+     "KNUTH, Shane": 551.0,
+     "CUDA, Nick": 122.0,
+     "HODGKINS, Michael": 90.0,
+     "COX, Jennifer": 197.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "COX, Jennifer",
+    "transfers": {
+     "KNUTH, Shane": 518.0,
+     "CUDA, Nick": 219.0,
+     "HODGKINS, Michael": 1588.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "CUDA, Nick",
+    "transfers": {
+     "KNUTH, Shane": 5163.0,
+     "HODGKINS, Michael": 772.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "KNUTH, Shane": 23398.0,
+   "HODGKINS, Michael": 8853.0
+  },
+  "formal_votes": 32251
+ },
+ "Hinchinbrook": {
+  "candidates": [
+   {
+    "candidate_id": "SULLIVAN, Michael",
+    "name": "SULLIVAN, Michael",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "MEWING, Carolyn",
+    "name": "MEWING, Carolyn",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "MASON, Aurelio",
+    "name": "MASON, Aurelio",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "SACKLEY, Jen",
+    "name": "SACKLEY, Jen",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "PIPER, Scott",
+    "name": "PIPER, Scott",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "JACOB, Paul",
+    "name": "JACOB, Paul",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "DAMETTO, Nick",
+    "name": "DAMETTO, Nick",
+    "party": "KAP"
+   }
+  ],
+  "first_preferences": {
+   "SULLIVAN, Michael": 2097.0,
+   "MEWING, Carolyn": 1010.0,
+   "MASON, Aurelio": 393.0,
+   "SACKLEY, Jen": 351.0,
+   "PIPER, Scott": 7342.0,
+   "JACOB, Paul": 5723.0,
+   "DAMETTO, Nick": 12522.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "SACKLEY, Jen",
+    "transfers": {
+     "SULLIVAN, Michael": 59.0,
+     "MEWING, Carolyn": 57.0,
+     "MASON, Aurelio": 43.0,
+     "PIPER, Scott": 71.0,
+     "JACOB, Paul": 38.0,
+     "DAMETTO, Nick": 83.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MASON, Aurelio",
+    "transfers": {
+     "SULLIVAN, Michael": 149.0,
+     "MEWING, Carolyn": 48.0,
+     "PIPER, Scott": 101.0,
+     "JACOB, Paul": 29.0,
+     "DAMETTO, Nick": 109.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MEWING, Carolyn",
+    "transfers": {
+     "SULLIVAN, Michael": 156.0,
+     "PIPER, Scott": 193.0,
+     "JACOB, Paul": 594.0,
+     "DAMETTO, Nick": 172.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SULLIVAN, Michael",
+    "transfers": {
+     "PIPER, Scott": 778.0,
+     "JACOB, Paul": 350.0,
+     "DAMETTO, Nick": 1333.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "JACOB, Paul",
+    "transfers": {
+     "PIPER, Scott": 1889.0,
+     "DAMETTO, Nick": 4845.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "PIPER, Scott": 10374.0,
+   "DAMETTO, Nick": 19064.0
+  },
+  "formal_votes": 29438
+ },
+ "Inala": {
+  "candidates": [
+   {
+    "candidate_id": "REID, Scott",
+    "name": "REID, Scott",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "MURPHY, Peter",
+    "name": "MURPHY, Peter",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "PALASZCZUK, Annastacia",
+    "name": "PALASZCZUK, Annastacia",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "QUINLAN, Nigel",
+    "name": "QUINLAN, Nigel",
+    "party": "LCQP"
+   },
+   {
+    "candidate_id": "JONES, Terry",
+    "name": "JONES, Terry",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "VIDAL, Michael",
+    "name": "VIDAL, Michael",
+    "party": "CLMP"
+   },
+   {
+    "candidate_id": "PEROVIC, Miljenka",
+    "name": "PEROVIC, Miljenka",
+    "party": "LNP"
+   }
+  ],
+  "first_preferences": {
+   "REID, Scott": 1341.0,
+   "MURPHY, Peter": 2275.0,
+   "PALASZCZUK, Annastacia": 19888.0,
+   "QUINLAN, Nigel": 734.0,
+   "JONES, Terry": 197.0,
+   "VIDAL, Michael": 183.0,
+   "PEROVIC, Miljenka": 4879.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "VIDAL, Michael",
+    "transfers": {
+     "REID, Scott": 41.0,
+     "MURPHY, Peter": 17.0,
+     "PALASZCZUK, Annastacia": 31.0,
+     "QUINLAN, Nigel": 42.0,
+     "JONES, Terry": 22.0,
+     "PEROVIC, Miljenka": 30.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "JONES, Terry",
+    "transfers": {
+     "REID, Scott": 55.0,
+     "MURPHY, Peter": 26.0,
+     "PALASZCZUK, Annastacia": 39.0,
+     "QUINLAN, Nigel": 58.0,
+     "PEROVIC, Miljenka": 41.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "QUINLAN, Nigel",
+    "transfers": {
+     "REID, Scott": 168.0,
+     "MURPHY, Peter": 263.0,
+     "PALASZCZUK, Annastacia": 285.0,
+     "PEROVIC, Miljenka": 118.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "REID, Scott",
+    "transfers": {
+     "MURPHY, Peter": 473.0,
+     "PALASZCZUK, Annastacia": 425.0,
+     "PEROVIC, Miljenka": 707.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MURPHY, Peter",
+    "transfers": {
+     "PALASZCZUK, Annastacia": 2389.0,
+     "PEROVIC, Miljenka": 665.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "PALASZCZUK, Annastacia": 23057.0,
+   "PEROVIC, Miljenka": 6440.0
+  },
+  "formal_votes": 29497
+ },
+ "Ipswich": {
+  "candidates": [
+   {
+    "candidate_id": "HOLMES, Suzie",
+    "name": "HOLMES, Suzie",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "WALSH, Pat",
+    "name": "WALSH, Pat",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "O'CONNELL, Scott",
+    "name": "O'CONNELL, Scott",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "MORTON, Shelly",
+    "name": "MORTON, Shelly",
+    "party": "LCQP"
+   },
+   {
+    "candidate_id": "HOWARD, Jennifer",
+    "name": "HOWARD, Jennifer",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "HOLMES, Suzie": 3947.0,
+   "WALSH, Pat": 2396.0,
+   "O'CONNELL, Scott": 5769.0,
+   "MORTON, Shelly": 1565.0,
+   "HOWARD, Jennifer": 14699.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "MORTON, Shelly",
+    "transfers": {
+     "HOLMES, Suzie": 466.0,
+     "WALSH, Pat": 440.0,
+     "O'CONNELL, Scott": 175.0,
+     "HOWARD, Jennifer": 484.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WALSH, Pat",
+    "transfers": {
+     "HOLMES, Suzie": 461.0,
+     "O'CONNELL, Scott": 463.0,
+     "HOWARD, Jennifer": 1912.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HOLMES, Suzie",
+    "transfers": {
+     "O'CONNELL, Scott": 3093.0,
+     "HOWARD, Jennifer": 1781.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "O'CONNELL, Scott": 9500.0,
+   "HOWARD, Jennifer": 18876.0
+  },
+  "formal_votes": 28376
+ },
+ "Ipswich West": {
+  "candidates": [
+   {
+    "candidate_id": "GRIEGER, Clem",
+    "name": "GRIEGER, Clem",
+    "party": "CLMP"
+   },
+   {
+    "candidate_id": "WOLF, Raven",
+    "name": "WOLF, Raven",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "KOCHARDY, Karakan Karoly",
+    "name": "KOCHARDY, Karakan Karoly",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "GREEN, Chris",
+    "name": "GREEN, Chris",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "DUFFY, Gary",
+    "name": "DUFFY, Gary",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "HOPKINS, Anthony",
+    "name": "HOPKINS, Anthony",
+    "party": "LCQP"
+   },
+   {
+    "candidate_id": "MADDEN, Jim",
+    "name": "MADDEN, Jim",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "GRIEGER, Clem": 565.0,
+   "WOLF, Raven": 1957.0,
+   "KOCHARDY, Karakan Karoly": 321.0,
+   "GREEN, Chris": 6328.0,
+   "DUFFY, Gary": 4412.0,
+   "HOPKINS, Anthony": 1361.0,
+   "MADDEN, Jim": 15033.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "KOCHARDY, Karakan Karoly",
+    "transfers": {
+     "GRIEGER, Clem": 53.0,
+     "WOLF, Raven": 67.0,
+     "GREEN, Chris": 53.0,
+     "DUFFY, Gary": 63.0,
+     "HOPKINS, Anthony": 36.0,
+     "MADDEN, Jim": 49.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "GRIEGER, Clem",
+    "transfers": {
+     "WOLF, Raven": 234.0,
+     "GREEN, Chris": 80.0,
+     "DUFFY, Gary": 112.0,
+     "HOPKINS, Anthony": 108.0,
+     "MADDEN, Jim": 84.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HOPKINS, Anthony",
+    "transfers": {
+     "WOLF, Raven": 421.0,
+     "GREEN, Chris": 188.0,
+     "DUFFY, Gary": 420.0,
+     "MADDEN, Jim": 476.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WOLF, Raven",
+    "transfers": {
+     "GREEN, Chris": 709.0,
+     "DUFFY, Gary": 435.0,
+     "MADDEN, Jim": 1535.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "DUFFY, Gary",
+    "transfers": {
+     "GREEN, Chris": 3330.0,
+     "MADDEN, Jim": 2112.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "GREEN, Chris": 10688.0,
+   "MADDEN, Jim": 19289.0
+  },
+  "formal_votes": 29977
+ },
+ "Jordan": {
+  "candidates": [
+   {
+    "candidate_id": "SIDHU, Navdeep Singh",
+    "name": "SIDHU, Navdeep Singh",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "SYMES, Neil",
+    "name": "SYMES, Neil",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "MOONEY, Andrew",
+    "name": "MOONEY, Andrew",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "MULLEN, Charis",
+    "name": "MULLEN, Charis",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "SIDHU, Navdeep Singh": 3579.0,
+   "SYMES, Neil": 3705.0,
+   "MOONEY, Andrew": 7560.0,
+   "MULLEN, Charis": 18471.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "SIDHU, Navdeep Singh",
+    "transfers": {
+     "SYMES, Neil": 579.0,
+     "MOONEY, Andrew": 622.0,
+     "MULLEN, Charis": 2378.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SYMES, Neil",
+    "transfers": {
+     "MOONEY, Andrew": 2777.0,
+     "MULLEN, Charis": 1507.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "MOONEY, Andrew": 10959.0,
+   "MULLEN, Charis": 22356.0
+  },
+  "formal_votes": 33315
+ },
+ "Kawana": {
+  "candidates": [
+   {
+    "candidate_id": "MOUSSALLI, Lynette",
+    "name": "MOUSSALLI, Lynette",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "SRI, Anna",
+    "name": "SRI, Anna",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "MCGLADRIGAN, Afrikah",
+    "name": "MCGLADRIGAN, Afrikah",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "BLEIJIE, Jarrod",
+    "name": "BLEIJIE, Jarrod",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "MARIKO, Pamela",
+    "name": "MARIKO, Pamela",
+    "party": "AJP"
+   },
+   {
+    "candidate_id": "REDPATH, Bill",
+    "name": "REDPATH, Bill",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "MOUSSALLI, Lynette": 1924.0,
+   "SRI, Anna": 2965.0,
+   "MCGLADRIGAN, Afrikah": 324.0,
+   "BLEIJIE, Jarrod": 16148.0,
+   "MARIKO, Pamela": 569.0,
+   "REDPATH, Bill": 9835.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "MCGLADRIGAN, Afrikah",
+    "transfers": {
+     "MOUSSALLI, Lynette": 122.0,
+     "SRI, Anna": 47.0,
+     "BLEIJIE, Jarrod": 86.0,
+     "MARIKO, Pamela": 32.0,
+     "REDPATH, Bill": 37.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MARIKO, Pamela",
+    "transfers": {
+     "MOUSSALLI, Lynette": 124.0,
+     "SRI, Anna": 284.0,
+     "BLEIJIE, Jarrod": 72.0,
+     "REDPATH, Bill": 121.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MOUSSALLI, Lynette",
+    "transfers": {
+     "SRI, Anna": 531.0,
+     "BLEIJIE, Jarrod": 1145.0,
+     "REDPATH, Bill": 494.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SRI, Anna",
+    "transfers": {
+     "BLEIJIE, Jarrod": 1389.0,
+     "REDPATH, Bill": 2438.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "BLEIJIE, Jarrod": 18840.0,
+   "REDPATH, Bill": 12925.0
+  },
+  "formal_votes": 31765
+ },
+ "Keppel": {
+  "candidates": [
+   {
+    "candidate_id": "LAUGA, Brittany",
+    "name": "LAUGA, Brittany",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "DE GROOT, Adrian",
+    "name": "DE GROOT, Adrian",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "DOCKERY, Jimmy",
+    "name": "DOCKERY, Jimmy",
+    "party": "LCQP"
+   },
+   {
+    "candidate_id": "SMELTZ, Nikki",
+    "name": "SMELTZ, Nikki",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "ROTHERY, Wade",
+    "name": "ROTHERY, Wade",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "GANFIELD, Paula",
+    "name": "GANFIELD, Paula",
+    "party": "IMOP"
+   },
+   {
+    "candidate_id": "MULLBRICK, Clancy",
+    "name": "MULLBRICK, Clancy",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "LAUGA, Brittany": 14969.0,
+   "DE GROOT, Adrian": 9576.0,
+   "DOCKERY, Jimmy": 862.0,
+   "SMELTZ, Nikki": 192.0,
+   "ROTHERY, Wade": 5069.0,
+   "GANFIELD, Paula": 430.0,
+   "MULLBRICK, Clancy": 1291.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "SMELTZ, Nikki",
+    "transfers": {
+     "LAUGA, Brittany": 26.0,
+     "DE GROOT, Adrian": 33.0,
+     "DOCKERY, Jimmy": 22.0,
+     "ROTHERY, Wade": 83.0,
+     "GANFIELD, Paula": 17.0,
+     "MULLBRICK, Clancy": 11.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "GANFIELD, Paula",
+    "transfers": {
+     "LAUGA, Brittany": 70.0,
+     "DE GROOT, Adrian": 59.0,
+     "DOCKERY, Jimmy": 80.0,
+     "ROTHERY, Wade": 159.0,
+     "MULLBRICK, Clancy": 79.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "DOCKERY, Jimmy",
+    "transfers": {
+     "LAUGA, Brittany": 252.0,
+     "DE GROOT, Adrian": 184.0,
+     "ROTHERY, Wade": 337.0,
+     "MULLBRICK, Clancy": 191.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MULLBRICK, Clancy",
+    "transfers": {
+     "LAUGA, Brittany": 1074.0,
+     "DE GROOT, Adrian": 205.0,
+     "ROTHERY, Wade": 293.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "ROTHERY, Wade",
+    "transfers": {
+     "LAUGA, Brittany": 1627.0,
+     "DE GROOT, Adrian": 4314.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "LAUGA, Brittany": 18018.0,
+   "DE GROOT, Adrian": 14371.0
+  },
+  "formal_votes": 32389
+ },
+ "Kurwongbah": {
+  "candidates": [
+   {
+    "candidate_id": "SNIJDERS, Earl",
+    "name": "SNIJDERS, Earl",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "PROHASKA, Thor",
+    "name": "PROHASKA, Thor",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "PETRUS, Kerry",
+    "name": "PETRUS, Kerry",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "DWANE, Heather",
+    "name": "DWANE, Heather",
+    "party": "AJP"
+   },
+   {
+    "candidate_id": "ATTRILL, Kim",
+    "name": "ATTRILL, Kim",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "KING, Shane",
+    "name": "KING, Shane",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "SNIJDERS, Earl": 2317.0,
+   "PROHASKA, Thor": 721.0,
+   "PETRUS, Kerry": 8460.0,
+   "DWANE, Heather": 787.0,
+   "ATTRILL, Kim": 2834.0,
+   "KING, Shane": 16243.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "PROHASKA, Thor",
+    "transfers": {
+     "SNIJDERS, Earl": 149.0,
+     "PETRUS, Kerry": 132.0,
+     "DWANE, Heather": 175.0,
+     "ATTRILL, Kim": 130.0,
+     "KING, Shane": 135.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "DWANE, Heather",
+    "transfers": {
+     "SNIJDERS, Earl": 412.0,
+     "PETRUS, Kerry": 135.0,
+     "ATTRILL, Kim": 232.0,
+     "KING, Shane": 183.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SNIJDERS, Earl",
+    "transfers": {
+     "PETRUS, Kerry": 671.0,
+     "ATTRILL, Kim": 359.0,
+     "KING, Shane": 1848.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "ATTRILL, Kim",
+    "transfers": {
+     "PETRUS, Kerry": 2160.0,
+     "KING, Shane": 1395.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "PETRUS, Kerry": 11558.0,
+   "KING, Shane": 19804.0
+  },
+  "formal_votes": 31362
+ },
+ "Lockyer": {
+  "candidates": [
+   {
+    "candidate_id": "ROCKLIFF, Andrew",
+    "name": "ROCKLIFF, Andrew",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "WEST, Corey",
+    "name": "WEST, Corey",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "BUTLER, Janet",
+    "name": "BUTLER, Janet",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "SAVAGE, Jim",
+    "name": "SAVAGE, Jim",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "HALEY, Rebecca",
+    "name": "HALEY, Rebecca",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "MCDONALD, Jim",
+    "name": "MCDONALD, Jim",
+    "party": "LNP"
+   }
+  ],
+  "first_preferences": {
+   "ROCKLIFF, Andrew": 563.0,
+   "WEST, Corey": 4010.0,
+   "BUTLER, Janet": 7477.0,
+   "SAVAGE, Jim": 3057.0,
+   "HALEY, Rebecca": 1489.0,
+   "MCDONALD, Jim": 13662.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "ROCKLIFF, Andrew",
+    "transfers": {
+     "WEST, Corey": 304.0,
+     "BUTLER, Janet": 70.0,
+     "SAVAGE, Jim": 68.0,
+     "HALEY, Rebecca": 29.0,
+     "MCDONALD, Jim": 92.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HALEY, Rebecca",
+    "transfers": {
+     "WEST, Corey": 162.0,
+     "BUTLER, Janet": 799.0,
+     "SAVAGE, Jim": 274.0,
+     "MCDONALD, Jim": 283.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SAVAGE, Jim",
+    "transfers": {
+     "WEST, Corey": 1291.0,
+     "BUTLER, Janet": 864.0,
+     "MCDONALD, Jim": 1244.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WEST, Corey",
+    "transfers": {
+     "BUTLER, Janet": 2432.0,
+     "MCDONALD, Jim": 3335.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "BUTLER, Janet": 11642.0,
+   "MCDONALD, Jim": 18616.0
+  },
+  "formal_votes": 30258
+ },
+ "Logan": {
+  "candidates": [
+   {
+    "candidate_id": "WEBER, Peter",
+    "name": "WEBER, Peter",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "ISKANDER, Sam",
+    "name": "ISKANDER, Sam",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "JENKINSON, Liam",
+    "name": "JENKINSON, Liam",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "PATTISON, Clinton",
+    "name": "PATTISON, Clinton",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "POWER, Linus",
+    "name": "POWER, Linus",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "WEBER, Peter": 4283.0,
+   "ISKANDER, Sam": 524.0,
+   "JENKINSON, Liam": 1900.0,
+   "PATTISON, Clinton": 7725.0,
+   "POWER, Linus": 16587.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "ISKANDER, Sam",
+    "transfers": {
+     "WEBER, Peter": 280.0,
+     "JENKINSON, Liam": 83.0,
+     "PATTISON, Clinton": 107.0,
+     "POWER, Linus": 54.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "JENKINSON, Liam",
+    "transfers": {
+     "WEBER, Peter": 407.0,
+     "PATTISON, Clinton": 390.0,
+     "POWER, Linus": 1186.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WEBER, Peter",
+    "transfers": {
+     "PATTISON, Clinton": 3134.0,
+     "POWER, Linus": 1836.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "PATTISON, Clinton": 11356.0,
+   "POWER, Linus": 19663.0
+  },
+  "formal_votes": 31019
+ },
+ "Lytton": {
+  "candidates": [
+   {
+    "candidate_id": "PHILLIPS, Georgia",
+    "name": "PHILLIPS, Georgia",
+    "party": "IMOP"
+   },
+   {
+    "candidate_id": "WALTERS, Gordon",
+    "name": "WALTERS, Gordon",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "SPAITS, Jonathan",
+    "name": "SPAITS, Jonathan",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "PEASE, Joan",
+    "name": "PEASE, Joan",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "SMITH, Debra",
+    "name": "SMITH, Debra",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "AUSTIN, Ken",
+    "name": "AUSTIN, Ken",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "PHILLIPS, Georgia": 606.0,
+   "WALTERS, Gordon": 9955.0,
+   "SPAITS, Jonathan": 321.0,
+   "PEASE, Joan": 17067.0,
+   "SMITH, Debra": 1289.0,
+   "AUSTIN, Ken": 3450.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "SPAITS, Jonathan",
+    "transfers": {
+     "PHILLIPS, Georgia": 27.0,
+     "WALTERS, Gordon": 124.0,
+     "PEASE, Joan": 40.0,
+     "SMITH, Debra": 100.0,
+     "AUSTIN, Ken": 30.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "PHILLIPS, Georgia",
+    "transfers": {
+     "WALTERS, Gordon": 213.0,
+     "PEASE, Joan": 102.0,
+     "SMITH, Debra": 176.0,
+     "AUSTIN, Ken": 142.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SMITH, Debra",
+    "transfers": {
+     "WALTERS, Gordon": 825.0,
+     "PEASE, Joan": 407.0,
+     "AUSTIN, Ken": 333.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "AUSTIN, Ken",
+    "transfers": {
+     "WALTERS, Gordon": 863.0,
+     "PEASE, Joan": 3092.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "WALTERS, Gordon": 11980.0,
+   "PEASE, Joan": 20708.0
+  },
+  "formal_votes": 32688
+ },
+ "Macalister": {
+  "candidates": [
+   {
+    "candidate_id": "BYE, Bronwyn",
+    "name": "BYE, Bronwyn",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "PETERSEN, Kirsty",
+    "name": "PETERSEN, Kirsty",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "MCMAHON, Melissa",
+    "name": "MCMAHON, Melissa",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "MCCLAER, David",
+    "name": "MCCLAER, David",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "MUSGRAVE, Ben",
+    "name": "MUSGRAVE, Ben",
+    "party": "CLMP"
+   },
+   {
+    "candidate_id": "VAN MANEN, Judi",
+    "name": "VAN MANEN, Judi",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "KEECH, Margaret",
+    "name": "KEECH, Margaret",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "TAYLOR, Paul A S",
+    "name": "TAYLOR, Paul A S",
+    "party": "IND*"
+   }
+  ],
+  "first_preferences": {
+   "BYE, Bronwyn": 2178.0,
+   "PETERSEN, Kirsty": 1810.0,
+   "MCMAHON, Melissa": 12896.0,
+   "MCCLAER, David": 348.0,
+   "MUSGRAVE, Ben": 304.0,
+   "VAN MANEN, Judi": 7921.0,
+   "KEECH, Margaret": 3020.0,
+   "TAYLOR, Paul A S": 714.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "MUSGRAVE, Ben",
+    "transfers": {
+     "BYE, Bronwyn": 55.0,
+     "PETERSEN, Kirsty": 43.0,
+     "MCMAHON, Melissa": 49.0,
+     "MCCLAER, David": 34.0,
+     "VAN MANEN, Judi": 58.0,
+     "KEECH, Margaret": 42.0,
+     "TAYLOR, Paul A S": 23.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MCCLAER, David",
+    "transfers": {
+     "BYE, Bronwyn": 144.0,
+     "PETERSEN, Kirsty": 43.0,
+     "MCMAHON, Melissa": 69.0,
+     "VAN MANEN, Judi": 85.0,
+     "KEECH, Margaret": 24.0,
+     "TAYLOR, Paul A S": 17.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "TAYLOR, Paul A S",
+    "transfers": {
+     "BYE, Bronwyn": 144.0,
+     "PETERSEN, Kirsty": 47.0,
+     "MCMAHON, Melissa": 67.0,
+     "VAN MANEN, Judi": 180.0,
+     "KEECH, Margaret": 316.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "PETERSEN, Kirsty",
+    "transfers": {
+     "BYE, Bronwyn": 257.0,
+     "MCMAHON, Melissa": 1073.0,
+     "VAN MANEN, Judi": 223.0,
+     "KEECH, Margaret": 390.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BYE, Bronwyn",
+    "transfers": {
+     "MCMAHON, Melissa": 952.0,
+     "VAN MANEN, Judi": 898.0,
+     "KEECH, Margaret": 928.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "KEECH, Margaret",
+    "transfers": {
+     "MCMAHON, Melissa": 2275.0,
+     "VAN MANEN, Judi": 2445.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "MCMAHON, Melissa": 17381.0,
+   "VAN MANEN, Judi": 11810.0
+  },
+  "formal_votes": 29191
+ },
+ "McConnel": {
+  "candidates": [
+   {
+    "candidate_id": "LOVEJOY, Kirsten",
+    "name": "LOVEJOY, Kirsten",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "BERTRAM, Miranda",
+    "name": "BERTRAM, Miranda",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "DOBINSON, John Fair",
+    "name": "DOBINSON, John Fair",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "SINGH, Pinky",
+    "name": "SINGH, Pinky",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "WOOD, Malcolm",
+    "name": "WOOD, Malcolm",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "GRACE, Grace",
+    "name": "GRACE, Grace",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "SWAN, Paul",
+    "name": "SWAN, Paul",
+    "party": "LCQP"
+   },
+   {
+    "candidate_id": "PERRY, Anne",
+    "name": "PERRY, Anne",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "HAMILTON, Alan",
+    "name": "HAMILTON, Alan",
+    "party": "IMOP"
+   }
+  ],
+  "first_preferences": {
+   "LOVEJOY, Kirsten": 9263.0,
+   "BERTRAM, Miranda": 236.0,
+   "DOBINSON, John Fair": 93.0,
+   "SINGH, Pinky": 10192.0,
+   "WOOD, Malcolm": 164.0,
+   "GRACE, Grace": 11616.0,
+   "SWAN, Paul": 721.0,
+   "PERRY, Anne": 474.0,
+   "HAMILTON, Alan": 152.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "DOBINSON, John Fair",
+    "transfers": {
+     "LOVEJOY, Kirsten": 7.0,
+     "BERTRAM, Miranda": 40.0,
+     "SINGH, Pinky": 14.0,
+     "WOOD, Malcolm": 9.0,
+     "GRACE, Grace": 8.0,
+     "SWAN, Paul": 9.0,
+     "PERRY, Anne": 2.0,
+     "HAMILTON, Alan": 4.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HAMILTON, Alan",
+    "transfers": {
+     "LOVEJOY, Kirsten": 23.0,
+     "BERTRAM, Miranda": 16.0,
+     "SINGH, Pinky": 17.0,
+     "WOOD, Malcolm": 11.0,
+     "GRACE, Grace": 13.0,
+     "SWAN, Paul": 36.0,
+     "PERRY, Anne": 40.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WOOD, Malcolm",
+    "transfers": {
+     "LOVEJOY, Kirsten": 9.0,
+     "BERTRAM, Miranda": 13.0,
+     "SINGH, Pinky": 60.0,
+     "GRACE, Grace": 21.0,
+     "SWAN, Paul": 24.0,
+     "PERRY, Anne": 57.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BERTRAM, Miranda",
+    "transfers": {
+     "LOVEJOY, Kirsten": 107.0,
+     "SINGH, Pinky": 49.0,
+     "GRACE, Grace": 69.0,
+     "SWAN, Paul": 59.0,
+     "PERRY, Anne": 21.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "PERRY, Anne",
+    "transfers": {
+     "LOVEJOY, Kirsten": 57.0,
+     "SINGH, Pinky": 280.0,
+     "GRACE, Grace": 77.0,
+     "SWAN, Paul": 180.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SWAN, Paul",
+    "transfers": {
+     "LOVEJOY, Kirsten": 496.0,
+     "SINGH, Pinky": 266.0,
+     "GRACE, Grace": 267.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "LOVEJOY, Kirsten",
+    "transfers": {
+     "SINGH, Pinky": 1937.0,
+     "GRACE, Grace": 8025.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "SINGH, Pinky": 12815.0,
+   "GRACE, Grace": 20096.0
+  },
+  "formal_votes": 32911
+ },
+ "Mackay": {
+  "candidates": [
+   {
+    "candidate_id": "BONANNO, Chris",
+    "name": "BONANNO, Chris",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "KRSTIC, Shaun",
+    "name": "KRSTIC, Shaun",
+    "party": "LCQP"
+   },
+   {
+    "candidate_id": "SAUNDERS, Julie",
+    "name": "SAUNDERS, Julie",
+    "party": "IMOP"
+   },
+   {
+    "candidate_id": "GILBERT, Julieanne",
+    "name": "GILBERT, Julieanne",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "KEYS, Christine",
+    "name": "KEYS, Christine",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "LINDENBERG, Imogen",
+    "name": "LINDENBERG, Imogen",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "BONANNO, Chris": 10061.0,
+   "KRSTIC, Shaun": 1378.0,
+   "SAUNDERS, Julie": 382.0,
+   "GILBERT, Julieanne": 14632.0,
+   "KEYS, Christine": 3965.0,
+   "LINDENBERG, Imogen": 1071.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "SAUNDERS, Julie",
+    "transfers": {
+     "BONANNO, Chris": 62.0,
+     "KRSTIC, Shaun": 119.0,
+     "GILBERT, Julieanne": 88.0,
+     "KEYS, Christine": 81.0,
+     "LINDENBERG, Imogen": 32.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "LINDENBERG, Imogen",
+    "transfers": {
+     "BONANNO, Chris": 135.0,
+     "KRSTIC, Shaun": 326.0,
+     "GILBERT, Julieanne": 508.0,
+     "KEYS, Christine": 134.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "KRSTIC, Shaun",
+    "transfers": {
+     "BONANNO, Chris": 440.0,
+     "GILBERT, Julieanne": 780.0,
+     "KEYS, Christine": 603.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "KEYS, Christine",
+    "transfers": {
+     "BONANNO, Chris": 2929.0,
+     "GILBERT, Julieanne": 1854.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "BONANNO, Chris": 13627.0,
+   "GILBERT, Julieanne": 17862.0
+  },
+  "formal_votes": 31489
+ },
+ "Maiwar": {
+  "candidates": [
+   {
+    "candidate_id": "BERKMAN, Michael",
+    "name": "BERKMAN, Michael",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "RUSH, Jacob",
+    "name": "RUSH, Jacob",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "THEVAR, Palani",
+    "name": "THEVAR, Palani",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "JOHNSON, Michael Andrew",
+    "name": "JOHNSON, Michael Andrew",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "SHANNON, Boyd",
+    "name": "SHANNON, Boyd",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "DAY, Lauren",
+    "name": "DAY, Lauren",
+    "party": "LNP"
+   }
+  ],
+  "first_preferences": {
+   "BERKMAN, Michael": 14254.0,
+   "RUSH, Jacob": 170.0,
+   "THEVAR, Palani": 6413.0,
+   "JOHNSON, Michael Andrew": 348.0,
+   "SHANNON, Boyd": 476.0,
+   "DAY, Lauren": 12832.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "RUSH, Jacob",
+    "transfers": {
+     "BERKMAN, Michael": 32.0,
+     "THEVAR, Palani": 14.0,
+     "JOHNSON, Michael Andrew": 22.0,
+     "SHANNON, Boyd": 44.0,
+     "DAY, Lauren": 58.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "JOHNSON, Michael Andrew",
+    "transfers": {
+     "BERKMAN, Michael": 106.0,
+     "THEVAR, Palani": 74.0,
+     "SHANNON, Boyd": 74.0,
+     "DAY, Lauren": 116.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SHANNON, Boyd",
+    "transfers": {
+     "BERKMAN, Michael": 119.0,
+     "THEVAR, Palani": 87.0,
+     "DAY, Lauren": 388.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "THEVAR, Palani",
+    "transfers": {
+     "BERKMAN, Michael": 4916.0,
+     "DAY, Lauren": 1672.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "BERKMAN, Michael": 19427.0,
+   "DAY, Lauren": 15066.0
+  },
+  "formal_votes": 34493
+ },
+ "Mansfield": {
+  "candidates": [
+   {
+    "candidate_id": "WISHART, Janet",
+    "name": "WISHART, Janet",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "MCMILLAN, Corrine",
+    "name": "MCMILLAN, Corrine",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "WALTER, Rob",
+    "name": "WALTER, Rob",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "WIRTH, Jarrod John",
+    "name": "WIRTH, Jarrod John",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "TODOROVA, Maria",
+    "name": "TODOROVA, Maria",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "TAYLOR, Brendan",
+    "name": "TAYLOR, Brendan",
+    "party": "LCQP"
+   },
+   {
+    "candidate_id": "O'CALLAGHAN, Christopher",
+    "name": "O'CALLAGHAN, Christopher",
+    "party": "ON"
+   }
+  ],
+  "first_preferences": {
+   "WISHART, Janet": 11874.0,
+   "MCMILLAN, Corrine": 14256.0,
+   "WALTER, Rob": 2967.0,
+   "WIRTH, Jarrod John": 233.0,
+   "TODOROVA, Maria": 145.0,
+   "TAYLOR, Brendan": 708.0,
+   "O'CALLAGHAN, Christopher": 715.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "TODOROVA, Maria",
+    "transfers": {
+     "WISHART, Janet": 37.0,
+     "MCMILLAN, Corrine": 13.0,
+     "WALTER, Rob": 9.0,
+     "WIRTH, Jarrod John": 12.0,
+     "TAYLOR, Brendan": 14.0,
+     "O'CALLAGHAN, Christopher": 60.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WIRTH, Jarrod John",
+    "transfers": {
+     "WISHART, Janet": 58.0,
+     "MCMILLAN, Corrine": 45.0,
+     "WALTER, Rob": 54.0,
+     "TAYLOR, Brendan": 49.0,
+     "O'CALLAGHAN, Christopher": 39.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "TAYLOR, Brendan",
+    "transfers": {
+     "WISHART, Janet": 148.0,
+     "MCMILLAN, Corrine": 165.0,
+     "WALTER, Rob": 282.0,
+     "O'CALLAGHAN, Christopher": 176.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "O'CALLAGHAN, Christopher",
+    "transfers": {
+     "WISHART, Janet": 541.0,
+     "MCMILLAN, Corrine": 206.0,
+     "WALTER, Rob": 243.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WALTER, Rob",
+    "transfers": {
+     "WISHART, Janet": 689.0,
+     "MCMILLAN, Corrine": 2866.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "WISHART, Janet": 13347.0,
+   "MCMILLAN, Corrine": 17551.0
+  },
+  "formal_votes": 30898
+ },
+ "Maroochydore": {
+  "candidates": [
+   {
+    "candidate_id": "UNVERZAGT, Gabrielle",
+    "name": "UNVERZAGT, Gabrielle",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "CREEVEY, Janet",
+    "name": "CREEVEY, Janet",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "MCCORMACK, Rod",
+    "name": "MCCORMACK, Rod",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "POOLE, Tash",
+    "name": "POOLE, Tash",
+    "party": "AJP"
+   },
+   {
+    "candidate_id": "WADESON, Mark",
+    "name": "WADESON, Mark",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "SMITH, Alison",
+    "name": "SMITH, Alison",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "SIMPSON, Fiona",
+    "name": "SIMPSON, Fiona",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "SEARLE, Greg",
+    "name": "SEARLE, Greg",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "CONNOLLY, John",
+    "name": "CONNOLLY, John",
+    "party": "IND*"
+   }
+  ],
+  "first_preferences": {
+   "UNVERZAGT, Gabrielle": 3336.0,
+   "CREEVEY, Janet": 149.0,
+   "MCCORMACK, Rod": 1247.0,
+   "POOLE, Tash": 926.0,
+   "WADESON, Mark": 147.0,
+   "SMITH, Alison": 7737.0,
+   "SIMPSON, Fiona": 14426.0,
+   "SEARLE, Greg": 248.0,
+   "CONNOLLY, John": 1916.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "WADESON, Mark",
+    "transfers": {
+     "UNVERZAGT, Gabrielle": 17.0,
+     "CREEVEY, Janet": 30.0,
+     "MCCORMACK, Rod": 10.0,
+     "POOLE, Tash": 12.0,
+     "SMITH, Alison": 22.0,
+     "SIMPSON, Fiona": 21.0,
+     "SEARLE, Greg": 5.0,
+     "CONNOLLY, John": 30.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "CREEVEY, Janet",
+    "transfers": {
+     "UNVERZAGT, Gabrielle": 30.0,
+     "MCCORMACK, Rod": 25.0,
+     "POOLE, Tash": 37.0,
+     "SMITH, Alison": 16.0,
+     "SIMPSON, Fiona": 17.0,
+     "SEARLE, Greg": 6.0,
+     "CONNOLLY, John": 48.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SEARLE, Greg",
+    "transfers": {
+     "UNVERZAGT, Gabrielle": 29.0,
+     "MCCORMACK, Rod": 69.0,
+     "POOLE, Tash": 23.0,
+     "SMITH, Alison": 21.0,
+     "SIMPSON, Fiona": 72.0,
+     "CONNOLLY, John": 45.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "POOLE, Tash",
+    "transfers": {
+     "UNVERZAGT, Gabrielle": 472.0,
+     "MCCORMACK, Rod": 129.0,
+     "SMITH, Alison": 134.0,
+     "SIMPSON, Fiona": 133.0,
+     "CONNOLLY, John": 130.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MCCORMACK, Rod",
+    "transfers": {
+     "UNVERZAGT, Gabrielle": 251.0,
+     "SMITH, Alison": 254.0,
+     "SIMPSON, Fiona": 541.0,
+     "CONNOLLY, John": 434.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "CONNOLLY, John",
+    "transfers": {
+     "UNVERZAGT, Gabrielle": 611.0,
+     "SMITH, Alison": 629.0,
+     "SIMPSON, Fiona": 1363.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "UNVERZAGT, Gabrielle",
+    "transfers": {
+     "SMITH, Alison": 3505.0,
+     "SIMPSON, Fiona": 1241.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "SMITH, Alison": 12318.0,
+   "SIMPSON, Fiona": 17814.0
+  },
+  "formal_votes": 30132
+ },
+ "Maryborough": {
+  "candidates": [
+   {
+    "candidate_id": "SAUNDERS, Bruce",
+    "name": "SAUNDERS, Bruce",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "PACKER, Samantha",
+    "name": "PACKER, Samantha",
+    "party": "IMOP"
+   },
+   {
+    "candidate_id": "SOKOLOV, Alex",
+    "name": "SOKOLOV, Alex",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "CHAPMAN, Denis",
+    "name": "CHAPMAN, Denis",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "LOHSE, Sharon",
+    "name": "LOHSE, Sharon",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "BODY, River",
+    "name": "BODY, River",
+    "party": "LCQP"
+   },
+   {
+    "candidate_id": "ARMSTRONG, Craig",
+    "name": "ARMSTRONG, Craig",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "SAUNDERS, Bruce": 17751.0,
+   "PACKER, Samantha": 452.0,
+   "SOKOLOV, Alex": 194.0,
+   "CHAPMAN, Denis": 8763.0,
+   "LOHSE, Sharon": 4392.0,
+   "BODY, River": 885.0,
+   "ARMSTRONG, Craig": 888.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "SOKOLOV, Alex",
+    "transfers": {
+     "SAUNDERS, Bruce": 20.0,
+     "PACKER, Samantha": 19.0,
+     "CHAPMAN, Denis": 44.0,
+     "LOHSE, Sharon": 80.0,
+     "BODY, River": 22.0,
+     "ARMSTRONG, Craig": 9.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "PACKER, Samantha",
+    "transfers": {
+     "SAUNDERS, Bruce": 118.0,
+     "CHAPMAN, Denis": 81.0,
+     "LOHSE, Sharon": 125.0,
+     "BODY, River": 102.0,
+     "ARMSTRONG, Craig": 45.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "ARMSTRONG, Craig",
+    "transfers": {
+     "SAUNDERS, Bruce": 523.0,
+     "CHAPMAN, Denis": 102.0,
+     "LOHSE, Sharon": 83.0,
+     "BODY, River": 234.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BODY, River",
+    "transfers": {
+     "SAUNDERS, Bruce": 521.0,
+     "CHAPMAN, Denis": 209.0,
+     "LOHSE, Sharon": 513.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "LOHSE, Sharon",
+    "transfers": {
+     "SAUNDERS, Bruce": 1691.0,
+     "CHAPMAN, Denis": 3502.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "SAUNDERS, Bruce": 20624.0,
+   "CHAPMAN, Denis": 12701.0
+  },
+  "formal_votes": 33325
+ },
+ "Mermaid Beach": {
+  "candidates": [
+   {
+    "candidate_id": "HARRIS, Zai",
+    "name": "HARRIS, Zai",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "HOLT, Rhett",
+    "name": "HOLT, Rhett",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "AVDJIEV, Hristo",
+    "name": "AVDJIEV, Hristo",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "MCARTHUR-WILLIAMS, Nicholas",
+    "name": "MCARTHUR-WILLIAMS, Nicholas",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "SOMSRIRUEN, Suphakan (Mod)",
+    "name": "SOMSRIRUEN, Suphakan (Mod)",
+    "party": "CLMP"
+   },
+   {
+    "candidate_id": "UNGERER, Carl",
+    "name": "UNGERER, Carl",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "STEVENS, Ray",
+    "name": "STEVENS, Ray",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "LYNCH, Deb",
+    "name": "LYNCH, Deb",
+    "party": "LCQP"
+   },
+   {
+    "candidate_id": "JAMES, Stephen",
+    "name": "JAMES, Stephen",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "JONES, Tory",
+    "name": "JONES, Tory",
+    "party": "IND*"
+   }
+  ],
+  "first_preferences": {
+   "HARRIS, Zai": 3090.0,
+   "HOLT, Rhett": 302.0,
+   "AVDJIEV, Hristo": 375.0,
+   "MCARTHUR-WILLIAMS, Nicholas": 254.0,
+   "SOMSRIRUEN, Suphakan (Mod)": 174.0,
+   "UNGERER, Carl": 8721.0,
+   "STEVENS, Ray": 12604.0,
+   "LYNCH, Deb": 1142.0,
+   "JAMES, Stephen": 1434.0,
+   "JONES, Tory": 506.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "SOMSRIRUEN, Suphakan (Mod)",
+    "transfers": {
+     "HARRIS, Zai": 33.0,
+     "HOLT, Rhett": 7.0,
+     "AVDJIEV, Hristo": 13.0,
+     "MCARTHUR-WILLIAMS, Nicholas": 14.0,
+     "UNGERER, Carl": 29.0,
+     "STEVENS, Ray": 22.0,
+     "LYNCH, Deb": 29.0,
+     "JAMES, Stephen": 11.0,
+     "JONES, Tory": 16.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MCARTHUR-WILLIAMS, Nicholas",
+    "transfers": {
+     "HARRIS, Zai": 33.0,
+     "HOLT, Rhett": 41.0,
+     "AVDJIEV, Hristo": 38.0,
+     "UNGERER, Carl": 39.0,
+     "STEVENS, Ray": 71.0,
+     "LYNCH, Deb": 18.0,
+     "JAMES, Stephen": 12.0,
+     "JONES, Tory": 16.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HOLT, Rhett",
+    "transfers": {
+     "HARRIS, Zai": 95.0,
+     "AVDJIEV, Hristo": 24.0,
+     "UNGERER, Carl": 45.0,
+     "STEVENS, Ray": 57.0,
+     "LYNCH, Deb": 30.0,
+     "JAMES, Stephen": 24.0,
+     "JONES, Tory": 75.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "AVDJIEV, Hristo",
+    "transfers": {
+     "HARRIS, Zai": 95.0,
+     "UNGERER, Carl": 66.0,
+     "STEVENS, Ray": 118.0,
+     "LYNCH, Deb": 53.0,
+     "JAMES, Stephen": 107.0,
+     "JONES, Tory": 11.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "JONES, Tory",
+    "transfers": {
+     "HARRIS, Zai": 162.0,
+     "UNGERER, Carl": 174.0,
+     "STEVENS, Ray": 91.0,
+     "LYNCH, Deb": 98.0,
+     "JAMES, Stephen": 99.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "LYNCH, Deb",
+    "transfers": {
+     "HARRIS, Zai": 545.0,
+     "UNGERER, Carl": 283.0,
+     "STEVENS, Ray": 213.0,
+     "JAMES, Stephen": 329.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "JAMES, Stephen",
+    "transfers": {
+     "HARRIS, Zai": 546.0,
+     "UNGERER, Carl": 362.0,
+     "STEVENS, Ray": 1108.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HARRIS, Zai",
+    "transfers": {
+     "UNGERER, Carl": 3325.0,
+     "STEVENS, Ray": 1274.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "UNGERER, Carl": 13044.0,
+   "STEVENS, Ray": 15558.0
+  },
+  "formal_votes": 28602
+ },
+ "Miller": {
+  "candidates": [
+   {
+    "candidate_id": "ZIRDUM, Josip",
+    "name": "ZIRDUM, Josip",
+    "party": "LCQP"
+   },
+   {
+    "candidate_id": "BAILEY, Mark",
+    "name": "BAILEY, Mark",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "DARWEN, Paul",
+    "name": "DARWEN, Paul",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "O'BRIEN, Patsy",
+    "name": "O'BRIEN, Patsy",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "CARROLL, Edward",
+    "name": "CARROLL, Edward",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "PACKER, Maria",
+    "name": "PACKER, Maria",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "JULIUS, Christian John",
+    "name": "JULIUS, Christian John",
+    "party": "UAP"
+   }
+  ],
+  "first_preferences": {
+   "ZIRDUM, Josip": 1004.0,
+   "BAILEY, Mark": 13407.0,
+   "DARWEN, Paul": 9759.0,
+   "O'BRIEN, Patsy": 6590.0,
+   "CARROLL, Edward": 380.0,
+   "PACKER, Maria": 613.0,
+   "JULIUS, Christian John": 174.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "JULIUS, Christian John",
+    "transfers": {
+     "ZIRDUM, Josip": 11.0,
+     "BAILEY, Mark": 15.0,
+     "DARWEN, Paul": 45.0,
+     "O'BRIEN, Patsy": 9.0,
+     "CARROLL, Edward": 10.0,
+     "PACKER, Maria": 84.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "CARROLL, Edward",
+    "transfers": {
+     "ZIRDUM, Josip": 59.0,
+     "BAILEY, Mark": 68.0,
+     "DARWEN, Paul": 64.0,
+     "O'BRIEN, Patsy": 148.0,
+     "PACKER, Maria": 51.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "PACKER, Maria",
+    "transfers": {
+     "ZIRDUM, Josip": 177.0,
+     "BAILEY, Mark": 95.0,
+     "DARWEN, Paul": 373.0,
+     "O'BRIEN, Patsy": 103.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "ZIRDUM, Josip",
+    "transfers": {
+     "BAILEY, Mark": 430.0,
+     "DARWEN, Paul": 300.0,
+     "O'BRIEN, Patsy": 521.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "O'BRIEN, Patsy",
+    "transfers": {
+     "BAILEY, Mark": 6361.0,
+     "DARWEN, Paul": 1010.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "BAILEY, Mark": 20376.0,
+   "DARWEN, Paul": 11551.0
+  },
+  "formal_votes": 31927
+ },
+ "Mirani": {
+  "candidates": [
+   {
+    "candidate_id": "ANDREW, Stephen",
+    "name": "ANDREW, Stephen",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "BYRAM, Nick",
+    "name": "BYRAM, Nick",
+    "party": "CLMP"
+   },
+   {
+    "candidate_id": "HAMILTON, Shane",
+    "name": "HAMILTON, Shane",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "NEWITT, Tracie",
+    "name": "NEWITT, Tracie",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "WATKIN, Ben",
+    "name": "WATKIN, Ben",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "BORG, Jason",
+    "name": "BORG, Jason",
+    "party": "NQF"
+   },
+   {
+    "candidate_id": "BORG, Tepepe",
+    "name": "BORG, Tepepe",
+    "party": "UAP"
+   }
+  ],
+  "first_preferences": {
+   "ANDREW, Stephen": 9320.0,
+   "BYRAM, Nick": 342.0,
+   "HAMILTON, Shane": 9412.0,
+   "NEWITT, Tracie": 8123.0,
+   "WATKIN, Ben": 715.0,
+   "BORG, Jason": 1200.0,
+   "BORG, Tepepe": 329.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "BORG, Tepepe",
+    "transfers": {
+     "ANDREW, Stephen": 139.0,
+     "BYRAM, Nick": 18.0,
+     "HAMILTON, Shane": 24.0,
+     "NEWITT, Tracie": 40.0,
+     "WATKIN, Ben": 21.0,
+     "BORG, Jason": 87.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BYRAM, Nick",
+    "transfers": {
+     "ANDREW, Stephen": 145.0,
+     "HAMILTON, Shane": 66.0,
+     "NEWITT, Tracie": 57.0,
+     "WATKIN, Ben": 35.0,
+     "BORG, Jason": 57.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WATKIN, Ben",
+    "transfers": {
+     "ANDREW, Stephen": 104.0,
+     "HAMILTON, Shane": 449.0,
+     "NEWITT, Tracie": 85.0,
+     "BORG, Jason": 133.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BORG, Jason",
+    "transfers": {
+     "ANDREW, Stephen": 766.0,
+     "HAMILTON, Shane": 317.0,
+     "NEWITT, Tracie": 394.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "NEWITT, Tracie",
+    "transfers": {
+     "ANDREW, Stephen": 6889.0,
+     "HAMILTON, Shane": 1810.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "ANDREW, Stephen": 17363.0,
+   "HAMILTON, Shane": 12078.0
+  },
+  "formal_votes": 29441
+ },
+ "Moggill": {
+  "candidates": [
+   {
+    "candidate_id": "ALBRECHT, Roberta",
+    "name": "ALBRECHT, Roberta",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "RAYWARD, Amy",
+    "name": "RAYWARD, Amy",
+    "party": "CLMP"
+   },
+   {
+    "candidate_id": "ROWAN, Christian",
+    "name": "ROWAN, Christian",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "MITCHELL, Bruce",
+    "name": "MITCHELL, Bruce",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "MCCANE, Lawson",
+    "name": "MCCANE, Lawson",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "ALBRECHT, Roberta": 9012.0,
+   "RAYWARD, Amy": 395.0,
+   "ROWAN, Christian": 14888.0,
+   "MITCHELL, Bruce": 922.0,
+   "MCCANE, Lawson": 6536.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "RAYWARD, Amy",
+    "transfers": {
+     "ALBRECHT, Roberta": 77.0,
+     "ROWAN, Christian": 97.0,
+     "MITCHELL, Bruce": 129.0,
+     "MCCANE, Lawson": 92.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MITCHELL, Bruce",
+    "transfers": {
+     "ALBRECHT, Roberta": 185.0,
+     "ROWAN, Christian": 682.0,
+     "MCCANE, Lawson": 184.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MCCANE, Lawson",
+    "transfers": {
+     "ALBRECHT, Roberta": 5463.0,
+     "ROWAN, Christian": 1349.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "ALBRECHT, Roberta": 14737.0,
+   "ROWAN, Christian": 17016.0
+  },
+  "formal_votes": 31753
+ },
+ "Morayfield": {
+  "candidates": [
+   {
+    "candidate_id": "SMITH, Amy",
+    "name": "SMITH, Amy",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "CRAIG, Theresa",
+    "name": "CRAIG, Theresa",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "HANSEN, Rodney",
+    "name": "HANSEN, Rodney",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "MATTHEWS, Grant",
+    "name": "MATTHEWS, Grant",
+    "party": "IMOP"
+   },
+   {
+    "candidate_id": "SNOW, Jason",
+    "name": "SNOW, Jason",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "RYAN, Mark",
+    "name": "RYAN, Mark",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "SMITH, Amy": 2393.0,
+   "CRAIG, Theresa": 6549.0,
+   "HANSEN, Rodney": 3582.0,
+   "MATTHEWS, Grant": 594.0,
+   "SNOW, Jason": 631.0,
+   "RYAN, Mark": 16386.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "MATTHEWS, Grant",
+    "transfers": {
+     "SMITH, Amy": 119.0,
+     "CRAIG, Theresa": 58.0,
+     "HANSEN, Rodney": 187.0,
+     "SNOW, Jason": 137.0,
+     "RYAN, Mark": 93.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SNOW, Jason",
+    "transfers": {
+     "SMITH, Amy": 146.0,
+     "CRAIG, Theresa": 135.0,
+     "HANSEN, Rodney": 234.0,
+     "RYAN, Mark": 253.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SMITH, Amy",
+    "transfers": {
+     "CRAIG, Theresa": 626.0,
+     "HANSEN, Rodney": 468.0,
+     "RYAN, Mark": 1564.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HANSEN, Rodney",
+    "transfers": {
+     "CRAIG, Theresa": 2658.0,
+     "RYAN, Mark": 1813.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "CRAIG, Theresa": 10026.0,
+   "RYAN, Mark": 20109.0
+  },
+  "formal_votes": 30135
+ },
+ "Mount Ommaney": {
+  "candidates": [
+   {
+    "candidate_id": "BRAZIER, Clive",
+    "name": "BRAZIER, Clive",
+    "party": "LCQP"
+   },
+   {
+    "candidate_id": "POWELL, Michael",
+    "name": "POWELL, Michael",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "EUGARDE, Ian",
+    "name": "EUGARDE, Ian",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "WORSTELING, Asha",
+    "name": "WORSTELING, Asha",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "HOOPER, Roger",
+    "name": "HOOPER, Roger",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "PUGH, Jess",
+    "name": "PUGH, Jess",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "BRAZIER, Clive": 1034.0,
+   "POWELL, Michael": 819.0,
+   "EUGARDE, Ian": 184.0,
+   "WORSTELING, Asha": 3526.0,
+   "HOOPER, Roger": 10252.0,
+   "PUGH, Jess": 16148.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "EUGARDE, Ian",
+    "transfers": {
+     "BRAZIER, Clive": 33.0,
+     "POWELL, Michael": 56.0,
+     "WORSTELING, Asha": 25.0,
+     "HOOPER, Roger": 42.0,
+     "PUGH, Jess": 28.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "POWELL, Michael",
+    "transfers": {
+     "BRAZIER, Clive": 290.0,
+     "WORSTELING, Asha": 80.0,
+     "HOOPER, Roger": 375.0,
+     "PUGH, Jess": 130.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BRAZIER, Clive",
+    "transfers": {
+     "WORSTELING, Asha": 605.0,
+     "HOOPER, Roger": 391.0,
+     "PUGH, Jess": 361.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WORSTELING, Asha",
+    "transfers": {
+     "HOOPER, Roger": 891.0,
+     "PUGH, Jess": 3345.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "HOOPER, Roger": 11951.0,
+   "PUGH, Jess": 20012.0
+  },
+  "formal_votes": 31963
+ },
+ "Mudgeeraba": {
+  "candidates": [
+   {
+    "candidate_id": "PEAD, Gary",
+    "name": "PEAD, Gary",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "MCMAHON, Brandon",
+    "name": "MCMAHON, Brandon",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "ERIKSON, Leith",
+    "name": "ERIKSON, Leith",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "LIDDELL, Andrew",
+    "name": "LIDDELL, Andrew",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "PYTELLEK, Mark",
+    "name": "PYTELLEK, Mark",
+    "party": "CLMP"
+   },
+   {
+    "candidate_id": "SHERWOOD, Bill",
+    "name": "SHERWOOD, Bill",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "OTTEN-KAMP, Maxim",
+    "name": "OTTEN-KAMP, Maxim",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "COX, Lindon",
+    "name": "COX, Lindon",
+    "party": "AJP"
+   },
+   {
+    "candidate_id": "BATES, Ros",
+    "name": "BATES, Ros",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "TURNER, Scott",
+    "name": "TURNER, Scott",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "PEAD, Gary": 528.0,
+   "MCMAHON, Brandon": 565.0,
+   "ERIKSON, Leith": 224.0,
+   "LIDDELL, Andrew": 2464.0,
+   "PYTELLEK, Mark": 299.0,
+   "SHERWOOD, Bill": 273.0,
+   "OTTEN-KAMP, Maxim": 8472.0,
+   "COX, Lindon": 624.0,
+   "BATES, Ros": 15640.0,
+   "TURNER, Scott": 2857.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "ERIKSON, Leith",
+    "transfers": {
+     "PEAD, Gary": 33.0,
+     "MCMAHON, Brandon": 19.0,
+     "LIDDELL, Andrew": 39.0,
+     "PYTELLEK, Mark": 15.0,
+     "SHERWOOD, Bill": 45.0,
+     "OTTEN-KAMP, Maxim": 24.0,
+     "COX, Lindon": 19.0,
+     "BATES, Ros": 18.0,
+     "TURNER, Scott": 12.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "PYTELLEK, Mark",
+    "transfers": {
+     "PEAD, Gary": 35.0,
+     "MCMAHON, Brandon": 24.0,
+     "LIDDELL, Andrew": 82.0,
+     "SHERWOOD, Bill": 39.0,
+     "OTTEN-KAMP, Maxim": 39.0,
+     "COX, Lindon": 49.0,
+     "BATES, Ros": 26.0,
+     "TURNER, Scott": 20.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SHERWOOD, Bill",
+    "transfers": {
+     "PEAD, Gary": 92.0,
+     "MCMAHON, Brandon": 24.0,
+     "LIDDELL, Andrew": 44.0,
+     "OTTEN-KAMP, Maxim": 61.0,
+     "COX, Lindon": 41.0,
+     "BATES, Ros": 61.0,
+     "TURNER, Scott": 34.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MCMAHON, Brandon",
+    "transfers": {
+     "PEAD, Gary": 80.0,
+     "LIDDELL, Andrew": 245.0,
+     "OTTEN-KAMP, Maxim": 77.0,
+     "COX, Lindon": 49.0,
+     "BATES, Ros": 117.0,
+     "TURNER, Scott": 64.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "PEAD, Gary",
+    "transfers": {
+     "LIDDELL, Andrew": 380.0,
+     "OTTEN-KAMP, Maxim": 105.0,
+     "COX, Lindon": 66.0,
+     "BATES, Ros": 121.0,
+     "TURNER, Scott": 96.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "COX, Lindon",
+    "transfers": {
+     "LIDDELL, Andrew": 171.0,
+     "OTTEN-KAMP, Maxim": 139.0,
+     "BATES, Ros": 146.0,
+     "TURNER, Scott": 392.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "LIDDELL, Andrew",
+    "transfers": {
+     "OTTEN-KAMP, Maxim": 1164.0,
+     "BATES, Ros": 1702.0,
+     "TURNER, Scott": 559.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "TURNER, Scott",
+    "transfers": {
+     "OTTEN-KAMP, Maxim": 2669.0,
+     "BATES, Ros": 1365.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "OTTEN-KAMP, Maxim": 12750.0,
+   "BATES, Ros": 19196.0
+  },
+  "formal_votes": 31946
+ },
+ "Mulgrave": {
+  "candidates": [
+   {
+    "candidate_id": "PITT, Curtis",
+    "name": "PITT, Curtis",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "FEHER-HOLAN, Attila",
+    "name": "FEHER-HOLAN, Attila",
+    "party": "KAP"
+   },
+   {
+    "candidate_id": "CORY, Sue",
+    "name": "CORY, Sue",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "BARTORILLO, Francis",
+    "name": "BARTORILLO, Francis",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "VALLIANOS, Gerry",
+    "name": "VALLIANOS, Gerry",
+    "party": "LNP"
+   }
+  ],
+  "first_preferences": {
+   "PITT, Curtis": 14254.0,
+   "FEHER-HOLAN, Attila": 3395.0,
+   "CORY, Sue": 1772.0,
+   "BARTORILLO, Francis": 1825.0,
+   "VALLIANOS, Gerry": 7341.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "CORY, Sue",
+    "transfers": {
+     "PITT, Curtis": 1138.0,
+     "FEHER-HOLAN, Attila": 246.0,
+     "BARTORILLO, Francis": 185.0,
+     "VALLIANOS, Gerry": 203.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BARTORILLO, Francis",
+    "transfers": {
+     "PITT, Curtis": 373.0,
+     "FEHER-HOLAN, Attila": 1046.0,
+     "VALLIANOS, Gerry": 591.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "FEHER-HOLAN, Attila",
+    "transfers": {
+     "PITT, Curtis": 2028.0,
+     "VALLIANOS, Gerry": 2659.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "PITT, Curtis": 17793.0,
+   "VALLIANOS, Gerry": 10794.0
+  },
+  "formal_votes": 28587
+ },
+ "Mundingburra": {
+  "candidates": [
+   {
+    "candidate_id": "JACKSON, Susan",
+    "name": "JACKSON, Susan",
+    "party": "LCQP"
+   },
+   {
+    "candidate_id": "BROWN, Jenny",
+    "name": "BROWN, Jenny",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "WALKER, Les",
+    "name": "WALKER, Les",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "DOYLE, Glenn",
+    "name": "DOYLE, Glenn",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "BREWSTER, Martin",
+    "name": "BREWSTER, Martin",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "BOWRON, Ian",
+    "name": "BOWRON, Ian",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "TOMLINSON, Alannah",
+    "name": "TOMLINSON, Alannah",
+    "party": "KAP"
+   }
+  ],
+  "first_preferences": {
+   "JACKSON, Susan": 1307.0,
+   "BROWN, Jenny": 1953.0,
+   "WALKER, Les": 10839.0,
+   "DOYLE, Glenn": 9170.0,
+   "BREWSTER, Martin": 320.0,
+   "BOWRON, Ian": 1323.0,
+   "TOMLINSON, Alannah": 3448.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "BREWSTER, Martin",
+    "transfers": {
+     "JACKSON, Susan": 24.0,
+     "BROWN, Jenny": 13.0,
+     "WALKER, Les": 40.0,
+     "DOYLE, Glenn": 66.0,
+     "BOWRON, Ian": 122.0,
+     "TOMLINSON, Alannah": 55.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "JACKSON, Susan",
+    "transfers": {
+     "BROWN, Jenny": 481.0,
+     "WALKER, Les": 286.0,
+     "DOYLE, Glenn": 156.0,
+     "BOWRON, Ian": 214.0,
+     "TOMLINSON, Alannah": 194.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BOWRON, Ian",
+    "transfers": {
+     "BROWN, Jenny": 137.0,
+     "WALKER, Les": 192.0,
+     "DOYLE, Glenn": 331.0,
+     "TOMLINSON, Alannah": 999.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BROWN, Jenny",
+    "transfers": {
+     "WALKER, Les": 1842.0,
+     "DOYLE, Glenn": 319.0,
+     "TOMLINSON, Alannah": 423.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "TOMLINSON, Alannah",
+    "transfers": {
+     "WALKER, Les": 2096.0,
+     "DOYLE, Glenn": 3023.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "WALKER, Les": 15295.0,
+   "DOYLE, Glenn": 13065.0
+  },
+  "formal_votes": 28360
+ },
+ "Murrumba": {
+  "candidates": [
+   {
+    "candidate_id": "KENNEDY, Jason",
+    "name": "KENNEDY, Jason",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "HADDOCK, Karen",
+    "name": "HADDOCK, Karen",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "BARLOW, Yvonne",
+    "name": "BARLOW, Yvonne",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "CLARK, Stewart",
+    "name": "CLARK, Stewart",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "MILES, Steven",
+    "name": "MILES, Steven",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "MCMAHON, Leichelle",
+    "name": "MCMAHON, Leichelle",
+    "party": "SFF"
+   }
+  ],
+  "first_preferences": {
+   "KENNEDY, Jason": 2840.0,
+   "HADDOCK, Karen": 2571.0,
+   "BARLOW, Yvonne": 10016.0,
+   "CLARK, Stewart": 667.0,
+   "MILES, Steven": 17433.0,
+   "MCMAHON, Leichelle": 961.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "CLARK, Stewart",
+    "transfers": {
+     "KENNEDY, Jason": 113.0,
+     "HADDOCK, Karen": 134.0,
+     "BARLOW, Yvonne": 147.0,
+     "MILES, Steven": 157.0,
+     "MCMAHON, Leichelle": 116.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MCMAHON, Leichelle",
+    "transfers": {
+     "KENNEDY, Jason": 215.0,
+     "HADDOCK, Karen": 359.0,
+     "BARLOW, Yvonne": 190.0,
+     "MILES, Steven": 313.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HADDOCK, Karen",
+    "transfers": {
+     "KENNEDY, Jason": 697.0,
+     "BARLOW, Yvonne": 1596.0,
+     "MILES, Steven": 771.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "KENNEDY, Jason",
+    "transfers": {
+     "BARLOW, Yvonne": 1386.0,
+     "MILES, Steven": 2479.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "BARLOW, Yvonne": 13335.0,
+   "MILES, Steven": 21153.0
+  },
+  "formal_votes": 34488
+ },
+ "Nanango": {
+  "candidates": [
+   {
+    "candidate_id": "SCRIMSHAW, Tony",
+    "name": "SCRIMSHAW, Tony",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "FRECKLINGTON, Deb",
+    "name": "FRECKLINGTON, Deb",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "STAPLETON, Mark",
+    "name": "STAPLETON, Mark",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "O'RANCE, Maggie",
+    "name": "O'RANCE, Maggie",
+    "party": "LCQP"
+   },
+   {
+    "candidate_id": "HARBISON, John",
+    "name": "HARBISON, John",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "SCRIMSHAW, Tony": 4737.0,
+   "FRECKLINGTON, Deb": 16085.0,
+   "STAPLETON, Mark": 8908.0,
+   "O'RANCE, Maggie": 1342.0,
+   "HARBISON, John": 1154.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "HARBISON, John",
+    "transfers": {
+     "SCRIMSHAW, Tony": 134.0,
+     "FRECKLINGTON, Deb": 155.0,
+     "STAPLETON, Mark": 470.0,
+     "O'RANCE, Maggie": 395.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "O'RANCE, Maggie",
+    "transfers": {
+     "SCRIMSHAW, Tony": 623.0,
+     "FRECKLINGTON, Deb": 374.0,
+     "STAPLETON, Mark": 740.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SCRIMSHAW, Tony",
+    "transfers": {
+     "FRECKLINGTON, Deb": 3435.0,
+     "STAPLETON, Mark": 2059.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "FRECKLINGTON, Deb": 20049.0,
+   "STAPLETON, Mark": 12177.0
+  },
+  "formal_votes": 32226
+ },
+ "Nicklin": {
+  "candidates": [
+   {
+    "candidate_id": "SKELTON, Robert",
+    "name": "SKELTON, Robert",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "ETHERIDGE, Sue",
+    "name": "ETHERIDGE, Sue",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "CARDINAL, Michael",
+    "name": "CARDINAL, Michael",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "BOSI, Riccardo",
+    "name": "BOSI, Riccardo",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "HUNT, Marty",
+    "name": "HUNT, Marty",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "LAHN, Allona",
+    "name": "LAHN, Allona",
+    "party": "IMOP"
+   }
+  ],
+  "first_preferences": {
+   "SKELTON, Robert": 10214.0,
+   "ETHERIDGE, Sue": 3702.0,
+   "CARDINAL, Michael": 1900.0,
+   "BOSI, Riccardo": 1387.0,
+   "HUNT, Marty": 11255.0,
+   "LAHN, Allona": 1190.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "LAHN, Allona",
+    "transfers": {
+     "SKELTON, Robert": 112.0,
+     "ETHERIDGE, Sue": 279.0,
+     "CARDINAL, Michael": 162.0,
+     "BOSI, Riccardo": 441.0,
+     "HUNT, Marty": 196.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BOSI, Riccardo",
+    "transfers": {
+     "SKELTON, Robert": 192.0,
+     "ETHERIDGE, Sue": 412.0,
+     "CARDINAL, Michael": 798.0,
+     "HUNT, Marty": 426.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "CARDINAL, Michael",
+    "transfers": {
+     "SKELTON, Robert": 646.0,
+     "ETHERIDGE, Sue": 563.0,
+     "HUNT, Marty": 1651.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "ETHERIDGE, Sue",
+    "transfers": {
+     "SKELTON, Robert": 3702.0,
+     "HUNT, Marty": 1254.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "SKELTON, Robert": 14866.0,
+   "HUNT, Marty": 14782.0
+  },
+  "formal_votes": 29648
+ },
+ "Ninderry": {
+  "candidates": [
+   {
+    "candidate_id": "NEWLAND-BLACKMORE, Andrea",
+    "name": "NEWLAND-BLACKMORE, Andrea",
+    "party": "IMOP"
+   },
+   {
+    "candidate_id": "WEIJERS, Frank",
+    "name": "WEIJERS, Frank",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "PURDIE, Dan",
+    "name": "PURDIE, Dan",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "DODDS, Melinda",
+    "name": "DODDS, Melinda",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "GILES, Jay",
+    "name": "GILES, Jay",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "BRYAR, Dan",
+    "name": "BRYAR, Dan",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "NEWLAND-BLACKMORE, Andrea": 1344.0,
+   "WEIJERS, Frank": 2072.0,
+   "PURDIE, Dan": 14582.0,
+   "DODDS, Melinda": 10714.0,
+   "GILES, Jay": 272.0,
+   "BRYAR, Dan": 4149.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "GILES, Jay",
+    "transfers": {
+     "NEWLAND-BLACKMORE, Andrea": 29.0,
+     "WEIJERS, Frank": 88.0,
+     "PURDIE, Dan": 67.0,
+     "DODDS, Melinda": 43.0,
+     "BRYAR, Dan": 45.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "NEWLAND-BLACKMORE, Andrea",
+    "transfers": {
+     "WEIJERS, Frank": 644.0,
+     "PURDIE, Dan": 218.0,
+     "DODDS, Melinda": 152.0,
+     "BRYAR, Dan": 359.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WEIJERS, Frank",
+    "transfers": {
+     "PURDIE, Dan": 1634.0,
+     "DODDS, Melinda": 545.0,
+     "BRYAR, Dan": 625.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BRYAR, Dan",
+    "transfers": {
+     "PURDIE, Dan": 1426.0,
+     "DODDS, Melinda": 3752.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "PURDIE, Dan": 17927.0,
+   "DODDS, Melinda": 15206.0
+  },
+  "formal_votes": 33133
+ },
+ "Noosa": {
+  "candidates": [
+   {
+    "candidate_id": "REDFORD, Darrell",
+    "name": "REDFORD, Darrell",
+    "party": "AJP"
+   },
+   {
+    "candidate_id": "PRESCOTT, Rhonda",
+    "name": "PRESCOTT, Rhonda",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "DENHAM, Mark",
+    "name": "DENHAM, Mark",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "BELL-HENSELIN, Tracey",
+    "name": "BELL-HENSELIN, Tracey",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "BOLTON, Sandy",
+    "name": "BOLTON, Sandy",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "BLEVIN, James",
+    "name": "BLEVIN, James",
+    "party": "LNP"
+   }
+  ],
+  "first_preferences": {
+   "REDFORD, Darrell": 541.0,
+   "PRESCOTT, Rhonda": 2300.0,
+   "DENHAM, Mark": 4607.0,
+   "BELL-HENSELIN, Tracey": 1147.0,
+   "BOLTON, Sandy": 14051.0,
+   "BLEVIN, James": 9344.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "REDFORD, Darrell",
+    "transfers": {
+     "PRESCOTT, Rhonda": 287.0,
+     "DENHAM, Mark": 44.0,
+     "BELL-HENSELIN, Tracey": 72.0,
+     "BOLTON, Sandy": 103.0,
+     "BLEVIN, James": 35.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BELL-HENSELIN, Tracey",
+    "transfers": {
+     "PRESCOTT, Rhonda": 145.0,
+     "DENHAM, Mark": 123.0,
+     "BOLTON, Sandy": 523.0,
+     "BLEVIN, James": 428.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "PRESCOTT, Rhonda",
+    "transfers": {
+     "DENHAM, Mark": 892.0,
+     "BOLTON, Sandy": 1589.0,
+     "BLEVIN, James": 251.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "DENHAM, Mark",
+    "transfers": {
+     "BOLTON, Sandy": 4799.0,
+     "BLEVIN, James": 867.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "BOLTON, Sandy": 21065.0,
+   "BLEVIN, James": 10925.0
+  },
+  "formal_votes": 31990
+ },
+ "Nudgee": {
+  "candidates": [
+   {
+    "candidate_id": "PRITCHARD, Dane",
+    "name": "PRITCHARD, Dane",
+    "party": "IMOP"
+   },
+   {
+    "candidate_id": "HALLIWELL, Carrol",
+    "name": "HALLIWELL, Carrol",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "DAVIES, Jim",
+    "name": "DAVIES, Jim",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "LINARD, Leanne",
+    "name": "LINARD, Leanne",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "SHAW, Ryan",
+    "name": "SHAW, Ryan",
+    "party": "LNP"
+   }
+  ],
+  "first_preferences": {
+   "PRITCHARD, Dane": 584.0,
+   "HALLIWELL, Carrol": 1149.0,
+   "DAVIES, Jim": 4327.0,
+   "LINARD, Leanne": 16836.0,
+   "SHAW, Ryan": 9818.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "PRITCHARD, Dane",
+    "transfers": {
+     "HALLIWELL, Carrol": 257.0,
+     "DAVIES, Jim": 153.0,
+     "LINARD, Leanne": 98.0,
+     "SHAW, Ryan": 76.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HALLIWELL, Carrol",
+    "transfers": {
+     "DAVIES, Jim": 395.0,
+     "LINARD, Leanne": 288.0,
+     "SHAW, Ryan": 723.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "DAVIES, Jim",
+    "transfers": {
+     "LINARD, Leanne": 4070.0,
+     "SHAW, Ryan": 805.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "LINARD, Leanne": 21292.0,
+   "SHAW, Ryan": 11422.0
+  },
+  "formal_votes": 32714
+ },
+ "Oodgeroo": {
+  "candidates": [
+   {
+    "candidate_id": "ROBINSON, Mark",
+    "name": "ROBINSON, Mark",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "HENLEY, Irene",
+    "name": "HENLEY, Irene",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "CHAPMAN, Douglas",
+    "name": "CHAPMAN, Douglas",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "MARRIOTT, Kirstyn",
+    "name": "MARRIOTT, Kirstyn",
+    "party": "IMOP"
+   },
+   {
+    "candidate_id": "MAZLIN, Ian",
+    "name": "MAZLIN, Ian",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "RICHARDSON, Claire",
+    "name": "RICHARDSON, Claire",
+    "party": "IND*"
+   }
+  ],
+  "first_preferences": {
+   "ROBINSON, Mark": 12083.0,
+   "HENLEY, Irene": 8231.0,
+   "CHAPMAN, Douglas": 984.0,
+   "MARRIOTT, Kirstyn": 341.0,
+   "MAZLIN, Ian": 1575.0,
+   "RICHARDSON, Claire": 6349.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "MARRIOTT, Kirstyn",
+    "transfers": {
+     "ROBINSON, Mark": 38.0,
+     "HENLEY, Irene": 34.0,
+     "CHAPMAN, Douglas": 82.0,
+     "MAZLIN, Ian": 68.0,
+     "RICHARDSON, Claire": 119.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "CHAPMAN, Douglas",
+    "transfers": {
+     "ROBINSON, Mark": 470.0,
+     "HENLEY, Irene": 197.0,
+     "MAZLIN, Ian": 131.0,
+     "RICHARDSON, Claire": 268.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MAZLIN, Ian",
+    "transfers": {
+     "ROBINSON, Mark": 315.0,
+     "HENLEY, Irene": 634.0,
+     "RICHARDSON, Claire": 825.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "RICHARDSON, Claire",
+    "transfers": {
+     "ROBINSON, Mark": 3199.0,
+     "HENLEY, Irene": 4362.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "ROBINSON, Mark": 16105.0,
+   "HENLEY, Irene": 13458.0
+  },
+  "formal_votes": 29563
+ },
+ "Pine Rivers": {
+  "candidates": [
+   {
+    "candidate_id": "LEECH, Christopher",
+    "name": "LEECH, Christopher",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "SEIFFERT-SMITH, Tara",
+    "name": "SEIFFERT-SMITH, Tara",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "BOYD, Nikki",
+    "name": "BOYD, Nikki",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "VASCHINA, Bruce",
+    "name": "VASCHINA, Bruce",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "THOMAS, Kara",
+    "name": "THOMAS, Kara",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "AUSTIN, Steve",
+    "name": "AUSTIN, Steve",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "BROHMAN, Maureen",
+    "name": "BROHMAN, Maureen",
+    "party": "AJP"
+   },
+   {
+    "candidate_id": "PATTRICK, Alissa",
+    "name": "PATTRICK, Alissa",
+    "party": "IMOP"
+   }
+  ],
+  "first_preferences": {
+   "LEECH, Christopher": 1702.0,
+   "SEIFFERT-SMITH, Tara": 3148.0,
+   "BOYD, Nikki": 14953.0,
+   "VASCHINA, Bruce": 326.0,
+   "THOMAS, Kara": 12263.0,
+   "AUSTIN, Steve": 250.0,
+   "BROHMAN, Maureen": 549.0,
+   "PATTRICK, Alissa": 427.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "AUSTIN, Steve",
+    "transfers": {
+     "LEECH, Christopher": 88.0,
+     "SEIFFERT-SMITH, Tara": 11.0,
+     "BOYD, Nikki": 25.0,
+     "VASCHINA, Bruce": 18.0,
+     "THOMAS, Kara": 67.0,
+     "BROHMAN, Maureen": 29.0,
+     "PATTRICK, Alissa": 12.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "VASCHINA, Bruce",
+    "transfers": {
+     "LEECH, Christopher": 62.0,
+     "SEIFFERT-SMITH, Tara": 61.0,
+     "BOYD, Nikki": 50.0,
+     "THOMAS, Kara": 80.0,
+     "BROHMAN, Maureen": 44.0,
+     "PATTRICK, Alissa": 47.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "PATTRICK, Alissa",
+    "transfers": {
+     "LEECH, Christopher": 133.0,
+     "SEIFFERT-SMITH, Tara": 57.0,
+     "BOYD, Nikki": 52.0,
+     "THOMAS, Kara": 57.0,
+     "BROHMAN, Maureen": 187.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BROHMAN, Maureen",
+    "transfers": {
+     "LEECH, Christopher": 151.0,
+     "SEIFFERT-SMITH, Tara": 355.0,
+     "BOYD, Nikki": 149.0,
+     "THOMAS, Kara": 154.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "LEECH, Christopher",
+    "transfers": {
+     "SEIFFERT-SMITH, Tara": 616.0,
+     "BOYD, Nikki": 453.0,
+     "THOMAS, Kara": 1067.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SEIFFERT-SMITH, Tara",
+    "transfers": {
+     "BOYD, Nikki": 3381.0,
+     "THOMAS, Kara": 867.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "BOYD, Nikki": 19063.0,
+   "THOMAS, Kara": 14555.0
+  },
+  "formal_votes": 33618
+ },
+ "Pumicestone": {
+  "candidates": [
+   {
+    "candidate_id": "DRYDEN, Ryan",
+    "name": "DRYDEN, Ryan",
+    "party": "LCQP"
+   },
+   {
+    "candidate_id": "KING, Ali",
+    "name": "KING, Ali",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "NEWBERY, Steven",
+    "name": "NEWBERY, Steven",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "GASKE, Fiona",
+    "name": "GASKE, Fiona",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "OGDEN, Richard",
+    "name": "OGDEN, Richard",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "KONOWALENKO, Ross",
+    "name": "KONOWALENKO, Ross",
+    "party": "ON"
+   }
+  ],
+  "first_preferences": {
+   "DRYDEN, Ryan": 1414.0,
+   "KING, Ali": 15423.0,
+   "NEWBERY, Steven": 372.0,
+   "GASKE, Fiona": 12150.0,
+   "OGDEN, Richard": 1460.0,
+   "KONOWALENKO, Ross": 2617.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "NEWBERY, Steven",
+    "transfers": {
+     "DRYDEN, Ryan": 45.0,
+     "KING, Ali": 50.0,
+     "GASKE, Fiona": 84.0,
+     "OGDEN, Richard": 26.0,
+     "KONOWALENKO, Ross": 167.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "DRYDEN, Ryan",
+    "transfers": {
+     "KING, Ali": 517.0,
+     "GASKE, Fiona": 219.0,
+     "OGDEN, Richard": 387.0,
+     "KONOWALENKO, Ross": 336.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "OGDEN, Richard",
+    "transfers": {
+     "KING, Ali": 1222.0,
+     "GASKE, Fiona": 319.0,
+     "KONOWALENKO, Ross": 332.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "KONOWALENKO, Ross",
+    "transfers": {
+     "KING, Ali": 1268.0,
+     "GASKE, Fiona": 2184.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "KING, Ali": 18480.0,
+   "GASKE, Fiona": 14956.0
+  },
+  "formal_votes": 33436
+ },
+ "Redcliffe": {
+  "candidates": [
+   {
+    "candidate_id": "D'ATH, Yvette",
+    "name": "D'ATH, Yvette",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "KERR, Carolyn",
+    "name": "KERR, Carolyn",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "DAVY, Virginia",
+    "name": "DAVY, Virginia",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "SIMON, Will",
+    "name": "SIMON, Will",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "PHILP, Ian",
+    "name": "PHILP, Ian",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "DOOLEY, Kerri-Anne",
+    "name": "DOOLEY, Kerri-Anne",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "BLOHBERGER, Bob",
+    "name": "BLOHBERGER, Bob",
+    "party": "UAP"
+   }
+  ],
+  "first_preferences": {
+   "D'ATH, Yvette": 15371.0,
+   "KERR, Carolyn": 352.0,
+   "DAVY, Virginia": 1427.0,
+   "SIMON, Will": 2364.0,
+   "PHILP, Ian": 694.0,
+   "DOOLEY, Kerri-Anne": 12231.0,
+   "BLOHBERGER, Bob": 314.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "BLOHBERGER, Bob",
+    "transfers": {
+     "D'ATH, Yvette": 30.0,
+     "KERR, Carolyn": 10.0,
+     "DAVY, Virginia": 123.0,
+     "SIMON, Will": 19.0,
+     "PHILP, Ian": 40.0,
+     "DOOLEY, Kerri-Anne": 92.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "KERR, Carolyn",
+    "transfers": {
+     "D'ATH, Yvette": 45.0,
+     "DAVY, Virginia": 52.0,
+     "SIMON, Will": 55.0,
+     "PHILP, Ian": 161.0,
+     "DOOLEY, Kerri-Anne": 49.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "PHILP, Ian",
+    "transfers": {
+     "D'ATH, Yvette": 185.0,
+     "DAVY, Virginia": 181.0,
+     "SIMON, Will": 326.0,
+     "DOOLEY, Kerri-Anne": 203.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "DAVY, Virginia",
+    "transfers": {
+     "D'ATH, Yvette": 468.0,
+     "SIMON, Will": 371.0,
+     "DOOLEY, Kerri-Anne": 944.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SIMON, Will",
+    "transfers": {
+     "D'ATH, Yvette": 2278.0,
+     "DOOLEY, Kerri-Anne": 857.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "D'ATH, Yvette": 18377.0,
+   "DOOLEY, Kerri-Anne": 14376.0
+  },
+  "formal_votes": 32753
+ },
+ "Redlands": {
+  "candidates": [
+   {
+    "candidate_id": "MCNAUGHT, Carmen",
+    "name": "MCNAUGHT, Carmen",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "PIKE, Henry",
+    "name": "PIKE, Henry",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "WILLIAMS, Peter",
+    "name": "WILLIAMS, Peter",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "MAHER, Michelle",
+    "name": "MAHER, Michelle",
+    "party": "IMOP"
+   },
+   {
+    "candidate_id": "POPE, Andrew",
+    "name": "POPE, Andrew",
+    "party": "SFF"
+   },
+   {
+    "candidate_id": "RICHARDS, Kim",
+    "name": "RICHARDS, Kim",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "GUNNIS, Craig",
+    "name": "GUNNIS, Craig",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "BRADY, Frank Everett",
+    "name": "BRADY, Frank Everett",
+    "party": "LCQP"
+   }
+  ],
+  "first_preferences": {
+   "MCNAUGHT, Carmen": 2360.0,
+   "PIKE, Henry": 12457.0,
+   "WILLIAMS, Peter": 1356.0,
+   "MAHER, Michelle": 494.0,
+   "POPE, Andrew": 442.0,
+   "RICHARDS, Kim": 14211.0,
+   "GUNNIS, Craig": 213.0,
+   "BRADY, Frank Everett": 1132.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "GUNNIS, Craig",
+    "transfers": {
+     "MCNAUGHT, Carmen": 19.0,
+     "PIKE, Henry": 46.0,
+     "WILLIAMS, Peter": 70.0,
+     "MAHER, Michelle": 5.0,
+     "POPE, Andrew": 17.0,
+     "RICHARDS, Kim": 20.0,
+     "BRADY, Frank Everett": 36.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "POPE, Andrew",
+    "transfers": {
+     "MCNAUGHT, Carmen": 40.0,
+     "PIKE, Henry": 64.0,
+     "WILLIAMS, Peter": 118.0,
+     "MAHER, Michelle": 48.0,
+     "RICHARDS, Kim": 74.0,
+     "BRADY, Frank Everett": 115.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MAHER, Michelle",
+    "transfers": {
+     "MCNAUGHT, Carmen": 92.0,
+     "PIKE, Henry": 79.0,
+     "WILLIAMS, Peter": 186.0,
+     "RICHARDS, Kim": 76.0,
+     "BRADY, Frank Everett": 114.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BRADY, Frank Everett",
+    "transfers": {
+     "MCNAUGHT, Carmen": 470.0,
+     "PIKE, Henry": 193.0,
+     "WILLIAMS, Peter": 344.0,
+     "RICHARDS, Kim": 390.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WILLIAMS, Peter",
+    "transfers": {
+     "MCNAUGHT, Carmen": 503.0,
+     "PIKE, Henry": 1058.0,
+     "RICHARDS, Kim": 513.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MCNAUGHT, Carmen",
+    "transfers": {
+     "PIKE, Henry": 1162.0,
+     "RICHARDS, Kim": 2322.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "PIKE, Henry": 15059.0,
+   "RICHARDS, Kim": 17606.0
+  },
+  "formal_votes": 32665
+ },
+ "Rockhampton": {
+  "candidates": [
+   {
+    "candidate_id": "DOBLO, Dominic",
+    "name": "DOBLO, Dominic",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "HOPKINS, Tony",
+    "name": "HOPKINS, Tony",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "JONES, Mick",
+    "name": "JONES, Mick",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "O'ROURKE, Barry",
+    "name": "O'ROURKE, Barry",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "SAXON, Yvette",
+    "name": "SAXON, Yvette",
+    "party": "IMOP"
+   },
+   {
+    "candidate_id": "SHEPHERD, Christian",
+    "name": "SHEPHERD, Christian",
+    "party": "KAP"
+   },
+   {
+    "candidate_id": "OBRIEN, Torin",
+    "name": "OBRIEN, Torin",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "CRANGLE, Paul",
+    "name": "CRANGLE, Paul",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "BARNARD, Laura",
+    "name": "BARNARD, Laura",
+    "party": "LCQP"
+   }
+  ],
+  "first_preferences": {
+   "DOBLO, Dominic": 2042.0,
+   "HOPKINS, Tony": 7118.0,
+   "JONES, Mick": 1025.0,
+   "O'ROURKE, Barry": 13289.0,
+   "SAXON, Yvette": 328.0,
+   "SHEPHERD, Christian": 1151.0,
+   "OBRIEN, Torin": 3714.0,
+   "CRANGLE, Paul": 130.0,
+   "BARNARD, Laura": 1189.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "CRANGLE, Paul",
+    "transfers": {
+     "DOBLO, Dominic": 12.0,
+     "HOPKINS, Tony": 15.0,
+     "JONES, Mick": 7.0,
+     "O'ROURKE, Barry": 13.0,
+     "SAXON, Yvette": 8.0,
+     "SHEPHERD, Christian": 14.0,
+     "OBRIEN, Torin": 36.0,
+     "BARNARD, Laura": 25.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SAXON, Yvette",
+    "transfers": {
+     "DOBLO, Dominic": 40.0,
+     "HOPKINS, Tony": 24.0,
+     "JONES, Mick": 33.0,
+     "O'ROURKE, Barry": 40.0,
+     "SHEPHERD, Christian": 60.0,
+     "OBRIEN, Torin": 69.0,
+     "BARNARD, Laura": 70.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "JONES, Mick",
+    "transfers": {
+     "DOBLO, Dominic": 82.0,
+     "HOPKINS, Tony": 81.0,
+     "O'ROURKE, Barry": 501.0,
+     "SHEPHERD, Christian": 38.0,
+     "OBRIEN, Torin": 62.0,
+     "BARNARD, Laura": 301.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SHEPHERD, Christian",
+    "transfers": {
+     "DOBLO, Dominic": 161.0,
+     "HOPKINS, Tony": 192.0,
+     "O'ROURKE, Barry": 201.0,
+     "OBRIEN, Torin": 615.0,
+     "BARNARD, Laura": 94.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BARNARD, Laura",
+    "transfers": {
+     "DOBLO, Dominic": 276.0,
+     "HOPKINS, Tony": 228.0,
+     "O'ROURKE, Barry": 628.0,
+     "OBRIEN, Torin": 547.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "DOBLO, Dominic",
+    "transfers": {
+     "HOPKINS, Tony": 1309.0,
+     "O'ROURKE, Barry": 638.0,
+     "OBRIEN, Torin": 666.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "OBRIEN, Torin",
+    "transfers": {
+     "HOPKINS, Tony": 3440.0,
+     "O'ROURKE, Barry": 2269.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "HOPKINS, Tony": 12407.0,
+   "O'ROURKE, Barry": 17579.0
+  },
+  "formal_votes": 29986
+ },
+ "Sandgate": {
+  "candidates": [
+   {
+    "candidate_id": "MILES, Rodney",
+    "name": "MILES, Rodney",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "SIEMSEN, Clark",
+    "name": "SIEMSEN, Clark",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "MILHAM, Todd",
+    "name": "MILHAM, Todd",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "HINCHLIFFE, Stirling",
+    "name": "HINCHLIFFE, Stirling",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "LE ROY, Miree",
+    "name": "LE ROY, Miree",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "MILES, Rodney": 1693.0,
+   "SIEMSEN, Clark": 8712.0,
+   "MILHAM, Todd": 558.0,
+   "HINCHLIFFE, Stirling": 17777.0,
+   "LE ROY, Miree": 3825.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "MILHAM, Todd",
+    "transfers": {
+     "MILES, Rodney": 147.0,
+     "SIEMSEN, Clark": 113.0,
+     "HINCHLIFFE, Stirling": 136.0,
+     "LE ROY, Miree": 162.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MILES, Rodney",
+    "transfers": {
+     "SIEMSEN, Clark": 1043.0,
+     "HINCHLIFFE, Stirling": 469.0,
+     "LE ROY, Miree": 328.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "LE ROY, Miree",
+    "transfers": {
+     "SIEMSEN, Clark": 781.0,
+     "HINCHLIFFE, Stirling": 3534.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "SIEMSEN, Clark": 10649.0,
+   "HINCHLIFFE, Stirling": 21916.0
+  },
+  "formal_votes": 32565
+ },
+ "Scenic Rim": {
+  "candidates": [
+   {
+    "candidate_id": "STANTON, Luz",
+    "name": "STANTON, Luz",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "KRAUSE, Jon",
+    "name": "KRAUSE, Jon",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "FOWLER, Bradley",
+    "name": "FOWLER, Bradley",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "HUSBANDS, Deborah",
+    "name": "HUSBANDS, Deborah",
+    "party": "IMOP"
+   },
+   {
+    "candidate_id": "HENSELIN, Paul",
+    "name": "HENSELIN, Paul",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "AGNOLETTO, Pietro",
+    "name": "AGNOLETTO, Pietro",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "STANTON, Luz": 8699.0,
+   "KRAUSE, Jon": 15592.0,
+   "FOWLER, Bradley": 313.0,
+   "HUSBANDS, Deborah": 700.0,
+   "HENSELIN, Paul": 4934.0,
+   "AGNOLETTO, Pietro": 2606.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "FOWLER, Bradley",
+    "transfers": {
+     "STANTON, Luz": 46.0,
+     "KRAUSE, Jon": 70.0,
+     "HUSBANDS, Deborah": 31.0,
+     "HENSELIN, Paul": 152.0,
+     "AGNOLETTO, Pietro": 14.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HUSBANDS, Deborah",
+    "transfers": {
+     "STANTON, Luz": 97.0,
+     "KRAUSE, Jon": 112.0,
+     "HENSELIN, Paul": 326.0,
+     "AGNOLETTO, Pietro": 196.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "AGNOLETTO, Pietro",
+    "transfers": {
+     "STANTON, Luz": 1933.0,
+     "KRAUSE, Jon": 495.0,
+     "HENSELIN, Paul": 388.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HENSELIN, Paul",
+    "transfers": {
+     "STANTON, Luz": 1887.0,
+     "KRAUSE, Jon": 3913.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "STANTON, Luz": 12662.0,
+   "KRAUSE, Jon": 20182.0
+  },
+  "formal_votes": 32844
+ },
+ "South Brisbane": {
+  "candidates": [
+   {
+    "candidate_id": "TRAD, Jackie",
+    "name": "TRAD, Jackie",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "MEYER, John",
+    "name": "MEYER, John",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "THORNE, Marcus",
+    "name": "THORNE, Marcus",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "MACMAHON, Amy",
+    "name": "MACMAHON, Amy",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "TAXIS, Rosalie",
+    "name": "TAXIS, Rosalie",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "GREHAN, Clem",
+    "name": "GREHAN, Clem",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "JIGGENS, John",
+    "name": "JIGGENS, John",
+    "party": "IND*"
+   }
+  ],
+  "first_preferences": {
+   "TRAD, Jackie": 11471.0,
+   "MEYER, John": 441.0,
+   "THORNE, Marcus": 206.0,
+   "MACMAHON, Amy": 12631.0,
+   "TAXIS, Rosalie": 573.0,
+   "GREHAN, Clem": 7616.0,
+   "JIGGENS, John": 398.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "THORNE, Marcus",
+    "transfers": {
+     "TRAD, Jackie": 31.0,
+     "MEYER, John": 23.0,
+     "MACMAHON, Amy": 24.0,
+     "TAXIS, Rosalie": 84.0,
+     "GREHAN, Clem": 34.0,
+     "JIGGENS, John": 10.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "JIGGENS, John",
+    "transfers": {
+     "TRAD, Jackie": 51.0,
+     "MEYER, John": 147.0,
+     "MACMAHON, Amy": 105.0,
+     "TAXIS, Rosalie": 31.0,
+     "GREHAN, Clem": 74.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MEYER, John",
+    "transfers": {
+     "TRAD, Jackie": 185.0,
+     "MACMAHON, Amy": 243.0,
+     "TAXIS, Rosalie": 63.0,
+     "GREHAN, Clem": 120.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "TAXIS, Rosalie",
+    "transfers": {
+     "TRAD, Jackie": 137.0,
+     "MACMAHON, Amy": 151.0,
+     "GREHAN, Clem": 463.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "GREHAN, Clem",
+    "transfers": {
+     "TRAD, Jackie": 3011.0,
+     "MACMAHON, Amy": 5296.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "TRAD, Jackie": 14886.0,
+   "MACMAHON, Amy": 18450.0
+  },
+  "formal_votes": 33336
+ },
+ "Southern Downs": {
+  "candidates": [
+   {
+    "candidate_id": "HENDERSON, Tom",
+    "name": "HENDERSON, Tom",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "RICHTERS, Joel",
+    "name": "RICHTERS, Joel",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "LISTER, James",
+    "name": "LISTER, James",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "RICHARDSON, Malcolm",
+    "name": "RICHARDSON, Malcolm",
+    "party": "SFF"
+   },
+   {
+    "candidate_id": "WALDRON, Deborah",
+    "name": "WALDRON, Deborah",
+    "party": "LCQP"
+   },
+   {
+    "candidate_id": "MOULDEN, Rosemary",
+    "name": "MOULDEN, Rosemary",
+    "party": "ON"
+   }
+  ],
+  "first_preferences": {
+   "HENDERSON, Tom": 1309.0,
+   "RICHTERS, Joel": 8198.0,
+   "LISTER, James": 16285.0,
+   "RICHARDSON, Malcolm": 1398.0,
+   "WALDRON, Deborah": 1189.0,
+   "MOULDEN, Rosemary": 3182.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "WALDRON, Deborah",
+    "transfers": {
+     "HENDERSON, Tom": 204.0,
+     "RICHTERS, Joel": 203.0,
+     "LISTER, James": 147.0,
+     "RICHARDSON, Malcolm": 306.0,
+     "MOULDEN, Rosemary": 329.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HENDERSON, Tom",
+    "transfers": {
+     "RICHTERS, Joel": 1000.0,
+     "LISTER, James": 238.0,
+     "RICHARDSON, Malcolm": 165.0,
+     "MOULDEN, Rosemary": 110.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "RICHARDSON, Malcolm",
+    "transfers": {
+     "RICHTERS, Joel": 445.0,
+     "LISTER, James": 472.0,
+     "MOULDEN, Rosemary": 952.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MOULDEN, Rosemary",
+    "transfers": {
+     "RICHTERS, Joel": 1486.0,
+     "LISTER, James": 3087.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "RICHTERS, Joel": 11332.0,
+   "LISTER, James": 20229.0
+  },
+  "formal_votes": 31561
+ },
+ "Southport": {
+  "candidates": [
+   {
+    "candidate_id": "QUINN, Alan",
+    "name": "QUINN, Alan",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "FELIX, Raphael",
+    "name": "FELIX, Raphael",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "LAMBERT, Brett",
+    "name": "LAMBERT, Brett",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "MOLHOEK, Rob",
+    "name": "MOLHOEK, Rob",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "GALLAGHER, Susie",
+    "name": "GALLAGHER, Susie",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "DRAKE, Jack",
+    "name": "DRAKE, Jack",
+    "party": "CLMP"
+   },
+   {
+    "candidate_id": "AVDJIEVA, Maria",
+    "name": "AVDJIEVA, Maria",
+    "party": "UAP"
+   }
+  ],
+  "first_preferences": {
+   "QUINN, Alan": 2532.0,
+   "FELIX, Raphael": 1631.0,
+   "LAMBERT, Brett": 669.0,
+   "MOLHOEK, Rob": 12734.0,
+   "GALLAGHER, Susie": 9650.0,
+   "DRAKE, Jack": 267.0,
+   "AVDJIEVA, Maria": 456.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "DRAKE, Jack",
+    "transfers": {
+     "QUINN, Alan": 59.0,
+     "FELIX, Raphael": 34.0,
+     "LAMBERT, Brett": 44.0,
+     "MOLHOEK, Rob": 40.0,
+     "GALLAGHER, Susie": 46.0,
+     "AVDJIEVA, Maria": 44.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "AVDJIEVA, Maria",
+    "transfers": {
+     "QUINN, Alan": 69.0,
+     "FELIX, Raphael": 167.0,
+     "LAMBERT, Brett": 32.0,
+     "MOLHOEK, Rob": 137.0,
+     "GALLAGHER, Susie": 95.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "LAMBERT, Brett",
+    "transfers": {
+     "QUINN, Alan": 169.0,
+     "FELIX, Raphael": 181.0,
+     "MOLHOEK, Rob": 227.0,
+     "GALLAGHER, Susie": 168.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "FELIX, Raphael",
+    "transfers": {
+     "QUINN, Alan": 546.0,
+     "MOLHOEK, Rob": 1054.0,
+     "GALLAGHER, Susie": 413.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "QUINN, Alan",
+    "transfers": {
+     "MOLHOEK, Rob": 1290.0,
+     "GALLAGHER, Susie": 2085.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "MOLHOEK, Rob": 15482.0,
+   "GALLAGHER, Susie": 12457.0
+  },
+  "formal_votes": 27939
+ },
+ "Springwood": {
+  "candidates": [
+   {
+    "candidate_id": "DE BRENNI, Mick",
+    "name": "DE BRENNI, Mick",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "LEO, Janina",
+    "name": "LEO, Janina",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "RUSH, Judy",
+    "name": "RUSH, Judy",
+    "party": "AJP"
+   },
+   {
+    "candidate_id": "BOULTON, Kirrily",
+    "name": "BOULTON, Kirrily",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "COOKSON, Glen",
+    "name": "COOKSON, Glen",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "SOKOLOV, George",
+    "name": "SOKOLOV, George",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "SGANZERLA, Ian",
+    "name": "SGANZERLA, Ian",
+    "party": "CLMP"
+   }
+  ],
+  "first_preferences": {
+   "DE BRENNI, Mick": 15066.0,
+   "LEO, Janina": 2331.0,
+   "RUSH, Judy": 686.0,
+   "BOULTON, Kirrily": 10646.0,
+   "COOKSON, Glen": 1658.0,
+   "SOKOLOV, George": 234.0,
+   "SGANZERLA, Ian": 261.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "SOKOLOV, George",
+    "transfers": {
+     "DE BRENNI, Mick": 17.0,
+     "LEO, Janina": 13.0,
+     "RUSH, Judy": 11.0,
+     "BOULTON, Kirrily": 55.0,
+     "COOKSON, Glen": 111.0,
+     "SGANZERLA, Ian": 27.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SGANZERLA, Ian",
+    "transfers": {
+     "DE BRENNI, Mick": 46.0,
+     "LEO, Janina": 26.0,
+     "RUSH, Judy": 58.0,
+     "BOULTON, Kirrily": 47.0,
+     "COOKSON, Glen": 111.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "RUSH, Judy",
+    "transfers": {
+     "DE BRENNI, Mick": 157.0,
+     "LEO, Janina": 371.0,
+     "BOULTON, Kirrily": 107.0,
+     "COOKSON, Glen": 120.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "COOKSON, Glen",
+    "transfers": {
+     "DE BRENNI, Mick": 414.0,
+     "LEO, Janina": 372.0,
+     "BOULTON, Kirrily": 1214.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "LEO, Janina",
+    "transfers": {
+     "DE BRENNI, Mick": 2305.0,
+     "BOULTON, Kirrily": 808.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "DE BRENNI, Mick": 18005.0,
+   "BOULTON, Kirrily": 12877.0
+  },
+  "formal_votes": 30882
+ },
+ "Stafford": {
+  "candidates": [
+   {
+    "candidate_id": "HODGES, Jeff",
+    "name": "HODGES, Jeff",
+    "party": "CLMP"
+   },
+   {
+    "candidate_id": "BATES, Stephen",
+    "name": "BATES, Stephen",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "SANGJITPHUN, Ed",
+    "name": "SANGJITPHUN, Ed",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "DWYER, Kerrie",
+    "name": "DWYER, Kerrie",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "CONCIATORE, Anthony",
+    "name": "CONCIATORE, Anthony",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "SULLIVAN, Jimmy",
+    "name": "SULLIVAN, Jimmy",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "HODGES, Jeff": 644.0,
+   "BATES, Stephen": 5578.0,
+   "SANGJITPHUN, Ed": 10837.0,
+   "DWYER, Kerrie": 1006.0,
+   "CONCIATORE, Anthony": 417.0,
+   "SULLIVAN, Jimmy": 15472.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "CONCIATORE, Anthony",
+    "transfers": {
+     "HODGES, Jeff": 72.0,
+     "BATES, Stephen": 96.0,
+     "SANGJITPHUN, Ed": 100.0,
+     "DWYER, Kerrie": 48.0,
+     "SULLIVAN, Jimmy": 101.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HODGES, Jeff",
+    "transfers": {
+     "BATES, Stephen": 277.0,
+     "SANGJITPHUN, Ed": 139.0,
+     "DWYER, Kerrie": 151.0,
+     "SULLIVAN, Jimmy": 149.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "DWYER, Kerrie",
+    "transfers": {
+     "BATES, Stephen": 274.0,
+     "SANGJITPHUN, Ed": 628.0,
+     "SULLIVAN, Jimmy": 303.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BATES, Stephen",
+    "transfers": {
+     "SANGJITPHUN, Ed": 1238.0,
+     "SULLIVAN, Jimmy": 4987.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "SANGJITPHUN, Ed": 12942.0,
+   "SULLIVAN, Jimmy": 21012.0
+  },
+  "formal_votes": 33954
+ },
+ "Stretton": {
+  "candidates": [
+   {
+    "candidate_id": "CHEKHUNOV, Alexey",
+    "name": "CHEKHUNOV, Alexey",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "ZHUANG, Peter",
+    "name": "ZHUANG, Peter",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "PEGG, Duncan",
+    "name": "PEGG, Duncan",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "WILDIN, Andrea",
+    "name": "WILDIN, Andrea",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "CHEKHUNOV, Alexey": 1280.0,
+   "ZHUANG, Peter": 8609.0,
+   "PEGG, Duncan": 16128.0,
+   "WILDIN, Andrea": 2483.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "CHEKHUNOV, Alexey",
+    "transfers": {
+     "ZHUANG, Peter": 756.0,
+     "PEGG, Duncan": 303.0,
+     "WILDIN, Andrea": 221.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WILDIN, Andrea",
+    "transfers": {
+     "ZHUANG, Peter": 662.0,
+     "PEGG, Duncan": 2042.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "ZHUANG, Peter": 10027.0,
+   "PEGG, Duncan": 18473.0
+  },
+  "formal_votes": 28500
+ },
+ "Surfers Paradise": {
+  "candidates": [
+   {
+    "candidate_id": "SCHULTZ, Leeanne",
+    "name": "SCHULTZ, Leeanne",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "MCKAY, Roger",
+    "name": "MCKAY, Roger",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "BAILEY, Brianna",
+    "name": "BAILEY, Brianna",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "LANGBROEK, John-Paul",
+    "name": "LANGBROEK, John-Paul",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "QUINN, Nelson",
+    "name": "QUINN, Nelson",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "SCHULTZ, Leeanne": 1785.0,
+   "MCKAY, Roger": 684.0,
+   "BAILEY, Brianna": 7265.0,
+   "LANGBROEK, John-Paul": 16470.0,
+   "QUINN, Nelson": 2324.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "MCKAY, Roger",
+    "transfers": {
+     "SCHULTZ, Leeanne": 302.0,
+     "BAILEY, Brianna": 85.0,
+     "LANGBROEK, John-Paul": 233.0,
+     "QUINN, Nelson": 64.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SCHULTZ, Leeanne",
+    "transfers": {
+     "BAILEY, Brianna": 613.0,
+     "LANGBROEK, John-Paul": 1114.0,
+     "QUINN, Nelson": 360.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "QUINN, Nelson",
+    "transfers": {
+     "BAILEY, Brianna": 1675.0,
+     "LANGBROEK, John-Paul": 1073.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "BAILEY, Brianna": 9638.0,
+   "LANGBROEK, John-Paul": 18890.0
+  },
+  "formal_votes": 28528
+ },
+ "Theodore": {
+  "candidates": [
+   {
+    "candidate_id": "BELL, Tracey",
+    "name": "BELL, Tracey",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "BOOTHMAN, Mark",
+    "name": "BOOTHMAN, Mark",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "WOODLOCK, John",
+    "name": "WOODLOCK, John",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "HOLLAND, Anita",
+    "name": "HOLLAND, Anita",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "MARKS, Robert",
+    "name": "MARKS, Robert",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "OXENFORD, Gale",
+    "name": "OXENFORD, Gale",
+    "party": "IND*"
+   }
+  ],
+  "first_preferences": {
+   "BELL, Tracey": 11516.0,
+   "BOOTHMAN, Mark": 13320.0,
+   "WOODLOCK, John": 2083.0,
+   "HOLLAND, Anita": 2152.0,
+   "MARKS, Robert": 438.0,
+   "OXENFORD, Gale": 618.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "MARKS, Robert",
+    "transfers": {
+     "BELL, Tracey": 43.0,
+     "BOOTHMAN, Mark": 100.0,
+     "WOODLOCK, John": 36.0,
+     "HOLLAND, Anita": 199.0,
+     "OXENFORD, Gale": 60.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "OXENFORD, Gale",
+    "transfers": {
+     "BELL, Tracey": 151.0,
+     "BOOTHMAN, Mark": 149.0,
+     "WOODLOCK, John": 147.0,
+     "HOLLAND, Anita": 231.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WOODLOCK, John",
+    "transfers": {
+     "BELL, Tracey": 1403.0,
+     "BOOTHMAN, Mark": 512.0,
+     "HOLLAND, Anita": 351.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HOLLAND, Anita",
+    "transfers": {
+     "BELL, Tracey": 948.0,
+     "BOOTHMAN, Mark": 1985.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "BELL, Tracey": 14061.0,
+   "BOOTHMAN, Mark": 16066.0
+  },
+  "formal_votes": 30127
+ },
+ "Thuringowa": {
+  "candidates": [
+   {
+    "candidate_id": "ALEXANDER, Jeni",
+    "name": "ALEXANDER, Jeni",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "HARDISTY, Heidi",
+    "name": "HARDISTY, Heidi",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "WOOD, Julianne",
+    "name": "WOOD, Julianne",
+    "party": "KAP"
+   },
+   {
+    "candidate_id": "TURNER, Michael (Blu)",
+    "name": "TURNER, Michael (Blu)",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "HARPER, Aaron",
+    "name": "HARPER, Aaron",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "MARR, Natalie",
+    "name": "MARR, Natalie",
+    "party": "LNP"
+   }
+  ],
+  "first_preferences": {
+   "ALEXANDER, Jeni": 2907.0,
+   "HARDISTY, Heidi": 1476.0,
+   "WOOD, Julianne": 4780.0,
+   "TURNER, Michael (Blu)": 547.0,
+   "HARPER, Aaron": 10922.0,
+   "MARR, Natalie": 9022.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "TURNER, Michael (Blu)",
+    "transfers": {
+     "ALEXANDER, Jeni": 180.0,
+     "HARDISTY, Heidi": 43.0,
+     "WOOD, Julianne": 139.0,
+     "HARPER, Aaron": 103.0,
+     "MARR, Natalie": 82.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HARDISTY, Heidi",
+    "transfers": {
+     "ALEXANDER, Jeni": 205.0,
+     "WOOD, Julianne": 258.0,
+     "HARPER, Aaron": 851.0,
+     "MARR, Natalie": 205.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "ALEXANDER, Jeni",
+    "transfers": {
+     "WOOD, Julianne": 2147.0,
+     "HARPER, Aaron": 489.0,
+     "MARR, Natalie": 656.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "WOOD, Julianne",
+    "transfers": {
+     "HARPER, Aaron": 3425.0,
+     "MARR, Natalie": 3899.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "HARPER, Aaron": 15790.0,
+   "MARR, Natalie": 13864.0
+  },
+  "formal_votes": 29654
+ },
+ "Toohey": {
+  "candidates": [
+   {
+    "candidate_id": "CRAZE, Warren",
+    "name": "CRAZE, Warren",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "ROEL, Claudia",
+    "name": "ROEL, Claudia",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "GARTON, Claire",
+    "name": "GARTON, Claire",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "PETERSON, Nikolas",
+    "name": "PETERSON, Nikolas",
+    "party": "LCQP"
+   },
+   {
+    "candidate_id": "RUSSO, Peter",
+    "name": "RUSSO, Peter",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "CRAZE, Warren": 8706.0,
+   "ROEL, Claudia": 939.0,
+   "GARTON, Claire": 3636.0,
+   "PETERSON, Nikolas": 1072.0,
+   "RUSSO, Peter": 14591.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "ROEL, Claudia",
+    "transfers": {
+     "CRAZE, Warren": 418.0,
+     "GARTON, Claire": 118.0,
+     "PETERSON, Nikolas": 244.0,
+     "RUSSO, Peter": 159.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "PETERSON, Nikolas",
+    "transfers": {
+     "CRAZE, Warren": 353.0,
+     "GARTON, Claire": 540.0,
+     "RUSSO, Peter": 423.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "GARTON, Claire",
+    "transfers": {
+     "CRAZE, Warren": 793.0,
+     "RUSSO, Peter": 3501.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "CRAZE, Warren": 10270.0,
+   "RUSSO, Peter": 18674.0
+  },
+  "formal_votes": 28944
+ },
+ "Toowoomba North": {
+  "candidates": [
+   {
+    "candidate_id": "HUMPHREY, Ron",
+    "name": "HUMPHREY, Ron",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "WATTS, Trevor",
+    "name": "WATTS, Trevor",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "SOKOLOVA, Stella",
+    "name": "SOKOLOVA, Stella",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "NELLIGAN, Alyce",
+    "name": "NELLIGAN, Alyce",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "O'HARA SULLIVAN, Megan",
+    "name": "O'HARA SULLIVAN, Megan",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "HUMPHREY, Ron": 2380.0,
+   "WATTS, Trevor": 16115.0,
+   "SOKOLOVA, Stella": 364.0,
+   "NELLIGAN, Alyce": 2080.0,
+   "O'HARA SULLIVAN, Megan": 11297.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "SOKOLOVA, Stella",
+    "transfers": {
+     "HUMPHREY, Ron": 155.0,
+     "WATTS, Trevor": 105.0,
+     "NELLIGAN, Alyce": 61.0,
+     "O'HARA SULLIVAN, Megan": 43.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "NELLIGAN, Alyce",
+    "transfers": {
+     "HUMPHREY, Ron": 216.0,
+     "WATTS, Trevor": 330.0,
+     "O'HARA SULLIVAN, Megan": 1595.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HUMPHREY, Ron",
+    "transfers": {
+     "WATTS, Trevor": 1929.0,
+     "O'HARA SULLIVAN, Megan": 822.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "WATTS, Trevor": 18479.0,
+   "O'HARA SULLIVAN, Megan": 13757.0
+  },
+  "formal_votes": 32236
+ },
+ "Toowoomba South": {
+  "candidates": [
+   {
+    "candidate_id": "KOZLOWSKI, Dylan",
+    "name": "KOZLOWSKI, Dylan",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "COYNE, Thomas",
+    "name": "COYNE, Thomas",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "TURNER, Allan",
+    "name": "TURNER, Allan",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "JANETZKI, David",
+    "name": "JANETZKI, David",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "BERRY, Robert",
+    "name": "BERRY, Robert",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "KRAUSE, Susan",
+    "name": "KRAUSE, Susan",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "KOZLOWSKI, Dylan": 2502.0,
+   "COYNE, Thomas": 2232.0,
+   "TURNER, Allan": 490.0,
+   "JANETZKI, David": 16689.0,
+   "BERRY, Robert": 570.0,
+   "KRAUSE, Susan": 10028.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "TURNER, Allan",
+    "transfers": {
+     "KOZLOWSKI, Dylan": 187.0,
+     "COYNE, Thomas": 58.0,
+     "JANETZKI, David": 144.0,
+     "BERRY, Robert": 47.0,
+     "KRAUSE, Susan": 54.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BERRY, Robert",
+    "transfers": {
+     "KOZLOWSKI, Dylan": 165.0,
+     "COYNE, Thomas": 123.0,
+     "JANETZKI, David": 155.0,
+     "KRAUSE, Susan": 174.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "COYNE, Thomas",
+    "transfers": {
+     "KOZLOWSKI, Dylan": 327.0,
+     "JANETZKI, David": 457.0,
+     "KRAUSE, Susan": 1629.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "KOZLOWSKI, Dylan",
+    "transfers": {
+     "JANETZKI, David": 2134.0,
+     "KRAUSE, Susan": 1047.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "JANETZKI, David": 19579.0,
+   "KRAUSE, Susan": 12932.0
+  },
+  "formal_votes": 32511
+ },
+ "Townsville": {
+  "candidates": [
+   {
+    "candidate_id": "MCMAHON, Toni",
+    "name": "MCMAHON, Toni",
+    "party": "IMOP"
+   },
+   {
+    "candidate_id": "SCHWARZ, Joshua",
+    "name": "SCHWARZ, Joshua",
+    "party": "KAP"
+   },
+   {
+    "candidate_id": "STEWART, Scott",
+    "name": "STEWART, Scott",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "GRUMBERG, Samara",
+    "name": "GRUMBERG, Samara",
+    "party": "AJP"
+   },
+   {
+    "candidate_id": "HATHAWAY, John",
+    "name": "HATHAWAY, John",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "DOWLING, Greg",
+    "name": "DOWLING, Greg",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "HAWKS, Clynton",
+    "name": "HAWKS, Clynton",
+    "party": "NQF"
+   },
+   {
+    "candidate_id": "CLARKSON, Clive",
+    "name": "CLARKSON, Clive",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "O'GRADY, Tom",
+    "name": "O'GRADY, Tom",
+    "party": "GRN"
+   }
+  ],
+  "first_preferences": {
+   "MCMAHON, Toni": 534.0,
+   "SCHWARZ, Joshua": 3204.0,
+   "STEWART, Scott": 10289.0,
+   "GRUMBERG, Samara": 554.0,
+   "HATHAWAY, John": 9508.0,
+   "DOWLING, Greg": 520.0,
+   "HAWKS, Clynton": 157.0,
+   "CLARKSON, Clive": 1293.0,
+   "O'GRADY, Tom": 2366.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "HAWKS, Clynton",
+    "transfers": {
+     "MCMAHON, Toni": 16.0,
+     "SCHWARZ, Joshua": 42.0,
+     "STEWART, Scott": 20.0,
+     "GRUMBERG, Samara": 15.0,
+     "HATHAWAY, John": 22.0,
+     "DOWLING, Greg": 15.0,
+     "CLARKSON, Clive": 13.0,
+     "O'GRADY, Tom": 14.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "DOWLING, Greg",
+    "transfers": {
+     "MCMAHON, Toni": 36.0,
+     "SCHWARZ, Joshua": 90.0,
+     "STEWART, Scott": 69.0,
+     "GRUMBERG, Samara": 20.0,
+     "HATHAWAY, John": 135.0,
+     "CLARKSON, Clive": 152.0,
+     "O'GRADY, Tom": 33.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MCMAHON, Toni",
+    "transfers": {
+     "SCHWARZ, Joshua": 244.0,
+     "STEWART, Scott": 89.0,
+     "GRUMBERG, Samara": 97.0,
+     "HATHAWAY, John": 40.0,
+     "CLARKSON, Clive": 56.0,
+     "O'GRADY, Tom": 60.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "GRUMBERG, Samara",
+    "transfers": {
+     "SCHWARZ, Joshua": 116.0,
+     "STEWART, Scott": 131.0,
+     "HATHAWAY, John": 81.0,
+     "CLARKSON, Clive": 76.0,
+     "O'GRADY, Tom": 282.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "CLARKSON, Clive",
+    "transfers": {
+     "SCHWARZ, Joshua": 800.0,
+     "STEWART, Scott": 191.0,
+     "HATHAWAY, John": 383.0,
+     "O'GRADY, Tom": 216.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "O'GRADY, Tom",
+    "transfers": {
+     "SCHWARZ, Joshua": 485.0,
+     "STEWART, Scott": 2054.0,
+     "HATHAWAY, John": 432.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SCHWARZ, Joshua",
+    "transfers": {
+     "STEWART, Scott": 2256.0,
+     "HATHAWAY, John": 2725.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "STEWART, Scott": 15099.0,
+   "HATHAWAY, John": 13326.0
+  },
+  "formal_votes": 28425
+ },
+ "Traeger": {
+  "candidates": [
+   {
+    "candidate_id": "BAMBRICK, James",
+    "name": "BAMBRICK, James",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "HORVATH, Kristian",
+    "name": "HORVATH, Kristian",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "KATTER, Robbie",
+    "name": "KATTER, Robbie",
+    "party": "KAP"
+   },
+   {
+    "candidate_id": "SMITH, Marnie",
+    "name": "SMITH, Marnie",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "COLLINS, Phillip",
+    "name": "COLLINS, Phillip",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "SCRIVEN, Craig H.B",
+    "name": "SCRIVEN, Craig H.B",
+    "party": "IND*"
+   }
+  ],
+  "first_preferences": {
+   "BAMBRICK, James": 4219.0,
+   "HORVATH, Kristian": 460.0,
+   "KATTER, Robbie": 12047.0,
+   "SMITH, Marnie": 3284.0,
+   "COLLINS, Phillip": 182.0,
+   "SCRIVEN, Craig H.B": 277.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "COLLINS, Phillip",
+    "transfers": {
+     "BAMBRICK, James": 19.0,
+     "HORVATH, Kristian": 12.0,
+     "KATTER, Robbie": 73.0,
+     "SMITH, Marnie": 49.0,
+     "SCRIVEN, Craig H.B": 29.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SCRIVEN, Craig H.B",
+    "transfers": {
+     "BAMBRICK, James": 76.0,
+     "HORVATH, Kristian": 35.0,
+     "KATTER, Robbie": 116.0,
+     "SMITH, Marnie": 79.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HORVATH, Kristian",
+    "transfers": {
+     "BAMBRICK, James": 304.0,
+     "KATTER, Robbie": 111.0,
+     "SMITH, Marnie": 92.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SMITH, Marnie",
+    "transfers": {
+     "BAMBRICK, James": 556.0,
+     "KATTER, Robbie": 2948.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "BAMBRICK, James": 5174.0,
+   "KATTER, Robbie": 15295.0
+  },
+  "formal_votes": 20469
+ },
+ "Warrego": {
+  "candidates": [
+   {
+    "candidate_id": "GURNETT, Rick",
+    "name": "GURNETT, Rick",
+    "party": "KAP"
+   },
+   {
+    "candidate_id": "SANDERSON, Joshua",
+    "name": "SANDERSON, Joshua",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "STONE, Mark",
+    "name": "STONE, Mark",
+    "party": "IND*"
+   },
+   {
+    "candidate_id": "COYNE, Joshua",
+    "name": "COYNE, Joshua",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "LEAHY, Ann",
+    "name": "LEAHY, Ann",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "O'BRIEN, Mark",
+    "name": "O'BRIEN, Mark",
+    "party": "ALP"
+   }
+  ],
+  "first_preferences": {
+   "GURNETT, Rick": 2842.0,
+   "SANDERSON, Joshua": 569.0,
+   "STONE, Mark": 487.0,
+   "COYNE, Joshua": 2224.0,
+   "LEAHY, Ann": 14100.0,
+   "O'BRIEN, Mark": 4966.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "STONE, Mark",
+    "transfers": {
+     "GURNETT, Rick": 132.0,
+     "SANDERSON, Joshua": 84.0,
+     "COYNE, Joshua": 86.0,
+     "LEAHY, Ann": 107.0,
+     "O'BRIEN, Mark": 78.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SANDERSON, Joshua",
+    "transfers": {
+     "GURNETT, Rick": 131.0,
+     "COYNE, Joshua": 100.0,
+     "LEAHY, Ann": 133.0,
+     "O'BRIEN, Mark": 289.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "COYNE, Joshua",
+    "transfers": {
+     "GURNETT, Rick": 1144.0,
+     "LEAHY, Ann": 869.0,
+     "O'BRIEN, Mark": 397.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "GURNETT, Rick",
+    "transfers": {
+     "LEAHY, Ann": 3215.0,
+     "O'BRIEN, Mark": 1034.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "LEAHY, Ann": 18424.0,
+   "O'BRIEN, Mark": 6764.0
+  },
+  "formal_votes": 25188
+ },
+ "Waterford": {
+  "candidates": [
+   {
+    "candidate_id": "CASWELL, Andrew",
+    "name": "CASWELL, Andrew",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "SMART, Lachlan",
+    "name": "SMART, Lachlan",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "FENTIMAN, Shannon",
+    "name": "FENTIMAN, Shannon",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "MILLER, Kim",
+    "name": "MILLER, Kim",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "OLSEN, Ben",
+    "name": "OLSEN, Ben",
+    "party": "CLMP"
+   },
+   {
+    "candidate_id": "CARTER, Lanai",
+    "name": "CARTER, Lanai",
+    "party": "IND*"
+   }
+  ],
+  "first_preferences": {
+   "CASWELL, Andrew": 6902.0,
+   "SMART, Lachlan": 1882.0,
+   "FENTIMAN, Shannon": 14759.0,
+   "MILLER, Kim": 2442.0,
+   "OLSEN, Ben": 400.0,
+   "CARTER, Lanai": 688.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "OLSEN, Ben",
+    "transfers": {
+     "CASWELL, Andrew": 51.0,
+     "SMART, Lachlan": 44.0,
+     "FENTIMAN, Shannon": 71.0,
+     "MILLER, Kim": 110.0,
+     "CARTER, Lanai": 124.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "CARTER, Lanai",
+    "transfers": {
+     "CASWELL, Andrew": 136.0,
+     "SMART, Lachlan": 174.0,
+     "FENTIMAN, Shannon": 195.0,
+     "MILLER, Kim": 307.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "SMART, Lachlan",
+    "transfers": {
+     "CASWELL, Andrew": 390.0,
+     "FENTIMAN, Shannon": 1367.0,
+     "MILLER, Kim": 343.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "MILLER, Kim",
+    "transfers": {
+     "CASWELL, Andrew": 1721.0,
+     "FENTIMAN, Shannon": 1481.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "CASWELL, Andrew": 9200.0,
+   "FENTIMAN, Shannon": 17873.0
+  },
+  "formal_votes": 27073
+ },
+ "Whitsunday": {
+  "candidates": [
+   {
+    "candidate_id": "HILDER, Paul",
+    "name": "HILDER, Paul",
+    "party": "LCQP"
+   },
+   {
+    "candidate_id": "CAMM, Amanda",
+    "name": "CAMM, Amanda",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "ARMSTRONG, Greg",
+    "name": "ARMSTRONG, Greg",
+    "party": "UAP"
+   },
+   {
+    "candidate_id": "BARRETT, Emma",
+    "name": "BARRETT, Emma",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "KELLY, Angie",
+    "name": "KELLY, Angie",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "LAWSON, Deb",
+    "name": "LAWSON, Deb",
+    "party": "ON"
+   },
+   {
+    "candidate_id": "COSTIGAN, Jason",
+    "name": "COSTIGAN, Jason",
+    "party": "NQF"
+   },
+   {
+    "candidate_id": "PATERSON, Ciaron",
+    "name": "PATERSON, Ciaron",
+    "party": "KAP"
+   }
+  ],
+  "first_preferences": {
+   "HILDER, Paul": 1417.0,
+   "CAMM, Amanda": 9592.0,
+   "ARMSTRONG, Greg": 255.0,
+   "BARRETT, Emma": 1134.0,
+   "KELLY, Angie": 9523.0,
+   "LAWSON, Deb": 2742.0,
+   "COSTIGAN, Jason": 2735.0,
+   "PATERSON, Ciaron": 1803.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "ARMSTRONG, Greg",
+    "transfers": {
+     "HILDER, Paul": 36.0,
+     "CAMM, Amanda": 52.0,
+     "BARRETT, Emma": 23.0,
+     "KELLY, Angie": 27.0,
+     "LAWSON, Deb": 75.0,
+     "COSTIGAN, Jason": 20.0,
+     "PATERSON, Ciaron": 22.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "BARRETT, Emma",
+    "transfers": {
+     "HILDER, Paul": 276.0,
+     "CAMM, Amanda": 136.0,
+     "KELLY, Angie": 621.0,
+     "LAWSON, Deb": 56.0,
+     "COSTIGAN, Jason": 38.0,
+     "PATERSON, Ciaron": 30.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "HILDER, Paul",
+    "transfers": {
+     "CAMM, Amanda": 497.0,
+     "KELLY, Angie": 525.0,
+     "LAWSON, Deb": 348.0,
+     "COSTIGAN, Jason": 163.0,
+     "PATERSON, Ciaron": 196.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "PATERSON, Ciaron",
+    "transfers": {
+     "CAMM, Amanda": 344.0,
+     "KELLY, Angie": 247.0,
+     "LAWSON, Deb": 1029.0,
+     "COSTIGAN, Jason": 431.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "COSTIGAN, Jason",
+    "transfers": {
+     "CAMM, Amanda": 1167.0,
+     "KELLY, Angie": 669.0,
+     "LAWSON, Deb": 1551.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "LAWSON, Deb",
+    "transfers": {
+     "CAMM, Amanda": 3764.0,
+     "KELLY, Angie": 2037.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "CAMM, Amanda": 15552.0,
+   "KELLY, Angie": 13649.0
+  },
+  "formal_votes": 29201
+ },
+ "Woodridge": {
+  "candidates": [
+   {
+    "candidate_id": "DICK, Cameron",
+    "name": "DICK, Cameron",
+    "party": "ALP"
+   },
+   {
+    "candidate_id": "BAUER, Russell",
+    "name": "BAUER, Russell",
+    "party": "LNP"
+   },
+   {
+    "candidate_id": "BENNETT, Valerie",
+    "name": "BENNETT, Valerie",
+    "party": "GRN"
+   },
+   {
+    "candidate_id": "VALENTINE, Lann",
+    "name": "VALENTINE, Lann",
+    "party": "ON"
+   }
+  ],
+  "first_preferences": {
+   "DICK, Cameron": 18935.0,
+   "BAUER, Russell": 4249.0,
+   "BENNETT, Valerie": 2084.0,
+   "VALENTINE, Lann": 3006.0
+  },
+  "steps": [
+   {
+    "excluded_candidate": "BENNETT, Valerie",
+    "transfers": {
+     "DICK, Cameron": 1240.0,
+     "BAUER, Russell": 409.0,
+     "VALENTINE, Lann": 435.0
+    },
+    "exhausted": 0.0
+   },
+   {
+    "excluded_candidate": "VALENTINE, Lann",
+    "transfers": {
+     "DICK, Cameron": 1383.0,
+     "BAUER, Russell": 2058.0
+    },
+    "exhausted": 0.0
+   }
+  ],
+  "final_totals": {
+   "DICK, Cameron": 21558.0,
+   "BAUER, Russell": 6716.0
+  },
+  "formal_votes": 28274
+ }
+}

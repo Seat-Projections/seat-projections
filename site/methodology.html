@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methodology &amp; Datasets — Seat Projections</title>
+<meta name="description" content="How the 2026 Victorian seat projections are made: the exact preferential count engine, the two forecast models, benchmark results and downloadable datasets.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.svg" alt="Seat Projections emblem">
+      <span><span class="brand-name">Seat Projections</span><br><span class="brand-sub">2026 Victorian Seat Projections</span></span>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="projections.html">Projections</a>
+      <a href="methodology.html" class="active">Methodology</a>
+    </nav>
+    <div class="header-seats">
+      <span class="count num">88 seats</span>
+      <span class="chips">
+        <span class="h-label">2022 result</span>
+        <span class="chip"><i class="dot" style="background:var(--alp)"></i>ALP 56</span>
+        <span class="chip"><i class="dot" style="background:var(--lp)"></i>COA 28</span>
+        <span class="chip"><i class="dot" style="background:var(--grn)"></i>GRN 4</span>
+        <span class="chip">45 to win</span>
+      </span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <span class="eyebrow">Model methodology &amp; open data documentation</span>
+    <h1>How the projections are made</h1>
+    <p class="lede">An open specification of how 2026 Victorian Legislative Assembly seat
+      probabilities are produced: an exact preferential count engine, two deliberately different
+      forecast models, and every input published for download and review.</p>
+    <div class="chips-row" style="margin-top:1rem">
+      <span class="chip">Baseline: VEC 2022 official</span>
+      <span class="chip">Full preferential count</span>
+      <span class="chip">CC BY-SA 4.0 data licence</span>
+      <span class="chip">Updated <span data-build-date>–</span></span>
+    </div>
+  </section>
+
+  <section class="stat-strip" id="stat-strip">
+    <div class="card stat-box"><div class="v num">88</div><div class="l">Lower house districts</div></div>
+    <div class="card stat-box"><div class="v num" id="st-runs">–</div><div class="l">Benchmark runs scored</div></div>
+    <div class="card stat-box"><div class="v num" id="st-seats">–</div><div class="l">Benchmark seats scored</div></div>
+    <div class="card stat-box"><div class="v num" id="st-sims">–</div><div class="l">Simulations per forecast</div></div>
+  </section>
+
+  <section class="section">
+    <span class="eyebrow">Architecture</span>
+    <h2 style="font-family:var(--serif);font-size:1.625rem;font-weight:600;letter-spacing:-0.01em;margin:0.25rem 0 1rem">Core modelling foundations</h2>
+    <div class="foundations">
+      <div class="card">
+        <span class="tag-no">01 · Count</span>
+        <h4 style="margin-top:0.5rem">Exact IRV count engine</h4>
+        <p>Every seat is decided by a full instant-runoff count reproducing the Electoral Act 2002
+          procedure, including statutory lookback tie-breaks — not a uniform-swing approximation.</p>
+        <div class="basis">Verified vote-for-vote against all 88 VEC 2022 distributions and the 48 published 2018 counts</div>
+      </div>
+      <div class="card">
+        <span class="tag-no">02 · Geography</span>
+        <h4 style="margin-top:0.5rem">Booth-to-district mapping</h4>
+        <p>Federal polling places are assigned to state districts geometrically: a booth counts only
+          if it sits inside the district and within 1&nbsp;km of its own federal division.</p>
+        <div class="basis">EBC 2021 redivision boundaries · AEC polling-place locations</div>
+      </div>
+      <div class="card">
+        <span class="tag-no">03 · Preferences</span>
+        <h4 style="margin-top:0.5rem">Fitted preference flows</h4>
+        <p>How each party&rsquo;s ballots split between remaining candidates is fitted from published
+          distributions of preferences — for benchmarks, leaving out the scored district so nothing
+          is fitted on its own result.</p>
+        <div class="basis">VEC, AEC and other state commissions&rsquo; published distributions</div>
+      </div>
+      <div class="card">
+        <span class="tag-no">04 · Uncertainty</span>
+        <h4 style="margin-top:0.5rem">Monte Carlo seat simulation</h4>
+        <p>Each simulation redraws statewide swing, regional deviations, per-seat noise and
+          preference flows, then counts all 88 districts — turning point estimates into
+          probabilities and seat ranges.</p>
+        <div class="basis" id="f-sims">Up to 5,000 runs per forecast</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <span class="eyebrow">The models</span>
+    <h2 style="font-family:var(--serif);font-size:1.625rem;font-weight:600;letter-spacing:-0.01em;margin:0.25rem 0 1rem">Two different questions</h2>
+    <div class="twocol" style="margin:0">
+      <div class="card card-pad">
+        <h3 style="font-family:var(--sans);font-size:1.125rem">Model 1 — &ldquo;nothing changes&rdquo; baseline</h3>
+        <p class="small" style="margin:0.5rem 0">Every polling place&rsquo;s votes from the most recent federal
+          election are put into the state district it sits in, and each district&rsquo;s preferential
+          count is replayed assuming nothing changes: same parties, same first preferences, same
+          preferences. A Bradley–Terry strength is fitted for each (from-party, to-party) split so
+          transfers exist for any set of continuing parties. Monte Carlo noise turns the replay into
+          seat probabilities.</p>
+        <p class="small muted" style="margin:0">It uses no polling and no candidate information — a deliberately
+          primitive floor the real model must beat. It does well when the federal and state elections
+          are close together and badly when something big has changed.</p>
+      </div>
+      <div class="card card-pad">
+        <h3 style="font-family:var(--sans);font-size:1.125rem">Model 2 — core-candidate heuristic</h3>
+        <p class="small" style="margin:0.5rem 0">A preferential count only has a few decisions that change the
+          winner. Model 2 splits each seat&rsquo;s declared 2026 candidates into <b>core</b> (top four
+          of the pre-preference totals in at least 5% of runs) and <b>minor</b>, sends minor votes
+          straight to the core along per-party flow vectors, then resolves the core contest
+          explicitly for whichever exclusion order occurs — tracking where each pile of votes
+          originally came from.</p>
+        <p class="small muted" style="margin:0">Primaries are the 2022 district results swung to the 2026 polling
+          average; One Nation&rsquo;s geographic pattern comes from its 2025 federal booth pattern.</p>
+      </div>
+    </div>
+    <h3 style="font-family:var(--sans);font-size:1.125rem;margin-top:1.5rem">Model 2 specification</h3>
+    <div class="formula">primary[seat, party] = baseline_2022[seat, party]
+                  + statewide_swing[party]          (one draw per run, shared by all seats)
+                  + regional_deviation[region, party]
+                  + seat_noise[seat, party]
+                (re-normalised to sum to 100% per seat)
+
+core total  T[k] = primary[k] + Σ_m primary[m] · f[m → k]
+
+core stage: exclude the lowest core candidate; their pile splits between the
+            continuing candidates by each vote&rsquo;s party of origin (origin tracking);
+            repeat until two remain — the higher wins.</div>
+    <p class="small muted">Statewide swing is centred on the polling average with spread from historical
+      polling error; regional deviation captures uneven swings; seat noise covers candidate effects
+      and retirements. All noise widths are placeholder values — see the caveat on the
+      <a href="projections.html">projections page</a>.</p>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Backtests</span>
+        <h2 style="margin-top:0.25rem">Benchmark results</h2>
+        <p class="muted small" style="margin:0.25rem 0 0">Scored against electoral commissions&rsquo; declared
+          winners. Model 2 rows are <b>B1 replays</b>: the model is given each election&rsquo;s actual
+          primaries and flows fitted without the scored district, isolating the preference model and
+          count. Model 1 rows are genuine forecasts from federal votes — the two are not comparable.</p>
+      </div>
+    </div>
+    <div class="card" style="overflow-x:auto">
+      <table class="dtable" id="bench-table">
+        <thead><tr><th>Model</th><th>Run</th><th>Seats right</th><th class="r">Accuracy</th><th class="r">Brier</th><th class="r">Log loss</th><th class="r">Final-two acc.</th><th class="r">2CP MAE</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="small muted" style="margin-top:0.5rem">Brier: mean squared probability error per seat (lower is
+      better, 0 is perfect). Log loss: −ln(p) for the actual winner, floored at p&nbsp;=&nbsp;0.001.
+      Baseline &ldquo;primary leader wins&rdquo; scores 549/579 with Brier 0.104 on the same seats;
+      model 2 scores 566/579 and 0.038.</p>
+  </section>
+
+  <section class="section">
+    <span class="eyebrow">Polling</span>
+    <h2 style="font-family:var(--serif);font-size:1.625rem;font-weight:600;letter-spacing:-0.01em;margin:0.25rem 0 1rem">How the polling average is built</h2>
+    <div class="prose" style="max-width:46rem">
+      <p>Model 2 uses a deliberately simple average: each pollster&rsquo;s latest eligible poll
+        within 35 days of the newest poll in the register, equally weighted. There is no house-effect
+        adjustment, no exponential decay and no sample-size weighting. The register is maintained from
+        <a href="https://electiontracker.au">electiontracker.au</a>.</p>
+    </div>
+    <div class="card card-pad" id="polls-card" style="max-width:46rem;margin-top:1rem"></div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Open data</span>
+        <h2 style="margin-top:0.25rem">Downloadable datasets</h2>
+        <p class="muted small" style="margin:0.25rem 0 0">Everything the site displays, plus the inputs behind it.
+          Full raw data, archived benchmark reproduction scripts and the count engine are in the
+          <a href="#" data-repo="">source repository</a>.</p>
+      </div>
+    </div>
+    <div class="card" style="overflow-x:auto">
+      <table class="dtable" id="dl-table">
+        <thead><tr><th>Dataset</th><th class="r">Size</th><th>Description</th><th></th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="twocol">
+    <div>
+      <span class="eyebrow">Independence charter</span>
+      <h2 style="font-family:var(--serif);font-size:1.625rem;font-weight:600;letter-spacing:-0.01em;margin:0.25rem 0 1rem">Non-partisanship &amp; citation</h2>
+      <div class="prose">
+        <p>Seat Projections is an independent civic data project. It accepts no donations, has no
+          party affiliation and no advertising; every number on this site is produced by open code
+          from published electoral data, so any result can be recomputed and challenged.</p>
+        <p>Corrections and methodology questions are welcome via the repository&rsquo;s
+          <a href="#" data-repo="/issues">issue tracker</a>.</p>
+      </div>
+      <h4 style="font-size:0.6875rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;color:var(--ink-2);margin:1.5rem 0 0.5rem">Recommended citation</h4>
+      <div class="cite">Seat Projections (2026). <i>2026 Victorian state election seat projections.</i> https://seatprojections.au</div>
+    </div>
+    <div>
+      <span class="eyebrow">Licence &amp; attribution</span>
+      <div class="card card-pad" style="margin-top:1rem">
+        <p class="small" style="margin:0 0 0.5rem"><b>Code:</b> MIT Licence. <b>Data, forecasts &amp; writeups:</b>
+          Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0).</p>
+        <p class="small muted" style="margin:0 0 0.5rem">Third-party data remains under its own terms:</p>
+        <ul class="small muted" style="margin:0;padding-left:1.25rem">
+          <li>© State of Victoria (Victorian Electoral Commission) — results and candidate lists; see vec.vic.gov.au copyright terms</li>
+          <li>© Commonwealth of Australia (Australian Electoral Commission), CC BY 4.0 — federal booth results</li>
+          <li>© State of Victoria (Electoral Boundaries Commission) — 2021 redivision boundaries; see ebc.vic.gov.au</li>
+          <li>electiontracker.au — polling register, compiled from published polls</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <div class="brandline"><img src="assets/logo.svg" alt="">seatprojections.au</div>
+        <p>Independent, non-partisan seat projections for the 2026 Victorian state election —
+          an exact preferential-count engine, open data and open code.</p>
+        <p>Not affiliated with the Victorian Electoral Commission.</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">2022 baseline</a></li>
+          <li><a href="projections.html">2026 projections</a></li>
+          <li><a href="methodology.html">Methodology &amp; datasets</a></li>
+          <li><a href="#" data-repo="">Source code</a></li>
+          <li><a href="#" data-repo="/issues">Report an issue</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Data sources</h4>
+        <ul>
+          <li>Victorian Electoral Commission — results &amp; candidates</li>
+          <li>Australian Electoral Commission — federal booth results</li>
+          <li>Electoral Boundaries Commission — district boundaries</li>
+          <li>electiontracker.au — polling register</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-base">
+      <span>© 2026 Seat Projections · Code MIT · Data &amp; forecasts CC BY-SA 4.0</span>
+      <span>seatprojections.au</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/common.js"></script>
+<script src="assets/methodology.js"></script>
+</body>
+</html>

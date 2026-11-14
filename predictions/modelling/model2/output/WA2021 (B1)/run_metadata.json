@@ -1,0 +1,52 @@
+{
+  "model": "model2",
+  "run_id": "WA2021 (B1)",
+  "timestamp": "2026-11-09T09:50:09+00:00",
+  "git_commit": null,
+  "runs": 5000,
+  "seed": 1,
+  "noise": {
+    "poll_sd": 2.5,
+    "region_sd": 2.0,
+    "seat_sd": 3.5,
+    "flow_state": 0.15,
+    "flow_seat": 0.05
+  },
+  "on_priors": null,
+  "exhaust": false,
+  "core_rule": {
+    "top": 4,
+    "share": 0.05
+  },
+  "inputs": {
+    "state": "WA",
+    "state_election": "2021-03-13",
+    "districts": 59,
+    "baseline": "WA 2021 actual primaries",
+    "federal_election": null,
+    "winners": "WA2021",
+    "primaries": "actual 2021 primaries",
+    "flows": "that election's distributions of preferences, leave-one-district-out",
+    "distributions": "data/WA2021/distributions/dop_WA2021.json"
+  },
+  "scores": {
+    "districts": 59,
+    "raw_seat_count": 59,
+    "brier": 0.0012,
+    "log_loss": 0.0038
+  },
+  "diagnostics": {
+    "final_two_accuracy": 1.0,
+    "tcp_margin_mae": 0.75
+  },
+  "actual_seats": {
+    "ALP": 53,
+    "LP": 2,
+    "NP": 4
+  },
+  "predicted_seats_mean": {
+    "ALP": 52.8,
+    "LP": 2.18,
+    "NP": 4.01
+  }
+}

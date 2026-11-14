@@ -1,0 +1,399 @@
+district,candidate,party,p_win,p_final_two,tcp_p10,tcp_p50,tcp_p90
+Albany,STEPHENS - ALP,ALP,0.0,1.0,44.66,45.75,46.94
+Albany,LEARY - NATS,NP,1.0,1.0,53.06,54.25,55.34
+Albany,BROUGH - LIB,LP,0.0,0.0,,,
+Albany,MACLAREN - GRN,GRN,0.0,0.0,,,
+Albany,LIONETTI - IND,IND*,0.0,0.0,,,
+Albany,BALLAST - AC,AC,0.0,0.0,,,
+Albany,BISSCHOFF - PHON,ON,0.0,0.0,,,
+Albany,ARNATT - LCWA,LCWA,0.0,0.0,,,
+Albany,ANSTEE-BROOK - SFF,SFF,0.0,0.0,,,
+Armadale,BUTI - ALP,ALP,1.0,1.0,66.94,67.83,68.7
+Armadale,MCNAMARA - LIB,LP,0.0,1.0,31.3,32.17,33.06
+Armadale,HARRINGTON - GRN,GRN,0.0,0.0,,,
+Armadale,IERARDI - PHON,ON,0.0,0.0,,,
+Armadale,KLEYN - AC,AC,0.0,0.0,,,
+Armadale,LING - SPPK,SPPK,0.0,0.0,,,
+Balcatta,MICHAEL - ALP,ALP,1.0,1.0,63.14,63.9,64.6
+Balcatta,HELLIWELL - LIB,LP,0.0,1.0,35.4,36.1,36.86
+Balcatta,DON - GRN,GRN,0.0,0.0,,,
+Balcatta,POTTER - PHON,ON,0.0,0.0,,,
+Balcatta,COLE - LCWA,LCWA,0.0,0.0,,,
+Balcatta,D'COSTA - AC,AC,0.0,0.0,,,
+Balcatta,HOLLIER - SFF,SFF,0.0,0.0,,,
+Baldivis,WHITBY - ALP,ALP,1.0,1.0,64.77,65.59,66.39
+Baldivis,MBANO - LIB,LP,0.0,1.0,33.61,34.41,35.23
+Baldivis,NEWBURY - GRN,GRN,0.0,0.0,,,
+Baldivis,VERMEULEN - PHON,ON,0.0,0.0,,,
+Baldivis,CHARLES - LCWA,LCWA,0.0,0.0,,,
+Baldivis,HOLMES - AC,AC,0.0,0.0,,,
+Baldivis,DA SILVA - SFF,SFF,0.0,0.0,,,
+Bassendean,KELLY - ALP,ALP,1.0,1.0,68.61,69.72,70.78
+Bassendean,KUMAR - LIB,LP,0.0,0.9804,29.21,30.26,31.31
+Bassendean,MCLENNAN - IND,IND*,0.0,0.0196,33.02,34.21,35.52
+Bassendean,GRAY - GRN,GRN,0.0,0.0,,,
+Bassendean,FENECH - PHON,ON,0.0,0.0,,,
+Bassendean,KINGSTON - AC,AC,0.0,0.0,,,
+Bateman,GIDDENS - ALP,ALP,1.0,1.0,52.58,53.27,53.92
+Bateman,VASHISHT - LIB,LP,0.0,1.0,46.08,46.73,47.42
+Bateman,DOOREY - GRN,GRN,0.0,0.0,,,
+Bateman,GORDIN - NATS,NP,0.0,0.0,,,
+Bateman,ROBBIE - AC,AC,0.0,0.0,,,
+Bateman,MABOOD - PHON,ON,0.0,0.0,,,
+Bateman,STOKES - IND,IND*,0.0,0.0,,,
+Bateman,SAPORITA - AJP,AJP,0.0,0.0,,,
+Bateman,GHASSEMIFAR - LIBERTARIAN,LTP,0.0,0.0,,,
+Belmont,ROWE - ALP,ALP,1.0,1.0,66.89,67.77,68.55
+Belmont,ANTHONY - LIB,LP,0.0,1.0,31.45,32.23,33.11
+Belmont,OLIVIERI - GRN,GRN,0.0,0.0,,,
+Belmont,TOMULESCU - PHON,ON,0.0,0.0,,,
+Belmont,YAP - AC,AC,0.0,0.0,,,
+Bibra Lake,LAI - ALP,ALP,1.0,1.0,65.35,66.88,69.79
+Bibra Lake,GARG - LIB,LP,0.0,0.796,32.2,33.45,34.78
+Bibra Lake,WALSH - GRN,GRN,0.0,0.204,29.34,30.22,31.1
+Bibra Lake,SEPAROVICH - IND,IND*,0.0,0.0,,,
+Bibra Lake,GRIFFITHS - IND,IND*,0.0,0.0,,,
+Bibra Lake,DICKINSON - PHON,ON,0.0,0.0,,,
+Bibra Lake,GIBB - LCWA,LCWA,0.0,0.0,,,
+Bibra Lake,YEAP - AC,AC,0.0,0.0,,,
+Bicton,O'MALLEY - ALP,ALP,1.0,1.0,57.1,57.9,58.58
+Bicton,DOWSON - LIB,LP,0.0,1.0,41.42,42.1,42.9
+Bicton,BENNETT - GRN,GRN,0.0,0.0,,,
+Bicton,SMITH - PHON,ON,0.0,0.0,,,
+Bicton,KOUL - NATS,NP,0.0,0.0,,,
+Bunbury,PUNCH - ALP,ALP,1.0,1.0,55.64,56.45,57.27
+Bunbury,REID - LIB,LP,0.0,1.0,42.73,43.55,44.36
+Bunbury,PERKS - GRN,GRN,0.0,0.0,,,
+Bunbury,BELL - LCWA,LCWA,0.0,0.0,,,
+Bunbury,MYLES - PHON,ON,0.0,0.0,,,
+Bunbury,DOWN - NATS,NP,0.0,0.0,,,
+Bunbury,DAVEY - AC,AC,0.0,0.0,,,
+Bunbury,VAN VEEN - SFF,SFF,0.0,0.0,,,
+Butler,CLARKE - ALP,ALP,1.0,1.0,62.56,63.48,64.36
+Butler,BAULCH - LIB,LP,0.0,1.0,35.64,36.52,37.44
+Butler,PRICE - GRN,GRN,0.0,0.0,,,
+Butler,POWLEY - PHON,ON,0.0,0.0,,,
+Butler,GRANADOS - LCWA,LCWA,0.0,0.0,,,
+Butler,MONTGOMERY - AC,AC,0.0,0.0,,,
+Cannington,SAO - ALP,ALP,1.0,1.0,66.96,67.83,68.62
+Cannington,HENDERSON - LIB,LP,0.0,1.0,31.38,32.17,33.04
+Cannington,HAYWARD - GRN,GRN,0.0,0.0,,,
+Cannington,STAER - AC,AC,0.0,0.0,,,
+Carine,STALTARI - LIB,LP,1.0,1.0,56.73,57.34,58.06
+Carine,LILBURNE - ALP,ALP,0.0,1.0,41.94,42.66,43.27
+Carine,HINDMARSH - GRN,GRN,0.0,0.0,,,
+Carine,BONE - AC,AC,0.0,0.0,,,
+Central Wheatbelt,HUNTER - NATS,NP,1.0,1.0,69.53,70.34,71.09
+Central Wheatbelt,ATKINSON - ALP,ALP,0.0,1.0,28.91,29.67,30.47
+Central Wheatbelt,FRENCH - LIB,LP,0.0,0.0,,,
+Central Wheatbelt,LINES - PHON,ON,0.0,0.0,,,
+Central Wheatbelt,LEAM - GRN,GRN,0.0,0.0,,,
+Central Wheatbelt,HOLTEN - AC,AC,0.0,0.0,,,
+Churchlands,ZEMPILAS - LIB,LP,1.0,1.0,53.85,55.07,56.34
+Churchlands,TONKIN - ALP,ALP,0.0,1.0,43.66,44.93,46.15
+Churchlands,THORNTON - IND,IND*,0.0,0.0,,,
+Churchlands,McLEAN - GRN,GRN,0.0,0.0,,,
+Churchlands,RAI - AC,AC,0.0,0.0,,,
+Churchlands,FELS,IND*,0.0,0.0,,,
+Churchlands,CARRIE-WILSON,IND*,0.0,0.0,,,
+Cockburn,SCAIFE - ALP,ALP,1.0,1.0,65.71,66.49,67.23
+Cockburn,DI RUSSO - LIB,LP,0.0,1.0,32.77,33.51,34.29
+Cockburn,STURCKE - GRN,GRN,0.0,0.0,,,
+Cockburn,RENNICK - LCWA,LCWA,0.0,0.0,,,
+Cockburn,VELOO - AC,AC,0.0,0.0,,,
+Collie-Preston,HANNS - ALP,ALP,1.0,1.0,54.36,55.28,56.26
+Collie-Preston,SHARP - LIB,LP,0.0,1.0,43.74,44.72,45.64
+Collie-Preston,PARSONS - NATS,NP,0.0,0.0,,,
+Collie-Preston,ADAMS - PHON,ON,0.0,0.0,,,
+Collie-Preston,MANN - GRN,GRN,0.0,0.0,,,
+Collie-Preston,GULLAN - LCWA,LCWA,0.0,0.0,,,
+Collie-Preston,COFFEY - SFF,SFF,0.0,0.0,,,
+Collie-Preston,WIESE - AC,AC,0.0,0.0,,,
+Cottesloe,BREWER - LIB,LP,1.0,1.0,64.06,64.59,65.14
+Cottesloe,HORNCASTLE - IND,IND*,0.0,1.0,34.86,35.41,35.94
+Cottesloe,ASTILL - ALP,ALP,0.0,0.0,,,
+Cottesloe,HARDISTY - GRN,GRN,0.0,0.0,,,
+Cottesloe,YU - LCWA,LCWA,0.0,0.0,,,
+Darling Range,JONES - ALP,ALP,1.0,1.0,55.5,56.37,57.24
+Darling Range,MANSFIELD - LIB,LP,0.0,1.0,42.76,43.63,44.5
+Darling Range,HEEREMA - PHON,ON,0.0,0.0,,,
+Darling Range,FIRMAGER - GRN,GRN,0.0,0.0,,,
+Darling Range,KLEYN - AC,AC,0.0,0.0,,,
+Darling Range,BYAS - NATS,NP,0.0,0.0,,,
+Darling Range,PETERS - LCWA,LCWA,0.0,0.0,,,
+Darling Range,BLEVIN - SFF,SFF,0.0,0.0,,,
+Dawesville,MUNDAY - ALP,ALP,0.9998,1.0,50.96,51.53,52.13
+Dawesville,MULDER - LIB,LP,0.0002,1.0,47.87,48.47,49.04
+Dawesville,FULLER - PHON,ON,0.0,0.0,,,
+Dawesville,GODDEN - GRN,GRN,0.0,0.0,,,
+Dawesville,MAVOR - LCWA,LCWA,0.0,0.0,,,
+Dawesville,STEWART - AC,AC,0.0,0.0,,,
+Dawesville,WALKER - SFF,SFF,0.0,0.0,,,
+Forrestfield,PRICE - ALP,ALP,1.0,1.0,53.65,54.32,54.95
+Forrestfield,TILBURY - LIB,LP,0.0,1.0,45.05,45.68,46.35
+Forrestfield,CLARKE - GRN,GRN,0.0,0.0,,,
+Forrestfield,NICHOLLS - PHON,ON,0.0,0.0,,,
+Forrestfield,BLAYNEY - NATS,NP,0.0,0.0,,,
+Forrestfield,EMMONS - LCWA,LCWA,0.0,0.0,,,
+Forrestfield,MORROW - AC,AC,0.0,0.0,,,
+Forrestfield,MUNRO - SFF,SFF,0.0,0.0,,,
+Fremantle,McGURK - ALP,ALP,0.886,1.0,49.91,51.49,53.08
+Fremantle,HULETT - IND,IND*,0.114,1.0,46.92,48.51,50.09
+Fremantle,KIPLING - LIB,LP,0.0,0.0,,,
+Fremantle,TOWNSEND - GRN,GRN,0.0,0.0,,,
+Fremantle,FOLEY - LCWA,LCWA,0.0,0.0,,,
+Fremantle,BOLAND - AJP,AJP,0.0,0.0,,,
+Fremantle,WATT - AC,AC,0.0,0.0,,,
+Fremantle,RAFFAELLI - SFF,SFF,0.0,0.0,,,
+Geraldton,WARR - NATS,NP,0.9998,1.0,56.81,58.55,60.23
+Geraldton,DALTON - ALP,ALP,0.0,0.9922,39.76,41.44,43.15
+Geraldton,van STYN - IND,IND*,0.0002,0.0078,45.47,47.48,49.01
+Geraldton,MILNES - LIB,LP,0.0,0.0,,,
+Geraldton,DONCON - GRN,GRN,0.0,0.0,,,
+Geraldton,VAN BEEK - LCWA,LCWA,0.0,0.0,,,
+Geraldton,HARRIS - AC,AC,0.0,0.0,,,
+Geraldton,HORSMAN - IND,IND*,0.0,0.0,,,
+Geraldton,OSTLE - SFF,SFF,0.0,0.0,,,
+Girrawheen,HAMMAT - ALP,ALP,1.0,1.0,69.44,70.38,71.29
+Girrawheen,LOMBARD - LIB,LP,0.0,1.0,28.71,29.62,30.56
+Girrawheen,BEASLEY - GRN,GRN,0.0,0.0,,,
+Girrawheen,KIRK - LCWA,LCWA,0.0,0.0,,,
+Girrawheen,PURSER - AC,AC,0.0,0.0,,,
+Girrawheen,MUBARAK - IND,IND*,0.0,0.0,,,
+Hillarys,COLLINS - ALP,ALP,1.0,1.0,60.39,60.92,61.39
+Hillarys,OLSSON - LIB,LP,0.0,1.0,38.61,39.08,39.61
+Hillarys,D'ALONZO - GRN,GRN,0.0,0.0,,,
+Hillarys,RANDALL - AC,AC,0.0,0.0,,,
+Jandakot,PRATT - ALP,ALP,1.0,1.0,55.69,56.36,56.96
+Jandakot,ROBINS - LIB,LP,0.0,1.0,43.04,43.64,44.31
+Jandakot,CAROT COLLINS - GRN,GRN,0.0,0.0,,,
+Jandakot,MIRONENKO - PHON,ON,0.0,0.0,,,
+Jandakot,PRETORIUS - AC,AC,0.0,0.0,,,
+Jandakot,STRAHAN - SFF,SFF,0.0,0.0,,,
+Joondalup,HAMILTON - ALP,ALP,1.0,1.0,56.02,56.57,57.08
+Joondalup,DUDEK - LIB,LP,0.0,1.0,42.92,43.43,43.98
+Joondalup,SOVA - GRN,GRN,0.0,0.0,,,
+Joondalup,BARTLEY - AC,AC,0.0,0.0,,,
+Joondalup,LAW - LCWA,LCWA,0.0,0.0,,,
+Joondalup,JENSEN - AJP,AJP,0.0,0.0,,,
+Joondalup,BUTLER - IND,IND*,0.0,0.0,,,
+Joondalup,KANNIS - SFF,SFF,0.0,0.0,,,
+Joondalup,WAGHORN - SPPK,SPPK,0.0,0.0,,,
+Kalamunda,BEALE - ALP,ALP,0.8518,1.0,49.8,50.79,51.75
+Kalamunda,HORT - LIB,LP,0.1482,1.0,48.25,49.21,50.2
+Kalamunda,SEWELL - GRN,GRN,0.0,0.0,,,
+Kalamunda,LOGAN - NATS,NP,0.0,0.0,,,
+Kalamunda,CRITCHLEY - PHON,ON,0.0,0.0,,,
+Kalamunda,YOUNG - LCWA,LCWA,0.0,0.0,,,
+Kalamunda,TIMNEY - AC,AC,0.0,0.0,,,
+Kalamunda,TAYLOR - SFF,SFF,0.0,0.0,,,
+Kalgoorlie,KENT - ALP,ALP,0.4488,1.0,48.18,49.71,53.82
+Kalgoorlie,OLSEN - LIB,LP,0.0,0.3588,45.47,46.77,48.06
+Kalgoorlie,HERRON - NATS,NP,0.5512,0.6412,49.81,50.99,52.06
+Kalgoorlie,O'DONNELL - IND,IND*,0.0,0.0,,,
+Kalgoorlie,MALCOLM - LCWA,LCWA,0.0,0.0,,,
+Kalgoorlie,WHITTEN - PHON,ON,0.0,0.0,,,
+Kalgoorlie,CLARKE - GRN,GRN,0.0,0.0,,,
+Kalgoorlie,PATTERSON - AC,AC,0.0,0.0,,,
+Kalgoorlie,COLAGIURI - SFF,SFF,0.0,0.0,,,
+Kimberley,D'ANNA - ALP,ALP,1.0,1.0,59.96,61.07,62.1
+Kimberley,SPACKMAN - LIB,LP,0.0,1.0,37.9,38.93,40.04
+Kimberley,OZIES - GRN,GRN,0.0,0.0,,,
+Kimberley,HILLS - NATS,NP,0.0,0.0,,,
+Kimberley,GOLDING - AC,AC,0.0,0.0,,,
+Kingsley,STOJKOVSKI - ALP,ALP,1.0,1.0,53.49,54.13,54.7
+Kingsley,EDWARDES - LIB,LP,0.0,1.0,45.3,45.87,46.51
+Kingsley,YOUNG - GRN,GRN,0.0,0.0,,,
+Kingsley,WHITTEN - PHON,ON,0.0,0.0,,,
+Kingsley,BARTLEY - AC,AC,0.0,0.0,,,
+Kingsley,SHIPTON - IND,IND*,0.0,0.0,,,
+Kingsley,JOHNSON - SFF,SFF,0.0,0.0,,,
+Kwinana,COOK - ALP,ALP,1.0,1.0,73.92,74.65,75.38
+Kwinana,FOORD - LIB,LP,0.0,1.0,24.62,25.36,26.08
+Kwinana,FREEMAN - GRN,GRN,0.0,0.0,,,
+Kwinana,PAJEWSKI - PHON,ON,0.0,0.0,,,
+Kwinana,MAVOR - LCWA,LCWA,0.0,0.0,,,
+Kwinana,HOWARD - IND,IND*,0.0,0.0,,,
+Kwinana,DEVARAPALLI - AC,AC,0.0,0.0,,,
+Kwinana,FOREST - AJP,AJP,0.0,0.0,,,
+Kwinana,HAMILTON - SFF,SFF,0.0,0.0,,,
+Landsdale,PASTORELLI - ALP,ALP,1.0,1.0,59.98,60.6,61.19
+Landsdale,MOORE - LIB,LP,0.0,1.0,38.81,39.4,40.02
+Landsdale,KING - GRN,GRN,0.0,0.0,,,
+Landsdale,PARSONS - AC,AC,0.0,0.0,,,
+Landsdale,MURPHY - IND,IND*,0.0,0.0,,,
+Mandurah,WILLIAMS - ALP,ALP,1.0,1.0,58.35,59.08,59.84
+Mandurah,SEEBER - LIB,LP,0.0,1.0,40.16,40.92,41.65
+Mandurah,GEMMELL - PHON,ON,0.0,0.0,,,
+Mandurah,BRUENING - GRN,GRN,0.0,0.0,,,
+Mandurah,HILL - SPPK,SPPK,0.0,0.0,,,
+Mandurah,PESCH - AC,AC,0.0,0.0,,,
+Maylands,BULL - ALP,ALP,1.0,1.0,67.21,70.0,71.22
+Maylands,PERKS - GRN,GRN,0.0,0.1746,31.47,32.97,34.42
+Maylands,TAN - LIB,LP,0.0,0.8254,28.71,29.75,30.97
+Maylands,BURNETT - AC,AC,0.0,0.0,,,
+Maylands,CORNISH - LIBERTARIAN,LTP,0.0,0.0,,,
+Mid-West,LOVE - NATS,NP,1.0,1.0,63.84,64.97,65.99
+Mid-West,BEARD - LIB,LP,0.0,1.0,34.01,35.03,36.16
+Mid-West,DENTON - ALP,ALP,0.0,0.0,,,
+Mid-West,BURNS - PHON,ON,0.0,0.0,,,
+Mid-West,BULBECK - GRN,GRN,0.0,0.0,,,
+Mid-West,YEH - LCWA,LCWA,0.0,0.0,,,
+Mid-West,REYMOND - AC,AC,0.0,0.0,,,
+Mid-West,SCLATER - LIBERTARIAN,LTP,0.0,0.0,,,
+Midland,CATANIA - ALP,ALP,1.0,1.0,58.2,59.1,60.0
+Midland,MATICH - LIB,LP,0.0,1.0,40.0,40.9,41.8
+Midland,NIELSEN-HARVEY - GRN,GRN,0.0,0.0,,,
+Midland,HOWLETT - IND,IND*,0.0,0.0,,,
+Midland,COTTAM - PHON,ON,0.0,0.0,,,
+Midland,SOUTHWORTH - LCWA,LCWA,0.0,0.0,,,
+Midland,WARBURTON - AC,AC,0.0,0.0,,,
+Midland,RICHARDSON - AJP,AJP,0.0,0.0,,,
+Mindarie,FOLKARD - ALP,ALP,1.0,1.0,59.76,60.55,61.32
+Mindarie,MILES - LIB,LP,0.0,1.0,38.68,39.45,40.24
+Mindarie,McCARTHY - GRN,GRN,0.0,0.0,,,
+Mindarie,BURTON - PHON,ON,0.0,0.0,,,
+Mindarie,HUNT - LCWA,LCWA,0.0,0.0,,,
+Mindarie,HALL - AJP,AJP,0.0,0.0,,,
+Mindarie,THOMAS - AC,AC,0.0,0.0,,,
+Mindarie,MELLON - SFF,SFF,0.0,0.0,,,
+Morley,SANDERSON - ALP,ALP,1.0,1.0,61.43,62.1,62.71
+Morley,CHAVITTUPARA - LIB,LP,0.0,1.0,37.29,37.9,38.57
+Morley,ABRAHAMS - GRN,GRN,0.0,0.0,,,
+Morley,DOYLE - PHON,ON,0.0,0.0,,,
+Morley,DI SOMMA - AC,AC,0.0,0.0,,,
+Morley,YATES - SFF,SFF,0.0,0.0,,,
+Mount Lawley,PAOLINO - ALP,ALP,1.0,1.0,57.89,58.78,59.59
+Mount Lawley,SUTHERLAND - LIB,LP,0.0,1.0,40.41,41.22,42.11
+Mount Lawley,NICOL - GRN,GRN,0.0,0.0,,,
+Mount Lawley,TREASURE - LCWA,LCWA,0.0,0.0,,,
+Mount Lawley,MORRISON - PHON,ON,0.0,0.0,,,
+Mount Lawley,KEY-ELLISS - AC,AC,0.0,0.0,,,
+Mount Lawley,SINGLETON - SFF,SFF,0.0,0.0,,,
+Murray-Wellington,CLARKE - ALP,ALP,0.0032,1.0,47.34,48.11,48.92
+Murray-Wellington,BOLT - LIB,LP,0.9968,1.0,51.08,51.89,52.66
+Murray-Wellington,ZWIKIELBERG - PHON,ON,0.0,0.0,,,
+Murray-Wellington,GILLETT - NATS,NP,0.0,0.0,,,
+Murray-Wellington,PUCCIO - GRN,GRN,0.0,0.0,,,
+Murray-Wellington,SCHNEIDER - LCWA,LCWA,0.0,0.0,,,
+Murray-Wellington,GURAK - SFF,SFF,0.0,0.0,,,
+Murray-Wellington,KINGSFORD - AC,AC,0.0,0.0,,,
+Nedlands,HUSTON - LIB,LP,1.0,1.0,54.57,55.75,57.01
+Nedlands,MONKHOUSE - ALP,ALP,0.0,1.0,42.99,44.25,45.43
+Nedlands,GLANCE - GRN,GRN,0.0,0.0,,,
+Nedlands,de VRIES - IND,IND*,0.0,0.0,,,
+Nedlands,de LACY - IND,IND*,0.0,0.0,,,
+Nedlands,IRONSIDE - PHON,ON,0.0,0.0,,,
+Nedlands,YOW - AC,AC,0.0,0.0,,,
+Nedlands,HIPPISLEY - IND,IND*,0.0,0.0,,,
+Nedlands,DUNNE - IND,IND*,0.0,0.0,,,
+Oakford,MUBARAKAI - ALP,ALP,1.0,1.0,59.95,60.73,61.5
+Oakford,MARSTON - LIB,LP,0.0,1.0,38.5,39.27,40.05
+Oakford,LONSDALE - GRN,GRN,0.0,0.0,,,
+Oakford,JOY - AC,AC,0.0,0.0,,,
+Oakford,DHANDLI - PHON,ON,0.0,0.0,,,
+Oakford,LAZAREVIC - LCWA,LCWA,0.0,0.0,,,
+Oakford,LEAN - SFF,SFF,0.0,0.0,,,
+Oakford,LEVETT - IND,IND*,0.0,0.0,,,
+Perth,CAREY - ALP,ALP,1.0,1.0,67.03,68.19,69.26
+Perth,BUTLER - LIB,LP,0.0,1.0,30.74,31.81,32.97
+Perth,SPRINGER - GRN,GRN,0.0,0.0,,,
+Perth,STEWART - AJP,AJP,0.0,0.0,,,
+Pilbara,MICHEL - ALP,ALP,0.9818,1.0,50.73,51.79,52.91
+Pilbara,KAILIS - LIB,LP,0.0182,1.0,47.09,48.21,49.27
+Pilbara,DART - NATS,NP,0.0,0.0,,,
+Pilbara,JOHANNSEN - PHON,ON,0.0,0.0,,,
+Pilbara,GLAHN-BERTELSEN - GRN,GRN,0.0,0.0,,,
+Pilbara,WILKINSON - LCWA,LCWA,0.0,0.0,,,
+Pilbara,LOCKYER - SFF,SFF,0.0,0.0,,,
+Riverton,KRISHNAN - ALP,ALP,1.0,1.0,54.0,54.7,55.35
+Riverton,SPENCER-TEO - LIB,LP,0.0,1.0,44.65,45.3,46.0
+Riverton,HALL - GRN,GRN,0.0,0.0,,,
+Riverton,NG - AC,AC,0.0,0.0,,,
+Riverton,ADARNE - PHON,ON,0.0,0.0,,,
+Rockingham,MARSHALL - ALP,ALP,1.0,1.0,60.38,61.1,61.81
+Rockingham,EDWARDS - LIB,LP,0.0,1.0,38.19,38.9,39.62
+Rockingham,DELVES - GRN,GRN,0.0,0.0,,,
+Rockingham,OREGIONI - PHON,ON,0.0,0.0,,,
+Rockingham,LESLIE - LCWA,LCWA,0.0,0.0,,,
+Rockingham,KEANE - IND,IND*,0.0,0.0,,,
+Rockingham,PEARCE - AC,AC,0.0,0.0,,,
+Rockingham,GOULD - AJP,AJP,0.0,0.0,,,
+Roe,RUNDLE - NATS,NP,1.0,1.0,68.89,70.03,71.13
+Roe,O'DEA - LIB,LP,0.0,1.0,28.87,29.97,31.11
+Roe,WILLIS - ALP,ALP,0.0,0.0,,,
+Roe,SINCLAIR - PHON,ON,0.0,0.0,,,
+Roe,WORTH - GRN,GRN,0.0,0.0,,,
+Roe,REYMOND - AC,AC,0.0,0.0,,,
+Scarborough,AUBREY - ALP,ALP,1.0,1.0,53.2,53.89,54.56
+Scarborough,KELLY - LIB,LP,0.0,1.0,45.44,46.11,46.8
+Scarborough,TWISS - GRN,GRN,0.0,0.0,,,
+Scarborough,RE - NATS,NP,0.0,0.0,,,
+Scarborough,STOKES - AJP,AJP,0.0,0.0,,,
+Secret Harbour,PAPALIA - ALP,ALP,1.0,1.0,60.87,61.68,62.5
+Secret Harbour,JONES - LIB,LP,0.0,1.0,37.5,38.32,39.13
+Secret Harbour,HEYNES - GRN,GRN,0.0,0.0,,,
+Secret Harbour,HALL - PHON,ON,0.0,0.0,,,
+Secret Harbour,MATTERS - LCWA,LCWA,0.0,0.0,,,
+Secret Harbour,BURDETT - AC,AC,0.0,0.0,,,
+Secret Harbour,STORER - AJP,AJP,0.0,0.0,,,
+South Perth,WAUGH - LIB,LP,0.3374,1.0,49.06,49.76,50.54
+South Perth,BAKER - ALP,ALP,0.6626,1.0,49.46,50.24,50.94
+South Perth,EVERS - GRN,GRN,0.0,0.0,,,
+South Perth,MILES - NATS,NP,0.0,0.0,,,
+South Perth,QUIN - IND,IND*,0.0,0.0,,,
+South Perth,ZHUANG - AC,AC,0.0,0.0,,,
+Southern River,HEALY - ALP,ALP,1.0,1.0,71.1,71.76,72.41
+Southern River,CHOWDHARY - LIB,LP,0.0,1.0,27.59,28.24,28.9
+Southern River,HECQUET - GRN,GRN,0.0,0.0,,,
+Southern River,VADAKKEDATHU - AC,AC,0.0,0.0,,,
+Southern River,PARKIN - PHON,ON,0.0,0.0,,,
+Southern River,PEREIRA - LCWA,LCWA,0.0,0.0,,,
+Southern River,DEWHURST - IND,IND*,0.0,0.0,,,
+Southern River,SIMSON - IND,IND*,0.0,0.0,,,
+Southern River,THOMAS - SFF,SFF,0.0,0.0,,,
+Swan Hills,MAYNARD - ALP,ALP,1.0,1.0,56.07,56.89,57.72
+Swan Hills,HENDERSON - LIB,LP,0.0,1.0,42.28,43.11,43.93
+Swan Hills,POULTON - GRN,GRN,0.0,0.0,,,
+Swan Hills,GIBLETT - NATS,NP,0.0,0.0,,,
+Swan Hills,WILKINSON - PHON,ON,0.0,0.0,,,
+Swan Hills,STRAUSS - AC,AC,0.0,0.0,,,
+Swan Hills,WILLIAMSON - SFF,SFF,0.0,0.0,,,
+Thornlie,EGAN - ALP,ALP,1.0,1.0,64.68,66.55,67.73
+Thornlie,ARUMUGAM - LIB,LP,0.0,0.9066,32.23,33.34,34.45
+Thornlie,ABDUL RAZAK - GRN,GRN,0.0,0.0,,,
+Thornlie,McDONALD - IND,IND*,0.0,0.0934,35.97,37.22,38.53
+Thornlie,LARCOMBE - PHON,ON,0.0,0.0,,,
+Thornlie,GOIRAN - AC,AC,0.0,0.0,,,
+Thornlie,MULHOLLAND - LCWA,LCWA,0.0,0.0,,,
+Vasse,METTAM - LIB,LP,1.0,1.0,60.84,61.59,62.38
+Vasse,LEWIS - ALP,ALP,0.0,1.0,37.62,38.41,39.16
+Vasse,KRASENSTEIN - GRN,GRN,0.0,0.0,,,
+Vasse,KEFALINOS - PHON,ON,0.0,0.0,,,
+Vasse,LEECH - LCWA,LCWA,0.0,0.0,,,
+Vasse,COX - AC,AC,0.0,0.0,,,
+Victoria Park,BEAZLEY - ALP,ALP,1.0,1.0,63.41,64.54,65.52
+Victoria Park,BIONDI - LIB,LP,0.0,1.0,34.48,35.46,36.59
+Victoria Park,GORDON-MANLEY - GRN,GRN,0.0,0.0,,,
+Victoria Park,WATSON - AC,AC,0.0,0.0,,,
+Victoria Park,VLAAR - AJP,AJP,0.0,0.0,,,
+Wanneroo,WINTON - ALP,ALP,1.0,1.0,62.29,62.93,63.54
+Wanneroo,KINGSHOTT - LIB,LP,0.0,1.0,36.46,37.07,37.71
+Wanneroo,DUPONT - GRN,GRN,0.0,0.0,,,
+Wanneroo,PARBAT - LCWA,LCWA,0.0,0.0,,,
+Wanneroo,HOLTZHAUSEN - AC,AC,0.0,0.0,,,
+Wanneroo,RUWOLDT - SFF,SFF,0.0,0.0,,,
+Warren-Blackwood,KELSBIE - ALP,ALP,0.0124,1.0,46.03,47.25,48.54
+Warren-Blackwood,EATTS - NATS,NP,0.967,0.9692,51.57,52.79,54.0
+Warren-Blackwood,DE CAMPO - LIB,LP,0.0206,0.0308,49.11,50.45,52.11
+Warren-Blackwood,MARSH - GRN,GRN,0.0,0.0,,,
+Warren-Blackwood,PEET - LCWA,LCWA,0.0,0.0,,,
+Warren-Blackwood,O'CONNOR - PHON,ON,0.0,0.0,,,
+Warren-Blackwood,HARTIGAN - AC,AC,0.0,0.0,,,
+Warren-Blackwood,DA SILVA - SFF,SFF,0.0,0.0,,,
+West Swan,SAFFIOTI - ALP,ALP,1.0,1.0,70.31,71.05,71.76
+West Swan,SAINI - LIB,LP,0.0,1.0,28.24,28.95,29.69
+West Swan,HERMANN - GRN,GRN,0.0,0.0,,,
+West Swan,POMANA - PHON,ON,0.0,0.0,,,
+West Swan,TAYLOR - LCWA,LCWA,0.0,0.0,,,
+West Swan,CONNORS - AC,AC,0.0,0.0,,,

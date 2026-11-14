@@ -1,0 +1,598 @@
+district,candidate,party,mean_primary,core,p_excluded_at_core
+Algester,"ENOCH, Leeanne",ALP,58.92,1,0.0
+Algester,"AITKEN, Nerissa",LNP,25.34,1,0.0
+Algester,"MIRA, Josie",GRN,8.49,1,0.0
+Algester,"STACEY, Wayne",ON,7.25,1,1.0
+Aspley,"MELLISH, Bart",ALP,45.51,1,0.0
+Aspley,"COOPER, Amanda",LNP,40.5,1,0.0
+Aspley,"HANSEN, James",GRN,8.94,1,0.0
+Aspley,"HARDY, Walter",ON,3.4,1,1.0
+Aspley,"SKILBECK, Neil",CLMP,0.91,0,0.0
+Aspley,"MORRISON, Joshua",UAP,0.74,0,0.0
+Bancroft,"WHITING, Chris",ALP,53.6,1,0.0
+Bancroft,"CARLSON, Phil",LNP,28.36,1,0.0
+Bancroft,"AAI REDDY, Nik",ON,8.77,1,0.0
+Bancroft,"ACKERMAN, Ell-Leigh",GRN,5.98,1,1.0
+Bancroft,"GRANT, Barry",IND*,3.29,0,0.0
+Barron River,"CRAWFORD, Craig",ALP,39.46,1,0.0
+Barron River,"COOPER, Linda",LNP,38.53,1,0.0
+Barron River,"MCDONALD, Aaron",GRN,13.17,1,0.0
+Barron River,"ANDREWS, Susan",ON,5.9,1,1.0
+Barron River,"ROWE, Adam",IMOP,1.83,0,0.0
+Barron River,"BROWN, Jenny",UAP,1.1,0,0.0
+Bonney,"O'CONNOR, Sam",LNP,53.26,1,0.0
+Bonney,"BORG, Ash",ALP,32.07,1,0.0
+Bonney,"JAVANMARD, Amin",GRN,7.75,1,0.0
+Bonney,"RIX, Michael",ON,3.87,1,1.0
+Bonney,"MARQUET, Leana",IND*,1.73,0,0.0
+Bonney,"BARK, David",UAP,1.32,0,0.0
+Broadwater,"CRISAFULLI, David",LNP,59.59,1,0.0
+Broadwater,"SIMPSON, Maureen",ALP,26.53,1,0.0
+Broadwater,"SCHNEIDER, Jesse",ON,5.93,1,0.0
+Broadwater,"BROADBENT, April",GRN,5.22,1,1.0
+Broadwater,"KRISCHKER, Mara",UAP,1.46,0,0.0
+Broadwater,"O'DONNELL, Natalie",IMOP,1.27,0,0.0
+Buderim,"MICKELBERG, Brent",LNP,42.52,1,0.0
+Buderim,"MACKENZIE, Ken",ALP,28.25,1,0.0
+Buderim,"MOSELEY, Deborah",GRN,10.82,1,0.0
+Buderim,"DICKSON, Steve",IND*,7.07,1,1.0
+Buderim,"HOSKING, Joyce",ON,4.67,0,0.0
+Buderim,"ANDREWS, Michael",IND*,2.34,0,0.0
+Buderim,"LEE, Alina",IMOP,1.9,0,0.0
+Buderim,"BARRY-JONES, Alison",IND*,1.81,0,0.0
+Buderim,"PHILP, Daniel",UAP,0.6,0,0.0
+Bulimba,"FARMER, Di",ALP,48.23,1,0.0
+Bulimba,"BISHOP, Anthony",LNP,34.19,1,0.0
+Bulimba,"KUELSEN, Rolf",GRN,13.42,1,0.0
+Bulimba,"CONWAY, Doug",ON,2.26,1,1.0
+Bulimba,"ARMSTRONG-SCHMAKEIT, Finn",IND*,1.9,0,0.0
+Bundaberg,"SMITH, Tom",ALP,43.12,1,0.0
+Bundaberg,"BATT, David",LNP,41.55,1,0.0
+Bundaberg,"JONES, Stewart",ON,5.83,1,0.7656
+Bundaberg,"ZUNKER, Ian",LCQP,5.51,1,0.2344
+Bundaberg,"OGDEN, Claire",GRN,3.18,0,0.0
+Bundaberg,"SMELTZ, Shane",UAP,0.81,0,0.0
+Bundamba,"MCCALLUM, Lance",ALP,55.92,1,0.0
+Bundamba,"SHEARMAN, Rob",LNP,15.23,1,0.0
+Bundamba,"BELL, Sharon",ON,14.96,1,0.0
+Bundamba,"MUTTON, Danielle",GRN,10.28,1,1.0
+Bundamba,"LOWERY, Angela",AJP,3.61,0,0.0
+Burdekin,"LAST, Dale",LNP,39.7,1,0.0
+Burdekin,"BRUNKER, Michael",ALP,31.73,1,0.0
+Burdekin,"COX, Sam",KAP,14.18,1,0.0
+Burdekin,"REMMER, Clive",ON,7.0,1,1.0
+Burdekin,"MORIARTY, Carolyn",NQF,3.03,0,0.0
+Burdekin,"SMITH, Jack",GRN,2.02,0,0.0
+Burdekin,"THIRIET, Dominique",AJP,1.41,0,0.0
+Burdekin,"WOOD, Benjamin",UAP,0.92,0,0.0
+Burleigh,"HART, Michael",LNP,39.71,1,0.0
+Burleigh,"BARTHOLOMEW, Wayne (Rabbit)",ALP,35.87,1,0.0
+Burleigh,"MEBBERSON, Rachel",GRN,9.31,1,0.0
+Burleigh,"BATTY, Georgie",ON,7.15,1,1.0
+Burleigh,"WEBER, Ingrid",LCQP,3.67,0,0.0
+Burleigh,"WALLACE, Scott",AJP,3.21,0,0.0
+Burleigh,"FILINGERI, Carlo",UAP,1.09,0,0.0
+Burnett,"BENNETT, Stephen",LNP,48.61,1,0.0
+Burnett,"MORGAN, Kerri",ALP,30.71,1,0.0
+Burnett,"MANSELL, Geoffrey",ON,8.98,1,0.0
+Burnett,"JOHNS, Liam",GRN,4.55,1,1.0
+Burnett,"HUDSON, Paul",KAP,4.24,0,0.0
+Burnett,"CASE, Elizabeth",IMOP,2.16,0,0.0
+Burnett,"GLASS, Ric",IND*,0.75,0,0.0
+Cairns,"HEALY, Michael",ALP,44.2,1,0.0
+Cairns,"MARINO, Sam",LNP,36.48,1,0.0
+Cairns,"DENCH, Daniel",GRN,9.82,1,0.0
+Cairns,"GRIFFITH, Darrin",ON,5.93,1,1.0
+Cairns,"BAXTER, Sarah",IMOP,2.51,0,0.0
+Cairns,"WRIGHT, David",UAP,1.05,0,0.0
+Callide,"BOYCE, Colin",LNP,57.2,1,0.0
+Callide,"EARNSHAW, Gordon",ALP,25.71,1,0.0
+Callide,"BURLING, Adam",IND*,8.42,1,0.0
+Callide,"DOESSEL, Loris",IND*,4.72,1,1.0
+Callide,"WALSH, Anthony",GRN,3.95,0,0.0
+Caloundra,"HUNT, Jason",ALP,41.31,1,0.0
+Caloundra,"COWARD, Stuart",LNP,37.7,1,0.0
+Caloundra,"ELLIS, Raelene",GRN,10.11,1,0.0
+Caloundra,"POLAND, Luke",ON,6.19,1,1.0
+Caloundra,"HART, Belinda",IMOP,2.41,0,0.0
+Caloundra,"GRAY, Trevor",UAP,0.79,0,0.0
+Caloundra,"JESSOP, Mike",IND*,0.76,0,0.0
+Caloundra,"HILL, Mathew",IND*,0.73,0,0.0
+Capalaba,"BROWN, Don",ALP,48.21,1,0.0
+Capalaba,"WALTERS, Bev",LNP,30.91,1,0.0
+Capalaba,"METZEN, Michael",GRN,7.95,1,0.0
+Capalaba,"BRANAGAN, Paul",IND*,5.26,1,1.0
+Capalaba,"GILMORE, Neal",ON,5.19,0,0.0
+Capalaba,"WINTERS, Marilyn",IMOP,1.69,0,0.0
+Capalaba,"CALLIL, Peter Ronald",CLMP,0.8,0,0.0
+Chatsworth,"MINNIKIN, Steve",LNP,46.29,1,0.0
+Chatsworth,"O'DONNELL, Lisa",ALP,39.59,1,0.0
+Chatsworth,"FRY, Kathryn",GRN,9.32,1,0.0
+Chatsworth,"CLARKE, Aaron",ON,3.06,1,1.0
+Chatsworth,"GUY, Madonna",IMOP,1.15,0,0.0
+Chatsworth,"CROOK, Andrew",UAP,0.61,0,0.0
+Clayfield,"NICHOLLS, Tim",LNP,45.89,1,0.0
+Clayfield,"ANTHONY, Philip",ALP,32.04,1,0.0
+Clayfield,"BARTLETT, Andrew",GRN,17.61,1,0.0
+Clayfield,"DOUGLAS, Abby",ON,2.35,1,1.0
+Clayfield,"KING, Robert",IND*,1.37,0,0.0
+Clayfield,"MOLONEY, Kathy",CLMP,0.73,0,0.0
+Condamine,"WEIR, Pat",LNP,54.66,1,0.0
+Condamine,"HUYBREGTS, Brendon",ALP,23.02,1,0.0
+Condamine,"PRIEBE, Greg",ON,15.65,1,0.0
+Condamine,"WOMERSLEY, Sean",GRN,4.91,1,1.0
+Condamine,"HARRIS, Nui",UAP,1.76,0,0.0
+Cook,"LUI, Cynthia",ALP,40.02,1,0.0
+Cook,"BROWN, Ed (Nipper)",LNP,24.1,1,0.0
+Cook,"PARKER, Tanika",KAP,17.22,1,0.0
+Cook,"NEAL, Brett (Beaver)",ON,6.63,1,1.0
+Cook,"RUDDELL, Deby",GRN,5.04,0,0.0
+Cook,"BATZKE, Yodie",IND*,3.86,0,0.0
+Cook,"TAYLEY, Desmond",NQF,2.41,0,0.0
+Cook,"GOULMY, Stephen",UAP,0.71,0,0.0
+Coomera,"CRANDON, Michael",LNP,39.97,1,0.0
+Coomera,"JOHNSON, Chris",ALP,36.3,1,0.0
+Coomera,"WILKINSON, Tabita",ON,8.32,1,0.3314
+Coomera,"GAVRANICH, Lissy",GRN,8.22,1,0.6686
+Coomera,"PROUT, Darryl",AJP,2.66,0,0.0
+Coomera,"GALLAGHER, Heath",UAP,1.69,0,0.0
+Coomera,"BOURBON, Kris",IND*,1.52,0,0.0
+Coomera,"D'MONTFORD, She",IMOP,1.31,0,0.0
+Cooper,"BUSH, Jonty",ALP,34.1,1,0.0
+Cooper,"WISEMAN, Trent",LNP,33.44,1,0.0
+Cooper,"WINSTON-ALLOM, Katinka",GRN,29.63,1,0.0
+Cooper,"VENTNOR, Susan",ON,1.74,1,1.0
+Cooper,"WILTSHIRE, Robert",IND*,1.08,0,0.0
+Currumbin,"GERBER, Laura",LNP,40.24,1,0.0
+Currumbin,"CAMPRADT, Kaylee",ALP,34.72,1,0.0
+Currumbin,"BURGOYNE, Peter",GRN,9.87,1,0.0
+Currumbin,"STUCKEY, Richard",IND*,5.66,1,1.0
+Currumbin,"WADSWORTH, Glen",ON,4.01,0,0.0
+Currumbin,"TAKACS-THORNE, Tracy",IND*,3.53,0,0.0
+Currumbin,"PALMER, Anna",UAP,1.55,0,0.0
+Currumbin,"LOGAN, Ian",IND*,0.43,0,0.0
+Everton,"MANDER, Tim",LNP,45.79,1,0.0
+Everton,"SHANKEY, Danielle",ALP,37.79,1,0.0
+Everton,"RATH, Helen",GRN,9.18,1,0.0
+Everton,"JOHNSON, Mal",ON,3.11,1,1.0
+Everton,"JORDAN, Frank",LCQP,2.58,0,0.0
+Everton,"DISSANAYAKE, Joanne",IMOP,0.78,0,0.0
+Everton,"RUSS, Simon",UAP,0.45,0,0.0
+Everton,"WELLS, Jabez",IND*,0.31,0,0.0
+Ferny Grove,"FURNER, Mark",ALP,45.1,1,0.0
+Ferny Grove,"LEHMANN, Chris",LNP,33.14,1,0.0
+Ferny Grove,"COLLS, Joel",GRN,15.19,1,0.0
+Ferny Grove,"WILLIAMS, Elton",ON,2.96,1,1.0
+Ferny Grove,"PINI, Susan",IMOP,1.58,0,0.0
+Ferny Grove,"SCOFIELD, Mark",IND*,1.44,0,0.0
+Ferny Grove,"MCCABE, John",UAP,0.59,0,0.0
+Gaven,"SCANLON, Meaghan",ALP,47.47,1,0.0
+Gaven,"JACKSON, Kirsten",LNP,33.11,1,0.0
+Gaven,"SEWELL, Sharon",ON,8.22,1,0.0
+Gaven,"SPAIN, Sally",GRN,5.52,1,1.0
+Gaven,"LUYKEN, Suzette",LCQP,3.91,0,0.0
+Gaven,"BECK, Garry",UAP,1.07,0,0.0
+Gaven,"DRAKE, Reyna",CLMP,0.7,0,0.0
+Gladstone,"BUTCHER, Glenn",ALP,64.4,1,0.0
+Gladstone,"HARDING, Ron",LNP,15.16,1,0.0
+Gladstone,"JORGENSEN, Kevin",ON,12.85,1,0.0
+Gladstone,"PETERSON, Murray",IND*,4.06,1,1.0
+Gladstone,"EASTAUGHFFE, Emma",GRN,3.53,0,0.0
+Glass House,"POWELL, Andrew",LNP,40.28,1,0.0
+Glass House,"HAMPSTEAD, Brent",ALP,32.03,1,0.0
+Glass House,"MCLEAN, Andrew",GRN,12.93,1,0.0
+Glass House,"CAMPBELL, Graeme",ON,10.29,1,1.0
+Glass House,"MCCOY, Laressa",IMOP,3.33,0,0.0
+Glass House,"MCDONALD, James",UAP,1.13,0,0.0
+Greenslopes,"KELLY, Joe",ALP,41.33,1,0.0
+Greenslopes,"NEWBOLD, Andrew",LNP,31.52,1,0.0
+Greenslopes,"HUML, Victor",GRN,23.43,1,0.0
+Greenslopes,"BOOKER, John",ON,2.48,1,1.0
+Greenslopes,"MELHOP, Jasmine (Jazzy)",IMOP,1.24,0,0.0
+Gregory,"MILLAR, Lachlan",LNP,54.16,1,0.0
+Gregory,"KERRIGAN, Dave",ALP,24.77,1,0.0
+Gregory,"ROTHERY, Clint",ON,13.84,1,0.0
+Gregory,"BAMBRICK, Paul",GRN,2.81,1,1.0
+Gregory,"CURRIE, Bruce",CLMP,1.79,0,0.0
+Gregory,"TURNER, Thomas",UAP,1.39,0,0.0
+Gregory,"KIARA, Tania",IMOP,1.24,0,0.0
+Gympie,"PERRETT, Tony",LNP,42.42,1,0.0
+Gympie,"WILLIAMS, Geoff",ALP,28.64,1,0.0
+Gympie,"BLAXLAND, Michael",ON,12.58,1,0.0
+Gympie,"GRANGER-BROWN, Lauren",GRN,6.21,1,1.0
+Gympie,"JEROME, Tim",IND*,5.15,0,0.0
+Gympie,"REARDON, Donna",IND*,1.92,0,0.0
+Gympie,"FAIRBAIRN, Nicholas",IMOP,1.71,0,0.0
+Gympie,"MAERTENS, Roland",IND*,1.38,0,0.0
+Hervey Bay,"TANTARI, Adrian",ALP,39.5,1,0.0
+Hervey Bay,"COLEMAN, Steve",LNP,34.35,1,0.0
+Hervey Bay,"HUXHAM, Damian",ON,11.14,1,0.0
+Hervey Bay,"TAYLOR, Stuart",IND*,8.86,1,1.0
+Hervey Bay,"GERDSEN, Sonja",GRN,3.13,0,0.0
+Hervey Bay,"BYRNES, Amy",AJP,3.02,0,0.0
+Hill,"KNUTH, Shane",KAP,52.62,1,0.0
+Hill,"HODGKINS, Michael",ALP,19.7,1,0.0
+Hill,"CUDA, Nick",LNP,16.95,1,0.0
+Hill,"COX, Jennifer",GRN,6.46,1,1.0
+Hill,"GAROZZO, Tara",IMOP,2.64,0,0.0
+Hill,"CAMPION, Peter",IND*,1.28,0,0.0
+Hill,"TUXFORD, Chester Gordon",IND*,0.35,0,0.0
+Hinchinbrook,"DAMETTO, Nick",KAP,42.54,1,0.0
+Hinchinbrook,"PIPER, Scott",LNP,24.94,1,0.0
+Hinchinbrook,"JACOB, Paul",ALP,19.44,1,0.0
+Hinchinbrook,"SULLIVAN, Michael",ON,7.12,1,1.0
+Hinchinbrook,"MEWING, Carolyn",GRN,3.43,0,0.0
+Hinchinbrook,"MASON, Aurelio",UAP,1.34,0,0.0
+Hinchinbrook,"SACKLEY, Jen",IND*,1.19,0,0.0
+Inala,"PALASZCZUK, Annastacia",ALP,67.42,1,0.0
+Inala,"PEROVIC, Miljenka",LNP,16.54,1,0.0
+Inala,"MURPHY, Peter",GRN,7.71,1,0.0
+Inala,"REID, Scott",ON,4.55,1,1.0
+Inala,"QUINLAN, Nigel",LCQP,2.49,0,0.0
+Inala,"JONES, Terry",IND*,0.67,0,0.0
+Inala,"VIDAL, Michael",CLMP,0.62,0,0.0
+Ipswich,"HOWARD, Jennifer",ALP,51.8,1,0.0
+Ipswich,"O'CONNELL, Scott",LNP,20.33,1,0.0
+Ipswich,"HOLMES, Suzie",ON,13.91,1,0.0
+Ipswich,"WALSH, Pat",GRN,8.44,1,1.0
+Ipswich,"MORTON, Shelly",LCQP,5.52,0,0.0
+Ipswich West,"MADDEN, Jim",ALP,50.15,1,0.0
+Ipswich West,"GREEN, Chris",LNP,21.11,1,0.0
+Ipswich West,"DUFFY, Gary",ON,14.72,1,0.0
+Ipswich West,"WOLF, Raven",GRN,6.53,1,1.0
+Ipswich West,"HOPKINS, Anthony",LCQP,4.54,0,0.0
+Ipswich West,"GRIEGER, Clem",CLMP,1.88,0,0.0
+Ipswich West,"KOCHARDY, Karakan Karoly",IND*,1.07,0,0.0
+Jordan,"MULLEN, Charis",ALP,55.44,1,0.0
+Jordan,"MOONEY, Andrew",LNP,22.69,1,0.0
+Jordan,"SYMES, Neil",ON,11.12,1,0.0
+Jordan,"SIDHU, Navdeep Singh",GRN,10.74,1,1.0
+Kawana,"BLEIJIE, Jarrod",LNP,50.84,1,0.0
+Kawana,"REDPATH, Bill",ALP,30.96,1,0.0
+Kawana,"SRI, Anna",GRN,9.33,1,0.0
+Kawana,"MOUSSALLI, Lynette",ON,6.06,1,1.0
+Kawana,"MARIKO, Pamela",AJP,1.79,0,0.0
+Kawana,"MCGLADRIGAN, Afrikah",UAP,1.02,0,0.0
+Keppel,"LAUGA, Brittany",ALP,46.22,1,0.0
+Keppel,"DE GROOT, Adrian",LNP,29.57,1,0.0
+Keppel,"ROTHERY, Wade",ON,15.65,1,0.0
+Keppel,"MULLBRICK, Clancy",GRN,3.99,1,1.0
+Keppel,"DOCKERY, Jimmy",LCQP,2.66,0,0.0
+Keppel,"GANFIELD, Paula",IMOP,1.33,0,0.0
+Keppel,"SMELTZ, Nikki",UAP,0.59,0,0.0
+Kurwongbah,"KING, Shane",ALP,51.79,1,0.0
+Kurwongbah,"PETRUS, Kerry",LNP,26.98,1,0.0
+Kurwongbah,"ATTRILL, Kim",ON,9.04,1,0.0
+Kurwongbah,"SNIJDERS, Earl",GRN,7.39,1,1.0
+Kurwongbah,"DWANE, Heather",AJP,2.51,0,0.0
+Kurwongbah,"PROHASKA, Thor",IND*,2.3,0,0.0
+Lockyer,"MCDONALD, Jim",LNP,45.15,1,0.0
+Lockyer,"BUTLER, Janet",ALP,24.71,1,0.0
+Lockyer,"WEST, Corey",ON,13.25,1,0.0
+Lockyer,"SAVAGE, Jim",IND*,10.1,1,1.0
+Lockyer,"HALEY, Rebecca",GRN,4.92,0,0.0
+Lockyer,"ROCKLIFF, Andrew",UAP,1.86,0,0.0
+Logan,"POWER, Linus",ALP,53.47,1,0.0
+Logan,"PATTISON, Clinton",LNP,24.9,1,0.0
+Logan,"WEBER, Peter",ON,13.81,1,0.0
+Logan,"JENKINSON, Liam",GRN,6.13,1,1.0
+Logan,"ISKANDER, Sam",UAP,1.69,0,0.0
+Lytton,"PEASE, Joan",ALP,52.21,1,0.0
+Lytton,"WALTERS, Gordon",LNP,30.45,1,0.0
+Lytton,"AUSTIN, Ken",GRN,10.55,1,0.0
+Lytton,"SMITH, Debra",ON,3.94,1,1.0
+Lytton,"PHILLIPS, Georgia",IMOP,1.85,0,0.0
+Lytton,"SPAITS, Jonathan",UAP,0.98,0,0.0
+Macalister,"MCMAHON, Melissa",ALP,44.18,1,0.0
+Macalister,"VAN MANEN, Judi",LNP,27.14,1,0.0
+Macalister,"KEECH, Margaret",IND*,10.35,1,0.0
+Macalister,"BYE, Bronwyn",ON,7.46,1,1.0
+Macalister,"PETERSEN, Kirsty",GRN,6.2,0,0.0
+Macalister,"TAYLOR, Paul A S",IND*,2.45,0,0.0
+Macalister,"MCCLAER, David",UAP,1.19,0,0.0
+Macalister,"MUSGRAVE, Ben",CLMP,1.04,0,0.0
+Mackay,"GILBERT, Julieanne",ALP,46.47,1,0.0
+Mackay,"BONANNO, Chris",LNP,31.95,1,0.0
+Mackay,"KEYS, Christine",ON,12.59,1,0.0
+Mackay,"KRSTIC, Shaun",LCQP,4.38,1,1.0
+Mackay,"LINDENBERG, Imogen",GRN,3.4,0,0.0
+Mackay,"SAUNDERS, Julie",IMOP,1.21,0,0.0
+Maiwar,"BERKMAN, Michael",GRN,41.32,1,0.0
+Maiwar,"DAY, Lauren",LNP,37.2,1,0.0
+Maiwar,"THEVAR, Palani",ALP,18.59,1,0.0
+Maiwar,"SHANNON, Boyd",ON,1.38,1,1.0
+Maiwar,"JOHNSON, Michael Andrew",IND*,1.01,0,0.0
+Maiwar,"RUSH, Jacob",UAP,0.49,0,0.0
+Mansfield,"MCMILLAN, Corrine",ALP,46.14,1,0.0
+Mansfield,"WISHART, Janet",LNP,38.43,1,0.0
+Mansfield,"WALTER, Rob",GRN,9.6,1,0.0
+Mansfield,"O'CALLAGHAN, Christopher",ON,2.31,1,1.0
+Mansfield,"TAYLOR, Brendan",LCQP,2.29,0,0.0
+Mansfield,"WIRTH, Jarrod John",IND*,0.75,0,0.0
+Mansfield,"TODOROVA, Maria",UAP,0.47,0,0.0
+Maroochydore,"SIMPSON, Fiona",LNP,47.88,1,0.0
+Maroochydore,"SMITH, Alison",ALP,25.68,1,0.0
+Maroochydore,"UNVERZAGT, Gabrielle",GRN,11.07,1,0.0
+Maroochydore,"CONNOLLY, John",IND*,6.36,1,1.0
+Maroochydore,"MCCORMACK, Rod",ON,4.14,0,0.0
+Maroochydore,"POOLE, Tash",AJP,3.07,0,0.0
+Maroochydore,"SEARLE, Greg",UAP,0.82,0,0.0
+Maroochydore,"CREEVEY, Janet",IND*,0.49,0,0.0
+Maroochydore,"WADESON, Mark",IND*,0.49,0,0.0
+Maryborough,"SAUNDERS, Bruce",ALP,53.27,1,0.0
+Maryborough,"CHAPMAN, Denis",LNP,26.3,1,0.0
+Maryborough,"LOHSE, Sharon",ON,13.18,1,0.0
+Maryborough,"ARMSTRONG, Craig",GRN,2.66,1,1.0
+Maryborough,"BODY, River",LCQP,2.66,0,0.0
+Maryborough,"PACKER, Samantha",IMOP,1.36,0,0.0
+Maryborough,"SOKOLOV, Alex",UAP,0.58,0,0.0
+McConnel,"GRACE, Grace",ALP,35.3,1,0.0
+McConnel,"SINGH, Pinky",LNP,30.97,1,0.0
+McConnel,"LOVEJOY, Kirsten",GRN,28.15,1,0.0
+McConnel,"SWAN, Paul",LCQP,2.19,1,1.0
+McConnel,"PERRY, Anne",ON,1.44,0,0.0
+McConnel,"BERTRAM, Miranda",IND*,0.72,0,0.0
+McConnel,"WOOD, Malcolm",UAP,0.5,0,0.0
+McConnel,"HAMILTON, Alan",IMOP,0.46,0,0.0
+McConnel,"DOBINSON, John Fair",IND*,0.28,0,0.0
+Mermaid Beach,"STEVENS, Ray",LNP,44.07,1,0.0
+Mermaid Beach,"UNGERER, Carl",ALP,30.49,1,0.0
+Mermaid Beach,"HARRIS, Zai",GRN,10.8,1,0.0
+Mermaid Beach,"JAMES, Stephen",ON,5.01,1,1.0
+Mermaid Beach,"LYNCH, Deb",LCQP,3.99,0,0.0
+Mermaid Beach,"JONES, Tory",IND*,1.77,0,0.0
+Mermaid Beach,"AVDJIEV, Hristo",UAP,1.31,0,0.0
+Mermaid Beach,"HOLT, Rhett",IND*,1.06,0,0.0
+Mermaid Beach,"MCARTHUR-WILLIAMS, Nicholas",IND*,0.89,0,0.0
+Mermaid Beach,"SOMSRIRUEN, Suphakan (Mod)",CLMP,0.61,0,0.0
+Miller,"BAILEY, Mark",ALP,41.99,1,0.0
+Miller,"DARWEN, Paul",LNP,30.57,1,0.0
+Miller,"O'BRIEN, Patsy",GRN,20.64,1,0.0
+Miller,"ZIRDUM, Josip",LCQP,3.14,1,1.0
+Miller,"PACKER, Maria",ON,1.92,0,0.0
+Miller,"CARROLL, Edward",IND*,1.19,0,0.0
+Miller,"JULIUS, Christian John",UAP,0.54,0,0.0
+Mirani,"HAMILTON, Shane",ALP,31.97,1,0.0
+Mirani,"ANDREW, Stephen",ON,31.66,1,0.0
+Mirani,"NEWITT, Tracie",LNP,27.59,1,0.0
+Mirani,"BORG, Jason",NQF,4.08,1,1.0
+Mirani,"WATKIN, Ben",GRN,2.43,0,0.0
+Mirani,"BYRAM, Nick",CLMP,1.16,0,0.0
+Mirani,"BORG, Tepepe",UAP,1.12,0,0.0
+Moggill,"ROWAN, Christian",LNP,46.89,1,0.0
+Moggill,"ALBRECHT, Roberta",ALP,28.38,1,0.0
+Moggill,"MCCANE, Lawson",GRN,20.58,1,0.0
+Moggill,"MITCHELL, Bruce",ON,2.9,1,1.0
+Moggill,"RAYWARD, Amy",CLMP,1.24,0,0.0
+Morayfield,"RYAN, Mark",ALP,54.38,1,0.0
+Morayfield,"CRAIG, Theresa",LNP,21.73,1,0.0
+Morayfield,"HANSEN, Rodney",ON,11.89,1,0.0
+Morayfield,"SMITH, Amy",GRN,7.94,1,1.0
+Morayfield,"SNOW, Jason",IND*,2.09,0,0.0
+Morayfield,"MATTHEWS, Grant",IMOP,1.97,0,0.0
+Mount Ommaney,"PUGH, Jess",ALP,50.52,1,0.0
+Mount Ommaney,"HOOPER, Roger",LNP,32.07,1,0.0
+Mount Ommaney,"WORSTELING, Asha",GRN,11.03,1,0.0
+Mount Ommaney,"BRAZIER, Clive",LCQP,3.23,1,1.0
+Mount Ommaney,"POWELL, Michael",ON,2.56,0,0.0
+Mount Ommaney,"EUGARDE, Ian",IND*,0.58,0,0.0
+Mudgeeraba,"BATES, Ros",LNP,48.96,1,0.0
+Mudgeeraba,"OTTEN-KAMP, Maxim",ALP,26.52,1,0.0
+Mudgeeraba,"TURNER, Scott",GRN,8.94,1,0.0002
+Mudgeeraba,"LIDDELL, Andrew",ON,7.71,1,0.9998
+Mudgeeraba,"COX, Lindon",AJP,1.95,0,0.0
+Mudgeeraba,"MCMAHON, Brandon",UAP,1.77,0,0.0
+Mudgeeraba,"PEAD, Gary",IND*,1.65,0,0.0
+Mudgeeraba,"PYTELLEK, Mark",CLMP,0.94,0,0.0
+Mudgeeraba,"SHERWOOD, Bill",IND*,0.85,0,0.0
+Mudgeeraba,"ERIKSON, Leith",IND*,0.7,0,0.0
+Mulgrave,"PITT, Curtis",ALP,49.86,1,0.0
+Mulgrave,"VALLIANOS, Gerry",LNP,25.68,1,0.0
+Mulgrave,"FEHER-HOLAN, Attila",KAP,11.88,1,0.0
+Mulgrave,"BARTORILLO, Francis",ON,6.38,1,1.0
+Mulgrave,"CORY, Sue",GRN,6.2,0,0.0
+Mundingburra,"WALKER, Les",ALP,38.22,1,0.0
+Mundingburra,"DOYLE, Glenn",LNP,32.33,1,0.0
+Mundingburra,"TOMLINSON, Alannah",KAP,12.16,1,0.0
+Mundingburra,"BROWN, Jenny",GRN,6.89,1,1.0
+Mundingburra,"BOWRON, Ian",ON,4.67,0,0.0
+Mundingburra,"JACKSON, Susan",LCQP,4.61,0,0.0
+Mundingburra,"BREWSTER, Martin",UAP,1.13,0,0.0
+Murrumba,"MILES, Steven",ALP,50.55,1,0.0
+Murrumba,"BARLOW, Yvonne",LNP,29.04,1,0.0
+Murrumba,"KENNEDY, Jason",GRN,8.23,1,0.2406
+Murrumba,"HADDOCK, Karen",ON,7.45,1,0.7594
+Murrumba,"MCMAHON, Leichelle",SFF,2.79,0,0.0
+Murrumba,"CLARK, Stewart",IND*,1.93,0,0.0
+Nanango,"FRECKLINGTON, Deb",LNP,49.91,1,0.0
+Nanango,"STAPLETON, Mark",ALP,27.64,1,0.0
+Nanango,"SCRIMSHAW, Tony",ON,14.7,1,0.0
+Nanango,"O'RANCE, Maggie",LCQP,4.16,1,1.0
+Nanango,"HARBISON, John",GRN,3.58,0,0.0
+Nicklin,"HUNT, Marty",LNP,37.96,1,0.0
+Nicklin,"SKELTON, Robert",ALP,34.45,1,0.0
+Nicklin,"ETHERIDGE, Sue",GRN,12.49,1,0.0
+Nicklin,"CARDINAL, Michael",ON,6.41,1,1.0
+Nicklin,"BOSI, Riccardo",IND*,4.68,0,0.0
+Nicklin,"LAHN, Allona",IMOP,4.01,0,0.0
+Ninderry,"PURDIE, Dan",LNP,44.01,1,0.0
+Ninderry,"DODDS, Melinda",ALP,32.34,1,0.0
+Ninderry,"BRYAR, Dan",GRN,12.52,1,0.0
+Ninderry,"WEIJERS, Frank",ON,6.25,1,1.0
+Ninderry,"NEWLAND-BLACKMORE, Andrea",IMOP,4.06,0,0.0
+Ninderry,"GILES, Jay",UAP,0.82,0,0.0
+Noosa,"BOLTON, Sandy",IND*,43.92,1,0.0
+Noosa,"BLEVIN, James",LNP,29.21,1,0.0
+Noosa,"DENHAM, Mark",ALP,14.4,1,0.0
+Noosa,"PRESCOTT, Rhonda",GRN,7.19,1,1.0
+Noosa,"BELL-HENSELIN, Tracey",ON,3.59,0,0.0
+Noosa,"REDFORD, Darrell",AJP,1.69,0,0.0
+Nudgee,"LINARD, Leanne",ALP,51.46,1,0.0
+Nudgee,"SHAW, Ryan",LNP,30.01,1,0.0
+Nudgee,"DAVIES, Jim",GRN,13.23,1,0.0
+Nudgee,"HALLIWELL, Carrol",ON,3.51,1,1.0
+Nudgee,"PRITCHARD, Dane",IMOP,1.79,0,0.0
+Oodgeroo,"ROBINSON, Mark",LNP,40.87,1,0.0
+Oodgeroo,"HENLEY, Irene",ALP,27.84,1,0.0
+Oodgeroo,"RICHARDSON, Claire",IND*,21.48,1,0.0
+Oodgeroo,"MAZLIN, Ian",GRN,5.33,1,1.0
+Oodgeroo,"CHAPMAN, Douglas",ON,3.33,0,0.0
+Oodgeroo,"MARRIOTT, Kirstyn",IMOP,1.15,0,0.0
+Pine Rivers,"BOYD, Nikki",ALP,44.48,1,0.0
+Pine Rivers,"THOMAS, Kara",LNP,36.48,1,0.0
+Pine Rivers,"SEIFFERT-SMITH, Tara",GRN,9.36,1,0.0
+Pine Rivers,"LEECH, Christopher",ON,5.06,1,1.0
+Pine Rivers,"BROHMAN, Maureen",AJP,1.63,0,0.0
+Pine Rivers,"PATTRICK, Alissa",IMOP,1.27,0,0.0
+Pine Rivers,"VASCHINA, Bruce",IND*,0.97,0,0.0
+Pine Rivers,"AUSTIN, Steve",UAP,0.74,0,0.0
+Pumicestone,"KING, Ali",ALP,46.13,1,0.0
+Pumicestone,"GASKE, Fiona",LNP,36.34,1,0.0
+Pumicestone,"KONOWALENKO, Ross",ON,7.83,1,0.0
+Pumicestone,"OGDEN, Richard",GRN,4.37,1,1.0
+Pumicestone,"DRYDEN, Ryan",LCQP,4.23,0,0.0
+Pumicestone,"NEWBERY, Steven",UAP,1.11,0,0.0
+Redcliffe,"D'ATH, Yvette",ALP,46.93,1,0.0
+Redcliffe,"DOOLEY, Kerri-Anne",LNP,37.34,1,0.0
+Redcliffe,"SIMON, Will",GRN,7.22,1,0.0
+Redcliffe,"DAVY, Virginia",ON,4.36,1,1.0
+Redcliffe,"PHILP, Ian",IND*,2.12,0,0.0
+Redcliffe,"KERR, Carolyn",IND*,1.07,0,0.0
+Redcliffe,"BLOHBERGER, Bob",UAP,0.96,0,0.0
+Redlands,"RICHARDS, Kim",ALP,43.51,1,0.0
+Redlands,"PIKE, Henry",LNP,38.14,1,0.0
+Redlands,"MCNAUGHT, Carmen",GRN,7.22,1,0.0
+Redlands,"WILLIAMS, Peter",ON,4.15,1,1.0
+Redlands,"BRADY, Frank Everett",LCQP,3.47,0,0.0
+Redlands,"MAHER, Michelle",IMOP,1.51,0,0.0
+Redlands,"POPE, Andrew",SFF,1.35,0,0.0
+Redlands,"GUNNIS, Craig",UAP,0.65,0,0.0
+Rockhampton,"O'ROURKE, Barry",ALP,44.32,1,0.0
+Rockhampton,"HOPKINS, Tony",LNP,23.74,1,0.0
+Rockhampton,"OBRIEN, Torin",ON,12.39,1,0.0
+Rockhampton,"DOBLO, Dominic",IND*,6.81,1,1.0
+Rockhampton,"BARNARD, Laura",LCQP,3.97,0,0.0
+Rockhampton,"SHEPHERD, Christian",KAP,3.84,0,0.0
+Rockhampton,"JONES, Mick",GRN,3.42,0,0.0
+Rockhampton,"SAXON, Yvette",IMOP,1.09,0,0.0
+Rockhampton,"CRANGLE, Paul",UAP,0.43,0,0.0
+Sandgate,"HINCHLIFFE, Stirling",ALP,54.59,1,0.0
+Sandgate,"SIEMSEN, Clark",LNP,26.75,1,0.0
+Sandgate,"LE ROY, Miree",GRN,11.75,1,0.0
+Sandgate,"MILES, Rodney",ON,5.2,1,1.0
+Sandgate,"MILHAM, Todd",IND*,1.71,0,0.0
+Scenic Rim,"KRAUSE, Jon",LNP,47.47,1,0.0
+Scenic Rim,"STANTON, Luz",ALP,26.49,1,0.0
+Scenic Rim,"HENSELIN, Paul",ON,15.02,1,0.0
+Scenic Rim,"AGNOLETTO, Pietro",GRN,7.93,1,1.0
+Scenic Rim,"HUSBANDS, Deborah",IMOP,2.13,0,0.0
+Scenic Rim,"FOWLER, Bradley",UAP,0.95,0,0.0
+South Brisbane,"MACMAHON, Amy",GRN,37.89,1,0.0
+South Brisbane,"TRAD, Jackie",ALP,34.41,1,0.0
+South Brisbane,"GREHAN, Clem",LNP,22.85,1,0.0
+South Brisbane,"TAXIS, Rosalie",ON,1.72,1,1.0
+South Brisbane,"MEYER, John",IND*,1.32,0,0.0
+South Brisbane,"JIGGENS, John",IND*,1.19,0,0.0
+South Brisbane,"THORNE, Marcus",UAP,0.62,0,0.0
+Southern Downs,"LISTER, James",LNP,51.6,1,0.0
+Southern Downs,"RICHTERS, Joel",ALP,25.98,1,0.0
+Southern Downs,"MOULDEN, Rosemary",ON,10.08,1,0.0
+Southern Downs,"RICHARDSON, Malcolm",SFF,4.43,1,1.0
+Southern Downs,"HENDERSON, Tom",GRN,4.15,0,0.0
+Southern Downs,"WALDRON, Deborah",LCQP,3.77,0,0.0
+Southport,"MOLHOEK, Rob",LNP,45.58,1,0.0
+Southport,"GALLAGHER, Susie",ALP,34.54,1,0.0
+Southport,"QUINN, Alan",GRN,9.06,1,0.0
+Southport,"FELIX, Raphael",ON,5.84,1,1.0
+Southport,"LAMBERT, Brett",IND*,2.39,0,0.0
+Southport,"AVDJIEVA, Maria",UAP,1.63,0,0.0
+Southport,"DRAKE, Jack",CLMP,0.96,0,0.0
+Springwood,"DE BRENNI, Mick",ALP,48.79,1,0.0
+Springwood,"BOULTON, Kirrily",LNP,34.47,1,0.0
+Springwood,"LEO, Janina",GRN,7.55,1,0.0
+Springwood,"COOKSON, Glen",ON,5.37,1,1.0
+Springwood,"RUSH, Judy",AJP,2.22,0,0.0
+Springwood,"SGANZERLA, Ian",CLMP,0.85,0,0.0
+Springwood,"SOKOLOV, George",UAP,0.76,0,0.0
+Stafford,"SULLIVAN, Jimmy",ALP,45.57,1,0.0
+Stafford,"SANGJITPHUN, Ed",LNP,31.92,1,0.0
+Stafford,"BATES, Stephen",GRN,16.43,1,0.0
+Stafford,"DWYER, Kerrie",ON,2.96,1,1.0
+Stafford,"HODGES, Jeff",CLMP,1.9,0,0.0
+Stafford,"CONCIATORE, Anthony",IND*,1.23,0,0.0
+Stretton,"PEGG, Duncan",ALP,56.59,1,0.0
+Stretton,"ZHUANG, Peter",LNP,30.21,1,0.0
+Stretton,"WILDIN, Andrea",GRN,8.71,1,0.0
+Stretton,"CHEKHUNOV, Alexey",ON,4.49,1,1.0
+Surfers Paradise,"LANGBROEK, John-Paul",LNP,57.73,1,0.0
+Surfers Paradise,"BAILEY, Brianna",ALP,25.47,1,0.0
+Surfers Paradise,"QUINN, Nelson",GRN,8.15,1,0.0
+Surfers Paradise,"SCHULTZ, Leeanne",ON,6.26,1,1.0
+Surfers Paradise,"MCKAY, Roger",UAP,2.4,0,0.0
+Theodore,"BOOTHMAN, Mark",LNP,44.21,1,0.0
+Theodore,"BELL, Tracey",ALP,38.22,1,0.0
+Theodore,"HOLLAND, Anita",ON,7.14,1,0.0
+Theodore,"WOODLOCK, John",GRN,6.91,1,1.0
+Theodore,"OXENFORD, Gale",IND*,2.05,0,0.0
+Theodore,"MARKS, Robert",UAP,1.45,0,0.0
+Thuringowa,"HARPER, Aaron",ALP,36.83,1,0.0
+Thuringowa,"MARR, Natalie",LNP,30.42,1,0.0
+Thuringowa,"WOOD, Julianne",KAP,16.12,1,0.0
+Thuringowa,"ALEXANDER, Jeni",ON,9.8,1,1.0
+Thuringowa,"HARDISTY, Heidi",GRN,4.98,0,0.0
+Thuringowa,"TURNER, Michael (Blu)",UAP,1.84,0,0.0
+Toohey,"RUSSO, Peter",ALP,50.41,1,0.0
+Toohey,"CRAZE, Warren",LNP,30.08,1,0.0
+Toohey,"GARTON, Claire",GRN,12.56,1,0.0
+Toohey,"PETERSON, Nikolas",LCQP,3.7,1,1.0
+Toohey,"ROEL, Claudia",ON,3.24,0,0.0
+Toowoomba North,"WATTS, Trevor",LNP,49.99,1,0.0
+Toowoomba North,"O'HARA SULLIVAN, Megan",ALP,35.04,1,0.0
+Toowoomba North,"HUMPHREY, Ron",ON,7.38,1,0.0
+Toowoomba North,"NELLIGAN, Alyce",GRN,6.45,1,1.0
+Toowoomba North,"SOKOLOVA, Stella",UAP,1.13,0,0.0
+Toowoomba South,"JANETZKI, David",LNP,51.33,1,0.0
+Toowoomba South,"KRAUSE, Susan",ALP,30.84,1,0.0
+Toowoomba South,"KOZLOWSKI, Dylan",ON,7.7,1,0.0
+Toowoomba South,"COYNE, Thomas",GRN,6.87,1,1.0
+Toowoomba South,"BERRY, Robert",IND*,1.75,0,0.0
+Toowoomba South,"TURNER, Allan",UAP,1.51,0,0.0
+Townsville,"STEWART, Scott",ALP,36.2,1,0.0
+Townsville,"HATHAWAY, John",LNP,33.45,1,0.0
+Townsville,"SCHWARZ, Joshua",KAP,11.27,1,0.0
+Townsville,"O'GRADY, Tom",GRN,8.32,1,1.0
+Townsville,"CLARKSON, Clive",ON,4.55,0,0.0
+Townsville,"GRUMBERG, Samara",AJP,1.95,0,0.0
+Townsville,"MCMAHON, Toni",IMOP,1.88,0,0.0
+Townsville,"DOWLING, Greg",UAP,1.83,0,0.0
+Townsville,"HAWKS, Clynton",NQF,0.55,0,0.0
+Traeger,"KATTER, Robbie",KAP,58.85,1,0.0
+Traeger,"BAMBRICK, James",ALP,20.61,1,0.0
+Traeger,"SMITH, Marnie",LNP,16.04,1,0.0
+Traeger,"HORVATH, Kristian",GRN,2.25,1,1.0
+Traeger,"SCRIVEN, Craig H.B",IND*,1.35,0,0.0
+Traeger,"COLLINS, Phillip",UAP,0.89,0,0.0
+Warrego,"LEAHY, Ann",LNP,55.98,1,0.0
+Warrego,"O'BRIEN, Mark",ALP,19.72,1,0.0
+Warrego,"GURNETT, Rick",KAP,11.28,1,0.0
+Warrego,"COYNE, Joshua",ON,8.83,1,1.0
+Warrego,"SANDERSON, Joshua",GRN,2.26,0,0.0
+Warrego,"STONE, Mark",IND*,1.93,0,0.0
+Waterford,"FENTIMAN, Shannon",ALP,54.52,1,0.0
+Waterford,"CASWELL, Andrew",LNP,25.49,1,0.0
+Waterford,"MILLER, Kim",ON,9.02,1,0.0
+Waterford,"SMART, Lachlan",GRN,6.95,1,1.0
+Waterford,"CARTER, Lanai",IND*,2.54,0,0.0
+Waterford,"OLSEN, Ben",CLMP,1.48,0,0.0
+Whitsunday,"CAMM, Amanda",LNP,32.85,1,0.0
+Whitsunday,"KELLY, Angie",ALP,32.61,1,0.0
+Whitsunday,"LAWSON, Deb",ON,9.39,1,0.0
+Whitsunday,"COSTIGAN, Jason",NQF,9.37,1,1.0
+Whitsunday,"PATERSON, Ciaron",KAP,6.17,0,0.0
+Whitsunday,"HILDER, Paul",LCQP,4.85,0,0.0
+Whitsunday,"BARRETT, Emma",GRN,3.88,0,0.0
+Whitsunday,"ARMSTRONG, Greg",UAP,0.87,0,0.0
+Woodridge,"DICK, Cameron",ALP,66.97,1,0.0
+Woodridge,"BAUER, Russell",LNP,15.03,1,0.0
+Woodridge,"VALENTINE, Lann",ON,10.63,1,0.0
+Woodridge,"BENNETT, Valerie",GRN,7.37,1,1.0

@@ -1,0 +1,54 @@
+{
+  "model": "model2",
+  "run_id": "SA2026 (B1)",
+  "timestamp": "2026-11-09T09:51:45+00:00",
+  "git_commit": null,
+  "runs": 5000,
+  "seed": 1,
+  "noise": {
+    "poll_sd": 2.5,
+    "region_sd": 2.0,
+    "seat_sd": 3.5,
+    "flow_state": 0.15,
+    "flow_seat": 0.05
+  },
+  "on_priors": null,
+  "exhaust": false,
+  "core_rule": {
+    "top": 4,
+    "share": 0.05
+  },
+  "inputs": {
+    "state": "SA",
+    "state_election": "2026-03-21",
+    "districts": 47,
+    "baseline": "SA 2026 actual primaries",
+    "federal_election": null,
+    "winners": "SA2026",
+    "primaries": "actual 2026 primaries",
+    "flows": "that election's distributions of preferences, leave-one-district-out",
+    "distributions": "data/SA2026/distributions/dop_SA2026.json"
+  },
+  "scores": {
+    "districts": 47,
+    "raw_seat_count": 45,
+    "brier": 0.0618,
+    "log_loss": 0.1085
+  },
+  "diagnostics": {
+    "final_two_accuracy": 0.9362,
+    "tcp_margin_mae": 1.5
+  },
+  "actual_seats": {
+    "ALP": 34,
+    "IND*": 4,
+    "LP": 5,
+    "ON": 4
+  },
+  "predicted_seats_mean": {
+    "ALP": 34.77,
+    "IND*": 3.02,
+    "LP": 5.4,
+    "ON": 3.81
+  }
+}

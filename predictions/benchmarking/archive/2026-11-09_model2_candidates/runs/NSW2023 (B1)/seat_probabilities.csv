@@ -1,0 +1,563 @@
+district,candidate,party,p_win,p_final_two,tcp_p10,tcp_p50,tcp_p90
+Albury,CLANCY Justin,LP,1.0,1.0,65.01,65.54,66.11
+Albury,ROWLAND Marcus,ALP,0.0,1.0,33.89,34.46,34.99
+Albury,DAVERN Eli,GRN,0.0,0.0,,,
+Albury,SINCLAIR Peter,SFF,0.0,0.0,,,
+Albury,FERNANDO Asanki,AJP,0.0,0.0,,,
+Albury,ROBERTSON Geoffrey,LDP,0.0,0.0,,,
+Albury,HAMILTON Ross,SAP,0.0,0.0,,,
+Auburn,VOLTZ Lynda,ALP,1.0,1.0,72.99,73.42,73.82
+Auburn,ZAMAN Mohammed (Haseen),LP,0.0,1.0,26.18,26.58,27.01
+Auburn,ASGARI Masoomeh,GRN,0.0,0.0,,,
+Auburn,MORKOS DOUAIHY Julie,LDP,0.0,0.0,,,
+Auburn,DAOUD Jamal,IND*,0.0,0.0,,,
+Auburn,GOED Shelley,SAP,0.0,0.0,,,
+Badgerys Creek,DAVIES Tanya,LP,1.0,1.0,59.48,59.83,60.18
+Badgerys Creek,THAIN Garion,ALP,0.0,1.0,39.82,40.17,40.52
+Badgerys Creek,GREEN Benjamin,ON,0.0,0.0,,,
+Badgerys Creek,BEST Nick,GRN,0.0,0.0,,,
+Badgerys Creek,COOPER Peter,SAP,0.0,0.0,,,
+Ballina,SMITH Tamara,GRN,0.554,1.0,49.26,50.09,50.8
+Ballina,BOOYENS Josh,NP,0.446,1.0,49.2,49.91,50.74
+Ballina,BROADLEY Andrew,ALP,0.0,0.0,,,
+Ballina,LOUGHREY Kevin,IND*,0.0,0.0,,,
+Ballina,JENKINS Peter,SAP,0.0,0.0,,,
+Balmain,SHETTY Kobi,GRN,0.9978,1.0,50.79,51.32,51.82
+Balmain,SCOTT Philippa,ALP,0.0022,1.0,48.18,48.68,49.21
+Balmain,LEACH Freya,LP,0.0,0.0,,,
+Balmain,BISGROVE Stephen,SAP,0.0,0.0,,,
+Balmain,STELZER Glen,PEP,0.0,0.0,,,
+Bankstown,DIB Jihad,ALP,1.0,1.0,70.19,70.43,70.64
+Bankstown,TALEB Nathan,LP,0.0,1.0,29.36,29.57,29.81
+Bankstown,NASEDRA Isaac,GRN,0.0,0.0,,,
+Bankstown,ALYATEEM Yosra,IMOP,0.0,0.0,,,
+Bankstown,BODDY Max,IND*,0.0,0.0,,,
+Bankstown,ABOU-HAIDAR Dorlene,AJP,0.0,0.0,,,
+Bankstown,HABIB Luke,SAP,0.0,0.0,,,
+Bankstown,GLINKA Marianne,PEP,0.0,0.0,,,
+Barwon,BUTLER Roy,IND*,1.0,1.0,64.66,65.31,65.92
+Barwon,TURNER Annette,NP,0.0,1.0,34.08,34.69,35.34
+Barwon,ROBERTS-GARNSEY Joshua,ALP,0.0,0.0,,,
+Barwon,BRITTON Paul,SFF,0.0,0.0,,,
+Barwon,HARTLEY Ben,LCP,0.0,0.0,,,
+Barwon,SCHULTZ Pat,GRN,0.0,0.0,,,
+Barwon,HOWE Stuart,IND*,0.0,0.0,,,
+Barwon,MCBRIDE Thomas,PEP,0.0,0.0,,,
+Bathurst,TOOLE Paul,NP,1.0,1.0,71.4,71.96,72.52
+Bathurst,SHAW Cameron,ALP,0.0,1.0,27.48,28.04,28.6
+Bathurst,SINCLAIR Craig,SFF,0.0,0.0,,,
+Bathurst,NANKERVIS Kay,GRN,0.0,0.0,,,
+Bathurst,TICEHURST Martin,IND*,0.0,0.0,,,
+Bathurst,ZBIK Antony,LCP,0.0,0.0,,,
+Bathurst,WILSON Burchell,LDP,0.0,0.0,,,
+Bathurst,BEGG Michael,SAP,0.0,0.0,,,
+Bega,HOLLAND Michael,ALP,1.0,1.0,59.5,59.93,60.35
+Bega,FITZPATRICK Russell,LP,0.0,1.0,39.65,40.07,40.5
+Bega,GRIFF Cathy,GRN,0.0,0.0,,,
+Bega,ABBOTT Debra,SFF,0.0,0.0,,,
+Bega,WHITE Greg,LCP,0.0,0.0,,,
+Bega,HAWKINS Jeffrey,IND*,0.0,0.0,,,
+Bega,GEISELHART Karin,SAP,0.0,0.0,,,
+Blacktown,BALI Stephen,ALP,1.0,1.0,69.35,69.63,69.89
+Blacktown,GREEN Allan,LP,0.0,1.0,30.11,30.37,30.65
+Blacktown,FOSTER Peter,LCP,0.0,0.0,,,
+Blacktown,HOBBS Leonard,GRN,0.0,0.0,,,
+Blacktown,KERIN Emma,AJP,0.0,0.0,,,
+Blacktown,MISHALOW Alexander,LDP,0.0,0.0,,,
+Blacktown,MURPHY Patrick,SAP,0.0,0.0,,,
+Blue Mountains,DOYLE Trish,ALP,1.0,1.0,69.83,70.26,70.66
+Blue Mountains,BRUCE Sophie-Anne,LP,0.0,1.0,29.34,29.74,30.17
+Blue Mountains,CONDIE Jenna,GRN,0.0,0.0,,,
+Blue Mountains,KEIGHTLEY Greg,AJP,0.0,0.0,,,
+Blue Mountains,PALMER Michelle,IMOP,0.0,0.0,,,
+Blue Mountains,MARSCHALL Richard,SAP,0.0,0.0,,,
+Cabramatta,VO Tri,ALP,1.0,1.0,62.06,62.95,63.78
+Cabramatta,NGUYEN Courtney,LP,0.0,1.0,36.22,37.05,37.94
+Cabramatta,HOANG Kate,IND*,0.0,0.0,,,
+Cabramatta,SMALING Mark,LDP,0.0,0.0,,,
+Cabramatta,CHIA DAVIS Roz,GRN,0.0,0.0,,,
+Cabramatta,MOUSSA Randa,AJP,0.0,0.0,,,
+Camden,QUINNELL Sally,ALP,1.0,1.0,52.44,52.99,53.54
+Camden,SIDGREAVES Peter,LP,0.0,1.0,46.46,47.01,47.56
+Camden,DOLLIN Garry,ON,0.0,0.0,,,
+Camden,RIVERA Emily,GRN,0.0,0.0,,,
+Camden,BIJOK Jessie,SAP,0.0,0.0,,,
+Campbelltown,WARREN Greg,ALP,1.0,1.0,71.63,72.29,72.91
+Campbelltown,PAUDEL Gypshouna,LP,0.0,1.0,27.09,27.71,28.37
+Campbelltown,ZAHRA Adam,ON,0.0,0.0,,,
+Campbelltown,RIVERA Jayden,GRN,0.0,0.0,,,
+Campbelltown,SICARI Rosa (Rosetta),LDP,0.0,0.0,,,
+Campbelltown,TWADDELL Matt,AJP,0.0,0.0,,,
+Campbelltown,JONES Howard,SAP,0.0,0.0,,,
+Campbelltown,GALIELL Tofick,IND*,0.0,0.0,,,
+Canterbury,COTSIS Sophie,ALP,1.0,1.0,75.13,75.63,76.11
+Canterbury,BOUMANSOUR Nemr,LP,0.0,1.0,23.89,24.37,24.87
+Canterbury,SCHOTT Bradley,GRN,0.0,0.0,,,
+Canterbury,HADCHITI Vanessa,LDP,0.0,0.0,,,
+Canterbury,SINACORI Joe,SAP,0.0,0.0,,,
+Canterbury,KING Kacey,AJP,0.0,0.0,,,
+Castle Hill,HODGES Mark,LP,1.0,1.0,60.32,60.79,61.28
+Castle Hill,CARTWRIGHT Tina,ALP,0.0,1.0,38.72,39.21,39.68
+Castle Hill,KORDROSTAMI Tina,GRN,0.0,0.0,,,
+Castle Hill,TRINH My,LDP,0.0,0.0,,,
+Castle Hill,CLAUS Eric,SAP,0.0,0.0,,,
+Castle Hill,ORGAN Nathan,IND*,0.0,0.0,,,
+Cessnock,BARR Clayton,ALP,1.0,1.0,74.95,75.52,76.07
+Cessnock,KING Quintin,ON,0.0,0.995,23.94,24.49,25.05
+Cessnock,FENWICK Andrew,LCP,0.0,0.005,22.73,23.29,23.64
+Cessnock,BARNHAM Ash,NP,0.0,0.0,,,
+Cessnock,NAIRN Llynda,GRN,0.0,0.0,,,
+Cessnock,DAVIES Victoria,AJP,0.0,0.0,,,
+Cessnock,JONES Graham,SAP,0.0,0.0,,,
+Charlestown,HARRISON Jodie,ALP,1.0,1.0,70.51,70.94,71.31
+Charlestown,ANTCLIFF Jack,LP,0.0,1.0,28.69,29.06,29.49
+Charlestown,WATKINSON Greg,GRN,0.0,0.0,,,
+Charlestown,ROLFE Marie,SAP,0.0,0.0,,,
+Clarence,WILLIAMSON Richie,NP,1.0,1.0,62.62,63.3,63.96
+Clarence,ANKERSMIT Leon,ALP,0.0,1.0,36.04,36.7,37.38
+Clarence,CLANCY Greg,GRN,0.0,0.0,,,
+Clarence,RAYNER Mark,LCP,0.0,0.0,,,
+Clarence,NOVAK Debrah,IND*,0.0,0.0,,,
+Clarence,LEVI Nicki,IND*,0.0,0.0,,,
+Clarence,KELLER George,SAP,0.0,0.0,,,
+Clarence,DUROUX Brett,IND*,0.0,0.0,,,
+Coffs Harbour,SINGH Gurmesh,NP,1.0,1.0,65.0,65.65,66.27
+Coffs Harbour,JUDGE Tony,ALP,0.0,1.0,33.73,34.35,35.0
+Coffs Harbour,TOWNLEY Sally,IND*,0.0,0.0,,,
+Coffs Harbour,ELLISTON Tihema,LCP,0.0,0.0,,,
+Coffs Harbour,NOTT Tim,GRN,0.0,0.0,,,
+Coffs Harbour,PEARCE Kellie,AJP,0.0,0.0,,,
+Coffs Harbour,CULLY Ruth,SAP,0.0,0.0,,,
+Coogee,O'NEILL Marjorie,ALP,1.0,1.0,60.41,61.0,61.55
+Coogee,VON MUENSTER Kylie,LP,0.0,1.0,38.45,39.0,39.59
+Coogee,PANDOLFINI Rafaela,GRN,0.0,0.0,,,
+Coogee,MURRAY Lluisa,SAP,0.0,0.0,,,
+Coogee,MOSQUERA Alicia,IMOP,0.0,0.0,,,
+Coogee,GARROD Simon,AJP,0.0,0.0,,,
+Cootamundra,COOKE Steph,NP,1.0,1.0,80.46,80.84,81.18
+Cootamundra,DAHLITZ Chris,ALP,0.0,1.0,18.82,19.17,19.54
+Cootamundra,CULLEN Jake,SFF,0.0,0.0,,,
+Cootamundra,PASSLOW Jeffrey,GRN,0.0,0.0,,,
+Cootamundra,YOUNG Robert,IND*,0.0,0.0,,,
+Cootamundra,FISHER Brian,IND*,0.0,0.0,,,
+Cootamundra,O'ROURKE Chris,SAP,0.0,0.0,,,
+Cronulla,SPEAKMAN Mark,LP,1.0,1.0,62.36,62.8,63.28
+Cronulla,CONSTANCE Paul,ALP,0.0,1.0,36.72,37.2,37.64
+Cronulla,DYSON Catherine,GRN,0.0,0.0,,,
+Cronulla,IBBOTSON Craig,ON,0.0,0.0,,,
+Cronulla,MORAN Richard,SAP,0.0,0.0,,,
+Cronulla,GIANNAKIS Domna,IMOP,0.0,0.0,,,
+Davidson,CROSS Matt,LP,1.0,1.0,64.75,65.51,66.29
+Davidson,EDELSTEIN Karyn,ALP,0.0,1.0,33.71,34.49,35.25
+Davidson,KITSON Janine,IND*,0.0,0.0,,,
+Davidson,ATKINSON Caroline,GRN,0.0,0.0,,,
+Davidson,WILLS Andrew,SAP,0.0,0.0,,,
+Drummoyne,DI PASQUA Stephanie,LP,1.0,1.0,51.56,51.94,52.37
+Drummoyne,LITTLE Julia,ALP,0.0,1.0,47.63,48.06,48.44
+Drummoyne,JAGO Charles,GRN,0.0,0.0,,,
+Drummoyne,CONAGHAN Patrick,SAP,0.0,0.0,,,
+Dubbo,SAUNDERS Dugald,NP,1.0,1.0,67.67,68.2,68.72
+Dubbo,BLACK Josh,ALP,0.0,1.0,31.28,31.8,32.33
+Dubbo,RICHARDSON Kate,SFF,0.0,0.0,,,
+Dubbo,LITTLEJOHN Mark,LCP,0.0,0.0,,,
+Dubbo,THOMAS Robyn,GRN,0.0,0.0,,,
+Dubbo,NUGENT Anthony,SAP,0.0,0.0,,,
+East Hills,WILKINSON Kylie,ALP,1.0,1.0,51.86,52.2,52.53
+East Hills,LINDSAY Wendy,LP,0.0,1.0,47.47,47.8,48.14
+East Hills,HANNA Natalie,GRN,0.0,0.0,,,
+East Hills,BROGAN Chris,IND*,0.0,0.0,,,
+Epping,PERROTTET Dominic,LP,1.0,1.0,54.76,55.21,55.7
+Epping,MASCARENHAS Alan,ALP,0.0,1.0,44.3,44.79,45.24
+Epping,BRADLEY Phil,GRN,0.0,0.0,,,
+Epping,WATERSON Victor,IND*,0.0,0.0,,,
+Epping,TERCEIRO Carmen,AJP,0.0,0.0,,,
+Epping,MOLLOY Bradley,SAP,0.0,0.0,,,
+Fairfield,SALIBA David,ALP,1.0,1.0,70.17,70.89,71.54
+Fairfield,PILLAI Aaryen,LP,0.0,1.0,28.46,29.11,29.83
+Fairfield,ODESH Hikmat,IND*,0.0,0.0,,,
+Fairfield,LOVERO Severino,IND*,0.0,0.0,,,
+Fairfield,BALL Monika,GRN,0.0,0.0,,,
+Fairfield,POTKONYAK Jacob,LCP,0.0,0.0,,,
+Fairfield,LEGGATT Robyn,PEP,0.0,0.0,,,
+Gosford,TESCH Liesl,ALP,1.0,1.0,64.52,64.9,65.26
+Gosford,BOCKING Dee,LP,0.0,1.0,34.74,35.1,35.48
+Gosford,VAN HAREN Hilary,GRN,0.0,0.0,,,
+Gosford,FREEMAN Larry,SFF,0.0,0.0,,,
+Gosford,BELLAMY Lisa,IND*,0.0,0.0,,,
+Gosford,MCCALLUM Emily,AJP,0.0,0.0,,,
+Gosford,SOETENS Ineka,SAP,0.0,0.0,,,
+Goulburn,TUCKERMAN Wendy,LP,1.0,1.0,51.27,51.79,52.34
+Goulburn,PILBROW Michael,ALP,0.0,1.0,47.66,48.21,48.73
+Goulburn,WOOD Andrew,SFF,0.0,0.0,,,
+Goulburn,OLSEN Gregory John,GRN,0.0,0.0,,,
+Goulburn,LOGAN Margaret,SAP,0.0,0.0,,,
+Granville,FINN Julia,ALP,1.0,1.0,70.98,71.51,72.01
+Granville,MASUM Anm,LP,0.0,1.0,27.99,28.49,29.02
+Granville,SAAD Charbel,IND*,0.0,0.0,,,
+Granville,HADCHITI John,LDP,0.0,0.0,,,
+Granville,CASTLE Janet,GRN,0.0,0.0,,,
+Granville,LAXMANALAL Rohan,AJP,0.0,0.0,,,
+Hawkesbury,PRESTON Robyn,LP,1.0,1.0,58.05,58.67,59.3
+Hawkesbury,KOTLASH Amanda,ALP,0.0,1.0,40.7,41.33,41.95
+Hawkesbury,POPOVSKI Susane,ON,0.0,0.0,,,
+Hawkesbury,WHEELER Danielle,GRN,0.0,0.0,,,
+Hawkesbury,MAGUIRE Angela,IND*,0.0,0.0,,,
+Hawkesbury,DOGRAMACI Eddie,SBP,0.0,0.0,,,
+Hawkesbury,PETTITT Tony,IND*,0.0,0.0,,,
+Hawkesbury,CARREY Elissa,SAP,0.0,0.0,,,
+Heathcote,STUART Maryanne,ALP,1.0,1.0,58.21,58.69,59.15
+Heathcote,EVANS Lee,LP,0.0,1.0,40.85,41.31,41.79
+Heathcote,RIACH Cooper,GRN,0.0,0.0,,,
+Heathcote,AMBROSE Sean,SFF,0.0,0.0,,,
+Heathcote,PERKETT Arielle,AJP,0.0,0.0,,,
+Heathcote,BRAGG Matthew,SAP,0.0,0.0,,,
+Heffron,HOENIG Ron,ALP,1.0,1.0,71.32,71.96,72.53
+Heffron,DEVINE Francis,LP,0.0,1.0,27.47,28.04,28.68
+Heffron,VEITCH Philipa,GRN,0.0,0.0,,,
+Heffron,KILHAM Sarina,IND*,0.0,0.0,,,
+Heffron,PAULL Linda,AJP,0.0,0.0,,,
+Heffron,GODFREY Ann,SAP,0.0,0.0,,,
+Heffron,EVANS Rachel,SA,0.0,0.0,,,
+Holsworthy,AYYAD Tina,LP,0.7572,1.0,49.82,50.21,50.62
+Holsworthy,MARONEY Mick,ALP,0.2428,1.0,49.38,49.79,50.18
+Holsworthy,INGARFILL James,ON,0.0,0.0,,,
+Holsworthy,KERLE Chris,GRN,0.0,0.0,,,
+Holsworthy,SWINBOURN Deborah,IND*,0.0,0.0,,,
+Hornsby,KEAN Matt,LP,1.0,1.0,57.03,57.78,58.57
+Hornsby,HOILE Melissa,ALP,0.0,1.0,41.43,42.22,42.97
+Hornsby,SALITRA Tania,GRN,0.0,0.0,,,
+Hornsby,BUSCH Steve,ON,0.0,0.0,,,
+Hornsby,GRIMSHAW Jeffrey,LDP,0.0,0.0,,,
+Hornsby,CASWELL Benjamin,IND*,0.0,0.0,,,
+Hornsby,THOMAS Justin,SAP,0.0,0.0,,,
+Hornsby,DIGNAM Adrian,IND*,0.0,0.0,,,
+Keira,PARK Ryan,ALP,1.0,1.0,73.09,73.55,73.98
+Keira,SHIPP Noah,LP,0.0,1.0,26.02,26.45,26.91
+Keira,DOCKER Kit,GRN,0.0,0.0,,,
+Keira,ANTHONY Andrew,SAP,0.0,0.0,,,
+Kellyville,WILLIAMS Ray,LP,1.0,1.0,60.41,60.77,61.15
+Kellyville,KARKI Alex,ALP,0.0,1.0,38.85,39.23,39.59
+Kellyville,GHAYYEM Thelma,GRN,0.0,0.0,,,
+Kellyville,BOYD Heather,SAP,0.0,0.0,,,
+Kellyville,AKKARI Ingrid,AJP,0.0,0.0,,,
+Kiama,WARD Gareth,IND*,1.0,1.0,51.87,52.62,53.41
+Kiama,McINERNEY Katelin,ALP,0.0,1.0,46.59,47.38,48.13
+Kiama,GIBBONS Melanie,LP,0.0,0.0,,,
+Kiama,GRAY Tonia,GRN,0.0,0.0,,,
+Kiama,GILL John,SAP,0.0,0.0,,,
+Kogarah,MINNS Chris,ALP,1.0,1.0,68.69,68.94,69.19
+Kogarah,CHUNG Craig,LP,0.0,1.0,30.81,31.06,31.31
+Kogarah,YUEN Tracy,GRN,0.0,0.0,,,
+Kogarah,STOLZ Troy,IND*,0.0,0.0,,,
+Lake Macquarie,PIPER Greg,IND*,1.0,1.0,71.49,71.98,72.45
+Lake Macquarie,RYAN Steve,ALP,0.0,1.0,27.55,28.03,28.51
+Lake Macquarie,BEER Joshua,LP,0.0,0.0,,,
+Lake Macquarie,LESAGE Jason,SFF,0.0,0.0,,,
+Lake Macquarie,GRIERSON Kim,GRN,0.0,0.0,,,
+Lake Macquarie,GORE-ESCALANTE Felipe,SAP,0.0,0.0,,,
+Lane Cove,ROBERTS Anthony,LP,1.0,1.0,58.48,59.4,60.33
+Lane Cove,PEDERSEN Penelope,ALP,0.0,1.0,39.67,40.6,41.52
+Lane Cove,DAVIDSON Victoria,IND*,0.0,0.0,,,
+Lane Cove,ARMSTRONG Heather,GRN,0.0,0.0,,,
+Lane Cove,WISE Ben,SAP,0.0,0.0,,,
+Leppington,HAGARTY Nathan,ALP,1.0,1.0,58.94,59.28,59.6
+Leppington,FEDELI Therese,LP,0.0,1.0,40.4,40.72,41.06
+Leppington,TAMHANKAR Mandar,ON,0.0,0.0,,,
+Leppington,SHUKLA Apurva,GRN,0.0,0.0,,,
+Leppington,SAJN Danica,SAP,0.0,0.0,,,
+Lismore,SAFFIN Janelle,ALP,1.0,1.0,62.83,63.41,63.96
+Lismore,RUBIN Alex,NP,0.0,1.0,36.04,36.59,37.17
+Lismore,GUISE Adam,GRN,0.0,0.0,,,
+Lismore,BERTALLI Matthew,SFF,0.0,0.0,,,
+Lismore,ROSAYRO Vanessa,AJP,0.0,0.0,,,
+Lismore,McKENZIE James,IND*,0.0,0.0,,,
+Lismore,HONNIBALL Ross,SAP,0.0,0.0,,,
+Lismore,CROSTHWAITE Allen,IND*,0.0,0.0,,,
+Liverpool,KALIYANDA Charishma,ALP,1.0,1.0,59.09,59.51,59.91
+Liverpool,AMMOUN Richard,LP,0.0,1.0,40.09,40.49,40.91
+Liverpool,ANDJELKOVIC Milomir (Michael),IND*,0.0,0.0,,,
+Liverpool,CROFT Amy,GRN,0.0,0.0,,,
+Liverpool,HANCOCK Gabriel,AJP,0.0,0.0,,,
+Liverpool,HARRIS Linda,IND*,0.0,0.0,,,
+Londonderry,CAR Prue,ALP,1.0,1.0,63.62,63.99,64.33
+Londonderry,TALAKOLA Snigdha (Samantha),LP,0.0,1.0,35.67,36.01,36.38
+Londonderry,TESTER Luke,ON,0.0,0.0,,,
+Londonderry,MAURICE David,GRN,0.0,0.0,,,
+Londonderry,BOWEN David,SAP,0.0,0.0,,,
+Macquarie Fields,CHANTHIVONG Anoulack,ALP,1.0,1.0,70.11,70.57,71.0
+Macquarie Fields,CHOWDHURY Khairul,LP,0.0,1.0,29.0,29.43,29.89
+Macquarie Fields,NOIOSI Gemma,LDP,0.0,0.0,,,
+Macquarie Fields,LEE Seamus,GRN,0.0,0.0,,,
+Macquarie Fields,WILSON Donna,AJP,0.0,0.0,,,
+Macquarie Fields,CLARK Michael,SAP,0.0,0.0,,,
+Maitland,AITCHISON Jenny,ALP,1.0,1.0,68.13,68.61,69.06
+Maitland,COOPER Michael,LP,0.0,1.0,30.94,31.39,31.87
+Maitland,TURNER Neil,ON,0.0,0.0,,,
+Maitland,KNOX Campbell,GRN,0.0,0.0,,,
+Maitland,DRYDEN Daniel,LCP,0.0,0.0,,,
+Maitland,LEE Alex,IND*,0.0,0.0,,,
+Maitland,FERGUSON Sam,SAP,0.0,0.0,,,
+Manly,GRIFFIN James,LP,1.0,1.0,55.11,55.85,56.6
+Manly,HACKMAN Joeline,IND*,0.0,1.0,43.4,44.15,44.89
+Manly,THATCHER Jasper,ALP,0.0,0.0,,,
+Manly,LE ROUX Terry,GRN,0.0,0.0,,,
+Manly,ALTMAN Phillip,IND*,0.0,0.0,,,
+Manly,MASON Bailey,AJP,0.0,0.0,,,
+Manly,PALETTO Emanuele,SAP,0.0,0.0,,,
+Maroubra,DALEY Michael,ALP,1.0,1.0,67.66,68.07,68.43
+Maroubra,BURST Bill,LP,0.0,1.0,31.57,31.93,32.34
+Maroubra,CHAPPLE Kym,GRN,0.0,0.0,,,
+Maroubra,AGUILAR Roderick,IMOP,0.0,0.0,,,
+Maroubra,WILLIAMSON Holly,AJP,0.0,0.0,,,
+Maroubra,ISENHEIM Monique,SAP,0.0,0.0,,,
+Miranda,PETINOS Eleni,LP,1.0,1.0,51.81,52.19,52.58
+Miranda,EARLE Simon,ALP,0.0,1.0,47.42,47.81,48.19
+Miranda,MOORE Martin,GRN,0.0,0.0,,,
+Miranda,CAMERON Gaye,IND*,0.0,0.0,,,
+Miranda,HUGHES Nick,SAP,0.0,0.0,,,
+Monaro,OVERALL Nichole,NP,0.0,1.0,47.98,48.38,48.81
+Monaro,WHAN Steven,ALP,1.0,1.0,51.19,51.62,52.02
+Monaro,GOLDIE Jenny,GRN,0.0,0.0,,,
+Monaro,PRYOR Chris,SFF,0.0,0.0,,,
+Monaro,THALER Andrew,IND*,0.0,0.0,,,
+Monaro,TANSON Josie,LCP,0.0,0.0,,,
+Monaro,HOLGATE James,SAP,0.0,0.0,,,
+Mount Druitt,ATALLA Edmond,ALP,1.0,1.0,72.58,72.87,73.15
+Mount Druitt,SUNIL JAYADEVAN Kandathil,LP,0.0,1.0,26.85,27.13,27.42
+Mount Druitt,MORSHED Asm,GRN,0.0,0.0,,,
+Mount Druitt,DUDAS Andrew,AJP,0.0,0.0,,,
+Murray,DALTON Helen,IND*,1.0,1.0,65.8,66.19,66.57
+Murray,BETTS Peta,NP,0.0,1.0,33.43,33.81,34.2
+Murray,BULJUBASIC Mirsad (Max),ALP,0.0,0.0,,,
+Murray,GREGORY Desiree,SFF,0.0,0.0,,,
+Murray,CARLE Adrian,LCP,0.0,0.0,,,
+Murray,LANDINI David,IND*,0.0,0.0,,,
+Murray,KING Amelia,GRN,0.0,0.0,,,
+Murray,FARRELL Kevin,PEP,0.0,0.0,,,
+Murray,FLORANCE Michael,SAP,0.0,0.0,,,
+Murray,ADAMSON Greg,IND*,0.0,0.0,,,
+Myall Lakes,THOMPSON Tanya,NP,1.0,1.0,64.04,65.14,66.09
+Myall Lakes,BENDALL Jason,IND*,0.0,0.0336,37.14,38.2,39.3
+Myall Lakes,VANSTONE Mark,ALP,0.0,0.9664,33.9,34.83,35.81
+Myall Lakes,MANLEY Keys,LCP,0.0,0.0,,,
+Myall Lakes,SPENCE Eleanor,GRN,0.0,0.0,,,
+Myall Lakes,McDONALD-PRITCHARD Maree,SAP,0.0,0.0,,,
+Newcastle,CRAKANTHORP Tim,ALP,1.0,1.0,70.32,70.94,71.52
+Newcastle,TRIEBSEES Thomas,LP,0.0,1.0,28.48,29.06,29.68
+Newcastle,MACKENZIE John,GRN,0.0,0.0,,,
+Newcastle,CLAYDON Tim,LCP,0.0,0.0,,,
+Newcastle,TAYLOR Freya,SAP,0.0,0.0,,,
+Newcastle,LEKA Niko,SA,0.0,0.0,,,
+Newtown,LEONG Jenny,GRN,1.0,1.0,62.57,62.94,63.27
+Newtown,HETHERINGTON David,ALP,0.0,1.0,36.73,37.07,37.43
+Newtown,DOUSKOU Fiona,LP,0.0,0.0,,,
+Newtown,THOMAS Christopher,SAP,0.0,0.0,,,
+North Shore,WILSON Felicity,LP,1.0,1.0,56.51,57.54,58.56
+North Shore,CONWAY Helen,IND*,0.0,1.0,41.44,42.47,43.49
+North Shore,SANTER Godfrey,ALP,0.0,0.0,,,
+North Shore,MULLAN James,GRN,0.0,0.0,,,
+North Shore,WALKER Victoria,IND*,0.0,0.0,,,
+North Shore,COMMINS Lachlan,SAP,0.0,0.0,,,
+North Shore,ANTARES Michael,IMOP,0.0,0.0,,,
+Northern Tablelands,MARSHALL Adam,NP,1.0,1.0,82.45,82.82,83.2
+Northern Tablelands,LANGENBERG Yvonne,ALP,0.0,1.0,16.8,17.18,17.55
+Northern Tablelands,O'HARA Elizabeth,GRN,0.0,0.0,,,
+Northern Tablelands,HAY Michael,SFF,0.0,0.0,,,
+Northern Tablelands,O'LOGHLIN Peter,LCP,0.0,0.0,,,
+Northern Tablelands,WOOD Darshan (Billy),IND*,0.0,0.0,,,
+Northern Tablelands,HAMMOND Margaret,LDP,0.0,0.0,,,
+Northern Tablelands,CROWE Alan,SAP,0.0,0.0,,,
+Northern Tablelands,LEDGER Natasha,IND*,0.0,0.0,,,
+Northern Tablelands,HAMPTON Gary,PEP,0.0,0.0,,,
+Oatley,COURE Mark,LP,1.0,1.0,51.06,51.39,51.73
+Oatley,AMBIHAIPAHAR Ash,ALP,0.0,1.0,48.27,48.61,48.94
+Oatley,VANDIJK Taylor,GRN,0.0,0.0,,,
+Oatley,MORT Natalie,IND*,0.0,0.0,,,
+Oatley,HUNT Glenn,SAP,0.0,0.0,,,
+Orange,DONATO Philip,IND*,1.0,1.0,70.39,70.82,71.23
+Orange,MILETO Tony,NP,0.0,1.0,28.77,29.18,29.61
+Orange,DUNN Heather,ALP,0.0,0.0,,,
+Orange,KELLY Aaron,SFF,0.0,0.0,,,
+Orange,MALLARD David,GRN,0.0,0.0,,,
+Orange,HOLT Patricia,LCP,0.0,0.0,,,
+Orange,BATE George,SAP,0.0,0.0,,,
+Orange,BRAMLEY Gillian,PEP,0.0,0.0,,,
+Oxley,KEMP Michael,NP,1.0,1.0,61.37,62.26,63.13
+Oxley,VIGORS Gregory,ALP,0.0,1.0,36.87,37.74,38.63
+Oxley,KING Dominic,GRN,0.0,0.0,,,
+Oxley,MATHEW Megan,LCP,0.0,0.0,,,
+Oxley,FAIRHALL Joshua,IND*,0.0,0.0,,,
+Oxley,DRAIN Bianca,SAP,0.0,0.0,,,
+Oxley,IRWIN Troy,IND*,0.0,0.0,,,
+Parramatta,DAVIS Donna,ALP,1.0,1.0,58.09,58.52,58.9
+Parramatta,MULLENS Katie,LP,0.0,1.0,41.1,41.48,41.91
+Parramatta,HAMMOND Ben,GRN,0.0,0.0,,,
+Parramatta,SINGH Mritunjay,ON,0.0,0.0,,,
+Parramatta,MOLL David,SAP,0.0,0.0,,,
+Penrith,AYRES Stuart,LP,0.0002,1.0,48.3,48.7,49.1
+Penrith,McKEOWN Karen,ALP,0.9998,1.0,50.9,51.3,51.7
+Penrith,McWILLIAMS Belinda,ON,0.0,0.0,,,
+Penrith,TOUSSI Fatemeh (Minoo),GRN,0.0,0.0,,,
+Penrith,PATEMAN Timothy,LCP,0.0,0.0,,,
+Penrith,BLAZI Vanessa,AJP,0.0,0.0,,,
+Penrith,BROWN Geoff,SAP,0.0,0.0,,,
+Pittwater,AMON Roderick (Rory),LP,1.0,1.0,51.3,51.82,52.33
+Pittwater,SCRUBY Jacqui,IND*,0.0,1.0,47.67,48.18,48.7
+Pittwater,QUINN Jeffrey,ALP,0.0,0.0,,,
+Pittwater,GREEN Hilary,GRN,0.0,0.0,,,
+Pittwater,LAW Craig,SAP,0.0,0.0,,,
+Port Macquarie,WILLIAMS Leslie,LP,1.0,1.0,58.43,59.13,59.81
+Port Macquarie,PINSON Peta,NP,0.0,1.0,40.19,40.87,41.57
+Port Macquarie,McMULLEN Keith,ALP,0.0,0.0,,,
+Port Macquarie,WATSON Stuart,GRN,0.0,0.0,,,
+Port Macquarie,MCMAHON Vivian,LCP,0.0,0.0,,,
+Port Macquarie,MOGOROVICH Silvia,IMOP,0.0,0.0,,,
+Port Macquarie,COLEMAN Edward,SAP,0.0,0.0,,,
+Port Macquarie,READ Benjamin,LDP,0.0,0.0,,,
+Port Stephens,WASHINGTON Kate,ALP,1.0,1.0,67.58,68.19,68.74
+Port Stephens,ERRINGTON Nathan,LP,0.0,1.0,31.26,31.81,32.42
+Port Stephens,WATSON Mark,ON,0.0,0.0,,,
+Port Stephens,JENSEN Jordan,GRN,0.0,0.0,,,
+Port Stephens,BUCKMASTER Michelle,AJP,0.0,0.0,,,
+Port Stephens,KETAS Angela,IMOP,0.0,0.0,,,
+Port Stephens,JELFS Beverley,SAP,0.0,0.0,,,
+Prospect,McDERMOTT Hugh,ALP,1.0,1.0,58.98,59.27,59.54
+Prospect,BIAG Kalvin,LP,0.0,1.0,40.46,40.73,41.02
+Prospect,SELVENTHIRAN Sujan,GRN,0.0,0.0,,,
+Prospect,SHAFER Peter,SAP,0.0,0.0,,,
+Prospect,WALSH Emily,AJP,0.0,0.0,,,
+Riverstone,KIRBY Warren,ALP,1.0,1.0,53.88,54.2,54.51
+Riverstone,KUMAR Mohit,LP,0.0,1.0,45.49,45.8,46.12
+Riverstone,VAIL Rob,GRN,0.0,0.0,,,
+Riverstone,BELCASTRO Anthony,SFF,0.0,0.0,,,
+Riverstone,PONNAMBALAM Tabitha,IND*,0.0,0.0,,,
+Riverstone,HORAN Tim,SAP,0.0,0.0,,,
+Rockdale,KAMPER Steve,ALP,1.0,1.0,65.09,65.5,65.87
+Rockdale,RANA Muhammad,LP,0.0,1.0,34.13,34.5,34.91
+Rockdale,STRONG Peter,GRN,0.0,0.0,,,
+Rockdale,MORRIS James,SAP,0.0,0.0,,,
+Ryde,LANE Jordan,LP,0.9908,1.0,50.35,50.77,51.22
+Ryde,HOWISON Lyndal,ALP,0.0092,1.0,48.78,49.23,49.65
+Ryde,EDINGTON Sophie,GRN,0.0,0.0,,,
+Ryde,JELFS Bradley,SAP,0.0,0.0,,,
+Ryde,DEVINE Barry,IMOP,0.0,0.0,,,
+Shellharbour,WATSON Anna,ALP,1.0,1.0,66.29,67.02,67.74
+Shellharbour,HOMER Chris,IND*,0.0,1.0,32.26,32.98,33.71
+Shellharbour,BARNES Mikayla,LP,0.0,0.0,,,
+Shellharbour,DIXON Jamie,GRN,0.0,0.0,,,
+Shellharbour,WILLMOTT Mia,LCP,0.0,0.0,,,
+Shellharbour,GRANATA Rita,LDP,0.0,0.0,,,
+Shellharbour,DAVIS Kenneth,SAP,0.0,0.0,,,
+South Coast,SIKORA Luke,LP,0.0,1.0,45.47,46.18,46.94
+South Coast,BUTLER Liza,ALP,1.0,1.0,53.06,53.82,54.53
+South Coast,FINDLEY Amanda,GRN,0.0,0.0,,,
+South Coast,KORTEN Robert,SFF,0.0,0.0,,,
+South Coast,DIGIGLIO Nina,IND*,0.0,0.0,,,
+South Coast,BUFFIER Deanna,SAP,0.0,0.0,,,
+Strathfield,LI Jason Yat-Sen,ALP,1.0,1.0,62.26,62.6,62.91
+Strathfield,BALADI John-Paul,LP,0.0,1.0,37.09,37.4,37.74
+Strathfield,BUCKLEY Courtney,GRN,0.0,0.0,,,
+Strathfield,CROCKER Wally,SAP,0.0,0.0,,,
+Strathfield,SAIDI Maurie,AJP,0.0,0.0,,,
+Summer Hill,HAYLEN Jo,ALP,1.0,1.0,65.25,65.77,66.23
+Summer Hill,ANTONIOU Izabella,GRN,0.0,1.0,33.77,34.24,34.75
+Summer Hill,CHENG Bowen,LP,0.0,0.0,,,
+Summer Hill,HADDAD Sandra,AJP,0.0,0.0,,,
+Summer Hill,SWAN Michael,SAP,0.0,0.0,,,
+Swansea,CATLEY Yasmin,ALP,1.0,1.0,65.51,65.87,66.23
+Swansea,ANDERSON Megan,LP,0.0,1.0,33.77,34.13,34.49
+Swansea,FOORD Heather,GRN,0.0,0.0,,,
+Swansea,ELLIS Alan,SAP,0.0,0.0,,,
+Swansea,JACKSON Paul,LDP,0.0,0.0,,,
+Sydney,GREENWICH Alex,IND*,1.0,1.0,61.13,62.21,63.31
+Sydney,STANTON Phyllisse,LP,0.0,0.0,,,
+Sydney,TITO Skye,ALP,0.0,1.0,36.69,37.79,38.87
+Sydney,WARD Nick,GRN,0.0,0.0,,,
+Sydney,WHITTON Mark,SAP,0.0,0.0,,,
+Tamworth,ANDERSON Kevin,NP,1.0,1.0,64.09,64.83,65.59
+Tamworth,RODDA Mark,IND*,0.0,1.0,34.41,35.17,35.91
+Tamworth,McGRATH Kate,ALP,0.0,0.0,,,
+Tamworth,SCANLAN Matthew,SFF,0.0,0.0,,,
+Tamworth,BROOKE Ryan,GRN,0.0,0.0,,,
+Tamworth,RAYE Sue,LCP,0.0,0.0,,,
+Tamworth,McCREDIE Rebecca,IMOP,0.0,0.0,,,
+Tamworth,DRAIN Colin,SAP,0.0,0.0,,,
+Terrigal,CROUCH Adam,LP,1.0,1.0,51.18,51.57,51.98
+Terrigal,BOUGHTON Sam,ALP,0.0,1.0,48.02,48.43,48.82
+Terrigal,da SILVA Imogen,GRN,0.0,0.0,,,
+Terrigal,RIGG Wayne,SAP,0.0,0.0,,,
+The Entrance,MEHAN David,ALP,1.0,1.0,57.07,57.45,57.8
+The Entrance,BRACKEN Nathan,LP,0.0,1.0,42.2,42.55,42.93
+The Entrance,STEPHENSON Ralph,GRN,0.0,0.0,,,
+The Entrance,LAMB Georgia,SAP,0.0,0.0,,,
+The Entrance,PELAREK Fardin,AJP,0.0,0.0,,,
+The Entrance,LOGAN Bentley,LDP,0.0,0.0,,,
+Tweed,PROVEST Geoff,NP,1.0,1.0,52.92,53.47,54.04
+Tweed,ELLIOT Craig,ALP,0.0,1.0,45.96,46.53,47.08
+Tweed,DENHAM Ciara,GRN,0.0,0.0,,,
+Tweed,SELAN Marc,LCP,0.0,0.0,,,
+Tweed,McDONALD Ronald,SAP,0.0,0.0,,,
+Tweed,HEARDER Susie,AJP,0.0,0.0,,,
+Upper Hunter,LAYZELL Dave,NP,1.0,1.0,52.62,53.28,53.98
+Upper Hunter,WATSON Peree,ALP,0.0,1.0,46.02,46.72,47.38
+Upper Hunter,WHITE James,SFF,0.0,0.0,,,
+Upper Hunter,McNAMARA Dale,IND*,0.0,0.0,,,
+Upper Hunter,LONERGAN Tony,GRN,0.0,0.0,,,
+Upper Hunter,LILLICRAP Tom,LCP,0.0,0.0,,,
+Upper Hunter,BLAIR Calum,SAP,0.0,0.0,,,
+Vaucluse,SLOANE Kellie,LP,1.0,1.0,63.86,66.1,67.43
+Vaucluse,FREYER Karen,IND*,0.0,0.3768,34.63,35.64,36.64
+Vaucluse,MERTEN Margaret,ALP,0.0,0.6232,32.35,33.29,34.25
+Vaucluse,KANAK Dominic WY,GRN,0.0,0.0,,,
+Vaucluse,STEVENS Gail,LDP,0.0,0.0,,,
+Vaucluse,DUNNE Kay,SAP,0.0,0.0,,,
+Vaucluse,CAMERON Edward,AJP,0.0,0.0,,,
+Wagga Wagga,McGIRR Joe,IND*,1.0,1.0,70.28,71.1,71.92
+Wagga Wagga,BENJAMIN Andrianna,NP,0.0,0.0,,,
+Wagga Wagga,FOLEY Keryn,ALP,0.0,1.0,28.08,28.9,29.72
+Wagga Wagga,HAM Julia,LP,0.0,0.0,,,
+Wagga Wagga,SMITH Christopher,SFF,0.0,0.0,,,
+Wagga Wagga,GOODLASS Ray,GRN,0.0,0.0,,,
+Wagga Wagga,GENTLES Raymond,PEP,0.0,0.0,,,
+Wahroonga,HENSKENS Alister,LP,1.0,1.0,60.47,61.24,62.06
+Wahroonga,ABEDINI Parsia,ALP,0.0,1.0,37.94,38.76,39.53
+Wahroonga,DASHWOOD Tim,GRN,0.0,0.0,,,
+Wahroonga,HAYWOOD Kristyn,IND*,0.0,0.0,,,
+Wahroonga,MOLLOY Stephen,SAP,0.0,0.0,,,
+Wakehurst,WILLIAMS Toby,LP,0.0,1.0,45.49,46.19,46.9
+Wakehurst,REGAN Michael,IND*,1.0,1.0,53.1,53.81,54.51
+Wakehurst,WRIGHT Sue,ALP,0.0,0.0,,,
+Wakehurst,HRNJAK Ethan,GRN,0.0,0.0,,,
+Wakehurst,SORENSEN Susan,AJP,0.0,0.0,,,
+Wakehurst,MAWSON Greg,SAP,0.0,0.0,,,
+Wallsend,HORNERY Sonia,ALP,1.0,1.0,80.41,80.87,81.28
+Wallsend,PULL Callum,LP,0.0,1.0,18.72,19.13,19.59
+Wallsend,WATKINS Rebecca,GRN,0.0,0.0,,,
+Wallsend,DI GIROLAMO Pietro,ON,0.0,0.0,,,
+Wallsend,NOLAN Anna,AJP,0.0,0.0,,,
+Wallsend,STARRETT Joshua,IND*,0.0,0.0,,,
+Wallsend,AKERS Paul,SAP,0.0,0.0,,,
+Willoughby,JAMES Tim,LP,1.0,1.0,53.56,54.55,55.57
+Willoughby,PENN Larissa,IND*,0.0,1.0,44.43,45.45,46.44
+Willoughby,GRIFFIN Sarah,ALP,0.0,0.0,,,
+Willoughby,MCGRATH Edmund,GRN,0.0,0.0,,,
+Willoughby,WANT Michael,SAP,0.0,0.0,,,
+Winston Hills,TAYLOR Mark,LP,1.0,1.0,51.64,51.98,52.37
+Winston Hills,PANDEY Sameer,ALP,0.0,1.0,47.63,48.02,48.36
+Winston Hills,ATKINS Damien,GRN,0.0,0.0,,,
+Winston Hills,CHADSZINOW Anthony,SAP,0.0,0.0,,,
+Wollondilly,SMITH Nathaniel,LP,0.9626,1.0,50.5,51.69,52.91
+Wollondilly,HANNAN Judy,IND*,0.0374,0.9948,47.1,48.32,49.5
+Wollondilly,BRAIDEN Angus,ALP,0.0,0.0052,44.51,45.46,46.34
+Wollondilly,THOMPSON Rebecca,ON,0.0,0.0,,,
+Wollondilly,WEBSTER Jason,GRN,0.0,0.0,,,
+Wollondilly,HAAG Ildiko,SAP,0.0,0.0,,,
+Wollongong,SCULLY Paul,ALP,1.0,1.0,73.11,73.62,74.09
+Wollongong,JOHNSON Joel,LP,0.0,1.0,25.91,26.38,26.89
+Wollongong,BLAKEY Cath,GRN,0.0,0.0,,,
+Wollongong,NELSON Kristen,AJP,0.0,0.0,,,
+Wyong,HARRIS David,ALP,1.0,1.0,68.51,69.24,69.89
+Wyong,SQUIRES Matt,LP,0.0,1.0,30.11,30.76,31.49
+Wyong,STEVENSON Martin,ON,0.0,0.0,,,
+Wyong,WILLIAMSON Doug,GRN,0.0,0.0,,,
+Wyong,NEWBURY Susan,SAP,0.0,0.0,,,

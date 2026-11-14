@@ -1,0 +1,40 @@
+# Local agent / tool configuration
+*AGENTS*
+.devin/
+
+# Personal notes
+writeups/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Secrets
+.env
+.env.*
+
+# Raw downloads (~950 MB). All are re-downloadable and cached by the fetch scripts; see
+# predictions/benchmarking/archive/*/reproduce.sh. Checksums of every AEC file stay committed in the
+# manifest.json files below.
+data/*/raw/
+data/boundaries/*
+!data/boundaries/vic_assembly_2022/
+data/boundaries/vic_assembly_2022/*
+!data/boundaries/vic_assembly_2022/districts.geojson
+
+data/federal/*/*
+!data/federal/*/manifest.json
+!data/federal/*/district_flows_VIC.json
+!data/federal/*/district_flows_VIC.csv
+!data/federal/*/booth_districts_VIC.csv

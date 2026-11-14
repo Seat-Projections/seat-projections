@@ -1,0 +1,49 @@
+{
+  "model": "model1",
+  "run_id": "QLD2020 (2019)",
+  "timestamp": "2026-11-09T01:17:02+00:00",
+  "git_commit": null,
+  "runs": 1000,
+  "seed": 1,
+  "noise_log_sd": {
+    "state": 0.08,
+    "seat": 0.12,
+    "flow": 0.15
+  },
+  "inputs": {
+    "state": "QLD",
+    "state_election": "2020-10-31",
+    "districts": 93,
+    "federal_election": 2019,
+    "aec_event": 24310,
+    "aec_download": {
+      "source": "https://results.aec.gov.au/24310/Website/",
+      "retrieved": "2026-11-09T01:13:50+00:00",
+      "file_count": 123,
+      "total_bytes": 48206179
+    },
+    "booths": "inside the district and within 1.0 km of their own federal division",
+    "polls": null,
+    "winners": "QLD2020"
+  },
+  "scores": {
+    "districts": 93,
+    "raw_seat_count": 50,
+    "brier": 0.7508,
+    "log_loss": 1.6875
+  },
+  "actual_seats": {
+    "ALP": 52,
+    "GRN": 2,
+    "IND*": 1,
+    "KAP": 3,
+    "LNP": 34,
+    "ON": 1
+  },
+  "predicted_seats_mean": {
+    "ALP": 16.31,
+    "KAP": 2.97,
+    "LNP": 73.73,
+    "ON": 0.0
+  }
+}

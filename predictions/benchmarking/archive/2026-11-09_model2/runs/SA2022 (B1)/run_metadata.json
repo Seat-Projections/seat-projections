@@ -1,0 +1,52 @@
+{
+  "model": "model2",
+  "run_id": "SA2022 (B1)",
+  "timestamp": "2026-11-09T09:50:16+00:00",
+  "git_commit": null,
+  "runs": 5000,
+  "seed": 1,
+  "noise": {
+    "poll_sd": 2.5,
+    "region_sd": 2.0,
+    "seat_sd": 3.5,
+    "flow_state": 0.15,
+    "flow_seat": 0.05
+  },
+  "on_priors": null,
+  "exhaust": false,
+  "core_rule": {
+    "top": 4,
+    "share": 0.05
+  },
+  "inputs": {
+    "state": "SA",
+    "state_election": "2022-03-19",
+    "districts": 47,
+    "baseline": "SA 2022 actual primaries",
+    "federal_election": null,
+    "winners": "SA2022",
+    "primaries": "actual 2022 primaries",
+    "flows": "that election's distributions of preferences, leave-one-district-out",
+    "distributions": "data/SA2022/distributions/dop_SA2022.json"
+  },
+  "scores": {
+    "districts": 47,
+    "raw_seat_count": 46,
+    "brier": 0.0124,
+    "log_loss": 0.0165
+  },
+  "diagnostics": {
+    "final_two_accuracy": 0.9574,
+    "tcp_margin_mae": 0.87
+  },
+  "actual_seats": {
+    "ALP": 27,
+    "IND*": 4,
+    "LP": 16
+  },
+  "predicted_seats_mean": {
+    "ALP": 26.46,
+    "IND*": 4.54,
+    "LP": 16.0
+  }
+}

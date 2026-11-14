@@ -1,0 +1,833 @@
+district,candidate,party,p_win,p_final_two,tcp_p10,tcp_p50,tcp_p90
+Albert Park,Greens,GRN,0.14,0.973,41.07,45.75,50.79
+Albert Park,Labor,ALP,0.757,0.896,49.01,53.94,58.9
+Albert Park,Liberal,LP,0.103,0.131,37.09,56.49,61.57
+Albert Park,United Australia,UAPP,0.0,0.0,,,
+Albert Park,Liberal Democrats,LDP,0.0,0.0,,,
+Albert Park,Animal Justice,AJP,0.0,0.0,,,
+Albert Park,Independent*,IND*,0.0,0.0,,,
+Albert Park,One Nation,ON,0.0,0.0,,,
+Albert Park,Victorian Socialists,VNS,0.0,0.0,,,
+Ashwood,Labor,ALP,0.957,1.0,52.07,57.41,62.29
+Ashwood,Liberal,LP,0.043,1.0,37.71,42.61,47.93
+Ashwood,Greens,GRN,0.0,0.0,,,
+Ashwood,Independent*,IND*,0.0,0.0,,,
+Ashwood,United Australia,UAPP,0.0,0.0,,,
+Ashwood,Liberal Democrats,LDP,0.0,0.0,,,
+Ashwood,Animal Justice,AJP,0.0,0.0,,,
+Ashwood,One Nation,ON,0.0,0.0,,,
+Ashwood,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+Ashwood,Trumpet of Patriots,CYA,0.0,0.0,,,
+Ashwood,Citizens Party,CEC,0.0,0.0,,,
+Ashwood,Reason,REAS,0.0,0.0,,,
+Ashwood,Australian Values,AUVA,0.0,0.0,,,
+Bass,Liberal,LP,0.448,1.0,44.85,49.45,54.21
+Bass,Labor,ALP,0.552,1.0,45.79,50.55,55.15
+Bass,Independent*,IND*,0.0,0.0,,,
+Bass,Greens,GRN,0.0,0.0,,,
+Bass,United Australia,UAPP,0.0,0.0,,,
+Bass,One Nation,ON,0.0,0.0,,,
+Bass,Liberal Democrats,LDP,0.0,0.0,,,
+Bass,Trumpet of Patriots,CYA,0.0,0.0,,,
+Bass,Animal Justice,AJP,0.0,0.0,,,
+Bayswater,Liberal,LP,0.249,1.0,42.25,47.29,52.44
+Bayswater,Labor,ALP,0.751,1.0,47.56,52.73,57.75
+Bayswater,Greens,GRN,0.0,0.0,,,
+Bayswater,United Australia,UAPP,0.0,0.0,,,
+Bayswater,One Nation,ON,0.0,0.0,,,
+Bayswater,Liberal Democrats,LDP,0.0,0.0,,,
+Bayswater,The New Liberals,TNL,0.0,0.0,,,
+Bellarine,Labor,ALP,0.961,1.0,52.06,57.22,62.37
+Bellarine,Liberal,LP,0.039,1.0,37.63,42.78,47.94
+Bellarine,Greens,GRN,0.0,0.0,,,
+Bellarine,United Australia,UAPP,0.0,0.0,,,
+Bellarine,One Nation,ON,0.0,0.0,,,
+Bellarine,Liberal Democrats,LDP,0.0,0.0,,,
+Bellarine,Animal Justice,AJP,0.0,0.0,,,
+Bellarine,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+Bellarine,Trumpet of Patriots,CYA,0.0,0.0,,,
+Benambra,Independent*,IND*,0.977,1.0,53.22,58.3,63.16
+Benambra,Liberal,LP,0.023,1.0,36.84,41.71,46.78
+Benambra,Labor,ALP,0.0,0.0,,,
+Benambra,One Nation,ON,0.0,0.0,,,
+Benambra,Greens,GRN,0.0,0.0,,,
+Benambra,Nationals,NP,0.0,0.0,,,
+Benambra,United Australia,UAPP,0.0,0.0,,,
+Benambra,Liberal Democrats,LDP,0.0,0.0,,,
+Benambra,Animal Justice,AJP,0.0,0.0,,,
+Benambra,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+Bendigo East,Labor,ALP,0.999,1.0,59.46,63.96,68.12
+Bendigo East,Liberal,LP,0.001,1.0,31.88,36.04,40.54
+Bendigo East,Greens,GRN,0.0,0.0,,,
+Bendigo East,One Nation,ON,0.0,0.0,,,
+Bendigo East,Independent*,IND*,0.0,0.0,,,
+Bendigo East,United Australia,UAPP,0.0,0.0,,,
+Bendigo East,Liberal Democrats,LDP,0.0,0.0,,,
+Bendigo East,Nationals,NP,0.0,0.0,,,
+Bendigo East,Citizens Party,CEC,0.0,0.0,,,
+Bendigo West,Labor,ALP,1.0,1.0,60.77,65.15,69.38
+Bendigo West,Liberal,LP,0.0,0.999,30.62,34.87,39.23
+Bendigo West,Greens,GRN,0.0,0.001,34.65,34.65,34.65
+Bendigo West,One Nation,ON,0.0,0.0,,,
+Bendigo West,Independent*,IND*,0.0,0.0,,,
+Bendigo West,United Australia,UAPP,0.0,0.0,,,
+Bendigo West,Liberal Democrats,LDP,0.0,0.0,,,
+Bentleigh,Labor,ALP,0.966,1.0,51.94,57.1,61.93
+Bentleigh,Liberal,LP,0.034,1.0,38.07,42.9,48.06
+Bentleigh,Greens,GRN,0.0,0.0,,,
+Bentleigh,Independent*,IND*,0.0,0.0,,,
+Bentleigh,Liberal Democrats,LDP,0.0,0.0,,,
+Bentleigh,United Australia,UAPP,0.0,0.0,,,
+Bentleigh,One Nation,ON,0.0,0.0,,,
+Bentleigh,Animal Justice,AJP,0.0,0.0,,,
+Bentleigh,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+Bentleigh,SPP,SPP,0.0,0.0,,,
+Berwick,Liberal,LP,0.936,1.0,50.79,55.98,60.95
+Berwick,Labor,ALP,0.064,1.0,39.05,44.05,49.21
+Berwick,Greens,GRN,0.0,0.0,,,
+Berwick,United Australia,UAPP,0.0,0.0,,,
+Berwick,One Nation,ON,0.0,0.0,,,
+Berwick,Liberal Democrats,LDP,0.0,0.0,,,
+Berwick,Animal Justice,AJP,0.0,0.0,,,
+Berwick,Trumpet of Patriots,CYA,0.0,0.0,,,
+Box Hill,Labor,ALP,0.998,1.0,55.33,59.96,65.16
+Box Hill,Liberal,LP,0.002,1.0,34.84,40.06,44.67
+Box Hill,Greens,GRN,0.0,0.0,,,
+Box Hill,Independent*,IND*,0.0,0.0,,,
+Box Hill,United Australia,UAPP,0.0,0.0,,,
+Box Hill,Liberal Democrats,LDP,0.0,0.0,,,
+Box Hill,One Nation,ON,0.0,0.0,,,
+Box Hill,Trumpet of Patriots,CYA,0.0,0.0,,,
+Box Hill,Animal Justice,AJP,0.0,0.0,,,
+Box Hill,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+Box Hill,Citizens Party,CEC,0.0,0.0,,,
+Box Hill,Australian Values,AUVA,0.0,0.0,,,
+Brighton,Liberal,LP,0.133,1.0,41.05,46.0,51.02
+Brighton,Independent*,IND*,0.867,1.0,48.98,54.02,58.95
+Brighton,Labor,ALP,0.0,0.0,,,
+Brighton,Greens,GRN,0.0,0.0,,,
+Brighton,United Australia,UAPP,0.0,0.0,,,
+Brighton,Liberal Democrats,LDP,0.0,0.0,,,
+Brighton,One Nation,ON,0.0,0.0,,,
+Brighton,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+Brighton,Animal Justice,AJP,0.0,0.0,,,
+Brighton,SPP,SPP,0.0,0.0,,,
+Broadmeadows,Labor,ALP,1.0,1.0,65.92,69.99,73.62
+Broadmeadows,Liberal,LP,0.0,0.962,26.32,29.97,34.03
+Broadmeadows,Greens,GRN,0.0,0.038,28.88,31.5,34.77
+Broadmeadows,United Australia,UAPP,0.0,0.0,,,
+Broadmeadows,One Nation,ON,0.0,0.0,,,
+Broadmeadows,Victorian Socialists,VNS,0.0,0.0,,,
+Broadmeadows,Socialist Alliance,SAL,0.0,0.0,,,
+Broadmeadows,Trumpet of Patriots,CYA,0.0,0.0,,,
+Broadmeadows,Animal Justice,AJP,0.0,0.0,,,
+Brunswick,Greens,GRN,0.989,1.0,53.7,58.95,63.95
+Brunswick,Labor,ALP,0.011,1.0,36.05,41.05,46.3
+Brunswick,Liberal,LP,0.0,0.0,,,
+Brunswick,Victorian Socialists,VNS,0.0,0.0,,,
+Brunswick,Socialist Alliance,SAL,0.0,0.0,,,
+Brunswick,United Australia,UAPP,0.0,0.0,,,
+Brunswick,Animal Justice,AJP,0.0,0.0,,,
+Brunswick,One Nation,ON,0.0,0.0,,,
+Brunswick,Liberal Democrats,LDP,0.0,0.0,,,
+Brunswick,Trumpet of Patriots,CYA,0.0,0.0,,,
+Brunswick,Independent*,IND*,0.0,0.0,,,
+Bulleen,Liberal,LP,0.581,1.0,45.6,50.82,55.57
+Bulleen,Labor,ALP,0.419,1.0,44.43,49.18,54.4
+Bulleen,Greens,GRN,0.0,0.0,,,
+Bulleen,Liberal Democrats,LDP,0.0,0.0,,,
+Bulleen,United Australia,UAPP,0.0,0.0,,,
+Bulleen,One Nation,ON,0.0,0.0,,,
+Bulleen,Trumpet of Patriots,CYA,0.0,0.0,,,
+Bundoora,Labor,ALP,0.999,1.0,57.36,61.95,66.19
+Bundoora,Liberal,LP,0.001,1.0,33.81,38.05,42.64
+Bundoora,Greens,GRN,0.0,0.0,,,
+Bundoora,United Australia,UAPP,0.0,0.0,,,
+Bundoora,One Nation,ON,0.0,0.0,,,
+Bundoora,Liberal Democrats,LDP,0.0,0.0,,,
+Bundoora,Victorian Socialists,VNS,0.0,0.0,,,
+Bundoora,Independent*,IND*,0.0,0.0,,,
+Bundoora,Trumpet of Patriots,CYA,0.0,0.0,,,
+Bundoora,Animal Justice,AJP,0.0,0.0,,,
+Bundoora,FUSION,SOPA,0.0,0.0,,,
+Carrum,Labor,ALP,0.997,1.0,55.84,60.61,65.56
+Carrum,Liberal,LP,0.003,1.0,34.44,39.4,44.16
+Carrum,Greens,GRN,0.0,0.0,,,
+Carrum,United Australia,UAPP,0.0,0.0,,,
+Carrum,Independent*,IND*,0.0,0.0,,,
+Carrum,One Nation,ON,0.0,0.0,,,
+Carrum,Liberal Democrats,LDP,0.0,0.0,,,
+Carrum,Animal Justice,AJP,0.0,0.0,,,
+Carrum,Trumpet of Patriots,CYA,0.0,0.0,,,
+Caulfield,Liberal,LP,0.329,0.969,39.48,45.03,65.39
+Caulfield,Labor,ALP,0.66,0.685,52.25,57.24,61.22
+Caulfield,Greens,GRN,0.0,0.331,32.39,36.17,41.08
+Caulfield,Independent*,IND*,0.011,0.015,37.36,54.43,58.95
+Caulfield,Liberal Democrats,LDP,0.0,0.0,,,
+Caulfield,United Australia,UAPP,0.0,0.0,,,
+Caulfield,One Nation,ON,0.0,0.0,,,
+Caulfield,Animal Justice,AJP,0.0,0.0,,,
+Caulfield,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+Caulfield,SPP,SPP,0.0,0.0,,,
+Caulfield,Reason,REAS,0.0,0.0,,,
+Caulfield,Trumpet of Patriots,CYA,0.0,0.0,,,
+Clarinda,Labor,ALP,1.0,1.0,59.38,63.66,68.29
+Clarinda,Liberal,LP,0.0,1.0,31.71,36.35,40.62
+Clarinda,Greens,GRN,0.0,0.0,,,
+Clarinda,United Australia,UAPP,0.0,0.0,,,
+Clarinda,Liberal Democrats,LDP,0.0,0.0,,,
+Clarinda,One Nation,ON,0.0,0.0,,,
+Clarinda,Animal Justice,AJP,0.0,0.0,,,
+Cranbourne,Labor,ALP,0.955,1.0,51.86,57.37,62.37
+Cranbourne,Liberal,LP,0.045,1.0,37.63,42.66,48.14
+Cranbourne,United Australia,UAPP,0.0,0.0,,,
+Cranbourne,Greens,GRN,0.0,0.0,,,
+Cranbourne,One Nation,ON,0.0,0.0,,,
+Cranbourne,Independent*,IND*,0.0,0.0,,,
+Cranbourne,Liberal Democrats,LDP,0.0,0.0,,,
+Cranbourne,Trumpet of Patriots,CYA,0.0,0.0,,,
+Cranbourne,Animal Justice,AJP,0.0,0.0,,,
+Croydon,Liberal,LP,0.297,1.0,43.18,48.02,52.82
+Croydon,Labor,ALP,0.703,1.0,47.18,51.99,56.82
+Croydon,Greens,GRN,0.0,0.0,,,
+Croydon,United Australia,UAPP,0.0,0.0,,,
+Croydon,One Nation,ON,0.0,0.0,,,
+Croydon,Independent*,IND*,0.0,0.0,,,
+Croydon,Liberal Democrats,LDP,0.0,0.0,,,
+Croydon,Animal Justice,AJP,0.0,0.0,,,
+Croydon,Trumpet of Patriots,CYA,0.0,0.0,,,
+Croydon,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+Dandenong,Labor,ALP,0.999,1.0,59.35,64.06,68.78
+Dandenong,Liberal,LP,0.001,1.0,31.22,35.97,40.65
+Dandenong,United Australia,UAPP,0.0,0.0,,,
+Dandenong,Greens,GRN,0.0,0.0,,,
+Dandenong,Liberal Democrats,LDP,0.0,0.0,,,
+Dandenong,One Nation,ON,0.0,0.0,,,
+Dandenong,Animal Justice,AJP,0.0,0.0,,,
+Eildon,Liberal,LP,0.135,0.983,40.19,44.92,50.91
+Eildon,Independent*,IND*,0.682,0.722,51.57,56.41,60.36
+Eildon,Labor,ALP,0.183,0.295,46.31,51.22,56.09
+Eildon,Greens,GRN,0.0,0.0,,,
+Eildon,United Australia,UAPP,0.0,0.0,,,
+Eildon,One Nation,ON,0.0,0.0,,,
+Eildon,Liberal Democrats,LDP,0.0,0.0,,,
+Eildon,Animal Justice,AJP,0.0,0.0,,,
+Eildon,Nationals,NP,0.0,0.0,,,
+Eildon,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+Eildon,Trumpet of Patriots,CYA,0.0,0.0,,,
+Eltham,Labor,ALP,0.999,1.0,55.89,60.51,65.11
+Eltham,Liberal,LP,0.001,0.996,34.9,39.5,44.12
+Eltham,Greens,GRN,0.0,0.004,33.68,41.91,43.0
+Eltham,Liberal Democrats,LDP,0.0,0.0,,,
+Eltham,United Australia,UAPP,0.0,0.0,,,
+Eltham,One Nation,ON,0.0,0.0,,,
+Eltham,Independent*,IND*,0.0,0.0,,,
+Eltham,Trumpet of Patriots,CYA,0.0,0.0,,,
+Essendon,Labor,ALP,1.0,1.0,61.89,66.26,70.36
+Essendon,Liberal,LP,0.0,0.762,29.28,33.04,36.72
+Essendon,Greens,GRN,0.0,0.238,32.51,36.2,39.87
+Essendon,Liberal Democrats,LDP,0.0,0.0,,,
+Essendon,Victorian Socialists,VNS,0.0,0.0,,,
+Essendon,United Australia,UAPP,0.0,0.0,,,
+Essendon,One Nation,ON,0.0,0.0,,,
+Essendon,Great Australian,GAP,0.0,0.0,,,
+Essendon,Trumpet of Patriots,CYA,0.0,0.0,,,
+Essendon,Animal Justice,AJP,0.0,0.0,,,
+Essendon,Socialist Alliance,SAL,0.0,0.0,,,
+Eureka,Labor,ALP,0.999,1.0,57.73,62.44,66.86
+Eureka,Liberal,LP,0.001,1.0,33.14,37.57,42.27
+Eureka,Greens,GRN,0.0,0.0,,,
+Eureka,Independent*,IND*,0.0,0.0,,,
+Eureka,United Australia,UAPP,0.0,0.0,,,
+Eureka,One Nation,ON,0.0,0.0,,,
+Eureka,Liberal Democrats,LDP,0.0,0.0,,,
+Eureka,Trumpet of Patriots,CYA,0.0,0.0,,,
+Eureka,The New Liberals,TNL,0.0,0.0,,,
+Eureka,Great Australian,GAP,0.0,0.0,,,
+Eureka,Victorian Socialists,VNS,0.0,0.0,,,
+Eureka,Citizens Party,CEC,0.0,0.0,,,
+Eureka,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+Eureka,Animal Justice,AJP,0.0,0.0,,,
+Euroa,Liberal,LP,0.63,0.94,46.45,51.98,56.74
+Euroa,Independent*,IND*,0.322,0.99,43.29,48.02,53.53
+Euroa,Labor,ALP,0.001,0.01,36.03,45.91,47.54
+Euroa,Nationals,NP,0.047,0.06,48.48,52.88,56.7
+Euroa,One Nation,ON,0.0,0.0,,,
+Euroa,United Australia,UAPP,0.0,0.0,,,
+Euroa,Greens,GRN,0.0,0.0,,,
+Euroa,Liberal Democrats,LDP,0.0,0.0,,,
+Euroa,Animal Justice,AJP,0.0,0.0,,,
+Euroa,Trumpet of Patriots,CYA,0.0,0.0,,,
+Euroa,FUSION,SOPA,0.0,0.0,,,
+Euroa,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+Euroa,Citizens Party,CEC,0.0,0.0,,,
+Evelyn,Liberal,LP,0.836,1.0,48.94,53.42,58.46
+Evelyn,Labor,ALP,0.164,0.998,41.54,46.58,51.06
+Evelyn,Independent*,IND*,0.0,0.002,48.58,49.23,49.16
+Evelyn,Greens,GRN,0.0,0.0,,,
+Evelyn,United Australia,UAPP,0.0,0.0,,,
+Evelyn,One Nation,ON,0.0,0.0,,,
+Evelyn,Liberal Democrats,LDP,0.0,0.0,,,
+Evelyn,Animal Justice,AJP,0.0,0.0,,,
+Evelyn,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+Evelyn,Trumpet of Patriots,CYA,0.0,0.0,,,
+Footscray,Labor,ALP,0.992,1.0,54.65,59.19,63.63
+Footscray,Greens,GRN,0.008,0.979,36.58,40.92,45.39
+Footscray,Liberal,LP,0.0,0.021,29.54,32.7,36.71
+Footscray,Victorian Socialists,VNS,0.0,0.0,,,
+Footscray,United Australia,UAPP,0.0,0.0,,,
+Footscray,Liberal Democrats,LDP,0.0,0.0,,,
+Footscray,One Nation,ON,0.0,0.0,,,
+Footscray,Trumpet of Patriots,CYA,0.0,0.0,,,
+Frankston,Labor,ALP,1.0,1.0,57.41,62.19,66.58
+Frankston,Liberal,LP,0.0,1.0,33.42,37.83,42.59
+Frankston,Greens,GRN,0.0,0.0,,,
+Frankston,United Australia,UAPP,0.0,0.0,,,
+Frankston,Independent*,IND*,0.0,0.0,,,
+Frankston,Liberal Democrats,LDP,0.0,0.0,,,
+Frankston,One Nation,ON,0.0,0.0,,,
+Frankston,Animal Justice,AJP,0.0,0.0,,,
+Frankston,Trumpet of Patriots,CYA,0.0,0.0,,,
+Geelong,Labor,ALP,1.0,1.0,59.75,64.19,68.14
+Geelong,Liberal,LP,0.0,0.996,31.84,35.82,40.25
+Geelong,Greens,GRN,0.0,0.004,34.11,36.2,38.58
+Geelong,United Australia,UAPP,0.0,0.0,,,
+Geelong,Liberal Democrats,LDP,0.0,0.0,,,
+Geelong,One Nation,ON,0.0,0.0,,,
+Geelong,Socialist Alliance,SAL,0.0,0.0,,,
+Geelong,Animal Justice,AJP,0.0,0.0,,,
+Geelong,Trumpet of Patriots,CYA,0.0,0.0,,,
+Geelong,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+Gippsland East,Nationals,NP,1.0,1.0,68.51,72.81,76.99
+Gippsland East,Labor,ALP,0.0,0.999,23.03,27.2,31.49
+Gippsland East,Greens,GRN,0.0,0.0,,,
+Gippsland East,One Nation,ON,0.0,0.001,14.0,14.0,14.0
+Gippsland East,United Australia,UAPP,0.0,0.0,,,
+Gippsland East,Liberal Democrats,LDP,0.0,0.0,,,
+Gippsland South,Nationals,NP,0.995,1.0,54.72,59.52,63.94
+Gippsland South,Labor,ALP,0.005,0.97,36.21,40.55,45.35
+Gippsland South,Liberal,LP,0.0,0.03,33.24,37.8,41.77
+Gippsland South,Greens,GRN,0.0,0.0,,,
+Gippsland South,One Nation,ON,0.0,0.0,,,
+Gippsland South,United Australia,UAPP,0.0,0.0,,,
+Gippsland South,Independent*,IND*,0.0,0.0,,,
+Gippsland South,Liberal Democrats,LDP,0.0,0.0,,,
+Gippsland South,Trumpet of Patriots,CYA,0.0,0.0,,,
+Glen Waverley,Labor,ALP,0.886,1.0,49.72,55.07,60.33
+Glen Waverley,Liberal,LP,0.114,1.0,39.67,44.95,50.28
+Glen Waverley,Greens,GRN,0.0,0.0,,,
+Glen Waverley,United Australia,UAPP,0.0,0.0,,,
+Glen Waverley,Independent*,IND*,0.0,0.0,,,
+Glen Waverley,One Nation,ON,0.0,0.0,,,
+Glen Waverley,Liberal Democrats,LDP,0.0,0.0,,,
+Glen Waverley,Animal Justice,AJP,0.0,0.0,,,
+Glen Waverley,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+Glen Waverley,Trumpet of Patriots,CYA,0.0,0.0,,,
+Glen Waverley,Citizens Party,CEC,0.0,0.0,,,
+Greenvale,Labor,ALP,1.0,1.0,62.7,66.95,71.02
+Greenvale,Liberal,LP,0.0,1.0,28.98,33.05,37.3
+Greenvale,Greens,GRN,0.0,0.0,,,
+Greenvale,United Australia,UAPP,0.0,0.0,,,
+Greenvale,One Nation,ON,0.0,0.0,,,
+Greenvale,Victorian Socialists,VNS,0.0,0.0,,,
+Greenvale,Trumpet of Patriots,CYA,0.0,0.0,,,
+Hastings,Liberal,LP,0.572,1.0,45.9,50.63,55.53
+Hastings,Labor,ALP,0.428,1.0,44.47,49.37,54.1
+Hastings,Independent*,IND*,0.0,0.0,,,
+Hastings,Greens,GRN,0.0,0.0,,,
+Hastings,United Australia,UAPP,0.0,0.0,,,
+Hastings,One Nation,ON,0.0,0.0,,,
+Hastings,Liberal Democrats,LDP,0.0,0.0,,,
+Hastings,Animal Justice,AJP,0.0,0.0,,,
+Hastings,Trumpet of Patriots,CYA,0.0,0.0,,,
+Hawthorn,Independent*,IND*,0.931,1.0,50.96,56.49,62.26
+Hawthorn,Liberal,LP,0.069,1.0,37.74,43.51,49.04
+Hawthorn,Greens,GRN,0.0,0.0,,,
+Hawthorn,Labor,ALP,0.0,0.0,,,
+Hawthorn,Liberal Democrats,LDP,0.0,0.0,,,
+Hawthorn,United Australia,UAPP,0.0,0.0,,,
+Hawthorn,One Nation,ON,0.0,0.0,,,
+Hawthorn,Animal Justice,AJP,0.0,0.0,,,
+Hawthorn,Australian Values,AUVA,0.0,0.0,,,
+Hawthorn,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+Ivanhoe,Labor,ALP,1.0,1.0,61.28,65.69,69.86
+Ivanhoe,Liberal,LP,0.0,0.972,30.1,34.28,38.66
+Ivanhoe,Greens,GRN,0.0,0.028,33.62,36.67,39.91
+Ivanhoe,Independent*,IND*,0.0,0.0,,,
+Ivanhoe,Liberal Democrats,LDP,0.0,0.0,,,
+Ivanhoe,United Australia,UAPP,0.0,0.0,,,
+Ivanhoe,One Nation,ON,0.0,0.0,,,
+Ivanhoe,Trumpet of Patriots,CYA,0.0,0.0,,,
+Ivanhoe,Animal Justice,AJP,0.0,0.0,,,
+Ivanhoe,Victorian Socialists,VNS,0.0,0.0,,,
+Ivanhoe,FUSION,SOPA,0.0,0.0,,,
+Kalkallo,Labor,ALP,1.0,1.0,59.89,64.35,69.33
+Kalkallo,Liberal,LP,0.0,1.0,30.67,35.65,40.11
+Kalkallo,Greens,GRN,0.0,0.0,,,
+Kalkallo,United Australia,UAPP,0.0,0.0,,,
+Kalkallo,One Nation,ON,0.0,0.0,,,
+Kalkallo,Victorian Socialists,VNS,0.0,0.0,,,
+Kalkallo,Trumpet of Patriots,CYA,0.0,0.0,,,
+Kalkallo,Liberal Democrats,LDP,0.0,0.0,,,
+Kew,Liberal,LP,0.306,1.0,42.23,47.89,53.42
+Kew,Independent*,IND*,0.694,1.0,46.58,52.11,57.77
+Kew,Labor,ALP,0.0,0.0,,,
+Kew,Greens,GRN,0.0,0.0,,,
+Kew,United Australia,UAPP,0.0,0.0,,,
+Kew,Liberal Democrats,LDP,0.0,0.0,,,
+Kew,One Nation,ON,0.0,0.0,,,
+Kew,Animal Justice,AJP,0.0,0.0,,,
+Kew,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+Kew,Australian Values,AUVA,0.0,0.0,,,
+Kororoit,Labor,ALP,1.0,1.0,58.43,63.05,67.35
+Kororoit,Liberal,LP,0.0,1.0,32.65,36.95,41.57
+Kororoit,Greens,GRN,0.0,0.0,,,
+Kororoit,United Australia,UAPP,0.0,0.0,,,
+Kororoit,One Nation,ON,0.0,0.0,,,
+Kororoit,Victorian Socialists,VNS,0.0,0.0,,,
+Kororoit,Independent*,IND*,0.0,0.0,,,
+Kororoit,Trumpet of Patriots,CYA,0.0,0.0,,,
+Kororoit,Great Australian,GAP,0.0,0.0,,,
+Lara,Labor,ALP,1.0,1.0,64.09,68.27,72.28
+Lara,Liberal,LP,0.0,1.0,27.72,31.73,35.91
+Lara,Greens,GRN,0.0,0.0,,,
+Lara,United Australia,UAPP,0.0,0.0,,,
+Lara,One Nation,ON,0.0,0.0,,,
+Lara,Liberal Democrats,LDP,0.0,0.0,,,
+Lara,Socialist Alliance,SAL,0.0,0.0,,,
+Lara,Animal Justice,AJP,0.0,0.0,,,
+Lara,Trumpet of Patriots,CYA,0.0,0.0,,,
+Laverton,Labor,ALP,1.0,1.0,60.0,64.41,68.61
+Laverton,Liberal,LP,0.0,1.0,31.39,35.6,40.0
+Laverton,Greens,GRN,0.0,0.0,,,
+Laverton,United Australia,UAPP,0.0,0.0,,,
+Laverton,Victorian Socialists,VNS,0.0,0.0,,,
+Laverton,One Nation,ON,0.0,0.0,,,
+Laverton,Liberal Democrats,LDP,0.0,0.0,,,
+Laverton,Independent*,IND*,0.0,0.0,,,
+Laverton,Trumpet of Patriots,CYA,0.0,0.0,,,
+Lowan,Nationals,NP,0.99,1.0,55.27,60.12,64.24
+Lowan,Independent*,IND*,0.006,0.501,35.18,38.96,44.05
+Lowan,Liberal,LP,0.0,0.021,35.85,38.97,40.69
+Lowan,Labor,ALP,0.004,0.478,36.48,40.61,44.84
+Lowan,United Australia,UAPP,0.0,0.0,,,
+Lowan,One Nation,ON,0.0,0.0,,,
+Lowan,Greens,GRN,0.0,0.0,,,
+Lowan,Liberal Democrats,LDP,0.0,0.0,,,
+Lowan,Citizens Party,CEC,0.0,0.0,,,
+Macedon,Labor,ALP,0.994,1.0,55.98,60.51,65.03
+Macedon,Liberal,LP,0.006,1.0,34.97,39.5,44.02
+Macedon,Greens,GRN,0.0,0.0,,,
+Macedon,One Nation,ON,0.0,0.0,,,
+Macedon,United Australia,UAPP,0.0,0.0,,,
+Macedon,Liberal Democrats,LDP,0.0,0.0,,,
+Macedon,Trumpet of Patriots,CYA,0.0,0.0,,,
+Macedon,Independent*,IND*,0.0,0.0,,,
+Macedon,Great Australian,GAP,0.0,0.0,,,
+Macedon,The New Liberals,TNL,0.0,0.0,,,
+Macedon,Victorian Socialists,VNS,0.0,0.0,,,
+Macedon,Citizens Party,CEC,0.0,0.0,,,
+Malvern,Liberal,LP,0.84,1.0,48.8,53.94,59.76
+Malvern,Labor,ALP,0.16,0.971,41.09,46.19,51.25
+Malvern,Greens,GRN,0.0,0.029,25.66,28.54,30.63
+Malvern,Liberal Democrats,LDP,0.0,0.0,,,
+Malvern,United Australia,UAPP,0.0,0.0,,,
+Malvern,Reason,REAS,0.0,0.0,,,
+Malvern,Animal Justice,AJP,0.0,0.0,,,
+Malvern,Trumpet of Patriots,CYA,0.0,0.0,,,
+Melbourne,Greens,GRN,0.994,1.0,54.63,59.86,64.49
+Melbourne,Labor,ALP,0.006,1.0,35.51,40.14,45.37
+Melbourne,Liberal,LP,0.0,0.0,,,
+Melbourne,Victorian Socialists,VNS,0.0,0.0,,,
+Melbourne,Liberal Democrats,LDP,0.0,0.0,,,
+Melbourne,United Australia,UAPP,0.0,0.0,,,
+Melbourne,One Nation,ON,0.0,0.0,,,
+Melbourne,Animal Justice,AJP,0.0,0.0,,,
+Melbourne,Independent*,IND*,0.0,0.0,,,
+Melbourne,Great Australian,GAP,0.0,0.0,,,
+Melbourne,Trumpet of Patriots,CYA,0.0,0.0,,,
+Melton,Labor,ALP,1.0,1.0,57.7,62.25,66.36
+Melton,Liberal,LP,0.0,0.998,33.73,37.77,42.3
+Melton,Independent*,IND*,0.0,0.002,30.09,31.82,31.62
+Melton,United Australia,UAPP,0.0,0.0,,,
+Melton,Greens,GRN,0.0,0.0,,,
+Melton,One Nation,ON,0.0,0.0,,,
+Melton,Great Australian,GAP,0.0,0.0,,,
+Melton,Trumpet of Patriots,CYA,0.0,0.0,,,
+Melton,The New Liberals,TNL,0.0,0.0,,,
+Melton,Victorian Socialists,VNS,0.0,0.0,,,
+Melton,Citizens Party,CEC,0.0,0.0,,,
+Mildura,Nationals,NP,1.0,1.0,64.51,69.28,74.06
+Mildura,Labor,ALP,0.0,0.603,25.15,28.69,32.98
+Mildura,Independent*,IND*,0.0,0.397,29.35,33.23,37.26
+Mildura,United Australia,UAPP,0.0,0.0,,,
+Mildura,One Nation,ON,0.0,0.0,,,
+Mildura,Greens,GRN,0.0,0.0,,,
+Mildura,Citizens Party,CEC,0.0,0.0,,,
+Mill Park,Labor,ALP,1.0,1.0,60.53,64.76,68.56
+Mill Park,Liberal,LP,0.0,1.0,31.44,35.25,39.47
+Mill Park,Greens,GRN,0.0,0.0,,,
+Mill Park,United Australia,UAPP,0.0,0.0,,,
+Mill Park,One Nation,ON,0.0,0.0,,,
+Mill Park,Liberal Democrats,LDP,0.0,0.0,,,
+Mill Park,Victorian Socialists,VNS,0.0,0.0,,,
+Monbulk,Liberal,LP,0.044,0.949,36.08,40.42,45.96
+Monbulk,Labor,ALP,0.954,0.96,55.09,59.71,63.96
+Monbulk,Greens,GRN,0.0,0.076,35.69,39.08,44.32
+Monbulk,Independent*,IND*,0.002,0.015,34.8,39.0,49.73
+Monbulk,United Australia,UAPP,0.0,0.0,,,
+Monbulk,One Nation,ON,0.0,0.0,,,
+Monbulk,Liberal Democrats,LDP,0.0,0.0,,,
+Monbulk,Animal Justice,AJP,0.0,0.0,,,
+Monbulk,Trumpet of Patriots,CYA,0.0,0.0,,,
+Monbulk,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+Monbulk,The New Liberals,TNL,0.0,0.0,,,
+Mordialloc,Labor,ALP,0.992,1.0,54.51,59.64,64.27
+Mordialloc,Liberal,LP,0.008,1.0,35.73,40.37,45.49
+Mordialloc,Greens,GRN,0.0,0.0,,,
+Mordialloc,Liberal Democrats,LDP,0.0,0.0,,,
+Mordialloc,United Australia,UAPP,0.0,0.0,,,
+Mordialloc,One Nation,ON,0.0,0.0,,,
+Mordialloc,Animal Justice,AJP,0.0,0.0,,,
+Mornington,Liberal,LP,0.939,1.0,51.08,55.77,60.49
+Mornington,Labor,ALP,0.057,0.985,39.49,44.22,48.88
+Mornington,Independent*,IND*,0.004,0.015,42.43,46.77,51.07
+Mornington,Greens,GRN,0.0,0.0,,,
+Mornington,United Australia,UAPP,0.0,0.0,,,
+Mornington,Liberal Democrats,LDP,0.0,0.0,,,
+Mornington,One Nation,ON,0.0,0.0,,,
+Mornington,Animal Justice,AJP,0.0,0.0,,,
+Mornington,Trumpet of Patriots,CYA,0.0,0.0,,,
+Morwell,Nationals,NP,0.978,1.0,52.78,57.63,62.2
+Morwell,Labor,ALP,0.022,1.0,37.8,42.38,47.22
+Morwell,One Nation,ON,0.0,0.0,,,
+Morwell,Greens,GRN,0.0,0.0,,,
+Morwell,Liberal,LP,0.0,0.0,,,
+Morwell,United Australia,UAPP,0.0,0.0,,,
+Morwell,Liberal Democrats,LDP,0.0,0.0,,,
+Morwell,Independent*,IND*,0.0,0.0,,,
+Morwell,Trumpet of Patriots,CYA,0.0,0.0,,,
+Mulgrave,Labor,ALP,0.992,1.0,54.15,59.25,63.91
+Mulgrave,Liberal,LP,0.008,1.0,36.09,40.75,45.85
+Mulgrave,Greens,GRN,0.0,0.0,,,
+Mulgrave,United Australia,UAPP,0.0,0.0,,,
+Mulgrave,Liberal Democrats,LDP,0.0,0.0,,,
+Mulgrave,One Nation,ON,0.0,0.0,,,
+Mulgrave,Independent*,IND*,0.0,0.0,,,
+Mulgrave,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+Mulgrave,Animal Justice,AJP,0.0,0.0,,,
+Mulgrave,Trumpet of Patriots,CYA,0.0,0.0,,,
+Mulgrave,Citizens Party,CEC,0.0,0.0,,,
+Murray Plains,Nationals,NP,0.994,1.0,55.86,61.78,67.4
+Murray Plains,Independent*,IND*,0.006,0.972,32.74,38.34,44.26
+Murray Plains,Labor,ALP,0.0,0.028,30.17,35.17,39.71
+Murray Plains,Liberal,LP,0.0,0.0,,,
+Murray Plains,United Australia,UAPP,0.0,0.0,,,
+Murray Plains,One Nation,ON,0.0,0.0,,,
+Murray Plains,Greens,GRN,0.0,0.0,,,
+Murray Plains,Liberal Democrats,LDP,0.0,0.0,,,
+Murray Plains,Citizens Party,CEC,0.0,0.0,,,
+Murray Plains,FUSION,SOPA,0.0,0.0,,,
+Murray Plains,Trumpet of Patriots,CYA,0.0,0.0,,,
+Narracan,Liberal,LP,0.904,1.0,50.09,54.77,59.7
+Narracan,Labor,ALP,0.096,1.0,40.3,45.24,49.91
+Narracan,One Nation,ON,0.0,0.0,,,
+Narracan,Independent*,IND*,0.0,0.0,,,
+Narracan,Greens,GRN,0.0,0.0,,,
+Narracan,United Australia,UAPP,0.0,0.0,,,
+Narracan,Liberal Democrats,LDP,0.0,0.0,,,
+Narracan,Trumpet of Patriots,CYA,0.0,0.0,,,
+Narracan,Animal Justice,AJP,0.0,0.0,,,
+Narre Warren North,Labor,ALP,0.966,1.0,52.22,57.16,62.15
+Narre Warren North,Liberal,LP,0.034,1.0,37.85,42.87,47.78
+Narre Warren North,Greens,GRN,0.0,0.0,,,
+Narre Warren North,United Australia,UAPP,0.0,0.0,,,
+Narre Warren North,Liberal Democrats,LDP,0.0,0.0,,,
+Narre Warren North,One Nation,ON,0.0,0.0,,,
+Narre Warren South,Labor,ALP,0.999,1.0,57.43,62.22,66.9
+Narre Warren South,Liberal,LP,0.001,1.0,33.1,37.78,42.57
+Narre Warren South,United Australia,UAPP,0.0,0.0,,,
+Narre Warren South,Greens,GRN,0.0,0.0,,,
+Narre Warren South,One Nation,ON,0.0,0.0,,,
+Narre Warren South,Liberal Democrats,LDP,0.0,0.0,,,
+Narre Warren South,Independent*,IND*,0.0,0.0,,,
+Narre Warren South,Trumpet of Patriots,CYA,0.0,0.0,,,
+Nepean,Liberal,LP,0.91,1.0,50.16,54.84,59.53
+Nepean,Labor,ALP,0.087,0.988,40.46,45.14,49.8
+Nepean,Independent*,IND*,0.003,0.012,43.62,46.87,51.76
+Nepean,Greens,GRN,0.0,0.0,,,
+Nepean,United Australia,UAPP,0.0,0.0,,,
+Nepean,One Nation,ON,0.0,0.0,,,
+Nepean,Liberal Democrats,LDP,0.0,0.0,,,
+Nepean,Animal Justice,AJP,0.0,0.0,,,
+Nepean,Trumpet of Patriots,CYA,0.0,0.0,,,
+Niddrie,Labor,ALP,0.951,1.0,52.1,57.04,61.75
+Niddrie,Liberal,LP,0.049,1.0,38.25,42.97,47.9
+Niddrie,Greens,GRN,0.0,0.0,,,
+Niddrie,United Australia,UAPP,0.0,0.0,,,
+Niddrie,Liberal Democrats,LDP,0.0,0.0,,,
+Niddrie,One Nation,ON,0.0,0.0,,,
+Niddrie,Great Australian,GAP,0.0,0.0,,,
+Niddrie,Victorian Socialists,VNS,0.0,0.0,,,
+Niddrie,Trumpet of Patriots,CYA,0.0,0.0,,,
+Niddrie,Independent*,IND*,0.0,0.0,,,
+Niddrie,Socialist Alliance,SAL,0.0,0.0,,,
+Niddrie,Animal Justice,AJP,0.0,0.0,,,
+Northcote,Labor,ALP,0.939,1.0,51.2,56.32,60.82
+Northcote,Greens,GRN,0.061,1.0,39.18,43.68,48.8
+Northcote,Liberal,LP,0.0,0.0,,,
+Northcote,Victorian Socialists,VNS,0.0,0.0,,,
+Northcote,United Australia,UAPP,0.0,0.0,,,
+Northcote,One Nation,ON,0.0,0.0,,,
+Northcote,FUSION,SOPA,0.0,0.0,,,
+Northcote,Animal Justice,AJP,0.0,0.0,,,
+Oakleigh,Labor,ALP,1.0,1.0,58.1,62.84,67.35
+Oakleigh,Liberal,LP,0.0,0.998,32.65,37.17,41.91
+Oakleigh,Greens,GRN,0.0,0.002,35.4,41.02,40.4
+Oakleigh,United Australia,UAPP,0.0,0.0,,,
+Oakleigh,Liberal Democrats,LDP,0.0,0.0,,,
+Oakleigh,One Nation,ON,0.0,0.0,,,
+Oakleigh,Animal Justice,AJP,0.0,0.0,,,
+Oakleigh,Reason,REAS,0.0,0.0,,,
+Oakleigh,Trumpet of Patriots,CYA,0.0,0.0,,,
+Oakleigh,Independent*,IND*,0.0,0.0,,,
+Oakleigh,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+Oakleigh,Citizens Party,CEC,0.0,0.0,,,
+Ovens Valley,Independent*,IND*,0.622,1.0,46.43,51.15,56.03
+Ovens Valley,Liberal,LP,0.378,1.0,43.97,48.87,53.57
+Ovens Valley,Nationals,NP,0.0,0.0,,,
+Ovens Valley,Labor,ALP,0.0,0.0,,,
+Ovens Valley,One Nation,ON,0.0,0.0,,,
+Ovens Valley,Liberal Democrats,LDP,0.0,0.0,,,
+Ovens Valley,Greens,GRN,0.0,0.0,,,
+Ovens Valley,United Australia,UAPP,0.0,0.0,,,
+Ovens Valley,Animal Justice,AJP,0.0,0.0,,,
+Ovens Valley,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+Ovens Valley,FUSION,SOPA,0.0,0.0,,,
+Ovens Valley,Citizens Party,CEC,0.0,0.0,,,
+Ovens Valley,Trumpet of Patriots,CYA,0.0,0.0,,,
+Pakenham,Liberal,LP,0.782,1.0,47.96,52.99,57.62
+Pakenham,Labor,ALP,0.218,1.0,42.38,47.01,52.04
+Pakenham,Greens,GRN,0.0,0.0,,,
+Pakenham,United Australia,UAPP,0.0,0.0,,,
+Pakenham,One Nation,ON,0.0,0.0,,,
+Pakenham,Animal Justice,AJP,0.0,0.0,,,
+Pakenham,Liberal Democrats,LDP,0.0,0.0,,,
+Pakenham,Trumpet of Patriots,CYA,0.0,0.0,,,
+Pascoe Vale,Labor,ALP,1.0,1.0,57.43,61.8,66.93
+Pascoe Vale,Greens,GRN,0.0,0.914,34.31,38.5,42.83
+Pascoe Vale,Liberal,LP,0.0,0.086,28.86,32.91,35.61
+Pascoe Vale,United Australia,UAPP,0.0,0.0,,,
+Pascoe Vale,Socialist Alliance,SAL,0.0,0.0,,,
+Pascoe Vale,One Nation,ON,0.0,0.0,,,
+Pascoe Vale,Victorian Socialists,VNS,0.0,0.0,,,
+Pascoe Vale,Animal Justice,AJP,0.0,0.0,,,
+Pascoe Vale,Trumpet of Patriots,CYA,0.0,0.0,,,
+Pascoe Vale,FUSION,SOPA,0.0,0.0,,,
+Point Cook,Labor,ALP,0.996,1.0,55.74,60.61,65.02
+Point Cook,Liberal,LP,0.004,1.0,34.98,39.41,44.26
+Point Cook,Greens,GRN,0.0,0.0,,,
+Point Cook,United Australia,UAPP,0.0,0.0,,,
+Point Cook,One Nation,ON,0.0,0.0,,,
+Point Cook,Liberal Democrats,LDP,0.0,0.0,,,
+Point Cook,Trumpet of Patriots,CYA,0.0,0.0,,,
+Point Cook,Victorian Socialists,VNS,0.0,0.0,,,
+Point Cook,Independent*,IND*,0.0,0.0,,,
+Polwarth,Liberal,LP,0.306,1.0,43.58,48.18,53.24
+Polwarth,Labor,ALP,0.694,0.999,46.77,51.84,56.42
+Polwarth,Greens,GRN,0.0,0.001,30.35,30.35,30.35
+Polwarth,Independent*,IND*,0.0,0.0,,,
+Polwarth,United Australia,UAPP,0.0,0.0,,,
+Polwarth,One Nation,ON,0.0,0.0,,,
+Polwarth,Liberal Democrats,LDP,0.0,0.0,,,
+Polwarth,Animal Justice,AJP,0.0,0.0,,,
+Polwarth,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+Polwarth,Trumpet of Patriots,CYA,0.0,0.0,,,
+Prahran,Greens,GRN,0.068,0.93,39.68,44.52,49.4
+Prahran,Labor,ALP,0.683,0.749,50.36,54.9,60.49
+Prahran,Liberal,LP,0.249,0.321,37.58,57.36,62.02
+Prahran,Liberal Democrats,LDP,0.0,0.0,,,
+Prahran,United Australia,UAPP,0.0,0.0,,,
+Prahran,Animal Justice,AJP,0.0,0.0,,,
+Prahran,Independent*,IND*,0.0,0.0,,,
+Prahran,Reason,REAS,0.0,0.0,,,
+Prahran,One Nation,ON,0.0,0.0,,,
+Prahran,Trumpet of Patriots,CYA,0.0,0.0,,,
+Preston,Labor,ALP,1.0,1.0,59.7,64.36,68.77
+Preston,Greens,GRN,0.0,0.923,31.85,35.96,40.45
+Preston,Liberal,LP,0.0,0.077,28.56,31.27,33.51
+Preston,United Australia,UAPP,0.0,0.0,,,
+Preston,One Nation,ON,0.0,0.0,,,
+Preston,Victorian Socialists,VNS,0.0,0.0,,,
+Preston,Animal Justice,AJP,0.0,0.0,,,
+Preston,FUSION,SOPA,0.0,0.0,,,
+Richmond,Greens,GRN,0.998,1.0,55.5,60.34,65.09
+Richmond,Labor,ALP,0.002,0.998,34.91,39.67,44.5
+Richmond,Liberal,LP,0.0,0.002,38.0,40.07,39.84
+Richmond,Victorian Socialists,VNS,0.0,0.0,,,
+Richmond,United Australia,UAPP,0.0,0.0,,,
+Richmond,Liberal Democrats,LDP,0.0,0.0,,,
+Richmond,Animal Justice,AJP,0.0,0.0,,,
+Richmond,Independent*,IND*,0.0,0.0,,,
+Richmond,One Nation,ON,0.0,0.0,,,
+Richmond,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+Richmond,Australian Values,AUVA,0.0,0.0,,,
+Ringwood,Liberal,LP,0.134,1.0,40.87,45.53,50.62
+Ringwood,Labor,ALP,0.866,1.0,49.38,54.47,59.13
+Ringwood,Greens,GRN,0.0,0.0,,,
+Ringwood,United Australia,UAPP,0.0,0.0,,,
+Ringwood,Liberal Democrats,LDP,0.0,0.0,,,
+Ringwood,One Nation,ON,0.0,0.0,,,
+Ringwood,Animal Justice,AJP,0.0,0.0,,,
+Ringwood,Trumpet of Patriots,CYA,0.0,0.0,,,
+Ringwood,Independent*,IND*,0.0,0.0,,,
+Ringwood,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+Ringwood,Citizens Party,CEC,0.0,0.0,,,
+Ripon,Labor,ALP,0.761,1.0,44.67,54.77,59.92
+Ripon,Liberal,LP,0.193,0.212,50.26,55.16,59.3
+Ripon,Nationals,NP,0.046,0.788,39.74,44.14,48.57
+Ripon,Greens,GRN,0.0,0.0,,,
+Ripon,Independent*,IND*,0.0,0.0,,,
+Ripon,One Nation,ON,0.0,0.0,,,
+Ripon,United Australia,UAPP,0.0,0.0,,,
+Ripon,Liberal Democrats,LDP,0.0,0.0,,,
+Ripon,Citizens Party,CEC,0.0,0.0,,,
+Ripon,Trumpet of Patriots,CYA,0.0,0.0,,,
+Rowville,Liberal,LP,0.867,1.0,49.27,54.62,59.83
+Rowville,Labor,ALP,0.133,1.0,40.17,45.39,50.73
+Rowville,Greens,GRN,0.0,0.0,,,
+Rowville,United Australia,UAPP,0.0,0.0,,,
+Rowville,One Nation,ON,0.0,0.0,,,
+Rowville,Liberal Democrats,LDP,0.0,0.0,,,
+Rowville,The New Liberals,TNL,0.0,0.0,,,
+Sandringham,Liberal,LP,0.076,1.0,38.89,44.34,49.47
+Sandringham,Independent*,IND*,0.924,1.0,50.53,55.67,61.11
+Sandringham,Labor,ALP,0.0,0.0,,,
+Sandringham,Greens,GRN,0.0,0.0,,,
+Sandringham,Liberal Democrats,LDP,0.0,0.0,,,
+Sandringham,United Australia,UAPP,0.0,0.0,,,
+Sandringham,One Nation,ON,0.0,0.0,,,
+Sandringham,Animal Justice,AJP,0.0,0.0,,,
+Sandringham,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+Sandringham,SPP,SPP,0.0,0.0,,,
+Shepparton,Independent*,IND*,0.524,1.0,45.6,50.23,54.86
+Shepparton,Nationals,NP,0.475,0.999,45.14,49.77,54.4
+Shepparton,Liberal,LP,0.001,0.001,50.7,50.7,50.7
+Shepparton,Labor,ALP,0.0,0.0,,,
+Shepparton,One Nation,ON,0.0,0.0,,,
+Shepparton,United Australia,UAPP,0.0,0.0,,,
+Shepparton,Liberal Democrats,LDP,0.0,0.0,,,
+Shepparton,Greens,GRN,0.0,0.0,,,
+Shepparton,FUSION,SOPA,0.0,0.0,,,
+Shepparton,Citizens Party,CEC,0.0,0.0,,,
+Shepparton,Trumpet of Patriots,CYA,0.0,0.0,,,
+South Barwon,Labor,ALP,0.999,1.0,56.33,61.33,65.49
+South Barwon,Liberal,LP,0.001,0.999,34.51,38.68,43.68
+South Barwon,Greens,GRN,0.0,0.001,33.28,33.28,33.28
+South Barwon,United Australia,UAPP,0.0,0.0,,,
+South Barwon,Liberal Democrats,LDP,0.0,0.0,,,
+South Barwon,One Nation,ON,0.0,0.0,,,
+South Barwon,Animal Justice,AJP,0.0,0.0,,,
+South Barwon,Trumpet of Patriots,CYA,0.0,0.0,,,
+South Barwon,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+South Barwon,Socialist Alliance,SAL,0.0,0.0,,,
+South-West Coast,Liberal,LP,0.409,1.0,44.04,49.24,54.38
+South-West Coast,Independent*,IND*,0.591,0.992,45.7,50.79,55.97
+South-West Coast,Labor,ALP,0.0,0.008,41.01,45.36,46.37
+South-West Coast,Greens,GRN,0.0,0.0,,,
+South-West Coast,United Australia,UAPP,0.0,0.0,,,
+South-West Coast,One Nation,ON,0.0,0.0,,,
+South-West Coast,Liberal Democrats,LDP,0.0,0.0,,,
+St Albans,Labor,ALP,1.0,1.0,56.45,61.18,65.68
+St Albans,Liberal,LP,0.0,1.0,34.32,38.82,43.55
+St Albans,Greens,GRN,0.0,0.0,,,
+St Albans,United Australia,UAPP,0.0,0.0,,,
+St Albans,One Nation,ON,0.0,0.0,,,
+St Albans,Victorian Socialists,VNS,0.0,0.0,,,
+St Albans,Liberal Democrats,LDP,0.0,0.0,,,
+St Albans,Great Australian,GAP,0.0,0.0,,,
+St Albans,Independent*,IND*,0.0,0.0,,,
+St Albans,Trumpet of Patriots,CYA,0.0,0.0,,,
+Sunbury,Labor,ALP,0.994,1.0,53.92,58.55,63.11
+Sunbury,Liberal,LP,0.006,1.0,36.89,41.45,46.08
+Sunbury,Greens,GRN,0.0,0.0,,,
+Sunbury,United Australia,UAPP,0.0,0.0,,,
+Sunbury,One Nation,ON,0.0,0.0,,,
+Sunbury,Independent*,IND*,0.0,0.0,,,
+Sunbury,Victorian Socialists,VNS,0.0,0.0,,,
+Sunbury,Trumpet of Patriots,CYA,0.0,0.0,,,
+Sunbury,Great Australian,GAP,0.0,0.0,,,
+Sunbury,The New Liberals,TNL,0.0,0.0,,,
+Sunbury,Liberal Democrats,LDP,0.0,0.0,,,
+Sunbury,Citizens Party,CEC,0.0,0.0,,,
+Sydenham,Labor,ALP,0.997,1.0,55.34,59.99,64.23
+Sydenham,Liberal,LP,0.003,1.0,35.77,40.01,44.66
+Sydenham,Greens,GRN,0.0,0.0,,,
+Sydenham,United Australia,UAPP,0.0,0.0,,,
+Sydenham,One Nation,ON,0.0,0.0,,,
+Sydenham,Independent*,IND*,0.0,0.0,,,
+Sydenham,Great Australian,GAP,0.0,0.0,,,
+Sydenham,Trumpet of Patriots,CYA,0.0,0.0,,,
+Sydenham,Victorian Socialists,VNS,0.0,0.0,,,
+Sydenham,Citizens Party,CEC,0.0,0.0,,,
+Sydenham,The New Liberals,TNL,0.0,0.0,,,
+Tarneit,Labor,ALP,1.0,1.0,59.98,64.79,68.86
+Tarneit,Liberal,LP,0.0,1.0,31.14,35.22,40.02
+Tarneit,Greens,GRN,0.0,0.0,,,
+Tarneit,United Australia,UAPP,0.0,0.0,,,
+Tarneit,Liberal Democrats,LDP,0.0,0.0,,,
+Tarneit,One Nation,ON,0.0,0.0,,,
+Tarneit,Independent*,IND*,0.0,0.0,,,
+Tarneit,Victorian Socialists,VNS,0.0,0.0,,,
+Tarneit,Trumpet of Patriots,CYA,0.0,0.0,,,
+Thomastown,Labor,ALP,1.0,1.0,64.2,68.43,72.41
+Thomastown,Liberal,LP,0.0,1.0,27.59,31.57,35.8
+Thomastown,Greens,GRN,0.0,0.0,,,
+Thomastown,United Australia,UAPP,0.0,0.0,,,
+Thomastown,One Nation,ON,0.0,0.0,,,
+Thomastown,Victorian Socialists,VNS,0.0,0.0,,,
+Thomastown,Liberal Democrats,LDP,0.0,0.0,,,
+Thomastown,Trumpet of Patriots,CYA,0.0,0.0,,,
+Warrandyte,Liberal,LP,0.688,1.0,47.1,52.14,57.38
+Warrandyte,Labor,ALP,0.312,1.0,42.62,47.86,52.9
+Warrandyte,Greens,GRN,0.0,0.0,,,
+Warrandyte,United Australia,UAPP,0.0,0.0,,,
+Warrandyte,Liberal Democrats,LDP,0.0,0.0,,,
+Warrandyte,One Nation,ON,0.0,0.0,,,
+Warrandyte,Independent*,IND*,0.0,0.0,,,
+Warrandyte,Trumpet of Patriots,CYA,0.0,0.0,,,
+Warrandyte,Animal Justice,AJP,0.0,0.0,,,
+Warrandyte,Derryn Hinch's Justice,DHJP,0.0,0.0,,,
+Wendouree,Labor,ALP,1.0,1.0,59.38,63.71,68.07
+Wendouree,Liberal,LP,0.0,1.0,31.93,36.31,40.62
+Wendouree,Greens,GRN,0.0,0.0,,,
+Wendouree,United Australia,UAPP,0.0,0.0,,,
+Wendouree,Liberal Democrats,LDP,0.0,0.0,,,
+Wendouree,One Nation,ON,0.0,0.0,,,
+Wendouree,Independent*,IND*,0.0,0.0,,,
+Wendouree,Trumpet of Patriots,CYA,0.0,0.0,,,
+Werribee,Labor,ALP,1.0,1.0,59.46,63.86,68.07
+Werribee,Liberal,LP,0.0,1.0,31.93,36.16,40.54
+Werribee,Greens,GRN,0.0,0.0,,,
+Werribee,United Australia,UAPP,0.0,0.0,,,
+Werribee,Liberal Democrats,LDP,0.0,0.0,,,
+Werribee,One Nation,ON,0.0,0.0,,,
+Werribee,Independent*,IND*,0.0,0.0,,,
+Werribee,Victorian Socialists,VNS,0.0,0.0,,,
+Werribee,Trumpet of Patriots,CYA,0.0,0.0,,,
+Williamstown,Labor,ALP,1.0,1.0,61.25,65.79,69.95
+Williamstown,Liberal,LP,0.0,0.973,29.96,34.17,38.8
+Williamstown,Greens,GRN,0.0,0.027,32.61,35.07,37.72
+Williamstown,United Australia,UAPP,0.0,0.0,,,
+Williamstown,One Nation,ON,0.0,0.0,,,
+Williamstown,Liberal Democrats,LDP,0.0,0.0,,,
+Williamstown,Victorian Socialists,VNS,0.0,0.0,,,
+Williamstown,Trumpet of Patriots,CYA,0.0,0.0,,,
+Yan Yean,Labor,ALP,0.952,1.0,51.34,56.14,60.84
+Yan Yean,Liberal,LP,0.048,1.0,39.16,43.87,48.66
+Yan Yean,Greens,GRN,0.0,0.0,,,
+Yan Yean,United Australia,UAPP,0.0,0.0,,,
+Yan Yean,One Nation,ON,0.0,0.0,,,
+Yan Yean,Liberal Democrats,LDP,0.0,0.0,,,
+Yan Yean,Trumpet of Patriots,CYA,0.0,0.0,,,
+Yan Yean,Victorian Socialists,VNS,0.0,0.0,,,

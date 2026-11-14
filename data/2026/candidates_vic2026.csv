@@ -1,0 +1,735 @@
+district,ballot_position,candidate,party,party_group
+Albert Park,1,"DRAGWIDGE, Georgie",,IND*
+Albert Park,2,"SEMMENS, Sonya",Australian Greens Victoria,GRN
+Albert Park,3,"COOK, Andrew",Liberal Party of Australia - Victorian Division,LP
+Albert Park,4,"TAYLOR, Nina",Australian Labor Party - Victorian Branch,ALP
+Albert Park,5,"KING, Adrian William",,IND*
+Albert Park,6,"LINDRUM, Tam",One Nation Victoria,ON
+Albert Park,7,"BOLGER, Colleen",Victorian Socialists,VNS
+Ashwood,1,"UWIMANA, Enid",Family First Victoria,FFP
+Ashwood,2,"RANDALL, Tim",Australian Greens Victoria,GRN
+Ashwood,3,"FREGON, Matt",Australian Labor Party - Victorian Branch,ALP
+Ashwood,4,"VAN DER EYNDEN, Jacob",Victorian Socialists,VNS
+Ashwood,5,"ZOGRAPHOS, Theo",Liberal Party of Australia - Victorian Division,LP
+Ashwood,6,"JOSHI, Hitendra K.",,IND*
+Ashwood,7,"MITCHELL, Steven",One Nation Victoria,ON
+Bass,1,"JOBE, Chris",Victorian Socialists,VNS
+Bass,2,"THORN, Sophie",Australian Greens Victoria,GRN
+Bass,3,"SCHELLEKENS, Nikole",One Nation Victoria,ON
+Bass,4,"HALSTEAD, Rochelle",Liberal Party of Australia - Victorian Division,LP
+Bass,5,"CAUNEAC, Ben",Family First Victoria,FFP
+Bass,6,"BUCKINGHAM, Chris",Australian Labor Party - Victorian Branch,ALP
+Bayswater,1,"BLEAKNEY, Kayte",One Nation Victoria,ON
+Bayswater,2,"KENNEDY, Jess",Australian Greens Victoria,GRN
+Bayswater,3,"BUXTON, Julie",Australian Labor Party - Victorian Branch,ALP
+Bayswater,4,"KITCHEN, David",Liberal Party of Australia - Victorian Division,LP
+Bayswater,5,"CLARKE, Mathew",,IND*
+Bayswater,6,"HUBBARD, Naomi",Democratic Labour Party (DLP),Labour DLP
+Bayswater,7,"FERGUSON, Alec",Victorian Socialists,VNS
+Bayswater,8,"COOMBES, Gary",Family First Victoria,FFP
+Bellarine,1,"WHITEHEAD, Callum",Liberal Party of Australia - Victorian Division,LP
+Bellarine,2,"MARCHANT, Alison",Australian Labor Party - Victorian Branch,ALP
+Bellarine,3,"MCRAE, Ross",One Nation Victoria,ON
+Bellarine,4,"KEOGH, Ronan",Victorian Socialists,VNS
+Bellarine,5,"LOCKHART, Kate",,IND*
+Bellarine,6,"MANUELL, Guy",Family First Victoria,FFP
+Bellarine,7,"WILLIAMS, Dom",Socialist Alliance,Socialist Alliance
+Bellarine,8,"POPE, Mitch",Australian Greens Victoria,GRN
+Benambra,1,"FUERY, Mike",Animal Justice Party,AJP
+Benambra,2,"PARTON, Graham",Australian Greens Victoria,GRN
+Benambra,3,"YOUNG, Oliver",Australian Labor Party - Victorian Branch,ALP
+Benambra,4,"VANGALEN, Alex",Victorian Socialists,VNS
+Benambra,5,"McKEEMAN, Lachie",,IND*
+Benambra,6,"MARTIN, Steve",Liberal Party of Australia - Victorian Division,LP
+Benambra,7,"SHEPPARD, Kellie",One Nation Victoria,ON
+Benambra,8,"PEPPER, Evette",Family First Victoria,FFP
+Benambra,9,"QUILTY, Tim",Libertarian Party (formerly Liberal Democrats),LDP
+Bendigo East,1,"JOHN, Des",Family First Victoria,FFP
+Bendigo East,2,"DUNN, Bonnie",Animal Justice Party,AJP
+Bendigo East,3,"NORSEN, Denali",Victorian Socialists,VNS
+Bendigo East,4,"HAWKEN, Cheryl",One Nation Victoria,ON
+Bendigo East,5,"LETHLEAN, Andrew",National Party of Australia - Victoria,NP
+Bendigo East,6,"WRIGHT, Liz",,IND*
+Bendigo East,7,"HOSKINS, Kristie",,IND*
+Bendigo East,8,"RICKWOOD, Tim",Australian Labor Party - Victorian Branch,ALP
+Bendigo East,9,"TOLHURST, Michael",Australian Greens Victoria,GRN
+Bendigo West,1,"SHALEVSKI, Tayne",Victorian Socialists,VNS
+Bendigo West,2,"HUTCHINGS, David",National Party of Australia - Victoria,NP
+Bendigo West,3,"TRANTER, Debra",Animal Justice Party,AJP
+Bendigo West,4,"BALDWIN, Brenton",Australian Labor Party - Victorian Branch,ALP
+Bendigo West,5,"SHAW, Liza",Australian Greens Victoria,GRN
+Bendigo West,6,"HARISOPOULOS, Christos",Family First Victoria,FFP
+Bendigo West,7,"MORGAN, Ellen",One Nation Victoria,ON
+Bentleigh,1,"PUTT, Tynan",Liberal Party of Australia - Victorian Division,LP
+Bentleigh,2,"VAINORAS, Tony",Australian Citizens Party (Victorian Division),Australian Citizens Party (Victorian Division)
+Bentleigh,3,"LONSING, Herbert",One Nation Victoria,ON
+Bentleigh,4,"PROCTOR, Claire",Australian Greens Victoria,GRN
+Bentleigh,5,"STAIKOS, Nick",Australian Labor Party - Victorian Branch,ALP
+Bentleigh,6,"KRUGER, Liam",Victorian Socialists,VNS
+Berwick,1,"KHAN, Rana",Australian Labor Party - Victorian Branch,ALP
+Berwick,2,"DE SILVA, Roshan",Australian Greens Victoria,GRN
+Berwick,3,"DE PAOLIS, Vincenzo",Family First Victoria,FFP
+Berwick,4,"PIASTRINO, Michael",One Nation Victoria,ON
+Berwick,5,"BATTIN, Brad",Liberal Party of Australia - Victorian Division,LP
+Berwick,6,"DOWLING, Scott",Australian Citizens Party (Victorian Division),Australian Citizens Party (Victorian Division)
+Berwick,7,"JOHN, David",,IND*
+Berwick,8,"AMARASIRI GUNAWARDANA, Nalinda",Victorian Socialists,VNS
+Berwick,9,"KING, Ethelyn",Libertarian Party (formerly Liberal Democrats),LDP
+Box Hill,1,"QIN, Aaron",Australian Greens Victoria,GRN
+Box Hill,2,"CHEUNG, Heena",,IND*
+Box Hill,3,"BAKER, Jamie",One Nation Victoria,ON
+Box Hill,4,"HOUGUET, Sally",Liberal Party of Australia - Victorian Division,LP
+Box Hill,5,"McGRATH, Sue-Ellen",Democratic Labour Party (DLP),Labour DLP
+Box Hill,6,"HAMER, Paul",Australian Labor Party - Victorian Branch,ALP
+Box Hill,7,"AFAJ, Saravina",Victorian Socialists,VNS
+Box Hill,8,"FAGG, Peter",Family First Victoria,FFP
+Brighton,1,"FAGAN, Alexander",One Nation Victoria,ON
+Brighton,2,"CASLEY, John",,IND*
+Brighton,3,"HAIN, Anthony",Libertarian Party (formerly Liberal Democrats),LDP
+Brighton,4,"MULLAHY, Bridget",Australian Labor Party - Victorian Branch,ALP
+Brighton,5,"SMITH, Jessica",Victorian Socialists,VNS
+Brighton,6,"NEWBURY, James",Liberal Party of Australia - Victorian Division,LP
+Brighton,7,"VINCENT, Barry",Family First Victoria,FFP
+Brighton,8,"BAIN, Ebony",Australian Greens Victoria,GRN
+Broadmeadows,1,"YOLBULAN, Mutullah Can",Victorian Socialists,VNS
+Broadmeadows,2,"EL YOUSSEF, Mohamad",,IND*
+Broadmeadows,3,"DUZOVA, Baris",Liberal Party of Australia - Victorian Division,LP
+Broadmeadows,4,"NASIM, Maryam",Australian Greens Victoria,GRN
+Broadmeadows,5,"ELMUSTAPHA, Mohamad",,IND*
+Broadmeadows,6,"MATTHEWS-WARD, Kathleen",Australian Labor Party - Victorian Branch,ALP
+Broadmeadows,7,"WILSON, Russell",Family First Victoria,FFP
+Broadmeadows,8,"KEIRS, Ethan",One Nation Victoria,ON
+Broadmeadows,9,"UNICOMB, Rachel",Animal Justice Party,AJP
+Broadmeadows,10,"BOLTON, Sue",Socialist Alliance,Socialist Alliance
+Brunswick,1,"FARMER, Naomi",Victorian Socialists,VNS
+Brunswick,2,"MARGELIS, John",Liberal Party of Australia - Victorian Division,LP
+Brunswick,3,"PULFORD, Adam",Australian Greens Victoria,GRN
+Brunswick,4,"HELMAN, Adam",One Nation Victoria,ON
+Brunswick,5,"ROSE, India",Animal Justice Party,AJP
+Brunswick,6,"STEGER, Gabe",Australian Labor Party - Victorian Branch,ALP
+Brunswick,7,"AMANATIDIS, Jack",,IND*
+Brunswick,8,"YUAN, Melissa",,IND*
+Bulleen,1,"RUBLEE, Greg",,IND*
+Bulleen,2,"LIGHTBODY, Tomas",Australian Greens Victoria,GRN
+Bulleen,3,"HARVEY, Bradley",Family First Victoria,FFP
+Bulleen,4,"GUY, Matthew",Liberal Party of Australia - Victorian Division,LP
+Bulleen,5,"PALIOURAS, Amanda",,IND*
+Bulleen,6,"TAFIDIS, Dimitrios",Victorian Socialists,VNS
+Bulleen,7,"DALE, Tim",Australian Labor Party - Victorian Branch,ALP
+Bulleen,8,"ATHARI, Mahdi",One Nation Victoria,ON
+Bundoora,1,"MURPHY-WEBSTER, Melissa",,IND*
+Bundoora,2,"LAITALA, Nina",Australian Greens Victoria,GRN
+Bundoora,3,"PARR, Chris",Liberal Party of Australia - Victorian Division,LP
+Bundoora,4,"WHALLEY, Bruce",One Nation Victoria,ON
+Bundoora,5,"RANCIE, Rae",Family First Victoria,FFP
+Bundoora,6,"NICOLOSI, Chloe",Animal Justice Party,AJP
+Bundoora,7,"BROOKS, Colin",Australian Labor Party - Victorian Branch,ALP
+Bundoora,8,"SANYAL, Sagar",Victorian Socialists,VNS
+Carrum,1,"MATHEWS, Joshua",One Nation Victoria,ON
+Carrum,2,"ABABNEH, Reema",Victorian Socialists,VNS
+Carrum,3,"MOORE, Carolyn",Animal Justice Party,AJP
+Carrum,4,"MACKENZIE, Harley",Legalise Cannabis Victoria,HMP
+Carrum,5,"SMITH, Trevor",Libertarian Party (formerly Liberal Democrats),LDP
+Carrum,6,"KILKENNY, Sonya",Australian Labor Party - Victorian Branch,ALP
+Carrum,7,"PEGRUM, Zoe",Australian Greens Victoria,GRN
+Carrum,8,"SHELLEY, Jeff",Liberal Party of Australia - Victorian Division,LP
+Caulfield,1,"DOLEJŠÍ, Angel",Australian Greens Victoria,GRN
+Caulfield,2,"SHROOT, Yaakov Ziv",,IND*
+Caulfield,3,"ABABNEH, Malak",Victorian Socialists,VNS
+Caulfield,4,"STAFRACE, Mikaela",Australian Labor Party - Victorian Branch,ALP
+Caulfield,5,"GILBERT, Geneviève",Family First Victoria,FFP
+Caulfield,6,"SOUTHWICK, David",Liberal Party of Australia - Victorian Division,LP
+Caulfield,7,"ABELMAN, Michael",One Nation Victoria,ON
+Clarinda,1,"ROCHE, Liam",Libertarian Party (formerly Liberal Democrats),LDP
+Clarinda,2,"BOYD-EEDLE, Conor",Australian Greens Victoria,GRN
+Clarinda,3,"TAK, Meng Heang",Australian Labor Party - Victorian Branch,ALP
+Clarinda,4,"MESSAGE, Kit",Victorian Socialists,VNS
+Clarinda,5,"WHITE, Caroline",,IND*
+Clarinda,6,"BAIN, Gavin",One Nation Victoria,ON
+Clarinda,7,"PAGANIS, John",Liberal Party of Australia - Victorian Division,LP
+Cranbourne,1,"URQUIOLA, Liam",Legalise Cannabis Victoria,HMP
+Cranbourne,2,"BAIRD, Craig",Libertarian Party (formerly Liberal Democrats),LDP
+Cranbourne,3,"MERCER, Annalise",Australian Greens Victoria,GRN
+Cranbourne,4,"TRIPODI, Gino",Liberal Party of Australia - Victorian Division,LP
+Cranbourne,5,"RICHARDS, Pauline",Australian Labor Party - Victorian Branch,ALP
+Cranbourne,6,"YUNIS, Reem",Victorian Socialists,VNS
+Cranbourne,7,"HIRST, Andrew",One Nation Victoria,ON
+Cranbourne,8,"FOREMAN, Shane",Family First Victoria,FFP
+Croydon,1,"FARR, Richard",Australian Labor Party - Victorian Branch,ALP
+Croydon,2,"VANDERWOLF, David",,IND*
+Croydon,3,"SCHWAB, Nathan",Libertarian Party (formerly Liberal Democrats),LDP
+Croydon,4,"THOMAS, Nofoao",Family First Victoria,FFP
+Croydon,5,"WOOLDRIDGE, Toby",Liberal Party of Australia - Victorian Division,LP
+Croydon,6,"GRIMSHAW, Beth",Victorian Socialists,VNS
+Croydon,7,"BRINDLEY, Glenn",One Nation Victoria,ON
+Croydon,8,"FERNANDO, Lini",Australian Greens Victoria,GRN
+Dandenong,1,"BILLINGS, William",Liberal Party of Australia - Victorian Division,LP
+Dandenong,2,"McMAHON, Jack",Victorian Socialists,VNS
+Dandenong,3,"KHAN, Arshad Ali",,IND*
+Dandenong,4,"HARVEY, Jacqueline",Family First Victoria,FFP
+Dandenong,5,"WILLIAMS, Gabrielle",Australian Labor Party - Victorian Branch,ALP
+Dandenong,6,"FORTE, Jordan",Libertarian Party (formerly Liberal Democrats),LDP
+Dandenong,7,"D'ARCY, Catherine",Australian Greens Victoria,GRN
+Dandenong,8,"WRIGHT, Glenda",One Nation Victoria,ON
+Eildon,1,"WARD, Tom",,IND*
+Eildon,2,"MCLEISH, Cindy",Liberal Party of Australia - Victorian Division,LP
+Eildon,3,"BARBER, Tim",One Nation Victoria,ON
+Eildon,4,"MOSELY, Joshua",Family First Victoria,FFP
+Eildon,5,"GULPILIL, Talia",Australian Greens Victoria,GRN
+Eildon,6,"LITTLE, Dylan",Victorian Socialists,VNS
+Eildon,7,"GIBSON, Kevin",Australian Labor Party - Victorian Branch,ALP
+Eildon,8,"BOND, Chloe",Animal Justice Party,AJP
+Eltham,1,"RICHES, Maeve",Victorian Socialists,VNS
+Eltham,2,"BYRNES, Paul",Liberal Party of Australia - Victorian Division,LP
+Eltham,3,"BROOKSBY, Louise",Animal Justice Party,AJP
+Eltham,4,"MARASEA, Steven",Libertarian Party (formerly Liberal Democrats),LDP
+Eltham,5,"WARD, Vicki",Australian Labor Party - Victorian Branch,ALP
+Eltham,6,"WEATHERLEY, Jessie",One Nation Victoria,ON
+Eltham,7,"BUSBRIDGE, Rachel",Australian Greens Victoria,GRN
+Essendon,1,"BARNES, John",One Nation Victoria,ON
+Essendon,2,"ADAMS, Ava",,IND*
+Essendon,3,"LE DEUX, Tommy",Liberal Party of Australia - Victorian Division,LP
+Essendon,4,"MOHAMUD, Anab",,IND*
+Essendon,5,"THEODOSIS, Kat",Australian Labor Party - Victorian Branch,ALP
+Essendon,6,"WILLIAMS, James",Australian Greens Victoria,GRN
+Essendon,7,"YILDIZ, Oscar",,IND*
+Essendon,8,"KEDEM, Michal",Victorian Socialists,VNS
+Eureka,1,"ZIVKOVIC, Belinda",,IND*
+Eureka,2,"McCOLL, Sam",Australian Greens Victoria,GRN
+Eureka,3,"SETTLE, Michaela",Australian Labor Party - Victorian Branch,ALP
+Eureka,4,"RAVEN, Andy",Victorian Socialists,VNS
+Eureka,5,"HARKNESS, Ian Maxwell",Family First Victoria,FFP
+Eureka,6,"MORRISON, Wendy",Animal Justice Party,AJP
+Eureka,7,"BALLINGER, Paul",One Nation Victoria,ON
+Eureka,8,"MUIR, Emma",Liberal Party of Australia - Victorian Division,LP
+Eureka,9,"VENDITTI-TAYLOR, Steven",,IND*
+Euroa,1,"CLEELAND, Annabelle",National Party of Australia - Victoria,NP
+Euroa,2,"TAOUK, Moussa",Family First Victoria,FFP
+Euroa,3,"REGAN, Alysia",Australian Greens Victoria,GRN
+Euroa,4,"KELLY, Karina",Animal Justice Party,AJP
+Euroa,5,"KELLY, Julian",Australian Labor Party - Victorian Branch,ALP
+Euroa,6,"CAMPBELL, Steve",One Nation Victoria,ON
+Euroa,7,"LYLE, Zoe",Victorian Socialists,VNS
+Evelyn,1,"SHERLOCK, Analise",Australian Labor Party - Victorian Branch,ALP
+Evelyn,2,"O'BRIEN, Michelle",Family First Victoria,FFP
+Evelyn,3,"HENLEY, Andrew",Australian Greens Victoria,GRN
+Evelyn,4,"VALLENCE, Bridget",Liberal Party of Australia - Victorian Division,LP
+Evelyn,5,"HEALD, Jan",Animal Justice Party,AJP
+Evelyn,6,"KILLEY, Daniel",One Nation Victoria,ON
+Evelyn,7,"SCANLON, James",Victorian Socialists,VNS
+Footscray,1,"DINH, Hai",,IND*
+Footscray,2,"PEREYRA, Elena",Australian Greens Victoria,GRN
+Footscray,3,"NGUYEN, Minh Quan",The West Party,The West Party
+Footscray,4,"FELATE, Andualem",The Republican Make Australia Great Again,The Republican Make Australia Great Again
+Footscray,5,"HESS, Kristina",I'm Voting to Avoid the Fine,I'm Voting to Avoid the Fine
+Footscray,6,"LOPEZ, Alexander",One Nation Victoria,ON
+Footscray,7,"LEWIS, Daniel",Free Palestine,Free Palestine
+Footscray,8,"IBRAHIM, Marcus",,IND*
+Footscray,9,"FLORES, Ana",Family First Victoria,FFP
+Footscray,10,"HALL, Katie",Australian Labor Party - Victorian Branch,ALP
+Footscray,11,"MARSH, Jess",,IND*
+Footscray,12,"CALDER, Daryle",Climate Action Now,Climate Action Now
+Footscray,13,"CUMMING, Catherine",,IND*
+Footscray,14,"CHANG, Tim",Liberal Party of Australia - Victorian Division,LP
+Footscray,15,"DUFF, Jasmine",Victorian Socialists,VNS
+Frankston,1,"KNIPE, Jeff",Legalise Cannabis Victoria,HMP
+Frankston,2,"KELSALL, Henry",,IND*
+Frankston,3,"BARRY, Nicola",,IND*
+Frankston,4,"NICHOLES, Peter",Family First Victoria,FFP
+Frankston,5,"EDBROOKE, Paul",Australian Labor Party - Victorian Branch,ALP
+Frankston,6,"ABRAHAM, Chrysten",,IND*
+Frankston,7,"AMBRY, Bree",Liberal Party of Australia - Victorian Division,LP
+Frankston,8,"STAFFORD, Paul",One Nation Victoria,ON
+Frankston,9,"HARMAN, Julie",Animal Justice Party,AJP
+Frankston,10,"GOULAS, Katie",Australian Greens Victoria,GRN
+Frankston,11,"CHEESEMAN, Andrew",Victorian Socialists,VNS
+Geelong,1,"FLYNN, Emilie",Australian Greens Victoria,GRN
+Geelong,2,"POBJOY, Andy",Liberal Party of Australia - Victorian Division,LP
+Geelong,3,"BENGTSSON, Maria",Family First Victoria,FFP
+Geelong,4,"MACPHERSON, Pippa",Animal Justice Party,AJP
+Geelong,5,"DE LORENZO, John",One Nation Victoria,ON
+Geelong,6,"GRULL, Brenden",Socialist Alliance,Socialist Alliance
+Geelong,7,"COUZENS, Christine",Australian Labor Party - Victorian Branch,ALP
+Geelong,8,"VANDERPOL, Bree",Victorian Socialists,VNS
+Gippsland East,1,"ESPESETH, Amy",Victorian Socialists,VNS
+Gippsland East,2,"STEPHENS, Sonny",Australian Labor Party - Victorian Branch,ALP
+Gippsland East,3,"MUNRO, Ash",Australian Greens Victoria,GRN
+Gippsland East,4,"RENDELL, Gemma",National Party of Australia - Victoria,NP
+Gippsland East,5,"WATERS, Alison",Family First Victoria,FFP
+Gippsland East,6,"GOODMAN, Steve",One Nation Victoria,ON
+Gippsland East,7,"MUIR, Ricky","Shooters, Fishers and Farmers Party Victoria","Shooters, Fishers & Farmers Vic"
+Gippsland South,1,"BARRY-MACAULAY, Amy",Australian Labor Party - Victorian Branch,ALP
+Gippsland South,2,"McAULIFFE, Jessica",Animal Justice Party,AJP
+Gippsland South,3,"O'BRIEN, Danny",National Party of Australia - Victoria,NP
+Gippsland South,4,"SCHUHMANN, Phillip",,IND*
+Gippsland South,5,"EVANS, Zave",Australian Greens Victoria,GRN
+Gippsland South,6,"McGENNISKEN, Lachie",Victorian Socialists,VNS
+Gippsland South,7,"WILKIE, Bianca",One Nation Victoria,ON
+Glen Waverley,1,"SUN, Jacky",Liberal Party of Australia - Victorian Division,LP
+Glen Waverley,2,"WHITE, Toyo",Australian Greens Victoria,GRN
+Glen Waverley,3,"NADARAJAH, Segar",Democratic Labour Party (DLP),Labour DLP
+Glen Waverley,4,"COX, Brad",One Nation Victoria,ON
+Glen Waverley,5,"DOBIE, Anna",Family First Victoria,FFP
+Glen Waverley,6,"SIOW, Nicholas",Victorian Socialists,VNS
+Glen Waverley,7,"MULLAHY, John",Australian Labor Party - Victorian Branch,ALP
+Greenvale,1,"SAID, Hassan",,IND*
+Greenvale,2,"SMELOV, Kirill",Victorian Socialists,VNS
+Greenvale,3,"MCGINNESS, Declan",Australian Greens Victoria,GRN
+Greenvale,4,"MOORE, Chris",One Nation Victoria,ON
+Greenvale,5,"ZOUGHAIB, Yehya",,IND*
+Greenvale,6,"YOHANNA, Mazen",Australian Citizens Party (Victorian Division),Australian Citizens Party (Victorian Division)
+Greenvale,7,"TITHERIDGE, Michael",Family First Victoria,FFP
+Greenvale,8,"FURINA, Rosanna",Animal Justice Party,AJP
+Greenvale,9,"OVEREND, Jim",Liberal Party of Australia - Victorian Division,LP
+Greenvale,10,"WALTERS, Iwan",Australian Labor Party - Victorian Branch,ALP
+Hastings,1,"COULSON, Chloe",Animal Justice Party,AJP
+Hastings,2,"DENMAN, Michael",Victorian Socialists,VNS
+Hastings,3,"WILLOUGHBY, Isaac",Australian Greens Victoria,GRN
+Hastings,4,"MERCURIO, Paul",Australian Labor Party - Victorian Branch,ALP
+Hastings,5,"SCHIEFLER, Frank",Liberal Party of Australia - Victorian Division,LP
+Hastings,6,"SMART, Jason",,IND*
+Hastings,7,"ANGELICO, Peter",One Nation Victoria,ON
+Hawthorn,1,"CROSBY, Clive",Australian Labor Party - Victorian Branch,ALP
+Hawthorn,2,"ROCHA, Kylie",Australian Greens Victoria,GRN
+Hawthorn,3,"IBUKI, Shima",,IND*
+Hawthorn,4,"PRIBILOVICS, Paul",One Nation Victoria,ON
+Hawthorn,5,"NICOLL, Adam",Family First Victoria,FFP
+Hawthorn,6,"McENEARNEY, Tess",Victorian Socialists,VNS
+Hawthorn,7,"PESUTTO, John",Liberal Party of Australia - Victorian Division,LP
+Ivanhoe,1,"KENNEDY, Michelle",,IND*
+Ivanhoe,2,"MILNE, Ben",Victorian Socialists,VNS
+Ivanhoe,3,"CARBINES, Anthony",Australian Labor Party - Victorian Branch,ALP
+Ivanhoe,4,"LOPEZ RIOS, Oscar",Liberal Party of Australia - Victorian Division,LP
+Ivanhoe,5,"HUTCHINSON, Wayne",One Nation Victoria,ON
+Ivanhoe,6,"CASONATO, Ren",Family First Victoria,FFP
+Ivanhoe,7,"CRAWLEY, Nina",Australian Greens Victoria,GRN
+Ivanhoe,8,"BERGMAN, Dora",,IND*
+Kalkallo,1,"SPENCE, Ros",Australian Labor Party - Victorian Branch,ALP
+Kalkallo,2,"DADISHO, Eddie",Liberal Party of Australia - Victorian Division,LP
+Kalkallo,3,"DOBSON, Jeanette",Family First Victoria,FFP
+Kalkallo,4,"LYNCH, Matthew",Animal Justice Party,AJP
+Kalkallo,5,"STEANS, Troy",One Nation Victoria,ON
+Kalkallo,6,"TIWARI, Payal",Australian Greens Victoria,GRN
+Kalkallo,7,"ISLAM, Rebeca",,IND*
+Kalkallo,8,"MILLETT, Courtney",Victorian Socialists,VNS
+Kew,1,"LIANG, Man",,IND*
+Kew,2,"TORNEY, Sophie",,IND*
+Kew,3,"CARTER, Jackie",Australian Greens Victoria,GRN
+Kew,4,"SUN, David",Australian Labor Party - Victorian Branch,ALP
+Kew,5,"LAIRD, David",One Nation Victoria,ON
+Kew,6,"LINCOLNE, Samantha",Victorian Socialists,VNS
+Kew,7,"WILSON, Jess",Liberal Party of Australia - Victorian Division,LP
+Kew,8,"SEELEY, Ann",Family First Victoria,FFP
+Kew,9,"HALES, Juliet",Animal Justice Party,AJP
+Kew,10,"DAVIS, Finlay",,IND*
+Kororoit,1,"SOUTHERN, Donna",The West Party,The West Party
+Kororoit,2,"PATTERSON, Nick",Family First Victoria,FFP
+Kororoit,3,"MCDONALD, Joyce",Australian Greens Victoria,GRN
+Kororoit,4,"PIDI, Divya",The Republican Make Australia Great Again,The Republican Make Australia Great Again
+Kororoit,5,"HASSAN, Rayan",Victorian Socialists,VNS
+Kororoit,6,"CHAKOMA, Jack",Liberal Party of Australia - Victorian Division,LP
+Kororoit,7,"GRIGOROVITCH, Luba",Australian Labor Party - Victorian Branch,ALP
+Kororoit,8,"MELNIKOV, Seva",One Nation Victoria,ON
+Kororoit,9,"KANDPAL, Vasundhara",Animal Justice Party,AJP
+Lara,1,"HATHWAY, Sarah",Socialist Alliance,Socialist Alliance
+Lara,2,"LONG, Samantha",Animal Justice Party,AJP
+Lara,3,"UWIZEYIMANA, Tina",Family First Victoria,FFP
+Lara,4,"SLATER, Theresa",Australian Greens Victoria,GRN
+Lara,5,"SPYROS, Steven",One Nation Victoria,ON
+Lara,6,"RANDALL, Oliver",Victorian Socialists,VNS
+Lara,7,"GEORGE, Ella",Australian Labor Party - Victorian Branch,ALP
+Lara,8,"BEDDOE, Tim",Liberal Party of Australia - Victorian Division,LP
+Laverton,1,"NGUYEN, Lucy",Australian Greens Victoria,GRN
+Laverton,2,"MENDELSOHN, Emma",The West Party,The West Party
+Laverton,3,"PAREDES, Rufo",One Nation Victoria,ON
+Laverton,4,"GARCIA, Jo",Family First Victoria,FFP
+Laverton,5,"CONNOLLY, Sarah",Australian Labor Party - Victorian Branch,ALP
+Laverton,6,"MANSOURI JAJAEE, Shohre",Animal Justice Party,AJP
+Laverton,7,"CHITTEDI, Suchithra",The Republican Make Australia Great Again,The Republican Make Australia Great Again
+Laverton,8,"NOUNE, Ghada",Liberal Party of Australia - Victorian Division,LP
+Laverton,9,"RUDD, Van Thanh",Victorian Socialists,VNS
+Lowan,1,"BUTLER, Kieran",,IND*
+Lowan,2,"HYSLOP, Karen",Australian Democrats,Australian Democrats
+Lowan,3,"KEALY, Emma",National Party of Australia - Victoria,NP
+Lowan,4,"PAVLOVICH, Sue",Australian Labor Party - Victorian Branch,ALP
+Lowan,5,"ELMES, Lee-Ann",Family First Victoria,FFP
+Lowan,6,"PARTRIDGE, Andrew",One Nation Victoria,ON
+Lowan,7,"DOWNEY, Jos",Victorian Socialists,VNS
+Lowan,8,"MORAN, Jeff",Australian Greens Victoria,GRN
+Macedon,1,"BONANNO, Dom",,IND*
+Macedon,2,"DEATH, Annette",Australian Labor Party - Victorian Branch,ALP
+Macedon,3,"WILSON, Catherine",Victorian Socialists,VNS
+Macedon,4,"MCRAE MCLEOD, Marley",Australian Greens Victoria,GRN
+Macedon,5,"SETON, Michael",,IND*
+Macedon,6,"MAYNE, Bernadette",Family First Victoria,FFP
+Macedon,7,"KORINFSKY, Natalie",Animal Justice Party,AJP
+Macedon,8,"KENDALL, Kate",Liberal Party of Australia - Victorian Division,LP
+Macedon,9,"PAROLIN, Damien",One Nation Victoria,ON
+Malvern,1,"SEGAL, David",Libertarian Party (formerly Liberal Democrats),LDP
+Malvern,2,"MARTIN, Peter",Australian Labor Party - Victorian Branch,ALP
+Malvern,3,"BODE, Edward",One Nation Victoria,ON
+Malvern,4,"LEONARD, Gavin",Victorian Socialists,VNS
+Malvern,5,"KATSIKIS, Georgia",Australian Greens Victoria,GRN
+Malvern,6,"ZIGOURAS, Christina",,IND*
+Malvern,7,"HAMER, Amelia",Liberal Party of Australia - Victorian Division,LP
+Melbourne,1,"TUCKFIELD, Rowan",,IND*
+Melbourne,2,"SANDELL, Ellen",Australian Greens Victoria,GRN
+Melbourne,3,"MCCATHIE, Rob",Libertarian Party (formerly Liberal Democrats),LDP
+Melbourne,4,"GRIFFITHS, Davydd",Australian Labor Party - Victorian Branch,ALP
+Melbourne,5,"YUSUF, Mohamed",,IND*
+Melbourne,6,"JONES, Naomi",Animal Justice Party,AJP
+Melbourne,7,"CAMILLO, Rafael",Liberal Party of Australia - Victorian Division,LP
+Melbourne,8,"VAN DEN LAMB, Jordan",Victorian Socialists,VNS
+Melbourne,9,"COURTIS, Phillip",One Nation Victoria,ON
+Melton,1,"LEGRO, Hayden",The West Party,The West Party
+Melton,2,"KELLY, Daire",Victorian Socialists,VNS
+Melton,3,"FARUQ, M.D. Omor",,IND*
+Melton,4,"LEVCHENKOVA, Veronika",Australian Greens Victoria,GRN
+Melton,5,"ADIN-JAMES, Fiona",Animal Justice Party,AJP
+Melton,6,"BINGHAM, Jarrod",Liberal Party of Australia - Victorian Division,LP
+Melton,7,"WEST, Marlene",Family First Victoria,FFP
+Melton,8,"BORG, Broden",Australian Labor Party - Victorian Branch,ALP
+Melton,9,"PERERA, Jason Spencer",,IND*
+Melton,10,"FRASER, Jason",,IND*
+Melton,11,"KATSELIS, Matthew",One Nation Victoria,ON
+Mildura,1,"NTAHOMVUKIYE, Joselyne",Family First Victoria,FFP
+Mildura,2,"COOPER, Guy",One Nation Victoria,ON
+Mildura,3,"NAYEF, Renee",Victorian Socialists,VNS
+Mildura,4,"BENHAM, Jade",National Party of Australia - Victoria,NP
+Mildura,5,"FRIES, Vanessa",Animal Justice Party,AJP
+Mildura,6,"ZIGOURAS, Stella",Australian Labor Party - Victorian Branch,ALP
+Mildura,7,"CLEMENTS, Katie",Australian Greens Victoria,GRN
+Mill Park,1,"NEALY, Elizabeth",Australian Labor Party - Victorian Branch,ALP
+Mill Park,2,"DRYSDALE, Joel",Liberal Party of Australia - Victorian Division,LP
+Mill Park,3,"VAN DER END, Kath",Family First Victoria,FFP
+Mill Park,4,"ZACHARIAS, Binoy",Australian Greens Victoria,GRN
+Mill Park,5,"McLINDON, Aidan",,IND*
+Mill Park,6,"LAMBOURN, Jesse",Victorian Socialists,VNS
+Mill Park,7,"TSOUTSOULIS, Arthur",One Nation Victoria,ON
+Mill Park,8,"LEVENS, Eve",Animal Justice Party,AJP
+Monbulk,1,"FITZMAURICE, Clare",Liberal Party of Australia - Victorian Division,LP
+Monbulk,2,"MANNERS, Craig",Family First Victoria,FFP
+Monbulk,3,"DE MARTINO, Daniela",Australian Labor Party - Victorian Branch,ALP
+Monbulk,4,"DOWELL, Adrian",One Nation Victoria,ON
+Monbulk,5,"BLAIR, Merran",Australian Greens Victoria,GRN
+Monbulk,6,"WORMALD, Alyssa",Animal Justice Party,AJP
+Monbulk,7,"BRIGGS, Noah",Victorian Socialists,VNS
+Mordialloc,1,"O'HALLORAN, Paul",Liberal Party of Australia - Victorian Division,LP
+Mordialloc,2,"HOSSAIN, Mahee",Victorian Socialists,VNS
+Mordialloc,3,"POTUCEK, Lily",Family First Victoria,FFP
+Mordialloc,4,"VERSTEEGEN, Rachel",Libertarian Party (formerly Liberal Democrats),LDP
+Mordialloc,5,"TICEHURST, Nadia",One Nation Victoria,ON
+Mordialloc,6,"BRESKIN, Alex",Australian Greens Victoria,GRN
+Mordialloc,7,"RICHARDSON, Tim",Australian Labor Party - Victorian Branch,ALP
+Mordialloc,8,"THOMPSON, Renee",Legalise Cannabis Victoria,HMP
+Mornington,1,"BROWNLIE, Gene",Victorian Socialists,VNS
+Mornington,2,"MACDONALD, Kerry",Australian Labor Party - Victorian Branch,ALP
+Mornington,3,"CREWTHER, Chris",Liberal Party of Australia - Victorian Division,LP
+Mornington,4,"BEARDS, Ashli",One Nation Victoria,ON
+Mornington,5,"TITCHER, Kai",Australian Greens Victoria,GRN
+Mornington,6,"GOFFIN, Melissa",,IND*
+Mornington,7,"MAHER, Adrian",,IND*
+Morwell,1,"CLARKE, Brendan",Family First Victoria,FFP
+Morwell,2,"LUND, Tracie",Australian Labor Party - Victorian Branch,ALP
+Morwell,3,"HINE, Rochelle",Australian Greens Victoria,GRN
+Morwell,4,"McPHEE, Ross",Democratic Labour Party (DLP),Labour DLP
+Morwell,5,"CAMERON, Martin",National Party of Australia - Victoria,NP
+Morwell,6,"ACREMAN, Natalie",Victorian Socialists,VNS
+Morwell,7,"MURPHY, Casey",One Nation Victoria,ON
+Mulgrave,1,"REBBECHI, Cody",One Nation Victoria,ON
+Mulgrave,2,"SCHOFIELD, Paul J",Australian Greens Victoria,GRN
+Mulgrave,3,"TRAN, Charles",Liberal Party of Australia - Victorian Division,LP
+Mulgrave,4,"FOSTER, Eden",Australian Labor Party - Victorian Branch,ALP
+Mulgrave,5,"THEODOSSOPOULOU, Fotini",Libertarian Party (formerly Liberal Democrats),LDP
+Mulgrave,6,"DOBRZYNSKI, Stewart",Family First Victoria,FFP
+Mulgrave,7,"COOK, Ian",,IND*
+Mulgrave,8,"BUCHANAN, Connor",Victorian Socialists,VNS
+Murray Plains,1,"COLLARD, Peita",Animal Justice Party,AJP
+Murray Plains,2,"HOSKING, Brett",National Party of Australia - Victoria,NP
+Murray Plains,3,"MCDONALD, Ewan",Family First Victoria,FFP
+Murray Plains,4,"SMITH, Garner",One Nation Victoria,ON
+Murray Plains,5,"GRUNDY, Christine",Australian Labor Party - Victorian Branch,ALP
+Murray Plains,6,"SANIF, Asyiqin",Victorian Socialists,VNS
+Murray Plains,7,"COOK, Zoe",Australian Greens Victoria,GRN
+Narracan,1,"DETHLEFS, Geoff",Family First Victoria,FFP
+Narracan,2,"FARNHAM, Wayne",Liberal Party of Australia - Victorian Division,LP
+Narracan,3,"WEAVER, Alyssa",Australian Greens Victoria,GRN
+Narracan,4,"PAGE, Moss",Victorian Socialists,VNS
+Narracan,5,"LUCAS, Ben",One Nation Victoria,ON
+Narracan,6,"LANGLEY, Jannette",Australian Labor Party - Victorian Branch,ALP
+Narre Warren North,1,"NATHANIELSZ, Shemane",Liberal Party of Australia - Victorian Division,LP
+Narre Warren North,2,"CRUTCHFIELD, Sebastian",One Nation Victoria,ON
+Narre Warren North,3,"UTOYO, Joshua",Libertarian Party (formerly Liberal Democrats),LDP
+Narre Warren North,4,"EMMANUEL, Cristina",Family First Victoria,FFP
+Narre Warren North,5,"LEAHY, Martin",Legalise Cannabis Victoria,HMP
+Narre Warren North,6,"WILSON, Belinda",Australian Labor Party - Victorian Branch,ALP
+Narre Warren North,7,"PERRY, Hayley",Australian Greens Victoria,GRN
+Narre Warren North,8,"McCRACKEN, Lachlan",Victorian Socialists,VNS
+Narre Warren South,1,"McCRACKEN, Bailey",Victorian Socialists,VNS
+Narre Warren South,2,"CURRIE, Alan",Family First Victoria,FFP
+Narre Warren South,3,"HAMMOND, Trevor",One Nation Victoria,ON
+Narre Warren South,4,"DENKER, Lydia",Libertarian Party (formerly Liberal Democrats),LDP
+Narre Warren South,5,"WATSON, Scott",,IND*
+Narre Warren South,6,"NAMBU, Jill",Australian Greens Victoria,GRN
+Narre Warren South,7,"KOOMEN, Stefan",Australian Labor Party - Victorian Branch,ALP
+Narre Warren South,8,"PETERSON, Norliah",Liberal Party of Australia - Victorian Division,LP
+Nepean,1,"HEALY, Sianan",Australian Greens Victoria,GRN
+Nepean,2,"SNOWBALL, Surbhi",Australian Labor Party - Victorian Branch,ALP
+Nepean,3,"CHAMPION, Tamara",Animal Justice Party,AJP
+Nepean,4,"HERCUS, Darren",One Nation Victoria,ON
+Nepean,5,"ROBBINS, Kim",,IND*
+Nepean,6,"TOSCANO, Joseph",,IND*
+Nepean,7,"WILLCOCKS, Seth",Victorian Socialists,VNS
+Nepean,8,"MARSH, Anthony",Liberal Party of Australia - Victorian Division,LP
+Nepean,9,"BROWN, Mike",Family First Victoria,FFP
+Niddrie,1,"SFAMENI, Sam",,IND*
+Niddrie,2,"CARROLL, Ben",Australian Labor Party - Victorian Branch,ALP
+Niddrie,3,"THEODOROU, George",Family First Victoria,FFP
+Niddrie,4,"BYRNE, Samantha",Liberal Party of Australia - Victorian Division,LP
+Niddrie,5,"METE, Domenic",Democratic Labour Party (DLP),Labour DLP
+Niddrie,6,"LAWS, Brendan",Victorian Socialists,VNS
+Niddrie,7,"HASELGROVE, Salomae",Animal Justice Party,AJP
+Niddrie,8,"TAVERNA, Jason",One Nation Victoria,ON
+Niddrie,9,"NGUYEN, Lana",Australian Greens Victoria,GRN
+Niddrie,10,"CHITTEDI, Karthik Reddy",The Republican Make Australia Great Again,The Republican Make Australia Great Again
+Niddrie,11,"PATRIKEOS, Brett",The West Party,The West Party
+Northcote,1,"CIMBARO, Richard",Family First Victoria,FFP
+Northcote,2,"PENMAN, Jim",Libertarian Party (formerly Liberal Democrats),LDP
+Northcote,3,"LARKIN, Kath",Victorian Socialists,VNS
+Northcote,4,"PILLEY, Clive",I'm Voting to Avoid the Fine,I'm Voting to Avoid the Fine
+Northcote,5,"HILLMAN, Ian",,IND*
+Northcote,6,"BRADBURY, Christopher",One Nation Victoria,ON
+Northcote,7,"AWAD, Lynda",Liberal Party of Australia - Victorian Division,LP
+Northcote,8,"THEOPHANOUS, Kat",Australian Labor Party - Victorian Branch,ALP
+Northcote,9,"KAFEL, Hannah",Free Palestine,Free Palestine
+Northcote,10,"GOME, Campbell",Australian Greens Victoria,GRN
+Oakleigh,1,"HSIEH, Hsiang-Han",Australian Greens Victoria,GRN
+Oakleigh,2,"DIMOPOULOS, Steve",Australian Labor Party - Victorian Branch,ALP
+Oakleigh,3,"JUNG, Martin",Liberal Party of Australia - Victorian Division,LP
+Oakleigh,4,"CARTER, Brooke",One Nation Victoria,ON
+Oakleigh,5,"GRINTER, Matthew",Family First Victoria,FFP
+Oakleigh,6,"BUGTER, Rowdy",Victorian Socialists,VNS
+Ovens Valley,1,"McCURDY, Tim",National Party of Australia - Victoria,NP
+Ovens Valley,2,"FIDGE, Julian",Libertarian Party (formerly Liberal Democrats),LDP
+Ovens Valley,3,"MURPHY, Bronwyn",Victorian Socialists,VNS
+Ovens Valley,4,"ROUEL, James",One Nation Victoria,ON
+Ovens Valley,5,"MANNING, Steve",,IND*
+Ovens Valley,6,"NORTON-SMITH, Carol",Family First Victoria,FFP
+Ovens Valley,7,"SMITH, Jennifer",Australian Labor Party - Victorian Branch,ALP
+Ovens Valley,8,"GILBERT, Benjamin",Australian Greens Victoria,GRN
+Ovens Valley,9,"LITCHFIELD, Sue",Animal Justice Party,AJP
+Pakenham,1,"HAMALAINEN, Jesse",Democratic Labour Party (DLP),Labour DLP
+Pakenham,2,"FRENCH, Raymond",,IND*
+Pakenham,3,"HANDS, Kate",Libertarian Party (formerly Liberal Democrats),LDP
+Pakenham,4,"OGDEN, Lucas",,IND*
+Pakenham,5,"GRIGG, Stephanie",Victorian Socialists,VNS
+Pakenham,6,"SOLIVEN, Alessandra",Australian Labor Party - Victorian Branch,ALP
+Pakenham,7,"DYSON, Radmila",Liberal Party of Australia - Victorian Division,LP
+Pakenham,8,"YAWARI, Nasser",Australian Greens Victoria,GRN
+Pakenham,9,"PICKERING, Warren",One Nation Victoria,ON
+Pakenham,10,"DAVIES, Stephanie",,IND*
+Pascoe Vale,1,"HICKEY, Amanda",Free Palestine,Free Palestine
+Pascoe Vale,2,"LAWRENCE, Stuart",Climate Action Now,Climate Action Now
+Pascoe Vale,3,"CIANFLONE, Anthony",Australian Labor Party - Victorian Branch,ALP
+Pascoe Vale,4,"GANCI, Rosemarie Pauline",One Nation Victoria,ON
+Pascoe Vale,5,"PANOPOULOS, Angelica",Australian Greens Victoria,GRN
+Pascoe Vale,6,"ASHTON, Kathrine",Family First Victoria,FFP
+Pascoe Vale,7,"ANDREWARTHA, Jacob",Socialist Alliance,Socialist Alliance
+Pascoe Vale,8,"HAUPT, Kerry",I'm Voting to Avoid the Fine,I'm Voting to Avoid the Fine
+Pascoe Vale,9,"SHAMSILI, Yasemin",Victorian Socialists,VNS
+Pascoe Vale,10,"TAGGAR, Rohit",Liberal Party of Australia - Victorian Division,LP
+Point Cook,1,"LAINE, Taylor",Victorian Socialists,VNS
+Point Cook,2,"GRECH, Mark",The West Party,The West Party
+Point Cook,3,"KELLY, Paul",Democratic Labour Party (DLP),Labour DLP
+Point Cook,4,"HILAKARI, Mathew",Australian Labor Party - Victorian Branch,ALP
+Point Cook,5,"ALLE, Kirti",The Republican Make Australia Great Again,The Republican Make Australia Great Again
+Point Cook,6,"KRISHNA PANDI, Ponraj",Australian Greens Victoria,GRN
+Point Cook,7,"MEURE, Keith",Family First Victoria,FFP
+Point Cook,8,"REDDY, Raja",Liberal Party of Australia - Victorian Division,LP
+Point Cook,9,"REID, Cameron",One Nation Victoria,ON
+Polwarth,1,"TOLLEY, Lula",Victorian Socialists,VNS
+Polwarth,2,"RIORDAN, Richard",Liberal Party of Australia - Victorian Division,LP
+Polwarth,3,"HUSSEIN, Hutch",Australian Labor Party - Victorian Branch,ALP
+Polwarth,4,"HOLDEN, Jesse",Australian Greens Victoria,GRN
+Polwarth,5,"CARBINS, Brenton",Australian Citizens Party (Victorian Division),Australian Citizens Party (Victorian Division)
+Polwarth,6,"MALCOLM, Anna",One Nation Victoria,ON
+Polwarth,7,"COLLA, Vince",Family First Victoria,FFP
+Prahran,1,"FINNIGAN, Tosh-Jake",,IND*
+Prahran,2,"O'NEILL, G. Daniel",Animal Justice Party,AJP
+Prahran,3,"LEETON WATTS, George",,IND*
+Prahran,4,"WESTAWAY, Rachel",Liberal Party of Australia - Victorian Division,LP
+Prahran,5,"MENADUE, Alan",,IND*
+Prahran,6,"WONG, Nicholas",Climate Action Now,Climate Action Now
+Prahran,7,"JONES, Daniel",Free Palestine,Free Palestine
+Prahran,8,"DICKS, Max",,IND*
+Prahran,9,"DOUEIHI, Clayton",Victorian Socialists,VNS
+Prahran,10,"JONAS, Morgan",Safety Victoria – Violent Crime Prevention,Safety Victoria – Violent Crime Prevention
+Prahran,11,"VIRSU, Shaun",One Nation Victoria,ON
+Prahran,12,"HOPPER, Meghan",Australian Labor Party - Victorian Branch,ALP
+Prahran,13,"DI CAMILLO, Angelica",Australian Greens Victoria,GRN
+Preston,1,"DATE, Tim",I'm Voting to Avoid the Fine,I'm Voting to Avoid the Fine
+Preston,2,"CHIN, Zheng",,IND*
+Preston,3,"AL KATRANJI, Hamza",Liberal Party of Australia - Victorian Division,LP
+Preston,4,"VALENCIA, Julio",Family First Victoria,FFP
+Preston,5,"FOWLES, William",,IND*
+Preston,6,"SANGARYA, Loki",Australian Greens Victoria,GRN
+Preston,7,"ASHMORE, Serena",Victorian Socialists,VNS
+Preston,8,"BRYANT, Mark",Free Palestine,Free Palestine
+Preston,9,"GUARDIANI, Franco",One Nation Victoria,ON
+Preston,10,"DOWER, Simon",Climate Action Now,Climate Action Now
+Preston,11,"LAMBERT, Nathan",Australian Labor Party - Victorian Branch,ALP
+Richmond,1,"RINDFLEISH, Harrison",One Nation Victoria,ON
+Richmond,2,"APONSO, Charles",Liberal Party of Australia - Victorian Division,LP
+Richmond,3,"DITE, Chris",Victorian Socialists,VNS
+Richmond,4,"MCKENZIE, Sarah",Australian Labor Party - Victorian Branch,ALP
+Richmond,5,"MAYNARD, Christine",,IND*
+Richmond,6,"GRAY, Bernadette",Libertarian Party (formerly Liberal Democrats),LDP
+Richmond,7,"PEAD-PHILIPSON, Jack",Australian Democrats,Australian Democrats
+Richmond,8,"de VIETRI, Gabrielle",Australian Greens Victoria,GRN
+Richmond,9,"MEYER, David",,IND*
+Ringwood,1,"HALSE, Rachel",Australian Labor Party - Victorian Branch,ALP
+Ringwood,2,"McGOWAN, Nick",Liberal Party of Australia - Victorian Division,LP
+Ringwood,3,"NORTON, Christopher William",Democratic Labour Party (DLP),Labour DLP
+Ringwood,4,"HUANG, Elaine",Family First Victoria,FFP
+Ringwood,5,"CUTTS, Prue",,IND*
+Ringwood,6,"MILLS, Amy",Australian Greens Victoria,GRN
+Ringwood,7,"O'CONNOR, John",One Nation Victoria,ON
+Ringwood,8,"WALKER, Lyndon",Animal Justice Party,AJP
+Ringwood,9,"GARDNER, Jack",Victorian Socialists,VNS
+Ripon,1,"WOJTKOWSKI, Krzysztof","Shooters, Fishers and Farmers Party Victoria","Shooters, Fishers & Farmers Vic"
+Ripon,2,"QUINCE, Bernard",,IND*
+Ripon,3,"MCGRATH, Mark",Family First Victoria,FFP
+Ripon,4,"SKRUZNY, Ronald",Democratic Labour Party (DLP),Labour DLP
+Ripon,5,"BRENNAN-JONES, Taylah",Victorian Socialists,VNS
+Ripon,6,"BARRY, Jeff",Libertarian Party (formerly Liberal Democrats),LDP
+Ripon,7,"ANDREI, Trevor Scott",,IND*
+Ripon,8,"HAYLETT, Martha",Australian Labor Party - Victorian Branch,ALP
+Ripon,9,"DRYLIE, Tim",Australian Greens Victoria,GRN
+Ripon,10,"BUXTON, Donna",One Nation Victoria,ON
+Ripon,11,"READ, Megan",Liberal Party of Australia - Victorian Division,LP
+Ripon,12,"ARMSTRONG, Jo",National Party of Australia - Victoria,NP
+Rowville,1,"MASSEY, David",Australian Greens Victoria,GRN
+Rowville,2,"WILLIAMS, Max",Liberal Party of Australia - Victorian Division,LP
+Rowville,3,"DOBRZYNSKI, Fiona",Family First Victoria,FFP
+Rowville,4,"SHAHBAZ, Muhammad",Australian Labor Party - Victorian Branch,ALP
+Rowville,5,"WATT, Bradley",One Nation Victoria,ON
+Rowville,6,"ROBSON, Scott",Libertarian Party (formerly Liberal Democrats),LDP
+Rowville,7,"HIEMSTRA, Lars",Victorian Socialists,VNS
+Sandringham,1,"STEVENSON, Lauren",Victorian Socialists,VNS
+Sandringham,2,"FOTAKIS, Timon",Australian Greens Victoria,GRN
+Sandringham,3,"ROWSWELL, Brad",Liberal Party of Australia - Victorian Division,LP
+Sandringham,4,"SAGRIS-DESMOND, Anastasia",Australian Labor Party - Victorian Branch,ALP
+Sandringham,5,"BLIGHT, Anthony",One Nation Victoria,ON
+Shepparton,1,"SALI, Shane",National Party of Australia - Victoria,NP
+Shepparton,2,"WHITE, Alison",Family First Victoria,FFP
+Shepparton,3,"VERNEY, Grace",Australian Greens Victoria,GRN
+Shepparton,4,"HOCKING, Karen",Victorian Socialists,VNS
+Shepparton,5,"COSTA, Lou",,IND*
+Shepparton,6,"FIN, Cayla",Australian Labor Party - Victorian Branch,ALP
+Shepparton,7,"BRYANT, Phillip",One Nation Victoria,ON
+Shepparton,8,"MURPHY-GINGER, Faith",Animal Justice Party,AJP
+Shepparton,9,"VARKEY, Johnson",,IND*
+South Barwon,1,"THISTLETON, Rebecca",Australian Labor Party - Victorian Branch,ALP
+South Barwon,2,"NELSON, Ron",,IND*
+South Barwon,3,"BARRON, Alan",Family First Victoria,FFP
+South Barwon,4,"HEDLEY, Freya",Socialist Alliance,Socialist Alliance
+South Barwon,5,"GORMAN, Madilyn",Victorian Socialists,VNS
+South Barwon,6,"GEARD, Josh",One Nation Victoria,ON
+South Barwon,7,"SCHERRER, Izzy",Australian Greens Victoria,GRN
+South Barwon,8,"PETTIT, Libby",Liberal Party of Australia - Victorian Division,LP
+South-West Coast,1,"BUCHAN, Tamhas",Family First Victoria,FFP
+South-West Coast,2,"HUGHES, Richard",One Nation Victoria,ON
+South-West Coast,3,"GOVANSTONE, Andrew",Australian Labor Party - Victorian Branch,ALP
+South-West Coast,4,"WATTS, Silver Rose",Australian Greens Victoria,GRN
+South-West Coast,5,"BRITNELL, Roma",Liberal Party of Australia - Victorian Division,LP
+South-West Coast,6,"SHEPPARD, Hera",Victorian Socialists,VNS
+St Albans,1,"WALKER, Luân",The West Party,The West Party
+St Albans,2,"HUYNH, Thuc Bao",Australian Greens Victoria,GRN
+St Albans,3,"NGUYEN, Leanna",Victorian Socialists,VNS
+St Albans,4,"SULEYMAN, Natalie",Australian Labor Party - Victorian Branch,ALP
+St Albans,5,"DUNSTAN, Rob",Liberal Party of Australia - Victorian Division,LP
+St Albans,6,"JANTEN, Kerry",,IND*
+St Albans,7,"HAKIZIMANA, Alex",Family First Victoria,FFP
+St Albans,8,"COWELL, John",One Nation Victoria,ON
+St Albans,9,DAVINDER KAUR,The Republican Make Australia Great Again,The Republican Make Australia Great Again
+Sunbury,1,"BREMNER, Adam",Victorian Socialists,VNS
+Sunbury,2,"DABROWSKI, Elita",One Nation Victoria,ON
+Sunbury,3,"VINE, Geoff",The West Party,The West Party
+Sunbury,4,"COTTOM, Simmone",Liberal Party of Australia - Victorian Division,LP
+Sunbury,5,"BULL, Josh",Australian Labor Party - Victorian Branch,ALP
+Sunbury,6,"MOHR, Rohanna",Animal Justice Party,AJP
+Sunbury,7,"BETHI, Bhasker Reddy",The Republican Make Australia Great Again,The Republican Make Australia Great Again
+Sunbury,8,"STAFFORD, John",Democratic Labour Party (DLP),Labour DLP
+Sunbury,9,"MEDCRAFT, Steve Jack",,IND*
+Sunbury,10,"GRANGER-BROWN, Lauren",Australian Greens Victoria,GRN
+Sunbury,11,"BATRES, Elmer",Family First Victoria,FFP
+Sydenham,1,"VANDENBERG, Ashleigh",,IND*
+Sydenham,2,"CROES, Nancy G",Family First Victoria,FFP
+Sydenham,3,"LANKALA KENDERLA, Laxmi",The Republican Make Australia Great Again,The Republican Make Australia Great Again
+Sydenham,4,"LANCASHIRE, Bruce",The West Party,The West Party
+Sydenham,5,"KERR, Maria",,IND*
+Sydenham,6,"BAUCH, Joh",One Nation Victoria,ON
+Sydenham,7,"MOUSSI, Nathalie",Liberal Party of Australia - Victorian Division,LP
+Sydenham,8,"SINCLAIR, Brandon",Democratic Labour Party (DLP),Labour DLP
+Sydenham,9,"POON, Bruce",Animal Justice Party,AJP
+Sydenham,10,"RASIC, Uros",Australian Labor Party - Victorian Branch,ALP
+Sydenham,11,"JANE, Maggie",Australian Greens Victoria,GRN
+Sydenham,12,"KHAN, Shania",Victorian Socialists,VNS
+Tarneit,1,"MOINUDDIN, Aijaz",,IND*
+Tarneit,2,"WIGHT, Dylan",Australian Labor Party - Victorian Branch,ALP
+Tarneit,3,"ISLAM, SM Zaberul",,IND*
+Tarneit,4,"ELSBURY, Andrew",The West Party,The West Party
+Tarneit,5,"VAN KEULEN, Leah",Victorian Socialists,VNS
+Tarneit,6,"NIYONGABIRE, Horizana",Family First Victoria,FFP
+Tarneit,7,"AHMED, Rahima Ibrahim",,IND*
+Tarneit,8,"RAHN, Maurita",Animal Justice Party,AJP
+Tarneit,9,"VILLAGONZALO, Walter",One Nation Victoria,ON
+Tarneit,10,"RIFAI, A. Raheem",Australian Greens Victoria,GRN
+Tarneit,11,"UPPARLAPALLE, Venkat Ram",Liberal Party of Australia - Victorian Division,LP
+Tarneit,12,"SUDHAGANI, Sindhu",The Republican Make Australia Great Again,The Republican Make Australia Great Again
+Thomastown,1,"RANCIE, Rob",Family First Victoria,FFP
+Thomastown,2,"STOJCEVSKI, Belinda",Liberal Party of Australia - Victorian Division,LP
+Thomastown,3,"ANTHONY, Nadia",One Nation Victoria,ON
+Thomastown,4,"REDDY, Priya",Victorian Socialists,VNS
+Thomastown,5,"HALFPENNY, Bronwyn",Australian Labor Party - Victorian Branch,ALP
+Thomastown,6,"TREWELLA, Gavin",Australian Greens Victoria,GRN
+Warrandyte,1,"STANLEY, John",Victorian Socialists,VNS
+Warrandyte,2,"WERNER, Nicole",Liberal Party of Australia - Victorian Division,LP
+Warrandyte,3,"PATERSON, Rebecca",Australian Labor Party - Victorian Branch,ALP
+Warrandyte,4,"SCHWAB, Caleb",Libertarian Party (formerly Liberal Democrats),LDP
+Warrandyte,5,"MURADIAN, Vanessa",Australian Greens Victoria,GRN
+Warrandyte,6,"BURNSIDE, Mark",One Nation Victoria,ON
+Wendouree,1,"ADDISON, Juliana",Australian Labor Party - Victorian Branch,ALP
+Wendouree,2,"ROBINSON, Stuart",One Nation Victoria,ON
+Wendouree,3,"BYRNE, Ruth",Family First Victoria,FFP
+Wendouree,4,"MEAGHER, Chris",Victorian Socialists,VNS
+Wendouree,5,"RONAN, Gav",Liberal Party of Australia - Victorian Division,LP
+Wendouree,6,"COLLINS, Melissa",Animal Justice Party,AJP
+Wendouree,7,"BURNS, Ellen",Australian Greens Victoria,GRN
+Werribee,1,"HOPPER, Paul",The West Party,The West Party
+Werribee,2,"KUMAR, Tushar",Australian Greens Victoria,GRN
+Werribee,3,"PATERAS, Paul",One Nation Victoria,ON
+Werribee,4,"CLARK, Reece",Liberal Party of Australia - Victorian Division,LP
+Werribee,5,"EMERSON, Matt",Family First Victoria,FFP
+Werribee,6,"LISTER, John",Australian Labor Party - Victorian Branch,ALP
+Werribee,7,"ORCHARD, Jeremy",Democratic Labour Party (DLP),Labour DLP
+Werribee,8,"MUNRO, Sue",Victorian Socialists,VNS
+Werribee,9,"RAIZADA, Monica Sharma",,IND*
+Werribee,10,"KAYAGURLA, Sandhya",The Republican Make Australia Great Again,The Republican Make Australia Great Again
+Williamstown,1,"MARTIN, Oskar",Victorian Socialists,VNS
+Williamstown,2,"HOCKING, Ben",Australian Greens Victoria,GRN
+Williamstown,3,"O'REGAN, Bruce",Family First Victoria,FFP
+Williamstown,4,"LOUGHNAN, Catherine",One Nation Victoria,ON
+Williamstown,5,"YARRA, Sagar Reddy",The Republican Make Australia Great Again,The Republican Make Australia Great Again
+Williamstown,6,"GANNON, Gill",The West Party,The West Party
+Williamstown,7,"HORNE, Melissa",Australian Labor Party - Victorian Branch,ALP
+Williamstown,8,"BRIFFA, Tony",,IND*
+Williamstown,9,"LINDEMANN, Paul",Liberal Party of Australia - Victorian Division,LP
+Yan Yean,1,"KATHAGE, Lauren",Australian Labor Party - Victorian Branch,ALP
+Yan Yean,2,"JOHNSON, Jeremy",One Nation Victoria,ON
+Yan Yean,3,"BELL, Andrew",Victorian Socialists,VNS
+Yan Yean,4,"HALL, James",Family First Victoria,FFP
+Yan Yean,5,"OKATAN, Sinan",Animal Justice Party,AJP
+Yan Yean,6,"DOW, Amanda",Liberal Party of Australia - Victorian Division,LP
+Yan Yean,7,"MOHAMMED, Gufran",Australian Greens Victoria,GRN
+Yan Yean,8,"CHEERS, Troy",Libertarian Party (formerly Liberal Democrats),LDP

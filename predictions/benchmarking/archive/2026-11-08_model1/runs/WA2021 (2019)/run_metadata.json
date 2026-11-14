@@ -1,0 +1,38 @@
+{
+  "model": "model1",
+  "run_id": "WA2021 (2019)",
+  "timestamp": "2026-11-08T11:06:24+00:00",
+  "git_commit": null,
+  "runs": 1000,
+  "seed": 1,
+  "noise_log_sd": {
+    "state": 0.08,
+    "seat": 0.12,
+    "flow": 0.15
+  },
+  "inputs": {
+    "state": "WA",
+    "state_election": "2021-03-13",
+    "districts": 59,
+    "federal_election": 2019,
+    "aec_event": 24310,
+    "booths": "inside the district and within 1 km of their own federal division",
+    "polls": null,
+    "winners": "WA2021"
+  },
+  "scores": {
+    "districts": 59,
+    "raw_seat_count": 20,
+    "brier": 1.1927,
+    "log_loss": 3.0292
+  },
+  "actual_seats": {
+    "ALP": 53,
+    "LP": 2,
+    "NP": 4
+  },
+  "predicted_seats_mean": {
+    "ALP": 18.09,
+    "LP": 40.91
+  }
+}
