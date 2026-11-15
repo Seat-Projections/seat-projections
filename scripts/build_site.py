@@ -499,7 +499,9 @@ def forecast_chips_html(blocs):
 def write_header_chips(blocs):
     body = forecast_chips_html(blocs)
     open_m, close_m = "<!-- forecast-chips -->", "<!-- /forecast-chips -->"
-    for page in SITE.glob("*.html"):
+    for page in SITE.rglob("*.html"):
+        if "vendor" in page.parts:
+            continue
         text = page.read_text()
         if open_m not in text:
             continue

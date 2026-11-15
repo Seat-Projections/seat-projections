@@ -50,7 +50,7 @@ const pct1 = (x) => `${(+x).toFixed(1)}%`;
 
 let SITE_JSON = null;
 async function siteJson() {
-  return (SITE_JSON ||= await fetch("data/site.json").then((r) => r.json()));
+  return (SITE_JSON ||= await fetch("/data/site.json").then((r) => r.json()));
 }
 
 // Fill every [data-repo] element with the repo URL once site.json is loaded.

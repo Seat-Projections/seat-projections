@@ -13,7 +13,7 @@ async function init() {
   };
   const [site, bench] = await Promise.all([
     need.site ? siteJson() : null,
-    need.bench ? fetch("data/benchmarks.json").then((r) => r.json()) : null,
+    need.bench ? fetch("/data/benchmarks.json").then((r) => r.json()) : null,
   ]);
 
   const isScored = (r) => r.raw_seat_count !== "" && r.raw_seat_count != null;
@@ -62,7 +62,7 @@ async function init() {
       <td><span class="mono small">${esc(d.file)}</span></td>
       <td class="r num">${d.size_kb >= 1024 ? `${(d.size_kb / 1024).toFixed(1)} MB` : `${d.size_kb} KB`}</td>
       <td class="muted">${esc(d.description)}</td>
-      <td class="r"><a class="dl-btn" href="data/downloads/${esc(d.file)}">Download</a></td></tr>`).join("");
+      <td class="r"><a class="dl-btn" href="/data/downloads/${esc(d.file)}">Download</a></td></tr>`).join("");
   }
 }
 

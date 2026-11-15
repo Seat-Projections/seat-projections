@@ -21,7 +21,7 @@ const dispName = (n) => {
 const nameOf = (d, id) => (d.candidates.find((c) => c.id === id)?.name) || id;
 const shortOf = (d, id) => dispName(nameOf(d, id).split(",")[0]);
 
-const loadForecast = async (model) => (forecasts[model] ||= await fetch(`data/${model}_vic2026.json`).then((r) => {
+const loadForecast = async (model) => (forecasts[model] ||= await fetch(`/data/${model}_vic2026.json`).then((r) => {
   if (!r.ok) throw new Error(`data/${model}_vic2026.json missing — run scripts/build_site.py`);
   return r.json();
 }));
@@ -249,8 +249,8 @@ async function setView(v, keepDistrict) {
 
 async function init() {
   const [districts, outline] = await Promise.all([
-    fetch("data/districts.geojson").then((r) => r.json()),
-    fetch("data/victoria_outline.json").then((r) => r.json()),
+    fetch("/data/districts.geojson").then((r) => r.json()),
+    fetch("/data/victoria_outline.json").then((r) => r.json()),
   ]);
   const map = L.map("pmap", { preferCanvas: true, zoomSnap: 0.5, attributionControl: false, maxZoom: 14 });
   window.map = map;

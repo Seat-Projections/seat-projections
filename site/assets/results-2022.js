@@ -144,9 +144,9 @@ function renderChips() {
 
 async function init() {
   const [baseline, districts, outline, site] = await Promise.all([
-    fetch("data/baseline_2022.json").then((r) => r.json()),
-    fetch("data/districts.geojson").then((r) => r.json()),
-    fetch("data/victoria_outline.json").then((r) => r.json()),
+    fetch("/data/baseline_2022.json").then((r) => r.json()),
+    fetch("/data/districts.geojson").then((r) => r.json()),
+    fetch("/data/victoria_outline.json").then((r) => r.json()),
     siteJson().catch(() => null),
   ]);
   BASELINE = baseline;

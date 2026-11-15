@@ -7,6 +7,37 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 import build_site  # noqa: E402
 
 
+def resolve_path(href):
+    """Resolve a root-absolute or page-relative site path to a filesystem path.
+    '/x/' -> site/x/index.html, '/x' -> site/x, '#a' -> None (skip)."""
+    path = href.split("#")[0].split("?")[0]
+    if not path:
+        return None
+    p = SITE_DIR / path.lstrip("/") if path.startswith("/") else SITE_DIR / path
+    return p / "index.html" if path.endswith("/") else p
+
+
+def test_internal_links_resolve():
+    """Every internal href/src in site HTML resolves to an existing file, and
+    each redirect stub points at a real page."""
+    import re
+    for f in SITE_DIR.rglob("*.html"):
+        if "vendor" in f.parts:
+            continue
+        for attr in re.findall(r'(?:href|src)="([^"]+)"', f.read_text()):
+            if attr.startswith(("http", "mailto:", "#", "data:")) or attr == "#":
+                continue
+            target = resolve_path(attr)
+            if target is None:
+                continue
+            assert target.is_file(), f"{f.name}: {attr} does not resolve"
+    # stubs: meta refresh targets must exist
+    for name in STUB_NAMES:
+        text = (SITE_DIR / name).read_text()
+        target = re.search(r'url=([^"]+)"', text).group(1)
+        assert resolve_path(target).is_file(), f"{name} stub -> {target} missing"
+
+
 def test_baseline_2022_seat_tally():
     baseline = build_site.load_baseline()
     assert len(baseline["districts"]) == 88
@@ -79,18 +110,28 @@ def test_simplified_districts_share_boundaries():
 SITE_DIR = Path(__file__).resolve().parent.parent / "site"
 
 
+STUB_NAMES = {"projections.html", "methodology.html", "methodology-model1.html",
+              "methodology-model2.html", "results-2022.html"}
+
+
+def site_pages():
+    """Real site pages: every *.html under site/, excluding vendored files and
+    the top-level redirect stubs."""
+    return [f for f in sorted(SITE_DIR.rglob("*.html"))
+            if "vendor" not in f.parts
+            and not (f.parent == SITE_DIR and f.name in STUB_NAMES and f.name != "404.html")]
+
+
 def test_all_pages_have_identical_header():
-    """Every site/*.html page shares the same <header> block, modulo the
-    active class on the Methodology nav link."""
+    """Every site page shares the same <header> block, modulo the
+    active class on the nav links."""
     import re
     headers = {}
-    for f in sorted(SITE_DIR.glob("*.html")):
-        if f.name == "projections.html":
-            continue  # redirect stub: no shared header
+    for f in site_pages():
         text = f.read_text()
         m = re.search(r"<header.*?</header>", text, re.S)
         assert m, f"{f.name} has no <header>"
-        headers[f.name] = re.sub(r' class="active"', "", m.group(0))
+        headers[str(f.relative_to(SITE_DIR))] = re.sub(r' class="active"', "", m.group(0))
     unique = set(headers.values())
     assert len(unique) == 1, (
         "headers differ beyond the active class: "
@@ -101,17 +142,15 @@ def test_all_pages_have_identical_header():
 def test_methodology_dropdown_links_exist():
     """Every href inside the methodology nav menu must resolve to a real page."""
     import re
-    for f in sorted(SITE_DIR.glob("*.html")):
-        if f.name == "projections.html":
-            continue  # redirect stub: no nav
+    for f in site_pages():
         text = f.read_text()
         menu = re.search(r'<div class="nav-menu">(.*?)</div>', text, re.S)
         assert menu, f"{f.name} has no nav-menu"
-        for href in re.findall(r'href="([^"]+\.html)"', menu.group(1)):
-            assert (SITE_DIR / href).exists(), f"{f.name} links to missing {href}"
+        for href in re.findall(r'href="([^"]+)"', menu.group(1)):
+            assert resolve_path(href).is_file(), f"{f.name} links to missing {href}"
     # the two model detail pages exist; the other sections live on the overview
-    for p in ["model1", "model2"]:
-        assert (SITE_DIR / f"methodology-{p}.html").exists()
+    assert (SITE_DIR / "methodology" / "baseline" / "index.html").exists()
+    assert (SITE_DIR / "methodology" / "forecast" / "index.html").exists()
 
 
 def test_outline_has_no_nested_rings():
@@ -149,9 +188,7 @@ def test_header_forecast_chips_match_model2():
              for b in json.loads((SITE_DIR / "data" / "model2_vic2026.json").read_text())["blocs"]}
     expected = [("COA", blocs["COAL"]), ("ALP", blocs["ALP"]), ("ONP", blocs["ON"]),
                 ("GRN", blocs["GRN"]), ("IND", blocs["IND*"])]
-    for f in sorted(SITE_DIR.glob("*.html")):
-        if f.name == "projections.html":
-            continue
+    for f in site_pages():
         text = f.read_text()
         m = re.search(r"<!-- forecast-chips -->(.*?)<!-- /forecast-chips -->", text, re.S)
         assert m, f"{f.name} missing forecast-chips markers"
