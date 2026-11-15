@@ -162,10 +162,11 @@ function showDistrict(name) {
   const party = Object.fromEntries(d.candidates.map((c) => [c.id, c.party]));
   const [w1, w2] = Object.keys(d.central.final);
   document.getElementById("dpanel").innerHTML = `
-    <p><a class="back-link" id="d-back">← Victoria overview</a></p>
+    <p><a class="back-link" id="d-back">← Victoria overview</a> ·
+       <a href="/districts/${districtSlug(name)}/">District page →</a></p>
     <h4>Chance of winning</h4>
     <table><tr><th>Candidate</th><th>Party</th><th class="r">Primary</th><th class="r">Final two</th><th class="r">Win</th><th style="width:18%"></th></tr>
-      ${d.candidates.filter((c) => c.p_final_two > 0 || c.primary >= 2).map((c) => `<tr>
+      ${d.candidates.filter((c) => c.p_final_two > 0 || c.primary >= 2).sort((a, b) => Math.round(100 * b.p_win) - Math.round(100 * a.p_win) || b.primary - a.primary).map((c) => `<tr>
         <td>${esc(dispName(nameOf(d, c.id)))}${c.core ? "" : ' <span class="muted">minor</span>'}</td>
         <td><span class="swatch" style="background:${pcolour(c.party)}"></span>${esc(c.party)}</td>
         <td class="r num">${pct1(c.primary)}</td><td class="r num">${Math.round(100 * c.p_final_two)}%</td>

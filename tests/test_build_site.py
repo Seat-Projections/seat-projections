@@ -31,11 +31,6 @@ def test_internal_links_resolve():
             if target is None:
                 continue
             assert target.is_file(), f"{f.name}: {attr} does not resolve"
-    # stubs: meta refresh targets must exist
-    for name in STUB_NAMES:
-        text = (SITE_DIR / name).read_text()
-        target = re.search(r'url=([^"]+)"', text).group(1)
-        assert resolve_path(target).is_file(), f"{name} stub -> {target} missing"
 
 
 def test_baseline_2022_seat_tally():
@@ -110,16 +105,9 @@ def test_simplified_districts_share_boundaries():
 SITE_DIR = Path(__file__).resolve().parent.parent / "site"
 
 
-STUB_NAMES = {"projections.html", "methodology.html", "methodology-model1.html",
-              "methodology-model2.html", "results-2022.html"}
-
-
 def site_pages():
-    """Real site pages: every *.html under site/, excluding vendored files and
-    the top-level redirect stubs."""
-    return [f for f in sorted(SITE_DIR.rglob("*.html"))
-            if "vendor" not in f.parts
-            and not (f.parent == SITE_DIR and f.name in STUB_NAMES and f.name != "404.html")]
+    """Site pages: every *.html under site/, excluding vendored files."""
+    return [f for f in sorted(SITE_DIR.rglob("*.html")) if "vendor" not in f.parts]
 
 
 def test_all_pages_have_identical_header():
@@ -195,3 +183,77 @@ def test_header_forecast_chips_match_model2():
         got = re.findall(r"</i>([A-Z*]+) (\d+)</span>", m.group(1))
         assert got == [(k, str(v)) for k, v in expected], (f.name, got)
         assert "45 to win" in m.group(1) and "2026 forecast" in m.group(1)
+
+
+def test_district_slugs_unique_and_match_js():
+    """Python slug() must be unique across the 88 districts and identical to
+    common.js's districtSlug (district-page links depend on it)."""
+    import re
+    model2 = __import__("json").loads((SITE_DIR / "data" / "model2_vic2026.json").read_text())
+    slugs = [build_site.slug(n) for n in model2["districts"]]
+    assert len(slugs) == len(set(slugs)) == 88
+    # JS: s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "")
+    def js_slug(s):
+        return re.sub(r"^-+|-+$", "", re.sub(r"[^a-z0-9]+", "-", s.lower()))
+    for n in model2["districts"]:
+        assert build_site.slug(n) == js_slug(n), n
+        assert (SITE_DIR / "districts" / js_slug(n) / "index.html").exists(), n
+
+
+def test_jsonld_blocks_parse():
+    """Every application/ld+json script parses as JSON with @context/@type
+    (or an @graph of typed nodes)."""
+    import json, re
+    count = 0
+    for f in site_pages():
+        for block in re.findall(
+                r'<script type="application/ld\+json">(.*?)</script>', f.read_text()):
+            doc = json.loads(block)
+            assert doc.get("@context") and (doc.get("@type") or doc.get("@graph")), f.name
+            count += 1
+    assert count >= 90  # 88 breadcrumbs + home graph + dataset
+
+
+def test_sitemap_matches_canonicals():
+    """sitemap.xml lists exactly the canonical URLs of the indexable pages."""
+    import re, xml.etree.ElementTree as ET
+    canon = set()
+    for f in site_pages():
+        if f.name == "404.html":
+            continue
+        m = re.search(r'<link rel="canonical" href="([^"]+)"', f.read_text())
+        assert m, f"{f.name} has no canonical"
+        canon.add(m.group(1))
+    ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+    tree = ET.parse(SITE_DIR / "sitemap.xml")
+    urls = {loc.text for loc in tree.findall(".//s:loc", ns)}
+    assert urls == canon, urls ^ canon
+
+
+def test_pooled_names_render_cleanly():
+    """Pooled IND* candidates must render as 'Independents (pooled): Given
+    Surname, ...' — no raw 'SURNAME, Given' or ';' separators in name cells."""
+    import re
+    kew = (SITE_DIR / "districts" / "kew" / "index.html").read_text()
+    assert "Independents (pooled): Man Liang, Sophie Torney, Finlay Davis" in kew
+    for f in SITE_DIR.glob("districts/*/index.html"):
+        text = f.read_text()
+        for cell in re.findall(r"(?:<td>|<b>)([^<]+)(?:</td>|</b>)", text):
+            cell = __import__("html").unescape(cell)
+            assert ";" not in cell, (f.name, cell)
+            assert not re.search(r"[A-Z]{2,}, [A-Z]", cell), (f.name, cell)
+            # no all-caps surnames (>=3 consecutive capitals) in name text;
+            # party codes are wrapped in <span>/<td class> and don't reach <b>/<td>
+            assert not re.search(r"\b[A-Z]{4,}\b", cell), (f.name, cell)
+
+
+def test_name_casing():
+    """disp_name handles Mc / O' / hyphen surnames and leaves given names."""
+    dn = build_site.disp_name
+    assert dn("MCCURDY, Tim") == "Tim McCurdy"
+    assert dn("O'HALLORAN, Paul") == "Paul O'Halloran"
+    assert dn("NORTON-SMITH, Jane") == "Jane Norton-Smith"
+    assert dn("MACKALLAH, Chloe") == "Chloe Mackallah"  # Mac names not guessed
+    assert dn("MCRAE MCLEOD, Marley") == "Marley McRae McLeod"
+    assert dn("WILSON") == "Wilson"  # bare surname (pair headings)
+    assert dn("CUPPER, Ali") == "Ali Cupper"

@@ -42,6 +42,7 @@ const PARTY_SHORTNAME = {
 };
 const shortParty = (full) => PARTY_SHORTNAME[full] || full;
 
+const districtSlug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 const pcolour = (g) => (PARTY[g] || PARTY.OTH).colour;
 const pname = (g) => (PARTY[g] || { name: g }).name;
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));

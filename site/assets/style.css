@@ -161,6 +161,14 @@ a:hover { text-decoration: underline; }
 .seat-card .seats span { font-size: 0.8125rem; color: var(--ink-2); }
 .seat-card .note { font-size: 0.8125rem; color: var(--ink-2); }
 
+/* ---------- district pages ---------- */
+.district-body .card { padding: 1.25rem; }
+.district-body .card + .card { margin-top: 1.5rem; }
+.district-body .card > h3 { font-size: 1.125rem; font-weight: 600; margin-bottom: 0.75rem; }
+.district-body h4 { font-size: 0.9375rem; font-weight: 600; margin: 1.25rem 0 0.5rem; }
+.district-body .pair { margin: 0.75rem 0; }
+.district-body .dsvg { display: flex; justify-content: center; padding: 0.25rem 0 0.75rem; }
+
 /* ---------- majority bar ---------- */
 .majority { padding: 1.25rem; margin-bottom: 1.5rem; }
 .majority h3 { font-family: var(--sans); font-size: 1.125rem; font-weight: 600; }

@@ -60,6 +60,7 @@ function renderPanel(name) {
   el.innerHTML = `
     <p><a class="back-link" id="d-back">← All districts</a></p>
     <h2>${esc(name)}</h2>
+    <p class="muted small"><a href="/districts/${districtSlug(name)}/">District page →</a></p>
     <p><span class="tag hold" style="background:${pcolour(d.winner_group)}">${esc(d.winner_group)} hold</span>
        <span class="tag">${esc(d.region)}</span>${d.indicative_2cp ? '<span class="tag">2CP indicative</span>' : ""}</p>
     <div class="kv"><span>Elected member</span><b>${esc(dispName(d.winner))}</b></div>

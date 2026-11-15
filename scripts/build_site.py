@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import csv
 import json
+import re
 import shutil
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -509,6 +510,541 @@ def write_header_chips(blocs):
         end = text.index(close_m)
         page.write_text(text[:start] + "\n      " + body + "\n      " + text[end:])
 
+# ---------------------------------------------------------------------------
+# Static pages: SEO head blocks, headline on /, district pages, sitemap
+# ---------------------------------------------------------------------------
+
+DOMAIN = "https://seatprojections.au"
+
+GROUP_COLOUR = {  # hex case matches common.js PARTY colours exactly
+    "ALP": "#DE3533", "LP": "#1C4F9C", "NP": "#006644", "COAL": "#1C4F9C",
+    "LNP": "#1C4F9C", "GRN": "#10C25B", "ON": "#FF7300", "IND": "#00A3A6",
+    "IND*": "#00A3A6", "OTH": "#8E44AD",
+}
+GROUP_NAME = {
+    "ALP": "Labor", "LP": "Liberal", "NP": "Nationals", "COAL": "Coalition",
+    "LNP": "Coalition", "GRN": "Greens", "ON": "One Nation", "IND": "Independent",
+    "IND*": "Independent", "OTH": "Others",
+}
+# Registered VEC party names -> short display names (mirrors common.js PARTY_SHORTNAME)
+PARTY_SHORTNAME = {
+    "Australian Labor Party - Victorian Branch": "Labor",
+    "Liberal": "Liberal",
+    "The Nationals": "Nationals",
+    "Australian Greens": "Greens",
+    "Pauline Hanson's One Nation": "One Nation",
+    "Independent": "Independent",
+    "Victorian Socialists": "Victorian Socialists",
+    "Family First Victoria": "Family First",
+    "Animal Justice Party": "Animal Justice",
+    "Freedom Party of Victoria": "Freedom Party",
+    "Liberal Democrats": "Libertarian",
+    "Labour DLP": "Labour DLP",
+    "Derryn Hinch's Justice Party": "Justice Party",
+    "New Democrats": "New Democrats",
+    "Fiona Patten's Reason Party": "Reason",
+    "Shooters, Fishers & Farmers Vic": "Shooters, Fishers & Farmers",
+    "Legalise Cannabis Victoria": "Legalise Cannabis",
+    "Angry Victorians Party": "Angry Victorians",
+    "Health Australia Party": "Health Australia",
+    "Transport Matters": "Transport Matters",
+    "Companions and Pets Party": "Companions & Pets",
+}
+BLOC_ORDER = ["COAL", "ALP", "ON", "GRN", "IND*"]
+
+
+def esc(s):
+    from html import escape as _e
+    return _e(str(s if s is not None else ""), quote=True)
+
+
+def pct1(x):
+    return f"{float(x):.1f}%"
+
+
+def fmt(n):
+    return f"{int(n):,}"
+
+
+def slug(name):
+    return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+
+
+def _title_word(word):
+    """Title-case one surname word: first letter and any letter after '-' or
+    "'" upper, rest lower; 'Mc' names capitalise the following letter too
+    ('Mac' names are left alone — MacKenzie vs McKenzie can't be told apart)."""
+    out, cap_next = [], True
+    for ch in word:
+        out.append(ch.upper() if cap_next else ch.lower())
+        cap_next = ch in "-'"
+    w = "".join(out)
+    if len(w) > 2 and w[:2] == "Mc":
+        w = "Mc" + w[2].upper() + w[3:]
+    return w
+
+
+def _title_name(n):
+    return " ".join(_title_word(w) for w in n.split(" "))
+
+
+def disp_name(n):
+    if "," not in n:
+        return _title_name(n)
+    sur, given = n.split(",", 1)[0].strip(), n.split(",", 1)[1].strip()
+    return f"{given} {_title_name(sur)}" if given else _title_name(sur)
+
+
+def disp_names(n):
+    """Display form of a possibly pooled candidate name ("SURNAME, Given; ...")
+    -> comma-separated given-first names; pooled independents get a label."""
+    parts = ", ".join(disp_name(part.strip()) for part in n.split(";"))
+    return parts
+
+
+def short_party(full):
+    return PARTY_SHORTNAME.get(full, full)
+
+
+def pcolour(g):
+    return GROUP_COLOUR.get(g, GROUP_COLOUR["OTH"])
+
+
+def pname(g):
+    return GROUP_NAME.get(g, g)
+
+
+def fill_marker(text, name, body):
+    open_m, close_m = f"<!-- {name} -->", f"<!-- /{name} -->"
+    if open_m not in text:
+        return text
+    start = text.index(open_m) + len(open_m)
+    end = text.index(close_m)
+    return text[:start] + body + text[end:]
+
+
+SPECULATION = ('<script type="speculationrules">{"prerender":[{"where":{"href_matches":"/*",'
+               '"not":{"href_matches":"/data/*"}},"eagerness":"moderate"}]}</script>')
+
+
+def seo_block(title, desc, path, jsonld=None, index=True):
+    lines = [f"<title>{esc(title)}</title>",
+             f'<meta name="description" content="{esc(desc)}">']
+    if index:
+        url = DOMAIN + path
+        lines += [
+            f'<link rel="canonical" href="{url}">',
+            '<meta property="og:type" content="website">',
+            '<meta property="og:site_name" content="Seat Projections">',
+            f'<meta property="og:title" content="{esc(title)}">',
+            f'<meta property="og:description" content="{esc(desc)}">',
+            f'<meta property="og:url" content="{url}">',
+            f'<meta property="og:image" content="{DOMAIN}/assets/og-image.png">',
+            '<meta property="og:image:width" content="1200">',
+            '<meta property="og:image:height" content="630">',
+            '<meta property="og:image:alt" content="Seat Projections — 2026 Victorian seat projections">',
+            '<meta property="og:locale" content="en_AU">',
+            '<meta name="twitter:card" content="summary_large_image">',
+        ]
+    else:
+        lines.append('<meta name="robots" content="noindex">')
+    lines.append(SPECULATION)
+    if jsonld is not None:
+        lines.append(f'<script type="application/ld+json">{json.dumps(jsonld, separators=(",", ":"))}</script>')
+    return "\n".join(lines)
+
+
+def shared_chrome():
+    """Header (with active class cleared) and footer extracted from index.html."""
+    text = (SITE / "index.html").read_text()
+    header = re.search(r'<header class="site-header">.*?</header>', text, re.S).group(0)
+    header = header.replace(' class="active"', "")
+    footer = re.search(r'<footer class="site-footer">.*?</footer>', text, re.S).group(0)
+    return header, footer
+
+
+def page_head(meta):
+    title, desc, path, jsonld = meta
+    return f"""<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{seo_block(title, desc, path, jsonld)}
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+"""
+
+
+def page_tail():
+    return """
+<script src="/assets/common.js"></script>
+</body>
+</html>
+"""
+
+
+def district_svg(feature, colour):
+    """Inline SVG of one district's (already display-simplified) geometry."""
+    geoms = feature["geometry"]["coordinates"]
+    if feature["geometry"]["type"] != "MultiPolygon":
+        geoms = [geoms]
+    rings = [ring for poly in geoms for ring in poly]
+    xs = [p[0] for r in rings for p in r]
+    ys = [p[1] for r in rings for p in r]
+    minx, maxx, miny, maxy = min(xs), max(xs), min(ys), max(ys)
+    w, h = 200, 200
+    pad = 8
+    sx = (w - 2 * pad) / (maxx - minx) if maxx > minx else 1
+    sy = (h - 2 * pad) / (maxy - miny) if maxy > miny else 1
+    s = min(sx, sy)
+    ox = pad + ((w - 2 * pad) - s * (maxx - minx)) / 2
+    oy = pad + ((h - 2 * pad) - s * (maxy - miny)) / 2
+
+    def xy(p):
+        return f"{ox + (p[0] - minx) * s:.1f},{oy + (maxy - p[1]) * s:.1f}"
+
+    d = " ".join("M" + "L".join(xy(p) for p in ring) + "Z" for ring in rings)
+    return (f'<svg viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" '
+            f'aria-label="Outline of {esc(feature["properties"]["district"])} district" '
+            f'style="display:block;max-width:100%"><path d="{d}" fill="{colour}" '
+            f'fill-opacity="0.85" stroke="#fff" stroke-width="1"/></svg>')
+
+
+def pair_block(pr, cand_by_id):
+    a, b = pr["a"], pr["b"]
+    party = {cid: c["party"] for cid, c in cand_by_id.items()}
+    lo, mid, hi = pr["a_tcp"]
+
+    def short(cid):
+        return disp_names(str(cand_by_id.get(cid, {"id": cid})["id"]).split(",")[0])
+
+    return f'''
+    <div class="pair">
+      <b>{esc(short(a))}</b> <span class="muted">{esc(party.get(a, "OTH"))}</span> v
+      <b>{esc(short(b))}</b> <span class="muted">{esc(party.get(b, "OTH"))}</span>
+      <div class="muted">final two in {round(100 * pr["p"])}% of simulations</div>
+      <div class="split"><span style="width:{mid}%;background:{pcolour(party.get(a))}"></span><span style="width:{100 - mid}%;background:{pcolour(party.get(b))}"></span></div>
+      <table><tr><th></th><th>2CP median</th><th>p10&#8211;p90</th><th>Wins pairing</th></tr>
+        <tr><td>{esc(short(a))}</td><td class="num">{pct1(mid)}</td><td class="num">{pct1(lo)}&#8211;{pct1(hi)}</td><td class="num">{round(100 * pr["p_a_wins"])}%</td></tr>
+        <tr><td>{esc(short(b))}</td><td class="num">{pct1(100 - mid)}</td><td class="num">{pct1(100 - hi)}&#8211;{pct1(100 - lo)}</td><td class="num">{round(100 * (1 - pr["p_a_wins"]))}%</td></tr></table>
+    </div>'''
+
+
+def district_page(name, slug_, feature, m2d, m1d, base, run_date, header, footer):
+    fav = max(m2d["candidates"], key=lambda c: c["p_win"])
+    cand_by_id = {c["id"]: c for c in m2d["candidates"]}
+    f2 = base["final_two"]
+    tot2 = f2[0]["votes"] + f2[1]["votes"]
+
+    cands = "".join(
+        f"<tr><td>{esc(disp_names(c['id']))}{'' if c['core'] else ' <span class=muted>minor</span>'}</td>"
+        f'<td><span class="swatch" style="background:{pcolour(c["party"])}"></span>{esc(c["party"])}</td>'
+        f'<td class="r num">{pct1(c["primary"])}</td>'
+        f'<td class="r num">{round(100 * c["p_final_two"])}%</td>'
+        f'<td class="r num"><b>{round(100 * c["p_win"])}%</b></td></tr>'
+        for c in sorted(m2d["candidates"], key=lambda c: (-round(100 * c["p_win"]), -c["primary"]))
+        if c["p_final_two"] > 0 or c["primary"] >= 2 or c["p_win"] > 0)
+
+    pairs = "".join(pair_block(p, cand_by_id) for p in m2d["pairs"][:4])
+
+    b1 = "".join(
+        f'<tr><td>{esc(("Independents (pooled): " if c["party"] == "IND*" and ";" in c["name"] else "") + disp_names(c["name"]))}</td>'
+        f'<td><span class="swatch" style="background:{pcolour(c["party"])}"></span>{esc(c["party"])}</td>'
+        f'<td class="r num">{pct1(c["primary"])}</td>'
+        f'<td class="r num"><b>{round(100 * c["p_win"])}%</b></td></tr>'
+        for c in sorted(m1d["candidates"], key=lambda c: (-round(100 * c["p_win"]), -c["primary"]))
+        if c["p_win"] > 0 or c["p_final_two"] > 0 or c["primary"] >= 2)
+
+    primaries = "".join(
+        f"<tr{' class=final' if c['name'] == base['winner'] else ''}>"
+        f'<td>{esc(disp_names(c["name"]))}</td>'
+        f'<td title="{esc(c["party"])}"><span class="swatch" style="background:{pcolour(c["group"])}"></span>{esc(short_party(c["party"]))}</td>'
+        f'<td class="r num">{fmt(c["votes"])}</td><td class="r num">{pct1(100 * c["votes"] / base["formal_votes"])}</td></tr>'
+        for c in base["primary"])
+
+    region = esc(feature["properties"]["region"])
+    enc = name.replace(" ", "%20")
+
+    body = f"""
+<main class="wrap district-body">
+  <p class="muted small" style="margin:1.5rem 0 0"><a href="/districts/">Districts</a> &rsaquo; {esc(name)}</p>
+  <section class="hero" style="padding-top:0.75rem">
+    <span class="eyebrow">District &middot; {region}</span>
+    <h1>{esc(name)}</h1>
+    <p class="lede">2026 Victorian state election forecast &middot; {region}</p>
+  </section>
+
+  <div class="twocol">
+    <div>
+      <section class="card">
+        <h3>Forecast Model <span class="muted small" style="font-weight:400">&mdash; {esc(run_date)} forecast</span></h3>
+        <table class="dtable"><tr><th>Candidate</th><th>Party</th><th class="r">Primary</th><th class="r">Final two</th><th class="r">Win</th></tr>
+        {cands}</table>
+        <h4>Estimated two-candidate preferred</h4>
+        <div class="dpanel">{pairs}</div>
+        <p class="muted small">Each block is one possible final pair, with the 2CP split across the simulations where that pair was the final two.</p>
+      </section>
+
+      <section class="card">
+        <h3>Baseline Model</h3>
+        <p class="muted small">Replays the 2025 federal result at this district&rsquo;s booths, restricted to parties standing in 2026 &mdash; no polling.</p>
+        <table class="dtable"><tr><th>Candidate(s)</th><th>Party</th><th class="r">Primary</th><th class="r">Win</th></tr>
+        {b1}</table>
+      </section>
+    </div>
+
+    <div>
+      <section class="card">
+        <div class="dsvg">{district_svg(feature, pcolour(fav["party"]))}</div>
+        <div class="dpanel">
+          <div class="kv"><span>Favourite</span><b>{esc(disp_names(fav["id"]))} <span class="muted">{esc(fav["party"])}</span></b></div>
+          <div class="kv"><span>Win chance</span><b class="num">{round(100 * fav["p_win"])}%</b></div>
+          <div class="kv"><span>Region</span><b>{region}</b></div>
+          <div class="kv"><span>2022 winner</span><b>{esc(disp_names(base["winner"]))} <span class="muted">{esc(base["winner_group"])}</span></b></div>
+          <div class="kv"><span>2022 2CP margin</span><b class="num">+{base["margin_pct"]:.1f}%</b></div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h3>2022 result</h3>
+        <div class="dpanel">
+          <h4>Two-candidate preferred</h4>
+          <div class="pair">
+            <b>{esc(disp_names(f2[0]["name"]))}</b> <span class="muted" title="{esc(f2[0]["party"])}">{esc(short_party(f2[0]["party"]))}</span> v
+            <b>{esc(disp_names(f2[1]["name"]))}</b> <span class="muted" title="{esc(f2[1]["party"])}">{esc(short_party(f2[1]["party"]))}</span>
+            <div class="split"><span style="width:{100 * f2[0]["votes"] / tot2:.1f}%;background:{pcolour(f2[0]["group"])}"></span><span style="width:{100 * f2[1]["votes"] / tot2:.1f}%;background:{pcolour(f2[1]["group"])}"></span></div>
+            <table><tr><th></th><th>Votes</th><th class="r">2CP %</th></tr>
+              <tr><td>{esc(disp_names(f2[0]["name"]))}</td><td class="num">{fmt(f2[0]["votes"])}</td><td class="r num">{100 * f2[0]["votes"] / tot2:.1f}%</td></tr>
+              <tr><td>{esc(disp_names(f2[1]["name"]))}</td><td class="num">{fmt(f2[1]["votes"])}</td><td class="r num">{100 * f2[1]["votes"] / tot2:.1f}%</td></tr></table>
+          </div>
+          <h4>First preferences</h4>
+          <table class="dtable"><tr><th>Candidate</th><th>Party</th><th class="r">Votes</th><th class="r">%</th></tr>
+          {primaries}</table>
+          <p style="margin-top:0.75rem"><a href="{esc(base["source_url"])}" target="_blank" rel="noopener">VEC result &amp; distribution &#8599;</a></p>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="caveat">
+    <h3>Read before quoting</h3>
+    <ul>
+      <li><b>Intervals are overconfident.</b> On the replay benchmarks the models&rsquo; 80% 2CP ranges contained
+        the actual result only about 44% of the time &mdash; treat p10&ndash;p90 ranges as minimum uncertainty.</li>
+      <li><b>One Nation is partly estimated.</b> Its geographic pattern and preference flows are
+        placeholder/estimated values.</li>
+      <li>Full method: <a href="/methodology/">methodology &amp; open data</a>.</li>
+    </ul>
+  </div>
+
+  <p><a href="/#model2/{enc}">Explore on the interactive forecast map &rarr;</a><br>
+     <a href="/2022-results/#{enc}">See the 2022 result on the map &rarr;</a></p>
+</main>
+"""
+    title = f"{name} — 2026 Victorian Election Forecast | Seat Projections"
+    desc = (f"{disp_names(fav['id'])} ({fav['party']}) leads {name} with a "
+            f"{round(100 * fav['p_win'])}% win chance in the Forecast Model. "
+            f"2022: {disp_names(base['winner'])} ({base['winner_group']}), +{base['margin_pct']:.1f}%.")[:160]
+    jsonld = {
+        "@context": "https://schema.org", "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Districts", "item": f"{DOMAIN}/districts/"},
+            {"@type": "ListItem", "position": 2, "name": name, "item": f"{DOMAIN}/districts/{slug_}/"},
+        ],
+    }
+    return (page_head((title, desc, f"/districts/{slug_}/", jsonld))
+            + header + body + footer + page_tail())
+
+
+def districts_hub(rows, header, footer):
+    trs = "".join(
+        f'<tr><td><a href="/districts/{s}/"><b>{esc(n)}</b></a></td>'
+        f'<td class="muted col-region">{esc(region)}</td>'
+        f'<td><span class="swatch" style="background:{pcolour(wg)}"></span>{esc(wg)}</td>'
+        f'<td class="r num">+{margin:.1f}%</td>'
+        f'<td><span class="swatch" style="background:{pcolour(fp)}"></span>{esc(fn)} <span class="muted">{esc(fp)}</span></td>'
+        f'<td class="r num">{round(100 * fw)}%</td></tr>'
+        for n, s, region, wg, margin, fn, fp, fw in rows)
+    body = f"""
+<main class="wrap">
+  <section class="hero">
+    <span class="eyebrow">Districts &middot; 88 seats</span>
+    <h1>All 88 districts</h1>
+    <p class="lede">Every Victorian Legislative Assembly district: the 2022 result and the current
+      Forecast Model favourite. Click through for candidates, final pairs and first preferences.</p>
+  </section>
+  <section class="card" style="overflow-x:auto">
+    <table class="dtable"><tr><th>District</th><th class="col-region">Region</th><th>2022 winner</th><th class="r">2CP margin</th><th>2026 favourite</th><th class="r">Win chance</th></tr>
+    {trs}</table>
+  </section>
+</main>
+"""
+    title = "All 88 Districts — Victorian Election 2026 Forecast | Seat Projections"
+    desc = ("Forecasts and 2022 results for all 88 Victorian Legislative Assembly "
+            "districts — favourites, win chances, final pairs and first preferences.")[:160]
+    return (page_head((title, desc, "/districts/", None))
+            + header + body + footer + page_tail())
+
+
+def write_headline(doc):
+    """Fill the static headline markers on / with the Forecast Model's content —
+    byte-identical to what projections.js writes for model2, so no layout shift."""
+    m = doc["meta"]
+    blocs = {b["party"]: b for b in doc["blocs"]}
+    parts = {s["party"]: s for s in doc["seats"]}
+    coal_note = (f"Liberal {parts['LP']['seats_mean']:.1f} + Nationals {parts['NP']['seats_mean']:.1f}"
+                 if "LP" in parts and "NP" in parts else "")
+
+    def bloc_card(g):
+        b = blocs[g]
+        pmaj = (f"{round(100 * b['p_majority'])}% chance of a majority"
+                if b["p_majority"] > 0.005 else "&nbsp;")
+        coal = f'<div class="range">{esc(coal_note)}</div>' if g == "COAL" and coal_note else ""
+        return ('<div class="card bloc-card" style="border-top-color:' + pcolour(g) + '">\n'
+                '      <div class="party-l" style="font-size:0.6875rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;color:var(--ink-2)">' + esc(pname(g)) + '</div>\n'
+                '      <div style="display:flex;align-items:baseline;gap:0.5rem;margin:0.25rem 0"><b class="num" style="font-size:2.25rem;letter-spacing:-0.02em">' + f"{b['seats_mean']:.1f}" + '</b>\n'
+                '        <span class="range num">p10–p90: ' + f"{b['seats_p10']:g}" + '–' + f"{b['seats_p90']:g}" + '</span></div>\n'
+                '      <div class="pmaj">' + pmaj + '</div>\n'
+                '      ' + coal + '\n'
+                '    </div>')
+
+    order = [g for g in BLOC_ORDER if g in blocs]
+    cards = "".join(bloc_card(g) for g in order)
+    majbar = "".join(
+        '<div class="seg" style="width:' + repr(100 * blocs[g]["seats_mean"] / 88) + '%;background:' + pcolour(g)
+        + '" title="' + esc(pname(g)) + ' ' + f"{blocs[g]['seats_mean']:.1f}" + '"></div>'
+        for g in order)
+    majbar += ('<div class="needle" data-label="' + str(m["majority"]) + ' to govern" style="left:'
+               + repr(100 * m["majority"] / 88) + '%"></div>')
+    legend = "".join(
+        '<span><span class="swatch" style="background:' + pcolour(g) + '"></span>' + esc(pname(g))
+        + ' <b class="num">' + f"{blocs[g]['seats_mean']:.1f}" + '</b></span>' for g in order)
+
+    commit = f' · commit {m["git_commit"][:7]}' if m.get("git_commit") else ""
+    caveat = (f'<b>Run:</b> {esc(m["run_id"])}, forecast dated {esc((m.get("timestamp") or "")[:10])}'
+              + (f', commit <span class="mono">{esc(m["git_commit"][:7])}</span>' if m.get("git_commit") else "") + ".")
+
+    page = SITE / "index.html"
+    text = page.read_text()
+    for name, body in [
+        ("run-desc", esc(m["description"])),
+        ("run-meta", f'{fmt(m["runs"])} simulations · run {esc(m["run_id"])} · {(m.get("timestamp") or "")[:10]}{commit}'),
+        ("caveat-meta", caveat),
+        ("map-sub", "— Forecast Model"),
+        ("bloc-cards", cards),
+        ("majbar", majbar),
+        ("maj-legend", legend),
+    ]:
+        text = fill_marker(text, name, body)
+    page.write_text(text)
+
+
+def home_jsonld():
+    return {"@context": "https://schema.org", "@graph": [
+        {"@type": "WebSite", "name": "Seat Projections", "url": DOMAIN + "/"},
+        {"@type": "Organization", "name": "Seat Projections", "url": DOMAIN + "/",
+         "logo": f"{DOMAIN}/assets/logo.svg", "email": "hello@seatprojections.au"},
+    ]}
+
+
+def dataset_jsonld(downloads):
+    enc = {"csv": "text/csv", "json": "application/json", "geojson": "application/geo+json"}
+    return {
+        "@context": "https://schema.org", "@type": "Dataset",
+        "name": "Victorian Election 2026 — Seat Projections data",
+        "description": ("Forecast Model and Baseline Model seat probabilities for all 88 Victorian "
+                        "districts, 2022 official results, polling register and district boundaries."),
+        "url": f"{DOMAIN}/methodology/",
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "creator": {"@type": "Organization", "name": "Seat Projections", "url": DOMAIN + "/"},
+        "isAccessibleForFree": True,
+        "keywords": ["Victorian election 2026", "seat projections", "preferential voting", "IRV"],
+        "temporalCoverage": "2022/2026",
+        "spatialCoverage": {"@type": "Place", "name": "Victoria, Australia"},
+        "distribution": [
+            {"@type": "DataDownload", "name": d["file"],
+             "contentUrl": f"{DOMAIN}/data/downloads/{d['file']}",
+             "encodingFormat": enc.get(d["file"].rsplit(".", 1)[-1], "application/octet-stream")}
+            for d in downloads],
+    }
+
+
+def write_seo(downloads, blocs):
+    """Fill <!-- seo --> markers on the hand-written pages."""
+    seats = {b["party"]: round(b["seats_mean"]) for b in blocs}
+    pmaj = {b["party"]: b["p_majority"] for b in blocs}
+    home_desc = (f"Forecast Model: Coalition {seats['COAL']} seats ({round(100 * pmaj['COAL'])}% chance "
+                 f"of a majority), Labor {seats['ALP']}, One Nation {seats['ON']}, Greens {seats['GRN']} — "
+                 "preferential-count projections for all 88 districts.")
+    pages = {
+        "index.html": ("Victorian Election 2026 Forecast & Seat Projections | Seat Projections",
+                       home_desc, "/", home_jsonld()),
+        "2022-results/index.html": ("2022 Victorian Election Results by District | Seat Projections",
+                                    "Official 2022 Victorian state election results for all 88 districts: "
+                                    "elected members, two-candidate margins and first preferences.",
+                                    "/2022-results/", None),
+        "methodology/index.html": ("Methodology & Open Data | Seat Projections",
+                                   "How the seat projections are made: an exact preferential count, two "
+                                   "forecast models, benchmarks and every dataset open for download.",
+                                   "/methodology/", dataset_jsonld(downloads)),
+        "methodology/baseline/index.html": ("Baseline Model — Methodology | Seat Projections",
+                                            "The Baseline Model: 2025 federal polling-place votes replayed "
+                                            "into state districts with fitted preference flows — no polling.",
+                                            "/methodology/baseline/", None),
+        "methodology/forecast/index.html": ("Forecast Model — Methodology | Seat Projections",
+                                            "The Forecast Model: declared 2026 candidates, a polling average, "
+                                            "origin-tracked preferential counts and Monte Carlo simulation.",
+                                            "/methodology/forecast/", None),
+        "404.html": ("Page not found — Seat Projections",
+                     "The page you were looking for does not exist.", None, None),
+    }
+    for rel, (title, desc, path, jsonld) in pages.items():
+        p = SITE / rel
+        idx = rel != "404.html"
+        p.write_text(fill_marker(p.read_text(), "seo", seo_block(title, desc, path or "", jsonld, index=idx)))
+
+
+def write_district_pages(simp_features, baseline, model1_doc, model2_doc):
+    header, footer = shared_chrome()
+    feats = {f["properties"]["district"]: f for f in simp_features}
+    run_date = (model2_doc["meta"].get("timestamp") or "")[:10]
+    dist_dir = SITE / "districts"
+    rows = []
+    for name in sorted(model2_doc["districts"], key=slug):
+        s = slug(name)
+        m2d = model2_doc["districts"][name]
+        base = baseline["districts"][name]
+        fav = max(m2d["candidates"], key=lambda c: c["p_win"])
+        rows.append((name, s, feats[name]["properties"]["region"], base["winner_group"],
+                     base["margin_pct"], disp_names(fav["id"]), fav["party"], fav["p_win"]))
+        d = dist_dir / s
+        d.mkdir(parents=True, exist_ok=True)
+        (d / "index.html").write_text(
+            district_page(name, s, feats[name], m2d, model1_doc["districts"][name],
+                          base, run_date, header, footer))
+    (dist_dir / "index.html").write_text(districts_hub(rows, header, footer))
+
+
+def write_sitemap():
+    date = json.loads((DATA / "model2_vic2026.json").read_text())["meta"]["timestamp"][:10]
+    urls = ["/", "/2022-results/", "/methodology/", "/methodology/baseline/",
+            "/methodology/forecast/", "/districts/"]
+    urls += [f"/districts/{p.parent.name}/"
+             for p in sorted((SITE / "districts").rglob("index.html"))
+             if p.parent.name != "districts"]
+    body = "".join(
+        f"  <url><loc>{DOMAIN}{u}</loc><lastmod>{date}</lastmod></url>\n" for u in urls)
+    (SITE / "sitemap.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + body + "</urlset>\n")
+    (SITE / "robots.txt").write_text(
+        "User-agent: *\nAllow: /\n\nSitemap: https://seatprojections.au/sitemap.xml\n")
+
 
 def main() -> None:
     DATA.mkdir(parents=True, exist_ok=True)
@@ -551,6 +1087,8 @@ def main() -> None:
             "Model 1", "Baseline Model").replace("Model 2", "Forecast Model")
         if model == "model2":
             model2_doc = doc
+        else:
+            model1_doc = doc
         (DATA / src.name).write_text(json.dumps(doc, separators=(",", ":")))
 
     (DATA / "benchmarks.json").write_text(json.dumps(benchmarks(), separators=(",", ":")))
@@ -618,6 +1156,10 @@ def main() -> None:
     (DATA / "site.json").write_text(json.dumps(site, indent=1) + "\n")
 
     write_header_chips(model2_doc["blocs"])
+    write_headline(model2_doc)
+    write_seo(downloads, model2_doc["blocs"])
+    write_district_pages(simp_features, baseline, model1_doc, model2_doc)
+    write_sitemap()
 
     for path in sorted(DATA.rglob("*")):
         if path.is_file():
