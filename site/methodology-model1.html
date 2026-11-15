@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Model 1 baseline — Methodology — Seat Projections</title>
-<meta name="description" content="Model 1, the 'nothing changes' baseline: federal polling-place votes replayed into state districts with fitted preference flows.">
+<title>Baseline Model — Methodology — Seat Projections</title>
+<meta name="description" content="The Baseline Model ('nothing changes'): federal polling-place votes replayed into state districts with fitted preference flows.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin>
@@ -18,25 +18,28 @@
       <span><span class="brand-name">Seat Projections</span><br><span class="brand-sub">2026 Victorian Seat Projections</span></span>
     </a>
     <nav class="nav">
-      <a href="index.html">Home</a>
-      <a href="projections.html">Projections</a>
+      <a href="index.html">Projections</a>
+      <a href="results-2022.html">2022 Results</a>
       <div class="nav-item">
         <a href="methodology.html" aria-haspopup="true" class="active">Methodology</a>
         <div class="nav-menu">
-          <a href="methodology-model1.html">Model 1 baseline</a>
-          <a href="methodology-model2.html">Model 2 forecast</a>
+          <a href="methodology-model1.html">Baseline Model</a>
+          <a href="methodology-model2.html">Forecast Model</a>
         </div>
       </div>
     </nav>
     <div class="header-seats">
-      <span class="count num">88 seats</span>
+      <!-- forecast-chips -->
       <span class="chips">
-        <span class="h-label">2022 result</span>
-        <span class="chip"><i class="dot" style="background:var(--alp)"></i>ALP 56</span>
-        <span class="chip"><i class="dot" style="background:var(--lp)"></i>COA 28</span>
-        <span class="chip"><i class="dot" style="background:var(--grn)"></i>GRN 4</span>
+        <span class="h-label">2026 forecast</span>
+        <span class="chip"><i class="dot" style="background:var(--lp)"></i>COA 49</span>
+        <span class="chip"><i class="dot" style="background:var(--alp)"></i>ALP 21</span>
+        <span class="chip"><i class="dot" style="background:var(--on)"></i>ONP 9</span>
+        <span class="chip"><i class="dot" style="background:var(--grn)"></i>GRN 8</span>
+        <span class="chip"><i class="dot" style="background:var(--ind)"></i>IND 1</span>
         <span class="chip">45 to win</span>
       </span>
+      <!-- /forecast-chips -->
     </div>
   </div>
 </header>
@@ -45,8 +48,9 @@
 <p class="small" style="margin:1.5rem 0 0"><a href="methodology.html">&larr; Methodology overview</a></p>
   <section class="hero">
     <span class="eyebrow">Methodology · 02</span>
-    <h1>Model 1 — &ldquo;nothing changes&rdquo;</h1>
+    <h1>Baseline Model — &ldquo;nothing changes&rdquo;</h1>
     <p class="lede">A deliberately primitive baseline: replay the most recent federal election&rsquo;s polling-place votes inside each state district, assuming nothing changes. It exists so the real model has a floor to beat.</p>
+    <p class="small muted" style="margin-top:0.5rem">Called <span class="mono">model1</span> in the code and archived runs.</p>
   </section>
   <section class="section">
     <div class="prose" style="max-width:46rem">
@@ -102,13 +106,13 @@
       </table>
     </div>
     <p class="small muted" style="margin-top:0.5rem">Genuine forecasts from federal votes —
-      not comparable with model 2&rsquo;s B1 replays.
-      <a href="methodology-model2.html#benchmarks">Model 2 results &rarr;</a></p>
+      not comparable with the Forecast Model&rsquo;s B1 replays.
+      <a href="methodology-model2.html#benchmarks">Forecast Model results &rarr;</a></p>
   </section>
 
   <div class="section" style="display:flex;justify-content:space-between;gap:1rem">
     <span></span>
-    <a href="methodology-model2.html">Next: Model 2 forecast &rarr;</a>
+    <a href="methodology-model2.html">Next: Forecast Model &rarr;</a>
   </div>
 </main>
 
@@ -120,12 +124,13 @@
         <p>Independent, non-partisan seat projections for the 2026 Victorian state election —
           an exact preferential-count engine, open data and open code.</p>
         <p>Not affiliated with the Victorian Electoral Commission.</p>
+        <p>Contact: <a href="mailto:hello@seatprojections.au">hello@seatprojections.au</a></p>
       </div>
       <div>
         <h4>Site</h4>
         <ul>
-          <li><a href="index.html">2022 baseline</a></li>
-          <li><a href="projections.html">2026 projections</a></li>
+          <li><a href="index.html">2026 projections</a></li>
+          <li><a href="results-2022.html">2022 results</a></li>
           <li><a href="methodology.html">Methodology &amp; datasets</a></li>
           <li><a href="methodology.html#data">Open data</a></li>
           <li><a href="#" data-repo="">Source code</a></li>

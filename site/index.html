@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>2022 Victorian State Election Baseline — Seat Projections</title>
-<meta name="description" content="The 2022 Victorian state election baseline: all 88 Legislative Assembly districts, elected members, two-candidate-preferred margins and first-preference shares.">
+<title>2026 Victorian Seat Projections — Seat Projections</title>
+<meta name="description" content="2026 Victorian state election seat projections: per-district win chances, final pairs, stage-by-stage counts and statewide seat distributions.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin>
@@ -19,118 +19,84 @@
       <span><span class="brand-name">Seat Projections</span><br><span class="brand-sub">2026 Victorian Seat Projections</span></span>
     </a>
     <nav class="nav">
-      <a href="index.html" class="active">Home</a>
-      <a href="projections.html">Projections</a>
+      <a href="index.html" class="active">Projections</a>
+      <a href="results-2022.html">2022 Results</a>
       <div class="nav-item">
         <a href="methodology.html" aria-haspopup="true">Methodology</a>
         <div class="nav-menu">
-          <a href="methodology-model1.html">Model 1 baseline</a>
-          <a href="methodology-model2.html">Model 2 forecast</a>
+          <a href="methodology-model1.html">Baseline Model</a>
+          <a href="methodology-model2.html">Forecast Model</a>
         </div>
       </div>
     </nav>
     <div class="header-seats">
-      <span class="count num">88 seats</span>
+      <!-- forecast-chips -->
       <span class="chips">
-        <span class="h-label">2022 result</span>
-        <span class="chip"><i class="dot" style="background:var(--alp)"></i>ALP 56</span>
-        <span class="chip"><i class="dot" style="background:var(--lp)"></i>COA 28</span>
-        <span class="chip"><i class="dot" style="background:var(--grn)"></i>GRN 4</span>
+        <span class="h-label">2026 forecast</span>
+        <span class="chip"><i class="dot" style="background:var(--lp)"></i>COA 49</span>
+        <span class="chip"><i class="dot" style="background:var(--alp)"></i>ALP 21</span>
+        <span class="chip"><i class="dot" style="background:var(--on)"></i>ONP 9</span>
+        <span class="chip"><i class="dot" style="background:var(--grn)"></i>GRN 8</span>
+        <span class="chip"><i class="dot" style="background:var(--ind)"></i>IND 1</span>
         <span class="chip">45 to win</span>
       </span>
+      <!-- /forecast-chips -->
     </div>
   </div>
 </header>
 
 <main class="wrap">
   <section class="hero">
-    <span class="eyebrow">Official 2022 results · 59th Parliament</span>
-    <h1>2022 Victorian State Election Baseline</h1>
-    <p class="lede">All 88 Legislative Assembly districts on the 2021 redivision boundaries, from the Victorian
-      Electoral Commission&rsquo;s official distributions of preferences — including the Narracan supplementary
-      election. These are the seats the 2026 forecast is measured against.</p>
-    <div class="hero-stats">
-      <div><div class="stat-v num">88</div><div class="stat-l">Districts</div></div>
-      <div><div class="stat-v num">45</div><div class="stat-l">Needed to govern</div></div>
-      <div><div class="stat-v num" id="turnout">–</div><div class="stat-l">Enrolment turnout</div></div>
-      <div><div class="stat-v num" id="formal">–</div><div class="stat-l">Formal votes</div></div>
+    <span class="eyebrow">Forecast · election day Saturday 28 November 2026</span>
+    <h1>2026 Victorian Seat Projections</h1>
+    <p class="lede" id="run-desc">Loading the forecast…</p>
+    <div class="model-toggle" role="tablist">
+      <button id="btn-model2" class="on">Forecast Model — polls &amp; candidates</button>
+      <button id="btn-model1">Baseline Model — federal replay</button>
     </div>
+    <p class="muted small" id="run-meta" style="margin-top:0.5rem"></p>
   </section>
 
-  <section class="seat-cards" id="seat-cards"></section>
+  <span class="eyebrow" id="forecast-eyebrow" style="margin-top:1.5rem;display:inline-flex">2026 forecast — simulated seats</span>
+  <section class="bloc-cards" id="bloc-cards" style="margin-top:0.75rem"></section>
 
   <section class="card majority">
-    <h3>Victorian Legislative Assembly majority balance</h3>
-    <p class="muted small" style="margin:0.25rem 0 0">Seats won at the 2022 election. 45 seats needed for a majority.</p>
+    <h3>Projected majority balance <span class="muted small" style="font-weight:400">(mean seats)</span></h3>
     <div class="majbar" id="majbar"></div>
     <div class="majbar-scale"><span>0 seats</span><span>88 seats</span></div>
     <div class="maj-legend" id="maj-legend" style="margin-top:0.75rem"></div>
   </section>
 
-  <div class="map-grid">
-    <div class="card map-card">
-      <h3>District map</h3>
-      <p class="muted small" style="margin:0.25rem 0 0">Shaded by the 2022 winning party — darker means a safer seat. Click a district to inspect it.</p>
-      <div class="chips-row" id="region-chips"></div>
-      <div id="map"></div>
-      <div class="map-legend" id="map-legend"></div>
-      <div class="map-src">Boundaries: Electoral Boundaries Commission (Victoria), 2021 redivision · Results: Victorian Electoral Commission</div>
-    </div>
-    <aside class="card panel-card">
-      <h3>View district</h3>
-      <input class="search" id="search" list="district-list" placeholder="Search a district: Ripon, Hawthorn, Bass…" autocomplete="off">
-      <datalist id="district-list"></datalist>
-      <div class="dpanel" id="dpanel" style="margin-top:0.75rem">
-        <p class="muted small">Pick a district on the map or search above.</p>
-      </div>
-    </aside>
+  <div class="caveat">
+    <h3>Read before quoting</h3>
+    <ul>
+      <li><b>Intervals are overconfident.</b> On the replay benchmarks, the models&rsquo; 80% 2CP ranges
+        contained the actual result only about 44% of the time — treat p10–p90 ranges as minimum
+        uncertainty, and small probability differences as noise.</li>
+      <li><b>One Nation is partly estimated.</b> Its geographic pattern and preference flows are
+        placeholder/estimated values; registered how-to-vote cards are not yet used.</li>
+      <li><b>Two different questions.</b> The Forecast Model projects the declared 2026 candidates on the
+        polling average; the Baseline Model answers &ldquo;what if the 2025 federal result were replayed with no
+        swing&rdquo; and uses no polling at all.</li>
+      <li id="caveat-meta"><b>Run:</b> —</li>
+    </ul>
   </div>
 
-  <section class="section" id="pendulum">
-    <div class="section-head">
-      <div>
-        <span class="eyebrow">The pendulum</span>
-        <h2 style="margin-top:0.25rem">Every seat by 2022 margin</h2>
-        <p class="muted small" style="margin:0.25rem 0 0">Two-candidate-preferred margin: the winner&rsquo;s share of the final two-candidate count minus 50%.</p>
-      </div>
-      <button class="expand-btn" id="pendulum-toggle">Show all 88</button>
+  <div class="map-grid">
+    <div class="card map-card">
+      <h3>Favourite by district <span class="muted small" style="font-weight:400" id="map-sub"></span></h3>
+      <div class="chips-row" id="region-chips"></div>
+      <div id="pmap"></div>
+      <div class="map-legend" id="map-legend"></div>
+      <div class="map-src">Boundaries: Electoral Boundaries Commission (Victoria), 2021 redivision</div>
     </div>
-    <div class="card" style="overflow-x:auto">
-      <table class="dtable" id="pendulum-table">
-        <thead><tr><th>District</th><th>2022 winner</th><th class="r">Margin</th><th>Runner-up</th><th class="col-region">Region</th></tr></thead>
-        <tbody></tbody>
-      </table>
-    </div>
-  </section>
-
-  <section class="twocol">
-    <div>
-      <span class="eyebrow">Baseline reading</span>
-      <h2 style="font-family:var(--serif);font-size:1.625rem;font-weight:600;letter-spacing:-0.01em;margin:0.25rem 0 1rem">What the 2022 result tells us going into 2026</h2>
-      <div class="prose">
-        <p>Labor holds 56 of 88 seats on 36.7% of the statewide first-preference vote — a second
-          successive term won on 2CP margins rather than primaries. The Coalition holds 28
-          (19 Liberal, 9 Nationals) on a combined 34.5% primary, and the Greens hold four
-          inner-Melbourne seats on 11.5%.</p>
-        <p>The closest seats in 2022 were Northcote (0.2%), Bass (0.2%) and Pakenham (0.4%). Twelve
-          seats were decided by under 5% on the final two-candidate count — the belt where the 2026
-          election is most likely to be decided. No independents were elected, despite 5.6% of the
-          statewide first-preference vote.</p>
-        <p>One Nation polled just 0.3% of the Lower House primary in 2022; any 2026 presence of the
-          kind the federal results suggest is therefore mostly invisible in this baseline — the
-          reason the forecast models it from federal booth patterns rather than these results.</p>
-      </div>
-    </div>
-    <div class="cta">
-      <span class="eyebrow" style="color:#bec6e0">Forecast</span>
-      <h3>See the 2026 seat projections</h3>
-      <p>Two open models: a core-candidate Monte Carlo on the declared candidates and current polls,
-        and a &ldquo;nothing changes&rdquo; replay of the 2025 federal booths. Win chances, final
-        pairs and the count stage by stage for every district.</p>
-      <a class="btn" href="projections.html">Go to the projections →</a>
-      <p class="small">5,000-simulation run · declared 2026 candidates</p>
-    </div>
-  </section>
+    <aside class="card panel-card">
+      <h3 id="panel-title">Victoria overview</h3>
+      <input class="search" id="search" list="district-list" placeholder="Search a district…" autocomplete="off">
+      <datalist id="district-list"></datalist>
+      <div class="dpanel" id="dpanel" style="margin-top:0.75rem"></div>
+    </aside>
+  </div>
 </main>
 
 <footer class="site-footer">
@@ -141,12 +107,13 @@
         <p>Independent, non-partisan seat projections for the 2026 Victorian state election —
           an exact preferential-count engine, open data and open code.</p>
         <p>Not affiliated with the Victorian Electoral Commission.</p>
+        <p>Contact: <a href="mailto:hello@seatprojections.au">hello@seatprojections.au</a></p>
       </div>
       <div>
         <h4>Site</h4>
         <ul>
-          <li><a href="index.html">2022 baseline</a></li>
-          <li><a href="projections.html">2026 projections</a></li>
+          <li><a href="index.html">2026 projections</a></li>
+          <li><a href="results-2022.html">2022 results</a></li>
           <li><a href="methodology.html">Methodology &amp; datasets</a></li>
           <li><a href="methodology.html#data">Open data</a></li>
           <li><a href="#" data-repo="">Source code</a></li>
@@ -172,6 +139,6 @@
 
 <script src="vendor/leaflet/leaflet.js"></script>
 <script src="assets/common.js"></script>
-<script src="assets/index.js"></script>
+<script src="assets/projections.js"></script>
 </body>
 </html>

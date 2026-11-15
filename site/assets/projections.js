@@ -1,7 +1,7 @@
 "use strict";
 /* projections.html — 2026 forecast: bloc headline, favourite-party map, per-district panel. */
 
-const MODEL_TITLE = { model1: "Model 1", model2: "Model 2" };
+const MODEL_TITLE = { model1: "Baseline Model", model2: "Forecast Model" };
 const BLOC_ORDER = ["COAL", "ALP", "ON", "GRN", "IND*"];
 
 let view = "model2";
@@ -100,7 +100,7 @@ function overview() {
     .sort((a, b) => a[1].p_win - b[1].p_win);
   document.getElementById("panel-title").textContent = "Victoria overview";
   document.getElementById("dpanel").innerHTML = `
-    ${m.polls ? `<h4>Polling average used (model 2)</h4>
+    ${m.polls ? `<h4>Polling average used (forecast model)</h4>
       <table><tr><th>Party</th><th class="r">Primary</th></tr>
       ${Object.entries(m.polls).map(([k, v]) => `<tr><td><span class="swatch" style="background:${pcolour(k)}"></span>${esc({ LNP: "Coalition", OTH: "Others" }[k] || pname(k))}</td><td class="r num">${pct1(v)}</td></tr>`).join("")}</table>
       <p class="muted small">Each pollster&rsquo;s latest eligible poll within 35 days of the newest: ${esc((m.polls_used || []).join("; "))}. Source: electiontracker.au.</p>` : ""}

@@ -18,25 +18,28 @@
       <span><span class="brand-name">Seat Projections</span><br><span class="brand-sub">2026 Victorian Seat Projections</span></span>
     </a>
     <nav class="nav">
-      <a href="index.html">Home</a>
-      <a href="projections.html">Projections</a>
+      <a href="index.html">Projections</a>
+      <a href="results-2022.html">2022 Results</a>
       <div class="nav-item">
         <a href="methodology.html" aria-haspopup="true" class="active">Methodology</a>
         <div class="nav-menu">
-          <a href="methodology-model1.html">Model 1 baseline</a>
-          <a href="methodology-model2.html">Model 2 forecast</a>
+          <a href="methodology-model1.html">Baseline Model</a>
+          <a href="methodology-model2.html">Forecast Model</a>
         </div>
       </div>
     </nav>
     <div class="header-seats">
-      <span class="count num">88 seats</span>
+      <!-- forecast-chips -->
       <span class="chips">
-        <span class="h-label">2022 result</span>
-        <span class="chip"><i class="dot" style="background:var(--alp)"></i>ALP 56</span>
-        <span class="chip"><i class="dot" style="background:var(--lp)"></i>COA 28</span>
-        <span class="chip"><i class="dot" style="background:var(--grn)"></i>GRN 4</span>
+        <span class="h-label">2026 forecast</span>
+        <span class="chip"><i class="dot" style="background:var(--lp)"></i>COA 49</span>
+        <span class="chip"><i class="dot" style="background:var(--alp)"></i>ALP 21</span>
+        <span class="chip"><i class="dot" style="background:var(--on)"></i>ONP 9</span>
+        <span class="chip"><i class="dot" style="background:var(--grn)"></i>GRN 8</span>
+        <span class="chip"><i class="dot" style="background:var(--ind)"></i>IND 1</span>
         <span class="chip">45 to win</span>
       </span>
+      <!-- /forecast-chips -->
     </div>
   </div>
 </header>
@@ -145,7 +148,7 @@
     <h2 style="font-family:var(--serif);font-size:1.625rem;font-weight:600;letter-spacing:-0.01em;margin:0.25rem 0 1rem">Two different questions</h2>
     <div class="twocol" style="margin:0">
       <div class="card card-pad">
-        <h3 style="font-family:var(--sans);font-size:1.125rem">Model 1 — &ldquo;nothing changes&rdquo; baseline</h3>
+        <h3 style="font-family:var(--sans);font-size:1.125rem">Baseline Model — &ldquo;nothing changes&rdquo;</h3>
         <p class="small" style="margin:0.5rem 0">Every polling place&rsquo;s votes from the most recent
           federal election are put into the state district it sits in, and each district&rsquo;s
           preferential count is replayed assuming nothing changes — a deliberately primitive floor
@@ -153,7 +156,7 @@
         <p class="small" style="margin:0.75rem 0 0"><a href="methodology-model1.html">Read the methodology &rarr;</a></p>
       </div>
       <div class="card card-pad">
-        <h3 style="font-family:var(--sans);font-size:1.125rem">Model 2 — core-candidate heuristic</h3>
+        <h3 style="font-family:var(--sans);font-size:1.125rem">Forecast Model — core-candidate heuristic</h3>
         <p class="small" style="margin:0.5rem 0">Declared 2026 candidates are split into core and
           minor; minor votes flow to the core and the core contest is resolved by origin tracking
           over whichever exclusion order occurs, against the 2026 polling average.</p>
@@ -176,9 +179,9 @@
     <div class="twocol" style="margin:0">
       <div class="card card-pad">
         <h3 style="font-family:var(--sans);font-size:1.125rem">B1 replays vs forecasts</h3>
-        <p class="small" style="margin:0.5rem 0">Model 2 rows are <b>B1 replays</b>: the model is
+        <p class="small" style="margin:0.5rem 0">Forecast Model rows are <b>B1 replays</b>: the model is
           given each election&rsquo;s actual primaries and flows fitted without the scored
-          district, isolating the preference model and count. Model 1 rows are genuine forecasts
+          district, isolating the preference model and count. Baseline Model rows are genuine forecasts
           from federal votes — the two are not comparable.</p>
       </div>
       <div class="card card-pad">
@@ -196,8 +199,8 @@
 
   <section class="section">
     <p class="small" style="margin:0">Scores for every run, on each model&rsquo;s page:
-      <a href="methodology-model1.html#benchmarks">Model 1 results &rarr;</a> &middot;
-      <a href="methodology-model2.html#benchmarks">Model 2 results &rarr;</a></p>
+      <a href="methodology-model1.html#benchmarks">Baseline Model results &rarr;</a> &middot;
+      <a href="methodology-model2.html#benchmarks">Forecast Model results &rarr;</a></p>
   </section>
   </div>
 
@@ -244,7 +247,8 @@
           party affiliation and no advertising; every number on this site is produced by open code
           from published electoral data, so any result can be recomputed and challenged.</p>
         <p>Corrections and methodology questions are welcome via the repository&rsquo;s
-          <a href="#" data-repo="/issues">issue tracker</a>.</p>
+          <a href="#" data-repo="/issues">issue tracker</a> or email
+          <a href="mailto:hello@seatprojections.au">hello@seatprojections.au</a>.</p>
       </div>
       <h4 style="font-size:0.6875rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;color:var(--ink-2);margin:1.5rem 0 0.5rem">Recommended citation</h4>
       <div class="cite">Seat Projections (2026). <i>2026 Victorian state election seat projections.</i> https://seatprojections.au</div>
@@ -275,12 +279,13 @@
         <p>Independent, non-partisan seat projections for the 2026 Victorian state election —
           an exact preferential-count engine, open data and open code.</p>
         <p>Not affiliated with the Victorian Electoral Commission.</p>
+        <p>Contact: <a href="mailto:hello@seatprojections.au">hello@seatprojections.au</a></p>
       </div>
       <div>
         <h4>Site</h4>
         <ul>
-          <li><a href="index.html">2022 baseline</a></li>
-          <li><a href="projections.html">2026 projections</a></li>
+          <li><a href="index.html">2026 projections</a></li>
+          <li><a href="results-2022.html">2022 results</a></li>
           <li><a href="methodology.html">Methodology &amp; datasets</a></li>
           <li><a href="methodology.html#data">Open data</a></li>
           <li><a href="#" data-repo="">Source code</a></li>

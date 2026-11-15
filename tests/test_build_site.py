@@ -85,6 +85,8 @@ def test_all_pages_have_identical_header():
     import re
     headers = {}
     for f in sorted(SITE_DIR.glob("*.html")):
+        if f.name == "projections.html":
+            continue  # redirect stub: no shared header
         text = f.read_text()
         m = re.search(r"<header.*?</header>", text, re.S)
         assert m, f"{f.name} has no <header>"
@@ -100,6 +102,8 @@ def test_methodology_dropdown_links_exist():
     """Every href inside the methodology nav menu must resolve to a real page."""
     import re
     for f in sorted(SITE_DIR.glob("*.html")):
+        if f.name == "projections.html":
+            continue  # redirect stub: no nav
         text = f.read_text()
         menu = re.search(r'<div class="nav-menu">(.*?)</div>', text, re.S)
         assert menu, f"{f.name} has no nav-menu"
@@ -136,3 +140,21 @@ def test_outline_has_no_nested_rings():
         for j, other in enumerate(outline):
             if i != j:
                 assert not inside(cx, cy, other), f"outline ring {i} is inside ring {j}"
+
+
+def test_header_forecast_chips_match_model2():
+    """Every page's forecast chips equal the rounded model2 bloc seat means."""
+    import json, re
+    blocs = {b["party"]: round(b["seats_mean"])
+             for b in json.loads((SITE_DIR / "data" / "model2_vic2026.json").read_text())["blocs"]}
+    expected = [("COA", blocs["COAL"]), ("ALP", blocs["ALP"]), ("ONP", blocs["ON"]),
+                ("GRN", blocs["GRN"]), ("IND", blocs["IND*"])]
+    for f in sorted(SITE_DIR.glob("*.html")):
+        if f.name == "projections.html":
+            continue
+        text = f.read_text()
+        m = re.search(r"<!-- forecast-chips -->(.*?)<!-- /forecast-chips -->", text, re.S)
+        assert m, f"{f.name} missing forecast-chips markers"
+        got = re.findall(r"</i>([A-Z*]+) (\d+)</span>", m.group(1))
+        assert got == [(k, str(v)) for k, v in expected], (f.name, got)
+        assert "45 to win" in m.group(1) and "2026 forecast" in m.group(1)

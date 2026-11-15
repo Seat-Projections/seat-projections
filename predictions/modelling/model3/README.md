@@ -28,7 +28,7 @@ Model 3 therefore:
 AEC booths ──geometry──▶ district primaries ──rescale to polls──▶ 2026 primaries ─┐
 AEC booth DOPs + Senate ballots ──────────────▶ party preference orders ──────────┤
 2026 candidate list + independent priors ─────────────────────────────────────────┤
-                                                                                   ▼
+                                                                                  ▼
                                    run_irv_from_ballots × N draws ──▶ seat probabilities
 ```
 

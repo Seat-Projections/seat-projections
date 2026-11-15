@@ -78,11 +78,12 @@ a:hover { text-decoration: underline; }
   display: flex; align-items: center; gap: 1rem;
   min-height: 4rem;
 }
-.brand { display: flex; align-items: center; gap: 0.625rem; color: var(--ink); }
+.brand { display: flex; align-items: center; gap: 0.625rem; color: var(--ink); flex-shrink: 0; }
 .brand img { height: 2rem; width: auto; }
 .brand .brand-name { font-family: var(--serif); font-weight: 600; font-size: 1.0625rem; letter-spacing: -0.01em; white-space: nowrap; }
-.brand .brand-sub { font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-2); }
+.brand .brand-sub { font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-2); white-space: nowrap; }
 .nav { display: flex; gap: 0.25rem; margin-left: 1rem; }
+.nav a { white-space: nowrap; }
 .nav a {
   padding: 0.375rem 0.75rem; border-radius: var(--r-sm);
   font-size: 0.875rem; font-weight: 500; color: var(--ink-2);
@@ -103,8 +104,8 @@ a:hover { text-decoration: underline; }
 @media (max-width: 768px) {
   .nav-menu { display: none; }
 }
-.header-seats { margin-left: auto; display: flex; align-items: center; gap: 0.75rem; font-size: 0.75rem; }
-.header-seats .count { font-weight: 700; }
+.header-seats { flex-shrink: 0; margin-left: auto; display: flex; align-items: center; gap: 0.75rem; font-size: 0.75rem; }
+.header-seats .count { font-weight: 700; white-space: nowrap; }
 .header-seats .chips { display: flex; align-items: center; gap: 0.375rem; }
 .header-seats .h-label {
   font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.05em;
@@ -328,12 +329,18 @@ a:hover { text-decoration: underline; }
   .map-grid { grid-template-columns: 1fr; }
   .panel-card { position: static; max-height: none; }
 }
+@media (max-width: 1242px) {
+  /* The 2026 forecast chips are wide; hide the block before the header
+     would overflow. */
+  .header-seats { display: none; }
+}
 @media (max-width: 767px) {
   .wrap { padding: 0 1rem; }
   /* Header: brand row, then a scrollable nav row; the seat counter is desktop-only. */
   .site-header .wrap { flex-wrap: wrap; row-gap: 0.25rem; padding-top: 0.5rem; padding-bottom: 0.5rem; min-height: 0; }
   .header-seats { display: none; }
-  .brand { min-width: 0; }
+  .brand { flex-shrink: 0; }
+.brand-x { min-width: 0; }
   .brand .brand-name { font-size: 0.9375rem; }
   .brand .brand-sub { display: none; }
   .nav { order: 3; flex-basis: 100%; margin-left: 0; overflow-x: auto; }

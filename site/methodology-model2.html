@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Model 2 forecast — Methodology — Seat Projections</title>
-<meta name="description" content="Model 2, the 2026 forecast: core/minor candidate split, origin tracking, noise terms, One Nation pattern, independents and the polling average.">
+<title>Forecast Model — Methodology — Seat Projections</title>
+<meta name="description" content="The Forecast Model, the 2026 projection: core/minor candidate split, origin tracking, noise terms, One Nation pattern, independents and the polling average.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin>
@@ -18,25 +18,28 @@
       <span><span class="brand-name">Seat Projections</span><br><span class="brand-sub">2026 Victorian Seat Projections</span></span>
     </a>
     <nav class="nav">
-      <a href="index.html">Home</a>
-      <a href="projections.html">Projections</a>
+      <a href="index.html">Projections</a>
+      <a href="results-2022.html">2022 Results</a>
       <div class="nav-item">
         <a href="methodology.html" aria-haspopup="true" class="active">Methodology</a>
         <div class="nav-menu">
-          <a href="methodology-model1.html">Model 1 baseline</a>
-          <a href="methodology-model2.html">Model 2 forecast</a>
+          <a href="methodology-model1.html">Baseline Model</a>
+          <a href="methodology-model2.html">Forecast Model</a>
         </div>
       </div>
     </nav>
     <div class="header-seats">
-      <span class="count num">88 seats</span>
+      <!-- forecast-chips -->
       <span class="chips">
-        <span class="h-label">2022 result</span>
-        <span class="chip"><i class="dot" style="background:var(--alp)"></i>ALP 56</span>
-        <span class="chip"><i class="dot" style="background:var(--lp)"></i>COA 28</span>
-        <span class="chip"><i class="dot" style="background:var(--grn)"></i>GRN 4</span>
+        <span class="h-label">2026 forecast</span>
+        <span class="chip"><i class="dot" style="background:var(--lp)"></i>COA 49</span>
+        <span class="chip"><i class="dot" style="background:var(--alp)"></i>ALP 21</span>
+        <span class="chip"><i class="dot" style="background:var(--on)"></i>ONP 9</span>
+        <span class="chip"><i class="dot" style="background:var(--grn)"></i>GRN 8</span>
+        <span class="chip"><i class="dot" style="background:var(--ind)"></i>IND 1</span>
         <span class="chip">45 to win</span>
       </span>
+      <!-- /forecast-chips -->
     </div>
   </div>
 </header>
@@ -45,18 +48,19 @@
 <p class="small" style="margin:1.5rem 0 0"><a href="methodology.html">&larr; Methodology overview</a></p>
   <section class="hero">
     <span class="eyebrow">Methodology · 03</span>
-    <h1>Model 2 — core-candidate heuristic</h1>
-    <p class="lede">The 2026 forecast model. A preferential count only has a few decisions that change the winner — model 2 resolves those decisions explicitly, thousands of times.</p>
+    <h1>Forecast Model — core-candidate heuristic</h1>
+    <p class="lede">The 2026 projection. A preferential count only has a few decisions that change the winner — the Forecast Model resolves those decisions explicitly, thousands of times.</p>
+    <p class="small muted" style="margin-top:0.5rem">Called <span class="mono">model2</span> in the code and archived runs.</p>
   </section>
   <section class="section">
     <div class="prose" style="max-width:46rem">
-      <p>Model 2 splits each seat&rsquo;s declared 2026 candidates into <b>core</b> — the top
+      <p>The Forecast Model splits each seat&rsquo;s declared 2026 candidates into <b>core</b> — the top
         four of the pre-preference totals in at least 5% of runs, plus credible independents —
         and <b>minor</b>. Every minor vote is sent straight to the core along per-party flow
         vectors, then the core contest is resolved explicitly for whichever exclusion order
         occurs.</p>
     </div>
-    <h3 style="font-family:var(--sans);font-size:1.125rem;margin-top:1.5rem">Model 2 specification</h3>
+    <h3 style="font-family:var(--sans);font-size:1.125rem;margin-top:1.5rem">Forecast model specification</h3>
     <div class="formula">primary[seat, party] = baseline_2022[seat, party]
                   + statewide_swing[party]          (one draw per run, shared by all seats)
                   + regional_deviation[region, party]
@@ -72,7 +76,7 @@ core stage: exclude the lowest core candidate; their pile splits between the
       spread from historical polling error; regional deviation captures uneven swings; seat noise
       covers candidate effects and retirements and is much wider for credible independents.
       All noise widths are placeholder values — see the caveat on the
-      <a href="projections.html">projections page</a>.</p>
+      <a href="index.html">projections page</a>.</p>
   </section>
 
   <section class="section">
@@ -90,7 +94,7 @@ core stage: exclude the lowest core candidate; their pile splits between the
       <div class="card card-pad">
         <h3 style="font-family:var(--sans);font-size:1.125rem">One Nation &amp; independents</h3>
         <p class="small" style="margin:0.5rem 0">One Nation barely contested the 2022 Lower House
-          (8,077 votes statewide), so its 2026 geographic pattern comes from model 1&rsquo;s
+          (8,077 votes statewide), so its 2026 geographic pattern comes from the Baseline Model&rsquo;s
           federal-booth replay rather than the state baseline. Independents are core only when
           flagged credible — high-profile, recontesting, or strong in 2022 — and carry much
           wider seat noise.</p>
@@ -102,7 +106,7 @@ core stage: exclude the lowest core candidate; their pile splits between the
     <span class="eyebrow">Polling</span>
     <h2 style="font-family:var(--serif);font-size:1.625rem;font-weight:600;letter-spacing:-0.01em;margin:0.25rem 0 1rem">How the polling average is built</h2>
     <div class="prose" style="max-width:46rem">
-      <p>Model 2 uses a deliberately simple average: each pollster&rsquo;s latest eligible poll
+      <p>The Forecast Model uses a deliberately simple average: each pollster&rsquo;s latest eligible poll
         within 35 days of the newest poll in the register, equally weighted. There is no
         house-effect adjustment, no exponential decay and no sample-size weighting. The register
         is maintained from <a href="https://electiontracker.au">electiontracker.au</a>.</p>
@@ -119,14 +123,14 @@ core stage: exclude the lowest core candidate; their pile splits between the
       </table>
     </div>
     <p class="small muted" style="margin-top:0.5rem">B1 replays give the model each
-      election&rsquo;s actual primaries — not comparable with model 1&rsquo;s genuine forecasts.
+      election&rsquo;s actual primaries — not comparable with the Baseline Model&rsquo;s genuine forecasts.
       Baseline &ldquo;primary leader wins&rdquo; scores 549/579 with Brier 0.104 on the same
-      seats; model 2 scores 566/579 and 0.038.
-      <a href="methodology-model1.html#benchmarks">Model 1 results &rarr;</a></p>
+      seats; the Forecast Model scores 566/579 and 0.038.
+      <a href="methodology-model1.html#benchmarks">Baseline Model results &rarr;</a></p>
   </section>
 
   <div class="section" style="display:flex;justify-content:space-between;gap:1rem">
-    <a href="methodology-model1.html">&larr; Previous: Model 1 baseline</a>
+    <a href="methodology-model1.html">&larr; Previous: Baseline Model</a>
     <span></span>
   </div>
 </main>
@@ -139,12 +143,13 @@ core stage: exclude the lowest core candidate; their pile splits between the
         <p>Independent, non-partisan seat projections for the 2026 Victorian state election —
           an exact preferential-count engine, open data and open code.</p>
         <p>Not affiliated with the Victorian Electoral Commission.</p>
+        <p>Contact: <a href="mailto:hello@seatprojections.au">hello@seatprojections.au</a></p>
       </div>
       <div>
         <h4>Site</h4>
         <ul>
-          <li><a href="index.html">2022 baseline</a></li>
-          <li><a href="projections.html">2026 projections</a></li>
+          <li><a href="index.html">2026 projections</a></li>
+          <li><a href="results-2022.html">2022 results</a></li>
           <li><a href="methodology.html">Methodology &amp; datasets</a></li>
           <li><a href="methodology.html#data">Open data</a></li>
           <li><a href="#" data-repo="">Source code</a></li>

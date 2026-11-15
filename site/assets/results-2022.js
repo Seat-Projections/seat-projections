@@ -1,5 +1,5 @@
 "use strict";
-/* index.html — 2022 baseline: seat tally, majority bar, district map, inspect panel, pendulum. */
+/* results-2022.html — 2022 results: seat tally, majority bar, district map, inspect panel, pendulum. */
 
 let BASELINE = null;
 let selected = null;

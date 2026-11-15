@@ -473,6 +473,41 @@ def benchmarks() -> dict:
     }
 
 
+# Header forecast chips: static HTML written between <!-- forecast-chips -->
+# markers in every page's header, regenerated from model2's bloc seat means so
+# a new forecast updates the header on the next build.
+CHIP_BLOCS = [("COAL", "COA", "var(--lp)"), ("ALP", "ALP", "var(--alp)"),
+              ("ON", "ONP", "var(--on)"), ("GRN", "GRN", "var(--grn)"),
+              ("IND*", "IND", "var(--ind)")]
+
+
+def forecast_chips_html(blocs):
+    seats = {b["party"]: round(b["seats_mean"]) for b in blocs}
+    chips = "\n".join(
+        f'        <span class="chip"><i class="dot" style="background:{colour}"></i>{label} {seats[key]}</span>'
+        for key, label, colour in CHIP_BLOCS
+    )
+    return (
+        '<span class="chips">\n'
+        '        <span class="h-label">2026 forecast</span>\n'
+        f"{chips}\n"
+        '        <span class="chip">45 to win</span>\n'
+        "      </span>"
+    )
+
+
+def write_header_chips(blocs):
+    body = forecast_chips_html(blocs)
+    open_m, close_m = "<!-- forecast-chips -->", "<!-- /forecast-chips -->"
+    for page in SITE.glob("*.html"):
+        text = page.read_text()
+        if open_m not in text:
+            continue
+        start = text.index(open_m) + len(open_m)
+        end = text.index(close_m)
+        page.write_text(text[:start] + "\n      " + body + "\n      " + text[end:])
+
+
 def main() -> None:
     DATA.mkdir(parents=True, exist_ok=True)
     DOWNLOADS.mkdir(parents=True, exist_ok=True)
@@ -505,10 +540,15 @@ def main() -> None:
     (DATA / "victoria_outline.json").write_text(json.dumps(outline, separators=(",", ":")))
 
     model_meta = {}
+    model2_doc = None
     for model in ("model1", "model2"):
         src = VIS / f"{model}_vic2026.json"
         doc = json.loads(src.read_text())
         model_meta[model] = doc["meta"]
+        model_meta[model]["description"] = model_meta[model]["description"].replace(
+            "Model 1", "Baseline Model").replace("Model 2", "Forecast Model")
+        if model == "model2":
+            model2_doc = doc
         (DATA / src.name).write_text(json.dumps(doc, separators=(",", ":")))
 
     (DATA / "benchmarks.json").write_text(json.dumps(benchmarks(), separators=(",", ":")))
@@ -523,22 +563,22 @@ def main() -> None:
         (
             "model1_seat_probabilities.csv",
             ROOT / "predictions" / "modelling" / "model1" / "output" / "VIC2026 (2025)" / "seat_probabilities.csv",
-            "Model 1 forecast: per-district win and final-two probabilities (VIC2026 (2025) run)",
+            "Baseline Model: per-district win and final-two probabilities (VIC2026 (2025) run)",
         ),
         (
             "model1_statewide_blocs.csv",
             ROOT / "predictions" / "modelling" / "model1" / "output" / "VIC2026 (2025)" / "statewide_blocs.csv",
-            "Model 1 forecast: statewide seat distribution per bloc",
+            "Baseline Model: statewide seat distribution per bloc",
         ),
         (
             "model2_seat_probabilities.csv",
             ROOT / "predictions" / "modelling" / "model2" / "output" / "VIC2026 (2022)" / "seat_probabilities.csv",
-            "Model 2 forecast: per-district win and final-two probabilities (VIC2026 (2022) run)",
+            "Forecast Model: per-district win and final-two probabilities (VIC2026 (2022) run)",
         ),
         (
             "model2_statewide_blocs.csv",
             ROOT / "predictions" / "modelling" / "model2" / "output" / "VIC2026 (2022)" / "statewide_blocs.csv",
-            "Model 2 forecast: statewide seat distribution per bloc",
+            "Forecast Model: statewide seat distribution per bloc",
         ),
         (
             "candidates_vic2026.csv",
@@ -548,7 +588,7 @@ def main() -> None:
         (
             "polls_vic2026.csv",
             ROOT / "data" / "2026" / "polls_vic2026.csv",
-            "2026 Victorian polling register used for the model2 average (from electiontracker.au)",
+            "2026 Victorian polling register used for the forecast model average (from electiontracker.au)",
         ),
     ]
     (DOWNLOADS / "vic2022_district_results.csv").write_text(results_csv(baseline))
@@ -574,6 +614,8 @@ def main() -> None:
         "downloads": downloads,
     }
     (DATA / "site.json").write_text(json.dumps(site, indent=1) + "\n")
+
+    write_header_chips(model2_doc["blocs"])
 
     for path in sorted(DATA.rglob("*")):
         if path.is_file():
