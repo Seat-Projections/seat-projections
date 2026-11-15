@@ -41,6 +41,7 @@ function forecastStyle(feature) {
   return {
     color: sel ? "#0f172a" : "#334155",
     weight: sel ? 3 : 1,
+    lineJoin: "round",
     opacity: dim ? 0.3 : 0.9,
     fillColor: fav ? pcolour(fav.party) : "#cbd5e1",
     fillOpacity: dim ? 0.05 : strength,
@@ -251,15 +252,16 @@ async function init() {
     fetch("data/districts.geojson").then((r) => r.json()),
     fetch("data/victoria_outline.json").then((r) => r.json()),
   ]);
-  const map = L.map("pmap", { preferCanvas: true, zoomSnap: 0.5, attributionControl: false });
+  const map = L.map("pmap", { preferCanvas: true, zoomSnap: 0.5, attributionControl: false, maxZoom: 14 });
   window.map = map;
   map.createPane("mask").style.zIndex = 350;
   const world = [[-85, -180], [-85, 180], [85, 180], [85, -180]];
   L.polygon([world, ...outline], {
-    pane: "mask", color: "#0f172a", weight: 2.5, fillColor: "#eef1f5", fillOpacity: 1, interactive: false,
+    pane: "mask", color: "#0f172a", weight: 2.5, fillColor: "#eef1f5", fillOpacity: 1, interactive: false, smoothFactor: 0,
     renderer: L.canvas({ pane: "mask" }),
   }).addTo(map);
   districtLayer = L.geoJSON(districts, {
+    smoothFactor: 0,
     style: forecastStyle,
     onEachFeature: (f, layer) => {
       layer.bindTooltip(() => forecastTooltip(layer), { sticky: true });

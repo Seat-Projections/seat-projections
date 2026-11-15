@@ -23,7 +23,7 @@ from __future__ import annotations
 import csv
 import json
 import shutil
-from collections import Counter
+from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -62,6 +62,272 @@ def round_coords(obj, digits: int = 5):
             return [round(v, digits) for v in obj]
         return [round_coords(v, digits) for v in obj]
     return obj
+
+
+# --- Topology-preserving simplification -------------------------------------
+# Neighbouring districts share identical vertices in the source, so each ring is
+# split into arcs at junction vertices (where the set of rings using the vertex
+# changes), each unique arc is simplified once with Douglas-Peucker, and every
+# ring is rebuilt from the shared simplified arcs. Neighbours therefore keep
+# byte-identical shared boundaries — no gaps or slivers can open between them.
+SIMPLIFY_EPS = 0.0025  # ~250 m max deviation; sub-pixel at the map's working zooms
+DISPLAY_PREC = 4       # ~11 m coordinate rounding on the display files
+
+
+def _rings_of(geometry):
+    if geometry["type"] == "Polygon":
+        return geometry["coordinates"]
+    return [r for poly in geometry["coordinates"] for r in poly]
+
+
+def _douglas_peucker(pts, eps):
+    if len(pts) <= 2:
+        return pts
+    keep = [False] * len(pts)
+    keep[0] = keep[-1] = True
+    stack = [(0, len(pts) - 1)]
+    while stack:
+        a, b = stack.pop()
+        ax, ay = pts[a]
+        bx, by = pts[b]
+        dx, dy = bx - ax, by - ay
+        denom = (dx * dx + dy * dy) ** 0.5
+        dmax, imax = -1.0, -1
+        for i in range(a + 1, b):
+            px, py = pts[i]
+            d = ((px - ax) ** 2 + (py - ay) ** 2) ** 0.5 if denom == 0 else abs(dy * px - dx * py + bx * ay - by * ax) / denom
+            if d > dmax:
+                dmax, imax = d, i
+        if dmax > eps:
+            keep[imax] = True
+            stack += [(a, imax), (imax, b)]
+    return [p for p, k in zip(pts, keep) if k]
+
+
+def simplify_districts(features):
+    """Returns (simplified_features, outline_rings_latlon)."""
+    rings = []          # (feature_index, part_index, [pts]) — pts without the closing repeat
+    for fi, f in enumerate(features):
+        for pi, ring in enumerate(_rings_of(f["geometry"])):
+            pts = [tuple(p) for p in ring]
+            if pts[0] == pts[-1]:
+                pts = pts[:-1]
+            rings.append((fi, pi, pts))
+
+    vset, adj = defaultdict(set), defaultdict(set)
+    for i, (_, _, pts) in enumerate(rings):
+        n = len(pts)
+        for j, p in enumerate(pts):
+            vset[p].add(i)
+            adj[p].add(pts[(j - 1) % n])
+            adj[p].add(pts[(j + 1) % n])
+
+    # Junction: degree != 2 in the union graph, or a neighbouring vertex belongs
+    # to a different set of rings (a boundary chain starts/ends/merges there).
+    junct = {v for v in vset if len(adj[v]) != 2 or any(vset[u] != vset[v] for u in adj[v])}
+
+    def split_ring(pts):
+        n = len(pts)
+        if not any(p in junct for p in pts):
+            return [pts + [pts[0]]]  # closed ring with no junctions (island/exclave)
+        s = next(i for i, p in enumerate(pts) if p in junct)
+        arcs, cur = [], [pts[s]]
+        for k in range(1, n + 1):
+            p = pts[(s + k) % n]
+            cur.append(p)
+            if p in junct:
+                arcs.append(cur)
+                cur = [p]
+        return arcs
+
+    ring_arcs = [split_ring(pts) for _, _, pts in rings]
+    canon = lambda a: min(tuple(a), tuple(a[::-1]))
+    use_count = Counter()
+    for arcs in ring_arcs:
+        for a in arcs:
+            use_count[canon(a)] += 1
+    simplified = {k: _douglas_peucker(list(k), SIMPLIFY_EPS) for k in use_count}
+
+    new_rings = []
+    for (fi, pi, pts), arcs in zip(rings, ring_arcs):
+        out = []
+        for a in arcs:
+            s = simplified[canon(a)]
+            if a[0] != s[0]:
+                s = s[::-1]
+            out.extend(s[:-1])
+        out.append(out[0])
+        # Guard: never emit a collapsed ring; keep the original if too small.
+        new_rings.append((fi, pi, pts + [pts[0]] if len(set(out)) < 4 else out))
+
+    # Rebuild features, restoring each original Polygon/MultiPolygon part grouping.
+    simp_features = []
+    i = 0
+    for f in features:
+        raw = f["geometry"]["coordinates"]
+        parts = raw if f["geometry"]["type"] == "MultiPolygon" else [raw]
+        rebuilt = []
+        for part in parts:
+            n = len(part)
+            rebuilt.append([[list(p) for p in r] for _, _, r in new_rings[i:i + n]])
+            i += n
+        geometry = {"type": f["geometry"]["type"], "coordinates": rebuilt if f["geometry"]["type"] == "MultiPolygon" else rebuilt[0]}
+        simp_features.append({"type": "Feature", "properties": f["properties"], "geometry": geometry})
+
+    # State outline: arcs used by exactly one ring bound the state's exterior.
+    # They form closed loops, but a vertex can touch several exterior arcs, so
+    # chaining needs a consistent planar rule: on arriving at a vertex, leave by
+    # the exterior arc next clockwise from the direction back to the previous
+    # vertex. That pairs arcs correctly at pinch points instead of guessing.
+    import math
+
+    def signed_area(pts):
+        return sum(
+            pts[i][0] * pts[(i + 1) % len(pts)][1] - pts[(i + 1) % len(pts)][0] * pts[i][1]
+            for i in range(len(pts))
+        )
+
+    # exterior[i] is the simplified arc; state_left[i] is True when traversing
+    # it in its stored direction keeps the district (state interior) on the
+    # left — i.e. the arc's direction matches its ring's direction exactly when
+    # the ring winds CCW.
+    exterior, state_left = [], []
+    for (_, _, pts), arcs in zip(rings, ring_arcs):
+        ccw = signed_area(pts) > 0
+        for a in arcs:
+            k = canon(a)
+            if use_count[k] == 1:
+                s = simplified[k]
+                exterior.append(s)
+                state_left.append((a[0] == s[0]) == ccw)
+    ends = defaultdict(list)
+    for ai, a in enumerate(exterior):
+        ends[a[0]].append(ai)
+        ends[a[-1]].append(ai)
+
+    def next_arc(v, prev, skip):
+        back = math.atan2(prev[1] - v[1], prev[0] - v[0])
+        best, best_turn = None, None
+        for ni in ends[v]:
+            if ni == skip:
+                continue
+            b = exterior[ni]
+            nxt = b[1] if b[0] == v else b[-2]
+            turn = (back - math.atan2(nxt[1] - v[1], nxt[0] - v[0])) % (2 * math.pi)
+            if best_turn is None or turn < best_turn:
+                best, best_turn = ni, turn
+        return best
+
+    # Face tracing on directed half-edges: at each vertex, leave by the arc
+    # next clockwise from the direction back along the incoming arc. Every
+    # directed arc use is tracked, and orbits start from either direction, so
+    # each orbit is one face of the exterior-edge graph — a bounded face is a
+    # connected piece of the state's interior. Dangling chains (bridges) are
+    # traversed out and back and elided later; they enclose zero area.
+    outline = []
+    used_dir = set()
+    TAU = 2 * math.pi
+    for ai in range(len(exterior)):
+        for d0 in (1, -1):
+            e0 = (ai, d0)
+            if e0 in used_dir:
+                continue
+            used_dir.add(e0)
+            # This orbit keeps its face on one side (left by this convention);
+            # emit it only when that side is the district side — pockets on the
+            # ocean side of the boundary must not be masked as land.
+            keep = state_left[ai] if d0 == 1 else not state_left[ai]
+            loop = list(exterior[ai] if d0 == 1 else exterior[ai][::-1])
+            last = e0
+            while True:
+                v, prev = loop[-1], loop[-2]
+                back = math.atan2(prev[1] - v[1], prev[0] - v[0])
+                best, bt = None, None
+                for ni in ends[v]:
+                    if ni == last[0]:
+                        continue  # never U-turn the incoming arc while others exist
+                    b = exterior[ni]
+                    if b[0] == v:
+                        d, dep = 1, b[1]
+                    else:
+                        d, dep = -1, b[-2]
+                    if (ni, d) in used_dir and (ni, d) != e0:
+                        continue
+                    turn = (back - math.atan2(dep[1] - v[1], dep[0] - v[0])) % TAU
+                    if bt is None or turn < bt:
+                        best, bt = (ni, d), turn
+                if best is None:
+                    # dead end: the only incident arc is the incoming one —
+                    # the face continues back along it (bridge edge).
+                    rev = (last[0], -last[1])
+                    if rev in used_dir or rev == e0:
+                        break  # orbit closed / malformed; force-close below
+                    best = rev
+                elif best == e0:
+                    break  # orbit closed
+                used_dir.add(best)
+                seg = exterior[best[0]] if best[1] == 1 else exterior[best[0]][::-1]
+                loop += seg[1:]
+                last = best
+            if loop[-1] != loop[0]:
+                loop.append(loop[0])
+            # Drop out-and-back excursions (dangling chains traversed out and
+            # back): they are zero-area, so eliding them leaves the mask
+            # pixel-identical.
+            trail = [loop[0]]
+            for p in loop[1:]:
+                if len(trail) >= 2 and trail[-2] == p:
+                    trail.pop()
+                else:
+                    trail.append(p)
+            if trail and trail[-1] == trail[0]:
+                trail = trail[:-1]
+            if len(trail) < 3:
+                continue  # pure out-and-back spike: encloses nothing
+            loop = trail + [trail[0]]
+            # No further coarsening: the mask must coincide vertex-for-vertex
+            # with the district edges, or it cuts into/uncovers district fill.
+            if keep and len(set(loop)) >= 4:
+                # normalise orientation so every loop winds the same way
+                area = sum(
+                    loop[i][0] * loop[i + 1][1] - loop[i + 1][0] * loop[i][1]
+                    for i in range(len(loop) - 1)
+                )
+                if area < 0:
+                    loop = loop[::-1]
+                outline.append([[round(y, DISPLAY_PREC), round(x, DISPLAY_PREC)] for x, y in loop])
+
+    # The mask polygon is [world, ...outline], so every emitted ring is a hole
+    # in the world rect. A ring nested inside another hole is stroked and
+    # refilled as an island of mask colour — the small interior pockets bounded
+    # by single-use arcs between districts show through the district fills as
+    # dark doubled borders. Face interiors are disjoint, so a ring enclosed by
+    # another ring can be dropped without changing the state boundary.
+    def _point_strictly_inside(px, py, ring):
+        inside = False
+        j = len(ring) - 1
+        for i in range(len(ring)):
+            xi, yi = ring[i][0], ring[i][1]
+            xj, yj = ring[j][0], ring[j][1]
+            if (yi > py) != (yj > py) and px < (xj - xi) * (py - yi) / (yj - yi) + xi:
+                inside = not inside
+            j = i
+        return inside
+
+    def _ring_enclosed(inner, outer):
+        # Enclosed iff inner's centroid is strictly inside outer: outline rings
+        # bound distinct faces, so a centroid inside another ring means the
+        # ring lies in that ring's interior (its boundary may share vertices
+        # with the enclosing ring, which vertices-only tests mishandle).
+        if len(inner) < len(outer):
+            cx = sum(p[0] for p in inner[:-1]) / (len(inner) - 1)
+            cy = sum(p[1] for p in inner[:-1]) / (len(inner) - 1)
+            return _point_strictly_inside(cx, cy, outer)
+        return False
+
+    outline = [r for i, r in enumerate(outline)
+               if not any(i != j and _ring_enclosed(r, other) for j, other in enumerate(outline))]
+    return simp_features, outline
 
 
 def load_baseline() -> dict:
@@ -215,22 +481,27 @@ def main() -> None:
     (DATA / "baseline_2022.json").write_text(json.dumps(baseline, separators=(",", ":")))
 
     geojson = json.loads((VIS / "districts.geojson").read_text())
-    geojson["features"] = [
+    slim_features = [
         {
             "type": "Feature",
             "properties": {
                 "district": f["properties"]["district"],
                 "region": f["properties"]["region"],
             },
-            "geometry": round_coords(f["geometry"]),
+            "geometry": f["geometry"],
         }
         for f in geojson["features"]
     ]
-    geo_text = json.dumps(geojson, separators=(",", ":"))
+    # Downloadable dataset keeps full resolution; the display copy is simplified.
+    (DOWNLOADS / "districts.geojson").write_text(
+        json.dumps({"type": "FeatureCollection", "features": [
+            {**f, "geometry": round_coords(f["geometry"])} for f in slim_features
+        ]}, separators=(",", ":"))
+    )
+    simp_features, outline = simplify_districts(slim_features)
+    simp_features = [{**f, "geometry": round_coords(f["geometry"], DISPLAY_PREC)} for f in simp_features]
+    geo_text = json.dumps({"type": "FeatureCollection", "features": simp_features}, separators=(",", ":"))
     (DATA / "districts.geojson").write_text(geo_text)
-    (DOWNLOADS / "districts.geojson").write_text(geo_text)
-
-    outline = round_coords(json.loads((VIS / "victoria_outline.json").read_text()))
     (DATA / "victoria_outline.json").write_text(json.dumps(outline, separators=(",", ":")))
 
     model_meta = {}

@@ -6,9 +6,8 @@
 <title>2026 Victorian Seat Projections — Seat Projections</title>
 <meta name="description" content="2026 Victorian state election seat projections: per-district win chances, final pairs, stage-by-stage counts and statewide seat distributions.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet">
+<link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
 <link rel="stylesheet" href="assets/style.css">
 </head>
@@ -22,7 +21,13 @@
     <nav class="nav">
       <a href="index.html">Home</a>
       <a href="projections.html" class="active">Projections</a>
-      <a href="methodology.html">Methodology</a>
+      <div class="nav-item">
+        <a href="methodology.html" aria-haspopup="true">Methodology</a>
+        <div class="nav-menu">
+          <a href="methodology-model1.html">Model 1 baseline</a>
+          <a href="methodology-model2.html">Model 2 forecast</a>
+        </div>
+      </div>
     </nav>
     <div class="header-seats">
       <span class="count num">88 seats</span>
@@ -106,6 +111,7 @@
           <li><a href="index.html">2022 baseline</a></li>
           <li><a href="projections.html">2026 projections</a></li>
           <li><a href="methodology.html">Methodology &amp; datasets</a></li>
+          <li><a href="methodology.html#data">Open data</a></li>
           <li><a href="#" data-repo="">Source code</a></li>
           <li><a href="#" data-repo="/issues">Report an issue</a></li>
         </ul>

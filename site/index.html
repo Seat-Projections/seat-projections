@@ -6,9 +6,8 @@
 <title>2022 Victorian State Election Baseline — Seat Projections</title>
 <meta name="description" content="The 2022 Victorian state election baseline: all 88 Legislative Assembly districts, elected members, two-candidate-preferred margins and first-preference shares.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet">
+<link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
 <link rel="stylesheet" href="assets/style.css">
 </head>
@@ -22,15 +21,21 @@
     <nav class="nav">
       <a href="index.html" class="active">Home</a>
       <a href="projections.html">Projections</a>
-      <a href="methodology.html">Methodology</a>
+      <div class="nav-item">
+        <a href="methodology.html" aria-haspopup="true">Methodology</a>
+        <div class="nav-menu">
+          <a href="methodology-model1.html">Model 1 baseline</a>
+          <a href="methodology-model2.html">Model 2 forecast</a>
+        </div>
+      </div>
     </nav>
     <div class="header-seats">
       <span class="count num">88 seats</span>
       <span class="chips">
         <span class="h-label">2022 result</span>
-        <span class="chip"><i class="dot" style="background:var(--alp)"></i>ALP <span id="h-alp">–</span></span>
-        <span class="chip"><i class="dot" style="background:var(--lp)"></i>COA <span id="h-coa">–</span></span>
-        <span class="chip"><i class="dot" style="background:var(--grn)"></i>GRN <span id="h-grn">–</span></span>
+        <span class="chip"><i class="dot" style="background:var(--alp)"></i>ALP 56</span>
+        <span class="chip"><i class="dot" style="background:var(--lp)"></i>COA 28</span>
+        <span class="chip"><i class="dot" style="background:var(--grn)"></i>GRN 4</span>
         <span class="chip">45 to win</span>
       </span>
     </div>
@@ -72,7 +77,7 @@
       <div class="map-src">Boundaries: Electoral Boundaries Commission (Victoria), 2021 redivision · Results: Victorian Electoral Commission</div>
     </div>
     <aside class="card panel-card">
-      <h3>Inspect district</h3>
+      <h3>View district</h3>
       <input class="search" id="search" list="district-list" placeholder="Search a district: Ripon, Hawthorn, Bass…" autocomplete="off">
       <datalist id="district-list"></datalist>
       <div class="dpanel" id="dpanel" style="margin-top:0.75rem">
@@ -143,6 +148,7 @@
           <li><a href="index.html">2022 baseline</a></li>
           <li><a href="projections.html">2026 projections</a></li>
           <li><a href="methodology.html">Methodology &amp; datasets</a></li>
+          <li><a href="methodology.html#data">Open data</a></li>
           <li><a href="#" data-repo="">Source code</a></li>
           <li><a href="#" data-repo="/issues">Report an issue</a></li>
         </ul>

@@ -17,4 +17,5 @@ This covers, unless a file states otherwise:
 Third-party data remains under its own terms; see "License and data sources" in README.md.
 The code (everything else, including visualiser/*.js and site/*.js, *.html, *.css) is under the
 MIT License in LICENSE, except visualiser/vendor/leaflet/ and site/vendor/leaflet/ (Leaflet,
-BSD-2-Clause; see its LICENSE file).
+BSD-2-Clause; see its LICENSE file) and site/assets/fonts/ (the Inter and Newsreader fonts,
+licensed under the SIL Open Font License 1.1; see OFL-Inter.txt and OFL-Newsreader.txt there).

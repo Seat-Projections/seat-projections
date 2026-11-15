@@ -20,12 +20,13 @@ function styleFor(feature) {
   const d = BASELINE.districts[name];
   const sel = selected === name;
   const dim = regionFilter && feature.properties.region !== regionFilter;
-  if (!d) return { color: "#94a3b8", weight: 1, fillOpacity: 0.1, fillColor: "#e2e8f0" };
+  if (!d) return { color: "#94a3b8", weight: 1, fillOpacity: 0.1, fillColor: "#e2e8f0", lineJoin: "round" };
   // Safer seats are darker: opacity rises with the 2CP margin.
   const op = dim ? 0.06 : 0.28 + 0.62 * Math.min(1, d.margin_pct / 20);
   return {
     color: sel ? "#0f172a" : "#334155",
     weight: sel ? 3 : 1,
+    lineJoin: "round",
     opacity: dim ? 0.3 : 0.9,
     fillColor: pcolour(d.winner_group),
     fillOpacity: op,
@@ -150,10 +151,6 @@ async function init() {
   ]);
   BASELINE = baseline;
   const seats = baseline.seats;
-  const coa = (seats.LP || 0) + (seats.NP || 0);
-  document.getElementById("h-alp").textContent = seats.ALP || 0;
-  document.getElementById("h-coa").textContent = coa;
-  document.getElementById("h-grn").textContent = seats.GRN || 0;
   document.getElementById("turnout").textContent = pct1(100 * (baseline.totals.formal + baseline.totals.informal) / baseline.totals.enrolment);
   document.getElementById("formal").textContent = fmt(baseline.totals.formal);
 
@@ -181,15 +178,16 @@ async function init() {
     order.map((g) => `<span><span class="swatch" style="background:${pcolour(g)}"></span>${esc(pname(g))} <b class="num">${seats[g] || 0}</b></span>`).join("");
 
   // Map: no tiles — districts over the page background, world outside Victoria masked.
-  const map = L.map("map", { preferCanvas: true, zoomSnap: 0.5, attributionControl: false });
+  const map = L.map("map", { preferCanvas: true, zoomSnap: 0.5, attributionControl: false, maxZoom: 14 });
   window.map = map;
   map.createPane("mask").style.zIndex = 350;
   const world = [[-85, -180], [-85, 180], [85, 180], [85, -180]];
   L.polygon([world, ...outline], {
-    pane: "mask", color: "#0f172a", weight: 2.5, fillColor: "#eef1f5", fillOpacity: 1, interactive: false,
+    pane: "mask", color: "#0f172a", weight: 2.5, fillColor: "#eef1f5", fillOpacity: 1, interactive: false, smoothFactor: 0,
     renderer: L.canvas({ pane: "mask" }),
   }).addTo(map);
   districtLayer = L.geoJSON(districts, {
+    smoothFactor: 0,
     style: styleFor,
     onEachFeature: (f, layer) => {
       const d = BASELINE.districts[f.properties.district];

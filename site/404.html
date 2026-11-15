@@ -5,14 +5,42 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Page not found — Seat Projections</title>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Newsreader:opsz,wght@6..72,600&display=swap" rel="stylesheet">
+<link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.svg" alt="Seat Projections emblem">
+      <span><span class="brand-name">Seat Projections</span><br><span class="brand-sub">2026 Victorian Seat Projections</span></span>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="projections.html">Projections</a>
+      <div class="nav-item">
+        <a href="methodology.html" aria-haspopup="true">Methodology</a>
+        <div class="nav-menu">
+          <a href="methodology-model1.html">Model 1 baseline</a>
+          <a href="methodology-model2.html">Model 2 forecast</a>
+        </div>
+      </div>
+    </nav>
+    <div class="header-seats">
+      <span class="count num">88 seats</span>
+      <span class="chips">
+        <span class="h-label">2022 result</span>
+        <span class="chip"><i class="dot" style="background:var(--alp)"></i>ALP 56</span>
+        <span class="chip"><i class="dot" style="background:var(--lp)"></i>COA 28</span>
+        <span class="chip"><i class="dot" style="background:var(--grn)"></i>GRN 4</span>
+        <span class="chip">45 to win</span>
+      </span>
+    </div>
+  </div>
+</header>
 <main class="wrap" style="min-height:70vh;display:flex;flex-direction:column;justify-content:center;align-items:flex-start">
-  <img src="assets/logo.svg" alt="Seat Projections emblem" style="width:4rem;height:4rem">
+  <img src="assets/logo.svg" alt="Seat Projections emblem" style="height:4rem;width:auto">
   <h1 style="font-family:var(--serif);font-size:2.75rem;font-weight:600;letter-spacing:-0.02em;margin:1rem 0 0.5rem">404 — page not found</h1>
   <p class="muted">This page doesn&rsquo;t exist. The seats do:</p>
   <p><a class="btn" href="index.html" style="margin-top:0.5rem">Back to the 2022 baseline</a>

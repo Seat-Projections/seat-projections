@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Model 1 baseline — Methodology — Seat Projections</title>
+<meta name="description" content="Model 1, the 'nothing changes' baseline: federal polling-place votes replayed into state districts with fitted preference flows.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.svg" alt="Seat Projections emblem">
+      <span><span class="brand-name">Seat Projections</span><br><span class="brand-sub">2026 Victorian Seat Projections</span></span>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="projections.html">Projections</a>
+      <div class="nav-item">
+        <a href="methodology.html" aria-haspopup="true" class="active">Methodology</a>
+        <div class="nav-menu">
+          <a href="methodology-model1.html">Model 1 baseline</a>
+          <a href="methodology-model2.html">Model 2 forecast</a>
+        </div>
+      </div>
+    </nav>
+    <div class="header-seats">
+      <span class="count num">88 seats</span>
+      <span class="chips">
+        <span class="h-label">2022 result</span>
+        <span class="chip"><i class="dot" style="background:var(--alp)"></i>ALP 56</span>
+        <span class="chip"><i class="dot" style="background:var(--lp)"></i>COA 28</span>
+        <span class="chip"><i class="dot" style="background:var(--grn)"></i>GRN 4</span>
+        <span class="chip">45 to win</span>
+      </span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+<p class="small" style="margin:1.5rem 0 0"><a href="methodology.html">&larr; Methodology overview</a></p>
+  <section class="hero">
+    <span class="eyebrow">Methodology · 02</span>
+    <h1>Model 1 — &ldquo;nothing changes&rdquo;</h1>
+    <p class="lede">A deliberately primitive baseline: replay the most recent federal election&rsquo;s polling-place votes inside each state district, assuming nothing changes. It exists so the real model has a floor to beat.</p>
+  </section>
+  <section class="section">
+    <div class="prose" style="max-width:46rem">
+      <p>Every polling place&rsquo;s votes from the most recent federal election are put into the
+        state district it sits in, and each district&rsquo;s preferential count is replayed
+        assuming nothing changes: same parties, same first preferences, same preferences. A
+        Bradley&ndash;Terry strength is fitted for each (from-party, to-party) split so transfers
+        exist for any set of continuing parties. Monte Carlo noise turns the replay into seat
+        probabilities.</p>
+      <p class="muted">It uses no polling and no candidate information — a deliberately primitive
+        floor the real model must beat. It does well when the federal and state elections are
+        close together and badly when something big has changed.</p>
+    </div>
+    <div class="foundations">
+      <div class="card">
+        <span class="tag-no">Step 1</span>
+        <h4 style="margin-top:0.5rem">District votes</h4>
+        <p>Federal polling places are assigned to state districts by location — inside the
+          district and within 1&nbsp;km of their own federal division — and summed into district
+          first preferences by party group. Declaration votes (absent, postal, provisional) have
+          no location and are left out.</p>
+      </div>
+      <div class="card">
+        <span class="tag-no">Step 2</span>
+        <h4 style="margin-top:0.5rem">Preferences</h4>
+        <p>The AEC publishes, for every booth, how each party&rsquo;s ballots split between that
+          division&rsquo;s final two. A Bradley&ndash;Terry strength is fitted for each
+          (from-party, to-party) pair, giving a transfer for <b>any</b> set of continuing
+          parties — including combinations never seen federally.</p>
+      </div>
+      <div class="card">
+        <span class="tag-no">Step 3</span>
+        <h4 style="margin-top:0.5rem">Count &amp; noise</h4>
+        <p>Each district is counted to the final two. Each Monte Carlo run multiplies every
+          party&rsquo;s vote by a shared statewide factor and a district factor, and every
+          party&rsquo;s attractiveness as a preference recipient by a statewide factor — turning
+          the single replay into seat probabilities.</p>
+      </div>
+    </div>
+    <p class="small muted" style="margin-top:1rem">Independents are pooled as one
+      <span class="mono">IND*</span> group, so a federal independent&rsquo;s vote stays in the
+      district as an &ldquo;independent&rdquo; even if no independent stands at state level —
+      the &ldquo;nothing changes&rdquo; assumption taken literally, and the model&rsquo;s biggest
+      weakness.</p>
+  </section>
+  <section class="section" id="benchmarks">
+    <span class="eyebrow">Backtests</span>
+    <h2 style="font-family:var(--serif);font-size:1.625rem;font-weight:600;letter-spacing:-0.01em;margin:0.25rem 0 1rem">Benchmark results</h2>
+    <div class="card" style="overflow-x:auto">
+      <table class="dtable" data-bench="model1">
+        <thead><tr><th>Run</th><th>Seats right</th><th class="r">Accuracy</th><th class="r">Brier</th><th class="r">Log loss</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="small muted" style="margin-top:0.5rem">Genuine forecasts from federal votes —
+      not comparable with model 2&rsquo;s B1 replays.
+      <a href="methodology-model2.html#benchmarks">Model 2 results &rarr;</a></p>
+  </section>
+
+  <div class="section" style="display:flex;justify-content:space-between;gap:1rem">
+    <span></span>
+    <a href="methodology-model2.html">Next: Model 2 forecast &rarr;</a>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <div class="brandline"><img src="assets/logo.svg" alt="">seatprojections.au</div>
+        <p>Independent, non-partisan seat projections for the 2026 Victorian state election —
+          an exact preferential-count engine, open data and open code.</p>
+        <p>Not affiliated with the Victorian Electoral Commission.</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">2022 baseline</a></li>
+          <li><a href="projections.html">2026 projections</a></li>
+          <li><a href="methodology.html">Methodology &amp; datasets</a></li>
+          <li><a href="methodology.html#data">Open data</a></li>
+          <li><a href="#" data-repo="">Source code</a></li>
+          <li><a href="#" data-repo="/issues">Report an issue</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Data sources</h4>
+        <ul>
+          <li>Victorian Electoral Commission — results &amp; candidates</li>
+          <li>Australian Electoral Commission — federal booth results</li>
+          <li>Electoral Boundaries Commission — district boundaries</li>
+          <li>electiontracker.au — polling register</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-base">
+      <span>© 2026 Seat Projections · Code MIT · Data &amp; forecasts CC BY-SA 4.0</span>
+      <span>seatprojections.au</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/common.js"></script>
+<script src="assets/methodology.js"></script>
+</body>
+</html>

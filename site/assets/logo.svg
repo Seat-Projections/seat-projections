@@ -1,17 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-label="Seat Projections emblem">
-  <polygon points="80,128 556,92 592,382 424,566 178,536 66,322"
-           fill="#e2e8f0" stroke="#000" stroke-width="18" stroke-linejoin="round"/>
-  <g>
-    <circle cx="256" cy="240" r="32" fill="#DE3533"/>
-    <circle cx="336" cy="205" r="32" fill="#00A3A6"/>
-    <circle cx="420" cy="240" r="32" fill="#1C4F9C"/>
-    <circle cx="210" cy="302" r="32" fill="#DE3533"/>
-    <circle cx="294" cy="333" r="32" fill="#10C25B"/>
-    <circle cx="358" cy="333" r="32" fill="#006644"/>
-    <circle cx="466" cy="302" r="32" fill="#1C4F9C"/>
-    <circle cx="240" cy="388" r="32" fill="#DE3533"/>
-    <circle cx="426" cy="388" r="32" fill="#1C4F9C"/>
-  </g>
-  <polygon points="326,410 341,449 383,451 350,477 362,518 326,495 290,518 302,477 269,451 311,449"
-           fill="#fff" stroke="#000" stroke-width="10" stroke-linejoin="round"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 375" role="img" aria-label="Seat Projections logo"><path d="M16.0,16.0 L48.1,29.4 L80.1,26.0 L101.5,66.2 L138.9,82.9 L155.0,113.0 L187.0,133.1 L216.4,157.9 L245.8,139.8 L277.9,146.5 L310.0,149.9 L334.0,156.6 L358.1,149.9 L379.5,166.6 L400.9,203.4 L496.0,250.3 L465.0,267.0 L422.2,270.3 L384.8,277.0 L358.1,293.8 L331.4,323.9 L312.7,333.9 L302.0,358.7 L283.3,340.6 L259.2,327.2 L248.5,317.2 L235.2,313.8 L227.1,275.7 L211.1,301.8 L187.0,310.5 L173.7,323.9 L152.3,340.6 L122.9,330.6 L96.2,310.5 L66.8,303.8 L48.1,309.2 L32.0,293.8 L16.0,287.1Z" fill="#E2E8F0" stroke="#E2E8F0" stroke-width="16" stroke-linejoin="round"/><path d="M16.0,16.0 L48.1,29.4 L80.1,26.0 L101.5,66.2 L138.9,82.9 L155.0,113.0 L187.0,133.1 L216.4,157.9 L245.8,139.8 L277.9,146.5 L310.0,149.9 L334.0,156.6 L358.1,149.9 L379.5,166.6 L400.9,203.4" fill="none" stroke="#FF7300" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/><path d="M400.9,203.4 L496.0,250.3 L465.0,267.0 L422.2,270.3 L384.8,277.0 L358.1,293.8 L331.4,323.9 L312.7,333.9 L302.0,358.7 L283.3,340.6 L259.2,327.2 L248.5,317.2 L235.2,313.8 L227.1,275.7" fill="none" stroke="#DE3533" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/><path d="M227.1,275.7 L211.1,301.8 L187.0,310.5 L173.7,323.9 L152.3,340.6 L122.9,330.6 L96.2,310.5 L66.8,303.8 L48.1,309.2 L32.0,293.8 L16.0,287.1 L16.0,16.0" fill="none" stroke="#1C4F9C" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/></svg>

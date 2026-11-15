@@ -28,6 +28,69 @@ Raw downloads are not committed. `predictions/benchmarking/archive/*/reproduce.s
 input (cached under `data/`) and reruns the models; `data/federal/*/manifest.json` records the URL,
 size and SHA-256 of every AEC file used.
 
+## Reproducing the results
+
+All commands run from the repository root with the `.venv` from the setup step.
+
+**1. Download the inputs** (~950 MB of raw files, downloaded once and cached under `data/`; none are committed):
+
+```bash
+.venv/bin/python scripts/fetch_vec_2022.py            # VEC 2022 results + distributions of preferences
+.venv/bin/python scripts/fetch_vec_2018.py            # VEC 2018 results
+.venv/bin/python scripts/fetch_aec.py                 # AEC federal booth results/boundaries (2022 + 2025)
+.venv/bin/python scripts/fetch_state_winners.py       # declared winners for the other benchmark states
+.venv/bin/python scripts/fetch_state_dops.py          # other states' distributions of preferences
+.venv/bin/python scripts/fetch_vic2026_candidates.py  # 2026 VEC candidate nominations
+.venv/bin/python scripts/build_district_flows.py      # booth-level preference flows per state district
+.venv/bin/python scripts/build_notional_2018.py       # notional 2018 results on 2022 boundaries
+```
+
+**2. Verify the count engine** (reproduces all 88 VEC 2022 distributions to the vote):
+
+```bash
+.venv/bin/python scripts/verify_counts.py --year 2022
+.venv/bin/python scripts/verify_counts.py --year 2018
+.venv/bin/python scripts/verify_counts.py --year 2018 --district Melton   # inspect one district
+.venv/bin/python scripts/check_booth_assignment.py                      # booth → district mapping checks
+```
+
+**3. Run the models** — outputs land in `predictions/modelling/<model>/output/<run_id>/`:
+
+```bash
+.venv/bin/python predictions/modelling/model1/run_model1.py --all               # every benchmark run
+.venv/bin/python predictions/modelling/model1/run_model1.py "VIC2022 (2022)"    # a single run
+.venv/bin/python predictions/modelling/model2/run_model2.py --all               # default 5000 sims, seed 1
+```
+
+Model 2's `"VIC2026 (2022)"` forecast requires model 1's `"VIC2026 (2025)"` output first (its One
+Nation pattern), plus `data/2026/candidates_vic2026.csv`, `independents_vic2026.csv` and
+`polls_vic2026.csv`.
+
+**4. Score and archive:**
+
+```bash
+.venv/bin/python scripts/score_model.py <run>/seat_probabilities.csv --year 2022
+.venv/bin/python scripts/archive_benchmarks.py model1
+```
+
+**5. Reproduce an archived forecast exactly:**
+
+```bash
+bash predictions/benchmarking/archive/<run>/reproduce.sh
+```
+
+The seed and settings are recorded in each run's `run_metadata.json`. Note that
+`data/2026/polls_vic2026.csv` is the committed snapshot the archived forecast used — re-downloading
+the register from electiontracker.au fetches a newer poll set and produces different numbers; only
+refresh it to make a new forecast.
+
+**6. Build and preview the site:**
+
+```bash
+.venv/bin/python scripts/build_site.py && .venv/bin/python -m http.server 8000 -d site   # → localhost:8000
+.venv/bin/python scripts/build_visualiser.py && .venv/bin/python -m http.server 8001 -d visualiser
+```
+
 ## License and data sources
 
 - **Code:** MIT License ([`LICENSE`](LICENSE)).
@@ -43,5 +106,6 @@ Third-party data used or included:
 | Geoscape Administrative Boundaries (data.gov.au) | NSW, QLD, WA and SA state district boundaries (downloaded, not committed) | Incorporates or developed using Administrative Boundaries © Geoscape Australia licensed by the Commonwealth of Australia under CC BY 4.0 |
 | electiontracker.au | 2026 Victorian polling register (`data/2026/polls_vic2026.csv`) | Compiled from published polls; see electiontracker.au |
 | Wikipedia | Declared winners for NSW, QLD, WA and SA elections (`data/benchmarks/winners/`, each row cites its page) | Facts compiled from pages under CC BY-SA 4.0 |
-| Leaflet | Map library (`visualiser/vendor/leaflet/`) | BSD-2-Clause |
+| Leaflet | Map library (`visualiser/vendor/leaflet/`, `site/vendor/leaflet/`) | BSD-2-Clause |
+| Inter & Newsreader | Self-hosted site fonts (`site/assets/fonts/`) | SIL Open Font License 1.1 |
 | OpenStreetMap | Visualiser basemap tiles (loaded at runtime) | © OpenStreetMap contributors, ODbL |
