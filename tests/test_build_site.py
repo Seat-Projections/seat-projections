@@ -323,3 +323,27 @@ def test_map_timeline_shape():
         lc = {c["id"]: round(c["p_win"], 3) for c in latest["districts"][name]["candidates"]}
         for (cid, _), pv in zip(d["cands"], d["p"][-1]):
             assert pv == lc.get(cid, 0.0)
+
+
+def test_district_timeline_json():
+    import json, re
+    idx = json.loads((SITE_DIR / "data/snapshots/index.json").read_text())
+    latest = json.loads((SITE_DIR / "data/model2_vic2026.json").read_text())
+    exp_dates = [s["date"] for s in idx["snapshots"]] + [latest["meta"]["timestamp"][:10]]
+    n = len(exp_dates)
+    pages = list(SITE_DIR.glob("districts/*/index.html"))
+    assert len(pages) == 88
+    for f in pages:
+        m = re.search(r'id="district-timeline">(.*?)</script>', f.read_text(), re.S)
+        assert m, f"{f.parent.name}: no district-timeline"
+        d = json.loads(m.group(1))
+        assert [p["date"] for p in d["points"]] == exp_dates
+        rows = d["district"]["rows"]
+        assert len(rows) == n and all(len(r["c"]) == len(d["district"]["cands"]) for r in rows)
+    # latest row p_win equals model2 p_win (matched by name via slug map)
+    name_by_slug = {build_site.slug(n): n for n in latest["districts"]}
+    for f in pages:
+        d = json.loads(re.search(r'id="district-timeline">(.*?)</script>', f.read_text(), re.S).group(1))
+        lc = {c["id"]: round(c["p_win"], 3) for c in latest["districts"][name_by_slug[f.parent.name]]["candidates"]}
+        for cand, v in zip(d["district"]["cands"], d["district"]["rows"][-1]["c"]):
+            assert v[2] == lc.get(cand["id"], 0.0), f"{f.parent.name} {cand['id']}"

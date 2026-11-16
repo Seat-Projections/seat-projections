@@ -612,6 +612,11 @@ def pcolour(g):
     return GROUP_COLOUR.get(g, GROUP_COLOUR["OTH"])
 
 
+def strength(p):
+    """Map fill opacity for a favourite's win probability (mirrors forecastStyle)."""
+    return max(0.15, min(0.85, (p - 0.3) / 0.7 * 0.85))
+
+
 def pname(g):
     return GROUP_NAME.get(g, g)
 
@@ -682,15 +687,15 @@ def page_head(meta):
 """
 
 
-def page_tail():
-    return """
+def page_tail(extra=""):
+    return f"""
 <script src="/assets/common.js"></script>
-</body>
+{extra}</body>
 </html>
 """
 
 
-def district_svg(feature, colour):
+def district_svg(feature, colour, opacity):
     """Inline SVG of one district's (already display-simplified) geometry."""
     geoms = feature["geometry"]["coordinates"]
     if feature["geometry"]["type"] != "MultiPolygon":
@@ -713,8 +718,8 @@ def district_svg(feature, colour):
     d = " ".join("M" + "L".join(xy(p) for p in ring) + "Z" for ring in rings)
     return (f'<svg viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" '
             f'aria-label="Outline of {esc(feature["properties"]["district"])} district" '
-            f'style="display:block;max-width:100%"><path d="{d}" fill="{colour}" '
-            f'fill-opacity="0.85" stroke="#fff" stroke-width="1"/></svg>')
+            f'style="display:block;max-width:100%"><path id="dtl-path" d="{d}" fill="{colour}" '
+            f'fill-opacity="{opacity:.3f}" stroke="#fff" stroke-width="1"/></svg>')
 
 
 def pair_block(pr, cand_by_id):
@@ -785,11 +790,12 @@ def district_page(name, slug_, feature, m2d, m1d, base, run_date, header, footer
   <div class="twocol">
     <div>
       <section class="card">
-        <h3>Forecast Model <span class="muted small" style="font-weight:400">&mdash; {esc(run_date)} forecast</span></h3>
+        <div id="dtl-banner" hidden></div>
+        <h3>Forecast Model <span class="muted small" style="font-weight:400" id="fc-sub">&mdash; {esc(run_date)} forecast</span></h3>
         <table class="dtable"><tr><th>Candidate</th><th>Party</th><th class="r">Primary</th><th class="r">Final two</th><th class="r">Win</th></tr>
-        {cands}</table>
+        <tbody id="fc-cands">{cands}</tbody></table>
         <h4>Estimated two-candidate preferred</h4>
-        <div class="dpanel">{pairs}</div>
+        <div class="dpanel" id="fc-pairs">{pairs}</div>
         <p class="muted small">Each block is one possible final pair, with the 2CP split across the simulations where that pair was the final two.</p>
       </section>
 
@@ -805,10 +811,11 @@ def district_page(name, slug_, feature, m2d, m1d, base, run_date, header, footer
 
     <div>
       <section class="card">
-        <div class="dsvg">{district_svg(feature, pcolour(fav["party"]))}</div>
+        <div class="dsvg">{district_svg(feature, pcolour(fav["party"]), strength(fav["p_win"]))}</div>
+        <div id="dtl-ui" style="margin:0.5rem 0 0.75rem"></div>
         <div class="dpanel">
-          <div class="kv"><span>Favourite</span><b>{esc(disp_names(fav["id"]))} <span class="muted">{esc(fav["party"])}</span></b></div>
-          <div class="kv"><span>Win chance</span><b class="num">{round(100 * fav["p_win"])}%</b></div>
+          <div class="kv"><span>Favourite</span><b id="kv-fav">{esc(disp_names(fav["id"]))} <span class="muted">{esc(fav["party"])}</span></b></div>
+          <div class="kv"><span>Win chance</span><b class="num" id="kv-win">{round(100 * fav["p_win"])}%</b></div>
           <div class="kv"><span>Region</span><b>{region}</b></div>
           <div class="kv"><span>2022 winner</span><b>{esc(disp_names(base["winner"]))} <span class="muted">{esc(base["winner_group"])}</span></b></div>
           <div class="kv"><span>2022 2CP margin</span><b class="num">+{base["margin_pct"]:.1f}%</b></div>
@@ -862,8 +869,15 @@ def district_page(name, slug_, feature, m2d, m1d, base, run_date, header, footer
             {"@type": "ListItem", "position": 2, "name": name, "item": f"{DOMAIN}/districts/{slug_}/"},
         ],
     }
+    timeline_html = ""
+    extra_js = ""
+    if snaps:
+        tl = json.dumps(district_timeline(name, snaps, model2_doc), separators=(",", ":"))
+        tl = tl.replace("<", "\\u003c")
+        timeline_html = (f'<script type="application/json" id="district-timeline">{tl}</script>')
+        extra_js = '<script src="/assets/district.js" defer></script>\n'
     return (page_head((title, desc, f"/districts/{slug_}/", jsonld))
-            + header + body + footer + page_tail())
+            + header + body + timeline_html + footer + page_tail(extra_js))
 
 
 def districts_hub(rows, header, footer):
@@ -1098,21 +1112,57 @@ def history_card(name, snaps, model2_doc):
         return f"{round(100 * c['p_win'])}%" if c else "&mdash;"
 
     rows = "".join(
-        f'<tr><td><a href="/#model2/{enc}@{d}">{int(d[8:])} {MONTHS[int(d[5:7]) - 1]}</a></td>'
+        f'<tr data-date="{d}"><td><a href="/#model2/{enc}@{d}">{int(d[8:])} {MONTHS[int(d[5:7]) - 1]}</a></td>'
         + "".join(f'<td class="r num">{win(doc, c["id"])}</td>' for c in top3) + "</tr>"
         for d, doc in snaps.items())
-    rows += (f'<tr><td><a href="/#model2/{enc}"><b>Latest</b></a></td>'
+    rows += (f'<tr data-latest><td><a href="/#model2/{enc}"><b>Latest</b></a></td>'
              + "".join(f'<td class="r num"><b>{win(model2_doc, c["id"])}</b></td>' for c in top3)
              + "</tr>")
     gen = next(reversed(snaps.values()))["meta"]["generated"]
     return f"""
-      <section class="card">
+      <section class="card" id="dtl-hist">
         <h3>How the forecast has moved</h3>
         <table class="dtable"><tr>{head}</tr>{rows}</table>
         <p class="muted small">Retrospective rows were generated on {int(gen[8:])} {MONTHS[int(gen[5:7]) - 1]} {gen[:4]} using only polls
           published by each date; the candidate list and model settings are the final November
           versions. <a href="/methodology/forecast/#history">Forecast history &rarr;</a></p>
       </section>"""
+
+
+def district_timeline(name, snaps, model2_doc):
+    """Inline per-point candidate/pair data for the district-page timeline slider."""
+    docs = list(snaps.items()) + [("latest", model2_doc)]
+
+    def shown(c):
+        return c["p_final_two"] > 0 or c["primary"] >= 2 or c["p_win"] > 0
+
+    ids, party = [], {}
+    for c in sorted(model2_doc["districts"][name]["candidates"],
+                    key=lambda c: (-round(100 * c["p_win"]), -c["primary"])):
+        if shown(c):
+            ids.append(c["id"])
+            party[c["id"]] = c["party"]
+    for _, doc in docs:
+        for c in sorted(doc["districts"][name]["candidates"], key=lambda c: -c["p_win"]):
+            if shown(c) and c["id"] not in party:
+                ids.append(c["id"])
+                party[c["id"]] = c["party"]
+    cands = [{"id": i, "party": party[i]} for i in ids]
+    points = [{"date": d, "retrospective": doc["meta"]["retrospective"],
+               "generated": doc["meta"]["generated"]} for d, doc in docs[:-1]]
+    points.append({"date": model2_doc["meta"]["timestamp"][:10], "latest": True})
+    rows = []
+    for _, doc in docs:
+        d = doc["districts"][name]
+        byid = {c["id"]: c for c in d["candidates"]}
+        rows.append({
+            "c": [[round(byid[i]["primary"], 1), round(byid[i]["p_final_two"], 3),
+                   round(byid[i]["p_win"], 3)] if i in byid else [0.0, 0, 0] for i in ids],
+            "pairs": [{"p": p["p"], "a": p["a"], "b": p["b"],
+                       "a_tcp": p["a_tcp"], "p_a_wins": p["p_a_wins"]}
+                      for p in d["pairs"][:4]],
+        })
+    return {"points": points, "district": {"cands": cands, "rows": rows}}
 
 
 def write_district_pages(simp_features, baseline, model1_doc, model2_doc, snaps=None):

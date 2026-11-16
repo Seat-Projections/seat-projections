@@ -10,16 +10,11 @@ let regionFilter = null;
 let selected = null;
 let districtLayer = null;
 let snapDate = null;           // null = latest forecast
+let tl = null;                 // shared timeline-slider widget
+let approx = false;            // slider strictly between marks
 const snapDocs = {};           // date -> forecast doc
 
 const fc = () => (view === "model2" && snapDate && snapDocs[snapDate]) || forecasts[view];
-const dispName = (n) => {
-  if (!n || !n.includes(",")) return n;
-  const [sur, ...rest] = n.split(",");
-  const given = rest.join(",").trim();
-  const s = sur.trim().toLowerCase().replace(/(^|\s|-)(\w)/g, (m, p, c) => p + c.toUpperCase());
-  return given ? `${given} ${s}` : s;
-};
 const nameOf = (d, id) => (d.candidates.find((c) => c.id === id)?.name) || id;
 const shortOf = (d, id) => dispName(nameOf(d, id).split(",")[0]);
 
@@ -32,13 +27,6 @@ const loadSnapshot = async (date) => (snapDocs[date] ||= await fetch(`/data/snap
   if (!r.ok) throw new Error(`data/snapshots/model2/${date}.json missing — run scripts/build_site.py`);
   return r.json();
 }));
-
-const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-const fmtSnapDate = (d) => {
-  const [y, m, day] = d.split("-").map(Number);
-  return `${day} ${MONTHS[m - 1]} ${y}`;
-};
-const fmtSnapShort = (d) => `${Number(d.split("-")[2])} ${MONTHS[Number(d.split("-")[1]) - 1]}`;
 
 function favourite(name) {
   if (view === "model2" && timeline) {
@@ -296,72 +284,36 @@ function updateSnapBanner() {
   hero.hidden = !b;
 }
 
-/* ---------- blended map timeline ---------- */
+/* ---------- blended map timeline (shared widget in common.js) ---------- */
 
 let timeline = null;          // /data/snapshots/map_timeline.json
-let pointDays = [];           // day offset of each mark from the first point
-let totalDays = 0;
-let interpT = 0;              // slider position in days
-let shownMark = -1;           // timeline point whose figures are on the cards
-let approx = false;           // slider strictly between marks
 
-const dayOf = (iso) => Date.parse(`${iso}T00:00:00Z`) / 864e5;
-
-function markIndexAt(t) {
-  let i = 0;
-  while (i < pointDays.length - 1 && pointDays[i + 1] <= t + 1e-9) i++;
-  return i;
-}
-
-/* Interpolated p_win per candidate for one district at interpT. */
+/* Interpolated p_win per candidate for one district at the slider position. */
 function blendedRow(name) {
   const td = timeline && timeline.districts[name];
-  if (!td) return null;
-  let i = pointDays.length - 1;
-  if (interpT < pointDays[i]) { i = 0; while (pointDays[i + 1] < interpT) i++; }
-  const j = Math.min(i + 1, pointDays.length - 1);
-  const span = pointDays[j] - pointDays[i];
-  const f = span ? (interpT - pointDays[i]) / span : 0;
+  if (!td || !tl) return null;
+  const pds = tl.pdays;
+  const t = tl.t;
+  let i = pds.length - 1;
+  if (t < pds[i]) { i = 0; while (pds[i + 1] < t) i++; }
+  const j = Math.min(i + 1, pds.length - 1);
+  const span = pds[j] - pds[i];
+  const f = span ? (t - pds[i]) / span : 0;
   return td.cands.map((c, k) => ({ id: c[0], party: c[1], p_win: td.p[i][k] + (td.p[j][k] - td.p[i][k]) * f }));
 }
 
 /* Cards/bar/panels always show a real mark (most recent at or before the slider);
    refetch/re-render only when that mark changes. */
-async function applyTimeline() {
-  if (!timeline) return;
-  const mark = markIndexAt(interpT);
-  approx = interpT < pointDays[pointDays.length - 1] - 1e-9 && Math.abs(pointDays[mark] - interpT) > 0.01;
-  const p = timeline.points;
-  const label = document.getElementById("snap-label");
-  if (label) {
-    if (approx) {
-      const cur = new Date((dayOf(p[0].date) + interpT) * 864e5).toISOString().slice(0, 10);
-      const next = p[mark + 1].latest ? "Latest" : fmtSnapShort(p[mark + 1].date);
-      const figs = p[mark].latest ? "Latest" : fmtSnapShort(p[mark].date);
-      label.textContent = `${fmtSnapDate(cur)} — map blended between ${figs} and ${next} runs; figures show ${figs}`;
-    } else {
-      label.textContent = p[mark].latest ? `Latest · ${fmtSnapDate(p[mark].date)}` : `Polls to ${fmtSnapDate(p[mark].date)}`;
-    }
-  }
-  districtLayer.setStyle(forecastStyle);
-  if (mark !== shownMark) {
-    shownMark = mark;
-    snapDate = p[mark].latest ? null : p[mark].date;
-    if (snapDate) await loadSnapshot(snapDate);
-    renderHeadline();
-    renderLegend();
-    if (selected && fc().districts[selected]) showDistrict(selected);
-    else overview();
-    syncHash();
-    updateSnapBanner();
-  }
-}
-
-async function goToDay(t) {
-  interpT = t;
-  const slider = document.getElementById("snap-slider");
-  if (slider) slider.value = t;
-  await applyTimeline();
+async function onTimelineMark(mark) {
+  const p = timeline.points[mark];
+  snapDate = p.latest ? null : p.date;
+  if (snapDate) await loadSnapshot(snapDate);
+  renderHeadline();
+  renderLegend();
+  if (selected && fc().districts[selected]) showDistrict(selected);
+  else overview();
+  syncHash();
+  updateSnapBanner();
 }
 
 async function setView(v, keepDistrict, date) {
@@ -371,9 +323,9 @@ async function setView(v, keepDistrict, date) {
   const snapUI = document.getElementById("snap-ui");
   if (snapUI) snapUI.hidden = v !== "model2" || !timeline;
   await loadForecast(v);
-  if (v === "model2" && timeline) {
+  if (v === "model2" && tl && timeline) {
     const i = date ? timeline.points.findIndex((p) => p.date === date) : -1;
-    await goToDay(i >= 0 ? pointDays[i] : totalDays);
+    if (i >= 0) tl.setMark(i); else tl.setDay(tl.totalDays);
   } else if (v === "model2") {
     snapDate = null;
   }
@@ -421,38 +373,15 @@ async function init() {
   document.getElementById("btn-model2").addEventListener("click", () => setView("model2", selected));
 
   timeline = await fetch("/data/snapshots/map_timeline.json").then((r) => (r.ok ? r.json() : null)).catch(() => null);
-  const slider = document.getElementById("snap-slider");
-  if (timeline && slider && timeline.points.length) {
-    const pts = timeline.points;
-    const d0 = dayOf(pts[0].date);
-    pointDays = pts.map((p) => dayOf(p.date) - d0);
-    totalDays = pointDays[pointDays.length - 1];
-    interpT = totalDays;
-    shownMark = pointDays.length - 1;
-    slider.min = 0;
-    slider.max = totalDays;
-    slider.step = "any";
-    slider.value = totalDays;
-    const pct = (i) => `${(100 * pointDays[i] / totalDays).toFixed(3)}%`;
-    // labels closer than ~9% to the next one get thinned on narrow screens (Latest stays visible)
-    const tight = (i) => i < pts.length - 1 && pointDays[i + 1] - pointDays[i] < totalDays * 0.09 ? " thin" : "";
-    document.getElementById("snap-notches").innerHTML =
-      pts.map((p, i) => `<span class="notch${p.latest ? " latest" : ""}" style="left:${pct(i)}"></span>`).join("");
-    document.getElementById("snap-ticks").innerHTML =
-      pts.map((p, i) => `<span class="tl${tight(i)}" style="left:${pct(i)}">${p.latest ? "Latest" : esc(fmtSnapShort(p.date))}</span>`).join("");
-    let pending = false;
-    slider.addEventListener("input", () => {
-      if (pending) return;
-      pending = true;
-      requestAnimationFrame(async () => {
-        pending = false;
-        interpT = Number(slider.value);
-        await applyTimeline();
-      });
+  const snapUI = document.getElementById("snap-ui");
+  if (timeline && snapUI && timeline.points.length) {
+    tl = timelineSlider(snapUI, timeline.points, {
+      noteText: "Marks are model runs; the map blends between them.",
+      onBlend: (t, mark, frac) => { approx = frac > 0; districtLayer.setStyle(forecastStyle); },
+      onMark: onTimelineMark,
     });
-  } else {
-    const ui = document.getElementById("snap-ui");
-    if (ui) ui.hidden = true;
+  } else if (snapUI) {
+    snapUI.hidden = true;
   }
 
   // #model2, #model2@2026-10-13, #model2/Kew, #model2/Kew@2026-10-13, #Kew, #model1...
