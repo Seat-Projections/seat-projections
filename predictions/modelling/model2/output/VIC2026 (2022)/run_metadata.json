@@ -1,8 +1,8 @@
 {
   "model": "model2",
   "run_id": "VIC2026 (2022)",
-  "timestamp": "2026-11-09T11:13:46+00:00",
-  "git_commit": null,
+  "timestamp": "2026-11-16T00:43:12+00:00",
+  "git_commit": "7d53e62cefa319f9482b12d1be3c847c3fd57611",
   "runs": 5000,
   "seed": 1,
   "noise": {
@@ -59,17 +59,17 @@
     "primaries": "2022 VEC primaries, proportional swing to the 2026 polling average",
     "flows": "2022 VEC distributions (all districts)",
     "polls": {
-      "ALP": 22.7,
-      "LNP": 30.7,
-      "ON": 22.0,
-      "GRN": 14.9,
-      "OTH": 9.7
+      "ALP": 21.9,
+      "LNP": 31.3,
+      "ON": 21.6,
+      "GRN": 14.3,
+      "OTH": 10.9
     },
     "polls_used": [
       "Newspoll / Pyxis 2026-10-22",
       "demosau 2026-11-05",
-      "redbridge-accent 2026-10-08",
-      "resolve 2026-10-10",
+      "redbridge-accent 2026-11-10",
+      "resolve 2026-11-07",
       "roy-morgan 2026-10-29"
     ],
     "polls_source": "electiontracker.au/data/vic2026/polls.csv",
@@ -78,11 +78,11 @@
     "candidates": "data/2026/candidates_vic2026.csv (VEC nominations, closed 9 Nov 2026)"
   },
   "predicted_seats_mean": {
-    "ALP": 20.8,
-    "GRN": 8.06,
-    "IND*": 0.93,
-    "LP": 40.23,
-    "NP": 8.79,
-    "ON": 9.19
+    "ALP": 18.1,
+    "GRN": 7.92,
+    "IND*": 1.0,
+    "LP": 43.19,
+    "NP": 9.06,
+    "ON": 8.72
   }
 }

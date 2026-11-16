@@ -257,3 +257,69 @@ def test_name_casing():
     assert dn("MCRAE MCLEOD, Marley") == "Marley McRae McLeod"
     assert dn("WILSON") == "Wilson"  # bare surname (pair headings)
     assert dn("CUPPER, Ali") == "Ali Cupper"
+
+
+def test_snapshot_index_consistent():
+    import json
+    idx = json.loads((SITE_DIR / "data/snapshots/index.json").read_text())
+    dates = [s["date"] for s in idx["snapshots"]]
+    assert dates == sorted(dates)
+    for s in idx["snapshots"]:
+        f = SITE_DIR / "data/snapshots/model2" / f"{s['date']}.json"
+        assert f.is_file(), f"missing {f}"
+        doc = json.loads(f.read_text())
+        assert doc["meta"]["as_of"] == s["date"] and doc["meta"]["generated"] == s["generated"]
+    latest = json.loads((SITE_DIR / "data/model2_vic2026.json").read_text())
+    lb = {b["party"]: {k: b[k] for k in ("seats_mean", "seats_p10", "seats_p90", "p_majority")}
+          for b in latest["blocs"]}
+    assert idx["latest"]["blocs"] == lb
+
+
+def test_snapshots_respect_poll_cutoff_and_retrospective():
+    import csv, json
+    from datetime import date, timedelta
+    end_by_label = {}
+    for r in csv.DictReader(open(SITE_DIR.parent / "data/2026/polls_vic2026.csv")):
+        end_by_label[f"{r['pollster']} {r['fieldwork_end']}"] = date.fromisoformat(r["fieldwork_end"])
+    idx = json.loads((SITE_DIR / "data/snapshots/index.json").read_text())
+    today = date.today()
+    for s in idx["snapshots"]:
+        d = date.fromisoformat(s["date"])
+        for label in s["polls_used"]:
+            assert end_by_label[label] + timedelta(days=2) <= d, f"{s['date']}: {label} too new"
+        assert s["retrospective"] == (d < today)
+
+
+def test_robots_disallows_snapshots_sitemap_clean():
+    robots = (SITE_DIR / "robots.txt").read_text()
+    assert "Disallow: /data/snapshots/" in robots
+    sitemap = (SITE_DIR / "sitemap.xml").read_text()
+    assert "snapshots" not in sitemap
+
+
+def test_district_history_cards():
+    import json
+    idx = json.loads((SITE_DIR / "data/snapshots/index.json").read_text())
+    n = len(idx["snapshots"])
+    count = 0
+    for f in SITE_DIR.glob("districts/*/index.html"):
+        html = f.read_text()
+        assert "How the forecast has moved" in html
+        assert html.count('href="/#model2/') >= n + 1  # one per snapshot + Latest
+        count += 1
+    assert count == 88
+
+
+def test_map_timeline_shape():
+    import json
+    tl = json.loads((SITE_DIR / "data/snapshots/map_timeline.json").read_text())
+    dates = [p["date"] for p in tl["points"]]
+    assert dates == sorted(dates) and tl["points"][-1].get("latest")
+    n = len(dates)
+    latest = json.loads((SITE_DIR / "data/model2_vic2026.json").read_text())
+    for name, d in tl["districts"].items():
+        assert len(d["p"]) == n and all(len(row) == len(d["cands"]) for row in d["p"])
+        # latest point equals model2 p_win rounded to 3dp
+        lc = {c["id"]: round(c["p_win"], 3) for c in latest["districts"][name]["candidates"]}
+        for (cid, _), pv in zip(d["cands"], d["p"][-1]):
+            assert pv == lc.get(cid, 0.0)

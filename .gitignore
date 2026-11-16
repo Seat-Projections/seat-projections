@@ -38,3 +38,6 @@ data/federal/*/*
 !data/federal/*/district_flows_VIC.json
 !data/federal/*/district_flows_VIC.csv
 !data/federal/*/booth_districts_VIC.csv
+
+# Private outreach list
+list.txt

@@ -254,10 +254,16 @@ def central_count(cands: list[Cand], st, exhaust: bool = False) -> dict:
 
 # ---------------------------------------------------------------- primaries
 
-def poll_average(rows: list[dict], window_days: int = 35) -> dict[str, float]:
-    """Mean of each pollster's latest eligible poll ending within `window_days` of the latest poll; sums to 100."""
+def poll_average(rows: list[dict], window_days: int = 35, as_of=None, lag_days: int = 2) -> dict[str, float]:
+    """Mean of each pollster's latest eligible poll ending within `window_days` of the latest poll; sums to 100.
+    With as_of set, polls count only once fieldwork ended at least lag_days before as_of."""
     from datetime import date
     rows = [r for r in rows if r["eligible_for_average"] == "true"]
+    if as_of is not None:
+        cutoff = as_of if isinstance(as_of, date) else date.fromisoformat(as_of)
+        rows = [r for r in rows if (cutoff - date.fromisoformat(r["fieldwork_end"])).days >= lag_days]
+        if not rows:
+            raise ValueError(f"no eligible polls published by {cutoff}")
     end = max(date.fromisoformat(r["fieldwork_end"]) for r in rows)
     latest: dict[str, dict] = {}
     for r in sorted(rows, key=lambda r: r["fieldwork_end"]):

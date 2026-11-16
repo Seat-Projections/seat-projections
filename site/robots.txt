@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /data/snapshots/
 
 Sitemap: https://seatprojections.au/sitemap.xml

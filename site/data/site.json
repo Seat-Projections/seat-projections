@@ -2,7 +2,7 @@
  "brand": "Seat Projections",
  "domain": "seatprojections.au",
  "repo_url": "https://github.com/Seat-Projections/seat-projections",
- "build_date": "2026-11-09",
+ "build_date": "2026-11-16",
  "models": {
   "model1": {
    "model": "model1",
@@ -19,23 +19,23 @@
   "model2": {
    "model": "model2",
    "run_id": "VIC2026 (2022)",
-   "timestamp": "2026-11-09T11:13:46+00:00",
-   "git_commit": null,
+   "timestamp": "2026-11-16T00:43:12+00:00",
+   "git_commit": "7d53e62cefa319f9482b12d1be3c847c3fd57611",
    "runs": 5000,
    "seed": 1,
    "description": "Forecast Model (core-candidate heuristic): the declared 2026 candidates, 2022 primaries swung to the 2026 polling average, One Nation on its 2025 federal booth pattern, preferences fitted to the 2022 distributions.",
    "polls": {
-    "ALP": 22.7,
-    "LNP": 30.7,
-    "ON": 22.0,
-    "GRN": 14.9,
-    "OTH": 9.7
+    "ALP": 21.9,
+    "LNP": 31.3,
+    "ON": 21.6,
+    "GRN": 14.3,
+    "OTH": 10.9
    },
    "polls_used": [
     "Newspoll / Pyxis 2026-10-22",
     "demosau 2026-11-05",
-    "redbridge-accent 2026-10-08",
-    "resolve 2026-10-10",
+    "redbridge-accent 2026-11-10",
+    "resolve 2026-11-07",
     "roy-morgan 2026-10-29"
    ],
    "majority": 45
@@ -64,7 +64,7 @@
   },
   {
    "file": "model2_seat_probabilities.csv",
-   "size_kb": 38.5,
+   "size_kb": 38.6,
    "description": "Forecast Model: per-district win and final-two probabilities (VIC2026 (2022) run)"
   },
   {
@@ -79,7 +79,7 @@
   },
   {
    "file": "polls_vic2026.csv",
-   "size_kb": 7.6,
+   "size_kb": 8.5,
    "description": "2026 Victorian polling register used for the forecast model average (from electiontracker.au)"
   }
  ]

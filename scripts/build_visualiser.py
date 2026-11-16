@@ -227,6 +227,28 @@ FORECASTS = {
 }
 
 
+def forecast_doc(run_dir: Path, description: str) -> dict:
+    """Build the <model>_vic2026.json document from a model run directory
+    (district_counts.json, statewide_{seats,blocs}.csv, run_metadata.json)."""
+    meta = json.loads((run_dir / "run_metadata.json").read_text())
+
+    def read_seats(name: str) -> list[dict] | None:
+        if not (run_dir / name).exists():
+            return None
+        with (run_dir / name).open(encoding="utf-8") as f:
+            return [{k: (v if k == "party" else float(v)) for k, v in r.items()} for r in csv.DictReader(f)]
+
+    return {
+        "meta": {k: meta.get(k) for k in ("model", "run_id", "timestamp", "git_commit", "runs", "seed",
+                                          "as_of", "generated", "retrospective", "poll_cutoff")}
+                | {"description": description, "polls": meta["inputs"].get("polls"),
+                   "polls_used": meta["inputs"].get("polls_used"), "majority": 45},
+        "seats": read_seats("statewide_seats.csv"),
+        "blocs": read_seats("statewide_blocs.csv"),  # Liberals + Nationals summed run by run
+        "districts": json.loads((run_dir / "district_counts.json").read_text()),
+    }
+
+
 def build_forecasts() -> None:
     """visualiser/data/<model>_vic2026.json for each model whose 2026 run has a district_counts.json."""
     OUT.mkdir(parents=True, exist_ok=True)
@@ -235,20 +257,7 @@ def build_forecasts() -> None:
         if not (run_dir / "district_counts.json").exists():
             print(f"Skipped {model} view: no {run_dir.relative_to(ROOT)}/district_counts.json (run the model first)")
             continue
-        meta = json.loads((run_dir / "run_metadata.json").read_text())
-        def read_seats(name: str) -> list[dict] | None:
-            if not (run_dir / name).exists():
-                return None
-            with (run_dir / name).open(encoding="utf-8") as f:
-                return [{k: (v if k == "party" else float(v)) for k, v in r.items()} for r in csv.DictReader(f)]
-        seats, blocs = read_seats("statewide_seats.csv"), read_seats("statewide_blocs.csv")
-        out = {
-            "meta": {k: meta.get(k) for k in ("model", "run_id", "timestamp", "git_commit", "runs", "seed")}
-                    | {"description": description, "polls": meta["inputs"].get("polls"), "polls_used": meta["inputs"].get("polls_used"), "majority": 45},
-            "seats": seats,
-            "blocs": blocs,  # Liberals + Nationals summed run by run (statewide_blocs.csv)
-            "districts": json.loads((run_dir / "district_counts.json").read_text()),
-        }
+        out = forecast_doc(run_dir, description)
         (OUT / f"{model}_vic2026.json").write_text(json.dumps(out, separators=(",", ":")), encoding="utf-8")
         print(f"Wrote {(OUT / f'{model}_vic2026.json').relative_to(ROOT)} ({len(out['districts'])} districts)")
 

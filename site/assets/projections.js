@@ -9,8 +9,10 @@ let forecasts = {};
 let regionFilter = null;
 let selected = null;
 let districtLayer = null;
+let snapDate = null;           // null = latest forecast
+const snapDocs = {};           // date -> forecast doc
 
-const fc = () => forecasts[view];
+const fc = () => (view === "model2" && snapDate && snapDocs[snapDate]) || forecasts[view];
 const dispName = (n) => {
   if (!n || !n.includes(",")) return n;
   const [sur, ...rest] = n.split(",");
@@ -26,7 +28,23 @@ const loadForecast = async (model) => (forecasts[model] ||= await fetch(`/data/$
   return r.json();
 }));
 
+const loadSnapshot = async (date) => (snapDocs[date] ||= await fetch(`/data/snapshots/model2/${date}.json`).then((r) => {
+  if (!r.ok) throw new Error(`data/snapshots/model2/${date}.json missing — run scripts/build_site.py`);
+  return r.json();
+}));
+
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const fmtSnapDate = (d) => {
+  const [y, m, day] = d.split("-").map(Number);
+  return `${day} ${MONTHS[m - 1]} ${y}`;
+};
+const fmtSnapShort = (d) => `${Number(d.split("-")[2])} ${MONTHS[Number(d.split("-")[1]) - 1]}`;
+
 function favourite(name) {
+  if (view === "model2" && timeline) {
+    const row = blendedRow(name);
+    return row ? row.reduce((a, c) => (c.p_win > a.p_win ? c : a)) : null;
+  }
   const d = fc() && fc().districts[name];
   return d ? d.candidates.reduce((a, c) => (c.p_win > a.p_win ? c : a)) : null;
 }
@@ -50,6 +68,13 @@ function forecastStyle(feature) {
 
 function forecastTooltip(layer) {
   const name = layer.feature.properties.district;
+  if (view === "model2" && timeline) {
+    const row = blendedRow(name);
+    if (!row) return `<b>${esc(name)}</b>`;
+    const top = [...row].sort((a, b) => b.p_win - a.p_win).filter((c) => c.p_win >= 0.01).slice(0, 3);
+    const approxMark = approx ? "≈" : "";
+    return `<b>${esc(name)}</b><br>${top.map((c) => `<span class="swatch" style="background:${pcolour(c.party)}"></span>${esc(pname(c.party))} ${approxMark}${Math.round(100 * c.p_win)}%`).join("<br>")}`;
+  }
   const d = fc() && fc().districts[name];
   if (!d) return `<b>${esc(name)}</b>`;
   const top = [...d.candidates].sort((a, b) => b.p_win - a.p_win).filter((c) => c.p_win >= 0.01).slice(0, 3);
@@ -94,15 +119,23 @@ function renderHeadline() {
 
 function overview() {
   const m = fc().meta;
+  const banner = snapBannerHTML();
   const close = Object.entries(fc().districts)
     .map(([n, d]) => [n, favourite(n)])
     .filter(([, f]) => f && f.p_win < 0.6)
     .sort((a, b) => a[1].p_win - b[1].p_win);
   document.getElementById("panel-title").textContent = "Victoria overview";
   document.getElementById("dpanel").innerHTML = `
-    ${m.polls ? `<h4>Polling average used (forecast model)</h4>
-      <table><tr><th>Party</th><th class="r">Primary</th></tr>
-      ${Object.entries(m.polls).map(([k, v]) => `<tr><td><span class="swatch" style="background:${pcolour(k)}"></span>${esc({ LNP: "Coalition", OTH: "Others" }[k] || pname(k))}</td><td class="r num">${pct1(v)}</td></tr>`).join("")}</table>
+    ${banner}
+    ${m.polls ? `<h4>Primary vote and expected seats</h4>
+      <table><tr><th>Party</th><th class="r">Primary</th><th class="r">Expected seats</th></tr>
+      ${Object.entries(m.polls).map(([k, v]) => {
+        const seats = k === "OTH"
+          ? fc().blocs.filter((b) => !["COAL", "ALP", "ON", "GRN"].includes(b.party)).reduce((a, b) => a + b.seats_mean, 0)
+          : (fc().blocs.find((b) => b.party === (k === "LNP" ? "COAL" : k)) || { seats_mean: 0 }).seats_mean;
+        return `<tr><td><span class="swatch" style="background:${pcolour(k)}"></span>${esc({ LNP: "Coalition", OTH: "Others" }[k] || pname(k))}</td><td class="r num">${pct1(v)}</td><td class="r num"><b>${seats.toFixed(1)}</b></td></tr>`;
+      }).join("")}</table>
+      <p class="muted small">Primary = polling average used by the Forecast Model. Expected seats = mean across ${fmt(m.runs)} simulations (${m.majority} needed for a majority).</p>
       <p class="muted small">Each pollster&rsquo;s latest eligible poll within 35 days of the newest: ${esc((m.polls_used || []).join("; "))}. Source: electiontracker.au.</p>` : ""}
     <h4>Closest seats (${close.length} with no candidate above 60%)</h4>
     <table><tr><th>District</th><th>Favourite</th><th class="r">Chance</th></tr>
@@ -162,6 +195,7 @@ function showDistrict(name) {
   const party = Object.fromEntries(d.candidates.map((c) => [c.id, c.party]));
   const [w1, w2] = Object.keys(d.central.final);
   document.getElementById("dpanel").innerHTML = `
+    ${snapBannerHTML()}
     <p><a class="back-link" id="d-back">← Victoria overview</a> ·
        <a href="/districts/${districtSlug(name)}/">District page →</a></p>
     <h4>Chance of winning</h4>
@@ -200,14 +234,21 @@ function selectDistrict(name, zoom = false) {
     if (layer) map.flyToBounds(layer.getBounds(), { maxZoom: 11, duration: 0.6 });
   }
   showDistrict(name);
-  history.replaceState(null, "", `#${view}/${encodeURIComponent(name)}`);
+  syncHash();
 }
 
 function clearDistrict() {
   selected = null;
   districtLayer.setStyle(forecastStyle);
-  history.replaceState(null, "", `#${view}`);
+  syncHash();
   overview();
+}
+
+function syncHash() {
+  let h = `#${view}`;
+  if (selected) h += `/${encodeURIComponent(selected)}`;
+  if (view === "model2" && snapDate) h += `@${snapDate}`;
+  history.replaceState(null, "", h);
 }
 
 function renderChips(regions) {
@@ -236,16 +277,111 @@ function renderLegend() {
     + '<span class="muted">Darker = more likely</span>';
 }
 
-async function setView(v, keepDistrict) {
+/* ---------- forecast history (snapshots) ---------- */
+
+function snapBannerHTML() {
+  if (view !== "model2" || !snapDate) return "";
+  const m = fc().meta;
+  if (m.retrospective) {
+    return `<div class="snap-banner"><b>Retrospective estimate for polls to ${esc(fmtSnapDate(snapDate))}</b> — generated ${esc(fmtSnapDate(m.generated))} using only polls published by that date (fieldwork ended &ge;2 days earlier). Candidate list and model settings are the final November versions, so this is not a forecast we published on ${esc(fmtSnapDate(snapDate))}.</div>`;
+  }
+  return `<div class="snap-banner"><b>Forecast as published on ${esc(fmtSnapDate(snapDate))}</b></div>`;
+}
+
+function updateSnapBanner() {
+  const hero = document.getElementById("snap-banner");
+  if (!hero) return;
+  const b = snapBannerHTML();
+  hero.innerHTML = b;
+  hero.hidden = !b;
+}
+
+/* ---------- blended map timeline ---------- */
+
+let timeline = null;          // /data/snapshots/map_timeline.json
+let pointDays = [];           // day offset of each mark from the first point
+let totalDays = 0;
+let interpT = 0;              // slider position in days
+let shownMark = -1;           // timeline point whose figures are on the cards
+let approx = false;           // slider strictly between marks
+
+const dayOf = (iso) => Date.parse(`${iso}T00:00:00Z`) / 864e5;
+
+function markIndexAt(t) {
+  let i = 0;
+  while (i < pointDays.length - 1 && pointDays[i + 1] <= t + 1e-9) i++;
+  return i;
+}
+
+/* Interpolated p_win per candidate for one district at interpT. */
+function blendedRow(name) {
+  const td = timeline && timeline.districts[name];
+  if (!td) return null;
+  let i = pointDays.length - 1;
+  if (interpT < pointDays[i]) { i = 0; while (pointDays[i + 1] < interpT) i++; }
+  const j = Math.min(i + 1, pointDays.length - 1);
+  const span = pointDays[j] - pointDays[i];
+  const f = span ? (interpT - pointDays[i]) / span : 0;
+  return td.cands.map((c, k) => ({ id: c[0], party: c[1], p_win: td.p[i][k] + (td.p[j][k] - td.p[i][k]) * f }));
+}
+
+/* Cards/bar/panels always show a real mark (most recent at or before the slider);
+   refetch/re-render only when that mark changes. */
+async function applyTimeline() {
+  if (!timeline) return;
+  const mark = markIndexAt(interpT);
+  approx = interpT < pointDays[pointDays.length - 1] - 1e-9 && Math.abs(pointDays[mark] - interpT) > 0.01;
+  const p = timeline.points;
+  const label = document.getElementById("snap-label");
+  if (label) {
+    if (approx) {
+      const cur = new Date((dayOf(p[0].date) + interpT) * 864e5).toISOString().slice(0, 10);
+      const next = p[mark + 1].latest ? "Latest" : fmtSnapShort(p[mark + 1].date);
+      const figs = p[mark].latest ? "Latest" : fmtSnapShort(p[mark].date);
+      label.textContent = `${fmtSnapDate(cur)} — map blended between ${figs} and ${next} runs; figures show ${figs}`;
+    } else {
+      label.textContent = p[mark].latest ? `Latest · ${fmtSnapDate(p[mark].date)}` : `Polls to ${fmtSnapDate(p[mark].date)}`;
+    }
+  }
+  districtLayer.setStyle(forecastStyle);
+  if (mark !== shownMark) {
+    shownMark = mark;
+    snapDate = p[mark].latest ? null : p[mark].date;
+    if (snapDate) await loadSnapshot(snapDate);
+    renderHeadline();
+    renderLegend();
+    if (selected && fc().districts[selected]) showDistrict(selected);
+    else overview();
+    syncHash();
+    updateSnapBanner();
+  }
+}
+
+async function goToDay(t) {
+  interpT = t;
+  const slider = document.getElementById("snap-slider");
+  if (slider) slider.value = t;
+  await applyTimeline();
+}
+
+async function setView(v, keepDistrict, date) {
   view = v;
   document.getElementById("btn-model1").classList.toggle("on", v === "model1");
   document.getElementById("btn-model2").classList.toggle("on", v === "model2");
+  const snapUI = document.getElementById("snap-ui");
+  if (snapUI) snapUI.hidden = v !== "model2" || !timeline;
   await loadForecast(v);
+  if (v === "model2" && timeline) {
+    const i = date ? timeline.points.findIndex((p) => p.date === date) : -1;
+    await goToDay(i >= 0 ? pointDays[i] : totalDays);
+  } else if (v === "model2") {
+    snapDate = null;
+  }
   renderHeadline();
   districtLayer.setStyle(forecastStyle);
   renderLegend();
   if (keepDistrict && fc().districts[keepDistrict]) selectDistrict(keepDistrict);
-  else { selected = null; overview(); history.replaceState(null, "", `#${view}`); }
+  else { selected = null; overview(); syncHash(); }
 }
 
 async function init() {
@@ -284,14 +420,48 @@ async function init() {
   document.getElementById("btn-model1").addEventListener("click", () => setView("model1", selected));
   document.getElementById("btn-model2").addEventListener("click", () => setView("model2", selected));
 
-  const m = location.hash.match(/^#(model[12])(?:\/(.+))?$/) || location.hash.match(/^#(.+)$/);
-  if (m && m[1] && !m[1].startsWith("model")) {
-    await setView("model2", decodeURIComponent(m[1]));
-  } else if (m) {
-    await setView(m[1], m[2] ? decodeURIComponent(m[2]) : null);
+  timeline = await fetch("/data/snapshots/map_timeline.json").then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  const slider = document.getElementById("snap-slider");
+  if (timeline && slider && timeline.points.length) {
+    const pts = timeline.points;
+    const d0 = dayOf(pts[0].date);
+    pointDays = pts.map((p) => dayOf(p.date) - d0);
+    totalDays = pointDays[pointDays.length - 1];
+    interpT = totalDays;
+    shownMark = pointDays.length - 1;
+    slider.min = 0;
+    slider.max = totalDays;
+    slider.step = "any";
+    slider.value = totalDays;
+    const pct = (i) => `${(100 * pointDays[i] / totalDays).toFixed(3)}%`;
+    // labels closer than ~9% to the next one get thinned on narrow screens (Latest stays visible)
+    const tight = (i) => i < pts.length - 1 && pointDays[i + 1] - pointDays[i] < totalDays * 0.09 ? " thin" : "";
+    document.getElementById("snap-notches").innerHTML =
+      pts.map((p, i) => `<span class="notch${p.latest ? " latest" : ""}" style="left:${pct(i)}"></span>`).join("");
+    document.getElementById("snap-ticks").innerHTML =
+      pts.map((p, i) => `<span class="tl${tight(i)}" style="left:${pct(i)}">${p.latest ? "Latest" : esc(fmtSnapShort(p.date))}</span>`).join("");
+    let pending = false;
+    slider.addEventListener("input", () => {
+      if (pending) return;
+      pending = true;
+      requestAnimationFrame(async () => {
+        pending = false;
+        interpT = Number(slider.value);
+        await applyTimeline();
+      });
+    });
   } else {
-    await setView("model2");
+    const ui = document.getElementById("snap-ui");
+    if (ui) ui.hidden = true;
   }
+
+  // #model2, #model2@2026-10-13, #model2/Kew, #model2/Kew@2026-10-13, #Kew, #model1...
+  const m = location.hash.match(/^#(model[12])?(?:\/([^@/]+))?(?:@(\d{4}-\d{2}-\d{2}))?$/)
+    || location.hash.match(/^#([^@/]+)$/);
+  let [, vm, dist, date] = m || [];
+  if (vm && !vm.startsWith("model")) { dist = vm; vm = "model2"; }
+  if (vm === "model1") await setView("model1", dist ? decodeURIComponent(dist) : null);
+  else await setView("model2", dist ? decodeURIComponent(dist) : null, date);
 }
 
 init().catch((e) => {

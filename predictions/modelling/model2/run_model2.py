@@ -75,7 +75,7 @@ def read_csv(path: Path) -> list[dict]:
         return list(csv.DictReader(f))
 
 
-def setup(r: Run):
+def setup(r: Run, as_of=None):
     """Seats, flows_for(district), primaries(rng) and input metadata for a run."""
     if not r.distributions.exists():
         raise SystemExit(f"Needs {r.distributions.relative_to(ROOT)}: run scripts/fetch_state_dops.py")
@@ -94,7 +94,7 @@ def setup(r: Run):
     if not CANDIDATES.exists():
         raise SystemExit(f"Needs {CANDIDATES.relative_to(ROOT)}: run scripts/fetch_vic2026_candidates.py")
     base = model2.baseline_2026(seats, read_csv(CANDIDATES), on, read_csv(INDEPENDENTS))
-    polls = model2.poll_average(read_csv(POLLS))
+    polls = model2.poll_average(read_csv(POLLS), as_of=as_of)
     fit = model2.fit_flows(obs)
     meta = {"primaries": "2022 VEC primaries, proportional swing to the 2026 polling average", "flows": "2022 VEC distributions (all districts)",
             "polls": {k: round(v, 2) for k, v in polls.items() if k != "_polls"}, "polls_used": polls["_polls"], "polls_source": "electiontracker.au/data/vic2026/polls.csv",
@@ -161,13 +161,13 @@ def district_counts(sim: dict, seats, flows_for, r: Run, top: int = 5) -> dict:
     return out
 
 
-def run(run_id: str, runs: int, seed: int) -> dict:
+def run(run_id: str, runs: int, seed: int, as_of=None, out_dir=None) -> dict:
     r = RUNS[run_id]
-    seats, flows_for, primaries, inputs = setup(r)
+    seats, flows_for, primaries, inputs = setup(r, as_of=as_of)
     majority = len(seats) // 2 + 1
     sim = model2.simulate(seats, flows_for, primaries, runs=runs, seed=seed, majority=majority,
                           on_priors=r.mode == "forecast", exhaust=r.exhaust)
-    out = HERE / "output" / run_id
+    out = out_dir or HERE / "output" / run_id
     out.mkdir(parents=True, exist_ok=True)
     party = {d: {c.cid: c.party for c in s.cands} for d, s in seats.items()}
 
@@ -199,13 +199,19 @@ def run(run_id: str, runs: int, seed: int) -> dict:
     (out / "district_counts.json").write_text(json.dumps(district_counts(sim, seats, flows_for, r), separators=(",", ":")), encoding="utf-8")
 
     commit = subprocess.run(["git", "rev-parse", "HEAD"], capture_output=True, text=True, cwd=ROOT).stdout.strip() or None
+    generated = datetime.now(timezone.utc)
     meta = {"model": "model2", "run_id": run_id,
-            "timestamp": datetime.now(timezone.utc).isoformat(timespec="seconds"), "git_commit": commit, "runs": runs, "seed": seed,
+            "timestamp": generated.isoformat(timespec="seconds"), "git_commit": commit, "runs": runs, "seed": seed,
             "noise": model2.NOISE, "on_priors": model2.ON_PRIORS if r.mode == "forecast" else None, "exhaust": r.exhaust,
             "core_rule": {"top": model2.CORE_TOP, "share": model2.CORE_SHARE},
             "inputs": {"state": r.state, "state_election": r.election, "districts": len(seats),
                        "baseline": f"{r.state} {r.election[:4]} actual primaries" if r.mode == "replay" else "VEC 2022 state election",
                        "federal_election": None, "winners": r.winners} | inputs}
+    if as_of is not None:
+        meta["as_of"] = as_of.isoformat()
+        meta["generated"] = generated.date().isoformat()
+        meta["poll_cutoff"] = "fieldwork ended at least 2 days before as_of"
+        meta["retrospective"] = as_of < generated.date()
     if r.winners:
         tables = json.loads(r.distributions.read_text())
         forecast = load_forecast(out / "seat_probabilities.csv")
@@ -219,13 +225,53 @@ def run(run_id: str, runs: int, seed: int) -> dict:
     return meta
 
 
+def snapshot_schedule(poll_rows, start: str = "2026-09-01", step_days: int = 14, today=None) -> list:
+    """Dates every step_days from start through today; keep a date only if its
+    poll set differs from the previous kept snapshot's (monthly when polls are slow)."""
+    from datetime import date, timedelta
+    today = today or date.today()
+    d0 = date.fromisoformat(start)
+    kept, prev = [], None
+    d = d0
+    while d <= today:
+        try:
+            pu = tuple(model2.poll_average(poll_rows, as_of=d)["_polls"])
+        except ValueError:
+            d += timedelta(days=step_days)
+            continue
+        if pu != prev:
+            kept.append(d)
+            prev = pu
+        d += timedelta(days=step_days)
+    return kept
+
+
+SNAPSHOT_ROOT = HERE / "output" / "VIC2026 snapshots"
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Model 2: core-candidate heuristic")
     parser.add_argument("run_ids", nargs="*", help=f"Runs: {list(RUNS)}")
     parser.add_argument("--all", action="store_true", help="every run")
     parser.add_argument("--runs", type=int, default=5000)
     parser.add_argument("--seed", type=int, default=1)
+    parser.add_argument("--as-of", metavar="YYYY-MM-DD", help="forecast with polls as of this date (VIC2026 only)")
+    parser.add_argument("--snapshots", action="store_true", help="run the VIC2026 forecast-history snapshot schedule")
+    parser.add_argument("--force", action="store_true", help="overwrite existing snapshot dirs")
     args = parser.parse_args()
+    if args.as_of or args.snapshots:
+        from datetime import date
+        poll_rows = read_csv(POLLS)
+        dates = snapshot_schedule(poll_rows) if args.snapshots else [date.fromisoformat(args.as_of)]
+        for d in dates:
+            out_dir = SNAPSHOT_ROOT / d.isoformat()
+            if out_dir.exists() and not args.force:
+                print(f"{d}: snapshot exists, skipping (use --force)", flush=True)
+                continue
+            meta = run("VIC2026 (2022)", args.runs, args.seed, as_of=d, out_dir=out_dir)
+            seats = ", ".join(f"{p} {v:.1f}" for p, v in sorted(meta["predicted_seats_mean"].items(), key=lambda kv: -kv[1]) if v >= 0.05)
+            print(f"{d}: {seats}", flush=True)
+        return
     unknown = [r for r in args.run_ids if r not in RUNS]
     if unknown:
         raise SystemExit(f"Unknown run(s) {unknown}; choose from {list(RUNS)}")

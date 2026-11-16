@@ -45,8 +45,8 @@
       <!-- forecast-chips -->
       <span class="chips">
         <span class="h-label">2026 forecast</span>
-        <span class="chip"><i class="dot" style="background:var(--lp)"></i>COA 49</span>
-        <span class="chip"><i class="dot" style="background:var(--alp)"></i>ALP 21</span>
+        <span class="chip"><i class="dot" style="background:var(--lp)"></i>COA 52</span>
+        <span class="chip"><i class="dot" style="background:var(--alp)"></i>ALP 18</span>
         <span class="chip"><i class="dot" style="background:var(--on)"></i>ONP 9</span>
         <span class="chip"><i class="dot" style="background:var(--grn)"></i>GRN 8</span>
         <span class="chip"><i class="dot" style="background:var(--ind)"></i>IND 1</span>
@@ -125,6 +125,26 @@ core stage: exclude the lowest core candidate; their pile splits between the
         is maintained from <a href="https://electiontracker.au">electiontracker.au</a>.</p>
     </div>
     <div class="card card-pad" id="polls-card" style="max-width:46rem;margin-top:1rem"></div>
+  </section>
+  <section class="section" id="history">
+    <span class="eyebrow">Forecast history</span>
+    <h2 style="font-family:var(--serif);font-size:1.625rem;font-weight:600;letter-spacing:-0.01em;margin:0.25rem 0 1rem">Forecast history</h2>
+    <div class="prose" style="max-width:46rem">
+      <p>Snapshots of the forecast are taken every two weeks from 1 September 2026, skipping any
+        date whose polling average would be identical to the previous kept snapshot&rsquo;s (so the
+        cadence stretches to roughly monthly when few polls are published). A snapshot uses only
+        polls whose fieldwork ended at least two days before the snapshot date, as a proxy for
+        publication.</p>
+      <p>The backfilled snapshots up to 10 November 2026 are <b>retrospective</b>: they were
+        generated on 16 November 2026 with the final candidate fields and current model settings,
+        so they show what the model would have said, not forecasts published on those dates.
+        Snapshots made from now on are frozen when generated.</p>
+      <p>Drag the timeline under the forecast map on the <a href="/">projections page</a>: the marks
+        are the model runs above, and the map blends seat probabilities between them (cards and
+        figures always show a real run, not a blend). Open a snapshot directly,
+        e.g. <a href="/#model2@2026-10-13">/#model2@2026-10-13</a>. Reproduce with
+        <code>run_model2.py --snapshots</code> or <code>--as-of YYYY-MM-DD</code>.</p>
+    </div>
   </section>
   <section class="section" id="benchmarks">
     <span class="eyebrow">Backtests</span>

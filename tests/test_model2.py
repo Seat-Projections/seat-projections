@@ -147,3 +147,52 @@ def test_baseline_coalition_keeps_its_share_when_one_partner_stands() -> None:
     field = [{"district": "S", "candidate": "NAT, New", "party_group": "NP"}, {"district": "S", "candidate": "ALP, New", "party_group": "ALP"}]
     base = model2.baseline_2026(seats, field, {"S": 1.0}, [])
     assert base.shares["S"]["NAT, New"] == pytest.approx(50.0)  # the Nationals inherit the absent Liberals' 20%
+
+
+def _poll(pollster, end, eligible="true", alp="30", lnp="30", onp="20", grn="10", others="10"):
+    return {"pollster": pollster, "fieldwork_end": end, "alp": alp, "lnp": lnp,
+            "onp": onp, "grn": grn, "others": others, "eligible_for_average": eligible}
+
+
+def test_poll_average_as_of_publication_lag() -> None:
+    rows = [_poll("a", "2026-10-11"), _poll("b", "2026-10-12"), _poll("a", "2026-10-01")]
+    avg = model2.poll_average(rows, as_of="2026-10-13")          # ends 11 Oct: +2 = 13 Oct, counts
+    assert avg["_polls"] == ["a 2026-10-11"]
+    avg = model2.poll_average(rows, as_of="2026-10-14")          # ends 12 Oct: +2 = 14 Oct, counts
+    assert sorted(avg["_polls"]) == ["a 2026-10-11", "b 2026-10-12"]
+    avg = model2.poll_average(rows, as_of="2026-10-12")          # 11/12 Oct still unpublished; 1 Oct poll stands
+    assert avg["_polls"] == ["a 2026-10-01"]
+    with pytest.raises(ValueError):
+        model2.poll_average(rows, as_of="2026-10-02")            # nothing published yet
+
+
+def test_poll_average_as_of_none_unchanged() -> None:
+    rows = [_poll("a", "2026-10-01"), _poll("a", "2026-11-01", alp="20", lnp="40"),
+            _poll("b", "2026-10-20", alp="24", lnp="36"), _poll("d", "2026-08-01")]
+    avg = model2.poll_average(rows)
+    assert avg["ALP"] == pytest.approx(22.0) and len(avg["_polls"]) == 2
+
+
+def test_poll_average_as_of_window_anchors_to_newest_remaining() -> None:
+    # as_of cuts the newest poll; the 35-day window re-anchors to the poll before it.
+    rows = [_poll("a", "2026-11-01"), _poll("b", "2026-08-01"),
+            _poll("c", "2026-09-05", alp="40", lnp="20")]
+    avg = model2.poll_average(rows, as_of="2026-10-01")
+    assert sorted(avg["_polls"]) == ["b 2026-08-01", "c 2026-09-05"]  # a excluded; window anchored to c, b within 35d
+    avg = model2.poll_average(rows, as_of="2026-09-01")
+    assert avg["_polls"] == ["b 2026-08-01"]                          # only b published; window anchored to it
+
+
+def test_snapshot_schedule_every_14_days_and_dedupe() -> None:
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "predictions" / "modelling" / "model2"))
+    import run_model2  # noqa: E402
+    rows = [_poll("a", "2026-08-20"), _poll("b", "2026-09-10"), _poll("c", "2026-10-01")]
+    dates = run_model2.snapshot_schedule(rows, start="2026-09-01", today=__import__("datetime").date(2026, 10, 15))
+    # dates every 14 days from start; 09-29 skipped: its poll set {a,b} is identical to 09-15's
+    assert dates == [__import__("datetime").date(2026, 9, 1), __import__("datetime").date(2026, 9, 15),
+                     __import__("datetime").date(2026, 10, 13)]
+    # a poll published (end+2) before 09-29 changes that date's set, so 09-29 is kept too
+    rows3 = rows + [_poll("e", "2026-09-17")]
+    d = run_model2.snapshot_schedule(rows3, start="2026-09-01", today=__import__("datetime").date(2026, 10, 15))
+    assert d == [__import__("datetime").date(2026, 9, 1), __import__("datetime").date(2026, 9, 15),
+                 __import__("datetime").date(2026, 9, 29), __import__("datetime").date(2026, 10, 13)]

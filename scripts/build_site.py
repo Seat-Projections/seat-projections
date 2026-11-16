@@ -41,6 +41,8 @@ ARCHIVE = ROOT / "predictions" / "benchmarking" / "archive"
 MODEL1_CANDIDATES = ARCHIVE / "2026-11-09_model1_candidates" / "results.csv"
 MODEL2_CANDIDATES = ARCHIVE / "2026-11-09_model2_candidates" / "results.csv"
 
+from build_visualiser import FORECASTS, forecast_doc  # noqa: E402
+
 # Registered VEC party name -> party-group code used across the models
 PARTY_GROUP = {
     "Australian Labor Party - Victorian Branch": "ALP",
@@ -735,7 +737,8 @@ def pair_block(pr, cand_by_id):
     </div>'''
 
 
-def district_page(name, slug_, feature, m2d, m1d, base, run_date, header, footer):
+def district_page(name, slug_, feature, m2d, m1d, base, run_date, header, footer,
+                  snaps=None, model2_doc=None):
     fav = max(m2d["candidates"], key=lambda c: c["p_win"])
     cand_by_id = {c["id"]: c for c in m2d["candidates"]}
     f2 = base["final_two"]
@@ -789,6 +792,8 @@ def district_page(name, slug_, feature, m2d, m1d, base, run_date, header, footer
         <div class="dpanel">{pairs}</div>
         <p class="muted small">Each block is one possible final pair, with the 2CP split across the simulations where that pair was the final two.</p>
       </section>
+
+      {history_card(name, snaps or {}, model2_doc or {"districts": {name: m2d}})}
 
       <section class="card">
         <h3>Baseline Model</h3>
@@ -1009,7 +1014,108 @@ def write_seo(downloads, blocs):
         p.write_text(fill_marker(p.read_text(), "seo", seo_block(title, desc, path or "", jsonld, index=idx)))
 
 
-def write_district_pages(simp_features, baseline, model1_doc, model2_doc):
+SNAPSHOT_RUNS = ROOT / "predictions" / "modelling" / "model2" / "output" / "VIC2026 snapshots"
+
+MONTHS = ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+
+
+def load_snapshot_docs():
+    """Forecast Model history docs {date: doc} from output/VIC2026 snapshots/<date>/."""
+    docs = {}
+    if SNAPSHOT_RUNS.exists():
+        for d in sorted(p for p in SNAPSHOT_RUNS.iterdir() if p.is_dir()):
+            doc = forecast_doc(d, FORECASTS["model2"][1])
+            doc["meta"]["description"] = doc["meta"]["description"].replace(
+                "Model 2", "Forecast Model")
+            docs[d.name] = doc
+    return docs
+
+
+def _bloc_summary(doc):
+    return {b["party"]: {k: b[k] for k in ("seats_mean", "seats_p10", "seats_p90", "p_majority")}
+            for b in doc["blocs"]}
+
+
+def write_snapshots(snaps, model2_doc):
+    """site/data/snapshots/model2/<date>.json + index.json."""
+    snap_dir = DATA / "snapshots" / "model2"
+    snap_dir.mkdir(parents=True, exist_ok=True)
+    for old in snap_dir.glob("*.json"):
+        old.unlink()
+    entries = []
+    for date, doc in snaps.items():
+        (snap_dir / f"{date}.json").write_text(json.dumps(doc, separators=(",", ":")))
+        m = doc["meta"]
+        entries.append({"date": date, "generated": m["generated"],
+                        "retrospective": m["retrospective"],
+                        "polls": m["polls"], "polls_used": m["polls_used"],
+                        "blocs": _bloc_summary(doc)})
+    index = {"snapshots": entries,
+             "latest": {"generated": model2_doc["meta"]["timestamp"][:10],
+                        "polls_used": model2_doc["meta"]["polls_used"],
+                        "blocs": _bloc_summary(model2_doc)}}
+    (DATA / "snapshots" / "index.json").write_text(json.dumps(index, separators=(",", ":")))
+    write_map_timeline(snaps, model2_doc)
+
+
+def write_map_timeline(snaps, model2_doc):
+    """Compact per-district p_win series for the map timeline slider."""
+    docs = list(snaps.items()) + [(model2_doc["meta"]["timestamp"][:10], model2_doc)]
+    points = [{"date": d, "retrospective": doc["meta"].get("retrospective", False)}
+              for d, doc in docs]
+    points[-1] = {"date": model2_doc["meta"]["timestamp"][:10], "latest": True}
+    districts = {}
+    for name in model2_doc["districts"]:
+        ids = {c["id"] for doc_c in (d["districts"][name]["candidates"] for _, d in docs)
+               for c in doc_c if c["p_win"] >= 0.005}
+        cands, party = [], {}
+        for _, doc in docs:
+            for c in doc["districts"][name]["candidates"]:
+                if c["id"] in ids:
+                    party[c["id"]] = c["party"]
+        cands = [[cid, party[cid]] for cid in sorted(ids)]
+        p = [[round(next((c["p_win"] for c in doc["districts"][name]["candidates"]
+                          if c["id"] == cid), 0.0), 3) for cid, _ in cands]
+             for _, doc in docs]
+        districts[name] = {"cands": cands, "p": p}
+    out = {"points": points, "districts": districts}
+    (DATA / "snapshots" / "map_timeline.json").write_text(json.dumps(out, separators=(",", ":")))
+
+
+def history_card(name, snaps, model2_doc):
+    """'How the forecast has moved': win % for the latest top-3 candidates per snapshot."""
+    if not snaps:
+        return ""
+    enc = name.replace(" ", "%20")
+    top3 = [c for c in sorted(model2_doc["districts"][name]["candidates"],
+                              key=lambda c: -c["p_win"])[:3]]
+    head = "<th>Polls to</th>" + "".join(
+        f'<th class="r"><span class="swatch" style="background:{pcolour(c["party"])}"></span>'
+        f'{esc(disp_names(c["id"]))}</th>' for c in top3)
+
+    def win(doc, cid):
+        c = next((c for c in doc["districts"][name]["candidates"] if c["id"] == cid), None)
+        return f"{round(100 * c['p_win'])}%" if c else "&mdash;"
+
+    rows = "".join(
+        f'<tr><td><a href="/#model2/{enc}@{d}">{int(d[8:])} {MONTHS[int(d[5:7]) - 1]}</a></td>'
+        + "".join(f'<td class="r num">{win(doc, c["id"])}</td>' for c in top3) + "</tr>"
+        for d, doc in snaps.items())
+    rows += (f'<tr><td><a href="/#model2/{enc}"><b>Latest</b></a></td>'
+             + "".join(f'<td class="r num"><b>{win(model2_doc, c["id"])}</b></td>' for c in top3)
+             + "</tr>")
+    gen = next(reversed(snaps.values()))["meta"]["generated"]
+    return f"""
+      <section class="card">
+        <h3>How the forecast has moved</h3>
+        <table class="dtable"><tr>{head}</tr>{rows}</table>
+        <p class="muted small">Retrospective rows were generated on {int(gen[8:])} {MONTHS[int(gen[5:7]) - 1]} {gen[:4]} using only polls
+          published by each date; the candidate list and model settings are the final November
+          versions. <a href="/methodology/forecast/#history">Forecast history &rarr;</a></p>
+      </section>"""
+
+
+def write_district_pages(simp_features, baseline, model1_doc, model2_doc, snaps=None):
     header, footer = shared_chrome()
     feats = {f["properties"]["district"]: f for f in simp_features}
     run_date = (model2_doc["meta"].get("timestamp") or "")[:10]
@@ -1026,7 +1132,8 @@ def write_district_pages(simp_features, baseline, model1_doc, model2_doc):
         d.mkdir(parents=True, exist_ok=True)
         (d / "index.html").write_text(
             district_page(name, s, feats[name], m2d, model1_doc["districts"][name],
-                          base, run_date, header, footer))
+                          base, run_date, header, footer, snaps=snaps,
+                          model2_doc=model2_doc))
     (dist_dir / "index.html").write_text(districts_hub(rows, header, footer))
 
 
@@ -1043,7 +1150,8 @@ def write_sitemap():
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + body + "</urlset>\n")
     (SITE / "robots.txt").write_text(
-        "User-agent: *\nAllow: /\n\nSitemap: https://seatprojections.au/sitemap.xml\n")
+        "User-agent: *\nAllow: /\nDisallow: /data/snapshots/\n\n"
+        "Sitemap: https://seatprojections.au/sitemap.xml\n")
 
 
 def main() -> None:
@@ -1155,10 +1263,12 @@ def main() -> None:
     }
     (DATA / "site.json").write_text(json.dumps(site, indent=1) + "\n")
 
+    snaps = load_snapshot_docs()
+    write_snapshots(snaps, model2_doc)
     write_header_chips(model2_doc["blocs"])
     write_headline(model2_doc)
     write_seo(downloads, model2_doc["blocs"])
-    write_district_pages(simp_features, baseline, model1_doc, model2_doc)
+    write_district_pages(simp_features, baseline, model1_doc, model2_doc, snaps)
     write_sitemap()
 
     for path in sorted(DATA.rglob("*")):

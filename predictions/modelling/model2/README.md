@@ -220,6 +220,26 @@ Standard files from [`predictions/modelling/README.md`](../README.md#standard-ou
 `p_excluded_at_core[candidate]` — probability each core candidate is the one excluded at the core
 stage, which explains *why* a seat is uncertain.
 
+## Forecast history snapshots
+
+`run_model2.py` can run the `VIC2026 (2022)` forecast retrospectively. A poll enters the polling
+average once its fieldwork ended at least 2 days before the as-of date (a proxy for publication);
+the usual rule — each pollster's latest eligible poll within 35 days of the newest remaining poll —
+then applies unchanged. Candidate fields, independents and all model settings are whatever is in the
+repository at run time, so snapshots are *retrospective estimates*, not forecasts published on those
+dates (`run_metadata.json` records `as_of`, `generated`, `poll_cutoff` and `retrospective`).
+
+```bash
+run_model2.py --as-of 2026-10-13          # one date → output/VIC2026 snapshots/2026-10-13/
+run_model2.py --snapshots                 # every 14 days from 2026-09-01 to today
+run_model2.py --snapshots --force         # regenerate existing snapshot dirs
+```
+
+`--snapshots` skips a date whose polling set is identical to the previous kept snapshot's (roughly
+monthly when few polls are published) and never overwrites an existing snapshot without `--force`.
+Same runs/seed as the main forecast (5,000 / 1). `site/data/snapshots/` and the date slider on the
+site are built from these outputs by `scripts/build_site.py`.
+
 ## Variants
 
 Three count methods were compared on the 579-seat B1 replays (5,000 runs each) before settling on one:
@@ -319,11 +339,11 @@ NSW uses optional preferential voting: exhausted ballots are fitted as one more 
 count. In replays One Nation's flows are fitted like any other party's; its priors are used only in
 the 2026 forecast.
 
-`VIC2026 (2022)`, 5,000 runs, on the declared candidate fields, polls to 5 Nov 2026 (ALP 22.7,
-Coalition 30.7, One Nation 22.0, Greens 14.9, others 9.7 after normalising): Liberal 40.2, Labor 20.8,
-One Nation 9.2, Nationals 8.8, Greens 8.1, independents 0.9 mean seats; a majority needs 45, and the
-Liberals win 45+ on their own in 32% of runs. 29 seats have no candidate above 60%. These are
-placeholder-parameter results, not a final forecast. Frozen copy:
+`VIC2026 (2022)`, 5,000 runs, on the declared candidate fields, polls to 10 Nov 2026 (ALP 21.9,
+Coalition 31.3, One Nation 21.6, Greens 14.3, others 10.9 after normalising): Liberal 43.2, Labor 18.1,
+Nationals 9.1, One Nation 8.7, Greens 7.9, independents 1.0 mean seats; a majority needs 45, and the
+Liberals win 45+ on their own in 45% of runs. 25 seats have no candidate above 60%. These are
+placeholder-parameter results, not a final forecast. Frozen copy of the 9 Nov run (polls to 5 Nov):
 [`archive/2026-11-09_model2_candidates/`](../../benchmarking/archive/2026-11-09_model2_candidates/WRITEUP.md)
 (the earlier placeholder-field forecast is in `archive/2026-11-09_model2/`).
 

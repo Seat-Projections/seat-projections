@@ -64,7 +64,10 @@ All commands run from the repository root with the `.venv` from the setup step.
 
 Model 2's `"VIC2026 (2022)"` forecast requires model 1's `"VIC2026 (2025)"` output first (its One
 Nation pattern), plus `data/2026/candidates_vic2026.csv`, `independents_vic2026.csv` and
-`polls_vic2026.csv`.
+`polls_vic2026.csv`. The forecast-history snapshots behind the site's date slider are
+`run_model2.py --snapshots` (every 14 days from 2026-09-01, skipping dates with no new polls) or
+`--as-of YYYY-MM-DD` for a single date; outputs land in
+`predictions/modelling/model2/output/VIC2026 snapshots/<date>/`.
 
 **4. Score and archive:**
 
