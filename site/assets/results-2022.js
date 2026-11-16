@@ -7,14 +7,6 @@ let regionFilter = null;
 let districtLayer = null;
 let pendulumExpanded = false;
 
-const dispName = (n) => {
-  if (!n.includes(",")) return n;
-  const [sur, ...rest] = n.split(",");
-  const given = rest.join(",").trim();
-  const s = sur.trim().toLowerCase().replace(/(^|\s|-)(\w)/g, (m, p, c) => p + c.toUpperCase());
-  return given ? `${given} ${s}` : s;
-};
-
 function styleFor(feature) {
   const name = feature.properties.district;
   const d = BASELINE.districts[name];
