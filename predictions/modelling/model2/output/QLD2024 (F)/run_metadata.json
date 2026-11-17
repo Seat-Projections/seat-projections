@@ -1,0 +1,112 @@
+{
+  "model": "model2",
+  "run_id": "QLD2024 (F)",
+  "timestamp": "2026-11-16T11:51:37+00:00",
+  "git_commit": "e4dd593e0373ba5318e73fbc97e87f288afa454d",
+  "runs": 5000,
+  "seed": 1,
+  "noise": {
+    "poll_sd": 2.5,
+    "region_sd": 2.0,
+    "seat_sd": 3.5,
+    "flow_state": 0.15,
+    "flow_seat": 0.05
+  },
+  "on_priors": {
+    "ON->LP|LP,ALP": [
+      0.65,
+      0.8,
+      0.9
+    ],
+    "LP->ON|ON,ALP": [
+      0.45,
+      0.65,
+      0.8
+    ],
+    "ALP->LP|LP,ON": [
+      0.45,
+      0.6,
+      0.75
+    ],
+    "GRN->ON:ALP": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "RIGHT->ON:LP": [
+      1.0,
+      1.43,
+      2.0
+    ],
+    "OTHER->ON:LP": [
+      0.6,
+      0.86,
+      1.2
+    ]
+  },
+  "exhaust": false,
+  "core_rule": {
+    "top": 4,
+    "share": 0.05
+  },
+  "inputs": {
+    "state": "QLD",
+    "state_election": "2024-10-26",
+    "districts": 93,
+    "baseline": "previous election",
+    "federal_election": null,
+    "winners": "QLD2024",
+    "primaries": "QLD2020 actual primaries",
+    "flows": "previous election's distributions only (data/QLD2020/distributions/dop_QLD2020.json)",
+    "polls": {
+      "ALP": 31.92,
+      "LNP": 41.06,
+      "GRN": 11.58,
+      "ON": 8.76,
+      "OTH": 6.68
+    },
+    "poll_on_reported": true,
+    "poll_rows": [
+      "ucomms 2024-10-24",
+      "newspoll 2024-10-24",
+      "resolve 2024-10-19",
+      "yougov 2024-10-16",
+      "freshwater 2024-09-29"
+    ],
+    "polls_source": "data/benchmarks/polls/final_polls.csv",
+    "one_nation_pattern": "/Users/philip/Desktop/seat-projections/predictions/modelling/model1/output/QLD2024 (2022)/district_primaries.csv (federal booths, model1), elasticity 0.7",
+    "independents": {
+      "rule": "won the seat as an independent at the previous election, or >=10% primary there",
+      "credible": [
+        "BOLTON, Sandy (Noosa, 43.92%)"
+      ]
+    },
+    "candidates": "candidate field of the scored election (data/QLD2024/distributions/dop_QLD2024.json), nominations public before polling day",
+    "leakage_guard": "baseline, flows and poll target all predate the scored election; its distributions were read only for the candidate list and the final score"
+  },
+  "scores": {
+    "districts": 93,
+    "raw_seat_count": 79,
+    "brier": 0.2341,
+    "log_loss": 0.4096
+  },
+  "diagnostics": {
+    "final_two_accuracy": 0.9462,
+    "tcp_margin_mae": 4.49,
+    "t1_mae_pp": 2.6613
+  },
+  "actual_seats": {
+    "ALP": 36,
+    "GRN": 1,
+    "IND*": 1,
+    "KAP": 3,
+    "LNP": 52
+  },
+  "predicted_seats_mean": {
+    "ALP": 39.7,
+    "GRN": 3.39,
+    "IND*": 0.99,
+    "KAP": 3.47,
+    "LNP": 45.44
+  }
+}

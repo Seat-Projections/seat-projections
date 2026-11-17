@@ -24,7 +24,7 @@ parties actually standing (`data/2026/candidates_vic2026.csv`, from the VEC's li
 | **Declared 2026 field** | **59.1** | **10.2** | **9.8** | **6.8** | **2.1** | **0** |
 
 As a Coalition (Liberal + National seats added up in each simulation, `statewide_blocs.csv`): 19.9 seats
-(p10–p90 15–26); Labor 59.1 (53–65), majority in 99.9% of runs. The 2026 run was re-run after making its
+(p10-p90 15-26); Labor 59.1 (53-65), majority in 99.9% of runs. The 2026 run was re-run after making its
 random draws independent of Python's hash seed (`apply_state_field` built a set); results moved by
 under 0.1 seat.
 

@@ -14,7 +14,8 @@ from vic_election.benchmark import align_districts, load_winners_csv
 from vic_election.config import DATA_DIR, WINNERS_DIR
 from vic_election.state_dop import FETCHERS, validate
 
-ELECTIONS = {"QLD2020": ("QLD", 2020), "WA2021": ("WA", 2021), "SA2022": ("SA", 2022), "NSW2023": ("NSW", 2023),
+ELECTIONS = {"QLD2020": ("QLD", 2020), "WA2021": ("WA", 2021), "SA2022": ("SA", 2022),
+             "NSW2019": ("NSW", 2019), "NSW2023": ("NSW", 2023),
              "QLD2024": ("QLD", 2024), "WA2025": ("WA", 2025), "SA2026": ("SA", 2026)}
 
 
@@ -27,12 +28,13 @@ def main() -> None:
         out = DATA_DIR / run / "distributions" / f"dop_{run}.json"
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(json.dumps(tables, indent=1), encoding="utf-8")
-        declared = align_districts(load_winners_csv(WINNERS_DIR / f"{run}.csv"), list(tables))
+        winners_path = WINNERS_DIR / f"{run}.csv"
+        declared = align_districts(load_winners_csv(winners_path), list(tables)) if winners_path.exists() else None
         counted = {}
         for d, t in tables.items():
             party = {c["candidate_id"]: c["party"] for c in t["candidates"]}
             counted[d] = party[max(t["final_totals"], key=t["final_totals"].get)]
-        disagree = {d: (counted[d], declared[d]) for d in tables if counted[d] != declared[d]}
+        disagree = {} if declared is None else {d: (counted[d], declared[d]) for d in tables if counted[d] != declared[d]}
         exhausted = sum(s["exhausted"] for t in tables.values() for s in t["steps"]) / sum(t["formal_votes"] for t in tables.values())
         print(f"{run}: {len(tables)} districts, {sum(len(t['steps']) for t in tables.values())} exclusions, "
               f"exhausted {100 * exhausted:.2f}% of formal; count winner vs declared winner disagree in {len(disagree)}: {disagree}")

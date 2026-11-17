@@ -1,0 +1,1743 @@
+booth,district,weight
+104100,Mulgrave,1.0
+104111,Narre Warren South,1.0
+104120,Narre Warren South,1.0
+104131,Berwick,1.0
+104227,Sunbury,1.0
+104236,Monbulk,1.0
+104248,Ringwood,1.0
+104250,Glen Waverley,1.0
+104258,Mulgrave,1.0
+104263,Oakleigh,1.0
+104312,Box Hill,1.0
+104341,Ringwood,1.0
+104342,Ringwood,1.0
+104376,Footscray,1.0
+104377,Footscray,1.0
+104468,Footscray,1.0
+104469,Footscray,1.0
+104620,Sydenham,1.0
+104655,Ashwood,1.0
+104656,Oakleigh,1.0
+104661,Caulfield,1.0
+104685,Caulfield,1.0
+104728,Dandenong,1.0
+104735,Mulgrave,1.0
+104767,Oakleigh,1.0
+104790,Oakleigh,1.0
+104791,Mulgrave,1.0
+104793,Oakleigh,1.0
+104837,Eildon,1.0
+104871,Ashwood,1.0
+104966,Berwick,1.0
+105087,Eltham,1.0
+105331,Box Hill,1.0
+105337,Box Hill,1.0
+105435,Polwarth,1.0
+105494,Kororoit,1.0
+105495,Berwick,1.0
+105505,Pakenham,1.0
+105507,Richmond,1.0
+105508,Dandenong,1.0
+105509,Mornington,1.0
+105510,Eureka,1.0
+105514,Sydenham,1.0
+105516,Broadmeadows,1.0
+105517,St Albans,1.0
+105518,Sydenham,1.0
+108136,Berwick,1.0
+108154,Narre Warren South,1.0
+108184,Box Hill,1.0
+108200,Prahran,1.0
+108212,Prahran,1.0
+108323,Prahran,1.0
+108357,Albert Park,1.0
+108406,Polwarth,1.0
+108411,Bentleigh,1.0
+108412,Mildura,1.0
+108421,Bellarine,1.0
+108423,Essendon,1.0
+108476,Lowan,1.0
+108477,Greenvale,1.0
+108478,Werribee,1.0
+11513,Rowville,1.0
+11514,Ringwood,1.0
+11515,Sunbury,1.0
+11516,Sunbury,1.0
+11517,Nepean,1.0
+11518,Polwarth,1.0
+11520,Mornington,1.0
+11521,Ashwood,1.0
+11525,Croydon,1.0
+11527,Clarinda,1.0
+11529,Eltham,1.0
+11647,Cranbourne,1.0
+11649,Thomastown,1.0
+11651,Berwick,1.0
+11652,Mornington,1.0
+11655,Narre Warren South,1.0
+11656,Hastings,1.0
+11763,Prahran,1.0
+11875,Bulleen,1.0
+11876,Warrandyte,1.0
+11885,South Barwon,1.0
+11886,Frankston,1.0
+11888,Mordialloc,1.0
+11890,Mill Park,1.0
+11891,Euroa,1.0
+11892,Mildura,1.0
+11893,Richmond,1.0
+12078,Box Hill,1.0
+12079,Croydon,1.0
+12080,Niddrie,1.0
+12081,Eltham,1.0
+14318,Albert Park,1.0
+2942,Bayswater,1.0
+2945,Bayswater,1.0
+2948,Bayswater,1.0
+2949,Glen Waverley,1.0
+2950,Bayswater,1.0
+2951,Bayswater,1.0
+2952,Rowville,1.0
+2953,Ringwood,1.0
+2954,Ringwood,1.0
+2956,Rowville,1.0
+2957,Bayswater,1.0
+2958,Rowville,1.0
+2959,Rowville,1.0
+2960,Glen Waverley,1.0
+2961,Bayswater,1.0
+2962,Ringwood,1.0
+2963,Rowville,1.0
+2964,Rowville,1.0
+2965,Rowville,1.0
+2966,Rowville,1.0
+2969,Bayswater,1.0
+2970,Bayswater,1.0
+2971,Bayswater,1.0
+2973,Bayswater,1.0
+2974,Rowville,1.0
+2977,Wendouree,1.0
+2978,Wendouree,1.0
+2979,Ripon,1.0
+2982,Ripon,1.0
+2986,Wendouree,1.0
+2990,Wendouree,1.0
+2991,Wendouree,1.0
+2993,Wendouree,1.0
+2996,Ripon,1.0
+2998,Wendouree,1.0
+3002,Eureka,1.0
+3004,Eureka,1.0
+3005,Eureka,1.0
+3006,Ripon,1.0
+3007,Eureka,1.0
+3008,Eureka,1.0
+3009,Ripon,1.0
+3012,Ripon,1.0
+3014,Ripon,1.0
+3015,Ripon,1.0
+3018,Wendouree,1.0
+3019,Eureka,1.0
+3020,Polwarth,1.0
+3022,Ripon,1.0
+3027,Ripon,1.0
+3029,Lowan,1.0
+3032,Ripon,1.0
+3034,Ripon,1.0
+3035,Polwarth,1.0
+3037,Eureka,1.0
+3040,Ripon,1.0
+3042,Eureka,1.0
+3043,Eureka,1.0
+3045,Lowan,1.0
+3046,Ripon,1.0
+3048,Wendouree,1.0
+3049,Ripon,1.0
+3054,Wendouree,1.0
+3056,Eureka,1.0
+3057,Ripon,1.0
+3059,Wendouree,1.0
+3060,Ripon,1.0
+3063,Ripon,1.0
+3064,Wendouree,1.0
+3068,Eureka,1.0
+3072,Wendouree,1.0
+3074,Wendouree,1.0
+3075,Wendouree,1.0
+3078,Lowan,1.0
+3085,Northcote,1.0
+3086,Northcote,1.0
+3087,Preston,1.0
+3088,Preston,1.0
+3091,Northcote,1.0
+3095,Preston,1.0
+3096,Northcote,1.0
+3097,Northcote,1.0
+3098,Northcote,1.0
+3099,Northcote,1.0
+3101,Preston,1.0
+3102,Preston,1.0
+3104,Preston,1.0
+31044,Greenvale,1.0
+31046,Sydenham,1.0
+31047,Greenvale,1.0
+31048,St Albans,1.0
+3105,Northcote,1.0
+31050,Narre Warren South,1.0
+31051,Carrum,1.0
+31055,Tarneit,1.0
+31056,Tarneit,1.0
+31057,Berwick,1.0
+31058,Pakenham,1.0
+31059,Hastings,1.0
+3107,Preston,1.0
+3108,Preston,1.0
+3109,Preston,1.0
+3110,Preston,1.0
+3111,Preston,1.0
+3112,Preston,1.0
+3113,Preston,1.0
+3115,Preston,1.0
+3117,Northcote,1.0
+3118,Northcote,1.0
+3119,Northcote,1.0
+3125,Ripon,1.0
+3126,Ripon,1.0
+3129,Bendigo West,1.0
+31295,Nepean,1.0
+3132,Bendigo East,1.0
+3134,Bendigo East,1.0
+3136,Ripon,1.0
+3137,Ripon,1.0
+3139,Bendigo West,1.0
+3142,Bendigo West,1.0
+3143,Mildura,1.0
+3144,Bendigo West,1.0
+3145,Lowan,1.0
+31452,Mornington,1.0
+31462,Carrum,1.0
+31465,Nepean,1.0
+3147,Mildura,1.0
+3148,Ripon,1.0
+3149,Bendigo East,1.0
+31495,Pakenham,1.0
+3151,Bendigo East,1.0
+31536,Geelong,1.0
+31538,Narre Warren North,1.0
+3154,Bendigo West,1.0
+31542,Benambra,1.0
+31545,Monbulk,1.0
+3156,Bendigo East,1.0
+31573,Murray Plains,1.0
+31575,Sandringham,1.0
+3158,Lowan,1.0
+3159,Lowan,1.0
+31599,Lowan,1.0
+3160,Bendigo East,1.0
+3161,Ripon,1.0
+31613,Monbulk,1.0
+31621,Tarneit,1.0
+31622,Werribee,1.0
+31623,Werribee,1.0
+3164,Bendigo East,1.0
+3165,Bendigo West,1.0
+3166,Bendigo East,1.0
+31662,Gippsland East,1.0
+3169,Ripon,1.0
+31697,Hastings,1.0
+3171,Ripon,1.0
+3173,Bendigo West,1.0
+3174,Bendigo West,1.0
+31743,Rowville,1.0
+31744,Rowville,1.0
+3175,Bendigo West,1.0
+31762,Bentleigh,1.0
+31765,Sandringham,1.0
+31766,Croydon,1.0
+31767,Mill Park,1.0
+31768,Thomastown,1.0
+31769,Oakleigh,1.0
+3177,Bendigo West,1.0
+31772,Polwarth,1.0
+31773,South-West Coast,1.0
+31777,Ashwood,1.0
+31778,Clarinda,1.0
+3178,Ripon,1.0
+31783,Narre Warren North,1.0
+31788,Eltham,1.0
+3179,Ripon,1.0
+3180,Ripon,1.0
+3184,Ripon,1.0
+31844,Warrandyte,1.0
+3187,Bendigo East,1.0
+3188,Bendigo East,1.0
+3191,Bendigo East,1.0
+3192,Ripon,1.0
+3195,Bendigo East,1.0
+31954,Bendigo East,1.0
+31959,Werribee,1.0
+31974,Carrum,1.0
+3198,Bendigo East,1.0
+3199,Lowan,1.0
+32002,Bendigo West,1.0
+3202,Lowan,1.0
+3203,Bendigo East,1.0
+32033,Murray Plains,1.0
+32038,Albert Park,1.0
+3205,Ripon,1.0
+3206,Ripon,1.0
+32073,Lowan,1.0
+3209,Ripon,1.0
+32094,Bendigo West,1.0
+3210,Ripon,1.0
+32100,Gippsland East,1.0
+32107,Morwell,1.0
+32108,Ringwood,1.0
+3211,Bendigo East,1.0
+3212,Bendigo East,1.0
+3213,Bendigo East,1.0
+3220,Mulgrave,1.0
+3221,Glen Waverley,1.0
+3222,Mulgrave,1.0
+3223,Oakleigh,1.0
+3225,Oakleigh,1.0
+3227,Mulgrave,1.0
+3228,Glen Waverley,1.0
+3230,Glen Waverley,1.0
+32326,Bass,1.0
+3233,Glen Waverley,1.0
+3235,Glen Waverley,1.0
+3237,Mulgrave,1.0
+32372,Narre Warren South,1.0
+3238,Mulgrave,1.0
+3239,Oakleigh,1.0
+3241,Oakleigh,1.0
+3242,Ashwood,1.0
+3243,Mulgrave,1.0
+3246,Glen Waverley,1.0
+3247,Mulgrave,1.0
+3250,Lara,1.0
+3251,Bendigo East,1.0
+3252,Eureka,1.0
+32528,Narre Warren North,1.0
+3253,Eureka,1.0
+32535,Narre Warren North,1.0
+3258,Greenvale,1.0
+3259,Macedon,1.0
+3260,Macedon,1.0
+3263,Macedon,1.0
+3265,Bendigo West,1.0
+3266,Ripon,1.0
+3267,Bendigo West,1.0
+3268,Bendigo West,1.0
+3269,Bendigo West,1.0
+3273,Broadmeadows,1.0
+3275,Kalkallo,1.0
+3276,Eureka,1.0
+3277,Macedon,1.0
+3278,Macedon,1.0
+3280,Eureka,1.0
+3281,Macedon,1.0
+3282,Bendigo East,1.0
+32828,South Barwon,1.0
+32829,South Barwon,1.0
+3284,Macedon,1.0
+3286,Macedon,1.0
+3287,Eureka,1.0
+3288,Greenvale,1.0
+3289,Bendigo West,1.0
+32894,Bulleen,1.0
+3290,Bendigo West,1.0
+32904,Laverton,1.0
+32908,Point Cook,1.0
+3292,Euroa,1.0
+3293,Macedon,1.0
+32944,Evelyn,1.0
+32947,Box Hill,1.0
+32953,Warrandyte,1.0
+3298,Macedon,1.0
+3299,Macedon,1.0
+3302,Macedon,1.0
+3304,Bendigo West,1.0
+3305,Macedon,1.0
+33053,Richmond,1.0
+3306,Bendigo East,1.0
+33067,Polwarth,1.0
+3307,Broadmeadows,1.0
+33071,Hastings,1.0
+3308,Eureka,1.0
+33101,Sunbury,1.0
+33109,Mill Park,1.0
+3312,Eureka,1.0
+33121,South-West Coast,1.0
+33122,South-West Coast,1.0
+33123,Euroa,1.0
+33124,Ovens Valley,1.0
+33125,Ovens Valley,1.0
+33128,Niddrie,1.0
+3313,Macedon,1.0
+3316,Eureka,1.0
+3317,Macedon,1.0
+3318,Macedon,1.0
+3319,Bendigo West,1.0
+3320,Euroa,1.0
+3321,Euroa,1.0
+3322,Macedon,1.0
+3323,Macedon,1.0
+3326,Bendigo East,1.0
+33261,Footscray,1.0
+3327,Sunbury,1.0
+33282,Sydenham,1.0
+3329,Sunbury,1.0
+33295,Bass,1.0
+3330,Sunbury,1.0
+3332,Macedon,1.0
+3333,Euroa,1.0
+3334,Melton,1.0
+3335,Macedon,1.0
+3336,Macedon,1.0
+3337,Eureka,1.0
+3338,Bendigo West,1.0
+3339,Macedon,1.0
+3340,Macedon,1.0
+3346,Laverton,1.0
+3347,St Albans,1.0
+3348,Niddrie,1.0
+3350,Laverton,1.0
+3352,Sunbury,1.0
+3354,Laverton,1.0
+3355,St Albans,1.0
+3356,Niddrie,1.0
+3357,St Albans,1.0
+3358,Niddrie,1.0
+3359,Kororoit,1.0
+3361,St Albans,1.0
+3362,St Albans,1.0
+3363,St Albans,1.0
+3364,St Albans,1.0
+3365,St Albans,1.0
+3367,St Albans,1.0
+3372,Evelyn,1.0
+3373,Warrandyte,1.0
+3375,Evelyn,1.0
+3376,Croydon,1.0
+3378,Croydon,1.0
+3379,Croydon,1.0
+3380,Eltham,1.0
+3381,Eltham,1.0
+3383,Warrandyte,1.0
+3384,Evelyn,1.0
+3385,Eildon,1.0
+3386,Warrandyte,1.0
+3389,Evelyn,1.0
+3391,Evelyn,1.0
+3392,Evelyn,1.0
+3394,Ringwood,1.0
+3395,Eildon,1.0
+3396,Warrandyte,1.0
+3398,Ringwood,1.0
+3399,Ringwood,1.0
+3400,Warrandyte,1.0
+3401,Warrandyte,1.0
+34011,Warrandyte,1.0
+34017,Oakleigh,1.0
+3402,Evelyn,1.0
+3403,Eildon,1.0
+34031,Evelyn,1.0
+3404,Warrandyte,1.0
+3405,Warrandyte,1.0
+34056,Pascoe Vale,1.0
+3406,Warrandyte,1.0
+34061,Dandenong,1.0
+34062,Wendouree,1.0
+3409,Warrandyte,1.0
+34094,Kororoit,1.0
+3410,Eildon,1.0
+3411,Yan Yean,1.0
+3416,Ashwood,1.0
+3417,Ashwood,1.0
+3420,Box Hill,1.0
+3421,Box Hill,1.0
+3422,Box Hill,1.0
+34224,Narracan,1.0
+3424,Box Hill,1.0
+34245,Mill Park,1.0
+3425,Ashwood,1.0
+3426,Box Hill,1.0
+3427,Hawthorn,1.0
+34282,Malvern,1.0
+3429,Box Hill,1.0
+3430,Ashwood,1.0
+3431,Hawthorn,1.0
+3432,Hawthorn,1.0
+3435,Box Hill,1.0
+3438,Box Hill,1.0
+3439,Ashwood,1.0
+3440,Box Hill,1.0
+3441,Box Hill,1.0
+3443,Box Hill,1.0
+3449,Polwarth,1.0
+3451,Polwarth,1.0
+3452,Polwarth,1.0
+3454,Geelong,1.0
+3457,Bellarine,1.0
+3458,Polwarth,1.0
+3460,South Barwon,1.0
+3462,Polwarth,1.0
+3464,Geelong,1.0
+3465,Polwarth,1.0
+3467,South Barwon,1.0
+3468,Bellarine,1.0
+3470,Polwarth,1.0
+3472,Polwarth,1.0
+3474,South Barwon,1.0
+3475,Polwarth,1.0
+3476,Polwarth,1.0
+3477,Polwarth,1.0
+3478,Bellarine,1.0
+3479,Polwarth,1.0
+3480,Polwarth,1.0
+3481,South Barwon,1.0
+3483,Polwarth,1.0
+3487,South Barwon,1.0
+3488,South Barwon,1.0
+3490,Eureka,1.0
+3492,Polwarth,1.0
+3495,Polwarth,1.0
+3496,Bellarine,1.0
+3497,Eureka,1.0
+3498,Polwarth,1.0
+35015,Pascoe Vale,1.0
+35016,Bundoora,1.0
+3503,South Barwon,1.0
+3504,South Barwon,1.0
+3506,South Barwon,1.0
+35079,Glen Waverley,1.0
+3508,Bellarine,1.0
+3510,Bellarine,1.0
+3511,Bellarine,1.0
+3512,Bellarine,1.0
+3514,Bellarine,1.0
+3517,Eureka,1.0
+3518,Polwarth,1.0
+3519,Bellarine,1.0
+3520,Polwarth,1.0
+3523,Polwarth,1.0
+3524,Polwarth,1.0
+3528,Geelong,1.0
+35287,Hastings,1.0
+3530,Lara,1.0
+3532,Geelong,1.0
+3533,Geelong,1.0
+3535,Lara,1.0
+3536,Lara,1.0
+3538,Geelong,1.0
+3539,Geelong,1.0
+3540,Lara,1.0
+3541,Lara,1.0
+3543,Lara,1.0
+3544,Lara,1.0
+3545,Geelong,1.0
+3546,Geelong,1.0
+3547,Geelong,1.0
+3548,Lara,1.0
+3549,Lara,1.0
+3550,Lara,1.0
+3552,Geelong,1.0
+3554,Geelong,1.0
+3558,Ringwood,1.0
+3559,Box Hill,1.0
+3560,Ringwood,1.0
+3561,Box Hill,1.0
+3562,Glen Waverley,1.0
+3563,Glen Waverley,1.0
+3564,Glen Waverley,1.0
+3565,Ringwood,1.0
+3566,Ringwood,1.0
+3567,Glen Waverley,1.0
+3568,Ringwood,1.0
+3569,Glen Waverley,1.0
+3570,Box Hill,1.0
+3572,Ringwood,1.0
+3573,Ashwood,1.0
+3576,Ringwood,1.0
+3577,Glen Waverley,1.0
+3578,Ringwood,1.0
+3579,Ashwood,1.0
+3580,Glen Waverley,1.0
+3581,Ringwood,1.0
+3583,Ringwood,1.0
+3584,Glen Waverley,1.0
+3587,Frankston,1.0
+3588,Frankston,1.0
+3589,Frankston,1.0
+3590,Frankston,1.0
+3592,Frankston,1.0
+3593,Frankston,1.0
+3594,Frankston,1.0
+3596,Frankston,1.0
+3598,Frankston,1.0
+3599,Frankston,1.0
+3600,Frankston,1.0
+3601,Frankston,1.0
+3602,Frankston,1.0
+3603,Frankston,1.0
+3604,Mornington,1.0
+3605,Mornington,1.0
+3606,Mornington,1.0
+3607,Mornington,1.0
+3608,Mornington,1.0
+3609,Mornington,1.0
+3613,Hastings,1.0
+3614,Bass,1.0
+3615,Hastings,1.0
+3616,Bass,1.0
+3617,Hastings,1.0
+3618,Nepean,1.0
+3619,Nepean,1.0
+3622,Bass,1.0
+3623,Bass,1.0
+3625,Hastings,1.0
+3627,Bass,1.0
+3628,Bass,1.0
+3629,Nepean,1.0
+3631,Nepean,1.0
+3634,Bass,1.0
+3635,Hastings,1.0
+3636,Bass,1.0
+3637,Bass,1.0
+3639,Bass,1.0
+3640,Hastings,1.0
+36400,Sydenham,1.0
+3641,Gippsland South,1.0
+36414,Frankston,1.0
+36432,Mulgrave,1.0
+36435,Albert Park,1.0
+36440,Berwick,1.0
+36441,Narre Warren South,1.0
+36442,Narre Warren South,1.0
+36443,Point Cook,1.0
+3645,Mornington,1.0
+3646,Mornington,1.0
+3647,Bass,1.0
+3648,Gippsland South,1.0
+3649,Bass,1.0
+3650,Gippsland South,1.0
+3652,Nepean,1.0
+3653,Nepean,1.0
+3654,Bass,1.0
+3656,Nepean,1.0
+3657,Nepean,1.0
+3658,Nepean,1.0
+3660,Bass,1.0
+3661,Nepean,1.0
+3662,Hastings,1.0
+3663,Hastings,1.0
+3664,Nepean,1.0
+3665,Bass,1.0
+3666,Nepean,1.0
+3667,Hastings,1.0
+3669,Bass,1.0
+3671,Bass,1.0
+3676,Williamstown,1.0
+3677,Williamstown,1.0
+3678,Williamstown,1.0
+3681,Footscray,1.0
+3685,Footscray,1.0
+3686,Footscray,1.0
+3687,Footscray,1.0
+3688,Williamstown,1.0
+3692,Footscray,1.0
+3693,Williamstown,1.0
+3694,Williamstown,1.0
+3695,Williamstown,1.0
+3696,Footscray,1.0
+3697,Williamstown,1.0
+3698,Williamstown,1.0
+3699,St Albans,1.0
+3701,Laverton,1.0
+3702,Williamstown,1.0
+3703,Williamstown,1.0
+3704,Williamstown,1.0
+3705,Williamstown,1.0
+3706,Footscray,1.0
+3707,Footscray,1.0
+3713,Gippsland South,1.0
+3716,Gippsland South,1.0
+3718,Gippsland East,1.0
+3720,Gippsland East,1.0
+3722,Gippsland South,1.0
+3727,Gippsland East,1.0
+3729,Gippsland South,1.0
+3731,Gippsland East,1.0
+3732,Gippsland East,1.0
+3733,Gippsland East,1.0
+3741,Gippsland East,1.0
+3743,Gippsland East,1.0
+3744,Gippsland South,1.0
+3748,Gippsland South,1.0
+3750,Narracan,1.0
+3751,Gippsland South,1.0
+3753,Gippsland East,1.0
+3754,Narracan,1.0
+3757,Gippsland South,1.0
+3760,Gippsland South,1.0
+3763,Morwell,1.0
+3765,Gippsland East,1.0
+3766,Gippsland South,1.0
+3767,Gippsland South,1.0
+3770,Gippsland East,1.0
+3772,Bass,1.0
+3775,Gippsland South,1.0
+3776,Gippsland South,1.0
+3777,Gippsland South,1.0
+3778,Gippsland East,1.0
+3779,Gippsland South,1.0
+3780,Gippsland South,1.0
+3781,Gippsland East,1.0
+3783,Gippsland South,1.0
+3784,Gippsland South,1.0
+3786,Gippsland East,1.0
+3787,Gippsland East,1.0
+3789,Gippsland East,1.0
+3790,Gippsland South,1.0
+3792,Gippsland East,1.0
+3794,Gippsland South,1.0
+3796,Gippsland South,1.0
+3799,Gippsland South,1.0
+3800,Narracan,1.0
+3801,Gippsland South,1.0
+3802,Gippsland East,1.0
+3804,Gippsland East,1.0
+3805,Gippsland East,1.0
+3807,Gippsland East,1.0
+3808,Gippsland East,1.0
+3810,Gippsland East,1.0
+3811,Gippsland South,1.0
+3812,Gippsland South,1.0
+3815,Gippsland South,1.0
+3817,Gippsland South,1.0
+3818,Gippsland South,1.0
+3819,Gippsland South,1.0
+3820,Gippsland South,1.0
+3824,Gippsland East,1.0
+3827,Gippsland East,1.0
+38290,Cranbourne,1.0
+38292,Gippsland South,1.0
+38297,Ivanhoe,1.0
+38298,Mildura,1.0
+3830,Gippsland South,1.0
+38304,Melton,1.0
+38306,Hawthorn,1.0
+38307,Bass,1.0
+38309,Laverton,1.0
+3832,Narracan,1.0
+38335,Shepparton,1.0
+3834,Gippsland South,1.0
+3835,Gippsland South,1.0
+3836,Gippsland East,1.0
+3838,Gippsland South,1.0
+3840,Gippsland South,1.0
+38409,Eildon,1.0
+38411,Niddrie,1.0
+38413,Rowville,1.0
+38432,South-West Coast,1.0
+3844,Gippsland East,1.0
+3845,Gippsland South,1.0
+3846,Gippsland South,1.0
+3847,Gippsland South,1.0
+3852,Bentleigh,1.0
+3853,Bentleigh,1.0
+3854,Brighton,1.0
+3855,Brighton,1.0
+3857,Brighton,1.0
+3859,Caulfield,1.0
+3860,Caulfield,1.0
+3862,Brighton,1.0
+3864,Caulfield,1.0
+3865,Brighton,1.0
+3866,Brighton,1.0
+3867,Brighton,1.0
+3868,Sandringham,1.0
+3869,Sandringham,1.0
+3872,Sandringham,1.0
+3873,Brighton,1.0
+3874,Brighton,1.0
+3875,Brighton,1.0
+3877,Brighton,1.0
+3879,Caulfield,1.0
+3880,Prahran,1.0
+3881,Sandringham,1.0
+3882,Sandringham,1.0
+3887,Bentleigh,1.0
+3889,Oakleigh,1.0
+3890,Oakleigh,1.0
+3891,Malvern,1.0
+3893,Malvern,1.0
+3895,Bentleigh,1.0
+3896,Caulfield,1.0
+3897,Caulfield,1.0
+3899,Oakleigh,1.0
+3900,Bentleigh,1.0
+3902,Bentleigh,1.0
+3903,Malvern,1.0
+3904,Oakleigh,1.0
+3905,Oakleigh,1.0
+3906,Oakleigh,1.0
+3907,Oakleigh,1.0
+3909,Oakleigh,1.0
+3912,Bentleigh,1.0
+3913,Bentleigh,1.0
+3917,Malvern,1.0
+3918,Hawthorn,1.0
+3919,Ashwood,1.0
+3920,Hawthorn,1.0
+3921,Hawthorn,1.0
+3922,Ashwood,1.0
+3924,Caulfield,1.0
+3926,Caulfield,1.0
+3928,Caulfield,1.0
+3929,Caulfield,1.0
+3930,Malvern,1.0
+3932,Malvern,1.0
+3933,Ashwood,1.0
+3934,Ashwood,1.0
+3939,Malvern,1.0
+3940,Malvern,1.0
+3941,Malvern,1.0
+3942,Malvern,1.0
+3943,Malvern,1.0
+3944,Prahran,1.0
+3945,Malvern,1.0
+3946,Malvern,1.0
+3947,Malvern,1.0
+3956,Carrum,1.0
+3958,Dandenong,1.0
+3959,Bass,1.0
+3960,Cranbourne,1.0
+3961,Cranbourne,1.0
+3962,Dandenong,1.0
+3964,Dandenong,1.0
+3965,Dandenong,1.0
+3966,Narre Warren South,1.0
+3967,Narre Warren South,1.0
+3968,Mordialloc,1.0
+3970,Dandenong,1.0
+3972,Dandenong,1.0
+3974,Dandenong,1.0
+3976,Dandenong,1.0
+3977,Dandenong,1.0
+3978,Mulgrave,1.0
+3979,Carrum,1.0
+3981,Dandenong,1.0
+3982,Dandenong,1.0
+3983,Dandenong,1.0
+3988,Bentleigh,1.0
+3989,Bentleigh,1.0
+3990,Bentleigh,1.0
+3991,Clarinda,1.0
+3992,Clarinda,1.0
+3993,Clarinda,1.0
+3994,Clarinda,1.0
+3996,Clarinda,1.0
+3997,Mulgrave,1.0
+3998,Mulgrave,1.0
+4000,Clarinda,1.0
+4001,Clarinda,1.0
+4002,Clarinda,1.0
+4003,Bentleigh,1.0
+4004,Bentleigh,1.0
+4005,Bentleigh,1.0
+4007,Clarinda,1.0
+4008,Mulgrave,1.0
+4009,Clarinda,1.0
+4010,Mulgrave,1.0
+4011,Clarinda,1.0
+4012,Clarinda,1.0
+4014,Bentleigh,1.0
+4019,Benambra,1.0
+4020,Benambra,1.0
+4023,Benambra,1.0
+4024,Euroa,1.0
+4028,Benambra,1.0
+4029,Benambra,1.0
+4033,Ovens Valley,1.0
+4038,Benambra,1.0
+4039,Ovens Valley,1.0
+4040,Benambra,1.0
+4041,Benambra,1.0
+4043,Ovens Valley,1.0
+4046,Ovens Valley,1.0
+4047,Benambra,1.0
+4052,Ovens Valley,1.0
+4053,Ovens Valley,1.0
+4054,Euroa,1.0
+4059,Ovens Valley,1.0
+4060,Ovens Valley,1.0
+4062,Ovens Valley,1.0
+4063,Shepparton,1.0
+4065,Benambra,1.0
+4071,Ovens Valley,1.0
+4075,Ovens Valley,1.0
+4077,Ovens Valley,1.0
+4078,Ovens Valley,1.0
+4081,Ovens Valley,1.0
+4083,Shepparton,1.0
+4086,Ovens Valley,1.0
+4088,Benambra,1.0
+4089,Ovens Valley,1.0
+4091,Ovens Valley,1.0
+4092,Benambra,1.0
+4095,Benambra,1.0
+4097,Ovens Valley,1.0
+4098,Euroa,1.0
+4103,Ovens Valley,1.0
+4104,Benambra,1.0
+4105,Benambra,1.0
+4106,Ovens Valley,1.0
+4107,Ovens Valley,1.0
+4111,Ovens Valley,1.0
+4112,Ovens Valley,1.0
+4113,Ovens Valley,1.0
+4117,Benambra,1.0
+4119,Benambra,1.0
+4121,Benambra,1.0
+4122,Shepparton,1.0
+4124,Benambra,1.0
+4125,Ovens Valley,1.0
+4127,Ovens Valley,1.0
+4128,Ovens Valley,1.0
+4131,Mordialloc,1.0
+4133,Sandringham,1.0
+4135,Sandringham,1.0
+4136,Sandringham,1.0
+4138,Sandringham,1.0
+4139,Sandringham,1.0
+4140,Carrum,1.0
+4141,Carrum,1.0
+4142,Mordialloc,1.0
+4143,Mordialloc,1.0
+4144,Mordialloc,1.0
+4145,Sandringham,1.0
+4148,Mordialloc,1.0
+4150,Sandringham,1.0
+4154,Mordialloc,1.0
+4155,Mordialloc,1.0
+4156,Mordialloc,1.0
+4157,Mordialloc,1.0
+4158,Carrum,1.0
+4159,Carrum,1.0
+4160,Carrum,1.0
+4164,Ivanhoe,1.0
+4165,Bundoora,1.0
+4168,Ivanhoe,1.0
+4170,Bundoora,1.0
+4171,Ivanhoe,1.0
+4172,Ivanhoe,1.0
+4174,Ivanhoe,1.0
+4175,Ivanhoe,1.0
+4176,Ivanhoe,1.0
+4178,Ivanhoe,1.0
+4181,Bundoora,1.0
+4182,Ivanhoe,1.0
+4186,Ivanhoe,1.0
+4189,Ivanhoe,1.0
+4191,Bundoora,1.0
+4192,Bundoora,1.0
+4193,Bundoora,1.0
+4195,Bundoora,1.0
+4198,Hawthorn,1.0
+4199,Hawthorn,1.0
+4200,Kew,1.0
+4201,Kew,1.0
+4203,Kew,1.0
+4204,Kew,1.0
+4205,Kew,1.0
+4208,Kew,1.0
+4209,Hawthorn,1.0
+4210,Kew,1.0
+4212,Kew,1.0
+4213,Hawthorn,1.0
+4214,Kew,1.0
+4215,Kew,1.0
+4217,Hawthorn,1.0
+4218,Hawthorn,1.0
+4220,Hawthorn,1.0
+4222,Hawthorn,1.0
+4223,Kew,1.0
+4224,Kew,1.0
+4225,Kew,1.0
+4226,Kew,1.0
+4228,Kew,1.0
+4229,Kew,1.0
+4230,Hawthorn,1.0
+4236,Williamstown,1.0
+4237,Point Cook,1.0
+4238,Williamstown,1.0
+4240,Laverton,1.0
+4241,Tarneit,1.0
+4242,Kororoit,1.0
+4244,Kororoit,1.0
+4245,Melton,1.0
+4246,Melton,1.0
+4248,Laverton,1.0
+4249,Werribee,1.0
+4250,Melton,1.0
+4251,Melton,1.0
+4252,Melton,1.0
+4253,Tarneit,1.0
+4255,Kororoit,1.0
+4256,Williamstown,1.0
+4258,Werribee,1.0
+4259,Werribee,1.0
+4260,Werribee,1.0
+4261,Point Cook,1.0
+4262,Werribee,1.0
+4263,Melton,1.0
+4264,Tarneit,1.0
+4267,Berwick,1.0
+4268,Berwick,1.0
+4269,Monbulk,1.0
+4270,Monbulk,1.0
+4273,Bayswater,1.0
+4274,Bayswater,1.0
+4277,Dandenong,1.0
+4279,Narre Warren North,1.0
+4280,Narre Warren North,1.0
+4281,Narre Warren North,1.0
+4282,Monbulk,1.0
+4283,Monbulk,1.0
+4284,Monbulk,1.0
+4285,Monbulk,1.0
+4286,Narre Warren North,1.0
+4287,Narre Warren North,1.0
+4288,Narre Warren North,1.0
+4289,Berwick,1.0
+4291,Monbulk,1.0
+4292,Monbulk,1.0
+4296,Pakenham,1.0
+4298,Monbulk,1.0
+4299,Monbulk,1.0
+4300,Monbulk,1.0
+4301,Bayswater,1.0
+4302,Monbulk,1.0
+4303,Monbulk,1.0
+4307,Eildon,1.0
+4308,Bundoora,1.0
+4309,Eildon,1.0
+4310,Euroa,1.0
+4312,Kalkallo,1.0
+4313,Eildon,1.0
+4314,Eltham,1.0
+4315,Euroa,1.0
+4317,Macedon,1.0
+4318,Yan Yean,1.0
+4320,Eildon,1.0
+4321,Thomastown,1.0
+4322,Mill Park,1.0
+4323,Euroa,1.0
+4324,Eildon,1.0
+4325,Eildon,1.0
+4329,Eltham,1.0
+4330,Bundoora,1.0
+4333,Eildon,1.0
+4334,Yan Yean,1.0
+4335,Euroa,1.0
+4336,Eildon,1.0
+4337,Eildon,1.0
+4338,Euroa,1.0
+4339,Eildon,1.0
+4340,Yan Yean,1.0
+4343,Kalkallo,1.0
+4345,Bundoora,1.0
+4347,Eltham,1.0
+4348,Eltham,1.0
+4349,Mill Park,1.0
+4351,Euroa,1.0
+4352,Eildon,1.0
+4353,Yan Yean,1.0
+4354,Euroa,1.0
+4355,Euroa,1.0
+4356,Euroa,1.0
+4358,Euroa,1.0
+4360,Euroa,1.0
+4362,Eildon,1.0
+4363,Euroa,1.0
+4365,Mill Park,1.0
+4366,Eildon,1.0
+4367,Eildon,1.0
+4369,Euroa,1.0
+4370,Kalkallo,1.0
+4371,Kalkallo,1.0
+4372,Yan Yean,1.0
+4374,Yan Yean,1.0
+4375,Thomastown,1.0
+4377,Yan Yean,1.0
+4378,Eildon,1.0
+4379,Eildon,1.0
+4383,Narracan,1.0
+4384,Narracan,1.0
+4385,Narracan,1.0
+4387,Morwell,1.0
+4389,Morwell,1.0
+4390,Narracan,1.0
+4391,Narracan,1.0
+4392,Narracan,1.0
+4395,Narracan,1.0
+4396,Morwell,1.0
+4399,Narracan,1.0
+4400,Narracan,1.0
+4403,Narracan,1.0
+4405,Morwell,1.0
+4406,Morwell,1.0
+4407,Morwell,1.0
+4408,Morwell,1.0
+4410,Morwell,1.0
+4412,Narracan,1.0
+4415,Narracan,1.0
+4416,Morwell,1.0
+4417,Morwell,1.0
+4418,Narracan,1.0
+4419,Narracan,1.0
+4421,Pakenham,1.0
+4427,Narracan,1.0
+4428,Morwell,1.0
+4429,Morwell,1.0
+4430,Morwell,1.0
+4432,Morwell,1.0
+4433,Narracan,1.0
+4434,Narracan,1.0
+4435,Narracan,1.0
+4436,Narracan,1.0
+4438,Narracan,1.0
+4439,Morwell,1.0
+4440,Narracan,1.0
+4452,Mildura,1.0
+4453,Murray Plains,1.0
+4454,Mildura,1.0
+4460,Mildura,1.0
+4462,Mildura,1.0
+4472,Lowan,1.0
+4478,Lowan,1.0
+4481,Lowan,1.0
+4482,Mildura,1.0
+4483,Lowan,1.0
+4484,Lowan,1.0
+4485,Lowan,1.0
+4486,Mildura,1.0
+4487,Lowan,1.0
+4489,Lowan,1.0
+4496,Mildura,1.0
+4498,Murray Plains,1.0
+4504,Mildura,1.0
+4505,Mildura,1.0
+4509,Mildura,1.0
+4511,Mildura,1.0
+4512,Mildura,1.0
+4513,Mildura,1.0
+4515,Lowan,1.0
+4519,Mildura,1.0
+4520,Lowan,1.0
+4522,Mildura,1.0
+4524,Lowan,1.0
+4527,Lowan,1.0
+4528,Mildura,1.0
+4530,Murray Plains,1.0
+4531,Murray Plains,1.0
+4532,Mildura,1.0
+4537,Mildura,1.0
+4539,Lowan,1.0
+4540,Mildura,1.0
+4543,Mildura,1.0
+4545,Lowan,1.0
+4546,Mildura,1.0
+4552,Murray Plains,1.0
+4559,Mildura,1.0
+4563,Lowan,1.0
+4568,Lowan,1.0
+4572,Mildura,1.0
+4574,Murray Plains,1.0
+4575,Mildura,1.0
+4580,Niddrie,1.0
+4582,Niddrie,1.0
+4585,Essendon,1.0
+4586,Essendon,1.0
+4587,Essendon,1.0
+4588,Sunbury,1.0
+4589,Sunbury,1.0
+4590,Essendon,1.0
+4591,Broadmeadows,1.0
+4592,Niddrie,1.0
+4593,Niddrie,1.0
+4594,Niddrie,1.0
+4597,Essendon,1.0
+4599,Essendon,1.0
+4600,Niddrie,1.0
+4601,Niddrie,1.0
+4603,Essendon,1.0
+4604,Essendon,1.0
+4606,Sunbury,1.0
+4607,Greenvale,1.0
+4610,Richmond,1.0
+4612,Essendon,1.0
+4613,Essendon,1.0
+4614,Essendon,1.0
+4616,Brunswick,1.0
+4617,Brunswick,1.0
+4618,Brunswick,1.0
+4619,Brunswick,1.0
+4621,Melbourne,1.0
+4622,Brunswick,1.0
+4624,Melbourne,1.0
+4625,Richmond,1.0
+4626,Richmond,1.0
+4628,Brunswick,1.0
+4629,Melbourne,1.0
+4630,Brunswick,1.0
+4631,Richmond,1.0
+4633,Brunswick,1.0
+4634,Essendon,1.0
+4635,Melbourne,1.0
+4637,Albert Park,1.0
+4638,Brunswick,1.0
+4640,Melbourne,1.0
+4641,Melbourne,1.0
+4642,Melbourne,1.0
+4643,Richmond,1.0
+46528,Narre Warren North,1.0
+46529,Pakenham,1.0
+46531,Point Cook,1.0
+46536,St Albans,1.0
+46541,Gippsland East,1.0
+46542,South Barwon,1.0
+46544,Bellarine,1.0
+46545,Kalkallo,1.0
+46546,Kalkallo,1.0
+46548,Greenvale,1.0
+46549,Greenvale,1.0
+4655,Prahran,1.0
+46551,Lara,1.0
+46552,Kororoit,1.0
+46557,Sydenham,1.0
+46558,Benambra,1.0
+4656,Prahran,1.0
+46561,Sydenham,1.0
+46564,Narre Warren South,1.0
+46567,Narre Warren South,1.0
+46568,Narre Warren North,1.0
+4657,Albert Park,1.0
+46584,Pakenham,1.0
+46585,Pakenham,1.0
+46595,Greenvale,1.0
+4661,Brighton,1.0
+4662,Brighton,1.0
+46625,Bass,1.0
+4663,Albert Park,1.0
+4665,Albert Park,1.0
+4667,Prahran,1.0
+4668,Prahran,1.0
+4669,Albert Park,1.0
+4670,Albert Park,1.0
+4672,Albert Park,1.0
+4673,Prahran,1.0
+4674,Prahran,1.0
+46761,Thomastown,1.0
+4677,Richmond,1.0
+4678,Richmond,1.0
+4679,Richmond,1.0
+4681,Prahran,1.0
+4682,Albert Park,1.0
+4683,Prahran,1.0
+4684,Albert Park,1.0
+4685,Prahran,1.0
+4686,Albert Park,1.0
+4687,Albert Park,1.0
+4688,Prahran,1.0
+4689,Prahran,1.0
+4692,Warrandyte,1.0
+4694,Bulleen,1.0
+4696,Warrandyte,1.0
+4697,Warrandyte,1.0
+4698,Bulleen,1.0
+4699,Warrandyte,1.0
+4700,Warrandyte,1.0
+4702,Bulleen,1.0
+4703,Bulleen,1.0
+4704,Eltham,1.0
+4705,Eltham,1.0
+4706,Eltham,1.0
+4707,Eltham,1.0
+4708,Bulleen,1.0
+4709,Warrandyte,1.0
+4710,Bulleen,1.0
+4711,Bulleen,1.0
+4712,Bulleen,1.0
+4713,Bulleen,1.0
+4714,Bulleen,1.0
+4715,Warrandyte,1.0
+4716,Bulleen,1.0
+4721,Shepparton,1.0
+4723,Murray Plains,1.0
+4725,Shepparton,1.0
+4726,Murray Plains,1.0
+4727,Shepparton,1.0
+4728,Euroa,1.0
+4729,Murray Plains,1.0
+4730,Murray Plains,1.0
+4731,Euroa,1.0
+4732,Shepparton,1.0
+4735,Euroa,1.0
+4736,Bendigo East,1.0
+4738,Shepparton,1.0
+4741,Murray Plains,1.0
+4742,Murray Plains,1.0
+4744,Murray Plains,1.0
+4747,Bendigo East,1.0
+4748,Euroa,1.0
+4751,Shepparton,1.0
+4753,Murray Plains,1.0
+4754,Shepparton,1.0
+4758,Shepparton,1.0
+4759,Murray Plains,1.0
+4760,Murray Plains,1.0
+4761,Shepparton,1.0
+4762,Shepparton,1.0
+4763,Shepparton,1.0
+4764,Murray Plains,1.0
+4769,Murray Plains,1.0
+4771,Murray Plains,1.0
+4772,Murray Plains,1.0
+4774,Murray Plains,1.0
+47750,Thomastown,1.0
+4776,Murray Plains,1.0
+4777,Shepparton,1.0
+4778,Murray Plains,1.0
+47802,Yan Yean,1.0
+47803,Macedon,1.0
+47808,Melbourne,1.0
+4781,Euroa,1.0
+47810,Cranbourne,1.0
+47812,Narre Warren North,1.0
+47813,Narre Warren South,1.0
+47814,Cranbourne,1.0
+47816,Werribee,1.0
+47817,Berwick,1.0
+47818,Pakenham,1.0
+47822,Point Cook,1.0
+47823,Tarneit,1.0
+47825,Kororoit,1.0
+47826,Sydenham,1.0
+47827,Sydenham,1.0
+47828,Sydenham,1.0
+47829,Lara,1.0
+47831,Kororoit,1.0
+4787,Shepparton,1.0
+4788,Euroa,1.0
+4789,Murray Plains,1.0
+4792,Murray Plains,1.0
+4793,Shepparton,1.0
+4794,Shepparton,1.0
+4796,Shepparton,1.0
+4798,Murray Plains,1.0
+4799,Murray Plains,1.0
+4800,Murray Plains,1.0
+4801,Euroa,1.0
+4802,Bendigo East,1.0
+4805,Shepparton,1.0
+4806,Shepparton,1.0
+4807,Shepparton,1.0
+4808,Euroa,1.0
+4809,Shepparton,1.0
+4812,Shepparton,1.0
+4815,Murray Plains,1.0
+4816,Shepparton,1.0
+4818,Murray Plains,1.0
+4820,Murray Plains,1.0
+4822,Shepparton,1.0
+4824,Shepparton,1.0
+4842,Broadmeadows,1.0
+4843,Broadmeadows,1.0
+4846,Broadmeadows,1.0
+4847,Broadmeadows,1.0
+4848,Broadmeadows,1.0
+4851,Broadmeadows,1.0
+4852,Broadmeadows,1.0
+4853,Pascoe Vale,1.0
+4855,Thomastown,1.0
+4856,Thomastown,1.0
+4857,Thomastown,1.0
+4858,Thomastown,1.0
+4859,Thomastown,1.0
+4860,Broadmeadows,1.0
+4861,Bundoora,1.0
+4862,Thomastown,1.0
+4863,Thomastown,1.0
+4864,Thomastown,1.0
+4865,Thomastown,1.0
+4866,Broadmeadows,1.0
+4868,Eildon,1.0
+4869,Croydon,1.0
+4870,Evelyn,1.0
+4874,Monbulk,1.0
+4875,Croydon,1.0
+4876,Croydon,1.0
+4877,Croydon,1.0
+4879,Ringwood,1.0
+4880,Monbulk,1.0
+4881,Monbulk,1.0
+4882,Eildon,1.0
+4883,Eildon,1.0
+4884,Eildon,1.0
+4885,Croydon,1.0
+4887,Croydon,1.0
+4888,Eildon,1.0
+4889,Monbulk,1.0
+4890,Narracan,1.0
+4891,Eildon,1.0
+4892,Eildon,1.0
+4894,Evelyn,1.0
+4895,Monbulk,1.0
+4896,Croydon,1.0
+4897,Evelyn,1.0
+4898,Croydon,1.0
+4900,Evelyn,1.0
+4901,Eildon,1.0
+4902,Narracan,1.0
+4903,Monbulk,1.0
+4904,Pakenham,1.0
+4907,Evelyn,1.0
+4909,Monbulk,1.0
+4910,Ringwood,1.0
+4912,Pakenham,1.0
+4914,Evelyn,1.0
+4917,Eildon,1.0
+4918,Eildon,1.0
+4919,Eildon,1.0
+4920,Eildon,1.0
+4921,Eildon,1.0
+4933,South-West Coast,1.0
+4934,Lowan,1.0
+4937,Lowan,1.0
+4939,South-West Coast,1.0
+4941,Lowan,1.0
+4947,Polwarth,1.0
+4952,Lowan,1.0
+4953,Lowan,1.0
+4959,Polwarth,1.0
+4962,Lowan,1.0
+4966,Lowan,1.0
+4973,Lowan,1.0
+4975,Polwarth,1.0
+4976,Lowan,1.0
+4982,Lowan,1.0
+4985,Lowan,1.0
+4989,Lowan,1.0
+4990,South-West Coast,1.0
+4994,South-West Coast,1.0
+4998,South-West Coast,1.0
+5003,South-West Coast,1.0
+5008,South-West Coast,1.0
+5009,South-West Coast,1.0
+5011,Lowan,1.0
+5016,Lowan,1.0
+5023,South-West Coast,1.0
+5024,South-West Coast,1.0
+5026,South-West Coast,1.0
+5028,South-West Coast,1.0
+5030,South-West Coast,1.0
+5031,Lowan,1.0
+5032,Lowan,1.0
+5033,South-West Coast,1.0
+5037,Polwarth,1.0
+5038,South-West Coast,1.0
+5039,South-West Coast,1.0
+5041,South-West Coast,1.0
+5044,South-West Coast,1.0
+5049,Polwarth,1.0
+5050,Polwarth,1.0
+5055,Lowan,1.0
+5057,South-West Coast,1.0
+5060,Polwarth,1.0
+5063,South-West Coast,1.0
+5072,South-West Coast,1.0
+5078,South-West Coast,1.0
+5082,South-West Coast,1.0
+5083,South-West Coast,1.0
+5084,South-West Coast,1.0
+5086,Brunswick,1.0
+5087,Northcote,1.0
+5088,Brunswick,1.0
+5089,Brunswick,1.0
+5090,Pascoe Vale,1.0
+5091,Pascoe Vale,1.0
+5092,Pascoe Vale,1.0
+5093,Pascoe Vale,1.0
+5094,Pascoe Vale,1.0
+5096,Pascoe Vale,1.0
+5098,Northcote,1.0
+5101,Pascoe Vale,1.0
+5102,Brunswick,1.0
+5103,Pascoe Vale,1.0
+5104,Brunswick,1.0
+5105,Pascoe Vale,1.0
+51057,Eureka,1.0
+5106,Pascoe Vale,1.0
+5107,Preston,1.0
+5108,Broadmeadows,1.0
+5109,Pascoe Vale,1.0
+5110,Pascoe Vale,1.0
+5111,Pascoe Vale,1.0
+5112,Pascoe Vale,1.0
+5113,Broadmeadows,1.0
+5114,Preston,1.0
+5115,Preston,1.0
+5116,Preston,1.0
+5117,Northcote,1.0
+51219,Ivanhoe,1.0
+51222,Bellarine,1.0
+51223,Lara,1.0
+57719,Gippsland East,1.0
+58453,Kalkallo,1.0
+58455,Point Cook,1.0
+58456,Mulgrave,1.0
+58457,Eltham,1.0
+58458,Bundoora,1.0
+58622,Mildura,1.0
+58629,Polwarth,1.0
+58641,Albert Park,1.0
+58653,Oakleigh,1.0
+58752,Niddrie,1.0
+58781,Dandenong,1.0
+63158,Bayswater,1.0
+63669,Caulfield,1.0
+63747,Sydenham,1.0
+63761,Caulfield,1.0
+63835,Narre Warren South,1.0
+63986,Box Hill,1.0
+64001,Ashwood,1.0
+64267,Footscray,1.0
+64351,Brunswick,1.0
+64353,Richmond,1.0
+64602,Narre Warren North,1.0
+64603,Cranbourne,1.0
+64604,Carrum,1.0
+64628,Geelong,1.0
+64638,Box Hill,1.0
+64640,Laverton,1.0
+64652,Macedon,1.0
+64656,Oakleigh,1.0
+64658,Melbourne,1.0
+64674,Melton,1.0
+64676,Narracan,1.0
+64682,Sunbury,1.0
+64688,Bentleigh,1.0
+64689,Morwell,1.0
+64690,Rowville,1.0
+64692,Carrum,1.0
+64709,Laverton,1.0
+65111,Point Cook,1.0
+65123,Hastings,1.0
+65124,Mornington,1.0
+65129,Berwick,1.0
+65164,Dandenong,1.0
+65221,Ringwood,1.0
+65398,Euroa,1.0
+65399,Croydon,1.0
+65451,Kalkallo,1.0
+65491,Mill Park,1.0
+65525,Laverton,1.0
+65662,Ovens Valley,1.0
+65663,Eildon,1.0
+65680,Bundoora,1.0
+65778,Bundoora,1.0
+65860,Mordialloc,1.0
+65862,Morwell,1.0
+65866,Tarneit,1.0
+65871,Laverton,1.0
+65874,Werribee,1.0
+65894,Bentleigh,1.0
+65896,Yan Yean,1.0
+65897,Pakenham,1.0
+65899,Bendigo West,1.0
+66007,Nepean,1.0
+66012,Thomastown,1.0
+66161,Kalkallo,1.0
+67006,Melton,1.0
+69887,Nepean,1.0
+82771,Northcote,1.0
+82784,Sunbury,1.0
+82787,St Albans,1.0
+82829,Narracan,1.0
+82831,Mornington,1.0
+82833,Bentleigh,1.0
+82854,Benambra,1.0
+82860,Bass,1.0
+82872,Tarneit,1.0
+82873,Tarneit,1.0
+82874,Point Cook,1.0
+82883,Point Cook,1.0
+82920,Yan Yean,1.0
+82921,Euroa,1.0
+82922,Yan Yean,1.0
+82923,Yan Yean,1.0
+82929,Gippsland East,1.0
+82933,Pakenham,1.0
+82935,Macedon,1.0
+82955,Prahran,1.0
+82956,Essendon,1.0
+82957,Richmond,1.0
+82959,South-West Coast,1.0
+82991,Clarinda,1.0
+82992,Ripon,1.0
+83023,Tarneit,1.0
+83024,Werribee,1.0
+83035,Kororoit,1.0
+83204,Morwell,1.0
+83206,Gippsland East,1.0
+83216,Gippsland East,1.0
+83246,Kalkallo,1.0
+83247,Kalkallo,1.0
+83249,Sunbury,1.0
+83253,Murray Plains,1.0
+83266,Cranbourne,1.0
+83280,Cranbourne,1.0
+83281,Narre Warren South,1.0
+83284,Shepparton,1.0
+83308,Yan Yean,1.0
+83314,Yan Yean,1.0
+83324,Yan Yean,1.0
+83361,Cranbourne,1.0
+83362,Narre Warren North,1.0
+83365,Narre Warren South,1.0
+83415,Ivanhoe,1.0
+83416,Yan Yean,1.0
+83471,Bellarine,1.0
+83482,Sydenham,1.0
+83487,Narre Warren South,1.0
+83488,Kororoit,1.0
+83491,Bendigo West,1.0
+83517,Bendigo West,1.0
+83608,Albert Park,1.0
+83613,Gippsland South,1.0
+83617,Polwarth,1.0
+83618,Bellarine,1.0
+83622,South Barwon,1.0
+83631,Thomastown,1.0
+83632,Wendouree,1.0
+83636,Thomastown,1.0
+83638,Morwell,1.0
+83651,Pakenham,1.0
+83666,Cranbourne,1.0
+83674,Richmond,1.0
+83686,Mill Park,1.0
+83689,Thomastown,1.0
+83695,Ripon,1.0
+83697,Hastings,1.0
+83698,Narracan,1.0
+83700,Berwick,1.0
+83701,Ripon,1.0
+83711,Evelyn,1.0
+83712,Croydon,1.0
+83713,Ashwood,1.0
+83714,Box Hill,1.0
+83715,Ringwood,1.0
+83722,Berwick,1.0
+83724,Bulleen,1.0
+83731,Eildon,1.0
+83733,Williamstown,1.0
+83734,Point Cook,1.0
+83755,Croydon,1.0
+83756,Mordialloc,1.0
+83757,Carrum,1.0
+83765,Kalkallo,1.0
+83770,South Barwon,1.0
+83771,Greenvale,1.0
+83772,Hastings,1.0
+83774,Mildura,1.0
+83780,Melton,1.0
+83781,Niddrie,1.0
+83793,Greenvale,1.0
+83796,Niddrie,1.0
+83798,Bayswater,1.0
+83805,Pascoe Vale,1.0
+83808,Greenvale,1.0
+83809,Mornington,1.0
+83810,Rowville,1.0
+83811,Sandringham,1.0
+83817,Bentleigh,1.0
+83819,Ovens Valley,1.0
+83838,Rowville,1.0
+83864,Werribee,1.0
+83875,Prahran,1.0
+83886,Prahran,1.0
+83964,Williamstown,1.0
+8891,Bass,1.0
+8893,Point Cook,1.0
+8894,Werribee,1.0
+8895,Werribee,1.0
+8897,Melton,1.0
+8898,Eildon,1.0
+8899,Mill Park,1.0
+8900,Murray Plains,1.0
+8907,Sydenham,1.0
+91332,Monbulk,1.0
+91420,Pascoe Vale,1.0
+91464,Mulgrave,1.0
+91477,Ashwood,1.0
+91645,Croydon,1.0
+91710,Warrandyte,1.0
+91831,Footscray,1.0
+92004,Point Cook,1.0
+92050,Kororoit,1.0
+92053,St Albans,1.0
+92206,Mulgrave,1.0
+92370,Bentleigh,1.0
+92394,Dandenong,1.0
+92487,Point Cook,1.0
+92602,Prahran,1.0
+92603,Prahran,1.0
+92669,Yan Yean,1.0
+92927,Melbourne,1.0
+93181,Brunswick,1.0
+93493,Essendon,1.0
+97421,Lara,1.0
+97435,Monbulk,1.0
+97439,Brighton,1.0
+97440,Ashwood,1.0
+97454,Sandringham,1.0
+97466,Richmond,1.0
+97535,Carrum,1.0
+97536,Kororoit,1.0
+97548,Carrum,1.0
+97590,Pakenham,1.0
+97599,Sandringham,1.0
+97601,Mordialloc,1.0
+97602,Clarinda,1.0
+97603,Polwarth,1.0
+97617,Mordialloc,1.0
+97652,Geelong,1.0
+97669,Bendigo West,1.0
+97670,Shepparton,1.0
+97674,Laverton,1.0
+97675,Werribee,1.0
+97736,Brighton,1.0
+97764,Cranbourne,1.0
+97767,Geelong,1.0
+97828,Cranbourne,1.0
+97837,Eureka,1.0
+97870,Essendon,1.0
+97922,Point Cook,1.0
+97927,Laverton,1.0
+97933,Kororoit,1.0
+97936,Benambra,1.0
+98093,Prahran,1.0
+98105,Bundoora,1.0
+98111,Northcote,1.0
+98116,Bellarine,1.0
+98117,Lara,1.0
+98118,Sunbury,1.0
+98119,Narre Warren South,1.0
+98120,Warrandyte,1.0
+98121,Oakleigh,1.0
+98130,Bulleen,1.0

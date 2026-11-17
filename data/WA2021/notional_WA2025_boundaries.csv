@@ -1,0 +1,495 @@
+district,party_group,notional_votes
+Albany,ALP,13268.3
+Albany,LP,4653.6
+Albany,NP,4059.7
+Albany,GRN,1736.1
+Albany,ACP,1246.0
+Albany,ON,682.9
+Albany,SFFP,651.7
+Albany,LCWA,510.3
+Albany,NMV,395.1
+Albany,SAPSOC,192.6
+Albany,LDP,170.0
+Albany,WAXIT,47.0
+Armadale,ALP,19056.9
+Armadale,LP,2315.2
+Armadale,ACP,1450.1
+Armadale,GRN,1195.0
+Armadale,ON,702.0
+Armadale,WAP,645.4
+Armadale,NMV,434.0
+Armadale,WAXIT,168.4
+Armadale,LDP,23.6
+Armadale,IND*,10.6
+Balcatta,ALP,15894.0
+Balcatta,LP,4497.0
+Balcatta,GRN,1818.0
+Balcatta,ACP,504.0
+Balcatta,LDP,489.0
+Balcatta,NMV,453.0
+Balcatta,WAXIT,238.0
+Baldivis,ALP,24546.4
+Baldivis,LP,2849.4
+Baldivis,GRN,1227.8
+Baldivis,IND*,842.0
+Baldivis,ON,611.2
+Baldivis,NMV,425.8
+Baldivis,LDP,347.1
+Baldivis,WAXIT,189.3
+Bassendean,ALP,17094.0
+Bassendean,LP,2954.0
+Bassendean,GRN,2005.0
+Bassendean,ACP,705.0
+Bassendean,NMV,685.0
+Bassendean,ON,486.0
+Bassendean,WAXIT,265.0
+Bateman,ALP,12106.0
+Bateman,LP,9762.0
+Bateman,GRN,1815.0
+Bateman,IND*,856.0
+Bateman,ACP,774.0
+Bateman,LDP,341.0
+Bateman,NMV,314.0
+Bateman,WAP,228.0
+Bateman,ON,213.0
+Belmont,ALP,16722.0
+Belmont,LP,3819.0
+Belmont,GRN,1651.0
+Belmont,ACP,566.0
+Belmont,ON,433.0
+Belmont,NMV,374.0
+Belmont,WAXIT,174.0
+Bibra Lake,ALP,17941.7
+Bibra Lake,LP,5000.6
+Bibra Lake,GRN,3045.9
+Bibra Lake,NMV,619.8
+Bibra Lake,LDP,429.3
+Bibra Lake,ON,381.3
+Bibra Lake,SA,170.4
+Bibra Lake,IND*,92.5
+Bibra Lake,WAP,63.2
+Bicton,ALP,15425.5
+Bicton,LP,8145.9
+Bicton,GRN,2730.8
+Bicton,NMV,350.9
+Bicton,ON,349.7
+Bicton,LDP,300.5
+Bicton,ACP,185.0
+Bunbury,ALP,14791.0
+Bunbury,LP,4604.0
+Bunbury,GRN,1170.0
+Bunbury,NP,1081.0
+Bunbury,ON,656.0
+Bunbury,SFFP,615.0
+Bunbury,LCWA,582.0
+Bunbury,WAP,415.0
+Bunbury,NMV,348.0
+Bunbury,SAPSOC,158.0
+Bunbury,WAXIT,43.0
+Butler,ALP,16193.2
+Butler,LP,2897.7
+Butler,GRN,846.4
+Butler,NMV,493.6
+Butler,ACP,446.0
+Butler,WAXIT,149.5
+Cannington,ALP,15989.6
+Cannington,LP,2957.9
+Cannington,GRN,1398.0
+Cannington,ACP,994.7
+Cannington,ON,384.3
+Cannington,NMV,291.6
+Cannington,LDP,261.7
+Cannington,WAXIT,15.0
+Cannington,WAP,14.9
+Carine,ALP,10483.7
+Carine,LP,10474.3
+Carine,GRN,2019.8
+Carine,NMV,407.6
+Carine,WAXIT,166.4
+Central Wheatbelt,NP,10713.2
+Central Wheatbelt,ALP,8065.3
+Central Wheatbelt,LP,2227.0
+Central Wheatbelt,SFFP,867.1
+Central Wheatbelt,GRN,494.8
+Central Wheatbelt,ON,477.5
+Central Wheatbelt,ACP,392.7
+Central Wheatbelt,NMV,215.6
+Central Wheatbelt,WAXIT,79.3
+Churchlands,LP,10173.6
+Churchlands,ALP,8988.9
+Churchlands,GRN,2377.2
+Churchlands,IND*,657.1
+Churchlands,ACP,361.4
+Churchlands,NMV,296.5
+Churchlands,WAXIT,131.1
+Cockburn,ALP,16055.0
+Cockburn,LP,4044.1
+Cockburn,GRN,1439.6
+Cockburn,ON,428.4
+Cockburn,NMV,422.7
+Cockburn,WAXIT,348.2
+Cockburn,LDP,295.1
+Cockburn,WAP,24.2
+Collie - Preston,ALP,16330.7
+Collie - Preston,LP,3863.4
+Collie - Preston,NP,2456.1
+Collie - Preston,GRN,1047.3
+Collie - Preston,SFFP,804.2
+Collie - Preston,ON,545.5
+Collie - Preston,NMV,507.2
+Collie - Preston,LCWA,470.1
+Collie - Preston,IND*,385.0
+Collie - Preston,SAPSOC,159.2
+Collie - Preston,WAXIT,71.0
+Cottesloe,LP,12624.0
+Cottesloe,ALP,7637.0
+Cottesloe,GRN,3410.0
+Cottesloe,IND*,2670.0
+Cottesloe,NMV,329.0
+Cottesloe,WAXIT,276.0
+Darling Range,ALP,13715.9
+Darling Range,LP,6536.9
+Darling Range,GRN,1115.5
+Darling Range,ACP,1070.9
+Darling Range,ON,496.9
+Darling Range,NMV,375.2
+Darling Range,LDP,295.5
+Darling Range,WAP,167.3
+Darling Range,IND*,133.5
+Darling Range,WAXIT,76.3
+Dawesville,ALP,13098.2
+Dawesville,LP,7333.6
+Dawesville,GRN,714.3
+Dawesville,ON,346.4
+Dawesville,LCWA,313.2
+Dawesville,SFFP,297.2
+Dawesville,NMV,210.1
+Dawesville,NP,154.1
+Dawesville,SAPSOC,108.2
+Dawesville,WAXIT,65.7
+Dawesville,LDP,54.6
+Forrestfield,ALP,17774.0
+Forrestfield,LP,5503.7
+Forrestfield,GRN,1323.8
+Forrestfield,ACP,698.0
+Forrestfield,ON,575.3
+Forrestfield,NMV,398.2
+Forrestfield,WAP,259.9
+Forrestfield,WAXIT,109.0
+Forrestfield,LDP,24.5
+Fremantle,ALP,10410.7
+Fremantle,GRN,3639.4
+Fremantle,LP,2774.5
+Fremantle,SA,555.6
+Fremantle,NMV,406.3
+Fremantle,LDP,339.2
+Fremantle,IND*,225.5
+Fremantle,WAP,152.8
+Geraldton,ALP,12404.8
+Geraldton,NP,6098.6
+Geraldton,LP,2959.0
+Geraldton,GRN,611.7
+Geraldton,SFFP,446.7
+Geraldton,ON,385.1
+Geraldton,NMV,275.7
+Geraldton,WAXIT,133.0
+Geraldton,LDP,77.0
+Geraldton,IND*,8.4
+Girrawheen,ALP,13412.7
+Girrawheen,LP,2192.2
+Girrawheen,GRN,1075.2
+Girrawheen,ON,592.7
+Girrawheen,ACP,540.5
+Girrawheen,NMV,409.0
+Girrawheen,IND*,294.4
+Girrawheen,WAP,155.0
+Girrawheen,WAXIT,133.9
+Hillarys,ALP,17698.8
+Hillarys,LP,7575.1
+Hillarys,GRN,1489.8
+Hillarys,LCWA,640.3
+Hillarys,NMV,522.5
+Hillarys,LFC,339.0
+Hillarys,WAXIT,219.1
+Hillarys,ACP,67.5
+Hillarys,IND*,60.7
+Hillarys,LDP,40.6
+Hillarys,WAP,21.0
+Jandakot,ALP,13605.0
+Jandakot,LP,5354.7
+Jandakot,GRN,1262.1
+Jandakot,ACP,505.0
+Jandakot,LDP,293.1
+Jandakot,ON,289.6
+Jandakot,NMV,243.7
+Jandakot,WAXIT,195.5
+Jandakot,WAP,28.8
+Joondalup,ALP,17241.8
+Joondalup,LP,5008.6
+Joondalup,GRN,1214.9
+Joondalup,ACP,593.2
+Joondalup,IND*,423.3
+Joondalup,LCWA,406.7
+Joondalup,NMV,400.3
+Joondalup,WAXIT,251.8
+Joondalup,LDP,245.4
+Joondalup,WAP,182.0
+Kalamunda,ALP,16102.1
+Kalamunda,LP,8577.1
+Kalamunda,GRN,2359.1
+Kalamunda,ACP,771.4
+Kalamunda,NMV,567.9
+Kalamunda,LDP,357.5
+Kalamunda,ON,347.5
+Kalamunda,WAP,249.2
+Kalamunda,WAXIT,121.2
+Kalgoorlie,ALP,7782.0
+Kalgoorlie,LP,3695.0
+Kalgoorlie,NP,1608.0
+Kalgoorlie,ON,494.0
+Kalgoorlie,SFFP,465.0
+Kalgoorlie,GRN,328.0
+Kalgoorlie,LDP,217.0
+Kalgoorlie,NMV,140.0
+Kalgoorlie,WAXIT,31.0
+Kimberley,ALP,5747.0
+Kimberley,LP,2187.0
+Kimberley,GRN,1601.0
+Kimberley,NP,658.0
+Kimberley,ON,221.0
+Kimberley,IND*,98.0
+Kimberley,NMV,85.0
+Kimberley,WAP,68.0
+Kingsley,ALP,15883.0
+Kingsley,LP,7925.0
+Kingsley,GRN,1461.0
+Kingsley,ON,436.0
+Kingsley,NMV,373.0
+Kingsley,WAXIT,164.0
+Kwinana,ALP,10970.9
+Kwinana,LP,1262.3
+Kwinana,GRN,729.8
+Kwinana,ON,412.4
+Kwinana,NMV,241.4
+Kwinana,WAXIT,122.9
+Kwinana,LDP,111.5
+Kwinana,WAP,91.0
+Kwinana,IND*,90.0
+Landsdale,ALP,18486.6
+Landsdale,LP,4927.3
+Landsdale,GRN,1156.9
+Landsdale,WAP,723.0
+Landsdale,NMV,569.2
+Landsdale,WAXIT,222.0
+Landsdale,ON,205.2
+Landsdale,ACP,154.6
+Landsdale,IND*,94.2
+Mandurah,ALP,12485.6
+Mandurah,LP,4091.4
+Mandurah,GRN,576.2
+Mandurah,SFFP,384.8
+Mandurah,LCWA,315.7
+Mandurah,ON,302.6
+Mandurah,NMV,157.8
+Mandurah,IND*,119.8
+Mandurah,NP,117.9
+Mandurah,SAPSOC,96.5
+Mandurah,WAXIT,47.1
+Mandurah,LDP,7.4
+Maylands,ALP,15303.0
+Maylands,GRN,3985.0
+Maylands,LP,3848.0
+Maylands,NMV,528.0
+Maylands,ACP,449.0
+Maylands,ON,339.0
+Maylands,WAXIT,226.0
+Mid - West,NP,6779.0
+Mid - West,ALP,6157.2
+Mid - West,LP,3001.6
+Mid - West,SFFP,787.1
+Mid - West,GRN,511.3
+Mid - West,ON,479.1
+Mid - West,NMV,185.9
+Mid - West,WAXIT,73.7
+Mid - West,IND*,5.4
+Midland,ALP,14268.8
+Midland,LP,4074.1
+Midland,GRN,1448.1
+Midland,ACP,588.0
+Midland,ON,464.7
+Midland,NMV,335.8
+Midland,WAP,309.9
+Midland,WAXIT,85.3
+Mindarie,ALP,17428.2
+Mindarie,LP,4284.7
+Mindarie,GRN,1308.9
+Mindarie,ACP,597.3
+Mindarie,NMV,587.6
+Mindarie,WAXIT,204.6
+Morley,ALP,19937.7
+Morley,LP,4380.5
+Morley,GRN,1715.9
+Morley,ACP,909.9
+Morley,ON,593.1
+Morley,NMV,473.8
+Morley,WAXIT,237.1
+Morley,IND*,68.4
+Mount Lawley,ALP,14653.0
+Mount Lawley,LP,5807.0
+Mount Lawley,GRN,2768.0
+Mount Lawley,NMV,549.0
+Mount Lawley,ACP,425.0
+Mount Lawley,WAP,321.0
+Mount Lawley,ON,203.0
+Mount Lawley,WAXIT,108.0
+Murray - Wellington,ALP,14486.0
+Murray - Wellington,LP,6099.0
+Murray - Wellington,SFFP,1149.0
+Murray - Wellington,NP,728.0
+Murray - Wellington,LCWA,726.0
+Murray - Wellington,GRN,706.0
+Murray - Wellington,ON,513.0
+Murray - Wellington,NMV,281.0
+Murray - Wellington,SAPSOC,164.0
+Murray - Wellington,LDP,110.0
+Murray - Wellington,WAXIT,66.0
+Nedlands,ALP,9327.0
+Nedlands,LP,9160.0
+Nedlands,GRN,3549.0
+Nedlands,IND*,3515.0
+Nedlands,NMV,412.0
+Nedlands,WAXIT,179.0
+Oakford,ALP,17140.0
+Oakford,LP,4908.3
+Oakford,GRN,1182.9
+Oakford,ACP,655.3
+Oakford,ON,462.8
+Oakford,NMV,294.2
+Oakford,WAXIT,228.8
+Oakford,LDP,216.7
+Oakford,WAP,73.1
+Oakford,IND*,12.9
+Perth,ALP,16594.0
+Perth,LP,4666.0
+Perth,GRN,4177.0
+Perth,NMV,476.0
+Perth,WAXIT,225.0
+Pilbara,ALP,11219.5
+Pilbara,NP,4703.9
+Pilbara,LP,1661.5
+Pilbara,GRN,730.6
+Pilbara,SFFP,612.9
+Pilbara,ON,597.8
+Pilbara,NMV,318.9
+Pilbara,WAP,115.0
+Pilbara,WAXIT,95.5
+Pilbara,IND*,26.2
+Riverton,ALP,13497.0
+Riverton,LP,8321.7
+Riverton,GRN,1939.1
+Riverton,ACP,993.8
+Riverton,LDP,427.1
+Riverton,WAP,264.2
+Riverton,NMV,255.6
+Riverton,ON,48.1
+Rockingham,ALP,19661.0
+Rockingham,LP,2322.0
+Rockingham,GRN,753.0
+Rockingham,ON,489.0
+Rockingham,NMV,383.0
+Rockingham,LDP,151.0
+Roe,NP,9677.3
+Roe,ALP,6620.2
+Roe,LP,3219.8
+Roe,SFFP,1057.3
+Roe,GRN,844.6
+Roe,ACP,536.3
+Roe,ON,396.4
+Roe,WAXIT,186.5
+Roe,NMV,145.8
+Scarborough,ALP,15208.4
+Scarborough,LP,11259.1
+Scarborough,GRN,2943.1
+Scarborough,NMV,603.9
+Scarborough,IND*,393.9
+Scarborough,WAP,300.0
+Scarborough,LFC,213.0
+Scarborough,WAXIT,170.6
+Scarborough,ACP,32.6
+Secret Harbour,ALP,19959.6
+Secret Harbour,LP,4232.4
+Secret Harbour,GRN,960.8
+Secret Harbour,ON,562.5
+Secret Harbour,NMV,419.1
+Secret Harbour,SFFP,186.0
+Secret Harbour,WAXIT,179.8
+Secret Harbour,LCWA,146.1
+Secret Harbour,LDP,117.6
+Secret Harbour,IND*,57.2
+Secret Harbour,NP,50.0
+Secret Harbour,SAPSOC,37.3
+South Perth,ALP,12473.0
+South Perth,LP,8846.0
+South Perth,GRN,2597.0
+South Perth,LDP,617.0
+South Perth,NMV,440.0
+Southern River,ALP,18718.0
+Southern River,LP,2879.0
+Southern River,GRN,875.0
+Southern River,ACP,799.0
+Southern River,ON,334.0
+Southern River,NMV,307.0
+Southern River,WAXIT,283.0
+Southern River,LDP,257.0
+Southern River,IND*,188.0
+Swan Hills,ALP,16181.8
+Swan Hills,LP,3888.2
+Swan Hills,GRN,965.4
+Swan Hills,ACP,639.2
+Swan Hills,NMV,632.9
+Swan Hills,WAXIT,269.7
+Thornlie,ALP,17501.0
+Thornlie,LP,3273.0
+Thornlie,GRN,1159.0
+Thornlie,ACP,1002.0
+Thornlie,NMV,488.0
+Thornlie,WAXIT,177.0
+Vasse,LP,10514.7
+Vasse,ALP,8059.3
+Vasse,GRN,2387.3
+Vasse,NP,996.1
+Vasse,SFFP,464.3
+Vasse,NMV,428.7
+Vasse,LCWA,352.6
+Vasse,ON,230.6
+Vasse,SAPSOC,169.8
+Vasse,WAXIT,43.0
+Victoria Park,ALP,14673.0
+Victoria Park,LP,3733.0
+Victoria Park,GRN,2912.0
+Victoria Park,LDP,542.0
+Victoria Park,ACP,522.0
+Victoria Park,NMV,350.0
+Victoria Park,ON,307.0
+Wanneroo,ALP,18366.0
+Wanneroo,LP,4686.0
+Wanneroo,GRN,1150.0
+Wanneroo,NMV,637.0
+Wanneroo,WAP,404.0
+Wanneroo,WAXIT,335.0
+Warren - Blackwood,ALP,7425.8
+Warren - Blackwood,NP,6567.1
+Warren - Blackwood,LP,3192.3
+Warren - Blackwood,GRN,3155.4
+Warren - Blackwood,SFFP,880.8
+Warren - Blackwood,LCWA,533.0
+Warren - Blackwood,NMV,496.0
+Warren - Blackwood,ON,348.0
+Warren - Blackwood,SAPSOC,270.4
+Warren - Blackwood,WAXIT,3.0
+West Swan,ALP,17849.3
+West Swan,LP,2771.8
+West Swan,GRN,902.7
+West Swan,ACP,693.4
+West Swan,NMV,409.8
+West Swan,WAXIT,353.9

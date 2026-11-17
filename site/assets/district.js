@@ -31,7 +31,7 @@ function bannerHTML(i) {
   const p = POINTS[i];
   if (p.latest) return "";
   if (p.retrospective) {
-    return `<div class="snap-banner"><b>Retrospective estimate for polls to ${esc(fmtSnapDate(p.date))}</b> — generated ${esc(fmtSnapDate(p.generated))} using only polls published by that date (fieldwork ended &ge;2 days earlier). Candidate list and model settings are the final November versions, so this is not a forecast we published on ${esc(fmtSnapDate(p.date))}.</div>`;
+    return `<div class="snap-banner"><b>Retrospective estimate for polls to ${esc(fmtSnapDate(p.date))}</b>. Generated ${esc(fmtSnapDate(p.generated))} using only polls published by that date (fieldwork ended &ge;2 days earlier). Candidate list and model settings are the final November versions, so this is not a forecast we published on ${esc(fmtSnapDate(p.date))}.</div>`;
   }
   return `<div class="snap-banner"><b>Forecast as published on ${esc(fmtSnapDate(p.date))}</b></div>`;
 }
@@ -44,9 +44,9 @@ function pairHTML(pr) {
     <b>${esc(nameOf(pr.b))}</b> <span class="muted">${esc(pname(party[pr.b]))}</span>
     <div class="muted">final two in ${Math.round(100 * pr.p)}% of simulations</div>
     <div class="split"><span style="width:${mid}%;background:${pcolour(party[pr.a])}"></span><span style="width:${100 - mid}%;background:${pcolour(party[pr.b])}"></span></div>
-    <table><tr><th></th><th>2CP median</th><th>p10&#8211;p90</th><th>Wins pairing</th></tr>
-      <tr><td>${esc(shortOf(pr.a))}</td><td class="num">${pct1(mid)}</td><td class="num">${pct1(lo)}&#8211;${pct1(hi)}</td><td class="num">${Math.round(100 * pr.p_a_wins)}%</td></tr>
-      <tr><td>${esc(shortOf(pr.b))}</td><td class="num">${pct1(100 - mid)}</td><td class="num">${pct1(100 - hi)}&#8211;${pct1(100 - lo)}</td><td class="num">${Math.round(100 * (1 - pr.p_a_wins))}%</td></tr></table>
+    <table><tr><th></th><th>2CP median</th><th>p10-p90</th><th>Wins pairing</th></tr>
+      <tr><td>${esc(shortOf(pr.a))}</td><td class="num">${pct1(mid)}</td><td class="num">${pct1(lo)}-${pct1(hi)}</td><td class="num">${Math.round(100 * pr.p_a_wins)}%</td></tr>
+      <tr><td>${esc(shortOf(pr.b))}</td><td class="num">${pct1(100 - mid)}</td><td class="num">${pct1(100 - hi)}-${pct1(100 - lo)}</td><td class="num">${Math.round(100 * (1 - pr.p_a_wins))}%</td></tr></table>
   </div>`;
 }
 
@@ -69,7 +69,7 @@ function showMark(i) {
     `${esc(nameOf(CANDS[favK].id))} <span class="muted">${esc(CANDS[favK].party)}</span>`;
   document.getElementById("kv-win").textContent = `${Math.round(100 * row[favK][2])}%`;
   document.getElementById("fc-sub").innerHTML =
-    `&mdash; ${esc(fmtSnapDate(p.date))} ${p.latest ? "forecast" : "snapshot"}`;
+    `(${esc(fmtSnapDate(p.date))} ${p.latest ? "forecast" : "snapshot"})`;
   const banner = document.getElementById("dtl-banner");
   banner.innerHTML = bannerHTML(i);
   banner.hidden = p.latest;

@@ -1,0 +1,69 @@
+{
+  "model": "model3",
+  "run_id": "VIC2022 (2022)",
+  "timestamp": "2026-11-16T07:08:24+00:00",
+  "git_commit": "ff10596a50572df8b125ae9afc3034905d5c56c5",
+  "runs": 1000,
+  "seed": 1,
+  "noise_log_sd": {
+    "state": 0.08,
+    "seat": 0.12,
+    "flow": 0.15
+  },
+  "variant": {
+    "lam": 0,
+    "clip": "C0",
+    "rescale": "R2",
+    "r_max_km": 10.0,
+    "clip_tolerance_km": 0.2
+  },
+  "inputs": {
+    "state": "VIC",
+    "state_election": "2022-11-26",
+    "districts": 88,
+    "federal_election": 2022,
+    "aec_event": 27966,
+    "aec_download": {
+      "source": "https://results.aec.gov.au/27966/Website/",
+      "retrieved": "2026-11-09T01:14:02+00:00",
+      "file_count": 212,
+      "total_bytes": 165786165
+    },
+    "booths": "inside the district and within 1.0 km of their own federal division",
+    "poll_target": {
+      "ALP": 38.2,
+      "GRN": 13.6,
+      "LNP": 34.05,
+      "OTH": 14.15
+    },
+    "poll_rows": [
+      "newspoll 2022-11-24",
+      "roy-morgan 2022-11-23",
+      "resolve 2022-11-21",
+      "freshwater 2022-11-06",
+      "redbridge 2022-11-06",
+      "lonergan 2022-11-06"
+    ],
+    "winners": "vec:2022",
+    "state_field": null
+  },
+  "scores": {
+    "districts": 88,
+    "raw_seat_count": 77,
+    "brier": 0.1734,
+    "log_loss": 0.3158
+  },
+  "actual_seats": {
+    "ALP": 56,
+    "GRN": 4,
+    "LP": 19,
+    "NP": 9
+  },
+  "predicted_seats_mean": {
+    "ALP": 61.88,
+    "GRN": 2.99,
+    "IND*": 2.17,
+    "LP": 14.1,
+    "NP": 6.86
+  }
+}

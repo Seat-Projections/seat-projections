@@ -1,0 +1,411 @@
+{
+ "meta": {
+  "method": "previous-election booth first preferences located by AEC name match then Nominatim; unlocated booths and declaration/early/postal votes spread over the new districts overlapping each old district by located-vote share; districts whose boundaries changed <1% keep their actual previous-election primaries",
+  "prev_run": "SA2022",
+  "scored_run": "SA2026",
+  "venue_counts": {
+   "aec-name": 471,
+   "nominatim": 43,
+   "unlocated": 7
+  },
+  "located_venue_votes": 495686,
+  "total_venue_votes": 517775,
+  "located_share": 0.9573,
+  "unchanged_districts_actual_primaries": 21,
+  "remapped_districts": 26,
+  "small_unlocated_votes": 0,
+  "vote_share_change_pct": {
+   "adelaide": 22.99,
+   "badcoe": 6.41,
+   "black": 0.0,
+   "bragg": 0.0,
+   "chaffey": 0.0,
+   "cheltenham": 9.59,
+   "colton": 12.67,
+   "croydon": 0.0,
+   "davenport": 0.0,
+   "dunstan": 0.0,
+   "elder": 0.0,
+   "elizabeth": 37.25,
+   "enfield": 13.64,
+   "finniss": 0.0,
+   "flinders": 0.0,
+   "florey": 0.0,
+   "gibson": 8.03,
+   "giles": 18.21,
+   "hammond": 0.0,
+   "hartley": 0.0,
+   "heysen": 2.41,
+   "hurtle vale": 9.42,
+   "kaurna": 2.38,
+   "kavel": 3.02,
+   "king": 33.75,
+   "lee": 26.35,
+   "light": 14.79,
+   "mackillop": 0.0,
+   "mawson": 0.0,
+   "morialta": 0.0,
+   "morphett": 11.87,
+   "mount gambier": 0.0,
+   "narungga": 0.94,
+   "newland": 11.43,
+   "playford": 0.0,
+   "port adelaide": 9.81,
+   "ramsay": 9.42,
+   "reynell": 10.24,
+   "schubert": 0.0,
+   "stuart": 27.64,
+   "taylor": 15.06,
+   "torrens": 8.46,
+   "unley": 0.0,
+   "waite": 0.0,
+   "west torrens": 18.73,
+   "wright": 17.73
+  }
+ },
+ "districts": {
+  "Adelaide": {
+   "ALP": 9477.0,
+   "LP": 9273.0,
+   "GRN": 3146.0,
+   "AFP": 545.0,
+   "AJP": 502.0,
+   "RCH": 380.0
+  },
+  "Badcoe": {
+   "ALP": 11780.0,
+   "LP": 6876.0,
+   "GRN": 2697.0,
+   "ON": 722.0,
+   "AJP": 571.0,
+   "AFP": 488.0,
+   "FFP": 428.0
+  },
+  "Black": {
+   "LP": 11862.0,
+   "ALP": 9037.0,
+   "GRN": 2785.0
+  },
+  "Bragg": {
+   "LP": 12751.0,
+   "ALP": 6793.0,
+   "GRN": 3000.0,
+   "FFP": 1175.0
+  },
+  "Chaffey": {
+   "LP": 12050.0,
+   "ALP": 4395.0,
+   "ON": 2180.0,
+   "GRN": 1334.0,
+   "NP": 1267.0,
+   "FFP": 831.0
+  },
+  "Cheltenham": {
+   "ALP": 13027.0,
+   "LP": 5730.0,
+   "GRN": 2545.0,
+   "FFP": 1513.0,
+   "IND*": 633.0
+  },
+  "Colton": {
+   "LP": 13171.0,
+   "ALP": 9277.0,
+   "GRN": 2759.0
+  },
+  "Croydon": {
+   "ALP": 14064.0,
+   "LP": 5197.0,
+   "GRN": 2858.0,
+   "AJP": 1029.0
+  },
+  "Davenport": {
+   "LP": 9928.0,
+   "ALP": 9835.0,
+   "GRN": 2266.0,
+   "IND*": 2063.0
+  },
+  "Dunstan": {
+   "LP": 11219.0,
+   "ALP": 8445.0,
+   "GRN": 3279.0,
+   "FFP": 1067.0
+  },
+  "Elder": {
+   "ALP": 10587.0,
+   "LP": 9289.0,
+   "GRN": 2402.0,
+   "LDP": 730.0,
+   "FFP": 619.0,
+   "AJP": 450.0,
+   "RCH": 303.0
+  },
+  "Elizabeth": {
+   "ALP": 9536.1,
+   "LP": 3205.9,
+   "ON": 1685.4,
+   "FFP": 1334.6,
+   "GRN": 1298.6,
+   "IND*": 119.1
+  },
+  "Enfield": {
+   "ALP": 12145.0,
+   "LP": 6768.0,
+   "GRN": 2310.0,
+   "ON": 1041.0,
+   "FFP": 938.0
+  },
+  "Finniss": {
+   "LP": 10424.0,
+   "ALP": 5532.0,
+   "IND*": 4728.0,
+   "GRN": 1647.0,
+   "ON": 1146.0,
+   "FFP": 614.0,
+   "NP": 82.0
+  },
+  "Flinders": {
+   "LP": 9743.0,
+   "IND*": 5757.0,
+   "ALP": 2943.0,
+   "GRN": 996.0,
+   "NP": 886.0,
+   "FFP": 860.0
+  },
+  "Florey": {
+   "ALP": 10866.0,
+   "LP": 6298.0,
+   "GRN": 2294.0,
+   "FFP": 1428.0,
+   "IND*": 1326.0
+  },
+  "Gibson": {
+   "LP": 10431.0,
+   "ALP": 9701.0,
+   "GRN": 2712.0,
+   "FFP": 913.0,
+   "IND*": 746.0
+  },
+  "Giles": {
+   "ALP": 10566.7,
+   "LP": 3725.1,
+   "SAB": 1942.8,
+   "IND*": 1343.5,
+   "ON": 1187.8,
+   "GRN": 761.0,
+   "FFP": 442.4
+  },
+  "Hammond": {
+   "LP": 9130.0,
+   "ALP": 5244.0,
+   "IND*": 3550.0,
+   "ON": 1548.0,
+   "GRN": 1377.0,
+   "FFP": 979.0,
+   "NP": 720.0
+  },
+  "Hartley": {
+   "LP": 11591.0,
+   "ALP": 8511.0,
+   "GRN": 2627.0
+  },
+  "Heysen": {
+   "LP": 10523.4,
+   "ALP": 6496.7,
+   "GRN": 5006.4,
+   "ON": 1186.1,
+   "FFP": 1008.0,
+   "IND*": 344.2,
+   "AJP": 15.6
+  },
+  "Hurtle Vale": {
+   "ALP": 13220.0,
+   "LP": 6493.7,
+   "GRN": 2052.7,
+   "FFP": 1204.1,
+   "IND*": 915.0,
+   "AFP": 641.0
+  },
+  "Kaurna": {
+   "ALP": 13696.0,
+   "LP": 5053.0,
+   "GRN": 2649.0,
+   "ON": 2000.0,
+   "FFP": 1050.0
+  },
+  "Kavel": {
+   "IND*": 11854.8,
+   "LP": 4848.6,
+   "ALP": 3371.3,
+   "GRN": 1908.6,
+   "ON": 866.9,
+   "AJP": 583.4
+  },
+  "King": {
+   "ALP": 14716.9,
+   "LP": 11380.9,
+   "GRN": 1975.8,
+   "FFP": 1501.9,
+   "ON": 886.3,
+   "AFP": 865.0,
+   "AJP": 604.0,
+   "RCH": 308.0
+  },
+  "Lee": {
+   "ALP": 12717.2,
+   "LP": 8092.5,
+   "GRN": 2123.0,
+   "FFP": 1530.8,
+   "AJP": 89.5
+  },
+  "Light": {
+   "ALP": 11183.3,
+   "LP": 4630.8,
+   "GRN": 1316.4,
+   "ON": 1311.4,
+   "FFP": 1022.6
+  },
+  "Mackillop": {
+   "LP": 14623.0,
+   "ALP": 4703.0,
+   "ON": 1892.0,
+   "FFP": 1139.0,
+   "NP": 1109.0
+  },
+  "Mawson": {
+   "ALP": 12288.0,
+   "LP": 6724.0,
+   "GRN": 2126.0,
+   "ON": 1574.0,
+   "AJP": 574.0,
+   "FFP": 443.0,
+   "AFP": 279.0
+  },
+  "Morialta": {
+   "LP": 10935.0,
+   "ALP": 8545.0,
+   "GRN": 2441.0,
+   "FFP": 1763.0
+  },
+  "Morphett": {
+   "LP": 11730.0,
+   "ALP": 8086.0,
+   "GRN": 2881.0
+  },
+  "Mount Gambier": {
+   "IND*": 10135.0,
+   "LP": 6433.0,
+   "ALP": 4578.0,
+   "FFP": 1032.0
+  },
+  "Narungga": {
+   "IND*": 8965.0,
+   "LP": 6327.0,
+   "ALP": 4427.0,
+   "ON": 1183.0,
+   "FFP": 770.0,
+   "NP": 283.0
+  },
+  "Newland": {
+   "ALP": 8599.0,
+   "LP": 8076.0,
+   "IND*": 2861.0,
+   "GRN": 1344.0,
+   "ON": 885.0,
+   "FFP": 844.0,
+   "AJP": 351.0,
+   "AFP": 225.0,
+   "RCH": 147.0
+  },
+  "Ngadjuri": {
+   "LP": 9591.3,
+   "ALP": 7160.6,
+   "IND*": 3343.9,
+   "ON": 2470.9,
+   "NP": 336.7,
+   "GRN": 189.6,
+   "FFP": 161.4
+  },
+  "Playford": {
+   "ALP": 11922.0,
+   "LP": 5511.0,
+   "GRN": 2118.0,
+   "FFP": 1773.0,
+   "IND*": 973.0
+  },
+  "Port Adelaide": {
+   "ALP": 12727.8,
+   "LP": 4911.5,
+   "GRN": 2202.0,
+   "FFP": 1076.2,
+   "AJP": 855.5
+  },
+  "Ramsay": {
+   "ALP": 13401.0,
+   "LP": 4780.0,
+   "FFP": 2556.0,
+   "GRN": 1598.0
+  },
+  "Reynell": {
+   "ALP": 11399.0,
+   "LP": 5166.3,
+   "GRN": 2313.3,
+   "FFP": 2054.9
+  },
+  "Schubert": {
+   "LP": 12580.0,
+   "ALP": 5557.0,
+   "GRN": 2493.0,
+   "ON": 1658.0,
+   "FFP": 934.0,
+   "IND*": 707.0,
+   "NP": 522.0
+  },
+  "Stuart": {
+   "IND*": 9685.9,
+   "LP": 7714.2,
+   "ALP": 4674.6,
+   "ON": 1601.6,
+   "GRN": 652.0,
+   "SAB": 228.2,
+   "FFP": 100.8,
+   "NP": 77.1
+  },
+  "Taylor": {
+   "ALP": 9951.0,
+   "LP": 3967.2,
+   "ON": 1652.3,
+   "FFP": 1437.5,
+   "GRN": 1122.7,
+   "IND*": 548.9
+  },
+  "Torrens": {
+   "ALP": 11732.0,
+   "LP": 8114.0,
+   "GRN": 2559.0,
+   "FFP": 1737.0
+  },
+  "Unley": {
+   "LP": 12019.0,
+   "ALP": 7825.0,
+   "GRN": 4577.0
+  },
+  "Waite": {
+   "IND*": 8614.0,
+   "ALP": 6698.0,
+   "LP": 6509.0,
+   "GRN": 2872.0,
+   "AJP": 482.0
+  },
+  "West Torrens": {
+   "ALP": 12496.0,
+   "LP": 6353.0,
+   "GRN": 3919.0
+  },
+  "Wright": {
+   "ALP": 12231.0,
+   "LP": 7550.0,
+   "GRN": 2001.0,
+   "FFP": 1737.0
+  }
+ }
+}

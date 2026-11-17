@@ -27,9 +27,9 @@ as optimistic.
 
 **What it does test**
 
-- Booth → district assignment and declaration-vote spreading (S1–S2).
-- The federal–state gap at seat level: incumbents, local candidates, state vs federal Labor.
-- Rescaling of a moderate swing (S4) — expect R1–R3 to perform similarly.
+- Booth → district assignment and declaration-vote spreading (S1-S2).
+- The federal-state gap at seat level: incumbents, local candidates, state vs federal Labor.
+- Rescaling of a moderate swing (S4) — expect R1-R3 to perform similarly.
 - Minor-party and Greens flows (S5).
 - Independents: the federal teals (Kooyong, Goldstein) vs state contests in Kew, Hawthorn and
   Brighton; state-only independents (Mornington, Benambra, Mildura, Shepparton).
@@ -50,7 +50,7 @@ as optimistic.
   state primary vote.
 - A collapsing Liberal vote (18.9%, −16.8), producing exactly the three-way problem model3 is
   built for. One Nation made the three-candidate stage in 40 of 47 seats; the final pair was
-  ALP–ON in 25 seats.
+  ALP-ON in 25 seats.
 - Full distributions of preferences are published for all 47 seats, so flow variants can be scored
   directly.
 
@@ -111,12 +111,12 @@ bad result in the other.
 
 | Mode | Model is given | Model predicts | Isolates |
 |---|---|---|---|
-| **T1 Primaries** | Federal data + polls (S1–S4) | District primaries | Booth mapping, party mapping, rescaling |
+| **T1 Primaries** | Federal data + polls (S1-S4) | District primaries | Booth mapping, party mapping, rescaling |
 | **T2 Flows** | **Actual** district primaries (oracle) + S5 preferences | Three-candidate set, final pair, 2CP share, winner | Preference model only |
 | **T3 Full** | Everything permitted by the leakage rules | Standard outputs (probabilities) | The whole pipeline |
 
 T2 is the "flow test": with primaries fixed at the truth, any error comes from the preference model.
-It is the direct comparison of F0–F3.
+It is the direct comparison of F0-F3.
 
 ---
 
@@ -176,8 +176,8 @@ at the three-candidate stage), since that is where variants are expected to diff
 
 ## Expected outcome (to be replaced by results)
 
-- **B5:** small differences between R1–R3 and between F0–F2; most error from independents and
+- **B5:** small differences between R1-R3 and between F0-F2; most error from independents and
   candidate effects.
 - **B6:** R0/R1 should do badly on One Nation geography; R3/R4 should do best. F0/F1 should miss
-  splits in ALP–ON and LIB–ON contests; F2/F3 should recover them, subject to the SA ticket-vote
+  splits in ALP-ON and LIB-ON contests; F2/F3 should recover them, subject to the SA ticket-vote
   caveat.

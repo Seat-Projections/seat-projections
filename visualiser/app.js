@@ -244,9 +244,9 @@ function seatsTable() {
   const rows = fc().blocs || fc().seats;
   const parts = Object.fromEntries(fc().seats.map((s) => [s.party, s]));
   const coalParts = ["LP", "NP"].filter((p) => parts[p]).map((p) => `${partyName(p)} ${parts[p].seats_mean.toFixed(1)}`).join(" + ");
-  return `<table><tr><th>Party</th><th>Mean</th><th>p10–p90</th><th>Majority</th></tr>
+  return `<table><tr><th>Party</th><th>Mean</th><th>p10-p90</th><th>Majority</th></tr>
     ${rows.map((s) => `<tr><td><span class="swatch" style="background:${m2colour(s.party)}"></span>${esc(partyName(s.party))}${s.party === "COAL" && coalParts ? `<br><span class="muted">${esc(coalParts)}</span>` : ""}</td>
-      <td>${s.seats_mean.toFixed(1)}</td><td>${s.seats_p10}–${s.seats_p90}</td><td>${Math.round(100 * s.p_majority)}%</td></tr>`).join("")}</table>
+      <td>${s.seats_mean.toFixed(1)}</td><td>${s.seats_p10}-${s.seats_p90}</td><td>${Math.round(100 * s.p_majority)}%</td></tr>`).join("")}</table>
     <p class="muted">Coalition = Liberal + National seats added up in each simulation; Majority = chance of ${fc().meta.majority}+ seats.</p>`;
 }
 
@@ -299,9 +299,9 @@ function pairBlock(pr, party, d) {
     <b>${esc(nameOf(d, a))}</b> <span class="muted">${esc(partyName(party[a]))}</span> v <b>${esc(nameOf(d, b))}</b> <span class="muted">${esc(partyName(party[b]))}</span>
     <span class="muted"> — final two in ${Math.round(100 * pr.p)}% of simulations</span>
     <div class="split"><span style="width:${mid}%;background:${m2colour(party[a])}"></span><span style="width:${100 - mid}%;background:${m2colour(party[b])}"></span></div>
-    <table><tr><th></th><th>2CP (median)</th><th>p10–p90</th><th>Wins this pairing</th></tr>
-      <tr><td>${esc(shortOf(d, a))}</td><td>${pct1(mid)}</td><td>${pct1(lo)}–${pct1(hi)}</td><td>${Math.round(100 * pr.p_a_wins)}%</td></tr>
-      <tr><td>${esc(shortOf(d, b))}</td><td>${pct1(100 - mid)}</td><td>${pct1(100 - hi)}–${pct1(100 - lo)}</td><td>${Math.round(100 * (1 - pr.p_a_wins))}%</td></tr></table>
+    <table><tr><th></th><th>2CP (median)</th><th>p10-p90</th><th>Wins this pairing</th></tr>
+      <tr><td>${esc(shortOf(d, a))}</td><td>${pct1(mid)}</td><td>${pct1(lo)}-${pct1(hi)}</td><td>${Math.round(100 * pr.p_a_wins)}%</td></tr>
+      <tr><td>${esc(shortOf(d, b))}</td><td>${pct1(100 - mid)}</td><td>${pct1(100 - hi)}-${pct1(100 - lo)}</td><td>${Math.round(100 * (1 - pr.p_a_wins))}%</td></tr></table>
   </div>`;
 }
 

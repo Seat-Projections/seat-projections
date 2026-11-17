@@ -1,0 +1,522 @@
+old_district,venue,votes,method,lat,lon
+Adelaide,Adelaide,1554,aec-name,-34.9233255387666,138.602698413491
+Adelaide,Adelaide South,1653,aec-name,-34.9343942788897,138.603870642619
+Adelaide,Adelaide West,844,aec-name,-34.9254704556243,138.586957992757
+Adelaide,North Adelaide,2166,aec-name,-34.905106,138.597604
+Adelaide,North Adelaide East,870,nominatim,-34.8562627,138.655817
+Adelaide,Prospect South,1686,aec-name,-34.8806189791765,138.610843887714
+Adelaide,Walkerville,1734,aec-name,-34.8950500824297,138.612973459628
+Adelaide,Walkerville North,610,aec-name,-34.8874026703188,138.61619698146
+Badcoe,Black Forest,1319,nominatim,-34.9602768,138.576661
+Badcoe,Keswick,741,aec-name,-34.9453365315102,138.572573536937
+Badcoe,Kurralta Park,1510,aec-name,-34.9462149,138.5688187
+Badcoe,Netley,974,aec-name,-34.954324,138.547004
+Badcoe,Plympton,1486,nominatim,-34.9620679,138.554884
+Badcoe,Plympton Park,1226,aec-name,-34.9703,138.555
+Badcoe,South Plympton,1572,aec-name,-34.9771649655426,138.55791298463
+Badcoe,South Plympton North,673,aec-name,-34.9675962372811,138.560244147574
+Black,Hallett Cove,1694,aec-name,-35.0826295556749,138.504081719559
+Black,Hallett Cove East,2126,aec-name,-35.0709,138.518
+Black,Hallett Cove South,1357,aec-name,-35.0763809,138.5185231
+Black,Marino,1559,aec-name,-35.0428,138.518
+Black,Seacliff,1476,aec-name,-35.031817296135,138.522900269638
+Black,Seaview Downs,1274,aec-name,-35.0413106567494,138.536290656902
+Black,Sheidow Park,1903,aec-name,-35.0714007467717,138.532277165703
+Black,Sheidow Park South,2443,aec-name,-35.0794277769132,138.534475694857
+Bragg,Beaumont,1882,aec-name,-34.944939,138.658356
+Bragg,Burnside,2022,aec-name,-34.9357195312976,138.661183023355
+Bragg,Glen Osmond,875,aec-name,-34.963,138.645
+Bragg,Linden Park,1417,aec-name,-34.946875,138.6442459
+Bragg,Tusmore,1485,aec-name,-34.9375,138.643
+Bragg,Wattle Park,1683,nominatim,-34.9272356,138.678485
+Chaffey,Barmera,1297,aec-name,-34.252,140.453
+Chaffey,Berri,1521,aec-name,-34.284125,140.597127
+Chaffey,Blanchetown,209,aec-name,-34.3517642,139.6145486
+Chaffey,Cadell,160,aec-name,-34.0393,139.764
+Chaffey,Cambrai,205,aec-name,-34.652672,139.281637
+Chaffey,Cobdogla,459,aec-name,-34.2423949864927,140.406111114729
+Chaffey,Glossop,389,aec-name,-34.2639961138078,140.540707594998
+Chaffey,Karoonda,297,aec-name,-35.0933057273266,139.895392785114
+Chaffey,Loxton,2129,aec-name,-34.453512,140.56853
+Chaffey,Loxton North,770,aec-name,-34.4131713585548,140.626304668188
+Chaffey,Lyrup,214,aec-name,-34.255696,140.646789
+Chaffey,Monash,559,aec-name,-34.2375282539956,140.558034241562
+Chaffey,Moorook,302,aec-name,-34.2756263239915,140.350844380925
+Chaffey,Morgan,334,aec-name,-34.02905,139.669354
+Chaffey,Nildottie,122,aec-name,-34.6799834433381,139.652053012264
+Chaffey,Paringa,811,aec-name,-34.1804896927512,140.785943505725
+Chaffey,Purnong,143,aec-name,-34.8542734731535,139.623919224929
+Chaffey,Ramco,533,aec-name,-34.170249,139.937124
+Chaffey,Renmark,1691,aec-name,-34.178387,140.747889
+Chaffey,Renmark North,649,aec-name,-34.1266927909946,140.711755785896
+Chaffey,Renmark West,730,aec-name,-34.1663097511314,140.709345593371
+Chaffey,Sedan,168,aec-name,-34.5726,139.299
+Chaffey,Swan Reach,173,aec-name,-34.5715321232281,139.602350542699
+Chaffey,Waikerie,1429,aec-name,-34.1835686155528,139.981218954635
+Chaffey,Walker Flat,135,aec-name,-34.7613492199979,139.568086010069
+Chaffey,Winkie,245,aec-name,-34.3136775928554,140.525225811138
+Cheltenham,Beverley,827,nominatim,-34.8952647,138.5463394
+Cheltenham,Cheltenham,2051,aec-name,-34.8662511252055,138.525580739322
+Cheltenham,Findon,1545,aec-name,-34.8998,138.527
+Cheltenham,Findon West,1268,aec-name,-34.8989276958867,138.537055075493
+Cheltenham,Pennington,1104,aec-name,-34.8569138028139,138.532441968819
+Cheltenham,Queenstown,1153,aec-name,-34.8623598246611,138.513017511567
+Cheltenham,St Clair,1850,aec-name,-34.8728459758702,138.540617426516
+Cheltenham,Woodville South,1280,aec-name,-34.8820959256994,138.535092826835
+Cheltenham,Woodville West,1175,aec-name,-34.8801793,138.52113501
+Colton,Fulham,1086,aec-name,-34.930734225119,138.513688797293
+Colton,Henley Beach,1396,aec-name,-34.9179,138.495
+Colton,Henley Beach North,1773,aec-name,-34.9179,138.495
+Colton,Henley Beach South,1751,nominatim,-34.9299358,138.5012182
+Colton,Kidman Park,1713,aec-name,-34.9141253282288,138.529645448874
+Colton,Lockleys,1397,aec-name,-34.9263953,138.5393268
+Colton,West Beach,1906,aec-name,-34.9377825449668,138.508937307625
+Croydon,Brompton,1884,aec-name,-34.898096,138.581904
+Croydon,Croydon,1294,aec-name,-34.8956017971114,138.567051770896
+Croydon,Croydon Park,966,aec-name,-34.8802670169678,138.565920462016
+Croydon,Kilburn,1562,aec-name,-34.8623248677811,138.588171099559
+Croydon,Kilkenny North,1015,aec-name,-34.8773052980852,138.554997712258
+Croydon,Regency Park,1240,aec-name,-34.8732246,138.5685417
+Croydon,Renown Park,1282,aec-name,-34.8940780576859,138.581086908744
+Croydon,West Croydon,1433,aec-name,-34.8894265,138.5592577
+Davenport,Aberfoyle Park,1931,aec-name,-35.0739949093634,138.594208415566
+Davenport,Aberfoyle Park Central,955,aec-name,-35.0679686593606,138.595048655803
+Davenport,Aberfoyle Park North,2585,aec-name,-35.0592,138.6
+Davenport,Aberfoyle Park South,1205,aec-name,-35.0781250994123,138.594761165222
+Davenport,Flagstaff Hill,3135,aec-name,-35.0493439890094,138.589427737857
+Dunstan,Joslin,979,nominatim,-34.8996663,138.626552
+Dunstan,Kensington Park,1399,aec-name,-34.92197,138.65012
+Dunstan,Kent Town,920,aec-name,-34.91925,138.62267
+Dunstan,Marden,746,aec-name,-34.8964022500938,138.638383319435
+Dunstan,Maylands,1262,aec-name,-34.912543,138.636013
+Dunstan,Norwood,976,aec-name,-34.9217065401697,138.636390828192
+Dunstan,Norwood West,1358,aec-name,-34.9191539499482,138.631485509135
+Dunstan,St Morris,970,nominatim,-34.9110511,138.6536206
+Dunstan,St Peters,1196,aec-name,-34.90694,138.62487
+Dunstan,St Peters East,1254,aec-name,-34.9056270096901,138.627354050631
+Dunstan,Trinity Gardens,1611,aec-name,-34.909041840273,138.640761368275
+Elder,Clarence Gardens,537,aec-name,-34.9643489182343,138.590371176893
+Elder,Daw Park,1467,aec-name,-34.9808871,138.5915167
+Elder,Melrose Park,1510,aec-name,-34.9786077341111,138.578592304289
+Elder,Mitchell Park,967,aec-name,-34.9976650540103,138.557848787157
+Elder,Mitchell Park South,1283,aec-name,-35.0073859305637,138.558213641459
+Elder,Pasadena,1090,aec-name,-34.9927,138.59
+Elder,St Marys,1643,aec-name,-34.99898373278,138.578401230431
+Elder,Westbourne Park,1275,aec-name,-34.9694,138.592
+Elizabeth,Craigmore,2686,nominatim,-34.7006365,138.7095493
+Elizabeth,Craigmore North,2458,aec-name,-34.6888865519324,138.713291210322
+Elizabeth,Craigmore South,2057,aec-name,-34.7099,138.705
+Elizabeth,Elizabeth,377,aec-name,-34.7144874703666,138.672257645254
+Elizabeth,Elizabeth Downs,1599,aec-name,-34.6992231608053,138.694508562262
+Elizabeth,Elizabeth Grove,949,aec-name,-34.7327,138.67
+Elizabeth,Elizabeth Park,1574,aec-name,-34.7125285908975,138.685178043323
+Elizabeth,Elizabeth South,1034,aec-name,-34.7306,138.662
+Enfield,Blair Athol,883,aec-name,-34.8537001781789,138.599014008357
+Enfield,Blair Athol North,1118,aec-name,-34.8537001781789,138.599014008357
+Enfield,Broadview,1647,aec-name,-34.880086,138.614978
+Enfield,Clearview,1172,aec-name,-34.8526521,138.6102747
+Enfield,Enfield,1692,aec-name,-34.864944,138.603051
+Enfield,Enfield South,826,nominatim,-34.8606457,138.6053811
+Enfield,Lightsview,1391,nominatim,-34.8619547,138.6273162
+Enfield,Northfield,1949,aec-name,-34.848419,138.619864
+Finniss,Currency Creek,703,aec-name,-35.4509637188671,138.764044924431
+Finniss,Goolwa,1433,aec-name,-35.4974131598449,138.780251208832
+Finniss,Goolwa Central,1087,aec-name,-35.5044,138.779
+Finniss,Middleton,631,aec-name,-35.5083632467578,138.705782740328
+Finniss,Milang,727,aec-name,-35.407162457405,138.969503963713
+Finniss,Mount Compass,946,aec-name,-35.3506,138.621
+Finniss,Port Elliot,955,aec-name,-35.5334,138.682
+Finniss,Victor Harbor,1328,aec-name,-35.554201823532,138.622274291133
+Finniss,Victor Harbor East,1348,aec-name,-35.527237553973,138.636797630442
+Finniss,Victor Harbor South,1256,aec-name,-35.56519707,138.60724158
+Flinders,Arno Bay,243,aec-name,-33.9109125562679,136.567765289321
+Flinders,Ceduna,1213,aec-name,-32.127265,133.674716
+Flinders,Cleve,495,aec-name,-33.7024363825438,136.49453664047
+Flinders,Coffin Bay,429,aec-name,-34.6216064768311,135.467562170785
+Flinders,Cowell,633,aec-name,-33.684,136.9264
+Flinders,Cummins,674,aec-name,-34.2648199221831,135.727839944556
+Flinders,Darke Peak,62,aec-name,-33.4632968734351,136.199092482898
+Flinders,Elliston,235,aec-name,-33.64642008,134.891082192803
+Flinders,Kimba,403,aec-name,-33.1386173564806,136.418274648177
+Flinders,Kirton Point,1161,aec-name,-34.7311203292893,135.869686911703
+Flinders,Lock,162,aec-name,-33.5664,135.757
+Flinders,Minnipa,106,aec-name,-32.853979917156,135.154620359364
+Flinders,North Shields,646,aec-name,-34.6263502885385,135.866118746904
+Flinders,Poochera,86,aec-name,-32.72088,134.83916
+Flinders,Port Kenny,140,aec-name,-33.179853,134.712945
+Flinders,Port Lincoln,1111,aec-name,-34.7238395992055,135.859828395538
+Flinders,Port Lincoln Central,1959,aec-name,-34.7185650185684,135.848312295685
+Flinders,Port Lincoln South,822,aec-name,-34.7238395992055,135.859828395538
+Flinders,Port Neill,197,aec-name,-34.1193616604356,136.348868603591
+Flinders,Smoky Bay,165,aec-name,-32.3738645,133.936527
+Flinders,Streaky Bay,766,aec-name,-32.7988106732249,134.210488022167
+Flinders,Tumby Bay,1120,aec-name,-34.3772495242525,136.102777620442
+Flinders,Ungarra,102,aec-name,-34.181,136.049
+Flinders,Wangary,234,aec-name,-34.549703,135.4786905
+Flinders,Wirrulla,94,aec-name,-32.4052026083997,134.534198287251
+Flinders,Wudinna,473,aec-name,-33.0481774670171,135.466698135083
+Florey,Ingle Farm,1510,aec-name,-34.8278181098654,138.643251392887
+Florey,Ingle Farm North,1101,aec-name,-34.8194781598745,138.644724643166
+Florey,Para Hills West,1614,aec-name,-34.8,138.654
+Florey,Pooraka North,1369,aec-name,-34.8236822,138.6226189
+Frome,Auburn,400,aec-name,-34.0251121565438,138.685854045263
+Frome,Booborowie,162,aec-name,-33.559536,138.758262
+Frome,Burra,592,aec-name,-33.67753799,138.9380969
+Frome,Clare,1327,aec-name,-33.847828,138.61979
+Frome,Dublin,582,aec-name,-34.4538357154596,138.351574961708
+Frome,Eudunda,592,aec-name,-34.1717500489169,139.084713954334
+Frome,Farrell Flat,162,aec-name,-33.829134,138.796294
+Frome,Freeling,1137,aec-name,-34.4550064745428,138.809923029554
+Frome,Hallett,78,aec-name,-33.41229666,138.8922303
+Frome,Hamley Bridge,423,aec-name,-34.3563646284748,138.681363685797
+Frome,Jamestown,961,aec-name,-33.2058929578091,138.603838856701
+Frome,Kapunda,1730,aec-name,-34.3377,138.918
+Frome,Mallala,727,aec-name,-34.4341983718364,138.510198977931
+Frome,Manoora,143,aec-name,-34.0001051319537,138.81751541645
+Frome,Marrabel,156,aec-name,-34.1448964754563,138.877728248199
+Frome,Owen,327,aec-name,-34.27066,138.54685
+Frome,Point Pass,149,aec-name,-34.076000562525,139.051552395569
+Frome,Riverton,575,aec-name,-34.1572683598828,138.744943108056
+Frome,Robertstown,186,aec-name,-33.9896818933519,139.083248866109
+Frome,Roseworthy,567,aec-name,-34.533443,138.748594
+Frome,Saddleworth,298,aec-name,-34.0806632610126,138.783203006813
+Frome,Spalding,202,aec-name,-33.4996722298472,138.60687869887
+Frome,Tarlee,258,aec-name,-34.2722281316561,138.769440627187
+Frome,Terowie,74,aec-name,-33.1492025,138.9199626
+Frome,Two Wells,1909,aec-name,-34.5912841731244,138.517250527342
+Frome,Wasleys,473,aec-name,-34.4702664892922,138.683554148481
+Frome,Watervale,337,aec-name,-33.9608851444166,138.644978195457
+Gibson,Brighton,1680,aec-name,-35.0162972940949,138.522402081637
+Gibson,Marion South,651,nominatim,-34.9628764,138.5542397
+Gibson,North Brighton,1808,aec-name,-35.002579,138.525681
+Gibson,North Brighton West,1290,unlocated,,
+Gibson,Oaklands Park,1093,aec-name,-35.0109181168054,138.542236547809
+Gibson,Sturt,1294,aec-name,-35.0180173305754,138.55218108257
+Gibson,Warradale,1581,aec-name,-35.0086828275719,138.537651374021
+Giles,Andamooka,127,aec-name,-30.448248,137.167115
+Giles,Coober Pedy,432,aec-name,-29.011404,134.754676
+Giles,Hawker,126,aec-name,-31.8881479416238,138.422274578886
+Giles,Iron Knob,78,aec-name,-32.7303923,137.1496993
+Giles,Port Augusta West,847,aec-name,-32.47130046,137.7535668
+Giles,Quorn,519,aec-name,-32.3455425,138.0417538
+Giles,Roxby Downs,847,aec-name,-30.5638684,136.8957853
+Giles,Whyalla Central East,682,aec-name,-33.0365964764881,137.585032858412
+Giles,Whyalla Central West,1049,aec-name,-33.0334361758591,137.568710841014
+Giles,Whyalla Norrie East,1243,aec-name,-33.0286,137.55
+Giles,Whyalla Norrie North,1010,aec-name,-33.0185105648742,137.544833905358
+Giles,Whyalla Norrie North-West,568,aec-name,-33.0185105648742,137.544833905358
+Giles,Whyalla Norrie South,1228,aec-name,-33.038428,137.53256
+Giles,Whyalla Stuart West,1107,aec-name,-33.0153,137.517
+Giles,Woomera,56,aec-name,-31.1989174,136.8271637
+Hammond,Callington,659,aec-name,-35.1134373485779,139.038886371444
+Hammond,Harrogate,204,nominatim,-34.9503543,139.0129599
+Hammond,Jervois,207,aec-name,-35.265575,139.436534
+Hammond,Langhorne Creek,753,aec-name,-35.2959250696211,139.036524250018
+Hammond,Mannum,1384,aec-name,-34.9142627691096,139.305955071603
+Hammond,Murray Bridge,980,aec-name,-35.117144,139.2709
+Hammond,Murray Bridge East,997,aec-name,-35.1152,139.303
+Hammond,Murray Bridge South,1789,aec-name,-35.1350696195792,139.285212810355
+Hammond,Murray Bridge West,1432,aec-name,-35.1260664086351,139.265309674155
+Hammond,Mypolonga,339,aec-name,-35.0392950520556,139.354038915638
+Hammond,Palmer,336,aec-name,-34.8532,139.161
+Hammond,Ponde,138,aec-name,-34.9505685994802,139.309098568707
+Hammond,Strathalbyn,2121,aec-name,-35.254958063124,138.892358256029
+Hammond,Wellington,117,aec-name,-35.3310698050284,139.379239892104
+Hammond,Woodchester,931,aec-name,-35.2037941160524,138.967679007116
+Hammond,Woods Point,191,aec-name,-35.2196,139.381
+Hartley,Campbelltown,1596,aec-name,-34.8793,138.662
+Hartley,Dernancourt,1204,aec-name,-34.86131,138.67119
+Hartley,Felixstow,797,aec-name,-34.8925996703211,138.644378958711
+Hartley,Hectorville,1478,aec-name,-34.8901,138.666
+Hartley,Paradise,1086,aec-name,-34.8743212314611,138.67428243506
+Hartley,Paradise East,945,nominatim,-34.8688586,138.6618081
+Heysen,Aldgate,1520,aec-name,-35.0194336255288,138.749017794052
+Heysen,Ashbourne,172,aec-name,-35.288798427942,138.766092344359
+Heysen,Bradbury,467,nominatim,-35.060311,138.7246899
+Heysen,Bridgewater,1241,aec-name,-35.0044224060019,138.762404832842
+Heysen,Cherry Gardens,535,aec-name,-35.0633792517882,138.653753886634
+Heysen,Clarendon,384,aec-name,-35.110349271184,138.632314827174
+Heysen,Crafers,1313,aec-name,-34.9934244738617,138.713463651387
+Heysen,Echunga,800,aec-name,-35.0977073778354,138.79175849226
+Heysen,Hahndorf,1319,aec-name,-35.03391,138.81359
+Heysen,Kangarilla,618,aec-name,-35.1477479925627,138.659601180446
+Heysen,Macclesfield,776,aec-name,-35.17178427,138.83819443
+Heysen,Meadows,938,aec-name,-35.1811621769407,138.758373052394
+Heysen,Montacute,164,nominatim,-34.8920269,138.7379436
+Heysen,Mylor,666,aec-name,-35.05404251,138.72362936
+Heysen,Norton Summit,425,aec-name,-34.9272971935861,138.728395121312
+Heysen,Piccadilly,487,aec-name,-34.982217,138.72606
+Heysen,Prospect Hill,209,nominatim,-35.2241252,138.7343116
+Heysen,Stirling,1034,nominatim,-35.0046686,138.7163504
+Heysen,Stirling East,845,aec-name,-35.001971474819,138.734844277421
+Heysen,Summertown,489,aec-name,-34.95898,138.72805
+Heysen,Upper Sturt,480,aec-name,-35.01891,138.68462
+Heysen,Uraidla,542,aec-name,-34.9590107949111,138.743408828731
+Heysen,Yundi,234,nominatim,-35.311621,138.63213
+Hurtle Vale,Hackham West,1273,aec-name,-35.14338,138.516912
+Hurtle Vale,Huntfield Heights,1470,aec-name,-35.153378096693,138.51798796298
+Hurtle Vale,Reynella East,2139,aec-name,-35.0906411879076,138.556737990579
+Hurtle Vale,Woodcroft,2793,aec-name,-35.1053184779878,138.556455239722
+Kaurna,Christies Beach,1389,aec-name,-35.1379518149914,138.479137410202
+Kaurna,Noarlunga Downs,1247,aec-name,-35.1504,138.496
+Kaurna,Old Noarlunga,1283,aec-name,-35.1806428129699,138.502544882815
+Kaurna,Port Noarlunga,1069,aec-name,-35.1441,138.473
+Kaurna,Port Noarlunga South,1712,aec-name,-35.175518854925,138.471830109088
+Kaurna,Seaford,1858,aec-name,-35.175404,138.472742
+Kaurna,Seaford East,1525,unlocated,,
+Kaurna,Seaford Rise,2359,aec-name,-35.1991839957283,138.487721685067
+Kavel,Brukunga,534,aec-name,-35.0014868136835,138.942323284151
+Kavel,Charleston,474,aec-name,-34.9157775213953,138.901764946096
+Kavel,Lenswood,386,aec-name,-34.9215421281271,138.824624078073
+Kavel,Littlehampton,1629,aec-name,-35.049770210771,138.86755413309
+Kavel,Lobethal,1027,aec-name,-34.90526,138.87493
+Kavel,Mount Barker,2291,aec-name,-35.0759708604826,138.856976823131
+Kavel,Mount Barker Central,1593,aec-name,-35.06888,138.853463
+Kavel,Mount Barker South,1596,aec-name,-35.0800328306273,138.859757982426
+Kavel,Nairne,1916,aec-name,-35.0385,138.903
+Kavel,Woodside,1323,aec-name,-34.9527,138.879
+King,Golden Grove,1277,aec-name,-34.7746358832064,138.730611772256
+King,Golden Grove East,2053,aec-name,-34.78673,138.70932
+King,Greenwith,1846,aec-name,-34.7698349927031,138.719415974336
+King,Greenwith West,2173,aec-name,-34.767937,138.708998
+King,Salisbury East North,1062,unlocated,,
+King,Salisbury Heights,1961,aec-name,-34.7588091809042,138.678377821548
+Lee,Albert Park,1140,aec-name,-34.87703,138.52157
+Lee,Royal Park,999,aec-name,-34.8708,138.512
+Lee,Royal Park South,1336,aec-name,-34.878151,138.511076
+Lee,Seaton,1616,aec-name,-34.88529,138.50648
+Lee,Semaphore Park,389,aec-name,-34.8551095437176,138.491285215481
+Lee,Semaphore Park South,1026,aec-name,-34.84544,138.48565
+Lee,West Lakes Shore,2671,aec-name,-34.8637,138.482
+Light,Evanston,1403,aec-name,-34.6201088112454,138.737428253472
+Light,Evanston Gardens,1432,aec-name,-34.62434,138.71933
+Light,Evanston South,950,aec-name,-34.6345738924319,138.733269460516
+Light,Gawler,731,aec-name,-34.6021006226444,138.74316589096
+Light,Gawler East,1703,aec-name,-34.5972794933902,138.761497618361
+Light,Gawler South,1700,aec-name,-34.6067259103586,138.747743865424
+Light,Gawler West,685,aec-name,-34.599183,138.745595
+Light,Hewett,1679,aec-name,-34.5759925327796,138.750274891452
+Light,Willaston,1066,aec-name,-34.5887811,138.7370204
+Mackillop,Beachport,490,aec-name,-37.4763,140.01
+Mackillop,Bordertown,1275,aec-name,-36.31303,140.7693
+Mackillop,Coomandook,125,aec-name,-35.4729781406397,139.701228270081
+Mackillop,Coonalpyn,184,aec-name,-35.6972,139.859
+Mackillop,Coonawarra,194,aec-name,-37.2912584271472,140.833234183704
+Mackillop,Frances,71,aec-name,-36.7096,140.956
+Mackillop,Furner,159,aec-name,-37.4085,140.337
+Mackillop,Glencoe,281,aec-name,-37.66,140.561
+Mackillop,Kalangadoo,249,aec-name,-37.5654736817483,140.694695275939
+Mackillop,Keith,772,aec-name,-36.0997431657548,140.354045487466
+Mackillop,Kingston,1147,aec-name,-36.8374032063062,139.855671877235
+Mackillop,Lameroo,424,aec-name,-35.331406,140.516171
+Mackillop,Lucindale,532,aec-name,-36.971551,140.368976
+Mackillop,Meningie,628,aec-name,-35.6841364554957,139.340493974688
+Mackillop,Millicent,1542,aec-name,-37.5933,140.349
+Mackillop,Millicent South,980,aec-name,-37.6084563853898,140.362226621041
+Mackillop,Mount Burr,220,aec-name,-37.541254,140.459368
+Mackillop,Mundulla,401,aec-name,-36.3577109242652,140.692937601221
+Mackillop,Nangwarry,194,aec-name,-37.5413,140.825
+Mackillop,Naracoorte,1158,aec-name,-36.955563,140.74244
+Mackillop,Naracoorte South,725,aec-name,-36.9726601207887,140.746757414015
+Mackillop,Padthaway,202,aec-name,-36.5939814758952,140.497060486075
+Mackillop,Penola,848,aec-name,-37.380306,140.833802
+Mackillop,Pinnaroo,319,aec-name,-35.2606,140.909
+Mackillop,Rendelsham,282,aec-name,-37.5508,140.226
+Mackillop,Robe,758,aec-name,-37.1638777238592,139.761342449697
+Mackillop,Tailem Bend,967,aec-name,-35.2583485,139.4575931
+Mackillop,Tantanoola,209,aec-name,-37.697579,140.454878
+Mackillop,Tintinara,233,aec-name,-35.8847,140.058
+Mackillop,Western Flat,139,aec-name,-36.5223363782176,140.750727988701
+Mackillop,Willalooka,132,aec-name,-36.4017,140.346
+Mackillop,Wolseley,166,aec-name,-36.3649,140.906
+Mawson,Aldinga Beach,1683,aec-name,-35.2689152057103,138.461568757824
+Mawson,Aldinga Beach West,1649,aec-name,-35.2727228447937,138.45390408605
+Mawson,American River,255,aec-name,-35.7731001011256,137.780442636875
+Mawson,Cape Jervis,177,nominatim,-35.6061685,138.1053486
+Mawson,Kingscote,1203,aec-name,-35.6515125448072,137.633821958106
+Mawson,McLaren Flat,861,aec-name,-35.2059642099051,138.587383328512
+Mawson,Myponga,524,aec-name,-35.3926796259647,138.46420740702
+Mawson,Parawa,116,nominatim,-35.5596674,138.3364707
+Mawson,Parndana,335,aec-name,-35.7884694118763,137.260931042327
+Mawson,Penneshaw,353,aec-name,-35.7208243566581,137.931885214814
+Mawson,Second Valley,298,aec-name,-35.5269252582277,138.227619043324
+Mawson,Sellicks Beach,984,aec-name,-35.3253089652146,138.456171092463
+Mawson,Willunga,1545,aec-name,-35.27067084,138.55377357473
+Mawson,Yankalilla,1555,aec-name,-35.4516783808933,138.331285445136
+Morialta,Athelstone,2618,aec-name,-34.86704,138.6984
+Morialta,Athelstone South,2345,nominatim,-34.862861,138.708791
+Morialta,Highbury West,705,aec-name,-34.8571170121244,138.692624623196
+Morialta,Rostrevor,1904,aec-name,-34.8935535820231,138.684760612194
+Morphett,Glenelg,1281,aec-name,-34.9805582957174,138.520585283145
+Morphett,Glenelg East,805,aec-name,-34.9846320640252,138.521843292141
+Morphett,Glenelg East Central,1250,unlocated,,
+Morphett,Glenelg North,1936,nominatim,-34.9687529,138.5180699
+Morphett,Glengowrie,1438,aec-name,-34.98337,138.52973
+Morphett,Morphettville,778,nominatim,-34.9846034,138.5430906
+Morphett,Novar Gardens,1795,aec-name,-34.9728830463416,138.53681382101
+Morphett,Park Holme,1337,aec-name,-34.9891145068866,138.547491308301
+Mount Gambier,Carpenter Rocks,126,aec-name,-37.913477,140.398747
+Mount Gambier,Compton,526,aec-name,-37.80207653494,140.729547990777
+Mount Gambier,Glenburnie,372,aec-name,-37.8396538717609,140.858612094844
+Mount Gambier,Kongorong,195,aec-name,-37.8989485170087,140.560960292939
+Mount Gambier,Moorak,547,aec-name,-37.8638538657141,140.737492374374
+Mount Gambier,Mount Gambier,1369,aec-name,-37.8310093276261,140.77887678969
+Mount Gambier,Mount Gambier East,1436,aec-name,-37.8396477284392,140.793784766344
+Mount Gambier,Mount Gambier North,995,aec-name,-37.816876,140.775784
+Mount Gambier,Mount Gambier Park,1628,aec-name,-37.826711,140.793258
+Mount Gambier,Mount Gambier West,1839,aec-name,-37.8260522269065,140.76535320249
+Mount Gambier,Port MacDonnell,681,aec-name,-38.051356784902,140.699464515959
+Mount Gambier,Suttontown,1268,aec-name,-37.7971541569442,140.769490564098
+Mount Gambier,Tarpeena,297,nominatim,-37.6501312,140.78517
+Mount Gambier,Yahl,489,aec-name,-37.8791644706316,140.831992476343
+Narungga,Alford,182,aec-name,-33.81564,137.82189
+Narungga,Ardrossan,938,aec-name,-34.4238401179729,137.916248991974
+Narungga,Arthurton,221,aec-name,-34.25948,137.75665
+Narungga,Blyth,292,aec-name,-33.84804,138.490462
+Narungga,Brinkworth,167,aec-name,-33.6912012627134,138.403883828463
+Narungga,Bute,234,aec-name,-33.8653077,138.0062846
+Narungga,Coobowie,194,aec-name,-35.0425301246997,137.730216826733
+Narungga,Corny Point,162,aec-name,-34.9262916002334,137.083177417325
+Narungga,Curramulka,163,aec-name,-34.6970797118377,137.711657839043
+Narungga,Edithburgh,365,aec-name,-35.0859196355508,137.745474131823
+Narungga,Hardwicke Bay,131,aec-name,-34.8923062336331,137.459975718549
+Narungga,Kadina,1346,aec-name,-33.9617,137.715
+Narungga,Lochiel,95,aec-name,-33.9271237944419,138.161136992074
+Narungga,Maitland,679,aec-name,-34.3671856083071,137.673202133372
+Narungga,Marion Bay,102,aec-name,-35.2376222585467,136.980488237779
+Narungga,Minlaton,695,aec-name,-34.7724332,137.5944168
+Narungga,Moonta,2125,aec-name,-34.070203,137.591707
+Narungga,Paskeville,161,aec-name,-34.0383,137.901
+Narungga,Port Broughton,765,aec-name,-33.5999174532981,137.931088695794
+Narungga,Port Clinton,315,aec-name,-34.2243732407096,138.018753887209
+Narungga,Port Victoria,218,aec-name,-34.4976055520703,137.484439786033
+Narungga,Port Vincent,402,aec-name,-34.7789495,137.860297
+Narungga,Port Wakefield,382,aec-name,-34.1851782355014,138.146370899541
+Narungga,Redhill,135,aec-name,-33.5393,138.223
+Narungga,Snowtown,260,aec-name,-33.7812836756641,138.215173912127
+Narungga,Stansbury,385,aec-name,-34.9093309864099,137.796702103543
+Narungga,Wallaroo,1700,aec-name,-33.932718,137.624689
+Narungga,Wallaroo Mines,722,aec-name,-33.966178,137.698404
+Narungga,Warooka,357,aec-name,-34.9907,137.402
+Narungga,Yorketown,537,aec-name,-35.0195678898927,137.60684821792
+Newland,Banksia Park,1658,aec-name,-34.8085,138.726
+Newland,Fairview Park,1572,aec-name,-34.7978400784805,138.731657940252
+Newland,Hope Valley,720,aec-name,-34.8383084,138.6962985
+Newland,Hope Valley West,886,aec-name,-34.8383084,138.6962985
+Newland,Modbury North East,955,aec-name,-34.8248948,138.6743758
+Newland,St Agnes West,1398,aec-name,-34.8336303824838,138.704669822729
+Newland,Tea Tree Gully,1168,aec-name,-34.8218219688254,138.727173708558
+Playford,Parafield Gardens,1744,aec-name,-34.7905759685993,138.618615659106
+Playford,Parafield Gardens Central,2262,unlocated,,
+Playford,Parafield Gardens North-West,2422,unlocated,,
+Port Adelaide,Birkenhead,1375,aec-name,-34.839802,138.495412
+Port Adelaide,Ethelton,851,nominatim,-34.8488333,138.4901309
+Port Adelaide,Largs Bay,1822,aec-name,-34.82346,138.49448
+Port Adelaide,Largs Bay Central,1163,aec-name,-34.82346,138.49448
+Port Adelaide,North Haven,1622,aec-name,-34.7895981960519,138.497801339528
+Port Adelaide,Port Adelaide,843,aec-name,-34.84697657,138.50791208
+Port Adelaide,Semaphore,1264,aec-name,-34.8393475433476,138.484722057486
+Port Adelaide,Semaphore South,1297,aec-name,-34.84544,138.48565
+Port Adelaide,Taperoo,1749,aec-name,-34.8032703535011,138.493952428202
+Port Adelaide,Taperoo East,1232,aec-name,-34.8055720006283,138.500786592529
+Ramsay,Brahma Lodge,1325,aec-name,-34.7754425798252,138.65017937501
+Ramsay,Burton,1847,aec-name,-34.7411865474589,138.598775065292
+Ramsay,Lake Windemere,1649,nominatim,-34.7423539,138.6184301
+Ramsay,Salisbury,1168,aec-name,-34.7671592796495,138.647238015988
+Ramsay,Salisbury Central,814,aec-name,-34.7838829503928,138.662436532538
+Ramsay,Salisbury North,1842,aec-name,-34.752660709022,138.634444488916
+Reynell,Christie Downs North,614,aec-name,-35.1331,138.494
+Reynell,Christies Beach North,266,aec-name,-35.1379518149914,138.479137410202
+Reynell,Morphett Vale,1370,aec-name,-35.1275044965873,138.519344504348
+Reynell,Morphett Vale Central,798,aec-name,-35.127814,138.534059
+Reynell,Morphett Vale North,1211,aec-name,-35.111309,138.516693
+Reynell,O'Sullivan Beach,915,aec-name,-35.1294916648905,138.477973230907
+Reynell,Old Reynella,2042,nominatim,-35.0968429,138.5404427
+Reynell,Pimpala,1242,aec-name,-35.1195804,138.5220762
+Reynell,Reynella,1936,aec-name,-35.1001412271916,138.538060743007
+Schubert,Angaston,1176,aec-name,-34.5025522450064,139.045760839489
+Schubert,Birdwood,606,aec-name,-34.81973007,138.96036735
+Schubert,Cudlee Creek,221,aec-name,-34.8404658172519,138.816105804526
+Schubert,Eden Valley,268,aec-name,-34.6400140281379,139.09738559257
+Schubert,Forreston,268,aec-name,-34.7980286605334,138.899031643982
+Schubert,Greenock,959,aec-name,-34.4571319795679,138.926930751038
+Schubert,Gumeracha,552,aec-name,-34.82211219464,138.88634685289
+Schubert,Houghton,545,aec-name,-34.8291594648868,138.762163773837
+Schubert,Kersbrook,622,aec-name,-34.7831,138.85
+Schubert,Keyneton,217,aec-name,-34.56508924,139.12956557
+Schubert,Lyndoch,1048,aec-name,-34.6052802687352,138.885624368246
+Schubert,Moculta,209,aec-name,-34.4709765579758,139.118272450106
+Schubert,Mount Pleasant,657,aec-name,-34.7743790070886,139.053859000857
+Schubert,Mount Torrens,443,aec-name,-34.872,138.96
+Schubert,Nuriootpa,1981,aec-name,-34.4675715827572,138.999165489032
+Schubert,Paracombe,281,aec-name,-34.8483275259054,138.783306509267
+Schubert,Sandy Creek,756,aec-name,-34.6099144562731,138.827398337158
+Schubert,Springton,320,nominatim,-34.7070453,139.0893592
+Schubert,Stockwell,684,aec-name,-34.4350178849077,139.053388772583
+Schubert,Tanunda,1582,aec-name,-34.523785,138.960606
+Schubert,Truro,331,aec-name,-34.4084570879649,139.127127702715
+Schubert,Williamstown,1151,aec-name,-34.6683173,138.8899541
+Stuart,Booleroo Centre,313,aec-name,-32.8815171853025,138.351086403101
+Stuart,Crystal Brook,779,aec-name,-33.3533,138.2085
+Stuart,Georgetown,126,aec-name,-33.360116,138.39224
+Stuart,Gladstone,441,aec-name,-33.2675417,138.35554
+Stuart,Laura,460,aec-name,-33.1858702452195,138.299901653368
+Stuart,Leigh Creek,93,aec-name,-30.479,138.419
+Stuart,Melrose,206,aec-name,-32.8241128383856,138.188380580384
+Stuart,Napperby,396,aec-name,-33.15288,138.11361
+Stuart,Orroroo,370,aec-name,-32.7336,138.613
+Stuart,Peterborough,786,aec-name,-32.9735,138.838
+Stuart,Port Augusta,638,nominatim,-32.4908819,137.7639874
+Stuart,Port Augusta Central,581,aec-name,-32.49266865,137.76336682
+Stuart,Port Germein,241,aec-name,-33.0170160522715,138.001550027382
+Stuart,Port Pirie,1198,aec-name,-33.182942873618,138.008405967201
+Stuart,Port Pirie South,822,aec-name,-33.182942873618,138.008405967201
+Stuart,Risdon Park,1437,nominatim,-33.1944155,137.9702878
+Stuart,Risdon Park South,902,aec-name,-33.207176,137.992483
+Stuart,Solomontown,883,aec-name,-33.18921,138.0194422
+Stuart,Stirling North,455,aec-name,-32.5137136526425,137.83781846882
+Stuart,Willsden,209,nominatim,-32.5083408,137.7814986
+Stuart,Wilmington,295,aec-name,-32.65181,138.099737
+Stuart,Wirrabara,271,aec-name,-33.0328420929414,138.268103526817
+Taylor,Andrews Farm,2065,aec-name,-34.6712796698406,138.666245488869
+Taylor,Davoren Park,1708,aec-name,-34.6967585898793,138.663327087764
+Taylor,Elizabeth North,1488,aec-name,-34.7031681403658,138.673942005685
+Taylor,Smithfield,1138,aec-name,-34.6795445701635,138.672687407339
+Taylor,Smithfield Plains,1881,aec-name,-34.6795445701635,138.672687407339
+Taylor,Virginia,1599,aec-name,-34.6643078,138.5597682
+Torrens,Gilles Plains,1993,aec-name,-34.8494,138.662
+Torrens,Hillcrest,1729,aec-name,-34.85749194,138.63671355
+Torrens,Klemzig,1809,aec-name,-34.8767,138.637
+Torrens,Vale Park,1510,nominatim,-34.8860553,138.6271419
+Torrens,Windsor Gardens East,1220,aec-name,-34.86195,138.65742
+Torrens,Windsor Gardens West,1149,aec-name,-34.8686,138.643
+Unley,Fullarton,1313,aec-name,-34.960067,138.624833
+Unley,Millswood,506,nominatim,-34.9572425,138.5894966
+Unley,Myrtle Bank,1522,aec-name,-34.95797,138.62874
+Unley,Netherby,529,aec-name,-34.9670751298659,138.622313277648
+Unley,Unley,1903,aec-name,-34.950821,138.608307
+Unley,Unley Park,1299,aec-name,-34.960398,138.607119
+Unley,Unley South,1062,nominatim,-34.9510359,138.6067429
+Unley,Wayville,639,nominatim,-34.9448147,138.5914429
+Waite,Belair,2631,aec-name,-34.9977891604807,138.632390064133
+Waite,Bellevue Heights,1514,aec-name,-35.0289322688607,138.588934799194
+Waite,Blackwood,2062,nominatim,-35.0223835,138.6128068
+Waite,Blackwood Central,1111,aec-name,-35.0208944698963,138.614952115507
+Waite,Coromandel Valley,1587,aec-name,-35.033478880457,138.626468562877
+Waite,Eden Hills,1322,aec-name,-35.0249,138.608
+Waite,Hawthorndene,1892,aec-name,-35.0208483,138.636111
+West Torrens,Allenby Gardens,1237,nominatim,-34.9016148,138.5543914
+West Torrens,Brooklyn Park,642,nominatim,-34.9301049,138.5447587
+West Torrens,Brooklyn Park North,1262,nominatim,-34.9649768,138.515153
+West Torrens,Brooklyn Park West,751,unlocated,,
+West Torrens,Cowandilla,1785,nominatim,-34.9324599,138.5569406
+West Torrens,Flinders Park,2016,nominatim,-34.9102468,138.5432009
+West Torrens,Mile End,1916,aec-name,-34.922950717436,138.570717278633
+West Torrens,Torrensville,1396,aec-name,-34.9173,138.563
+West Torrens,West Hindmarsh,811,aec-name,-34.8768264641825,138.492195113493
+Wright,Gulfview Heights,1060,nominatim,-34.7955526,138.6693829
+Wright,Salisbury East,1341,aec-name,-34.7923892001902,138.656329572986
+Wright,Salisbury East South,1418,aec-name,-34.7923892001902,138.656329572986
+Wright,Surrey Downs,1315,aec-name,-34.7999775689595,138.713954439485
+Wright,Wynn Vale,2086,aec-name,-34.80101,138.68929
+Wright,Wynn Vale West,990,aec-name,-34.797691603148,138.681689629298

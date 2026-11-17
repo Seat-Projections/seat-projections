@@ -1,0 +1,6 @@
+{
+  "districts": 59,
+  "raw_seat_count": 49,
+  "brier": 0.2828,
+  "log_loss": 0.8624
+}

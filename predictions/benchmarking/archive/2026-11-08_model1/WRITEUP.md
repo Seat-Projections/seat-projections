@@ -57,7 +57,7 @@ Which elections are included:
   SA 2022) it reaches about 80%.
 - **Independents at the wrong level.** Federal independents are carried into state seats where they
   are not standing (Victoria 2022: 9 of 16 misses), state-only independents are invisible (NSW 2023:
-  9 elected), and Centre Alliance's federal vote in Mayo gives it 3–4 SA seats it did not contest.
+  9 elected), and Centre Alliance's federal vote in Mayo gives it 3-4 SA seats it did not contest.
 - **One Nation's surge is invisible.** SA 2026: One Nation won 4 seats on 22.9%; the model gave none.
 - **Coalition partners differ by level.** WA 2025: the Nationals won 6 seats the model gave to the
   Liberals, because the WA Nationals barely contest federal seats.
@@ -67,11 +67,11 @@ Which elections are included:
 
 Full report: [`booth_assignment_checks.md`](booth_assignment_checks.md). In every run the district
 totals add up exactly to the counted booth votes, every district has at least one counted booth, and
-every federal division has a boundary. 93.7–96.8% of polling-place votes are counted. Problems found
+every federal division has a boundary. 93.7-96.8% of polling-place votes are counted. Problems found
 and fixed while preparing this archive:
 
 - **Enclaves.** Queensland's Bundaberg district sits entirely inside Burnett. Holes were not being
-  subtracted, so 18–22 Bundaberg booths were inside both polygons (assigned correctly only because
+  subtracted, so 18-22 Bundaberg booths were inside both polygons (assigned correctly only because
   "Bundaberg" sorts first). Shapefile holes are now subtracted.
 - **WA 2021 names.** Geoscape's pre-2023 WA names carry region suffixes ("Churchlands, Nm"); these
   are now stripped so districts match the declared winners.

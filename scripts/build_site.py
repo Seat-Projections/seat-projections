@@ -11,7 +11,7 @@ https://seatprojections.au:
                            plus statewide seat tally and first-preference shares
   model1_vic2026.json      the models' 2026 forecasts, copied from visualiser/data/ (rebuilt there by
   model2_vic2026.json      scripts/build_visualiser.py --forecasts-only after each model run)
-  benchmarks.json          archived benchmark results (model1 forecast runs, model2 B1 replays)
+  benchmarks.json          archived model1 runs + forecast backtests (model1/model3/model2 F)
   site.json                REPO_URL, build date, forecast run metadata, downloadable-file register
   downloads/               public copies of the datasets listed on the Methodology page
 
@@ -470,9 +470,25 @@ def benchmarks() -> dict:
             )
         return out
 
+    # Canonical table: every model x the 5 backtest elections + VIC2026 (unscored, first).
+    seats_map = {"VIC2022": 88, "NSW2023": 93, "QLD2024": 93, "WA2025": 59, "SA2026": 47, "VIC2026": 88}
+    rows: dict[str, list[dict]] = {"model1": [], "model2": [], "model3": []}
+    for r in read(ROOT / "predictions" / "benchmarking" / "forecast_backtests.csv"):
+        unscored = r["seats_right"] == ""
+        rows[r["model"]].append({
+            "model": r["model"], "run": r["run_id"],
+            "districts": int(r["districts"]) if r["districts"] else seats_map[r["election"]],
+            "data_from": "2026", "raw_seat_count": r["seats_right"],
+            "accuracy_pct": str(round(100 * float(r["accuracy"]), 1)) if not unscored else "",
+            "brier": r["brier"], "log_loss": r["log_loss"],
+            "fp_error": r["t1_mae_pp"] or None,
+            "final_two_accuracy": r["final_two_accuracy"] or None,
+            "predicted_seats": r["predicted_seats"], "actual_seats": r["actual_seats"] or None,
+        })
     return {
-        "model1_runs": slim(read(MODEL1_CANDIDATES)),
-        "model2_replays": slim(read(MODEL2_CANDIDATES)),
+        "model1_runs": rows["model1"],
+        "forecast_backtests": rows["model2"],
+        "model3_backtests": rows["model3"],
     }
 
 
@@ -649,7 +665,7 @@ def seo_block(title, desc, path, jsonld=None, index=True):
             f'<meta property="og:image" content="{DOMAIN}/assets/og-image.png">',
             '<meta property="og:image:width" content="1200">',
             '<meta property="og:image:height" content="630">',
-            '<meta property="og:image:alt" content="Seat Projections — 2026 Victorian seat projections">',
+            '<meta property="og:image:alt" content="Seat Projections: 2026 Victorian seat projections">',
             '<meta property="og:locale" content="en_AU">',
             '<meta name="twitter:card" content="summary_large_image">',
         ]
@@ -736,9 +752,9 @@ def pair_block(pr, cand_by_id):
       <b>{esc(short(b))}</b> <span class="muted">{esc(party.get(b, "OTH"))}</span>
       <div class="muted">final two in {round(100 * pr["p"])}% of simulations</div>
       <div class="split"><span style="width:{mid}%;background:{pcolour(party.get(a))}"></span><span style="width:{100 - mid}%;background:{pcolour(party.get(b))}"></span></div>
-      <table><tr><th></th><th>2CP median</th><th>p10&#8211;p90</th><th>Wins pairing</th></tr>
-        <tr><td>{esc(short(a))}</td><td class="num">{pct1(mid)}</td><td class="num">{pct1(lo)}&#8211;{pct1(hi)}</td><td class="num">{round(100 * pr["p_a_wins"])}%</td></tr>
-        <tr><td>{esc(short(b))}</td><td class="num">{pct1(100 - mid)}</td><td class="num">{pct1(100 - hi)}&#8211;{pct1(100 - lo)}</td><td class="num">{round(100 * (1 - pr["p_a_wins"]))}%</td></tr></table>
+      <table><tr><th></th><th>2CP median</th><th>p10-p90</th><th>Wins pairing</th></tr>
+        <tr><td>{esc(short(a))}</td><td class="num">{pct1(mid)}</td><td class="num">{pct1(lo)}-{pct1(hi)}</td><td class="num">{round(100 * pr["p_a_wins"])}%</td></tr>
+        <tr><td>{esc(short(b))}</td><td class="num">{pct1(100 - mid)}</td><td class="num">{pct1(100 - hi)}-{pct1(100 - lo)}</td><td class="num">{round(100 * (1 - pr["p_a_wins"]))}%</td></tr></table>
     </div>'''
 
 
@@ -791,7 +807,7 @@ def district_page(name, slug_, feature, m2d, m1d, base, run_date, header, footer
     <div>
       <section class="card">
         <div id="dtl-banner" hidden></div>
-        <h3>Forecast Model <span class="muted small" style="font-weight:400" id="fc-sub">&mdash; {esc(run_date)} forecast</span></h3>
+        <h3>Forecast Model <span class="muted small" style="font-weight:400" id="fc-sub">({esc(run_date)} forecast)</span></h3>
         <table class="dtable"><tr><th>Candidate</th><th>Party</th><th class="r">Primary</th><th class="r">Final two</th><th class="r">Win</th></tr>
         <tbody id="fc-cands">{cands}</tbody></table>
         <h4>Estimated two-candidate preferred</h4>
@@ -803,7 +819,7 @@ def district_page(name, slug_, feature, m2d, m1d, base, run_date, header, footer
 
       <section class="card">
         <h3>Baseline Model</h3>
-        <p class="muted small">Replays the 2025 federal result at this district&rsquo;s booths, restricted to parties standing in 2026 &mdash; no polling.</p>
+        <p class="muted small">Replays the 2025 federal result at this district&rsquo;s booths, restricted to parties standing in 2026, no polling.</p>
         <table class="dtable"><tr><th>Candidate(s)</th><th>Party</th><th class="r">Primary</th><th class="r">Win</th></tr>
         {b1}</table>
       </section>
@@ -846,10 +862,12 @@ def district_page(name, slug_, feature, m2d, m1d, base, run_date, header, footer
   <div class="caveat">
     <h3>Read before quoting</h3>
     <ul>
-      <li><b>Intervals are overconfident.</b> On the replay benchmarks the models&rsquo; 80% 2CP ranges contained
-        the actual result only about 44% of the time &mdash; treat p10&ndash;p90 ranges as minimum uncertainty.</li>
-      <li><b>One Nation is partly estimated.</b> Its geographic pattern and preference flows are
-        placeholder/estimated values.</li>
+      <li><b>The ranges are too narrow.</b> Across four state election backtests, the
+        Forecast Model&rsquo;s 80% ranges for the final two candidates contained the actual vote
+        share about 63% of the time when it picked the correct final pair. Allow for more
+        uncertainty than the ranges suggest.</li>
+      <li><b>One Nation is harder to estimate.</b> Its local support and preference flows
+        rely on assumptions.</li>
       <li>Full method: <a href="/methodology/">methodology &amp; open data</a>.</li>
     </ul>
   </div>
@@ -858,7 +876,7 @@ def district_page(name, slug_, feature, m2d, m1d, base, run_date, header, footer
      <a href="/2022-results/#{enc}">See the 2022 result on the map &rarr;</a></p>
 </main>
 """
-    title = f"{name} — 2026 Victorian Election Forecast | Seat Projections"
+    title = f"{name}: 2026 Victorian Election Forecast | Seat Projections"
     desc = (f"{disp_names(fav['id'])} ({fav['party']}) leads {name} with a "
             f"{round(100 * fav['p_win'])}% win chance in the Forecast Model. "
             f"2022: {disp_names(base['winner'])} ({base['winner_group']}), +{base['margin_pct']:.1f}%.")[:160]
@@ -903,9 +921,9 @@ def districts_hub(rows, header, footer):
   </section>
 </main>
 """
-    title = "All 88 Districts — Victorian Election 2026 Forecast | Seat Projections"
+    title = "All 88 Districts: Victorian Election 2026 Forecast | Seat Projections"
     desc = ("Forecasts and 2022 results for all 88 Victorian Legislative Assembly "
-            "districts — favourites, win chances, final pairs and first preferences.")[:160]
+            "districts: favourites, win chances, final pairs and first preferences.")[:160]
     return (page_head((title, desc, "/districts/", None))
             + header + body + footer + page_tail())
 
@@ -927,7 +945,7 @@ def write_headline(doc):
         return ('<div class="card bloc-card" style="border-top-color:' + pcolour(g) + '">\n'
                 '      <div class="party-l" style="font-size:0.6875rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;color:var(--ink-2)">' + esc(pname(g)) + '</div>\n'
                 '      <div style="display:flex;align-items:baseline;gap:0.5rem;margin:0.25rem 0"><b class="num" style="font-size:2.25rem;letter-spacing:-0.02em">' + f"{b['seats_mean']:.1f}" + '</b>\n'
-                '        <span class="range num">p10–p90: ' + f"{b['seats_p10']:g}" + '–' + f"{b['seats_p90']:g}" + '</span></div>\n'
+                '        <span class="range num">p10-p90: ' + f"{b['seats_p10']:.0f}" + '-' + f"{b['seats_p90']:.0f}" + '</span></div>\n'
                 '      <div class="pmaj">' + pmaj + '</div>\n'
                 '      ' + coal + '\n'
                 '    </div>')
@@ -954,7 +972,7 @@ def write_headline(doc):
         ("run-desc", esc(m["description"])),
         ("run-meta", f'{fmt(m["runs"])} simulations · run {esc(m["run_id"])} · {(m.get("timestamp") or "")[:10]}{commit}'),
         ("caveat-meta", caveat),
-        ("map-sub", "— Forecast Model"),
+        ("map-sub", "(Forecast Model)"),
         ("bloc-cards", cards),
         ("majbar", majbar),
         ("maj-legend", legend),
@@ -975,7 +993,7 @@ def dataset_jsonld(downloads):
     enc = {"csv": "text/csv", "json": "application/json", "geojson": "application/geo+json"}
     return {
         "@context": "https://schema.org", "@type": "Dataset",
-        "name": "Victorian Election 2026 — Seat Projections data",
+        "name": "Victorian Election 2026: Seat Projections data",
         "description": ("Forecast Model and Baseline Model seat probabilities for all 88 Victorian "
                         "districts, 2022 official results, polling register and district boundaries."),
         "url": f"{DOMAIN}/methodology/",
@@ -998,7 +1016,7 @@ def write_seo(downloads, blocs):
     seats = {b["party"]: round(b["seats_mean"]) for b in blocs}
     pmaj = {b["party"]: b["p_majority"] for b in blocs}
     home_desc = (f"Forecast Model: Coalition {seats['COAL']} seats ({round(100 * pmaj['COAL'])}% chance "
-                 f"of a majority), Labor {seats['ALP']}, One Nation {seats['ON']}, Greens {seats['GRN']} — "
+                 f"of a majority), Labor {seats['ALP']}, One Nation {seats['ON']}, Greens {seats['GRN']}: "
                  "preferential-count projections for all 88 districts.")
     pages = {
         "index.html": ("Victorian Election 2026 Forecast & Seat Projections | Seat Projections",
@@ -1008,18 +1026,18 @@ def write_seo(downloads, blocs):
                                     "elected members, two-candidate margins and first preferences.",
                                     "/2022-results/", None),
         "methodology/index.html": ("Methodology & Open Data | Seat Projections",
-                                   "How the seat projections are made: an exact preferential count, two "
-                                   "forecast models, benchmarks and every dataset open for download.",
+                                   "How past election results and current polls become seat projections "
+                                   "for Victoria. Explore the models, past performance, data and code.",
                                    "/methodology/", dataset_jsonld(downloads)),
-        "methodology/baseline/index.html": ("Baseline Model — Methodology | Seat Projections",
+        "methodology/baseline/index.html": ("Baseline Model: Methodology | Seat Projections",
                                             "The Baseline Model: 2025 federal polling-place votes replayed "
-                                            "into state districts with fitted preference flows — no polling.",
+                                            "into state districts with fitted preference flows, no polling.",
                                             "/methodology/baseline/", None),
-        "methodology/forecast/index.html": ("Forecast Model — Methodology | Seat Projections",
-                                            "The Forecast Model: declared 2026 candidates, a polling average, "
-                                            "origin-tracked preferential counts and Monte Carlo simulation.",
+        "methodology/forecast/index.html": ("Forecast Model: Methodology | Seat Projections",
+                                            "How the Forecast Model combines past state results, current polls "
+                                            "and local candidates to estimate each candidate's chance of winning.",
                                             "/methodology/forecast/", None),
-        "404.html": ("Page not found — Seat Projections",
+        "404.html": ("Page not found | Seat Projections",
                      "The page you were looking for does not exist.", None, None),
     }
     for rel, (title, desc, path, jsonld) in pages.items():
@@ -1109,7 +1127,7 @@ def history_card(name, snaps, model2_doc):
 
     def win(doc, cid):
         c = next((c for c in doc["districts"][name]["candidates"] if c["id"] == cid), None)
-        return f"{round(100 * c['p_win'])}%" if c else "&mdash;"
+        return f"{round(100 * c['p_win'])}%" if c else "N/A"
 
     rows = "".join(
         f'<tr data-date="{d}"><td><a href="/#model2/{enc}@{d}">{int(d[8:])} {MONTHS[int(d[5:7]) - 1]}</a></td>'
@@ -1124,7 +1142,7 @@ def history_card(name, snaps, model2_doc):
         <h3>How the forecast has moved</h3>
         <table class="dtable"><tr>{head}</tr>{rows}</table>
         <p class="muted small">Retrospective rows were generated on {int(gen[8:])} {MONTHS[int(gen[5:7]) - 1]} {gen[:4]} using only polls
-          published by each date; the candidate list and model settings are the final November
+          published by each date. The candidate list and model settings are the final November
           versions. <a href="/methodology/forecast/#history">Forecast history &rarr;</a></p>
       </section>"""
 

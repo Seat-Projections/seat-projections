@@ -19,12 +19,12 @@ const nameOf = (d, id) => (d.candidates.find((c) => c.id === id)?.name) || id;
 const shortOf = (d, id) => dispName(nameOf(d, id).split(",")[0]);
 
 const loadForecast = async (model) => (forecasts[model] ||= await fetch(`/data/${model}_vic2026.json`).then((r) => {
-  if (!r.ok) throw new Error(`data/${model}_vic2026.json missing — run scripts/build_site.py`);
+  if (!r.ok) throw new Error(`data/${model}_vic2026.json missing; run scripts/build_site.py`);
   return r.json();
 }));
 
 const loadSnapshot = async (date) => (snapDocs[date] ||= await fetch(`/data/snapshots/model2/${date}.json`).then((r) => {
-  if (!r.ok) throw new Error(`data/snapshots/model2/${date}.json missing — run scripts/build_site.py`);
+  if (!r.ok) throw new Error(`data/snapshots/model2/${date}.json missing; run scripts/build_site.py`);
   return r.json();
 }));
 
@@ -79,7 +79,7 @@ function renderHeadline() {
     `${fmt(m.runs)} simulations · run ${m.run_id} · ${(m.timestamp || "").slice(0, 10)}${commit}`;
   document.getElementById("caveat-meta").innerHTML =
     `<b>Run:</b> ${esc(m.run_id)}, forecast dated ${esc((m.timestamp || "").slice(0, 10))}${m.git_commit ? `, commit <span class="mono">${esc(m.git_commit.slice(0, 7))}</span>` : ""}.`;
-  document.getElementById("map-sub").textContent = `— ${MODEL_TITLE[view]}`;
+  document.getElementById("map-sub").textContent = `(${MODEL_TITLE[view]})`;
 
   const blocs = Object.fromEntries(fc().blocs.map((b) => [b.party, b]));
   const parts = Object.fromEntries(fc().seats.map((s) => [s.party, s]));
@@ -89,7 +89,7 @@ function renderHeadline() {
     return `<div class="card bloc-card" style="border-top-color:${pcolour(g)}">
       <div class="party-l" style="font-size:0.6875rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;color:var(--ink-2)">${esc(pname(g))}</div>
       <div style="display:flex;align-items:baseline;gap:0.5rem;margin:0.25rem 0"><b class="num" style="font-size:2.25rem;letter-spacing:-0.02em">${b.seats_mean.toFixed(1)}</b>
-        <span class="range num">p10–p90: ${b.seats_p10}–${b.seats_p90}</span></div>
+        <span class="range num">p10-p90: ${Math.round(b.seats_p10)}-${Math.round(b.seats_p90)}</span></div>
       <div class="pmaj">${b.p_majority > 0.005 ? `${Math.round(100 * b.p_majority)}% chance of a majority` : "&nbsp;"}</div>
       ${g === "COAL" && coalNote ? `<div class="range">${esc(coalNote)}</div>` : ""}
     </div>`;
@@ -170,9 +170,9 @@ function pairBlock(pr, party, d) {
     <b>${esc(dispName(nameOf(d, b)))}</b> <span class="muted">${esc(pname(party[b]))}</span>
     <div class="muted">final two in ${Math.round(100 * pr.p)}% of simulations</div>
     <div class="split"><span style="width:${mid}%;background:${pcolour(party[a])}"></span><span style="width:${100 - mid}%;background:${pcolour(party[b])}"></span></div>
-    <table><tr><th></th><th>2CP median</th><th>p10–p90</th><th>Wins pairing</th></tr>
-      <tr><td>${esc(shortOf(d, a))}</td><td class="num">${pct1(mid)}</td><td class="num">${pct1(lo)}–${pct1(hi)}</td><td class="num">${Math.round(100 * pr.p_a_wins)}%</td></tr>
-      <tr><td>${esc(shortOf(d, b))}</td><td class="num">${pct1(100 - mid)}</td><td class="num">${pct1(100 - hi)}–${pct1(100 - lo)}</td><td class="num">${Math.round(100 * (1 - pr.p_a_wins))}%</td></tr></table>
+    <table><tr><th></th><th>2CP median</th><th>p10-p90</th><th>Wins pairing</th></tr>
+      <tr><td>${esc(shortOf(d, a))}</td><td class="num">${pct1(mid)}</td><td class="num">${pct1(lo)}-${pct1(hi)}</td><td class="num">${Math.round(100 * pr.p_a_wins)}%</td></tr>
+      <tr><td>${esc(shortOf(d, b))}</td><td class="num">${pct1(100 - mid)}</td><td class="num">${pct1(100 - hi)}-${pct1(100 - lo)}</td><td class="num">${Math.round(100 * (1 - pr.p_a_wins))}%</td></tr></table>
   </div>`;
 }
 
@@ -271,7 +271,7 @@ function snapBannerHTML() {
   if (view !== "model2" || !snapDate) return "";
   const m = fc().meta;
   if (m.retrospective) {
-    return `<div class="snap-banner"><b>Retrospective estimate for polls to ${esc(fmtSnapDate(snapDate))}</b> — generated ${esc(fmtSnapDate(m.generated))} using only polls published by that date (fieldwork ended &ge;2 days earlier). Candidate list and model settings are the final November versions, so this is not a forecast we published on ${esc(fmtSnapDate(snapDate))}.</div>`;
+    return `<div class="snap-banner"><b>Retrospective estimate for polls to ${esc(fmtSnapDate(snapDate))}</b>. Generated ${esc(fmtSnapDate(m.generated))} using only polls published by that date (fieldwork ended &ge;2 days earlier). Candidate list and model settings are the final November versions, so this is not a forecast we published on ${esc(fmtSnapDate(snapDate))}.</div>`;
   }
   return `<div class="snap-banner"><b>Forecast as published on ${esc(fmtSnapDate(snapDate))}</b></div>`;
 }

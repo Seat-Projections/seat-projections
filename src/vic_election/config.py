@@ -58,14 +58,10 @@ class BenchmarkRun:
 RUNS = {
     r.run_id: r
     for r in (
-        BenchmarkRun("QLD2020 (2019)", "QLD", 2019, "2020-10-31", "QLD2020"),
-        BenchmarkRun("WA2021 (2019)", "WA", 2019, "2021-03-13", "WA2021"),
-        BenchmarkRun("SA2022 (2019)", "SA", 2019, "2022-03-19", "SA2022"),
         BenchmarkRun("VIC2022 (2022)", "VIC", 2022, "2022-11-26", "vec:2022"),
         BenchmarkRun("NSW2023 (2022)", "NSW", 2022, "2023-03-25", "NSW2023"),
         BenchmarkRun("QLD2024 (2022)", "QLD", 2022, "2024-10-26", "QLD2024"),
         BenchmarkRun("WA2025 (2022)", "WA", 2022, "2025-03-08", "WA2025"),
-        BenchmarkRun("SA2026 (2022)", "SA", 2022, "2026-03-21", "SA2026"),
         BenchmarkRun("SA2026 (2025)", "SA", 2025, "2026-03-21", "SA2026"),
         BenchmarkRun("VIC2026 (2025)", "VIC", 2025, "2026-11-28", None),
     )

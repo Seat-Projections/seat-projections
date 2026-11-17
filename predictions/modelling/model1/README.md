@@ -22,7 +22,7 @@ apart), and badly when something big has changed (One Nation in 2026).
    (absent, postal, provisional, declaration pre-poll) have no location and are left out; vote shares
    are what matter, so this only matters if those voters differ.
 2. **Preferences.** The AEC publishes, for every booth, how each party's ballots split between that
-   division's final two. From every split statewide, a Bradley–Terry strength is fitted for each
+   division's final two. From every split statewide, a Bradley-Terry strength is fitted for each
    (from-party, to-party) pair, so that, for example, Greens voters' strengths for Labor and Liberal
    reproduce the observed 80/20 split. When a party is excluded, its votes go to the continuing parties
    in proportion to these strengths (Luce's choice rule). This gives a transfer for **any** set of
@@ -63,16 +63,16 @@ Extra files: `district_primaries.csv` (the replayed first preferences) and, for 
 
 | Run | Federal votes | Scored against |
 |---|---|---|
-| `QLD2020 (2019)`, `WA2021 (2019)`, `SA2022 (2019)` | May 2019 (AEC event 24310) | The next state election in each state |
 | `VIC2022 (2022)` | May 2022 (AEC event 27966) | VEC 2022 declared winners |
-| `NSW2023 (2022)`, `QLD2024 (2022)`, `WA2025 (2022)`, `SA2026 (2022)` | May 2022 | The next state election in each state |
+| `NSW2023 (2022)`, `QLD2024 (2022)`, `WA2025 (2022)` | May 2022 | The next state election in each state |
 | `SA2026 (2025)` | May 2025 (AEC event 31496) | SA 2026 declared winners |
 | `VIC2026 (2025)` | May 2025 | Not yet (election 28 Nov 2026) |
 
 Results for every run, with analysis, are in
-[`../../benchmarking/archive/2026-11-08_model1/WRITEUP.md`](../../benchmarking/archive/2026-11-08_model1/WRITEUP.md).
-Across the nine scored runs the raw seat count ranges from 34% (WA 2021, after the 2019 federal
-Coalition win) to 82% (Victoria 2022, Queensland 2024). The SA 2026 run misses all four One Nation seats.
+[`../../benchmarking/archive/2026-11-08_model1/WRITEUP.md`](../../benchmarking/archive/2026-11-08_model1/WRITEUP.md)
+(a historical archive — it still includes elections dropped from the scored set).
+Across the five scored runs the raw seat count ranges from 69% (NSW 2023) to 82% (Victoria 2022).
+The SA 2026 run misses all four One Nation seats.
 
 ## Results
 
@@ -84,13 +84,13 @@ Coalition win) to 82% (Victoria 2022, Queensland 2024). The SA 2026 run misses a
 |---|---|---|
 | 72 / 88 | 0.238 | 0.436 |
 
-| Party | Mean seats (p10–p90) | Actual 2022 |
+| Party | Mean seats (p10-p90) | Actual 2022 |
 |---|---|---|
-| Labor | 57.2 (52–63) | 56 |
-| Liberal | 13.8 (8–20) | 19 |
-| Independents | 7.2 (5–9) | 0 |
-| Nationals | 6.5 (6–7) | 9 |
-| Greens | 3.3 (3–4) | 4 |
+| Labor | 57.2 (52-63) | 56 |
+| Liberal | 13.8 (8-20) | 19 |
+| Independents | 7.2 (5-9) | 0 |
+| Nationals | 6.5 (6-7) | 9 |
+| Greens | 3.3 (3-4) | 4 |
 
 Labor's seat total is close. Of the 16 misses, 9 are seats given to an independent because a
 federal independent did well in the overlapping division (Helen Haines in Indi → Benambra, Ovens

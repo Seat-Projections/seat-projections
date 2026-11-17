@@ -24,12 +24,6 @@ def test_luce_fit_recovers_strengths() -> None:
     assert 0 < k < 1
 
 
-def test_leave_one_district_out_drops_that_district() -> None:
-    obs = [("A", "AJP", ["ALP", "LP"], [900.0, 100.0]), ("B", "AJP", ["ALP", "LP"], [100.0, 900.0])]
-    w = model2.fit_flows(obs, exclude_district="A")["AJP"]
-    assert w["LP"] > w["ALP"]
-
-
 def _worked_example_strengths(on_to_lp: float, lp_to_on: float):
     """Strengths reproducing the README's worked example (Stage 2 flows, Stage 3 splits)."""
     rows = {
@@ -103,7 +97,7 @@ def test_exhaustion_is_fitted_as_an_alternative() -> None:
     assert w[model2.EXH] / w["ALP"] == pytest.approx(0.5, rel=1e-3)
 
 
-def test_replay_strengths_ignore_one_nation_priors() -> None:
+def test_no_draw_strengths_use_fitted_flows() -> None:
     w = {model2.POOLED: {"ALP": 0.5, "LP": 0.5}, "ON": {"ALP": 0.3, "LP": 0.7}}
     assert model2.strength_fn(w, None)("ON", "LP") == pytest.approx(0.7)
 
@@ -196,3 +190,106 @@ def test_snapshot_schedule_every_14_days_and_dedupe() -> None:
     d = run_model2.snapshot_schedule(rows3, start="2026-09-01", today=__import__("datetime").date(2026, 10, 15))
     assert d == [__import__("datetime").date(2026, 9, 1), __import__("datetime").date(2026, 9, 15),
                  __import__("datetime").date(2026, 9, 29), __import__("datetime").date(2026, 10, 13)]
+
+
+# --------------------------------------------------------------- backtests
+
+
+def _prev_tables():
+    return {
+        "Seat A": {"candidates": [{"candidate_id": "SMITH, Jo", "party": "Independent"},
+                                  {"candidate_id": "JONES, Kim", "party": "Australian Labor Party"}],
+                   "first_preferences": {"SMITH, Jo": 3000, "JONES, Kim": 12000},
+                   "steps": [], "declared_winner": "JONES, Kim"},
+        "Seat B": {"candidates": [{"candidate_id": "DOE, Pat", "party": "Independent"},
+                                  {"candidate_id": "LEE, Sam", "party": "Liberal"}],
+                   "first_preferences": {"DOE, Pat": 8000, "LEE, Sam": 2000},
+                   "steps": [], "declared_winner": "DOE, Pat"},
+    }
+
+
+def _backtest_run_model2():
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "predictions" / "modelling" / "model2"))
+    import run_model2  # noqa: E402
+    return run_model2
+
+
+def test_norm_person_surname_formats() -> None:
+    """Candidate ids differ across commissions; _norm_person must extract the surname from each."""
+    run_model2 = _backtest_run_model2()
+    assert run_model2._norm_person("CUPPER, Ali") == "cupper"          # VEC 'SURNAME, Given'
+    assert run_model2._norm_person("Geoff BROCK") == "brock"           # ECSA 'Given SURNAME'
+    assert run_model2._norm_person("BROCK") == "brock"                 # ECSA surname only
+    assert run_model2._norm_person("MADEO - NMV") == "madeo"           # WAEC 'SURNAME - PARTY'
+    assert run_model2._norm_person("MCNAIR Reuben") == "mcnair"        # NSWEC 'SURNAME Given'
+    assert run_model2._norm_person("Geoff BROCK") == run_model2._norm_person("BROCK")
+
+
+def test_credible_independents_rule() -> None:
+    run_model2 = _backtest_run_model2()
+    cands = [{"district": "Seat A", "candidate": "SMITH, Jo", "party_group": "IND*"},   # 20% prev -> credible
+             {"district": "Seat B", "candidate": "DOE, Pat", "party_group": "IND*"},    # won the seat -> credible
+             {"district": "Seat B", "candidate": "NEW, Guy", "party_group": "IND*"},    # new face -> not
+             {"district": "Seat A", "candidate": "JONES, Kim", "party_group": "ALP"}]
+    rows = run_model2.credible_independents(_prev_tables(), cands)
+    assert {(r["district"], r["candidate"]) for r in rows} == {("Seat A", "SMITH, Jo"), ("Seat B", "DOE, Pat")}
+    assert float(rows[0]["prior_mean"]) == pytest.approx(20.0)
+
+
+def test_backtest_polls_with_and_without_on() -> None:
+    run_model2 = _backtest_run_model2()
+    # tiny baseline: one seat, ON index 2.0 of 10 total share -> baseline ON share 20%
+    seat = model2.Seat("D", "", [model2.Cand("x", "ON", 0.0), model2.Cand("y", "ALP", 0.0)])
+    base = model2.Baseline({"D": seat}, {"D": {"x": 2.0, "y": 8.0}}, {"D": 1000.0})
+    rows = [{"alp": "40", "lnp": "30", "grn": "10", "onp": "12"},
+            {"alp": "36", "lnp": "34", "grn": "12", "onp": ""}]
+    p = run_model2.backtest_polls(rows, base)
+    assert p["ON"] == pytest.approx(12.0)  # averaged only over the reporting row
+    assert p["OTH"] == pytest.approx(7.0)  # 100 - 38 - 32 - 11 - 12
+    assert sum(p.values()) == pytest.approx(100.0)
+    rows[0]["onp"] = ""
+    p = run_model2.backtest_polls(rows, base)
+    # ON falls back to the baseline's statewide share (20); OTH = max(19 - 20, 0) = 0; renormalise /101
+    assert p["ON"] == pytest.approx(20 / 101 * 100)
+    assert p["OTH"] == pytest.approx(0.0)
+    assert sum(p.values()) == pytest.approx(100.0)
+
+
+def test_backtest_leakage_guard() -> None:
+    run_model2 = _backtest_run_model2()
+    bad = run_model2.Run("backtest", "QLD", "2024-10-26", run_model2.DATA_DIR / "x.json", None,
+                         prev_distributions=run_model2.DATA_DIR / "x.json",
+                         on_pattern=Path("/tmp/none.csv"), poll_election="QLD2024")
+    Path(run_model2.DATA_DIR / "x.json").write_text("{}")
+    try:
+        with pytest.raises(AssertionError):
+            run_model2.setup(bad)
+    finally:
+        (run_model2.DATA_DIR / "x.json").unlink()
+
+
+EXPECTED_SA4_REGIONS = {
+    "QLD": {"Brisbane", "Coasts", "Wide Bay-Darling Downs", "Central", "North"},
+    "SA": {"Adelaide North", "Adelaide South", "Adelaide Central/West", "Country North & West", "South East"},
+    "WA": {"Perth North", "Perth South", "Peel & South West", "Regional"},
+}
+
+
+def test_state_region_maps_cover_scored_districts() -> None:
+    """Every district in a scored non-VIC F run has an ABS SA4-group region (data/benchmarks/regions/)."""
+    import json
+
+    import run_model2
+    from vic_election.benchmark import norm_district
+
+    for run_id, r in run_model2.RUNS.items():
+        if (r.mode != "backtest" or r.state == "VIC" or r.state not in EXPECTED_SA4_REGIONS
+                or not r.winners or not r.distributions.exists()):
+            continue
+        regions = run_model2.state_regions(r.state)
+        districts = json.loads(r.distributions.read_text())
+        missing = [d for d in districts if norm_district(d) not in regions]
+        assert not missing, f"{run_id}: districts without a region: {missing}"
+        assert set(regions.values()) <= EXPECTED_SA4_REGIONS[r.state], (
+            f"{run_id}: region names outside the documented groups: "
+            f"{set(regions.values()) - EXPECTED_SA4_REGIONS[r.state]}")

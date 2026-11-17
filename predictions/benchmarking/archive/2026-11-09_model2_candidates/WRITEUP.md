@@ -4,8 +4,12 @@ Same model as [`../2026-11-09_model2/`](../2026-11-09_model2/WRITEUP.md) (origin
 four, 5,000 runs, seed 1). The one change is the **2026 forecast's candidates**: instead of the 2022 field
 plus a placeholder One Nation candidate, every district now has the candidates who nominated, from the
 VEC's list published after nominations closed at noon on Monday 9 November 2026 (734 candidates in 88
-districts, `scripts/fetch_vic2026_candidates.py` → `data/2026/candidates_vic2026.csv`). The B1 replays are
-unchanged and are included here only so the archive is complete.
+districts, `scripts/fetch_vic2026_candidates.py` → `data/2026/candidates_vic2026.csv`).
+
+**Replay benchmarks were removed on 16 Nov 2026: they were given the actual primaries and did not
+measure forecasting.** Forecast backtests (previous-election inputs only) are in
+[`../../forecast_backtests.csv`](../../forecast_backtests.csv); this archive keeps the frozen
+`VIC2026 (2022)` forecast only.
 
 Reproduce with [`reproduce.sh`](reproduce.sh).
 
@@ -46,7 +50,7 @@ Polling average: Labor 22.7, Coalition 30.7, One Nation 22.0, Greens 14.9, other
 | **Declared fields** | **40.2** | **20.8** | **9.2** | **8.8** | **8.1** | **0.9** | **32%** | **29** |
 
 **As a Coalition** (Liberal + National seats added up in each simulation, `statewide_blocs.csv`): **49.0 seats
-(p10–p90 37–62), majority (45+) in 67% of runs**; Labor 20.8 (9–34), majority 1%.
+(p10-p90 37-62), majority (45+) in 67% of runs**; Labor 20.8 (9-34), majority 1%.
 
 Seven seats change favourite:
 
@@ -66,6 +70,7 @@ Seven seats change favourite:
   (22 seats in 2022, all 88 now) average about 3.8% across districts, likely too high in rural seats.
   The total "others" vote is still fixed by the polls.
 - **Independents not on the credible list** get a small default share, even if locally prominent.
-- **One Nation's flows** are still priors; how-to-vote cards (registered 10–20 November) are not used yet.
-- All noise sizes remain placeholders; on the B1 replays the 80% 2CP intervals contain the result only
-  44% of the time, so this forecast is overconfident.
+- **One Nation's flows** are still priors; how-to-vote cards (registered 10-20 November) are not used yet.
+- All noise sizes remain placeholders; on the forecast backtests (Victoria 2022, Queensland 2024) the
+  model's most likely final pair was right in two-thirds of seats and the winner's 80% 2CP range
+  contained the result about 64% of the time there, so treat ranges as minimum uncertainty.

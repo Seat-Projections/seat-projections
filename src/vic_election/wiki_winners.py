@@ -41,11 +41,11 @@ def parse_members_table(wikitext: str, year: int | None = None) -> dict[str, str
         style = re.search(r"\{\{Australian party style\|([^}|]+)", block)
         if style:
             party = style.group(1)
-        else:  # "|| Name || Party || [[Electoral district of X|X]] || 2018–2026" rows
+        else:  # "|| Name || Party || [[Electoral district of X|X]] || 2018-2026" rows
             cells = [c for c in re.split(r"\|\||\n\|", block) if c.strip()]
             idx = next(i for i, c in enumerate(cells) if "Electoral district of" in c)
             party = (_cell_text(cells[idx - 1]) if idx else "").split("/")[0]  # "Liberal/Independent": elected as Liberal
-        term = re.search(r"(\d{4})\s*[–-]\s*(\d{4}|present|current)", block)
+        term = re.search(r"(\d{4})\s*[--]\s*(\d{4}|present|current)", block)
         start = int(term.group(1)) if term else 0
         end = 9999 if not term or not term.group(2).isdigit() else int(term.group(2))
         if year is not None and not (start <= year <= end):

@@ -19,7 +19,7 @@ async function init() {
   const isScored = (r) => r.raw_seat_count !== "" && r.raw_seat_count != null;
 
   if ($id("st-runs") || $id("st-seats")) {
-    const scoredRuns = [...bench.model1_runs, ...bench.model2_replays].filter(isScored);
+    const scoredRuns = [...bench.model1_runs, ...bench.forecast_backtests].filter(isScored);
     if ($id("st-runs")) $id("st-runs").textContent = scoredRuns.length;
     if ($id("st-seats")) $id("st-seats").textContent = fmt(scoredRuns.reduce((a, r) => a + r.districts, 0));
   }
@@ -30,16 +30,16 @@ async function init() {
   if (benchTables.length) {
     const row = (r, full) => `<tr${isScored(r) ? "" : ' class="dim"'}>
       <td>${esc(r.run)}</td>
-      <td>${isScored(r) ? `${r.raw_seat_count} / ${r.districts}` : `forecast · ${r.districts} districts`}</td>
-      <td class="r num">${isScored(r) ? `${(+r.accuracy_pct).toFixed(1)}%` : "—"}</td>
-      <td class="r num">${isScored(r) ? (+r.brier).toFixed(3) : "—"}</td>
-      <td class="r num">${isScored(r) ? (+r.log_loss).toFixed(3) : "—"}</td>${full ? `
-      <td class="r num">${r.final_two_accuracy ? `${(100 * +r.final_two_accuracy).toFixed(1)}%` : "—"}</td>
-      <td class="r num">${r.tcp_margin_mae ? (+r.tcp_margin_mae).toFixed(2) : "—"}</td>` : ""}</tr>`;
-    const lists = { model1: bench.model1_runs, model2: bench.model2_replays };
+      <td>${isScored(r) ? `${r.raw_seat_count} / ${r.districts}` : (r.run.startsWith("VIC2026") ? `forecast · ${r.districts} districts` : "pending (not yet run)")}</td>
+      <td class="r num">${isScored(r) ? `${(+r.accuracy_pct).toFixed(1)}%` : "N/A"}</td>
+      <td class="r num">${isScored(r) ? (+r.brier).toFixed(3) : "N/A"}</td>
+      <td class="r num">${isScored(r) ? (+r.log_loss).toFixed(3) : "N/A"}</td>${full ? `
+      <td class="r num">${r.fp_error ? (+r.fp_error).toFixed(2) : "N/A"}</td>
+      <td class="r num">${r.final_two_accuracy ? `${(100 * +r.final_two_accuracy).toFixed(1)}%` : "N/A"}</td>` : ""}</tr>`;
+    const lists = { model1: bench.model1_runs, model2: bench.forecast_backtests };
     benchTables.forEach((t) => {
       const key = t.dataset.bench;
-      const runs = [...(lists[key] || [])].sort((a, b) => a.run.localeCompare(b.run));
+      const runs = lists[key] || [];
       const full = t.querySelectorAll("thead th").length > 5;
       t.querySelector("tbody").innerHTML = runs.map((r) => row(r, full)).join("");
     });
@@ -53,7 +53,7 @@ async function init() {
         <table class="dtable"><thead><tr><th>Party</th><th class="r">Primary %</th></tr></thead><tbody>
         ${Object.entries(mp.polls).map(([k, v]) => `<tr><td><span class="swatch" style="background:${pcolour(k)}"></span>${esc({ LNP: "Coalition", OTH: "Others" }[k] || pname(k))}</td><td class="r num">${pct1(v)}</td></tr>`).join("")}
         </tbody></table>
-        <p class="small muted" style="margin:0.5rem 0 0">Polls used: ${esc((mp.polls_used || []).join("; "))}.</p>`;
+        <p class="small muted" style="margin:0.5rem 0 0">Polls used: ${esc((mp.polls_used || []).join(", "))}.</p>`;
     }
   }
 
@@ -66,4 +66,4 @@ async function init() {
   }
 }
 
-init().catch((e) => { const el = $id("st-runs"); if (el) el.textContent = "—"; console.error(e); });
+init().catch((e) => { const el = $id("st-runs"); if (el) el.textContent = "Unavailable"; console.error(e); });

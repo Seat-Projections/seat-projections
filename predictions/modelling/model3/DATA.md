@@ -51,9 +51,9 @@ data/federal/{2019,2022,2025}/
 - **Booth 2CP flows** (`HouseTcpFlowByPPDownload`): for every booth and every candidate, how that
   candidate's ballots split between the division's final two. This is the per-booth preference
   flow table.
-- Ordinary (located) votes are about 76–80% of the formal vote; the remainder (absent, postal,
+- Ordinary (located) votes are about 76-80% of the formal vote; the remainder (absent, postal,
   declaration pre-poll, provisional) is known only per division.
-- Polling places without coordinates are only mobile and hospital teams (types 2–4): 7 in 2022 VIC,
+- Polling places without coordinates are only mobile and hospital teams (types 2-4): 7 in 2022 VIC,
   140 in 2025 VIC, 63 in 2025 SA, together under 1% of located votes. All fixed booths (type 1)
   and pre-poll centres (type 5) have coordinates.
 
@@ -74,7 +74,7 @@ Federal files are dated before both state elections, so all are permitted in bot
 | Dataset | URL | Format | Used for | Path | Status |
 |---|---|---|---|---|---|
 | Victorian Lower House boundaries, 2021 redivision (used 2022 and 2026) | EBC: https://www.ebc.vic.gov.au/files/2021-boundaries/resources/New%20districts%20and%20regions.kmz (same boundaries as Vicmap `STATE_ASSEMBLY_2022`) | KMZ → GeoJSON (WGS84) | B5 and Victoria 2026 | `data/boundaries/vic_assembly_2022/districts.geojson` (88 districts, names match VEC) | **Have** (`src/vic_election/geo.py`) |
-| AEC federal division boundaries (2021 redistribution → 2022 election; 2024/2025 → 2025; per-state 2016–2018 files → 2019) | https://www.aec.gov.au/Electorates/gis/gis_datadownload.htm (national MID/MIF zips; `geo.AEC_NATIONAL_DIVISIONS`, `geo.AEC_2019_DIVISIONS`) | MapInfo MID/MIF or ESRI shapefile, parsed in pure Python | Checks whether a booth lies in its own division (S1); one loader for the flow matrices, visualiser and every model1 run | `data/boundaries/federal/` (zips, cached) | **Have** (`geo.fetch_national_divisions`) |
+| AEC federal division boundaries (2021 redistribution → 2022 election; 2024/2025 → 2025; per-state 2016-2018 files → 2019) | https://www.aec.gov.au/Electorates/gis/gis_datadownload.htm (national MID/MIF zips; `geo.AEC_NATIONAL_DIVISIONS`, `geo.AEC_2019_DIVISIONS`) | MapInfo MID/MIF or ESRI shapefile, parsed in pure Python | Checks whether a booth lies in its own division (S1); one loader for the flow matrices, visualiser and every model1 run | `data/boundaries/federal/` (zips, cached) | **Have** (`geo.fetch_national_divisions`) |
 | 2025 booth → state district assignment (VIC) | Derived: point-in-polygon on AEC coordinates, plus distance outside the booth's own federal division | CSV | Model3 S1 | `data/federal/2025/booth_districts_VIC.csv` (columns include `KmOutsideOwnDivision`, `CountedInDistrict`) | **Have**: 1,751 counted; 142 inside a district but more than 1 km outside their own division (pre-poll centres, CBD booths taking other divisions' votes: 172,386 votes); 1 within 5 km of a district (Albury PPVC); 38 EAV centres; 140 mobile/hospital teams without coordinates |
 | Collated preference-flow matrices per state district | Derived from `HouseTcpFlowByPPDownload` + the assignment above (`src/vic_election/booth_flows.py`, `scripts/build_district_flows.py`) | JSON + long CSV | Model3 S5 (F1), visualiser district panel | `data/federal/{2022,2025}/district_flows_VIC.json`, `.csv` | **Have** for 2022 and 2025 (see below) |
 

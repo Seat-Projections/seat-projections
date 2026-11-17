@@ -4,21 +4,21 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- seo --><title>Methodology &amp; Open Data | Seat Projections</title>
-<meta name="description" content="How the seat projections are made: an exact preferential count, two forecast models, benchmarks and every dataset open for download.">
+<meta name="description" content="How past election results and current polls become seat projections for Victoria. Explore the models, past performance, data and code.">
 <link rel="canonical" href="https://seatprojections.au/methodology/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Seat Projections">
 <meta property="og:title" content="Methodology &amp; Open Data | Seat Projections">
-<meta property="og:description" content="How the seat projections are made: an exact preferential count, two forecast models, benchmarks and every dataset open for download.">
+<meta property="og:description" content="How past election results and current polls become seat projections for Victoria. Explore the models, past performance, data and code.">
 <meta property="og:url" content="https://seatprojections.au/methodology/">
 <meta property="og:image" content="https://seatprojections.au/assets/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Seat Projections — 2026 Victorian seat projections">
+<meta property="og:image:alt" content="Seat Projections: 2026 Victorian seat projections">
 <meta property="og:locale" content="en_AU">
 <meta name="twitter:card" content="summary_large_image">
 <script type="speculationrules">{"prerender":[{"where":{"href_matches":"/*","not":{"href_matches":"/data/*"}},"eagerness":"moderate"}]}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Victorian Election 2026 \u2014 Seat Projections data","description":"Forecast Model and Baseline Model seat probabilities for all 88 Victorian districts, 2022 official results, polling register and district boundaries.","url":"https://seatprojections.au/methodology/","license":"https://creativecommons.org/licenses/by-sa/4.0/","creator":{"@type":"Organization","name":"Seat Projections","url":"https://seatprojections.au/"},"isAccessibleForFree":true,"keywords":["Victorian election 2026","seat projections","preferential voting","IRV"],"temporalCoverage":"2022/2026","spatialCoverage":{"@type":"Place","name":"Victoria, Australia"},"distribution":[{"@type":"DataDownload","name":"districts.geojson","contentUrl":"https://seatprojections.au/data/downloads/districts.geojson","encodingFormat":"application/geo+json"},{"@type":"DataDownload","name":"vic2022_district_results.csv","contentUrl":"https://seatprojections.au/data/downloads/vic2022_district_results.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"model1_seat_probabilities.csv","contentUrl":"https://seatprojections.au/data/downloads/model1_seat_probabilities.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"model1_statewide_blocs.csv","contentUrl":"https://seatprojections.au/data/downloads/model1_statewide_blocs.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"model2_seat_probabilities.csv","contentUrl":"https://seatprojections.au/data/downloads/model2_seat_probabilities.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"model2_statewide_blocs.csv","contentUrl":"https://seatprojections.au/data/downloads/model2_statewide_blocs.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"candidates_vic2026.csv","contentUrl":"https://seatprojections.au/data/downloads/candidates_vic2026.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"polls_vic2026.csv","contentUrl":"https://seatprojections.au/data/downloads/polls_vic2026.csv","encodingFormat":"text/csv"}]}</script><!-- /seo -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Victorian Election 2026: Seat Projections data","description":"Forecast Model and Baseline Model seat probabilities for all 88 Victorian districts, 2022 official results, polling register and district boundaries.","url":"https://seatprojections.au/methodology/","license":"https://creativecommons.org/licenses/by-sa/4.0/","creator":{"@type":"Organization","name":"Seat Projections","url":"https://seatprojections.au/"},"isAccessibleForFree":true,"keywords":["Victorian election 2026","seat projections","preferential voting","IRV"],"temporalCoverage":"2022/2026","spatialCoverage":{"@type":"Place","name":"Victoria, Australia"},"distribution":[{"@type":"DataDownload","name":"districts.geojson","contentUrl":"https://seatprojections.au/data/downloads/districts.geojson","encodingFormat":"application/geo+json"},{"@type":"DataDownload","name":"vic2022_district_results.csv","contentUrl":"https://seatprojections.au/data/downloads/vic2022_district_results.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"model1_seat_probabilities.csv","contentUrl":"https://seatprojections.au/data/downloads/model1_seat_probabilities.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"model1_statewide_blocs.csv","contentUrl":"https://seatprojections.au/data/downloads/model1_statewide_blocs.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"model2_seat_probabilities.csv","contentUrl":"https://seatprojections.au/data/downloads/model2_seat_probabilities.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"model2_statewide_blocs.csv","contentUrl":"https://seatprojections.au/data/downloads/model2_statewide_blocs.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"candidates_vic2026.csv","contentUrl":"https://seatprojections.au/data/downloads/candidates_vic2026.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"polls_vic2026.csv","contentUrl":"https://seatprojections.au/data/downloads/polls_vic2026.csv","encodingFormat":"text/csv"}]}</script><!-- /seo -->
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="/assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin>
@@ -62,33 +62,32 @@
   <section class="hero">
     <span class="eyebrow">Model methodology &amp; open data documentation</span>
     <h1>How the projections are made</h1>
-    <p class="lede">An open specification of how 2026 Victorian Legislative Assembly seat
-      probabilities are produced: an exact preferential count engine, two deliberately different
-      forecast models, and every input published for download and review.</p>
+    <p class="lede">How we turn past election results and current polls into seat projections
+      for Victoria. Explore the two models, see how they performed on past elections,
+      and download the data and code.</p>
     <div class="chips-row" style="margin-top:1rem">
       <span class="chip">Baseline: VEC 2022 official</span>
       <span class="chip">Full preferential count</span>
       <span class="chip">CC BY-SA 4.0 data licence</span>
-      <span class="chip">Updated <span data-build-date>–</span></span>
+      <span class="chip">Updated <span data-build-date>-</span></span>
     </div>
   </section>
 
   <section class="stat-strip" id="stat-strip">
     <div class="card stat-box"><div class="v num">88</div><div class="l">Lower house districts</div></div>
-    <div class="card stat-box"><div class="v num" id="st-runs">–</div><div class="l">Benchmark runs scored</div></div>
-    <div class="card stat-box"><div class="v num" id="st-seats">–</div><div class="l">Benchmark seats scored</div></div>
-    <div class="card stat-box"><div class="v num" id="st-sims">–</div><div class="l">Simulations per forecast</div></div>
+    <div class="card stat-box"><div class="v num" id="st-runs">-</div><div class="l">Benchmark runs scored</div></div>
+    <div class="card stat-box"><div class="v num" id="st-seats">-</div><div class="l">Benchmark seats scored</div></div>
+    <div class="card stat-box"><div class="v num" id="st-sims">-</div><div class="l">Simulations per forecast</div></div>
   </section>
 
   <section class="section">
     <span class="eyebrow">How it fits together</span>
-    <h2 style="font-family:var(--serif);font-size:1.625rem;font-weight:600;letter-spacing:-0.01em;margin:0.25rem 0 1rem">One pipeline</h2>
+    <h2 style="font-family:var(--serif);font-size:1.625rem;font-weight:600;letter-spacing:-0.01em;margin:0.25rem 0 1rem">From votes to seats</h2>
     <div class="prose" style="max-width:46rem">
-      <p>Every projection on this site is produced by the same pipeline: votes flow into
-        districts, districts are counted by an exact preferential count, and Monte Carlo
-        simulation turns point estimates into probabilities. The count engine, benchmarks and
-        datasets are documented on this page; each forecast model has its own page — linked from
-        the Methodology menu above.</p>
+      <p>Each model estimates first-preference votes in each district, then transfers
+        preferences to work out who wins. Repeating this with different votes and preference
+        flows gives a range of possible results. The share of simulations a candidate wins
+        becomes their estimated win chance.</p>
     </div>
   </section>
 
@@ -96,34 +95,25 @@
   <div class="section-head">
     <div>
       <span class="eyebrow">The count engine</span>
-      <h2 style="margin-top:0.25rem">An exact preferential count, not a swing model</h2>
-      <p class="muted small" style="margin:0.25rem 0 0">Every seat projection is a full
-        instant-runoff count reproducing the count an electoral commission would run.</p>
+      <h2 style="margin-top:0.25rem">A precise preferential count</h2>
+      <p class="muted small" style="margin:0.25rem 0 0">We check the counting engine against
+        official results. Future votes and preference flows still have to be estimated.</p>
     </div>
   </div>
   <section class="section">
     <div class="twocol" style="margin:0">
       <div class="card card-pad">
-        <h3 style="font-family:var(--sans);font-size:1.125rem">Exact instant-runoff count</h3>
-        <p class="small" style="margin:0.5rem 0">Each district is counted by eliminating the
-          lowest-polling candidate and distributing their ballots to the next continuing
-          preference, one exclusion at a time. Two modes mirror the two published datasets:
-          <b>official</b> stops once a candidate reaches the majority threshold
-          &lfloor;formal&rfloor;/2&nbsp;+&nbsp;1; <b>full-2CP</b> continues until two candidates
-          remain.</p>
-        <p class="small muted" style="margin:0">Ties are broken by the statutory lookback rule —
-          Electoral Act 2002 (Vic) s&nbsp;114(5): the candidate behind at the previous stage is
-          excluded first, with further lookback or lot-drawing if the tie persists.</p>
+        <h3 style="font-family:var(--sans);font-size:1.125rem">Checking past counts</h3>
+        <p class="small" style="margin:0.5rem 0">Electoral commissions publish how votes
+          transfer at each stage of a count. We construct groups of ballots that reproduce
+          those published transfers and totals exactly. This checks the engine against
+          official counts without claiming to recover voters&rsquo; original ballots.</p>
       </div>
       <div class="card card-pad">
-        <h3 style="font-family:var(--sans);font-size:1.125rem">Ballot decomposition</h3>
-        <p class="small" style="margin:0.5rem 0">Commissions publish each count as a round-by-round
-          distribution of preferences, not raw ballots. The engine deterministically decomposes
-          those tables into exact integer ballot bundles — sets of preference orders with
-          weights — that reproduce every round&rsquo;s transfer row and progressive total with
-          zero vote error.</p>
-        <p class="small muted" style="margin:0">Verified vote-for-vote against all 88 VEC 2022
-          distributions and the 48 published 2018 counts.</p>
+        <h3 style="font-family:var(--sans);font-size:1.125rem">How preferences decide a seat</h3>
+        <p class="small" style="margin:0.5rem 0">Each district is counted by eliminating the
+          lowest-polling candidate and distributing their ballots to the next continuing
+          preference, one exclusion at a time.</p>
       </div>
     </div>
   </section>
@@ -135,23 +125,19 @@
         <h4 style="margin-top:0.5rem">Booth-to-district mapping</h4>
         <p>Federal polling places are assigned to state districts geometrically: a booth counts
           only if it sits inside the district and within 1&nbsp;km of its own federal division.</p>
-        <div class="basis">EBC 2021 redivision boundaries · AEC polling-place locations</div>
       </div>
       <div class="card">
         <span class="tag-no">Preferences</span>
         <h4 style="margin-top:0.5rem">Fitted preference flows</h4>
-        <p>How each party&rsquo;s ballots split between remaining candidates is fitted from
-          published distributions of preferences — for benchmarks, leaving out the scored district
-          so nothing is fitted on its own result.</p>
-        <div class="basis">VEC, AEC and other state commissions&rsquo; published distributions</div>
+        <p>Past preference counts help estimate where votes go when a candidate is
+          eliminated. Forecast backtests use preference data from the previous election.</p>
       </div>
       <div class="card">
         <span class="tag-no">Uncertainty</span>
-        <h4 style="margin-top:0.5rem">Monte Carlo seat simulation</h4>
-        <p>Each simulation redraws statewide swing, regional deviations, per-seat noise and
-          preference flows, then counts all 88 districts — turning point estimates into
-          probabilities and seat ranges.</p>
-        <div class="basis" id="f-sims">–</div>
+        <h4 style="margin-top:0.5rem">Simulating possible elections</h4>
+        <p>The Forecast Model varies statewide support, regional and local shifts, and
+          preference flows. It counts all 88 districts in each simulation to estimate
+          win chances and the range of possible seat totals.</p>
       </div>
     </div>
   </section>
@@ -162,19 +148,19 @@
     <h2 style="font-family:var(--serif);font-size:1.625rem;font-weight:600;letter-spacing:-0.01em;margin:0.25rem 0 1rem">Two different questions</h2>
     <div class="twocol" style="margin:0">
       <div class="card card-pad">
-        <h3 style="font-family:var(--sans);font-size:1.125rem">Baseline Model — &ldquo;nothing changes&rdquo;</h3>
-        <p class="small" style="margin:0.5rem 0">Every polling place&rsquo;s votes from the most recent
-          federal election are put into the state district it sits in, and each district&rsquo;s
-          preferential count is replayed assuming nothing changes — a deliberately primitive floor
-          the real model must beat.</p>
-        <p class="small" style="margin:0.75rem 0 0"><a href="/methodology/baseline/">Read the methodology &rarr;</a></p>
+        <h3 style="font-family:var(--sans);font-size:1.125rem">Forecast Model: past results and current polls</h3>
+        <p class="small" style="margin:0.5rem 0">Starts with past state results and adjusts
+          support to current polling. It uses the declared candidates and estimates how
+          preferences decide the contest between the main contenders.</p>
+        <p class="small" style="margin:0.75rem 0 0"><a href="/methodology/forecast/">Read the methodology &rarr;</a></p>
       </div>
       <div class="card card-pad">
-        <h3 style="font-family:var(--sans);font-size:1.125rem">Forecast Model — core-candidate heuristic</h3>
-        <p class="small" style="margin:0.5rem 0">Declared 2026 candidates are split into core and
-          minor; minor votes flow to the core and the core contest is resolved by origin tracking
-          over whichever exclusion order occurs, against the 2026 polling average.</p>
-        <p class="small" style="margin:0.75rem 0 0"><a href="/methodology/forecast/">Read the methodology &rarr;</a></p>
+        <h3 style="font-family:var(--sans);font-size:1.125rem">Baseline Model: federal ballot rerun</h3>
+        <p class="small" style="margin:0.5rem 0">Every polling place&rsquo;s votes from the most recent
+          federal election are put into the state district it sits in, and each district&rsquo;s
+          preferential count is estimated assuming support stays the same. This gives us a
+          simple comparison for judging whether the Forecast Model adds value.</p>
+        <p class="small" style="margin:0.75rem 0 0"><a href="/methodology/baseline/">Read the methodology &rarr;</a></p>
       </div>
     </div>
   </section>
@@ -184,29 +170,29 @@
     <div>
       <span class="eyebrow">Backtests</span>
       <h2 style="margin-top:0.25rem">Benchmark results</h2>
-      <p class="muted small" style="margin:0.25rem 0 0">Both models are scored against electoral
-        commissions&rsquo; declared winners across eight real elections — but the two rows mean
-        different things.</p>
+      <p class="muted small" style="margin:0.25rem 0 0">We compare estimates for past elections
+        with the official results. Each model&rsquo;s page lists its completed tests.</p>
     </div>
   </div>
   <section class="section">
     <div class="twocol" style="margin:0">
       <div class="card card-pad">
-        <h3 style="font-family:var(--sans);font-size:1.125rem">B1 replays vs forecasts</h3>
-        <p class="small" style="margin:0.5rem 0">Forecast Model rows are <b>B1 replays</b>: the model is
-          given each election&rsquo;s actual primaries and flows fitted without the scored
-          district, isolating the preference model and count. Baseline Model rows are genuine forecasts
-          from federal votes — the two are not comparable.</p>
+        <h3 style="font-family:var(--sans);font-size:1.125rem">Forecast backtests</h3>
+        <p class="small" style="margin:0.5rem 0">These tests were produced after the elections.
+          They show how the models perform using inputs available before voting.
+          The Forecast Model uses the previous state result and preference flows, plus
+          pre-election polls and candidates for the election being tested.
+          The Baseline Model uses the preceding federal election.</p>
       </div>
       <div class="card card-pad">
         <h3 style="font-family:var(--sans);font-size:1.125rem">The metrics</h3>
-        <p class="small" style="margin:0.5rem 0"><b>Brier:</b> for each seat, add up
-          (p&nbsp;&minus;&nbsp;o)&sup2; over the candidates — p the probability given, o 1 or 0 —
-          averaged across seats; 0 is perfect. <b>Log loss:</b> the average of &minus;ln(p) for
-          the actual winner, floored at p&nbsp;=&nbsp;0.001 (a cost of 6.9 for that seat).</p>
-        <p class="small muted" style="margin:0">The raw seat count only looks at the favourite;
-          Brier and log loss also reward calibrated confidence — a 55% call that loses costs
-          little, a 99% call that loses costs a lot.</p>
+        <p class="small" style="margin:0.5rem 0"><b>Seats right</b> counts how often the
+          favourite won. <b>Brier score</b> measures the error in the chances assigned to
+          all candidates. <b>Log loss</b> measures how much chance the model gave the actual
+          winner and heavily penalises confident mistakes.</p>
+        <p class="small muted" style="margin:0">Lower Brier scores and log loss are better.
+          Both are zero for a perfect forecast. Unlike seats right, they distinguish between
+          a losing favourite given a 55% chance and one given a 99% chance.</p>
       </div>
     </div>
   </section>
@@ -242,7 +228,7 @@
         <h3 style="font-family:var(--sans);font-size:1.125rem">Reproduce the numbers</h3>
         <p class="small" style="margin:0.5rem 0">Every archived forecast ships a
           <span class="mono">reproduce.sh</span> that downloads the inputs (cached under
-          <span class="mono">data/</span>) and reruns the models; seed and settings are in each
+          <span class="mono">data/</span>) and reruns the models. Seed and settings are in each
           run&rsquo;s <span class="mono">run_metadata.json</span>. AEC input files carry SHA-256
           checksums in <span class="mono">data/federal/*/manifest.json</span>.</p>
         <p class="small" style="margin:0">Step-by-step commands are in the repository README,
@@ -258,14 +244,26 @@
       <h2 style="font-family:var(--serif);font-size:1.625rem;font-weight:600;letter-spacing:-0.01em;margin:0.25rem 0 1rem">Non-partisanship &amp; citation</h2>
       <div class="prose">
         <p>Seat Projections is an independent civic data project. It accepts no donations, has no
-          party affiliation and no advertising; every number on this site is produced by open code
+          party affiliation and no advertising. Every number on this site is produced by open code
           from published electoral data, so any result can be recomputed and challenged.</p>
         <p>Corrections and methodology questions are welcome via the repository&rsquo;s
           <a href="#" data-repo="/issues">issue tracker</a> or email
           <a href="mailto:hello@seatprojections.au">hello@seatprojections.au</a>.</p>
       </div>
-      <h4 style="font-size:0.6875rem;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;color:var(--ink-2);margin:1.5rem 0 0.5rem">Recommended citation</h4>
-      <div class="cite">Seat Projections (2026). <i>2026 Victorian state election seat projections.</i> https://seatprojections.au</div>
+      <h3 id="how-to-credit" style="font-family:var(--sans);font-size:1.125rem;margin:1.5rem 0 0.5rem">How to credit</h3>
+      <p class="small">When reusing our forecasts, analysis or derived data, credit
+        <b>Seat Projections</b>, link to the source page and licence, and say whether you
+        made changes. Include the forecast date so readers can identify the version.</p>
+      <div class="cite">Source: <a href="https://seatprojections.au">Seat Projections</a>,
+        2026 Victorian state election forecast dated [date].
+        Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+        Reproduced without changes.</div>
+      <p class="small">Replace the date and, if you adapted the material, replace the last
+        sentence with a brief description of your changes. Shared adaptations must use
+        CC BY-SA 4.0 or a compatible licence. Keep any applicable credits for third-party data.</p>
+      <p class="small">For code reuse, retain the copyright notice and
+        <a href="#" data-repo="/blob/main/LICENSE">MIT licence text</a>.
+        A link to the source repository is appreciated.</p>
     </div>
     <div>
       <span class="eyebrow">Licence &amp; attribution</span>
@@ -274,10 +272,10 @@
           Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0).</p>
         <p class="small muted" style="margin:0 0 0.5rem">Third-party data remains under its own terms:</p>
         <ul class="small muted" style="margin:0;padding-left:1.25rem">
-          <li>© State of Victoria (Victorian Electoral Commission) — results and candidate lists; see vec.vic.gov.au copyright terms</li>
-          <li>© Commonwealth of Australia (Australian Electoral Commission), CC BY 4.0 — federal booth results</li>
-          <li>© State of Victoria (Electoral Boundaries Commission) — 2021 redivision boundaries; see ebc.vic.gov.au</li>
-          <li>electiontracker.au — polling register, compiled from published polls</li>
+          <li>© State of Victoria (Victorian Electoral Commission): results and candidate lists. See vec.vic.gov.au copyright terms.</li>
+          <li>© Commonwealth of Australia (Australian Electoral Commission), CC BY 4.0: federal booth results</li>
+          <li>© State of Victoria (Electoral Boundaries Commission): 2021 redivision boundaries. See ebc.vic.gov.au.</li>
+          <li>electiontracker.au: polling register, compiled from published polls</li>
         </ul>
         <p class="small" style="margin:0.75rem 0 0"><a href="/methodology/#data">Datasets &amp; downloads &rarr;</a></p>
       </div>
@@ -290,7 +288,7 @@
     <div class="cols">
       <div>
         <div class="brandline"><img src="/assets/logo.svg" alt="">seatprojections.au</div>
-        <p>Independent, non-partisan seat projections for the 2026 Victorian state election —
+        <p>Independent, non-partisan seat projections for the 2026 Victorian state election:
           an exact preferential-count engine, open data and open code.</p>
         <p>Not affiliated with the Victorian Electoral Commission.</p>
         <p>Contact: <a href="mailto:hello@seatprojections.au">hello@seatprojections.au</a></p>
@@ -310,10 +308,10 @@
       <div>
         <h4>Data sources</h4>
         <ul>
-          <li>Victorian Electoral Commission — results &amp; candidates</li>
-          <li>Australian Electoral Commission — federal booth results</li>
-          <li>Electoral Boundaries Commission — district boundaries</li>
-          <li>electiontracker.au — polling register</li>
+          <li>Victorian Electoral Commission: results &amp; candidates</li>
+          <li>Australian Electoral Commission: federal booth results</li>
+          <li>Electoral Boundaries Commission: district boundaries</li>
+          <li>electiontracker.au: polling register</li>
         </ul>
       </div>
     </div>

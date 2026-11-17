@@ -255,6 +255,8 @@ a:hover { text-decoration: underline; }
 /* ---------- two-col editorial ---------- */
 .twocol { display: grid; grid-template-columns: 7fr 5fr; gap: 1.5rem; margin: 2.5rem 0; }
 .prose { font-family: var(--serif); font-size: 1.0625rem; line-height: 1.75rem; }
+.forecast-steps { padding-left: 1.5rem; }
+.forecast-steps li { padding-left: 0.25rem; margin-bottom: 1rem; }
 .prose p { margin: 0 0 1rem; }
 .cta {
   background: var(--ink); color: #eaf1ff; border-radius: var(--r-lg);

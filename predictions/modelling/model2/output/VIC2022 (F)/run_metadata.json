@@ -1,0 +1,117 @@
+{
+  "model": "model2",
+  "run_id": "VIC2022 (F)",
+  "timestamp": "2026-11-16T08:07:20+00:00",
+  "git_commit": "ff10596a50572df8b125ae9afc3034905d5c56c5",
+  "runs": 5000,
+  "seed": 1,
+  "noise": {
+    "poll_sd": 2.5,
+    "region_sd": 2.0,
+    "seat_sd": 3.5,
+    "flow_state": 0.15,
+    "flow_seat": 0.05
+  },
+  "on_priors": {
+    "ON->LP|LP,ALP": [
+      0.65,
+      0.8,
+      0.9
+    ],
+    "LP->ON|ON,ALP": [
+      0.45,
+      0.65,
+      0.8
+    ],
+    "ALP->LP|LP,ON": [
+      0.45,
+      0.6,
+      0.75
+    ],
+    "GRN->ON:ALP": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "RIGHT->ON:LP": [
+      1.0,
+      1.43,
+      2.0
+    ],
+    "OTHER->ON:LP": [
+      0.6,
+      0.86,
+      1.2
+    ]
+  },
+  "exhaust": false,
+  "core_rule": {
+    "top": 4,
+    "share": 0.05
+  },
+  "inputs": {
+    "state": "VIC",
+    "state_election": "2022-11-26",
+    "districts": 88,
+    "baseline": "previous election",
+    "federal_election": null,
+    "winners": "vec:2022",
+    "primaries": "notional 2018 primaries on 2022 boundaries (data/2018/notional_2022_boundaries.json)",
+    "flows": "previous election's distributions only (data/2018/distributions/official_2018.json)",
+    "polls": {
+      "ALP": 38.2,
+      "LNP": 34.05,
+      "GRN": 13.6,
+      "ON": 0.09,
+      "OTH": 14.06
+    },
+    "poll_on_reported": false,
+    "poll_rows": [
+      "newspoll 2022-11-24",
+      "roy-morgan 2022-11-23",
+      "resolve 2022-11-21",
+      "freshwater 2022-11-06",
+      "redbridge 2022-11-06",
+      "lonergan 2022-11-06"
+    ],
+    "polls_source": "data/benchmarks/polls/final_polls.csv",
+    "one_nation_pattern": "/Users/philip/Desktop/seat-projections/predictions/modelling/model1/output/VIC2022 (2022)/district_primaries.csv (federal booths, model1), elasticity 0.7",
+    "independents": {
+      "rule": "won the seat as an independent at the previous election, or >=10% primary there",
+      "credible": [
+        "HAWKINS, Jacqui (Benambra, 16.14%)",
+        "BIRCHALL, Ian (Melton, 10.47%)",
+        "CUPPER, Ali (Mildura, 32.74%)",
+        "SHEED, Suzanna (Shepparton, 38.40%)",
+        "PURCELL, James (South-West Coast, 16.47%)"
+      ]
+    },
+    "candidates": "candidate field of the scored election (data/2022/distributions/official_2022.json), nominations public before polling day",
+    "leakage_guard": "baseline, flows and poll target all predate the scored election; its distributions were read only for the candidate list and the final score"
+  },
+  "scores": {
+    "districts": 88,
+    "raw_seat_count": 81,
+    "brier": 0.1624,
+    "log_loss": 0.3539
+  },
+  "diagnostics": {
+    "final_two_accuracy": 0.4886,
+    "tcp_margin_mae": 3.25,
+    "t1_mae_pp": 3.5561
+  },
+  "actual_seats": {
+    "ALP": 56,
+    "GRN": 4,
+    "LP": 19,
+    "NP": 9
+  },
+  "predicted_seats_mean": {
+    "ALP": 58.18,
+    "GRN": 4.61,
+    "IND*": 1.94,
+    "LP": 17.39,
+    "NP": 5.88,
+    "ON": 0.0
+  }
+}

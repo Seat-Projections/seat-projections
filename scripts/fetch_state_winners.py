@@ -22,17 +22,17 @@ from vic_election.wiki_winners import parse_members_table, parse_pendulum
 ELECTIONS = {
     "QLD2020": ("Post-election pendulum for the 2020 Queensland state election", parse_pendulum,
                 {"ALP": 52, "LNP": 34, "KAP": 3, "GRN": 2, "ON": 1, "IND*": 1}),
-    "WA2021": ("Members of the Western Australian Legislative Assembly, 2021–2025", parse_members_table,
+    "WA2021": ("Members of the Western Australian Legislative Assembly, 2021-2025", parse_members_table,
                {"ALP": 53, "NP": 4, "LP": 2}),
-    "SA2022": ("Members of the South Australian House of Assembly, 2022–2026", lambda w: parse_members_table(w, year=2022),
+    "SA2022": ("Members of the South Australian House of Assembly, 2022-2026", lambda w: parse_members_table(w, year=2022),
                {"ALP": 27, "LP": 16, "IND*": 4}),
     "NSW2023": ("Post-election pendulum for the 2023 New South Wales state election", parse_pendulum,
                 {"ALP": 45, "LP": 25, "NP": 11, "IND*": 9, "GRN": 3}),
     "QLD2024": ("Post-election pendulum for the 2024 Queensland state election", parse_pendulum,
                 {"LNP": 52, "ALP": 36, "KAP": 3, "GRN": 1, "IND*": 1}),
-    "WA2025": ("Members of the Western Australian Legislative Assembly, 2025–2029", parse_members_table,
+    "WA2025": ("Members of the Western Australian Legislative Assembly, 2025-2029", parse_members_table,
                {"ALP": 46, "LP": 7, "NP": 6}),
-    "SA2026": ("Members of the South Australian House of Assembly, 2026–2030", parse_members_table,
+    "SA2026": ("Members of the South Australian House of Assembly, 2026-2030", parse_members_table,
                {"ALP": 34, "LP": 5, "ON": 4, "IND*": 4}),
 }
 

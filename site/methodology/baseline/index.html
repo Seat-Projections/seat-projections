@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- seo --><title>Baseline Model — Methodology | Seat Projections</title>
-<meta name="description" content="The Baseline Model: 2025 federal polling-place votes replayed into state districts with fitted preference flows — no polling.">
+<!-- seo --><title>Baseline Model: Methodology | Seat Projections</title>
+<meta name="description" content="The Baseline Model: 2025 federal polling-place votes replayed into state districts with fitted preference flows, no polling.">
 <link rel="canonical" href="https://seatprojections.au/methodology/baseline/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Seat Projections">
-<meta property="og:title" content="Baseline Model — Methodology | Seat Projections">
-<meta property="og:description" content="The Baseline Model: 2025 federal polling-place votes replayed into state districts with fitted preference flows — no polling.">
+<meta property="og:title" content="Baseline Model: Methodology | Seat Projections">
+<meta property="og:description" content="The Baseline Model: 2025 federal polling-place votes replayed into state districts with fitted preference flows, no polling.">
 <meta property="og:url" content="https://seatprojections.au/methodology/baseline/">
 <meta property="og:image" content="https://seatprojections.au/assets/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Seat Projections — 2026 Victorian seat projections">
+<meta property="og:image:alt" content="Seat Projections: 2026 Victorian seat projections">
 <meta property="og:locale" content="en_AU">
 <meta name="twitter:card" content="summary_large_image">
 <script type="speculationrules">{"prerender":[{"where":{"href_matches":"/*","not":{"href_matches":"/data/*"}},"eagerness":"moderate"}]}</script><!-- /seo -->
@@ -61,53 +61,53 @@
 <p class="small" style="margin:1.5rem 0 0"><a href="/methodology/">&larr; Methodology overview</a></p>
   <section class="hero">
     <span class="eyebrow">Methodology · 02</span>
-    <h1>Baseline Model — &ldquo;nothing changes&rdquo;</h1>
-    <p class="lede">A deliberately primitive baseline: replay the most recent federal election&rsquo;s polling-place votes inside each state district, assuming nothing changes. It exists so the real model has a floor to beat.</p>
+    <h1>Baseline Model: federal ballot rerun</h1>
+    <p class="lede">What if voters supported the same parties as at the last federal election?
+      The Baseline Model maps those votes into state districts to give a simple comparison
+      for the Forecast Model.</p>
     <p class="small muted" style="margin-top:0.5rem">Called <span class="mono">model1</span> in the code and archived runs.</p>
   </section>
   <section class="section">
     <div class="prose" style="max-width:46rem">
-      <p>Every polling place&rsquo;s votes from the most recent federal election are put into the
-        state district it sits in, and each district&rsquo;s preferential count is replayed
-        assuming nothing changes: same parties, same first preferences, same preferences. A
-        Bradley&ndash;Terry strength is fitted for each (from-party, to-party) split so transfers
-        exist for any set of continuing parties. Monte Carlo noise turns the replay into seat
-        probabilities.</p>
-      <p class="muted">It uses no polling and no candidate information — a deliberately primitive
-        floor the real model must beat. It does well when the federal and state elections are
-        close together and badly when something big has changed.</p>
+      <p>The model adds up federal polling-place votes within each state district.
+        It estimates preference transfers from federal results and counts each contest
+        to the final two. Repeating the count with variations in votes and preferences
+        gives each party a chance of winning.</p>
+      <p class="muted">It does not adjust support to opinion polls. For Victoria 2026,
+        the published run is restricted to parties standing in each district.
+        It can miss differences between state and federal voting, especially the support
+        for local candidates.</p>
     </div>
     <div class="foundations">
       <div class="card">
         <span class="tag-no">Step 1</span>
         <h4 style="margin-top:0.5rem">District votes</h4>
-        <p>Federal polling places are assigned to state districts by location — inside the
-          district and within 1&nbsp;km of their own federal division — and summed into district
+        <p>Federal polling places are assigned to state districts by location (inside the
+          district and within 1&nbsp;km of their own federal division) and summed into district
           first preferences by party group. Declaration votes (absent, postal, provisional) have
           no location and are left out.</p>
       </div>
       <div class="card">
         <span class="tag-no">Step 2</span>
         <h4 style="margin-top:0.5rem">Preferences</h4>
-        <p>The AEC publishes, for every booth, how each party&rsquo;s ballots split between that
-          division&rsquo;s final two. A Bradley&ndash;Terry strength is fitted for each
-          (from-party, to-party) pair, giving a transfer for <b>any</b> set of continuing
-          parties — including combinations never seen federally.</p>
+        <p>Federal preference data shows how parties&rsquo; votes divide between the final
+          two candidates. The model uses those splits to estimate the relative appeal of
+          each remaining party. This also lets it estimate transfers for combinations
+          that did not occur in the federal election.</p>
       </div>
       <div class="card">
         <span class="tag-no">Step 3</span>
-        <h4 style="margin-top:0.5rem">Count &amp; noise</h4>
-        <p>Each district is counted to the final two. Each Monte Carlo run multiplies every
-          party&rsquo;s vote by a shared statewide factor and a district factor, and every
-          party&rsquo;s attractiveness as a preference recipient by a statewide factor — turning
-          the single replay into seat probabilities.</p>
+        <h4 style="margin-top:0.5rem">Simulate the result</h4>
+        <p>Each simulation varies party support across the state and within each district.
+          It also varies preference flows. Each contest is counted to the final two,
+          and the share of simulations a party wins becomes its estimated win chance.</p>
       </div>
     </div>
     <p class="small muted" style="margin-top:1rem">Independents are pooled as one
       <span class="mono">IND*</span> group, so a federal independent&rsquo;s vote stays in the
-      district as an &ldquo;independent&rdquo; even if no independent stands at state level —
-      the &ldquo;nothing changes&rdquo; assumption taken literally, and the model&rsquo;s biggest
-      weakness.</p>
+      district as support for independents. In unrestricted backtests this can happen even
+      where no independent stands at state level. It does not tell us how much support a
+      particular state candidate would receive.</p>
   </section>
   <section class="section" id="benchmarks">
     <span class="eyebrow">Backtests</span>
@@ -118,8 +118,9 @@
         <tbody></tbody>
       </table>
     </div>
-    <p class="small muted" style="margin-top:0.5rem">Genuine forecasts from federal votes —
-      not comparable with the Forecast Model&rsquo;s B1 replays.
+    <p class="small muted" style="margin-top:0.5rem">These backtests estimate past state
+      elections from the preceding federal results. Compare the same elections in the
+      two models to judge their performance.
       <a href="/methodology/forecast/#benchmarks">Forecast Model results &rarr;</a></p>
   </section>
 
@@ -134,7 +135,7 @@
     <div class="cols">
       <div>
         <div class="brandline"><img src="/assets/logo.svg" alt="">seatprojections.au</div>
-        <p>Independent, non-partisan seat projections for the 2026 Victorian state election —
+        <p>Independent, non-partisan seat projections for the 2026 Victorian state election:
           an exact preferential-count engine, open data and open code.</p>
         <p>Not affiliated with the Victorian Electoral Commission.</p>
         <p>Contact: <a href="mailto:hello@seatprojections.au">hello@seatprojections.au</a></p>
@@ -154,10 +155,10 @@
       <div>
         <h4>Data sources</h4>
         <ul>
-          <li>Victorian Electoral Commission — results &amp; candidates</li>
-          <li>Australian Electoral Commission — federal booth results</li>
-          <li>Electoral Boundaries Commission — district boundaries</li>
-          <li>electiontracker.au — polling register</li>
+          <li>Victorian Electoral Commission: results &amp; candidates</li>
+          <li>Australian Electoral Commission: federal booth results</li>
+          <li>Electoral Boundaries Commission: district boundaries</li>
+          <li>electiontracker.au: polling register</li>
         </ul>
       </div>
     </div>

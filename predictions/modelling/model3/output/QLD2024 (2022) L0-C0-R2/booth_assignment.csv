@@ -1,0 +1,1384 @@
+booth,district,weight
+108415,Townsville,1.0
+108416,Woodridge,1.0
+108424,Keppel,1.0
+108435,Ipswich West,1.0
+108439,Inala,1.0
+108442,Redlands,1.0
+108461,Currumbin,1.0
+11456,Coomera,1.0
+11640,Cook,1.0
+11642,Murrumba,1.0
+11995,Everton,1.0
+11996,Ferny Grove,1.0
+11997,Morayfield,1.0
+11998,Murrumba,1.0
+12000,Toohey,1.0
+12003,Broadwater,1.0
+12004,Ninderry,1.0
+12005,Buderim,1.0
+12009,Pumicestone,1.0
+12011,Waterford,1.0
+12012,Stretton,1.0
+12014,Springwood,1.0
+12015,Greenslopes,1.0
+12016,Chatsworth,1.0
+12017,Toowoomba South,1.0
+12018,Mundingburra,1.0
+12019,Hinchinbrook,1.0
+12023,Currumbin,1.0
+12024,Mudgeeraba,1.0
+12027,Mudgeeraba,1.0
+12028,Gaven,1.0
+12031,Southport,1.0
+12034,Aspley,1.0
+12036,Capalaba,1.0
+12037,Capalaba,1.0
+12038,Capalaba,1.0
+12040,Bancroft,1.0
+12041,Logan,1.0
+12042,Theodore,1.0
+12053,Mansfield,1.0
+12054,Everton,1.0
+12055,Waterford,1.0
+12056,Greenslopes,1.0
+12058,Toowoomba South,1.0
+12059,Lockyer,1.0
+12060,Surfers Paradise,1.0
+12061,Mermaid Beach,1.0
+12062,Mudgeeraba,1.0
+12063,Bancroft,1.0
+12066,Glass House,1.0
+14217,Mcconnel,1.0
+31434,Toowoomba North,1.0
+31435,Murrumba,1.0
+31440,Bancroft,1.0
+31442,Currumbin,1.0
+31444,Maroochydore,1.0
+31448,Mirani,1.0
+31470,Maiwar,1.0
+31471,Mansfield,1.0
+31480,Jordan,1.0
+31483,Condamine,1.0
+31486,Morayfield,1.0
+31487,Lockyer,1.0
+31488,Mount Ommaney,1.0
+31499,Stafford,1.0
+31502,Stafford,1.0
+31504,Maroochydore,1.0
+31507,Everton,1.0
+31517,Keppel,1.0
+31526,Toohey,1.0
+31527,Aspley,1.0
+31543,Gympie,1.0
+31547,Hervey Bay,1.0
+31553,Burnett,1.0
+31560,Bundaberg,1.0
+31566,Hinchinbrook,1.0
+31569,Thuringowa,1.0
+31576,Murrumba,1.0
+31633,Gregory,1.0
+31634,Southern Downs,1.0
+31645,Clayfield,1.0
+31647,Ipswich West,1.0
+31650,Bonney,1.0
+31651,Theodore,1.0
+31678,Mansfield,1.0
+31680,Bancroft,1.0
+31682,Mudgeeraba,1.0
+31690,Bancroft,1.0
+31700,Thuringowa,1.0
+31728,Gaven,1.0
+31791,Woodridge,1.0
+31793,Jordan,1.0
+31795,Woodridge,1.0
+31797,Waterford,1.0
+31798,Hervey Bay,1.0
+31799,Inala,1.0
+31800,Logan,1.0
+31801,Stretton,1.0
+31805,Macalister,1.0
+31848,Mansfield,1.0
+31955,Mansfield,1.0
+32031,Macalister,1.0
+32060,Kurwongbah,1.0
+32084,Redlands,1.0
+32457,Greenslopes,1.0
+32492,Ferny Grove,1.0
+32494,South Brisbane,1.0
+32495,Ferny Grove,1.0
+32499,Bonney,1.0
+32500,Gaven,1.0
+32501,Morayfield,1.0
+32502,Kurwongbah,1.0
+32503,Kurwongbah,1.0
+32508,Macalister,1.0
+32516,Gaven,1.0
+32519,Bonney,1.0
+32522,Mudgeeraba,1.0
+32531,Stafford,1.0
+32533,Mundingburra,1.0
+32534,Burnett,1.0
+32542,Kurwongbah,1.0
+32547,Jordan,1.0
+32550,Kawana,1.0
+32552,Buderim,1.0
+32554,Buderim,1.0
+32557,Waterford,1.0
+32561,Everton,1.0
+32562,Southport,1.0
+32563,Surfers Paradise,1.0
+32567,Stretton,1.0
+32572,Burleigh,1.0
+32573,Surfers Paradise,1.0
+32583,Pine Rivers,1.0
+32584,Stafford,1.0
+32597,Toowoomba North,1.0
+32606,Mcconnel,1.0
+32628,Southern Downs,1.0
+32629,Southern Downs,1.0
+32661,Mackay,1.0
+32666,Pumicestone,1.0
+32675,Cairns,1.0
+32676,Cook,1.0
+32692,Hervey Bay,1.0
+32700,Rockhampton,1.0
+32702,Gregory,1.0
+32703,Townsville,1.0
+32711,Gladstone,1.0
+32715,Macalister,1.0
+32753,Ninderry,1.0
+32754,Nicklin,1.0
+32756,Noosa,1.0
+32757,Noosa,1.0
+32767,Gympie,1.0
+32835,Caloundra,1.0
+32918,Oodgeroo,1.0
+32926,Gregory,1.0
+33062,Gladstone,1.0
+33080,Mcconnel,1.0
+33082,Nicklin,1.0
+33085,Ninderry,1.0
+33093,Lytton,1.0
+33099,Kawana,1.0
+33102,Inala,1.0
+33103,Buderim,1.0
+33107,Mackay,1.0
+33108,Ninderry,1.0
+33132,Noosa,1.0
+33296,Cairns,1.0
+33943,Hervey Bay,1.0
+33989,Gaven,1.0
+33992,Mackay,1.0
+33993,Sandgate,1.0
+33996,Mudgeeraba,1.0
+34119,Morayfield,1.0
+34127,Gaven,1.0
+34128,Noosa,1.0
+34191,Inala,1.0
+34192,Nudgee,1.0
+34276,Waterford,1.0
+37121,Mansfield,1.0
+37142,Chatsworth,1.0
+37578,Chatsworth,1.0
+37579,Bulimba,1.0
+37583,Mansfield,1.0
+37600,Greenslopes,1.0
+37743,Mermaid Beach,1.0
+37744,Mermaid Beach,1.0
+37810,Mudgeeraba,1.0
+37828,Gaven,1.0
+37838,Miller,1.0
+37844,Greenslopes,1.0
+37850,Mansfield,1.0
+38089,Cooper,1.0
+38207,Whitsunday,1.0
+38210,Ninderry,1.0
+38225,Bancroft,1.0
+38227,Burleigh,1.0
+38235,Stretton,1.0
+38246,Logan,1.0
+38263,Caloundra,1.0
+38264,Glass House,1.0
+38265,Waterford,1.0
+38266,Nanango,1.0
+38269,Greenslopes,1.0
+38271,Hervey Bay,1.0
+38274,Hervey Bay,1.0
+38275,Maryborough,1.0
+38279,Maiwar,1.0
+38294,Maroochydore,1.0
+38301,Theodore,1.0
+38318,Clayfield,1.0
+40208,Coomera,1.0
+40275,Hinchinbrook,1.0
+40374,Aspley,1.0
+46364,Pine Rivers,1.0
+46365,Everton,1.0
+46367,Moggill,1.0
+46376,Burnett,1.0
+46384,Kawana,1.0
+46386,Bonney,1.0
+46391,Macalister,1.0
+46395,Barron River,1.0
+46429,Caloundra,1.0
+46432,Bundamba,1.0
+46433,Mulgrave,1.0
+46438,Burdekin,1.0
+46453,Redcliffe,1.0
+46484,Bundaberg,1.0
+46594,Pine Rivers,1.0
+46596,Oodgeroo,1.0
+46646,Cook,1.0
+46648,Cook,1.0
+46649,Cook,1.0
+46657,Nanango,1.0
+46658,Southern Downs,1.0
+46661,Callide,1.0
+46666,Warrego,1.0
+46677,Traeger,1.0
+46679,Traeger,1.0
+46681,Hinchinbrook,1.0
+46683,Hill,1.0
+46685,Cook,1.0
+46687,Callide,1.0
+46689,Hill,1.0
+46692,Traeger,1.0
+46694,Traeger,1.0
+46698,Gregory,1.0
+46710,Gregory,1.0
+46711,Callide,1.0
+46713,Burdekin,1.0
+46715,Burdekin,1.0
+46717,Whitsunday,1.0
+46720,Hill,1.0
+46721,Broadwater,1.0
+46722,Burdekin,1.0
+46726,Mirani,1.0
+46728,Keppel,1.0
+47692,Buderim,1.0
+47698,Rockhampton,1.0
+47699,Gympie,1.0
+47702,Toowoomba North,1.0
+47703,Redcliffe,1.0
+47707,Jordan,1.0
+47709,Everton,1.0
+47710,Nanango,1.0
+47711,Nanango,1.0
+47712,Warrego,1.0
+47713,Callide,1.0
+47717,Ipswich West,1.0
+47718,Ipswich,1.0
+47719,Bundamba,1.0
+47720,Coomera,1.0
+47721,Jordan,1.0
+47723,Algester,1.0
+47724,Bundamba,1.0
+47725,Burleigh,1.0
+47727,Algester,1.0
+47729,Woodridge,1.0
+47730,Logan,1.0
+47733,Ipswich,1.0
+47734,Inala,1.0
+47736,Algester,1.0
+47740,Coomera,1.0
+47743,Theodore,1.0
+47744,Logan,1.0
+47745,Morayfield,1.0
+47775,Redcliffe,1.0
+47776,Stretton,1.0
+47798,Kawana,1.0
+5124,Capalaba,1.0
+5125,Oodgeroo,1.0
+5127,Capalaba,1.0
+5128,Capalaba,1.0
+5129,Capalaba,1.0
+5130,Capalaba,1.0
+5131,Oodgeroo,1.0
+5132,Oodgeroo,1.0
+5133,Redlands,1.0
+5134,Oodgeroo,1.0
+5136,Chatsworth,1.0
+5137,Lytton,1.0
+5140,Lytton,1.0
+5142,Redlands,1.0
+5143,Lytton,1.0
+5145,Lytton,1.0
+5146,Oodgeroo,1.0
+5147,Oodgeroo,1.0
+5148,Redlands,1.0
+5149,Redlands,1.0
+5151,Capalaba,1.0
+5152,Redlands,1.0
+5153,Lytton,1.0
+5154,Redlands,1.0
+5155,Capalaba,1.0
+5156,Oodgeroo,1.0
+5158,Lytton,1.0
+5159,Lytton,1.0
+5160,Lytton,1.0
+5162,Lytton,1.0
+5163,Lytton,1.0
+5168,Cooper,1.0
+5169,Cooper,1.0
+5171,Ferny Grove,1.0
+5174,Ferny Grove,1.0
+5181,Ferny Grove,1.0
+5182,Cooper,1.0
+5183,Cooper,1.0
+5185,Stafford,1.0
+5186,Mcconnel,1.0
+5187,Everton,1.0
+5188,Ferny Grove,1.0
+5191,Ferny Grove,1.0
+5192,Cooper,1.0
+5193,Ferny Grove,1.0
+5194,Cooper,1.0
+5197,Stafford,1.0
+5203,Stafford,1.0
+5204,Clayfield,1.0
+5208,Rockhampton,1.0
+5210,Mirani,1.0
+5214,Mirani,1.0
+5215,Callide,1.0
+5217,Rockhampton,1.0
+5218,Callide,1.0
+5219,Mirani,1.0
+5222,Keppel,1.0
+5223,Keppel,1.0
+5225,Keppel,1.0
+5227,Rockhampton,1.0
+5230,Burdekin,1.0
+5231,Keppel,1.0
+5232,Keppel,1.0
+5233,Keppel,1.0
+5234,Rockhampton,1.0
+5237,Rockhampton,1.0
+5239,Callide,1.0
+5242,Keppel,1.0
+5243,Keppel,1.0
+5245,Rockhampton,1.0
+5248,Burdekin,1.0
+5250,Burdekin,1.0
+5251,Keppel,1.0
+5252,Mirani,1.0
+5254,Burdekin,1.0
+5257,Rockhampton,1.0
+5259,Rockhampton,1.0
+5260,Keppel,1.0
+5265,Rockhampton,1.0
+5274,Mirani,1.0
+5275,Callide,1.0
+5277,Rockhampton,1.0
+5279,Callide,1.0
+5281,Keppel,1.0
+5289,Mirani,1.0
+5290,Mackay,1.0
+5291,Burdekin,1.0
+5293,Whitsunday,1.0
+5294,Burdekin,1.0
+5297,Whitsunday,1.0
+5298,Whitsunday,1.0
+5299,Whitsunday,1.0
+5301,Mirani,1.0
+5303,Burdekin,1.0
+5305,Whitsunday,1.0
+5310,Mirani,1.0
+5311,Burdekin,1.0
+5312,Whitsunday,1.0
+5313,Mackay,1.0
+5314,Mirani,1.0
+5317,Whitsunday,1.0
+5318,Mirani,1.0
+5319,Mackay,1.0
+5321,Burdekin,1.0
+5322,Mackay,1.0
+5324,Mackay,1.0
+5329,Whitsunday,1.0
+5332,Burdekin,1.0
+5337,Mirani,1.0
+5340,Mackay,1.0
+5343,Mackay,1.0
+5344,Mackay,1.0
+5345,Mirani,1.0
+5349,Mirani,1.0
+5361,Whitsunday,1.0
+5363,Burdekin,1.0
+5366,Mirani,1.0
+5371,Whitsunday,1.0
+5373,Mirani,1.0
+5374,Mackay,1.0
+5375,Mackay,1.0
+5376,Mirani,1.0
+5385,Macalister,1.0
+5386,Springwood,1.0
+5387,Toohey,1.0
+5390,Springwood,1.0
+5394,Toohey,1.0
+5396,Toohey,1.0
+5397,Toohey,1.0
+5398,Springwood,1.0
+5400,Toohey,1.0
+5402,Springwood,1.0
+5403,Toohey,1.0
+5404,Toohey,1.0
+5405,Springwood,1.0
+5407,Springwood,1.0
+5408,Springwood,1.0
+5409,Toohey,1.0
+5411,Toohey,1.0
+5415,Ninderry,1.0
+5416,Kawana,1.0
+5417,Buderim,1.0
+5419,Nicklin,1.0
+5420,Caloundra,1.0
+5421,Ninderry,1.0
+5422,Nicklin,1.0
+5423,Maroochydore,1.0
+5424,Kawana,1.0
+5425,Ninderry,1.0
+5426,Glass House,1.0
+5427,Ninderry,1.0
+5428,Ninderry,1.0
+5429,Caloundra,1.0
+5430,Caloundra,1.0
+5431,Kawana,1.0
+5432,Nicklin,1.0
+5433,Caloundra,1.0
+5435,Maroochydore,1.0
+5437,Maroochydore,1.0
+5438,Glass House,1.0
+5439,Maroochydore,1.0
+5440,Nicklin,1.0
+5443,Noosa,1.0
+5444,Noosa,1.0
+5445,Ninderry,1.0
+5447,Noosa,1.0
+5448,Noosa,1.0
+5449,Nicklin,1.0
+5450,Nicklin,1.0
+5455,Everton,1.0
+5456,Pumicestone,1.0
+5457,Glass House,1.0
+5458,Caloundra,1.0
+5459,Pumicestone,1.0
+5461,Nanango,1.0
+5462,Pumicestone,1.0
+5463,Pine Rivers,1.0
+5464,Kurwongbah,1.0
+5465,Morayfield,1.0
+5466,Morayfield,1.0
+5467,Morayfield,1.0
+5468,Pine Rivers,1.0
+5469,Glass House,1.0
+5470,Nanango,1.0
+5471,Condamine,1.0
+5478,Pumicestone,1.0
+5479,Glass House,1.0
+5480,Condamine,1.0
+5482,Glass House,1.0
+5485,Murrumba,1.0
+5486,Murrumba,1.0
+5487,Nicklin,1.0
+5488,Nanango,1.0
+5489,Kurwongbah,1.0
+5490,Kurwongbah,1.0
+5492,Glass House,1.0
+5493,Nicklin,1.0
+5494,Glass House,1.0
+5495,Nanango,1.0
+5498,Nanango,1.0
+5499,Glass House,1.0
+5502,Kurwongbah,1.0
+5503,Pumicestone,1.0
+5505,Condamine,1.0
+5506,Kurwongbah,1.0
+5509,Pine Rivers,1.0
+5511,Pine Rivers,1.0
+5513,Nanango,1.0
+5514,Pumicestone,1.0
+5517,Glass House,1.0
+5519,Glass House,1.0
+5520,Pumicestone,1.0
+5521,Nanango,1.0
+55256,Bundamba,1.0
+5526,Algester,1.0
+5527,Algester,1.0
+5528,Woodridge,1.0
+5530,Miller,1.0
+55316,Cooper,1.0
+5532,Mount Ommaney,1.0
+5535,Miller,1.0
+5536,Woodridge,1.0
+5538,Mount Ommaney,1.0
+5539,Mount Ommaney,1.0
+5540,Stretton,1.0
+5543,Mount Ommaney,1.0
+5544,Mount Ommaney,1.0
+5545,Algester,1.0
+5546,Mount Ommaney,1.0
+5547,Toohey,1.0
+5549,Stretton,1.0
+5550,Miller,1.0
+55505,Theodore,1.0
+5551,Mount Ommaney,1.0
+5554,Woodridge,1.0
+5555,Woodridge,1.0
+5564,Bulimba,1.0
+5565,Chatsworth,1.0
+5566,Mcconnel,1.0
+5567,Bulimba,1.0
+55683,Theodore,1.0
+5569,Chatsworth,1.0
+5570,Bulimba,1.0
+5571,Chatsworth,1.0
+55712,Logan,1.0
+5572,Chatsworth,1.0
+55732,Springwood,1.0
+5574,South Brisbane,1.0
+55748,Mundingburra,1.0
+55749,Mundingburra,1.0
+5575,South Brisbane,1.0
+5576,Mcconnel,1.0
+5577,Bulimba,1.0
+5578,South Brisbane,1.0
+5580,Mcconnel,1.0
+5581,Cooper,1.0
+5582,Bulimba,1.0
+5583,Bulimba,1.0
+5584,Mcconnel,1.0
+5585,Bulimba,1.0
+5586,Bulimba,1.0
+5588,Cooper,1.0
+5589,Bulimba,1.0
+55895,Clayfield,1.0
+5590,South Brisbane,1.0
+5591,Mcconnel,1.0
+5592,South Brisbane,1.0
+55950,Murrumba,1.0
+55951,Murrumba,1.0
+55956,Bancroft,1.0
+5601,Condamine,1.0
+5602,Lockyer,1.0
+5603,Condamine,1.0
+5604,Condamine,1.0
+5605,Toowoomba South,1.0
+5606,Condamine,1.0
+56063,Mount Ommaney,1.0
+5607,Lockyer,1.0
+5608,Lockyer,1.0
+5609,Lockyer,1.0
+56096,Aspley,1.0
+5610,Lockyer,1.0
+5611,Lockyer,1.0
+5612,Condamine,1.0
+5613,Lockyer,1.0
+5614,Toowoomba North,1.0
+56144,Stretton,1.0
+5616,Toowoomba South,1.0
+5618,Lockyer,1.0
+5619,Lockyer,1.0
+56194,Logan,1.0
+5620,Toowoomba North,1.0
+56202,Ferny Grove,1.0
+5621,Lockyer,1.0
+5622,Condamine,1.0
+5623,Lockyer,1.0
+5624,Lockyer,1.0
+5626,Lockyer,1.0
+56265,Theodore,1.0
+5627,Toowoomba South,1.0
+5628,Toowoomba North,1.0
+5629,Lockyer,1.0
+5630,Toowoomba North,1.0
+5632,Condamine,1.0
+5633,Toowoomba South,1.0
+5634,Toowoomba North,1.0
+5635,Toowoomba South,1.0
+5636,Toowoomba South,1.0
+5637,Toowoomba South,1.0
+5638,Toowoomba North,1.0
+5639,Lockyer,1.0
+5640,Toowoomba North,1.0
+5641,Toowoomba North,1.0
+5642,Toowoomba North,1.0
+5644,Toowoomba North,1.0
+5645,Toowoomba South,1.0
+5646,Toowoomba North,1.0
+5647,Lockyer,1.0
+5648,Condamine,1.0
+5649,Toowoomba North,1.0
+5650,Lockyer,1.0
+5651,Condamine,1.0
+5655,Mundingburra,1.0
+5656,Burdekin,1.0
+5657,Hinchinbrook,1.0
+5658,Townsville,1.0
+5660,Townsville,1.0
+5661,Hinchinbrook,1.0
+5664,Mundingburra,1.0
+5665,Mundingburra,1.0
+5667,Townsville,1.0
+5669,Burdekin,1.0
+5670,Thuringowa,1.0
+5671,Townsville,1.0
+5672,Thuringowa,1.0
+5673,Thuringowa,1.0
+5674,Thuringowa,1.0
+5676,Hinchinbrook,1.0
+5678,Mundingburra,1.0
+5680,Mundingburra,1.0
+5681,Townsville,1.0
+5682,Townsville,1.0
+5683,Mundingburra,1.0
+5685,Townsville,1.0
+5687,Townsville,1.0
+5688,Townsville,1.0
+5689,Thuringowa,1.0
+5690,Hinchinbrook,1.0
+5691,Townsville,1.0
+5692,Townsville,1.0
+5694,Thuringowa,1.0
+5695,Hinchinbrook,1.0
+5699,Hinchinbrook,1.0
+5701,Hinchinbrook,1.0
+5702,Mundingburra,1.0
+5704,Burdekin,1.0
+5705,Mundingburra,1.0
+5711,Burnett,1.0
+5712,Burnett,1.0
+5713,Bundaberg,1.0
+5715,Callide,1.0
+5717,Burnett,1.0
+5719,Gladstone,1.0
+5720,Callide,1.0
+5725,Gladstone,1.0
+5730,Callide,1.0
+5732,Bundaberg,1.0
+5734,Bundaberg,1.0
+5736,Bundaberg,1.0
+5738,Burnett,1.0
+5739,Callide,1.0
+5740,Burnett,1.0
+5741,Gladstone,1.0
+5743,Burnett,1.0
+5747,Callide,1.0
+5748,Burnett,1.0
+5750,Callide,1.0
+5751,Callide,1.0
+5752,Burnett,1.0
+5753,Gladstone,1.0
+5755,Gladstone,1.0
+5756,Gladstone,1.0
+5757,Burnett,1.0
+5758,Burnett,1.0
+5761,Bundaberg,1.0
+5763,Gladstone,1.0
+5764,Burnett,1.0
+5767,Burnett,1.0
+5769,Callide,1.0
+5772,Gladstone,1.0
+5773,Callide,1.0
+5774,Callide,1.0
+5775,Callide,1.0
+5776,Callide,1.0
+5778,Bundaberg,1.0
+5781,Burnett,1.0
+5782,Bundaberg,1.0
+5783,Burnett,1.0
+5784,Gladstone,1.0
+5785,Bundaberg,1.0
+5786,Callide,1.0
+5790,Burnett,1.0
+5791,Callide,1.0
+5792,Bundaberg,1.0
+5793,Callide,1.0
+5795,Burnett,1.0
+5797,Burnett,1.0
+5798,Burnett,1.0
+5800,Gladstone,1.0
+5805,Gregory,1.0
+5807,Hill,1.0
+5808,Hill,1.0
+5809,Gregory,1.0
+5810,Cook,1.0
+5811,Gregory,1.0
+5812,Gregory,1.0
+5816,Gregory,1.0
+5817,Hinchinbrook,1.0
+5818,Traeger,1.0
+5819,Traeger,1.0
+5821,Cook,1.0
+5823,Burdekin,1.0
+5825,Traeger,1.0
+5827,Hill,1.0
+5828,Traeger,1.0
+5836,Traeger,1.0
+5838,Hinchinbrook,1.0
+5839,Traeger,1.0
+5841,Traeger,1.0
+5842,Hill,1.0
+5844,Traeger,1.0
+5846,Hinchinbrook,1.0
+58465,Redlands,1.0
+5847,Hinchinbrook,1.0
+58493,Pumicestone,1.0
+58495,Coomera,1.0
+58496,Burnett,1.0
+5852,Cook,1.0
+58524,Nicklin,1.0
+58525,Bancroft,1.0
+5853,Traeger,1.0
+5854,Hill,1.0
+58543,Mermaid Beach,1.0
+58544,Ferny Grove,1.0
+58546,Glass House,1.0
+5855,Traeger,1.0
+5856,Traeger,1.0
+5857,Hinchinbrook,1.0
+58586,Scenic Rim,1.0
+58598,Warrego,1.0
+58599,Warrego,1.0
+58600,Nanango,1.0
+58603,Warrego,1.0
+5861,Gregory,1.0
+5863,Hinchinbrook,1.0
+5864,Hinchinbrook,1.0
+5866,Hinchinbrook,1.0
+5867,Hill,1.0
+5868,Cook,1.0
+5869,Cook,1.0
+58692,Nudgee,1.0
+5870,Cook,1.0
+58700,Stafford,1.0
+5872,Hill,1.0
+58727,Pine Rivers,1.0
+5875,Traeger,1.0
+5877,Hill,1.0
+5878,Traeger,1.0
+58784,Lytton,1.0
+58814,Bulimba,1.0
+5882,Hinchinbrook,1.0
+58823,Mudgeeraba,1.0
+5883,Hill,1.0
+58830,Scenic Rim,1.0
+58839,Lockyer,1.0
+5885,Traeger,1.0
+5887,Traeger,1.0
+58876,Coomera,1.0
+58878,Gympie,1.0
+5889,Traeger,1.0
+58895,Toowoomba South,1.0
+58896,Morayfield,1.0
+5890,Hill,1.0
+5892,Traeger,1.0
+5893,Traeger,1.0
+5894,Traeger,1.0
+5895,Hill,1.0
+5896,Traeger,1.0
+5898,Gregory,1.0
+5899,Hill,1.0
+5901,Hill,1.0
+5902,Hill,1.0
+5905,Hill,1.0
+5906,Gregory,1.0
+5908,Hill,1.0
+5921,Mulgrave,1.0
+5923,Hill,1.0
+5926,Cairns,1.0
+5927,Cook,1.0
+5929,Mulgrave,1.0
+5931,Cook,1.0
+5934,Cairns,1.0
+5937,Cairns,1.0
+5938,Cairns,1.0
+5939,Barron River,1.0
+5940,Barron River,1.0
+5942,Cook,1.0
+5943,Cook,1.0
+5945,Cook,1.0
+5948,Cairns,1.0
+5949,Hill,1.0
+5950,Hill,1.0
+5951,Cairns,1.0
+5952,Mulgrave,1.0
+5953,Cook,1.0
+5954,Hill,1.0
+5955,Cairns,1.0
+5956,Hill,1.0
+5957,Barron River,1.0
+5958,Hill,1.0
+5959,Hill,1.0
+5961,Mulgrave,1.0
+5963,Mulgrave,1.0
+5965,Barron River,1.0
+5966,Cook,1.0
+5967,Cook,1.0
+5968,Hill,1.0
+5969,Hill,1.0
+5971,Cook,1.0
+5973,Barron River,1.0
+5974,Hill,1.0
+5976,Cook,1.0
+5978,Barron River,1.0
+5979,Mulgrave,1.0
+5980,Hill,1.0
+5981,Cook,1.0
+5982,Hill,1.0
+5983,Hill,1.0
+5985,Cook,1.0
+5986,Hill,1.0
+5991,Cairns,1.0
+5992,Cook,1.0
+5993,Barron River,1.0
+5994,Cook,1.0
+5996,Hill,1.0
+5998,Hill,1.0
+6001,Barron River,1.0
+6002,Cook,1.0
+6003,Cook,1.0
+6005,Barron River,1.0
+6007,Cook,1.0
+6009,Mulgrave,1.0
+6011,Mulgrave,1.0
+6013,Barron River,1.0
+6017,Clayfield,1.0
+6019,Nudgee,1.0
+6020,Nudgee,1.0
+6022,Sandgate,1.0
+6023,Sandgate,1.0
+6024,Sandgate,1.0
+6026,Sandgate,1.0
+6027,Sandgate,1.0
+6029,Clayfield,1.0
+6030,Clayfield,1.0
+6031,Sandgate,1.0
+6034,Clayfield,1.0
+6035,Clayfield,1.0
+60352,Bundamba,1.0
+60354,Jordan,1.0
+60356,Pine Rivers,1.0
+6037,Clayfield,1.0
+6038,Stafford,1.0
+6042,Aspley,1.0
+6043,Nudgee,1.0
+6045,Nudgee,1.0
+6046,Nudgee,1.0
+6049,Sandgate,1.0
+6051,Sandgate,1.0
+6052,Nudgee,1.0
+6054,Clayfield,1.0
+6058,Sandgate,1.0
+6062,Scenic Rim,1.0
+6064,Burleigh,1.0
+6066,Burleigh,1.0
+6067,Burleigh,1.0
+6072,Currumbin,1.0
+6073,Currumbin,1.0
+6074,Currumbin,1.0
+6075,Currumbin,1.0
+6076,Surfers Paradise,1.0
+6078,Mudgeeraba,1.0
+6079,Currumbin,1.0
+6080,Surfers Paradise,1.0
+6081,Currumbin,1.0
+6082,Surfers Paradise,1.0
+6083,Mermaid Beach,1.0
+6085,Mermaid Beach,1.0
+6086,Mudgeeraba,1.0
+6087,Mermaid Beach,1.0
+6088,Mermaid Beach,1.0
+6089,Surfers Paradise,1.0
+6090,Mudgeeraba,1.0
+6092,Gaven,1.0
+6095,Burleigh,1.0
+6096,Burleigh,1.0
+6097,Mermaid Beach,1.0
+6098,Mudgeeraba,1.0
+6099,Surfers Paradise,1.0
+6100,Currumbin,1.0
+6101,Currumbin,1.0
+6106,Southern Downs,1.0
+6108,Southern Downs,1.0
+6109,Warrego,1.0
+6110,Southern Downs,1.0
+6112,Callide,1.0
+6113,Gregory,1.0
+6115,Gregory,1.0
+6116,Warrego,1.0
+6119,Condamine,1.0
+6120,Callide,1.0
+6122,Southern Downs,1.0
+6129,Southern Downs,1.0
+6130,Warrego,1.0
+6132,Callide,1.0
+6133,Callide,1.0
+6135,Warrego,1.0
+6139,Warrego,1.0
+6142,Warrego,1.0
+6144,Warrego,1.0
+6145,Warrego,1.0
+6147,Warrego,1.0
+6149,Gregory,1.0
+6150,Warrego,1.0
+6151,Gregory,1.0
+6152,Gregory,1.0
+6158,Southern Downs,1.0
+6160,Condamine,1.0
+6161,Southern Downs,1.0
+6163,Southern Downs,1.0
+6166,Condamine,1.0
+6173,Southern Downs,1.0
+6174,Warrego,1.0
+6176,Callide,1.0
+6178,Condamine,1.0
+6180,Warrego,1.0
+6184,Warrego,1.0
+6186,Condamine,1.0
+6188,Warrego,1.0
+6190,Warrego,1.0
+6191,Callide,1.0
+6193,Southern Downs,1.0
+6194,Warrego,1.0
+6196,Warrego,1.0
+6197,Condamine,1.0
+6200,Warrego,1.0
+6204,Condamine,1.0
+6205,Warrego,1.0
+6206,Condamine,1.0
+6207,Gregory,1.0
+6208,Warrego,1.0
+6209,Warrego,1.0
+6212,Gregory,1.0
+6214,Warrego,1.0
+6218,Condamine,1.0
+6219,Gregory,1.0
+6220,Southern Downs,1.0
+6221,Southern Downs,1.0
+6223,Warrego,1.0
+6224,Southern Downs,1.0
+6225,Gregory,1.0
+6226,Warrego,1.0
+6227,Callide,1.0
+6228,Southern Downs,1.0
+6230,Warrego,1.0
+6232,Southern Downs,1.0
+6235,Southern Downs,1.0
+6236,Warrego,1.0
+6237,Callide,1.0
+6242,Gregory,1.0
+6246,Southern Downs,1.0
+6248,Warrego,1.0
+6253,Coomera,1.0
+6254,Southport,1.0
+6255,Scenic Rim,1.0
+6257,Macalister,1.0
+6258,Southport,1.0
+6259,Waterford,1.0
+6260,Broadwater,1.0
+6262,Scenic Rim,1.0
+6264,Broadwater,1.0
+6265,Theodore,1.0
+6268,Bonney,1.0
+6269,Theodore,1.0
+6270,Scenic Rim,1.0
+6271,Broadwater,1.0
+6273,Scenic Rim,1.0
+6274,Bonney,1.0
+6277,Theodore,1.0
+6278,Macalister,1.0
+6279,Bonney,1.0
+6281,Coomera,1.0
+6282,Theodore,1.0
+6285,Coomera,1.0
+6286,Scenic Rim,1.0
+6288,Scenic Rim,1.0
+6289,Southport,1.0
+6291,Southport,1.0
+6292,Southport,1.0
+6293,Scenic Rim,1.0
+6294,Scenic Rim,1.0
+6295,Scenic Rim,1.0
+6296,Scenic Rim,1.0
+6297,Coomera,1.0
+6304,Miller,1.0
+6305,Greenslopes,1.0
+6306,Greenslopes,1.0
+6310,Greenslopes,1.0
+6312,Miller,1.0
+63123,Pine Rivers,1.0
+6316,Greenslopes,1.0
+6317,Greenslopes,1.0
+6318,Miller,1.0
+6321,Miller,1.0
+6322,Greenslopes,1.0
+6324,Mansfield,1.0
+6325,Mansfield,1.0
+6326,South Brisbane,1.0
+6328,Greenslopes,1.0
+6331,Greenslopes,1.0
+6332,Miller,1.0
+6333,Miller,1.0
+6336,Miller,1.0
+6337,Miller,1.0
+6338,Miller,1.0
+6345,Ipswich,1.0
+6347,Ipswich West,1.0
+6348,Ipswich West,1.0
+6349,Bundamba,1.0
+6350,Ipswich,1.0
+6351,Jordan,1.0
+6352,Ipswich,1.0
+6353,Ipswich,1.0
+6354,Bundamba,1.0
+6355,Nanango,1.0
+6358,Ipswich,1.0
+6360,Nanango,1.0
+6361,Lockyer,1.0
+6362,Ipswich,1.0
+6363,Jordan,1.0
+6364,Lockyer,1.0
+6365,Bundamba,1.0
+6366,Ipswich West,1.0
+6369,Ipswich West,1.0
+6370,Bundamba,1.0
+6371,Ipswich West,1.0
+6372,Ipswich West,1.0
+6373,Lockyer,1.0
+6374,Ipswich West,1.0
+6375,Lockyer,1.0
+6376,Nanango,1.0
+6377,Ipswich,1.0
+6378,Ipswich West,1.0
+6379,Ipswich West,1.0
+6381,Ipswich,1.0
+6382,Bundamba,1.0
+6383,Bundamba,1.0
+6384,Bundamba,1.0
+6387,Ipswich,1.0
+6388,Lockyer,1.0
+6389,Ipswich West,1.0
+6390,Ipswich West,1.0
+6391,Ipswich,1.0
+6396,Everton,1.0
+6397,Aspley,1.0
+6398,Aspley,1.0
+6399,Sandgate,1.0
+6400,Aspley,1.0
+6401,Aspley,1.0
+6403,Nudgee,1.0
+6406,Aspley,1.0
+6407,Redcliffe,1.0
+6408,Redcliffe,1.0
+6410,Aspley,1.0
+6411,Redcliffe,1.0
+6413,Redcliffe,1.0
+6415,Redcliffe,1.0
+6416,Murrumba,1.0
+6417,Redcliffe,1.0
+6418,Redcliffe,1.0
+6419,Stafford,1.0
+6422,Stafford,1.0
+6423,Redcliffe,1.0
+6424,Aspley,1.0
+6430,Southern Downs,1.0
+6431,Scenic Rim,1.0
+6432,Scenic Rim,1.0
+6433,Woodridge,1.0
+6435,Inala,1.0
+6436,Condamine,1.0
+6439,Woodridge,1.0
+6440,Southern Downs,1.0
+6441,Mount Ommaney,1.0
+6444,Southern Downs,1.0
+6445,Scenic Rim,1.0
+6447,Condamine,1.0
+6448,Scenic Rim,1.0
+6449,Inala,1.0
+6451,Scenic Rim,1.0
+6453,Southern Downs,1.0
+6455,Southern Downs,1.0
+6456,Waterford,1.0
+6457,Logan,1.0
+6458,Logan,1.0
+6459,Logan,1.0
+6461,Waterford,1.0
+6462,Southern Downs,1.0
+64623,Chatsworth,1.0
+64625,Chatsworth,1.0
+6463,Southern Downs,1.0
+6464,Scenic Rim,1.0
+64649,Thuringowa,1.0
+6465,Southern Downs,1.0
+64651,Hinchinbrook,1.0
+6466,Scenic Rim,1.0
+6467,Condamine,1.0
+6468,Logan,1.0
+6469,Scenic Rim,1.0
+6470,Condamine,1.0
+6471,Southern Downs,1.0
+64726,Bancroft,1.0
+64728,Bancroft,1.0
+6473,Inala,1.0
+6474,Scenic Rim,1.0
+6478,Inala,1.0
+6479,Inala,1.0
+6481,Scenic Rim,1.0
+6482,Southern Downs,1.0
+6483,Southern Downs,1.0
+6484,Southern Downs,1.0
+6485,Southern Downs,1.0
+6486,Waterford,1.0
+6488,Southern Downs,1.0
+6489,Woodridge,1.0
+6494,Moggill,1.0
+6496,Maiwar,1.0
+6498,Cooper,1.0
+6500,Moggill,1.0
+6501,Moggill,1.0
+6502,Moggill,1.0
+6505,Ferny Grove,1.0
+6506,Ferny Grove,1.0
+6507,Maiwar,1.0
+6508,Maiwar,1.0
+6509,Maiwar,1.0
+6510,Maiwar,1.0
+6511,Maiwar,1.0
+65115,Redlands,1.0
+65116,Redlands,1.0
+6512,Moggill,1.0
+65121,Noosa,1.0
+6513,Moggill,1.0
+6515,Moggill,1.0
+6516,Moggill,1.0
+65163,Cairns,1.0
+6517,Pine Rivers,1.0
+6518,Moggill,1.0
+6519,Maiwar,1.0
+6521,Maiwar,1.0
+6522,Pine Rivers,1.0
+65224,Murrumba,1.0
+65232,Whitsunday,1.0
+6524,Cooper,1.0
+6525,Cooper,1.0
+6527,Maiwar,1.0
+6528,Cooper,1.0
+6537,Gympie,1.0
+6538,Maryborough,1.0
+6539,Gympie,1.0
+6541,Maryborough,1.0
+6543,Noosa,1.0
+6547,Maryborough,1.0
+6548,Maryborough,1.0
+6550,Gympie,1.0
+6551,Nanango,1.0
+6552,Nanango,1.0
+6553,Nanango,1.0
+6554,Noosa,1.0
+65569,Gladstone,1.0
+6557,Gympie,1.0
+6560,Maryborough,1.0
+6561,Nicklin,1.0
+6564,Gympie,1.0
+65644,Mount Ommaney,1.0
+65652,Buderim,1.0
+65653,Buderim,1.0
+6566,Gympie,1.0
+6567,Nanango,1.0
+6568,Maryborough,1.0
+6569,Gympie,1.0
+65699,Mansfield,1.0
+65716,Chatsworth,1.0
+6572,Gympie,1.0
+65729,Mcconnel,1.0
+6573,Gympie,1.0
+65731,Mcconnel,1.0
+65747,Toohey,1.0
+6575,Gympie,1.0
+65764,Maryborough,1.0
+6577,Gympie,1.0
+6578,Gympie,1.0
+65787,Springwood,1.0
+65788,Algester,1.0
+65790,Waterford,1.0
+65794,Waterford,1.0
+65799,Bundamba,1.0
+6580,Maryborough,1.0
+65800,Capalaba,1.0
+65808,Ipswich,1.0
+6581,Gympie,1.0
+6582,Nanango,1.0
+6583,Gympie,1.0
+65833,Mcconnel,1.0
+6584,Gympie,1.0
+6587,Nanango,1.0
+65878,Kurwongbah,1.0
+6588,Nanango,1.0
+6592,Noosa,1.0
+6593,Nanango,1.0
+6597,Nanango,1.0
+6598,Maryborough,1.0
+65993,Bancroft,1.0
+6603,Nanango,1.0
+6606,Maryborough,1.0
+6607,Nanango,1.0
+6608,Nanango,1.0
+6610,Maryborough,1.0
+66159,Bundaberg,1.0
+6616,Noosa,1.0
+6617,Nanango,1.0
+6618,Gympie,1.0
+6623,Nanango,1.0
+6627,Maryborough,1.0
+6628,Maryborough,1.0
+6629,Gympie,1.0
+6631,Maryborough,1.0
+6632,Maryborough,1.0
+6634,Hervey Bay,1.0
+6636,Hervey Bay,1.0
+6637,Gympie,1.0
+6639,Gympie,1.0
+6641,Gympie,1.0
+6642,Nanango,1.0
+6644,Gympie,1.0
+74453,Barron River,1.0
+82824,Caloundra,1.0
+82856,Broadwater,1.0
+82885,Coomera,1.0
+82900,Traeger,1.0
+82904,Bundaberg,1.0
+82905,Bundaberg,1.0
+82906,Hervey Bay,1.0
+82907,Hervey Bay,1.0
+82909,Bundaberg,1.0
+82911,Buderim,1.0
+82912,Ipswich,1.0
+82913,Ipswich West,1.0
+82914,Scenic Rim,1.0
+82932,Murrumba,1.0
+82939,Buderim,1.0
+82940,Caloundra,1.0
+82941,Logan,1.0
+82943,Lockyer,1.0
+83025,Mansfield,1.0
+83208,Gaven,1.0
+83210,Coomera,1.0
+83214,Southport,1.0
+83215,Gaven,1.0
+83217,Ipswich,1.0
+83225,Caloundra,1.0
+83227,Kawana,1.0
+83229,Glass House,1.0
+83230,Scenic Rim,1.0
+83231,Buderim,1.0
+83233,Macalister,1.0
+83236,Jordan,1.0
+83238,Gaven,1.0
+83239,Toowoomba North,1.0
+83240,Barron River,1.0
+83241,Barron River,1.0
+83243,Barron River,1.0
+83244,Jordan,1.0
+83245,Toowoomba South,1.0
+83251,Toowoomba South,1.0
+83254,Morayfield,1.0
+83256,Gladstone,1.0
+83260,Mount Ommaney,1.0
+83262,Inala,1.0
+83263,Mount Ommaney,1.0
+83264,Toowoomba South,1.0
+83265,Inala,1.0
+83267,Kurwongbah,1.0
+83271,Rockhampton,1.0
+83276,Bancroft,1.0
+83278,Pumicestone,1.0
+83285,Rockhampton,1.0
+83294,Mulgrave,1.0
+83340,Noosa,1.0
+83348,Murrumba,1.0
+83350,Pine Rivers,1.0
+83355,Mudgeeraba,1.0
+83356,Burnett,1.0
+83358,Macalister,1.0
+83359,Burnett,1.0
+83360,Burleigh,1.0
+83366,Murrumba,1.0
+83367,Murrumba,1.0
+83375,Burleigh,1.0
+83378,Toowoomba North,1.0
+83380,Waterford,1.0
+83383,Mermaid Beach,1.0
+83386,Townsville,1.0
+83387,Springwood,1.0
+83388,Everton,1.0
+83391,Springwood,1.0
+83393,Coomera,1.0
+83395,Burleigh,1.0
+83396,Hinchinbrook,1.0
+83397,Everton,1.0
+83402,Moggill,1.0
+83403,Mudgeeraba,1.0
+83404,Redlands,1.0
+83406,Redlands,1.0
+83407,Clayfield,1.0
+83408,Nudgee,1.0
+83409,Nudgee,1.0
+83410,Everton,1.0
+83412,Stafford,1.0
+83413,Stafford,1.0
+83414,Cooper,1.0
+83427,Aspley,1.0
+83435,Jordan,1.0
+83437,Barron River,1.0
+83655,Chatsworth,1.0
+83656,Lytton,1.0
+83723,Bulimba,1.0
+83726,South Brisbane,1.0
+83775,Algester,1.0
+83776,Miller,1.0
+83777,Stretton,1.0
+83778,Toohey,1.0
+83944,South Brisbane,1.0
+83945,Everton,1.0
+8865,Greenslopes,1.0
+8867,Townsville,1.0
+8873,Mount Ommaney,1.0
+94468,Ferny Grove,1.0
+94489,Everton,1.0
+94519,Aspley,1.0
+94568,Nicklin,1.0
+94619,South Brisbane,1.0
+94698,Mulgrave,1.0
+94790,Mount Ommaney,1.0
+94815,Ferny Grove,1.0
+97418,Broadwater,1.0
+97425,Bundaberg,1.0
+97442,Mulgrave,1.0
+97443,Southport,1.0
+97500,Mundingburra,1.0
+97503,Cairns,1.0
+97530,Stafford,1.0
+97663,Mcconnel,1.0
+97664,Toowoomba North,1.0
+97667,Mcconnel,1.0
+97688,Sandgate,1.0
+97694,Bonney,1.0
+97723,Nicklin,1.0
+97752,Broadwater,1.0
+97756,Coomera,1.0
+97762,Buderim,1.0
+97770,Ipswich West,1.0
+97781,Southport,1.0
+97782,Ninderry,1.0
+97786,Gaven,1.0
+97788,Caloundra,1.0
+97805,Whitsunday,1.0
+97824,Coomera,1.0
+97832,Coomera,1.0
+97833,Thuringowa,1.0
+97989,Maiwar,1.0
+98073,Whitsunday,1.0
+98074,Maiwar,1.0
+98158,Toowoomba North,1.0
+98163,Coomera,1.0
+98177,Redlands,1.0

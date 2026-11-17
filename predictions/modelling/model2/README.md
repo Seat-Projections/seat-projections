@@ -3,7 +3,7 @@
 **Status:** implemented (`model2.py`, `run_model2.py`). Parameter values are still the placeholders
 below; [Implementation](#implementation) records how each stage was built and where it departs from
 the design. Model 2 counts with **origin tracking** (Stage 3); the earlier `core` and `full` variants
-were compared on the B1 replays and removed (see [Variants](#variants)).
+were compared on the benchmarks and removed (see [Variants](#variants)).
 
 ```bash
 .venv/bin/python predictions/modelling/model2/run_model2.py --all          # every run
@@ -12,7 +12,7 @@ were compared on the B1 replays and removed (see [Variants](#variants)).
 
 | Run | What it is | Scored |
 |---|---|---|
-| `<STATEyyyy> (B1)` | Benchmark B1 on all 8 elections model1 is scored on (QLD 2020/2024, WA 2021/2025, SA 2022/2026, VIC 2022, NSW 2023): that election's actual primaries, flows fitted to its own distributions of preferences **leaving out the scored district** | Declared winners |
+| `<STATEyyyy> (F)` | Forecast backtest: previous-election baseline and flows, final-poll target (`VIC2022 (F)`, `QLD2024 (F)`) | Declared winners |
 | `VIC2026 (2022)` | 2026 forecast: 2022 primaries swung to the 2026 polling average | After 28 Nov 2026 |
 
 The bracket names the data the run starts from (for model1 it is the federal election year).
@@ -21,7 +21,7 @@ The bracket names the data the run starts from (for model1 it is the federal ele
 
 A preferential count only has a few decisions that change the winner. Minor candidates are
 almost always excluded first, and the order they go out in barely matters. What matters is the
-**core stage**: when 2–4 serious candidates remain, who is excluded next, and where their votes go.
+**core stage**: when 2-4 serious candidates remain, who is excluded next, and where their votes go.
 
 Model 2 therefore:
 
@@ -45,7 +45,7 @@ can flip the winner (see the worked example).
 
 Rule: a candidate is core if they finish in the top **four** of the pre-preference totals in at least
 **5%** of simulation runs. (Top three was the original placeholder; four lets a fourth-placed
-candidate win, as Finniss did in SA 2026, and on the B1 replays it matches counting every candidate.) Independents are core only if flagged credible
+candidate win, as Finniss did in SA 2026.) Independents are core only if flagged credible
 (e.g. high-profile, recontesting, or strong in 2022) — see [Independents](#independents).
 
 ## Stage 2 — Collapse minor candidates into the core
@@ -60,7 +60,7 @@ Core total before the core stage:
 T[k] = primary[k] + Σ_m primary[m] · f[m → k]
 ```
 
-Approximation: ignores the order minor candidates are excluded in. On the B1 replays this costs
+Approximation: ignores the order minor candidates are excluded in.
 nothing measurable against counting every candidate in turn (see [Variants](#variants)).
 
 ## Stage 3 — Resolve the core contest
@@ -80,11 +80,11 @@ the three-way step runs.
 pile is kept broken down by the party its votes started with, and when the candidate is excluded each
 part is split by that party's own preferences (e.g. Greens-origin votes sitting with One Nation go
 mostly to Labor). Splitting the whole pile by the excluded candidate's own split (the original simple
-version) was dropped after the B1 replays.
+version) was dropped after benchmarking.
 
 ## Stage 4 — Monte Carlo
 
-Each run draws all uncertain inputs, then runs Stages 2–3 for all 88 districts.
+Each run draws all uncertain inputs, then runs Stages 2-3 for all 88 districts.
 
 **Primaries**
 
@@ -141,10 +141,10 @@ Core totals: **Labor 41.0, Liberal 30.0, One Nation 29.1**.
 tracking — each excluded pile's own votes follow these splits, inherited minor votes follow their own
 party's flows from the Stage 2 table:
 
-- Central case: One Nation lowest (22 own + 7.1 inherited) → **Liberal 51.1 – Labor 48.9, Liberal wins.**
-  (Splitting the whole pile 80/20 would give 53.2 – 46.8.)
+- Central case: One Nation lowest (22 own + 7.1 inherited) → **Liberal 51.1 - Labor 48.9, Liberal wins.**
+  (Splitting the whole pile 80/20 would give 53.2 - 46.8.)
 - 1-point swing Liberal → One Nation: Liberal lowest →
-  **Labor 52.5 – One Nation 47.5, Labor wins.**
+  **Labor 52.5 - One Nation 47.5, Labor wins.**
 
 A 1-point shift between the two right-of-centre parties flips the seat to Labor without Labor's
 own vote moving. Stage 4 turns this into a probability by running both branches many times.
@@ -171,7 +171,7 @@ Treatment in Model 2:
   ahead of the weaker major, then winning the final two on preferences).
 - Primaries come from seat-level priors (2022 result, recontesting, incumbency, overlapping
   federal results, local polling), not statewide polls.
-- Seat noise is wide (e.g. 15–35% plausible range) with only a small statewide component.
+- Seat noise is wide (e.g. 15-35% plausible range) with only a small statewide component.
 - Preferences **from** independents when excluded are diffuse; wide uncertainty.
 - Preferences **to** independents in a final two are strong (Hawthorn 2022 data-entered ballots:
   75.6% to independent Melissa Lowe over the Liberal).
@@ -183,16 +183,16 @@ Treatment in Model 2:
 | Parameter | Placeholder | Planned source |
 |---|---|---|
 | Statewide polling average per party | — | Published 2026 polls (weighted average) |
-| Statewide swing SD per party | ~2–3 pts | Historical Victorian / Australian polling error |
+| Statewide swing SD per party | ~2-3 pts | Historical Victorian / Australian polling error |
 | Regional deviation SD | ~2 pts | 2018→2022 swing variance by region |
-| Seat noise SD (party candidates) | ~3–4 pts | 2018→2022 seat-level residuals |
-| Seat noise range (credible independents) | 15–35% | 2022 independent results, candidate assessment |
+| Seat noise SD (party candidates) | ~3-4 pts | 2018→2022 seat-level residuals |
+| Seat noise range (credible independents) | 15-35% | 2022 independent results, candidate assessment |
 | Minor flows `f[m → k]` | see example | 2022 VEC distributions (where m was excluded), 7 data-entered seats |
 | Greens → Labor / Liberal / One Nation | 80 / 12 / 8 | 2022 VEC distributions; data-entered seats |
-| One Nation → Liberal (vs Labor) | 80% (range 65–90%) | Federal / NSW flows, Victorian Upper House patterns, how-to-vote cards |
-| Liberal → One Nation (vs Labor) | 65% (range 45–80%) | Few sources; data-entered seats give Liberal flows (to Greens vs Labor only); how-to-vote cards |
-| Labor → Liberal (vs One Nation) | 60% (range 45–75%) | Few sources; wide uncertainty |
-| Core threshold | 5% of runs in top four | Set on B1 (top three missed fourth-place winners) |
+| One Nation → Liberal (vs Labor) | 80% (range 65-90%) | Federal / NSW flows, Victorian Upper House patterns, how-to-vote cards |
+| Liberal → One Nation (vs Labor) | 65% (range 45-80%) | Few sources; data-entered seats give Liberal flows (to Greens vs Labor only); how-to-vote cards |
+| Labor → Liberal (vs One Nation) | 60% (range 45-75%) | Few sources; wide uncertainty |
+| Core threshold | 5% of runs in top four | Top three missed fourth-place winners (e.g. Finniss) |
 | Simulation runs | 20,000 | Enough for ±0.5% on seat probabilities |
 
 The Liberal ↔ One Nation splits are the least observed and most influential parameters; they
@@ -242,7 +242,7 @@ site are built from these outputs by `scripts/build_site.py`.
 
 ## Variants
 
-Three count methods were compared on the 579-seat B1 replays (5,000 runs each) before settling on one:
+Three count methods were compared on the benchmarks before settling on one:
 
 | Method | Core | Seats | Brier | Log loss |
 |---|---|---|---|---|
@@ -261,7 +261,7 @@ core was Finniss (SA 2026), won by an independent from fourth place. Model 2 the
 
 ## Implementation
 
-**Flows (Stages 2–3).** Every exclusion in the 2022 VEC full distributions (`full_2cp_2022.json`,
+**Flows (Stages 2-3).** Every exclusion in the 2022 VEC full distributions (`full_2cp_2022.json`,
 all 88 districts counted to the final two) is one observation: the excluded candidate's party, the
 continuing candidates' parties, and the votes each received. A **Luce model** is fitted per source
 party (Hunter's MM algorithm): a pile from party *x* goes to each continuing candidate *k* in
@@ -280,7 +280,7 @@ to One Nation). See `ON_PRIORS` in `model2.py`.
 **Core (Stage 1).** 200 pre-pass draws of the primaries; a candidate is core if in the top four in
 at least 5% of them, plus every credible independent.
 
-**Count (Stages 2–3).** `count_seat` in `model2.py`: minor votes go to the core by their own party's
+**Count (Stages 2-3).** `count_seat` in `model2.py`: minor votes go to the core by their own party's
 flows, piles are tracked by origin party, and every part of an excluded pile is split by its origin
 party's flows. With optional preferential voting (NSW), exhausted ballots are a fitted choice (EXH)
 and leave the count.
@@ -301,8 +301,10 @@ and leave the count.
   and One Nation up about 21, so an additive swing would push Labor below zero in a third of seats.
   Each party's share is multiplied by (drawn poll level ÷ its statewide baseline level). The
   Liberals and Nationals share the Coalition factor; minor parties share the "others" factor.
-- **Regional and seat noise:** 2.0 and 3.5 points (scaled down for small shares), regions = the
-  eight Legislative Council regions.
+- **Regional and seat noise:** 2.0 and 3.5 points (scaled down for small shares). Regions are the
+  eight Legislative Council regions in Victoria and ABS ASGS Edition 3 SA4 groups elsewhere
+  (`data/benchmarks/regions/`; each district takes the SA4 group holding the largest share of its
+  counted federal booth votes at the preceding federal election).
 - **Credible independents:** their 2022 primary if recontesting (matched by surname in the same
   district), otherwise 15%, with SD 6 points; party shares are renormalised around them.
 
@@ -314,30 +316,23 @@ turn). The visualiser's Model 2 view reads `district_counts.json` (`scripts/buil
 
 ## Results
 
-B1 replays, 5,000 runs each (actual primaries, so these test flows and the count only; not
-comparable with forecast benchmarks):
+Forecast backtests (`(F)` runs, previous-election inputs only — see
+[forecast_backtests.csv](../../benchmarking/forecast_backtests.csv)):
 
-| Run | Raw seat count | Brier | Log loss | Final two | 2CP MAE (pts) |
-|---|---|---|---|---|---|
-| `QLD2020 (B1)` | 91 / 93 | 0.049 | 0.162 | 98.9% | 1.37 |
-| `WA2021 (B1)` | 59 / 59 | 0.001 | 0.004 | 100% | 0.75 |
-| `SA2022 (B1)` | 46 / 47 | 0.012 | 0.017 | 95.7% | 0.87 |
-| `VIC2022 (B1)` | 86 / 88 | 0.038 | 0.101 | 100% | 1.58 |
-| `NSW2023 (B1)` | 92 / 93 | 0.026 | 0.045 | 97.8% | 0.90 |
-| `QLD2024 (B1)` | 90 / 93 | 0.062 | 0.153 | 98.9% | 1.33 |
-| `WA2025 (B1)` | 57 / 59 | 0.039 | 0.056 | 93.2% | 1.43 |
-| `SA2026 (B1)` | 45 / 47 | 0.062 | 0.109 | 93.6% | 1.50 |
-| **579 seats** | **566 (97.8%)** | **0.038** | **0.089** | | |
+| Run | Seats right | Accuracy | Brier | Log loss | FP error (pp) | Final two |
+|---|---|---|---|---|---|---|
+| `VIC2022 (F)` | 81 / 88 | 92.0% | 0.162 | 0.354 | 3.56 | 48.9% |
+| `QLD2024 (F)` | 79 / 93 | 84.9% | 0.234 | 0.410 | 2.66 | 94.6% |
+| `WA2025 (F)` | 55 / 59 | 93.2% | 0.134 | 0.264 | 3.16 | 74.6% |
+| `SA2026 (F)` | 38 / 47 | 80.9% | 0.242 | 0.581 | 3.85 | 83.0% |
 
-For reference, "the primary leader wins" (stated as certain) gets 549 seats, Brier 0.104 and log loss
-0.358, so the preference model's contribution is the difference. The misses are Greens wins from
-third (Maiwar, South Brisbane, Prahran), independents winning from behind (Noosa, Finniss,
-Wollondilly) and seats decided by a few hundred votes, several called at 97–100%: flow noise is too
-small at the margin. Details: [`archive/2026-11-09_model2/`](../../benchmarking/archive/2026-11-09_model2/WRITEUP.md).
-
-NSW uses optional preferential voting: exhausted ballots are fitted as one more choice and leave the
-count. In replays One Nation's flows are fitted like any other party's; its priors are used only in
-the 2026 forecast.
+All four beat model1's federal-booth replay (72/88, 76/93, 42/59, 36/47) and model3's poll-rescaled
+federal votes on seat-level metrics. Regional deviations outside Victoria now use ABS ASGS Edition 3
+SA4 groups (`data/benchmarks/regions/`); the experiment grid in
+`predictions/benchmarking/region_experiment.csv` found that grouping improved mean log loss only
+slightly (0.412 -> 0.402 across the four runs) with seats right unchanged, and SA4 groups beat the
+coarser Greater-Capital/rest split. The replays that used to be here were removed on
+16 Nov 2026: given the actual primaries, they did not measure forecasting.
 
 `VIC2026 (2022)`, 5,000 runs, on the declared candidate fields, polls to 10 Nov 2026 (ALP 21.9,
 Coalition 31.3, One Nation 21.6, Greens 14.3, others 10.9 after normalising): Liberal 43.2, Labor 18.1,
@@ -353,12 +348,14 @@ placeholder-parameter results, not a final forecast. Frozen copy of the 9 Nov ru
   Cupper 34% in Mildura) hands it to the other candidates in proportion to their shares.
 - **Parties expanding into new seats** start from their 25th-percentile 2022 share (e.g. Victorian
   Socialists, 22 seats in 2022 → 88), probably too high in rural seats.
-- **B2 is not run yet.** Its input now exists: notional 2018 primaries on the 2022 boundaries
-  (`data/2018/notional_2022_boundaries.json`, built by `scripts/build_notional_2018.py` from 2018
-  voting-centre results placed by coordinates). Still needed: the final 2022 polls and 2022
-  candidate lists, and preference flows fitted on 2018 distributions only (no 2022 leakage).
+- **The `(F)` backtests** are the B2-style check: each uses previous-election primaries on the
+  scored boundaries (notional where boundaries changed: `data/*/notional_*_boundaries.json`),
+  previous-election flows, the final polls and the scored candidate list. All noise sizes are still
+  placeholders; on the VIC and QLD runs the model's most likely final pair was right in 130 of 181
+  districts and the winner's 80% 2CP range contained the result about 63% of the time there, so
+  treat ranges as minimum uncertainty.
 
-- Minor-candidate exclusion order is ignored (no measurable effect on the B1 replays).
+- Minor-candidate exclusion order is ignored.
 - Flows are assumed party-level and roughly uniform statewide, apart from seat noise.
 - Liberal and One Nation flows are poorly observed; results in Labor/Liberal/One Nation seats
   depend heavily on them.

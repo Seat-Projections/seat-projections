@@ -1,0 +1,69 @@
+{
+  "model": "model3",
+  "run_id": "QLD2024 (2022)",
+  "timestamp": "2026-11-16T07:18:25+00:00",
+  "git_commit": "ff10596a50572df8b125ae9afc3034905d5c56c5",
+  "runs": 1000,
+  "seed": 1,
+  "noise_log_sd": {
+    "state": 0.08,
+    "seat": 0.12,
+    "flow": 0.15
+  },
+  "variant": {
+    "lam": 0,
+    "clip": "C0",
+    "rescale": "R2",
+    "r_max_km": 10.0,
+    "clip_tolerance_km": 0.2
+  },
+  "inputs": {
+    "state": "QLD",
+    "state_election": "2024-10-26",
+    "districts": 93,
+    "federal_election": 2022,
+    "aec_event": 27966,
+    "aec_download": {
+      "source": "https://results.aec.gov.au/27966/Website/",
+      "retrieved": "2026-11-09T01:14:02+00:00",
+      "file_count": 212,
+      "total_bytes": 165786165
+    },
+    "booths": "inside the district and within 1.0 km of their own federal division",
+    "poll_target": {
+      "ALP": 31.92,
+      "GRN": 11.58,
+      "LNP": 41.06,
+      "ON": 8.76,
+      "OTH": 6.68
+    },
+    "poll_rows": [
+      "ucomms 2024-10-24",
+      "newspoll 2024-10-24",
+      "resolve 2024-10-19",
+      "yougov 2024-10-16",
+      "freshwater 2024-09-29"
+    ],
+    "winners": "QLD2024",
+    "state_field": null
+  },
+  "scores": {
+    "districts": 93,
+    "raw_seat_count": 78,
+    "brier": 0.2454,
+    "log_loss": 0.4902
+  },
+  "actual_seats": {
+    "ALP": 36,
+    "GRN": 1,
+    "IND*": 1,
+    "KAP": 3,
+    "LNP": 52
+  },
+  "predicted_seats_mean": {
+    "ALP": 32.56,
+    "GRN": 3.76,
+    "KAP": 1.27,
+    "LNP": 55.41
+  }
+}

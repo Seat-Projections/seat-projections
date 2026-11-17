@@ -1,0 +1,104 @@
+{
+  "model": "model2",
+  "run_id": "WA2025 (F)",
+  "timestamp": "2026-11-16T11:51:36+00:00",
+  "git_commit": "e4dd593e0373ba5318e73fbc97e87f288afa454d",
+  "runs": 5000,
+  "seed": 1,
+  "noise": {
+    "poll_sd": 2.5,
+    "region_sd": 2.0,
+    "seat_sd": 3.5,
+    "flow_state": 0.15,
+    "flow_seat": 0.05
+  },
+  "on_priors": {
+    "ON->LP|LP,ALP": [
+      0.65,
+      0.8,
+      0.9
+    ],
+    "LP->ON|ON,ALP": [
+      0.45,
+      0.65,
+      0.8
+    ],
+    "ALP->LP|LP,ON": [
+      0.45,
+      0.6,
+      0.75
+    ],
+    "GRN->ON:ALP": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "RIGHT->ON:LP": [
+      1.0,
+      1.43,
+      2.0
+    ],
+    "OTHER->ON:LP": [
+      0.6,
+      0.86,
+      1.2
+    ]
+  },
+  "exhaust": false,
+  "core_rule": {
+    "top": 4,
+    "share": 0.05
+  },
+  "inputs": {
+    "state": "WA",
+    "state_election": "2025-03-08",
+    "districts": 59,
+    "baseline": "previous election",
+    "federal_election": null,
+    "winners": "WA2025",
+    "primaries": "notional 2018 primaries on 2022 boundaries (data/WA2021/notional_WA2025_boundaries.json)",
+    "flows": "previous election's distributions only (data/WA2021/distributions/dop_WA2021.json)",
+    "polls": {
+      "ALP": 43.5,
+      "LNP": 34.5,
+      "GRN": 10.5,
+      "ON": 3.0,
+      "OTH": 8.5
+    },
+    "poll_on_reported": true,
+    "poll_rows": [
+      "newspoll 2025-03-05",
+      "demosau 2025-03-05"
+    ],
+    "polls_source": "data/benchmarks/polls/final_polls.csv",
+    "one_nation_pattern": "/Users/philip/Desktop/seat-projections/predictions/modelling/model1/output/WA2025 (2022)/district_primaries.csv (federal booths, model1), elasticity 0.7",
+    "independents": {
+      "rule": "won the seat as an independent at the previous election, or >=10% primary there",
+      "credible": []
+    },
+    "candidates": "candidate field of the scored election (data/WA2025/distributions/dop_WA2025.json), nominations public before polling day",
+    "leakage_guard": "baseline, flows and poll target all predate the scored election; its distributions were read only for the candidate list and the final score"
+  },
+  "scores": {
+    "districts": 59,
+    "raw_seat_count": 55,
+    "brier": 0.1337,
+    "log_loss": 0.2641
+  },
+  "diagnostics": {
+    "final_two_accuracy": 0.7458,
+    "tcp_margin_mae": 4.26,
+    "t1_mae_pp": 3.1592
+  },
+  "actual_seats": {
+    "ALP": 46,
+    "LP": 7,
+    "NP": 6
+  },
+  "predicted_seats_mean": {
+    "ALP": 46.22,
+    "GRN": 0.09,
+    "LP": 7.34,
+    "NP": 5.35
+  }
+}

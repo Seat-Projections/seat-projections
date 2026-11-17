@@ -1,0 +1,63 @@
+{
+  "model": "model3",
+  "run_id": "WA2025 (2022)",
+  "timestamp": "2026-11-16T07:22:19+00:00",
+  "git_commit": "ff10596a50572df8b125ae9afc3034905d5c56c5",
+  "runs": 1000,
+  "seed": 1,
+  "noise_log_sd": {
+    "state": 0.08,
+    "seat": 0.12,
+    "flow": 0.15
+  },
+  "variant": {
+    "lam": 0,
+    "clip": "C0",
+    "rescale": "R2",
+    "r_max_km": 10.0,
+    "clip_tolerance_km": 0.2
+  },
+  "inputs": {
+    "state": "WA",
+    "state_election": "2025-03-08",
+    "districts": 59,
+    "federal_election": 2022,
+    "aec_event": 27966,
+    "aec_download": {
+      "source": "https://results.aec.gov.au/27966/Website/",
+      "retrieved": "2026-11-09T01:14:02+00:00",
+      "file_count": 212,
+      "total_bytes": 165786165
+    },
+    "booths": "inside the district and within 1.0 km of their own federal division",
+    "poll_target": {
+      "ALP": 43.5,
+      "GRN": 10.5,
+      "LNP": 34.5,
+      "ON": 3.0,
+      "OTH": 8.5
+    },
+    "poll_rows": [
+      "demosau 2025-03-05",
+      "newspoll 2025-03-05"
+    ],
+    "winners": "WA2025",
+    "state_field": null
+  },
+  "scores": {
+    "districts": 59,
+    "raw_seat_count": 49,
+    "brier": 0.2828,
+    "log_loss": 0.8624
+  },
+  "actual_seats": {
+    "ALP": 46,
+    "LP": 7,
+    "NP": 6
+  },
+  "predicted_seats_mean": {
+    "ALP": 44.95,
+    "IND*": 0.83,
+    "LP": 13.22
+  }
+}

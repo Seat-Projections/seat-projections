@@ -4,7 +4,7 @@ How model3 will be built, in the order that produces useful results earliest. Mo
 names are proposals to confirm at build time. Methodology is in [README.md](README.md), test
 protocol in [BACKTESTS.md](BACKTESTS.md), data in [DATA.md](DATA.md).
 
-**Timeline:** Victoria votes on 28 Nov 2026. B4 requires a frozen model before then, so steps 1–6
+**Timeline:** Victoria votes on 28 Nov 2026. B4 requires a frozen model before then, so steps 1-6
 are the critical path; anything marked *optional* can wait.
 
 ---
@@ -42,8 +42,8 @@ are the critical path; anything marked *optional* can wait.
 | File | Contents |
 |---|---|
 | `primaries.py` | S2 aggregation (booths + spread declaration votes), S3 party mapping and independent handling |
-| `rescale.py` | R0–R4: `rescale(primaries, target, method, regional_targets=None, transitions=None)` |
-| `flows.py` | F0–F3: build per-district weighted party preference orders |
+| `rescale.py` | R0-R4: `rescale(primaries, target, method, regional_targets=None, transitions=None)` |
+| `flows.py` | F0-F3: build per-district weighted party preference orders |
 | `simulate.py` | S6 ballot construction + `run_irv_from_ballots`; S7 Monte Carlo; writes standard outputs |
 | `backtest.py` | T1/T2/T3 scoring against a `DistributionTable` dataset; metrics from BACKTESTS.md |
 | `config.py` | Per-test settings: cutoff dates and variant choices (event IDs, boundary paths and seat counts come from `vic_election.config`) |
@@ -86,14 +86,14 @@ TESTS = {
 | Step | Work | Output | Risk |
 |---|---|---|---|
 | 1 | **Done.** `aec.py` fetch (2019, 2022, 2025); boundary fetch; `geo.py` / `booth_flows.py` assignment | `data/federal/2025/booth_districts_VIC.csv`, `district_flows_VIC.json` | Done; 140 mobile/hospital teams have no coordinates |
-| 2 | `primaries.py` + `rescale.py` (R0–R3); **B5 T1** | First error numbers (lower bound) | Medium; federal-independent handling |
+| 2 | `primaries.py` + `rescale.py` (R0-R3); **B5 T1** | First error numbers (lower bound) | Medium; federal-independent handling |
 | 3 | `ecsa.py`; SA boundaries; 2025 SA booth files; SA poll file; **B6 T1** | One Nation geography error in a real surge | Medium; ECSA format unknown |
-| 4 | `flows.py` F0–F2 (Senate parsing); **B5/B6 T2** | Flow-variant comparison | Medium; Senate file size, SA ticket votes |
+| 4 | `flows.py` F0-F2 (Senate parsing); **B5/B6 T2** | Flow-variant comparison | Medium; Senate file size, SA ticket votes |
 | 5 | R4 + F3 if crosstabs exist; `simulate.py` Monte Carlo; **B5/B6 T3** + model2 comparison | Variant choice, calibrated noise | Medium; crosstab availability |
 | 6 | Victoria 2026 run with chosen variant; freeze (tagged commit, metadata) | **B4** forecast | Depends on 2026 candidate list timing |
 | 7 | *Optional:* `S1b` catchment splitting, `S2s` Senate baseline, `+H` how-to-vote adjustment, blend with 2022 state baseline | Refinements scored on B5/B6 | Low priority |
 
-Each step ends with its tests passing and, for steps 2–5, a short results section appended to
+Each step ends with its tests passing and, for steps 2-5, a short results section appended to
 BACKTESTS.md (replacing the "Expected outcome" placeholders).
 
 ## Open decisions

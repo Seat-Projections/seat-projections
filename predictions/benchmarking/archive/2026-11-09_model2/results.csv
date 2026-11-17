@@ -1,10 +1,2 @@
 run,model,state,state_election,data_from,districts,raw_seat_count,accuracy_pct,brier,log_loss,final_two_accuracy,tcp_margin_mae,predicted_seats,actual_seats
-NSW2023 (B1),model2,NSW,2023-03-25,NSW 2023 actual primaries,93,92,98.9,0.0255,0.0448,0.9785,0.9,ALP 45.25; LP 25.71; NP 11.45; IND* 8.04; GRN 2.55,ALP 45; LP 25; NP 11; IND* 9; GRN 3
-QLD2020 (B1),model2,QLD,2020-10-31,QLD 2020 actual primaries,93,91,97.8,0.0491,0.162,0.9892,1.37,ALP 53.18; LNP 34.83; KAP 3.0; IND* 1.0; ON 0.99,ALP 52; LNP 34; KAP 3; GRN 2; IND* 1; ON 1
-QLD2024 (B1),model2,QLD,2024-10-26,QLD 2024 actual primaries,93,90,96.8,0.0623,0.1528,0.9892,1.33,LNP 54.89; ALP 34.72; KAP 3.12; GRN 0.26; IND* 0.02,LNP 52; ALP 36; KAP 3; GRN 1; IND* 1
-SA2022 (B1),model2,SA,2022-03-19,SA 2022 actual primaries,47,46,97.9,0.0124,0.0165,0.9574,0.87,ALP 26.46; LP 16.0; IND* 4.54,ALP 27; LP 16; IND* 4
-SA2026 (B1),model2,SA,2026-03-21,SA 2026 actual primaries,47,45,95.7,0.0618,0.1085,0.9362,1.5,ALP 34.77; LP 5.4; ON 3.81; IND* 3.02,ALP 34; LP 5; IND* 4; ON 4
-VIC2022 (B1),model2,VIC,2022-11-26,VIC 2022 actual primaries,88,86,97.7,0.0379,0.1006,1.0,1.58,ALP 55.63; LP 20.29; NP 8.21; GRN 3.08; IND* 0.79,ALP 56; LP 19; NP 9; GRN 4
 VIC2026 (2022),model2,VIC,2026-11-28,VEC 2022 state election,88,,,,,,,LP 42.16; ALP 18.85; ON 11.08; GRN 7.7; NP 7.56; IND* 0.65,
-WA2021 (B1),model2,WA,2021-03-13,WA 2021 actual primaries,59,59,100.0,0.0012,0.0038,1.0,0.75,ALP 52.8; NP 4.01; LP 2.18,ALP 53; NP 4; LP 2
-WA2025 (B1),model2,WA,2025-03-08,WA 2025 actual primaries,59,57,96.6,0.0392,0.0559,0.9322,1.43,ALP 45.85; LP 6.52; NP 6.52; IND* 0.11,ALP 46; LP 7; NP 6

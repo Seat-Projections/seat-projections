@@ -49,7 +49,6 @@ first scored on 2022 backtests, then frozen and scored on 2026.
 
 | ID | Name | What the model is given | What it tests |
 |---|---|---|---|
-| **B1** | 2022 replay | Actual 2022 primaries per district; flows estimated **without** the scored district's own distribution (leave-one-district-out) | Count mechanics and flow estimates, with primary-vote error removed |
 | **B2** | 2022 forecast | Only information available before 28 Nov 2022 (2018 results on 2022 boundaries, final 2022 polls, 2022 candidate lists) | The full pipeline, including primary-vote modelling |
 | **B3** | Counterfactual flows | The 7 districts whose ballots were data-entered in 2022 (Brighton, Hawthorn, Melton, Northcote, Point Cook, Preston, Werribee) | Whether the model's flows are right for exclusions that **didn't** happen in the official count (e.g. Liberal votes when the Liberal is excluded). Requires the ballot-level files from the VEC. |
 | **B4** | 2026 live | Model frozen before election day (tagged commit) | The real thing |
@@ -73,8 +72,8 @@ table. The following are additional diagnostics:
 |---|---|---|
 | **Final-two accuracy** | Share of districts where the two most likely finalists were the actual final two | Higher |
 | **2CP margin MAE** | Mean absolute error of the median 2CP share, over districts where the final two was predicted correctly | Lower |
-| **Seat-count error** | \|seats_p50 − actual seats\| per major party; and whether the actual total falls within p10–p90 | Lower / inside |
-| **Calibration** | Bin p_win into 0–10%, 10–20%, …; compare mean predicted vs observed win rate per bin | Closer to diagonal |
+| **Seat-count error** | \|seats_p50 − actual seats\| per major party; and whether the actual total falls within p10-p90 | Lower / inside |
+| **Calibration** | Bin p_win into 0-10%, 10-20%, …; compare mean predicted vs observed win rate per bin | Closer to diagonal |
 | **Three-way seat Brier** | Brier score restricted to districts where ≥ 3 candidates were within 10 points at the core stage | Lower |
 
 The three-way seat Brier is reported separately because those seats are where models are expected

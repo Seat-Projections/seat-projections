@@ -94,6 +94,25 @@ refresh it to make a new forecast.
 .venv/bin/python scripts/build_visualiser.py && .venv/bin/python -m http.server 8001 -d visualiser
 ```
 
+## How to credit
+
+When reusing our forecasts, analysis or derived data, credit **Seat Projections**, link to
+the source page and the [CC BY-SA 4.0 licence](https://creativecommons.org/licenses/by-sa/4.0/),
+and state whether you made changes. Include the forecast date so readers can identify the version.
+
+Suggested credit:
+
+> Source: [Seat Projections](https://seatprojections.au), 2026 Victorian state election
+> forecast dated [date]. Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+> Reproduced without changes.
+
+Replace the date and, if you adapted the material, replace the last sentence with a brief
+description of your changes. Shared adaptations must use CC BY-SA 4.0 or a compatible licence.
+Keep any applicable source credits for third-party data.
+
+For code reuse, retain the copyright notice and MIT licence text from [`LICENSE`](LICENSE).
+A link back to this repository is appreciated.
+
 ## License and data sources
 
 - **Code:** MIT License ([`LICENSE`](LICENSE)).

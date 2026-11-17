@@ -1,0 +1,69 @@
+{
+  "model": "model3",
+  "run_id": "NSW2023 (2022)",
+  "timestamp": "2026-11-16T08:58:50+00:00",
+  "git_commit": "ff10596a50572df8b125ae9afc3034905d5c56c5",
+  "runs": 1000,
+  "seed": 1,
+  "noise_log_sd": {
+    "state": 0.08,
+    "seat": 0.12,
+    "flow": 0.15
+  },
+  "variant": {
+    "lam": 0.0,
+    "clip": "C0",
+    "rescale": "R2",
+    "r_max_km": 10.0,
+    "clip_tolerance_km": 0.2
+  },
+  "inputs": {
+    "state": "NSW",
+    "state_election": "2023-03-25",
+    "districts": 93,
+    "federal_election": 2022,
+    "aec_event": 27966,
+    "aec_download": {
+      "source": "https://results.aec.gov.au/27966/Website/",
+      "retrieved": "2026-11-09T01:14:02+00:00",
+      "file_count": 212,
+      "total_bytes": 165786165
+    },
+    "booths": "inside the district and within 1.0 km of their own federal division",
+    "poll_target": {
+      "ALP": 36.75,
+      "GRN": 10.5,
+      "LNP": 36.0,
+      "ON": 2.0,
+      "OTH": 14.75
+    },
+    "poll_rows": [
+      "newspoll 2023-03-24",
+      "freshwater 2023-03-22",
+      "resolve 2023-03-19",
+      "roy-morgan 2023-03-14"
+    ],
+    "winners": "NSW2023",
+    "state_field": null
+  },
+  "scores": {
+    "districts": 93,
+    "raw_seat_count": 65,
+    "brier": 0.5031,
+    "log_loss": 1.3207
+  },
+  "actual_seats": {
+    "ALP": 45,
+    "GRN": 3,
+    "IND*": 9,
+    "LP": 25,
+    "NP": 11
+  },
+  "predicted_seats_mean": {
+    "ALP": 55.76,
+    "GRN": 0.42,
+    "IND*": 6.37,
+    "LP": 17.28,
+    "NP": 13.16
+  }
+}

@@ -1,0 +1,2583 @@
+booth,district,weight
+1,Bankstown,1.0
+10,East Hills,1.0
+1000,Strathfield,1.0
+1001,Strathfield,1.0
+1003,Strathfield,1.0
+1004,Summer Hill,1.0
+1005,Canterbury,1.0
+1006,Canterbury,1.0
+1007,Canterbury,1.0
+1008,Summer Hill,1.0
+1009,Summer Hill,1.0
+101,Lane Cove,1.0
+1010,Summer Hill,1.0
+1011,Summer Hill,1.0
+101115,Wollondilly,1.0
+101116,Badgerys Creek,1.0
+1012,Summer Hill,1.0
+1013,Summer Hill,1.0
+1015,Summer Hill,1.0
+1016,Summer Hill,1.0
+1017,Summer Hill,1.0
+102,Lane Cove,1.0
+1022,Winston Hills,1.0
+1027,Blacktown,1.0
+1028,Blacktown,1.0
+1029,Prospect,1.0
+1031,Winston Hills,1.0
+1032,Winston Hills,1.0
+1033,Winston Hills,1.0
+1034,Prospect,1.0
+1035,Winston Hills,1.0
+1036,Blacktown,1.0
+1037,Blacktown,1.0
+1038,Blacktown,1.0
+1039,Londonderry,1.0
+1040,Prospect,1.0
+1042,Winston Hills,1.0
+1043,Winston Hills,1.0
+1046,Blacktown,1.0
+1047,Riverstone,1.0
+1048,Riverstone,1.0
+1049,Riverstone,1.0
+105,Lane Cove,1.0
+1050,Riverstone,1.0
+1051,Winston Hills,1.0
+1052,Winston Hills,1.0
+1053,Winston Hills,1.0
+1054,Winston Hills,1.0
+1055,Blacktown,1.0
+1056,Prospect,1.0
+105629,Badgerys Creek,1.0
+106,Ryde,1.0
+1061,Upper Hunter,1.0
+1062,Northern Tablelands,1.0
+1063,Barwon,1.0
+1064,Tamworth,1.0
+1065,Barwon,1.0
+1066,Barwon,1.0
+1067,Northern Tablelands,1.0
+1069,Barwon,1.0
+107,Lane Cove,1.0
+1070,Tamworth,1.0
+1072,Northern Tablelands,1.0
+1073,Barwon,1.0
+1074,Northern Tablelands,1.0
+1079,Barwon,1.0
+1081,Tamworth,1.0
+1082,Tamworth,1.0
+1083,Upper Hunter,1.0
+108376,Murray,1.0
+108437,Port Stephens,1.0
+108441,Lane Cove,1.0
+108443,Hornsby,1.0
+108444,Wahroonga,1.0
+108447,Coffs Harbour,1.0
+108449,Cabramatta,1.0
+108451,Camden,1.0
+108453,Wakehurst,1.0
+108454,Northern Tablelands,1.0
+108459,Winston Hills,1.0
+1085,Barwon,1.0
+1087,Barwon,1.0
+108711,Lismore,1.0
+1089,Barwon,1.0
+1093,Barwon,1.0
+1094,Tamworth,1.0
+1095,Tamworth,1.0
+1096,Barwon,1.0
+1097,Northern Tablelands,1.0
+11,East Hills,1.0
+1103,Barwon,1.0
+1106,Northern Tablelands,1.0
+1107,Upper Hunter,1.0
+1108,Tamworth,1.0
+1117,Barwon,1.0
+1118,Tamworth,1.0
+1120,Barwon,1.0
+1123,Northern Tablelands,1.0
+1124,Northern Tablelands,1.0
+1125,Northern Tablelands,1.0
+1126,Tamworth,1.0
+1128,Tamworth,1.0
+1129,Northern Tablelands,1.0
+1130,Upper Hunter,1.0
+1131,Upper Hunter,1.0
+1132,Upper Hunter,1.0
+1135,Barwon,1.0
+1136,Barwon,1.0
+1137,Northern Tablelands,1.0
+1138,Northern Tablelands,1.0
+1140,Barwon,1.0
+1143,Barwon,1.0
+1144,Tamworth,1.0
+11451,Macquarie Fields,1.0
+1146,Upper Hunter,1.0
+1147,Upper Hunter,1.0
+1148,Upper Hunter,1.0
+1149,Tamworth,1.0
+11499,Keira,1.0
+115,Hornsby,1.0
+1150,Tamworth,1.0
+11500,Shellharbour,1.0
+1158,Northern Tablelands,1.0
+1161,Barwon,1.0
+1162,Tamworth,1.0
+11636,Swansea,1.0
+11637,Bega,1.0
+11638,Bega,1.0
+1164,Barwon,1.0
+1166,Tamworth,1.0
+1167,Upper Hunter,1.0
+1169,Tamworth,1.0
+117,Hornsby,1.0
+1172,Northern Tablelands,1.0
+118,Hornsby,1.0
+1191,Miranda,1.0
+11917,Ballina,1.0
+11918,Ballina,1.0
+11919,Gosford,1.0
+1192,Holsworthy,1.0
+11921,Shellharbour,1.0
+11923,Keira,1.0
+11925,Leppington,1.0
+11927,Epping,1.0
+11928,Hornsby,1.0
+11929,Hornsby,1.0
+1193,Heathcote,1.0
+11930,Castle Hill,1.0
+11935,Willoughby,1.0
+11936,Willoughby,1.0
+11938,Charlestown,1.0
+11939,Badgerys Creek,1.0
+1194,Miranda,1.0
+11940,Heathcote,1.0
+11941,Port Macquarie,1.0
+11942,Liverpool,1.0
+11943,South Coast,1.0
+11946,Riverstone,1.0
+11947,Blacktown,1.0
+11949,Holsworthy,1.0
+1195,Heathcote,1.0
+11950,Wagga Wagga,1.0
+11951,Goulburn,1.0
+11952,Cootamundra,1.0
+11953,The Entrance,1.0
+11956,Coogee,1.0
+11957,Londonderry,1.0
+11958,Londonderry,1.0
+11962,Wollondilly,1.0
+11963,Campbelltown,1.0
+11965,Manly,1.0
+11966,Pittwater,1.0
+11967,Winston Hills,1.0
+11969,Castle Hill,1.0
+11971,Castle Hill,1.0
+11978,Winston Hills,1.0
+11979,Prospect,1.0
+11980,Granville,1.0
+11982,Charlestown,1.0
+11984,Myall Lakes,1.0
+1199,Heathcote,1.0
+11990,Cabramatta,1.0
+11991,Camden,1.0
+11992,Camden,1.0
+11993,Cabramatta,1.0
+12,East Hills,1.0
+120,Hornsby,1.0
+1201,Miranda,1.0
+1202,Heathcote,1.0
+1204,Heathcote,1.0
+12049,Blacktown,1.0
+1205,Heathcote,1.0
+12050,Swansea,1.0
+12051,Swansea,1.0
+1207,Cronulla,1.0
+12071,Newtown,1.0
+12074,Wyong,1.0
+12075,Cootamundra,1.0
+12076,Heathcote,1.0
+1208,Holsworthy,1.0
+121,Hornsby,1.0
+1210,Heathcote,1.0
+1211,Heathcote,1.0
+1212,Heathcote,1.0
+1213,Heathcote,1.0
+1214,Holsworthy,1.0
+1215,Miranda,1.0
+1216,Miranda,1.0
+1217,Miranda,1.0
+1218,Miranda,1.0
+1220,Heathcote,1.0
+1222,Holsworthy,1.0
+1223,Holsworthy,1.0
+1225,Miranda,1.0
+1229,Heathcote,1.0
+123,Hornsby,1.0
+1230,Heathcote,1.0
+1235,Heathcote,1.0
+1236,Heathcote,1.0
+1237,Heathcote,1.0
+124,Hornsby,1.0
+1242,Wagga Wagga,1.0
+1244,Cootamundra,1.0
+1245,Cootamundra,1.0
+1246,Wagga Wagga,1.0
+1247,Wagga Wagga,1.0
+125,Wahroonga,1.0
+1250,Goulburn,1.0
+1255,Goulburn,1.0
+1256,Cootamundra,1.0
+126,Hornsby,1.0
+1260,Cootamundra,1.0
+1261,Cootamundra,1.0
+1262,Cootamundra,1.0
+1263,Cootamundra,1.0
+1265,Cootamundra,1.0
+127,Wahroonga,1.0
+1270,Wagga Wagga,1.0
+1272,Wagga Wagga,1.0
+1274,Cootamundra,1.0
+1275,Cootamundra,1.0
+1276,Cootamundra,1.0
+1279,Cootamundra,1.0
+128,Hornsby,1.0
+1280,Cootamundra,1.0
+1281,Cootamundra,1.0
+1283,Cootamundra,1.0
+1284,Cootamundra,1.0
+1285,Cootamundra,1.0
+1289,Wagga Wagga,1.0
+129,Wahroonga,1.0
+1291,Wagga Wagga,1.0
+1292,Wagga Wagga,1.0
+1295,Wagga Wagga,1.0
+1296,Cootamundra,1.0
+13,East Hills,1.0
+130,Davidson,1.0
+1300,Wagga Wagga,1.0
+1301,Goulburn,1.0
+1302,Cootamundra,1.0
+1304,Cootamundra,1.0
+1309,Cootamundra,1.0
+131,Hornsby,1.0
+1311,Wagga Wagga,1.0
+1314,Cootamundra,1.0
+1315,Wagga Wagga,1.0
+1316,Wagga Wagga,1.0
+1317,Wagga Wagga,1.0
+1318,Wagga Wagga,1.0
+1319,Cootamundra,1.0
+132,Hornsby,1.0
+1321,Wagga Wagga,1.0
+1323,Cootamundra,1.0
+1324,Wagga Wagga,1.0
+1326,Wagga Wagga,1.0
+1327,Wagga Wagga,1.0
+1328,Wagga Wagga,1.0
+133,Wahroonga,1.0
+1331,Wagga Wagga,1.0
+1333,Cootamundra,1.0
+1338,Goulburn,1.0
+134,Hornsby,1.0
+1340,Wagga Wagga,1.0
+1345,Cessnock,1.0
+1349,Maitland,1.0
+135,Wahroonga,1.0
+1351,Cessnock,1.0
+1352,Wallsend,1.0
+1353,Upper Hunter,1.0
+1354,Upper Hunter,1.0
+1356,Upper Hunter,1.0
+1358,Cessnock,1.0
+136,Wahroonga,1.0
+1360,Cessnock,1.0
+1362,Cessnock,1.0
+1363,Upper Hunter,1.0
+1364,Maitland,1.0
+1366,Maitland,1.0
+1369,Upper Hunter,1.0
+137,Wahroonga,1.0
+1370,Cessnock,1.0
+1372,Maitland,1.0
+1374,Upper Hunter,1.0
+1375,Cessnock,1.0
+1376,Port Stephens,1.0
+1377,Upper Hunter,1.0
+1379,Cessnock,1.0
+1380,Cessnock,1.0
+1381,Upper Hunter,1.0
+1382,Maitland,1.0
+1383,Upper Hunter,1.0
+1384,Upper Hunter,1.0
+1385,Maitland,1.0
+1386,Maitland,1.0
+1393,Upper Hunter,1.0
+1394,Maitland,1.0
+1395,Upper Hunter,1.0
+1396,Maitland,1.0
+1397,Cessnock,1.0
+1398,Maitland,1.0
+14,East Hills,1.0
+140,Wahroonga,1.0
+1402,Cessnock,1.0
+1403,Upper Hunter,1.0
+1405,Cessnock,1.0
+1407,Port Stephens,1.0
+141,Davidson,1.0
+1410,Cessnock,1.0
+1412,Maitland,1.0
+1413,Maitland,1.0
+1415,Upper Hunter,1.0
+1416,Port Stephens,1.0
+14165,Sydney,1.0
+1417,Upper Hunter,1.0
+1418,Upper Hunter,1.0
+142,Wahroonga,1.0
+1421,Upper Hunter,1.0
+1422,Wallsend,1.0
+1423,Maitland,1.0
+1424,Maitland,1.0
+1425,Maitland,1.0
+1426,Upper Hunter,1.0
+1429,Cessnock,1.0
+143,Wahroonga,1.0
+1430,Maitland,1.0
+1431,Port Stephens,1.0
+1433,Heffron,1.0
+1434,Maroubra,1.0
+1436,Maroubra,1.0
+1437,Maroubra,1.0
+1438,Maroubra,1.0
+1439,Maroubra,1.0
+144,Wahroonga,1.0
+1441,Newtown,1.0
+1442,Heffron,1.0
+1443,Heffron,1.0
+1444,Newtown,1.0
+1446,Heffron,1.0
+1447,Maroubra,1.0
+1449,Maroubra,1.0
+145,Hornsby,1.0
+1451,Maroubra,1.0
+1453,Maroubra,1.0
+1455,Maroubra,1.0
+1456,Heffron,1.0
+1457,Heffron,1.0
+1458,Heffron,1.0
+1459,Maroubra,1.0
+1460,Maroubra,1.0
+1461,Maroubra,1.0
+1464,Newtown,1.0
+1465,Newtown,1.0
+1466,Heffron,1.0
+1467,Heffron,1.0
+1468,Heffron,1.0
+1469,Heffron,1.0
+147,Wahroonga,1.0
+1470,Heffron,1.0
+1471,Heffron,1.0
+1472,Heffron,1.0
+1475,Hawkesbury,1.0
+1476,Blue Mountains,1.0
+1478,Penrith,1.0
+1479,Penrith,1.0
+148,Wahroonga,1.0
+1480,Penrith,1.0
+1481,Penrith,1.0
+1483,Penrith,1.0
+1484,Penrith,1.0
+1485,Blue Mountains,1.0
+1486,Penrith,1.0
+1487,Penrith,1.0
+1488,Penrith,1.0
+1489,Penrith,1.0
+1490,Blue Mountains,1.0
+1491,Penrith,1.0
+1493,Blue Mountains,1.0
+1494,Penrith,1.0
+1496,Londonderry,1.0
+1497,Londonderry,1.0
+1498,Penrith,1.0
+1501,Penrith,1.0
+1502,Penrith,1.0
+1503,Badgerys Creek,1.0
+1504,Londonderry,1.0
+1506,Londonderry,1.0
+1507,Penrith,1.0
+1508,Londonderry,1.0
+1509,Londonderry,1.0
+1510,Penrith,1.0
+1515,Drummoyne,1.0
+1516,Strathfield,1.0
+1517,Strathfield,1.0
+1519,Strathfield,1.0
+1521,Drummoyne,1.0
+1522,Drummoyne,1.0
+1524,Drummoyne,1.0
+1525,Drummoyne,1.0
+1527,Drummoyne,1.0
+1529,Strathfield,1.0
+1530,Drummoyne,1.0
+1531,Drummoyne,1.0
+1532,Strathfield,1.0
+1533,Drummoyne,1.0
+1534,Drummoyne,1.0
+1535,Strathfield,1.0
+1536,Strathfield,1.0
+1537,Drummoyne,1.0
+154,Bankstown,1.0
+1540,Strathfield,1.0
+1541,Drummoyne,1.0
+1543,Drummoyne,1.0
+1544,Drummoyne,1.0
+1545,Strathfield,1.0
+1546,Strathfield,1.0
+1547,Drummoyne,1.0
+1548,Strathfield,1.0
+1549,Strathfield,1.0
+155,Bankstown,1.0
+1550,Drummoyne,1.0
+1551,Drummoyne,1.0
+1562,Port Stephens,1.0
+1564,Upper Hunter,1.0
+1565,Port Stephens,1.0
+1566,Port Macquarie,1.0
+1567,Upper Hunter,1.0
+1568,Myall Lakes,1.0
+1569,Myall Lakes,1.0
+157,Bankstown,1.0
+1571,Myall Lakes,1.0
+1574,Myall Lakes,1.0
+1575,Upper Hunter,1.0
+1576,Myall Lakes,1.0
+1577,Port Macquarie,1.0
+1578,Port Stephens,1.0
+158,Bankstown,1.0
+1580,Myall Lakes,1.0
+1581,Port Macquarie,1.0
+1582,Upper Hunter,1.0
+1584,Myall Lakes,1.0
+1587,Myall Lakes,1.0
+1588,Myall Lakes,1.0
+159,Fairfield,1.0
+1592,Upper Hunter,1.0
+1593,Upper Hunter,1.0
+1594,Myall Lakes,1.0
+1595,Port Macquarie,1.0
+1596,Port Macquarie,1.0
+1597,Port Stephens,1.0
+1598,Port Macquarie,1.0
+1599,Port Macquarie,1.0
+16,Oatley,1.0
+160,Auburn,1.0
+1600,Port Stephens,1.0
+1601,Port Macquarie,1.0
+1602,Port Macquarie,1.0
+1603,Myall Lakes,1.0
+1604,Myall Lakes,1.0
+1605,Port Macquarie,1.0
+1606,Myall Lakes,1.0
+1607,Port Macquarie,1.0
+1608,Port Stephens,1.0
+1609,Port Macquarie,1.0
+1612,Myall Lakes,1.0
+1613,Port Stephens,1.0
+1614,Myall Lakes,1.0
+1615,Port Macquarie,1.0
+1616,Myall Lakes,1.0
+1618,Myall Lakes,1.0
+1619,Port Stephens,1.0
+162,Fairfield,1.0
+1620,Port Stephens,1.0
+1623,Port Macquarie,1.0
+1624,Myall Lakes,1.0
+1626,Myall Lakes,1.0
+1627,Myall Lakes,1.0
+1628,Port Stephens,1.0
+1629,Port Stephens,1.0
+163,Cabramatta,1.0
+1630,Port Stephens,1.0
+1632,Port Stephens,1.0
+1634,Port Stephens,1.0
+1636,Port Stephens,1.0
+1638,Upper Hunter,1.0
+1639,Upper Hunter,1.0
+1640,Upper Hunter,1.0
+1641,Port Stephens,1.0
+1642,Myall Lakes,1.0
+1645,Myall Lakes,1.0
+1646,Myall Lakes,1.0
+1647,Port Stephens,1.0
+1648,Myall Lakes,1.0
+165,Bankstown,1.0
+1650,Myall Lakes,1.0
+1652,Upper Hunter,1.0
+1654,Myall Lakes,1.0
+1655,Port Stephens,1.0
+1656,Myall Lakes,1.0
+1657,Myall Lakes,1.0
+1660,Campbelltown,1.0
+1661,Heathcote,1.0
+1662,Keira,1.0
+1663,Wollondilly,1.0
+1664,Keira,1.0
+1666,Heathcote,1.0
+1668,Heathcote,1.0
+1669,Wollondilly,1.0
+167,East Hills,1.0
+1670,Camden,1.0
+1671,Camden,1.0
+1673,Camden,1.0
+1675,Leppington,1.0
+1677,Camden,1.0
+1678,Keira,1.0
+1679,Wollongong,1.0
+168,Bankstown,1.0
+1680,Wollondilly,1.0
+1682,Keira,1.0
+1685,Leppington,1.0
+1688,Wollondilly,1.0
+1689,Keira,1.0
+169,East Hills,1.0
+1690,Camden,1.0
+1691,Wollondilly,1.0
+1692,Wollondilly,1.0
+1693,Wollondilly,1.0
+1695,Leppington,1.0
+1696,Keira,1.0
+1698,Wollondilly,1.0
+1699,Keira,1.0
+17,Oatley,1.0
+170,Bankstown,1.0
+1700,Wollondilly,1.0
+1702,Wollondilly,1.0
+1703,Heathcote,1.0
+1704,Heathcote,1.0
+1705,Wollongong,1.0
+1707,Wollondilly,1.0
+1708,Wollondilly,1.0
+1709,Keira,1.0
+171,Bankstown,1.0
+1710,Keira,1.0
+1711,Keira,1.0
+1712,Wollondilly,1.0
+1715,Pittwater,1.0
+1716,Pittwater,1.0
+1717,Pittwater,1.0
+1718,Wakehurst,1.0
+1719,Pittwater,1.0
+1720,Wakehurst,1.0
+1721,Wakehurst,1.0
+1722,Wakehurst,1.0
+1724,Wakehurst,1.0
+1725,Wakehurst,1.0
+1726,Manly,1.0
+1727,Pittwater,1.0
+1728,Pittwater,1.0
+1729,Pittwater,1.0
+173,Cabramatta,1.0
+1732,Pittwater,1.0
+1733,Pittwater,1.0
+1734,Wakehurst,1.0
+1735,Pittwater,1.0
+1736,Pittwater,1.0
+1737,Pittwater,1.0
+1739,Pittwater,1.0
+174,East Hills,1.0
+1741,Wakehurst,1.0
+1747,Londonderry,1.0
+1748,Hawkesbury,1.0
+1749,Blue Mountains,1.0
+175,Bankstown,1.0
+1750,Bathurst,1.0
+1754,Londonderry,1.0
+1755,Hawkesbury,1.0
+1756,Hawkesbury,1.0
+1757,Hawkesbury,1.0
+1758,Penrith,1.0
+1759,Hawkesbury,1.0
+176,Bankstown,1.0
+1761,Blue Mountains,1.0
+1763,Hawkesbury,1.0
+1765,Hawkesbury,1.0
+1766,Hawkesbury,1.0
+1767,Bathurst,1.0
+1768,Blue Mountains,1.0
+1769,Hawkesbury,1.0
+177,Bankstown,1.0
+1771,Blue Mountains,1.0
+1774,Blue Mountains,1.0
+1775,Blue Mountains,1.0
+1776,Hawkesbury,1.0
+1777,Hawkesbury,1.0
+1778,Hawkesbury,1.0
+178,Canterbury,1.0
+1780,Blue Mountains,1.0
+1781,Blue Mountains,1.0
+1782,Blue Mountains,1.0
+1783,Londonderry,1.0
+1786,Hawkesbury,1.0
+1787,Hawkesbury,1.0
+1788,Hawkesbury,1.0
+1789,Hawkesbury,1.0
+179,Bankstown,1.0
+1792,Blue Mountains,1.0
+1794,Hawkesbury,1.0
+1795,Bathurst,1.0
+1796,Bathurst,1.0
+1797,Hawkesbury,1.0
+18,Oatley,1.0
+180,Bankstown,1.0
+1800,Hawkesbury,1.0
+1802,Hawkesbury,1.0
+1803,Bathurst,1.0
+1804,Hawkesbury,1.0
+1805,Blue Mountains,1.0
+1806,Blue Mountains,1.0
+1808,Bathurst,1.0
+1809,Blue Mountains,1.0
+1810,Riverstone,1.0
+1811,Blue Mountains,1.0
+1812,Blue Mountains,1.0
+1813,Hawkesbury,1.0
+1814,Hawkesbury,1.0
+1815,Hawkesbury,1.0
+1816,Blue Mountains,1.0
+1818,Blue Mountains,1.0
+1819,Hawkesbury,1.0
+182,Auburn,1.0
+1822,Castle Hill,1.0
+1823,Hornsby,1.0
+1825,Castle Hill,1.0
+1827,Castle Hill,1.0
+1829,Castle Hill,1.0
+1830,Castle Hill,1.0
+1831,Hawkesbury,1.0
+1833,Kellyville,1.0
+1834,Kellyville,1.0
+1836,Hornsby,1.0
+1837,Castle Hill,1.0
+1838,Castle Hill,1.0
+1839,Hornsby,1.0
+1840,Castle Hill,1.0
+1841,Kellyville,1.0
+1842,Castle Hill,1.0
+1845,Kellyville,1.0
+1846,Hornsby,1.0
+1847,Castle Hill,1.0
+1849,Epping,1.0
+1850,Epping,1.0
+1852,Hornsby,1.0
+1853,Castle Hill,1.0
+1854,Kellyville,1.0
+1855,Hornsby,1.0
+186,Davidson,1.0
+1861,Newcastle,1.0
+1863,Wallsend,1.0
+1864,Newcastle,1.0
+1865,Newcastle,1.0
+1866,Newcastle,1.0
+1867,Newcastle,1.0
+1868,Newcastle,1.0
+1869,Wallsend,1.0
+1870,Newcastle,1.0
+1871,Newcastle,1.0
+1872,Newcastle,1.0
+1875,Newcastle,1.0
+1877,Newcastle,1.0
+1879,Wallsend,1.0
+188,Davidson,1.0
+1880,Wallsend,1.0
+1881,Wallsend,1.0
+1882,Charlestown,1.0
+1883,Wallsend,1.0
+1885,Newcastle,1.0
+1886,Newcastle,1.0
+1887,Newcastle,1.0
+1888,Newcastle,1.0
+1889,Newcastle,1.0
+189,Wakehurst,1.0
+1891,Wallsend,1.0
+1892,Wallsend,1.0
+1894,Wallsend,1.0
+1895,Newcastle,1.0
+1898,Newcastle,1.0
+19,Oatley,1.0
+190,Wakehurst,1.0
+1901,Wallsend,1.0
+1902,Wallsend,1.0
+1905,Wallsend,1.0
+1906,Wallsend,1.0
+191,Wakehurst,1.0
+1912,Northern Tablelands,1.0
+1913,Northern Tablelands,1.0
+1914,Northern Tablelands,1.0
+1916,Northern Tablelands,1.0
+1917,Northern Tablelands,1.0
+1918,Northern Tablelands,1.0
+1919,Northern Tablelands,1.0
+192,Davidson,1.0
+1920,Tamworth,1.0
+1921,Northern Tablelands,1.0
+1922,Northern Tablelands,1.0
+1923,Tamworth,1.0
+1925,Northern Tablelands,1.0
+1926,Northern Tablelands,1.0
+1928,Northern Tablelands,1.0
+1929,Tamworth,1.0
+1930,Northern Tablelands,1.0
+1931,Northern Tablelands,1.0
+1933,Tamworth,1.0
+1934,Tamworth,1.0
+1935,Northern Tablelands,1.0
+1937,Northern Tablelands,1.0
+1938,Northern Tablelands,1.0
+1939,Northern Tablelands,1.0
+194,Davidson,1.0
+1941,Northern Tablelands,1.0
+1942,Northern Tablelands,1.0
+1944,Northern Tablelands,1.0
+1947,Tamworth,1.0
+1949,Northern Tablelands,1.0
+195,Davidson,1.0
+1950,Northern Tablelands,1.0
+1953,Northern Tablelands,1.0
+1954,Northern Tablelands,1.0
+1955,Tamworth,1.0
+1958,Tamworth,1.0
+196,Wahroonga,1.0
+1961,Tamworth,1.0
+1962,Tamworth,1.0
+1964,Tamworth,1.0
+1966,Northern Tablelands,1.0
+1968,Tamworth,1.0
+1970,Tamworth,1.0
+1971,Tamworth,1.0
+1973,Northern Tablelands,1.0
+1974,Northern Tablelands,1.0
+1975,Tamworth,1.0
+1977,Tamworth,1.0
+1978,Tamworth,1.0
+1980,Tamworth,1.0
+1981,Tamworth,1.0
+1983,Lismore,1.0
+1985,Tamworth,1.0
+1986,Northern Tablelands,1.0
+1988,Northern Tablelands,1.0
+1989,Northern Tablelands,1.0
+199,Davidson,1.0
+1990,Tamworth,1.0
+1991,Northern Tablelands,1.0
+1993,Northern Tablelands,1.0
+1994,Tamworth,1.0
+1996,Northern Tablelands,1.0
+2,East Hills,1.0
+200,Wakehurst,1.0
+2008,Willoughby,1.0
+2009,Willoughby,1.0
+2010,Willoughby,1.0
+2011,Willoughby,1.0
+2012,Willoughby,1.0
+2017,Willoughby,1.0
+2018,North Shore,1.0
+2019,North Shore,1.0
+202,Davidson,1.0
+2020,North Shore,1.0
+2023,North Shore,1.0
+2024,North Shore,1.0
+2026,Willoughby,1.0
+2027,North Shore,1.0
+2028,North Shore,1.0
+2029,Willoughby,1.0
+203,Davidson,1.0
+2030,Willoughby,1.0
+2031,North Shore,1.0
+2032,Willoughby,1.0
+2033,Willoughby,1.0
+2034,North Shore,1.0
+2035,Willoughby,1.0
+2036,Willoughby,1.0
+2037,North Shore,1.0
+204,Davidson,1.0
+2043,Ballina,1.0
+2044,Ballina,1.0
+2045,Ballina,1.0
+2047,Ballina,1.0
+2049,Clarence,1.0
+205,Davidson,1.0
+2050,Lismore,1.0
+2054,Clarence,1.0
+2055,Clarence,1.0
+2057,Lismore,1.0
+2058,Clarence,1.0
+2059,Clarence,1.0
+206,Wahroonga,1.0
+2060,Clarence,1.0
+2061,Clarence,1.0
+2062,Coffs Harbour,1.0
+2063,Coffs Harbour,1.0
+2064,Clarence,1.0
+2067,Oxley,1.0
+207,Wahroonga,1.0
+2070,Lismore,1.0
+2074,Clarence,1.0
+2075,Clarence,1.0
+2076,Clarence,1.0
+2077,Clarence,1.0
+2078,Clarence,1.0
+208,Davidson,1.0
+2080,Clarence,1.0
+2081,Clarence,1.0
+2083,Clarence,1.0
+2084,Clarence,1.0
+2088,Clarence,1.0
+2089,Clarence,1.0
+2090,Coffs Harbour,1.0
+2091,Lismore,1.0
+2092,Lismore,1.0
+2093,Clarence,1.0
+2095,Lismore,1.0
+2096,Lismore,1.0
+2097,Coffs Harbour,1.0
+210,Davidson,1.0
+2100,Clarence,1.0
+2104,Clarence,1.0
+2105,Coffs Harbour,1.0
+2107,Coffs Harbour,1.0
+211,Davidson,1.0
+2110,Clarence,1.0
+2112,Clarence,1.0
+2113,Coffs Harbour,1.0
+2115,Ballina,1.0
+2117,Clarence,1.0
+212,Davidson,1.0
+2122,Clarence,1.0
+2124,Clarence,1.0
+2125,Clarence,1.0
+2126,Lismore,1.0
+2127,Clarence,1.0
+2128,Ballina,1.0
+2129,Clarence,1.0
+213,Davidson,1.0
+2132,Lismore,1.0
+2133,Ballina,1.0
+2134,Clarence,1.0
+2137,Lismore,1.0
+2138,Coffs Harbour,1.0
+2139,Clarence,1.0
+214,Davidson,1.0
+2140,Clarence,1.0
+2148,Orange,1.0
+2152,Dubbo,1.0
+2153,Orange,1.0
+2155,Cootamundra,1.0
+2156,Orange,1.0
+2157,Orange,1.0
+2158,Barwon,1.0
+2160,Barwon,1.0
+2161,Orange,1.0
+2162,Orange,1.0
+2169,Barwon,1.0
+2170,Orange,1.0
+2171,Orange,1.0
+2172,Barwon,1.0
+2174,Dubbo,1.0
+2175,Dubbo,1.0
+2177,Dubbo,1.0
+2178,Dubbo,1.0
+2179,Dubbo,1.0
+2183,Orange,1.0
+2184,Dubbo,1.0
+2185,Barwon,1.0
+2186,Orange,1.0
+2188,Orange,1.0
+2189,Orange,1.0
+219,Bathurst,1.0
+2191,Dubbo,1.0
+2192,Barwon,1.0
+2196,Cootamundra,1.0
+2197,Barwon,1.0
+22,East Hills,1.0
+220,Bathurst,1.0
+2201,Orange,1.0
+2203,Orange,1.0
+2205,Orange,1.0
+2207,Dubbo,1.0
+2208,Dubbo,1.0
+2209,Orange,1.0
+221,Bathurst,1.0
+2212,Barwon,1.0
+2214,Dubbo,1.0
+2215,Orange,1.0
+2216,Orange,1.0
+2217,Orange,1.0
+2219,Orange,1.0
+2221,Orange,1.0
+2222,Orange,1.0
+2223,Dubbo,1.0
+2224,Dubbo,1.0
+2226,Barwon,1.0
+2227,Dubbo,1.0
+2228,Orange,1.0
+2229,Orange,1.0
+223,Bathurst,1.0
+2231,Barwon,1.0
+2235,Dubbo,1.0
+2236,Dubbo,1.0
+2238,Dubbo,1.0
+2240,Orange,1.0
+225,Bathurst,1.0
+2250,Parramatta,1.0
+2251,Winston Hills,1.0
+2252,Parramatta,1.0
+2253,Parramatta,1.0
+2254,Prospect,1.0
+2255,Parramatta,1.0
+2257,Parramatta,1.0
+2263,Winston Hills,1.0
+2264,Winston Hills,1.0
+2267,Parramatta,1.0
+2269,Parramatta,1.0
+227,Bathurst,1.0
+2272,Winston Hills,1.0
+2273,Parramatta,1.0
+2274,Parramatta,1.0
+2275,Parramatta,1.0
+2276,Parramatta,1.0
+2277,Winston Hills,1.0
+2278,Prospect,1.0
+2279,Winston Hills,1.0
+228,Bathurst,1.0
+2280,Granville,1.0
+2282,Granville,1.0
+2284,Winston Hills,1.0
+2285,Winston Hills,1.0
+229,Orange,1.0
+2297,Vaucluse,1.0
+2298,Vaucluse,1.0
+2299,Coogee,1.0
+230,Orange,1.0
+2300,Vaucluse,1.0
+2301,Coogee,1.0
+2303,Vaucluse,1.0
+2305,Coogee,1.0
+2306,Coogee,1.0
+2307,Coogee,1.0
+2308,Coogee,1.0
+2309,Coogee,1.0
+231,Orange,1.0
+2310,Maroubra,1.0
+2311,Coogee,1.0
+2312,Maroubra,1.0
+2313,Coogee,1.0
+2314,Heffron,1.0
+2316,Heffron,1.0
+2317,Coogee,1.0
+2318,Maroubra,1.0
+232,Bathurst,1.0
+2321,Coogee,1.0
+2322,Coogee,1.0
+2323,Coogee,1.0
+2325,Coogee,1.0
+2326,Coogee,1.0
+2330,Cabramatta,1.0
+2331,Fairfield,1.0
+2332,Cabramatta,1.0
+2337,Fairfield,1.0
+2339,Fairfield,1.0
+2340,Fairfield,1.0
+2341,Fairfield,1.0
+2342,Prospect,1.0
+2343,Prospect,1.0
+2345,Granville,1.0
+2346,Prospect,1.0
+2347,Badgerys Creek,1.0
+2348,Cabramatta,1.0
+235,Orange,1.0
+2350,Prospect,1.0
+2351,Cabramatta,1.0
+2353,Prospect,1.0
+2354,Granville,1.0
+2355,Prospect,1.0
+2356,Fairfield,1.0
+2357,Prospect,1.0
+2358,Fairfield,1.0
+2359,Fairfield,1.0
+236,Orange,1.0
+2360,Prospect,1.0
+2361,Prospect,1.0
+2362,Fairfield,1.0
+2365,Auburn,1.0
+2366,Auburn,1.0
+2368,Auburn,1.0
+2369,Auburn,1.0
+237,Bathurst,1.0
+2370,Auburn,1.0
+2371,Auburn,1.0
+2373,Granville,1.0
+2375,Auburn,1.0
+2376,Fairfield,1.0
+2377,Granville,1.0
+2378,Granville,1.0
+238,Bathurst,1.0
+2380,Granville,1.0
+2381,Granville,1.0
+2382,Granville,1.0
+2383,Auburn,1.0
+2384,Auburn,1.0
+2386,Auburn,1.0
+2387,Granville,1.0
+2388,Granville,1.0
+2390,Granville,1.0
+2391,Auburn,1.0
+2392,Auburn,1.0
+2393,Auburn,1.0
+2394,Auburn,1.0
+2396,Fairfield,1.0
+2399,Ballina,1.0
+2400,Tweed,1.0
+2401,Lismore,1.0
+2402,Tweed,1.0
+2403,Ballina,1.0
+2404,Tweed,1.0
+2405,Lismore,1.0
+2407,Ballina,1.0
+2408,Tweed,1.0
+2409,Ballina,1.0
+241,Bathurst,1.0
+2410,Lismore,1.0
+2412,Lismore,1.0
+2413,Tweed,1.0
+2414,Lismore,1.0
+2416,Ballina,1.0
+2418,Tweed,1.0
+2419,Lismore,1.0
+242,Bathurst,1.0
+2422,Lismore,1.0
+2423,Lismore,1.0
+2425,Ballina,1.0
+2426,Lismore,1.0
+2427,Lismore,1.0
+2428,Ballina,1.0
+2429,Lismore,1.0
+243,Barwon,1.0
+2430,Ballina,1.0
+2432,Lismore,1.0
+2433,Lismore,1.0
+2434,Lismore,1.0
+2438,Tweed,1.0
+2439,Lismore,1.0
+244,Bathurst,1.0
+2440,Tweed,1.0
+2442,Ballina,1.0
+2443,Lismore,1.0
+2445,Lismore,1.0
+2446,Lismore,1.0
+2451,Ballina,1.0
+2454,Ballina,1.0
+2455,Lismore,1.0
+2457,Lismore,1.0
+2459,Ballina,1.0
+2460,Lismore,1.0
+2462,Tweed,1.0
+2464,Lismore,1.0
+2465,Lismore,1.0
+2466,Tweed,1.0
+2467,Lismore,1.0
+2468,Ballina,1.0
+2470,Lismore,1.0
+2472,Tweed,1.0
+2473,Tweed,1.0
+2474,Lismore,1.0
+2475,Lismore,1.0
+2476,Lismore,1.0
+2477,Lismore,1.0
+2482,Cootamundra,1.0
+2483,Cootamundra,1.0
+2484,Murray,1.0
+2490,Barwon,1.0
+2491,Barwon,1.0
+2493,Barwon,1.0
+2497,Barwon,1.0
+2498,Murray,1.0
+2499,Barwon,1.0
+25,East Hills,1.0
+250,Orange,1.0
+2501,Murray,1.0
+2502,Murray,1.0
+2504,Barwon,1.0
+2505,Barwon,1.0
+2506,Murray,1.0
+2507,Murray,1.0
+2508,Murray,1.0
+2511,Murray,1.0
+2512,Murray,1.0
+2514,Murray,1.0
+2516,Murray,1.0
+252,Dubbo,1.0
+2520,Murray,1.0
+2525,Barwon,1.0
+2526,Murray,1.0
+2527,Murray,1.0
+2528,Murray,1.0
+253,Bathurst,1.0
+2530,Barwon,1.0
+2532,Barwon,1.0
+2536,Cootamundra,1.0
+2537,Cootamundra,1.0
+254,Dubbo,1.0
+2542,Murray,1.0
+2545,Murray,1.0
+255,Bathurst,1.0
+2551,Barwon,1.0
+2552,Barwon,1.0
+2553,Cootamundra,1.0
+2554,Murray,1.0
+2555,Cootamundra,1.0
+2556,Cootamundra,1.0
+2558,Murray,1.0
+2560,Barwon,1.0
+2563,Cootamundra,1.0
+2565,Murray,1.0
+2566,Murray,1.0
+2567,Murray,1.0
+258,Bathurst,1.0
+2586,Terrigal,1.0
+2588,Gosford,1.0
+2589,Terrigal,1.0
+259,Bathurst,1.0
+2590,Terrigal,1.0
+2591,Terrigal,1.0
+2592,Terrigal,1.0
+2593,Terrigal,1.0
+2594,Gosford,1.0
+2596,Gosford,1.0
+2597,Gosford,1.0
+2598,Gosford,1.0
+26,East Hills,1.0
+260,Bathurst,1.0
+2604,Gosford,1.0
+2605,Gosford,1.0
+2606,Terrigal,1.0
+261,Bathurst,1.0
+2610,Gosford,1.0
+2611,Gosford,1.0
+2612,Gosford,1.0
+2614,The Entrance,1.0
+2615,Gosford,1.0
+2618,Gosford,1.0
+262,Bathurst,1.0
+2620,Gosford,1.0
+2621,Terrigal,1.0
+2622,Terrigal,1.0
+2623,Gosford,1.0
+2624,Gosford,1.0
+2625,Terrigal,1.0
+2626,Terrigal,1.0
+2628,Gosford,1.0
+2629,Gosford,1.0
+2630,The Entrance,1.0
+2631,Gosford,1.0
+2633,Gosford,1.0
+2634,The Entrance,1.0
+2640,Rockdale,1.0
+2641,Rockdale,1.0
+2642,Rockdale,1.0
+2643,Rockdale,1.0
+2644,Canterbury,1.0
+2645,Kogarah,1.0
+2646,Kogarah,1.0
+2647,Kogarah,1.0
+2649,Rockdale,1.0
+265,Orange,1.0
+2650,Kogarah,1.0
+2652,Canterbury,1.0
+2653,Kogarah,1.0
+2656,Canterbury,1.0
+2657,Canterbury,1.0
+266,Dubbo,1.0
+2660,Canterbury,1.0
+2661,Canterbury,1.0
+2662,Kogarah,1.0
+2663,Kogarah,1.0
+2664,Kogarah,1.0
+2665,Kogarah,1.0
+2666,Kogarah,1.0
+2667,Kogarah,1.0
+2669,Canterbury,1.0
+267,Bathurst,1.0
+2670,Kogarah,1.0
+2671,Rockdale,1.0
+2673,Canterbury,1.0
+2680,Charlestown,1.0
+2681,Newcastle,1.0
+2683,Swansea,1.0
+2684,Swansea,1.0
+2685,Swansea,1.0
+2687,Swansea,1.0
+2688,Swansea,1.0
+269,Bathurst,1.0
+2690,Swansea,1.0
+2691,Charlestown,1.0
+2692,Charlestown,1.0
+2693,Charlestown,1.0
+2694,Charlestown,1.0
+2695,Swansea,1.0
+2696,Charlestown,1.0
+27,Oatley,1.0
+2700,Swansea,1.0
+2701,Charlestown,1.0
+2705,Charlestown,1.0
+2706,Swansea,1.0
+2707,Newcastle,1.0
+2708,Newcastle,1.0
+2709,Newcastle,1.0
+2710,Charlestown,1.0
+2712,Charlestown,1.0
+2714,Charlestown,1.0
+2715,Swansea,1.0
+2717,Swansea,1.0
+2718,Swansea,1.0
+272,Bathurst,1.0
+2722,Charlestown,1.0
+2723,Charlestown,1.0
+2727,Balmain,1.0
+2728,Balmain,1.0
+2729,Balmain,1.0
+273,Bathurst,1.0
+2730,Balmain,1.0
+2731,Balmain,1.0
+2733,Balmain,1.0
+2734,Newtown,1.0
+2735,Newtown,1.0
+2736,Newtown,1.0
+2737,Summer Hill,1.0
+2738,Summer Hill,1.0
+2739,Newtown,1.0
+2740,Balmain,1.0
+2741,Balmain,1.0
+2742,Balmain,1.0
+2744,Balmain,1.0
+2745,Summer Hill,1.0
+2746,Summer Hill,1.0
+2747,Balmain,1.0
+2748,Balmain,1.0
+2749,Balmain,1.0
+2750,Balmain,1.0
+2751,Newtown,1.0
+2753,Balmain,1.0
+2754,Balmain,1.0
+2755,Port Macquarie,1.0
+2756,Sydney,1.0
+2757,Summer Hill,1.0
+2758,Newtown,1.0
+2759,Newtown,1.0
+276,Dubbo,1.0
+2762,Sydney,1.0
+2763,Balmain,1.0
+2764,Newtown,1.0
+2765,Newtown,1.0
+2768,Balmain,1.0
+2769,Balmain,1.0
+277,Dubbo,1.0
+2773,Kiama,1.0
+2774,Kiama,1.0
+2775,Goulburn,1.0
+2776,Kiama,1.0
+2777,Kiama,1.0
+2779,Wollondilly,1.0
+2780,Wollondilly,1.0
+2781,Goulburn,1.0
+2783,Kiama,1.0
+2784,Kiama,1.0
+2785,Wollondilly,1.0
+2787,Wollondilly,1.0
+2788,Kiama,1.0
+279,Dubbo,1.0
+2790,Kiama,1.0
+2791,Kiama,1.0
+2793,Shellharbour,1.0
+2794,Shellharbour,1.0
+2797,Kiama,1.0
+2798,Wollondilly,1.0
+2799,Wollondilly,1.0
+28,Oatley,1.0
+2800,Goulburn,1.0
+2801,Goulburn,1.0
+2802,Shellharbour,1.0
+2803,Shellharbour,1.0
+2804,Shellharbour,1.0
+2805,Goulburn,1.0
+2806,Shellharbour,1.0
+2807,Kiama,1.0
+2809,Shellharbour,1.0
+2810,Shellharbour,1.0
+2811,Kiama,1.0
+2812,Wollondilly,1.0
+2819,Wakehurst,1.0
+282,Bathurst,1.0
+2820,Wakehurst,1.0
+2821,Manly,1.0
+2822,Manly,1.0
+2824,North Shore,1.0
+2825,Manly,1.0
+2828,Manly,1.0
+2829,Manly,1.0
+283,Orange,1.0
+2830,Manly,1.0
+2831,Manly,1.0
+2832,Manly,1.0
+2833,Manly,1.0
+2835,Manly,1.0
+2836,Manly,1.0
+2837,North Shore,1.0
+2838,North Shore,1.0
+2839,North Shore,1.0
+284,Orange,1.0
+2841,Manly,1.0
+2843,Manly,1.0
+2844,Manly,1.0
+2845,Manly,1.0
+2846,North Shore,1.0
+2847,Manly,1.0
+2852,Sydney,1.0
+2853,Sydney,1.0
+2854,Vaucluse,1.0
+2856,Balmain,1.0
+286,Orange,1.0
+2860,Vaucluse,1.0
+2861,Vaucluse,1.0
+2862,Vaucluse,1.0
+2864,Sydney,1.0
+2865,Vaucluse,1.0
+2866,Sydney,1.0
+2867,Sydney,1.0
+2868,Vaucluse,1.0
+2869,Sydney,1.0
+287,Orange,1.0
+2870,Vaucluse,1.0
+2871,Sydney,1.0
+2874,Sydney,1.0
+2876,Sydney,1.0
+2877,Sydney,1.0
+2878,Coogee,1.0
+2879,Newtown,1.0
+288,Orange,1.0
+2880,Vaucluse,1.0
+2881,Vaucluse,1.0
+2882,Sydney,1.0
+2888,Sydney,1.0
+2889,Vaucluse,1.0
+289,Bathurst,1.0
+2890,Vaucluse,1.0
+2891,Coogee,1.0
+2892,Vaucluse,1.0
+290,Bathurst,1.0
+2900,Campbelltown,1.0
+2901,Campbelltown,1.0
+2902,Campbelltown,1.0
+2903,Campbelltown,1.0
+2904,Macquarie Fields,1.0
+2905,Campbelltown,1.0
+2906,Campbelltown,1.0
+2907,Holsworthy,1.0
+2909,Campbelltown,1.0
+291,Bathurst,1.0
+2911,Macquarie Fields,1.0
+2912,Leppington,1.0
+2913,Macquarie Fields,1.0
+2914,Macquarie Fields,1.0
+2915,Macquarie Fields,1.0
+2916,Leppington,1.0
+2918,Macquarie Fields,1.0
+2919,Macquarie Fields,1.0
+2920,Macquarie Fields,1.0
+2922,Campbelltown,1.0
+2923,Campbelltown,1.0
+2924,Holsworthy,1.0
+2925,Macquarie Fields,1.0
+2926,Macquarie Fields,1.0
+2928,Holsworthy,1.0
+2929,Leppington,1.0
+2930,Campbelltown,1.0
+2931,Campbelltown,1.0
+2932,Macquarie Fields,1.0
+2933,Macquarie Fields,1.0
+2934,Macquarie Fields,1.0
+2935,Campbelltown,1.0
+2936,Campbelltown,1.0
+2938,Campbelltown,1.0
+294,Bathurst,1.0
+297,Bathurst,1.0
+299,Orange,1.0
+3,Oatley,1.0
+300,Orange,1.0
+306,Bathurst,1.0
+307,Dubbo,1.0
+309,Bathurst,1.0
+31,Kogarah,1.0
+310,Bathurst,1.0
+31030,Mount Druitt,1.0
+31033,Bega,1.0
+31034,Holsworthy,1.0
+31035,Heathcote,1.0
+31071,Bathurst,1.0
+31083,Monaro,1.0
+31134,Gosford,1.0
+31232,Macquarie Fields,1.0
+31241,Campbelltown,1.0
+31242,Wollondilly,1.0
+31272,Holsworthy,1.0
+31417,Wyong,1.0
+31436,Monaro,1.0
+31450,Shellharbour,1.0
+31451,Shellharbour,1.0
+31455,Bankstown,1.0
+31457,Myall Lakes,1.0
+31458,Port Macquarie,1.0
+31463,Blacktown,1.0
+31464,Wyong,1.0
+31468,Camden,1.0
+31482,Kiama,1.0
+31484,South Coast,1.0
+31506,Port Stephens,1.0
+31510,Port Stephens,1.0
+31511,Port Stephens,1.0
+31630,Davidson,1.0
+31631,Riverstone,1.0
+31643,Cabramatta,1.0
+31644,Macquarie Fields,1.0
+31649,Liverpool,1.0
+31659,Swansea,1.0
+31665,Bega,1.0
+31668,Tweed,1.0
+31672,Tweed,1.0
+31689,Badgerys Creek,1.0
+31699,Terrigal,1.0
+31701,Gosford,1.0
+31708,Gosford,1.0
+31717,Lake Macquarie,1.0
+31719,Lake Macquarie,1.0
+31726,Coffs Harbour,1.0
+31727,Coffs Harbour,1.0
+31747,Liverpool,1.0
+31750,Holsworthy,1.0
+31754,Keira,1.0
+31837,Bankstown,1.0
+31839,Bega,1.0
+31960,The Entrance,1.0
+32,Rockdale,1.0
+32061,Dubbo,1.0
+322,Cessnock,1.0
+323,Lake Macquarie,1.0
+32327,Blacktown,1.0
+32333,Oxley,1.0
+32335,Blacktown,1.0
+32337,Badgerys Creek,1.0
+32374,Myall Lakes,1.0
+32375,Oxley,1.0
+324,Lake Macquarie,1.0
+32478,South Coast,1.0
+32479,Goulburn,1.0
+32481,Fairfield,1.0
+32486,Wagga Wagga,1.0
+32594,The Entrance,1.0
+326,Cessnock,1.0
+32671,Kiama,1.0
+32673,Shellharbour,1.0
+327,Lake Macquarie,1.0
+32744,Hawkesbury,1.0
+32758,Wyong,1.0
+32802,Lake Macquarie,1.0
+32839,Leppington,1.0
+32885,North Shore,1.0
+32901,Miranda,1.0
+32912,Campbelltown,1.0
+32915,Goulburn,1.0
+32916,Kiama,1.0
+32991,Monaro,1.0
+33,Kogarah,1.0
+33058,Leppington,1.0
+33074,Pittwater,1.0
+33075,Terrigal,1.0
+33077,Terrigal,1.0
+331,Lake Macquarie,1.0
+33100,Camden,1.0
+33110,Clarence,1.0
+33117,East Hills,1.0
+33118,Castle Hill,1.0
+33131,Bankstown,1.0
+33136,Kiama,1.0
+33177,Upper Hunter,1.0
+333,Charlestown,1.0
+335,Wallsend,1.0
+336,Wallsend,1.0
+33677,Port Macquarie,1.0
+33678,Oxley,1.0
+33679,Myall Lakes,1.0
+337,Charlestown,1.0
+33701,Pittwater,1.0
+33719,Clarence,1.0
+33722,Willoughby,1.0
+33727,Wallsend,1.0
+33737,Oxley,1.0
+33738,Camden,1.0
+33739,Coffs Harbour,1.0
+33741,Clarence,1.0
+33742,Lismore,1.0
+33743,Clarence,1.0
+33746,Kiama,1.0
+33747,South Coast,1.0
+33752,Northern Tablelands,1.0
+33754,Northern Tablelands,1.0
+33755,Tamworth,1.0
+33757,Winston Hills,1.0
+33760,Ballina,1.0
+33761,Tweed,1.0
+33762,Lismore,1.0
+33766,Willoughby,1.0
+33771,Hornsby,1.0
+33778,Wyong,1.0
+33781,Castle Hill,1.0
+33787,Coogee,1.0
+33789,Newcastle,1.0
+33795,Epping,1.0
+33796,Coogee,1.0
+33798,Epping,1.0
+33800,Hornsby,1.0
+33806,Lane Cove,1.0
+33813,Wyong,1.0
+33814,Wyong,1.0
+33816,Macquarie Fields,1.0
+33841,Penrith,1.0
+33854,Bankstown,1.0
+33855,Murray,1.0
+33857,Wagga Wagga,1.0
+33858,Cootamundra,1.0
+33860,Wagga Wagga,1.0
+33861,Bathurst,1.0
+33862,Wollondilly,1.0
+33863,Orange,1.0
+33864,Bathurst,1.0
+33866,Goulburn,1.0
+33867,Cootamundra,1.0
+33868,Parramatta,1.0
+33869,Rockdale,1.0
+33877,Lane Cove,1.0
+33879,Murray,1.0
+33884,Tamworth,1.0
+33886,Barwon,1.0
+33887,Northern Tablelands,1.0
+33888,Dubbo,1.0
+33890,Port Stephens,1.0
+33891,Port Stephens,1.0
+33892,Myall Lakes,1.0
+33893,Summer Hill,1.0
+33898,Summer Hill,1.0
+33899,Lake Macquarie,1.0
+339,Lake Macquarie,1.0
+33900,Lake Macquarie,1.0
+33903,Port Macquarie,1.0
+33905,Kellyville,1.0
+33909,Port Macquarie,1.0
+33913,Blacktown,1.0
+33919,Bega,1.0
+33920,Bega,1.0
+33921,Monaro,1.0
+33922,Monaro,1.0
+33923,Bega,1.0
+33924,Bega,1.0
+33925,Monaro,1.0
+33926,Epping,1.0
+33928,Parramatta,1.0
+33930,Lane Cove,1.0
+33945,Ryde,1.0
+33948,Davidson,1.0
+33950,Barwon,1.0
+33951,Dubbo,1.0
+33952,Orange,1.0
+33953,Barwon,1.0
+33954,Cootamundra,1.0
+33957,Coogee,1.0
+33960,Miranda,1.0
+33961,Manly,1.0
+33965,North Shore,1.0
+33967,North Shore,1.0
+33970,Sydney,1.0
+33973,Cessnock,1.0
+33974,Cessnock,1.0
+33975,Upper Hunter,1.0
+33976,Mount Druitt,1.0
+33977,Upper Hunter,1.0
+33980,Campbelltown,1.0
+34,Rockdale,1.0
+340,Lake Macquarie,1.0
+34004,Hornsby,1.0
+34029,Coogee,1.0
+34033,Wollongong,1.0
+34037,Blue Mountains,1.0
+34038,Blue Mountains,1.0
+34039,South Coast,1.0
+34043,Strathfield,1.0
+34046,Kogarah,1.0
+34097,Vaucluse,1.0
+341,Lake Macquarie,1.0
+34116,Kellyville,1.0
+342,Cessnock,1.0
+34235,Holsworthy,1.0
+34247,The Entrance,1.0
+34273,Albury,1.0
+34328,Parramatta,1.0
+34344,Leppington,1.0
+34345,Shellharbour,1.0
+34348,Tweed,1.0
+34349,Ryde,1.0
+34359,Riverstone,1.0
+34360,Newcastle,1.0
+34361,Wallsend,1.0
+34364,Campbelltown,1.0
+344,Charlestown,1.0
+346,Lake Macquarie,1.0
+347,Lake Macquarie,1.0
+348,Charlestown,1.0
+34947,Tamworth,1.0
+350,Wallsend,1.0
+351,Cessnock,1.0
+354,Lake Macquarie,1.0
+356,Cessnock,1.0
+361,Wallsend,1.0
+362,Lake Macquarie,1.0
+363,Cessnock,1.0
+36372,Kellyville,1.0
+364,Cessnock,1.0
+36407,Camden,1.0
+36439,Cootamundra,1.0
+365,Lake Macquarie,1.0
+367,Lake Macquarie,1.0
+370,Lake Macquarie,1.0
+37049,Kellyville,1.0
+37052,Willoughby,1.0
+37053,Liverpool,1.0
+37054,Liverpool,1.0
+37055,Liverpool,1.0
+372,Lake Macquarie,1.0
+373,Lake Macquarie,1.0
+374,Swansea,1.0
+375,Lake Macquarie,1.0
+376,Charlestown,1.0
+377,Charlestown,1.0
+378,Cessnock,1.0
+379,Cessnock,1.0
+38,Rockdale,1.0
+383,Badgerys Creek,1.0
+38312,Wollondilly,1.0
+38317,Wagga Wagga,1.0
+38319,Shellharbour,1.0
+38323,Riverstone,1.0
+38331,Cessnock,1.0
+38334,Tamworth,1.0
+38336,Ballina,1.0
+384,Londonderry,1.0
+385,Mount Druitt,1.0
+386,Mount Druitt,1.0
+388,Blacktown,1.0
+390,Badgerys Creek,1.0
+391,Badgerys Creek,1.0
+392,Mount Druitt,1.0
+393,Blacktown,1.0
+397,Mount Druitt,1.0
+398,Leppington,1.0
+399,Mount Druitt,1.0
+4,Oatley,1.0
+40,Kogarah,1.0
+401,Mount Druitt,1.0
+403,Mount Druitt,1.0
+404,Mount Druitt,1.0
+406,Mount Druitt,1.0
+407,Mount Druitt,1.0
+408,Mount Druitt,1.0
+409,Badgerys Creek,1.0
+41,Rockdale,1.0
+410,Londonderry,1.0
+411,Mount Druitt,1.0
+412,Mount Druitt,1.0
+413,Blacktown,1.0
+414,Mount Druitt,1.0
+415,Mount Druitt,1.0
+417,Cronulla,1.0
+418,Cronulla,1.0
+419,Cronulla,1.0
+42,Oatley,1.0
+420,Cronulla,1.0
+421,Cronulla,1.0
+422,Cronulla,1.0
+423,Cronulla,1.0
+425,Cronulla,1.0
+427,Cronulla,1.0
+429,Miranda,1.0
+43,Oatley,1.0
+430,Cronulla,1.0
+431,Miranda,1.0
+432,Cronulla,1.0
+433,Cronulla,1.0
+434,Cronulla,1.0
+435,Miranda,1.0
+436,Miranda,1.0
+43686,Hornsby,1.0
+43688,Wahroonga,1.0
+437,Miranda,1.0
+43833,Hornsby,1.0
+439,Miranda,1.0
+441,Miranda,1.0
+443,Miranda,1.0
+444,Miranda,1.0
+44414,Leppington,1.0
+445,Cronulla,1.0
+44534,Balmain,1.0
+446,Cronulla,1.0
+447,Cronulla,1.0
+44932,Coogee,1.0
+45,Oatley,1.0
+452,Oxley,1.0
+45260,Castle Hill,1.0
+454,Oxley,1.0
+45558,Blacktown,1.0
+456,Oxley,1.0
+458,Coffs Harbour,1.0
+45838,Granville,1.0
+459,Coffs Harbour,1.0
+46,Kogarah,1.0
+460,Oxley,1.0
+462,Coffs Harbour,1.0
+46270,Sydney,1.0
+46280,Coogee,1.0
+464,Coffs Harbour,1.0
+46404,Wyong,1.0
+46408,Charlestown,1.0
+46411,Charlestown,1.0
+46419,Shellharbour,1.0
+46420,Shellharbour,1.0
+46431,The Entrance,1.0
+46471,Goulburn,1.0
+46482,Leppington,1.0
+46486,Tamworth,1.0
+46488,Leppington,1.0
+465,Coffs Harbour,1.0
+46502,Charlestown,1.0
+46523,Barwon,1.0
+46533,Sydney,1.0
+46555,Winston Hills,1.0
+46577,Barwon,1.0
+466,Coffs Harbour,1.0
+46624,Granville,1.0
+467,Oxley,1.0
+46744,Fairfield,1.0
+46751,Parramatta,1.0
+468,Oxley,1.0
+47,Kogarah,1.0
+470,Oxley,1.0
+471,Oxley,1.0
+472,Oxley,1.0
+473,Oxley,1.0
+474,Oxley,1.0
+475,Port Macquarie,1.0
+476,Oxley,1.0
+47682,Maroubra,1.0
+47683,Riverstone,1.0
+47684,Riverstone,1.0
+47687,Bankstown,1.0
+47690,Kellyville,1.0
+47691,Kellyville,1.0
+477,Port Macquarie,1.0
+47782,Hawkesbury,1.0
+47807,Willoughby,1.0
+479,Oxley,1.0
+480,Coffs Harbour,1.0
+482,Oxley,1.0
+483,Oxley,1.0
+485,Oxley,1.0
+486,Oxley,1.0
+488,Oxley,1.0
+489,Oxley,1.0
+49,Kogarah,1.0
+491,Oxley,1.0
+492,Oxley,1.0
+493,Oxley,1.0
+494,Coffs Harbour,1.0
+495,Oxley,1.0
+499,Port Macquarie,1.0
+5,Oatley,1.0
+50,Kogarah,1.0
+500,Port Macquarie,1.0
+501,Port Macquarie,1.0
+502,Port Macquarie,1.0
+503,Oxley,1.0
+504,Oxley,1.0
+505,Oxley,1.0
+506,Coffs Harbour,1.0
+507,Oxley,1.0
+51,Rockdale,1.0
+510,Oxley,1.0
+511,Oxley,1.0
+512,Port Macquarie,1.0
+514,Oxley,1.0
+515,Oxley,1.0
+516,Oxley,1.0
+517,Coffs Harbour,1.0
+519,Coffs Harbour,1.0
+520,Oxley,1.0
+521,Oxley,1.0
+522,Oxley,1.0
+523,Oxley,1.0
+524,Oxley,1.0
+525,Oxley,1.0
+527,Oxley,1.0
+535,Wollongong,1.0
+536,Wollongong,1.0
+537,Wollongong,1.0
+538,Wollongong,1.0
+539,Wollongong,1.0
+54,Rockdale,1.0
+540,Wollongong,1.0
+541,Shellharbour,1.0
+542,Keira,1.0
+543,Keira,1.0
+544,Wollongong,1.0
+545,Wollongong,1.0
+546,Keira,1.0
+549,Shellharbour,1.0
+55,Oatley,1.0
+550,Wollongong,1.0
+551,Keira,1.0
+553,Keira,1.0
+554,Keira,1.0
+555,Wollongong,1.0
+556,Wollongong,1.0
+557,Wollongong,1.0
+559,Wollongong,1.0
+56,Oatley,1.0
+561,Keira,1.0
+562,Wollongong,1.0
+563,Wollongong,1.0
+564,Wollongong,1.0
+56472,Kogarah,1.0
+565,Wollongong,1.0
+56500,Bankstown,1.0
+56576,Wahroonga,1.0
+56586,Castle Hill,1.0
+566,Wollongong,1.0
+56721,Willoughby,1.0
+56862,Riverstone,1.0
+57174,Blacktown,1.0
+57247,Winston Hills,1.0
+57281,East Hills,1.0
+573,The Entrance,1.0
+574,The Entrance,1.0
+57477,Heffron,1.0
+576,The Entrance,1.0
+57630,Wakehurst,1.0
+577,The Entrance,1.0
+578,Wyong,1.0
+57834,North Shore,1.0
+579,Lake Macquarie,1.0
+57989,Prospect,1.0
+58,Oatley,1.0
+58026,Granville,1.0
+58040,Parramatta,1.0
+58042,Granville,1.0
+581,Swansea,1.0
+582,Swansea,1.0
+583,Wyong,1.0
+58308,North Shore,1.0
+58330,Wakehurst,1.0
+58331,Manly,1.0
+58332,Davidson,1.0
+58334,Manly,1.0
+58389,Bankstown,1.0
+58461,Tweed,1.0
+585,Wyong,1.0
+58535,Maitland,1.0
+58572,Cootamundra,1.0
+58578,Hornsby,1.0
+58585,Blacktown,1.0
+58618,Camden,1.0
+58661,Fairfield,1.0
+58665,Heathcote,1.0
+58670,Maitland,1.0
+58679,Bankstown,1.0
+58680,Canterbury,1.0
+587,The Entrance,1.0
+58710,North Shore,1.0
+58722,East Hills,1.0
+58723,Willoughby,1.0
+58778,Liverpool,1.0
+58798,Shellharbour,1.0
+58821,Kellyville,1.0
+589,Wyong,1.0
+59,Oatley,1.0
+590,Swansea,1.0
+591,Terrigal,1.0
+592,Wyong,1.0
+593,Wyong,1.0
+594,The Entrance,1.0
+595,The Entrance,1.0
+596,Gosford,1.0
+597,Swansea,1.0
+598,The Entrance,1.0
+599,The Entrance,1.0
+6,Oatley,1.0
+60,Oatley,1.0
+600,Swansea,1.0
+604,The Entrance,1.0
+605,Wyong,1.0
+606,The Entrance,1.0
+607,The Entrance,1.0
+608,Swansea,1.0
+609,Lake Macquarie,1.0
+61,Rockdale,1.0
+611,The Entrance,1.0
+612,The Entrance,1.0
+613,Wyong,1.0
+614,Wyong,1.0
+615,The Entrance,1.0
+616,Wyong,1.0
+617,The Entrance,1.0
+618,Terrigal,1.0
+619,Terrigal,1.0
+62,Rockdale,1.0
+620,Terrigal,1.0
+621,Terrigal,1.0
+622,Wyong,1.0
+623,Lake Macquarie,1.0
+624,Wyong,1.0
+625,Wyong,1.0
+628,Wyong,1.0
+63,Rockdale,1.0
+632,Epping,1.0
+634,Epping,1.0
+635,Epping,1.0
+636,Epping,1.0
+637,Epping,1.0
+638,Ryde,1.0
+639,Ryde,1.0
+640,Epping,1.0
+641,Epping,1.0
+642,Ryde,1.0
+643,Ryde,1.0
+645,Epping,1.0
+647,Ryde,1.0
+65,Kogarah,1.0
+650,Epping,1.0
+651,Epping,1.0
+65110,Hornsby,1.0
+65167,Camden,1.0
+65171,Kogarah,1.0
+652,Epping,1.0
+65205,Leppington,1.0
+65226,Clarence,1.0
+65236,Ballina,1.0
+65245,Summer Hill,1.0
+65249,Summer Hill,1.0
+65251,Coogee,1.0
+65265,Strathfield,1.0
+65440,Lismore,1.0
+65490,Wagga Wagga,1.0
+65498,Orange,1.0
+655,Ryde,1.0
+65686,Orange,1.0
+65694,Sydney,1.0
+657,Lane Cove,1.0
+65744,Auburn,1.0
+659,Epping,1.0
+65963,Tweed,1.0
+65982,Canterbury,1.0
+66005,Leppington,1.0
+66019,Summer Hill,1.0
+661,Ryde,1.0
+666,Monaro,1.0
+668,Monaro,1.0
+669,Bega,1.0
+67,Kogarah,1.0
+670,Bega,1.0
+671,South Coast,1.0
+672,Bega,1.0
+673,Bega,1.0
+675,Bega,1.0
+676,Bega,1.0
+677,Monaro,1.0
+679,Bega,1.0
+68,Rockdale,1.0
+680,Bega,1.0
+681,Monaro,1.0
+682,Monaro,1.0
+683,Monaro,1.0
+684,Bega,1.0
+685,Monaro,1.0
+686,South Coast,1.0
+687,Bega,1.0
+688,Monaro,1.0
+69,Rockdale,1.0
+690,Bega,1.0
+691,Bega,1.0
+692,Monaro,1.0
+694,Monaro,1.0
+696,Monaro,1.0
+697,Bega,1.0
+698,Monaro,1.0
+699,Bega,1.0
+7,East Hills,1.0
+701,Monaro,1.0
+702,Monaro,1.0
+703,Bega,1.0
+704,Monaro,1.0
+705,South Coast,1.0
+706,Bega,1.0
+707,South Coast,1.0
+708,Bega,1.0
+710,Bega,1.0
+711,Bega,1.0
+712,Monaro,1.0
+714,Bega,1.0
+716,Bega,1.0
+717,Monaro,1.0
+718,Monaro,1.0
+719,Monaro,1.0
+720,Monaro,1.0
+722,Monaro,1.0
+723,Monaro,1.0
+724,Monaro,1.0
+725,Bega,1.0
+726,Bega,1.0
+727,Bega,1.0
+728,Bega,1.0
+730,Bega,1.0
+731,Bega,1.0
+732,South Coast,1.0
+733,Monaro,1.0
+734,Bega,1.0
+735,Bega,1.0
+746,Albury,1.0
+747,Albury,1.0
+748,Albury,1.0
+75,Ryde,1.0
+751,Albury,1.0
+752,Albury,1.0
+755,Murray,1.0
+756,Murray,1.0
+757,Murray,1.0
+758,Murray,1.0
+759,Murray,1.0
+76,Lane Cove,1.0
+763,Murray,1.0
+764,Murray,1.0
+765,Albury,1.0
+769,Wagga Wagga,1.0
+77,Lane Cove,1.0
+773,Albury,1.0
+775,Albury,1.0
+776,Albury,1.0
+778,Murray,1.0
+78,Lane Cove,1.0
+780,Murray,1.0
+782,Murray,1.0
+784,Murray,1.0
+785,Murray,1.0
+786,Murray,1.0
+788,Albury,1.0
+789,Albury,1.0
+79,Ryde,1.0
+792,Albury,1.0
+793,Albury,1.0
+794,Albury,1.0
+795,Albury,1.0
+79612,Kogarah,1.0
+79613,Kogarah,1.0
+79614,Kogarah,1.0
+797,Murray,1.0
+79715,Canterbury,1.0
+79724,Summer Hill,1.0
+798,Albury,1.0
+79812,Wahroonga,1.0
+79866,East Hills,1.0
+79934,Auburn,1.0
+79935,Auburn,1.0
+79987,Willoughby,1.0
+8,East Hills,1.0
+80,Ryde,1.0
+800,Albury,1.0
+801,Murray,1.0
+80121,Oatley,1.0
+80139,Kogarah,1.0
+80144,Rockdale,1.0
+80185,Miranda,1.0
+80293,Terrigal,1.0
+80492,Fairfield,1.0
+805,Albury,1.0
+80591,Fairfield,1.0
+806,Albury,1.0
+80600,Prospect,1.0
+80602,Prospect,1.0
+80662,Summer Hill,1.0
+80671,Newtown,1.0
+807,Wagga Wagga,1.0
+80821,Liverpool,1.0
+80923,Wallsend,1.0
+81,Epping,1.0
+81033,Port Stephens,1.0
+81102,Granville,1.0
+812,Murray,1.0
+81369,North Shore,1.0
+815,Murray,1.0
+81651,Granville,1.0
+81772,Summer Hill,1.0
+818,Murray,1.0
+81807,Auburn,1.0
+81809,Auburn,1.0
+81827,Strathfield,1.0
+82,Epping,1.0
+820,Albury,1.0
+82081,Wallsend,1.0
+821,Murray,1.0
+822,Albury,1.0
+82268,Wollongong,1.0
+82275,Oatley,1.0
+82325,Summer Hill,1.0
+82327,Strathfield,1.0
+82386,Auburn,1.0
+824,Wagga Wagga,1.0
+82402,Auburn,1.0
+82404,Strathfield,1.0
+82406,Strathfield,1.0
+82411,Sydney,1.0
+82430,Cabramatta,1.0
+82440,Badgerys Creek,1.0
+82474,Macquarie Fields,1.0
+82485,Macquarie Fields,1.0
+82528,Hornsby,1.0
+82531,Londonderry,1.0
+82532,Riverstone,1.0
+82533,Badgerys Creek,1.0
+82536,Monaro,1.0
+82540,Camden,1.0
+82543,Badgerys Creek,1.0
+82561,Willoughby,1.0
+82567,Sydney,1.0
+82572,Sydney,1.0
+82588,Summer Hill,1.0
+82783,Canterbury,1.0
+82790,Heffron,1.0
+82820,Granville,1.0
+82821,Winston Hills,1.0
+82887,Granville,1.0
+829,Albury,1.0
+82951,Drummoyne,1.0
+82953,Granville,1.0
+82960,Port Stephens,1.0
+82975,Lane Cove,1.0
+82977,Camden,1.0
+82981,Badgerys Creek,1.0
+82982,Summer Hill,1.0
+82983,Heffron,1.0
+82984,Newtown,1.0
+82985,Newtown,1.0
+82988,Newtown,1.0
+82989,Sydney,1.0
+82990,Vaucluse,1.0
+83028,Badgerys Creek,1.0
+83029,Prospect,1.0
+83038,Ballina,1.0
+83039,Tweed,1.0
+83040,Ballina,1.0
+83041,Ballina,1.0
+83042,Tweed,1.0
+83043,Tweed,1.0
+83044,Granville,1.0
+83048,Camden,1.0
+83197,Northern Tablelands,1.0
+83198,Epping,1.0
+83199,Ryde,1.0
+83200,Ryde,1.0
+83211,Ballina,1.0
+83270,Epping,1.0
+83272,Kellyville,1.0
+83274,Winston Hills,1.0
+83279,Tweed,1.0
+83287,Ballina,1.0
+83290,Orange,1.0
+83370,Wyong,1.0
+83371,The Entrance,1.0
+83372,The Entrance,1.0
+83373,Wyong,1.0
+83374,Wyong,1.0
+83389,Drummoyne,1.0
+83420,Kellyville,1.0
+83422,Kellyville,1.0
+83426,Kellyville,1.0
+83428,Kellyville,1.0
+83429,Camden,1.0
+83430,Castle Hill,1.0
+83431,Kellyville,1.0
+83436,Wallsend,1.0
+83443,Swansea,1.0
+83450,Strathfield,1.0
+83453,Swansea,1.0
+83456,Fairfield,1.0
+83458,Bankstown,1.0
+83460,Manly,1.0
+83462,North Shore,1.0
+83463,Manly,1.0
+83464,Manly,1.0
+83469,Leppington,1.0
+83474,East Hills,1.0
+83478,Strathfield,1.0
+83495,Pittwater,1.0
+83497,Lane Cove,1.0
+83499,Gosford,1.0
+835,Albury,1.0
+83500,Oxley,1.0
+83501,Port Macquarie,1.0
+83502,Dubbo,1.0
+83503,Pittwater,1.0
+83504,Terrigal,1.0
+83505,Campbelltown,1.0
+83506,Campbelltown,1.0
+83509,Davidson,1.0
+83513,Gosford,1.0
+83514,Miranda,1.0
+83518,Cronulla,1.0
+83519,Wakehurst,1.0
+83520,Holsworthy,1.0
+83521,Macquarie Fields,1.0
+83522,Liverpool,1.0
+83524,Liverpool,1.0
+83525,Macquarie Fields,1.0
+83526,Leppington,1.0
+83527,Leppington,1.0
+83528,Wakehurst,1.0
+83531,Pittwater,1.0
+83532,Wakehurst,1.0
+83533,Cronulla,1.0
+83535,Wollongong,1.0
+83538,Terrigal,1.0
+83544,Bega,1.0
+83547,South Coast,1.0
+83549,Keira,1.0
+83551,Wahroonga,1.0
+83552,Wahroonga,1.0
+83553,Davidson,1.0
+83554,Willoughby,1.0
+83555,North Shore,1.0
+83556,Willoughby,1.0
+83558,Gosford,1.0
+83560,Lane Cove,1.0
+83561,Holsworthy,1.0
+83564,Ryde,1.0
+83567,Albury,1.0
+83568,Ryde,1.0
+83569,Albury,1.0
+83570,Miranda,1.0
+83571,Epping,1.0
+83572,Miranda,1.0
+83573,Heathcote,1.0
+83575,Lane Cove,1.0
+83580,Epping,1.0
+83582,Hornsby,1.0
+83588,Mount Druitt,1.0
+83591,Prospect,1.0
+83593,Riverstone,1.0
+83594,Riverstone,1.0
+83595,Penrith,1.0
+83596,Londonderry,1.0
+83597,Penrith,1.0
+83598,Penrith,1.0
+83599,Penrith,1.0
+83600,Badgerys Creek,1.0
+83604,Holsworthy,1.0
+83605,Rockdale,1.0
+83606,Canterbury,1.0
+83607,Kogarah,1.0
+83609,Canterbury,1.0
+83610,Rockdale,1.0
+83612,Holsworthy,1.0
+83616,Rockdale,1.0
+83619,Murray,1.0
+83620,Albury,1.0
+83621,Keira,1.0
+83625,Penrith,1.0
+83626,Penrith,1.0
+83627,Blacktown,1.0
+83628,Blacktown,1.0
+83630,Oatley,1.0
+83635,East Hills,1.0
+83637,Coffs Harbour,1.0
+83648,Willoughby,1.0
+83657,Cessnock,1.0
+83659,Riverstone,1.0
+83669,Parramatta,1.0
+83678,Wahroonga,1.0
+83687,Mount Druitt,1.0
+83691,Cessnock,1.0
+83694,Maitland,1.0
+837,Wagga Wagga,1.0
+83716,Coogee,1.0
+83717,Camden,1.0
+83718,Vaucluse,1.0
+83719,Sydney,1.0
+83727,Balmain,1.0
+83735,Balmain,1.0
+83736,Balmain,1.0
+83739,Maroubra,1.0
+83740,Heffron,1.0
+83741,Maroubra,1.0
+83742,Maroubra,1.0
+83744,Maroubra,1.0
+83745,Coogee,1.0
+83751,Coffs Harbour,1.0
+83752,Port Macquarie,1.0
+83753,Coffs Harbour,1.0
+83779,Maroubra,1.0
+83783,Prospect,1.0
+83797,Campbelltown,1.0
+838,Albury,1.0
+83806,Badgerys Creek,1.0
+83831,Wollondilly,1.0
+83839,Castle Hill,1.0
+83842,Monaro,1.0
+83843,Heffron,1.0
+83862,Terrigal,1.0
+83865,Vaucluse,1.0
+83872,Prospect,1.0
+83882,Balmain,1.0
+83890,Oxley,1.0
+839,Murray,1.0
+83925,Hornsby,1.0
+83928,Prospect,1.0
+83938,Tweed,1.0
+83949,Pittwater,1.0
+84,Lane Cove,1.0
+840,Murray,1.0
+842,Albury,1.0
+843,Albury,1.0
+845,Murray,1.0
+846,Albury,1.0
+847,Albury,1.0
+849,Murray,1.0
+853,Wagga Wagga,1.0
+862,Liverpool,1.0
+863,Leppington,1.0
+866,Badgerys Creek,1.0
+867,Liverpool,1.0
+868,Cabramatta,1.0
+869,Cabramatta,1.0
+87,Lane Cove,1.0
+870,Cabramatta,1.0
+871,Liverpool,1.0
+872,Holsworthy,1.0
+873,Cabramatta,1.0
+874,Cabramatta,1.0
+875,Liverpool,1.0
+876,Cabramatta,1.0
+877,Liverpool,1.0
+878,Leppington,1.0
+879,Liverpool,1.0
+882,Liverpool,1.0
+883,Badgerys Creek,1.0
+884,Liverpool,1.0
+885,Liverpool,1.0
+8868,Oxley,1.0
+8869,Ryde,1.0
+887,Cabramatta,1.0
+8870,Maitland,1.0
+8874,Hawkesbury,1.0
+8875,Blue Mountains,1.0
+8879,Coffs Harbour,1.0
+888,Cabramatta,1.0
+8880,Cabramatta,1.0
+8881,Newtown,1.0
+8882,Newtown,1.0
+889,Badgerys Creek,1.0
+89,Lane Cove,1.0
+890,Holsworthy,1.0
+892,Liverpool,1.0
+893,Cabramatta,1.0
+894,Fairfield,1.0
+895,Badgerys Creek,1.0
+896,Liverpool,1.0
+89902,Vaucluse,1.0
+89903,Sydney,1.0
+90,Lane Cove,1.0
+900,Goulburn,1.0
+902,Goulburn,1.0
+903,Goulburn,1.0
+904,Cootamundra,1.0
+905,Goulburn,1.0
+906,Goulburn,1.0
+907,Goulburn,1.0
+908,South Coast,1.0
+909,Kiama,1.0
+91,Lane Cove,1.0
+910,Goulburn,1.0
+911,South Coast,1.0
+912,Cootamundra,1.0
+913,Cootamundra,1.0
+915,Goulburn,1.0
+916,South Coast,1.0
+917,South Coast,1.0
+918,South Coast,1.0
+919,Goulburn,1.0
+92,Ryde,1.0
+920,South Coast,1.0
+921,Goulburn,1.0
+922,Kiama,1.0
+924,Goulburn,1.0
+926,Goulburn,1.0
+928,Goulburn,1.0
+929,Goulburn,1.0
+930,Goulburn,1.0
+931,Goulburn,1.0
+932,South Coast,1.0
+933,Goulburn,1.0
+934,Goulburn,1.0
+936,South Coast,1.0
+938,Kiama,1.0
+939,Cootamundra,1.0
+94,Lane Cove,1.0
+940,Goulburn,1.0
+94025,Tweed,1.0
+942,South Coast,1.0
+943,Goulburn,1.0
+946,Cootamundra,1.0
+948,Cootamundra,1.0
+95,Lane Cove,1.0
+950,South Coast,1.0
+951,South Coast,1.0
+952,Kiama,1.0
+954,Kiama,1.0
+959,Cootamundra,1.0
+96,Lane Cove,1.0
+960,South Coast,1.0
+962,South Coast,1.0
+963,South Coast,1.0
+964,South Coast,1.0
+966,Goulburn,1.0
+967,Goulburn,1.0
+968,Goulburn,1.0
+969,Goulburn,1.0
+97,Lane Cove,1.0
+970,South Coast,1.0
+972,South Coast,1.0
+974,South Coast,1.0
+97405,Davidson,1.0
+97407,Cronulla,1.0
+97408,Hawkesbury,1.0
+97410,Penrith,1.0
+97411,Miranda,1.0
+97412,Miranda,1.0
+97413,Holsworthy,1.0
+97473,Port Macquarie,1.0
+97476,Port Macquarie,1.0
+97560,Newtown,1.0
+97561,Newtown,1.0
+97562,Sydney,1.0
+97563,Sydney,1.0
+97564,Heffron,1.0
+97566,Balmain,1.0
+97588,Macquarie Fields,1.0
+97593,Balmain,1.0
+97595,Balmain,1.0
+976,Goulburn,1.0
+97630,Davidson,1.0
+97647,Oatley,1.0
+97648,Kogarah,1.0
+97651,Tamworth,1.0
+97658,Kogarah,1.0
+977,Cootamundra,1.0
+97715,Manly,1.0
+97732,Badgerys Creek,1.0
+97758,Wyong,1.0
+97784,Wallsend,1.0
+97796,Keira,1.0
+978,Cootamundra,1.0
+97802,South Coast,1.0
+97803,Wollongong,1.0
+97810,Coogee,1.0
+97827,Wollongong,1.0
+97829,Kiama,1.0
+97857,Camden,1.0
+97874,Albury,1.0
+97885,Granville,1.0
+97886,Granville,1.0
+97903,Cronulla,1.0
+97904,Willoughby,1.0
+97916,Mount Druitt,1.0
+97931,Drummoyne,1.0
+97938,Parramatta,1.0
+97941,Londonderry,1.0
+97943,Badgerys Creek,1.0
+97944,Londonderry,1.0
+97946,Londonderry,1.0
+97950,Kellyville,1.0
+97951,Hawkesbury,1.0
+97968,Winston Hills,1.0
+97969,Riverstone,1.0
+97970,Lismore,1.0
+97972,Riverstone,1.0
+97980,Castle Hill,1.0
+97983,Wagga Wagga,1.0
+97984,Cootamundra,1.0
+97986,Cootamundra,1.0
+97987,Cootamundra,1.0
+97988,Wagga Wagga,1.0
+97993,Coffs Harbour,1.0
+97994,Lismore,1.0
+97996,Terrigal,1.0
+97997,Camden,1.0
+97999,Leppington,1.0
+98,Ryde,1.0
+980,Cootamundra,1.0
+98000,Campbelltown,1.0
+98005,Rockdale,1.0
+98008,Summer Hill,1.0
+98009,Summer Hill,1.0
+98010,Balmain,1.0
+98023,Badgerys Creek,1.0
+98028,Auburn,1.0
+98030,Bankstown,1.0
+98031,Bathurst,1.0
+98034,Cabramatta,1.0
+98036,Myall Lakes,1.0
+98038,East Hills,1.0
+98048,Maitland,1.0
+98049,Maitland,1.0
+98064,Londonderry,1.0
+98075,Davidson,1.0
+98091,Londonderry,1.0
+98101,Port Macquarie,1.0
+98132,Riverstone,1.0
+98136,Macquarie Fields,1.0
+98138,Liverpool,1.0
+98140,Monaro,1.0
+98141,Bega,1.0
+98142,Bega,1.0
+98143,Goulburn,1.0
+98144,Monaro,1.0
+98145,Monaro,1.0
+98159,Newcastle,1.0
+98160,Sydney,1.0
+98161,Balmain,1.0
+98178,Summer Hill,1.0
+982,Cootamundra,1.0
+985,Summer Hill,1.0
+986,Summer Hill,1.0
+987,Summer Hill,1.0
+988,Summer Hill,1.0
+989,Canterbury,1.0
+990,Canterbury,1.0
+991,Canterbury,1.0
+992,Canterbury,1.0
+995,Canterbury,1.0
+996,Strathfield,1.0
+997,Summer Hill,1.0
+999,Strathfield,1.0

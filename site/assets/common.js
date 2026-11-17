@@ -123,7 +123,7 @@ function timelineSlider(container, points, opts = {}) {
       const cur = new Date((dayOf(points[0].date) + t) * 864e5).toISOString().slice(0, 10);
       const next = points[mark + 1].latest ? "Latest" : fmtSnapShort(points[mark + 1].date);
       const figs = points[mark].latest ? "Latest" : fmtSnapShort(points[mark].date);
-      label.textContent = `${fmtSnapDate(cur)} — blended between ${figs} and ${next} runs; figures show ${figs}`;
+      label.textContent = `${fmtSnapDate(cur)}: map blended between ${figs} and ${next} runs; figures show ${figs}`;
     } else {
       label.textContent = points[mark].latest ? `Latest · ${fmtSnapDate(points[mark].date)}` : `Polls to ${fmtSnapDate(points[mark].date)}`;
     }

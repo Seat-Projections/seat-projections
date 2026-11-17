@@ -1,0 +1,737 @@
+old_district,venue,votes,method,lat,lon
+Albany,Albany PCYC,263,unlocated,,
+Albany,Albany Primary School,495,aec-name,-35.02367,117.88314
+Albany,Albany Sea Rescue Hall,205,nominatim,-35.028019,117.8841916
+Albany,Albany Senior Citizens Centre,767,nominatim,-35.028019,117.8841916
+Albany,Albany Surf Life Saving Club,333,nominatim,-35.0241574,117.9159372
+Albany,Elleker Hall,307,aec-name,-35.008910494698,117.728700073328
+Albany,Flinders Park Primary School,710,nominatim,-34.9782399,117.9300915
+Albany,Great Southern Grammar,356,nominatim,-34.9466108,117.9704591
+Albany,King River Hall,484,aec-name,-34.9343,117.901
+Albany,Little Grove Primary School,585,aec-name,-35.0659385184748,117.8672367148
+Albany,Mount Lockyer Primary School,1018,nominatim,-35.003364,117.8560972
+Albany,Napier Hall,109,aec-name,-34.8301,117.96
+Albany,North Albany Senior High School,323,nominatim,-34.990555,117.8629827
+Albany,Redmond Hall,116,aec-name,-34.8864,117.691
+Albany,Spencer Park Primary School,741,aec-name,-35.0055306966073,117.901888535042
+Albany,Wellstead Community Resource Centre,54,nominatim,-34.4952102,118.6041245
+Albany,Yakamia Primary School,767,aec-name,-35.00212652,117.87379062
+Albany,Youngs Siding Hall,244,aec-name,-35.0123965345193,117.52194067705
+Armadale,Armadale Primary School,591,aec-name,-32.1518665000306,115.999795250622
+Armadale,Armadale Senior High School,288,nominatim,-32.1615945,116.0143208
+Armadale,Australian Christian College Darling Downs,262,nominatim,-32.1746416,116.0043671
+Armadale,Cecil Andrews Senior High School,1472,nominatim,-32.1416607,115.9923371
+Armadale,Challis Primary School,1194,nominatim,-32.1393137,116.0006053
+Armadale,Dale Christian School,1198,nominatim,-32.1596371,115.9988622
+Armadale,Free Reformed Church,350,nominatim,-32.1190598,115.9901471
+Armadale,Grovelands Primary School,831,nominatim,-32.1202749,115.9991436
+Armadale,Kelmscott Primary School,394,aec-name,-32.1210891258524,116.010318902908
+Armadale,Kelmscott Senior High School,796,nominatim,-32.12137,116.0109595
+Armadale,Kelmscott Voting Centre,131,aec-name,-32.1210891258524,116.010318902908
+Armadale,Kingsley Primary School,482,nominatim,-32.1351392,116.0152787
+Armadale,Westfield Park Primary School,780,nominatim,-32.1102446,116.0054472
+Balcatta,Balcatta Primary School,1505,aec-name,-31.8809166083172,115.827280704816
+Balcatta,Balcatta Senior High School,1288,nominatim,-31.8748729,115.8129706
+Balcatta,Osborne Park Community Centre,872,aec-name,-31.8988,115.825
+Balcatta,Osborne Primary School,1410,nominatim,-31.898966,115.825009
+Balcatta,St Denis School,1059,nominatim,-31.9097484,115.8443188
+Balcatta,Takari Primary School,1458,nominatim,-31.8693746,115.8217358
+Balcatta,Tuart Hill Primary School,1203,aec-name,-31.9019588,115.8407144
+Balcatta,Westminster Primary School,1075,aec-name,-31.8705113976401,115.838688612401
+Baldivis,Baldivis Gardens Primary School,336,nominatim,-32.302003,115.8103116
+Baldivis,Baldivis Primary School,1375,aec-name,-32.34341327,115.80069058
+Baldivis,John Wellard Community Centre,609,unlocated,,
+Baldivis,Makybe Rise Primary School,1493,nominatim,-32.3457763,115.8184809
+Baldivis,Rivergums Primary School,779,nominatim,-32.3354956,115.8305395
+Baldivis,Sheoak Grove Primary School,407,nominatim,-32.3232248,115.8220072
+Baldivis,South Coast Baptist College,560,nominatim,-32.3154124,115.7575022
+Baldivis,Tranby College,1437,nominatim,-32.3409979,115.8001588
+Baldivis,Tuart Rise Primary School,932,nominatim,-32.3534918,115.8141791
+Baldivis,Waikiki Primary School,372,aec-name,-32.3171,115.751
+Baldivis,Wellard Primary School,443,aec-name,-32.25588661,115.87309073
+Bassendean,Anzac Terrace Primary School,1127,nominatim,-31.8966542,115.9373687
+Bassendean,Bassendean Primary School,1770,aec-name,-31.8971766023275,115.937260690376
+Bassendean,Beechboro Primary School,971,aec-name,-31.8677962822792,115.935767818373
+Bassendean,Cracovia Club,1056,unlocated,,
+Bassendean,Cyril Jackson Senior Campus,525,nominatim,-31.9129921,115.9425644
+Bassendean,East Beechboro Primary School,1013,aec-name,-31.8728120714319,115.951617426494
+Bassendean,Eden Hill Primary School,1453,aec-name,-31.8928973518501,115.945615568862
+Bassendean,Hampton Senior High School,953,nominatim,-31.8906505,115.9269493
+Bassendean,Lockridge Primary School,892,aec-name,-31.8827766014809,115.951530687257
+Bassendean,Swan Active Beechboro,410,nominatim,-31.8748422,115.9398083
+Bateman,Applecross Primary School,1584,aec-name,-32.0108298782085,115.839609092939
+Bateman,Applecross Voting Centre,111,aec-name,-32.0108298782085,115.839609092939
+Bateman,Ardross Primary School,608,aec-name,-32.01901726,115.83905284
+Bateman,Bateman Primary School,850,aec-name,-32.0506466080665,115.845352165149
+Bateman,Booragoon Primary School,876,aec-name,-32.0355210290439,115.826470206703
+Bateman,Brentwood Primary School,972,aec-name,-32.0414841379248,115.847187734188
+Bateman,Corpus Christi College,248,nominatim,-32.0570317,115.8428232
+Bateman,Kardinya Primary School,948,aec-name,-32.0622099,115.8228171
+Bateman,Mount Pleasant Baptist Church,171,aec-name,-32.0301866079776,115.845330713594
+Bateman,Mount Pleasant Primary School,1400,aec-name,-32.0301866079776,115.845330713594
+Bateman,St Benedict's Primary School,478,nominatim,-32.0181905,115.8396912
+Bateman,Winthrop Primary School,1661,aec-name,-32.0546266087761,115.832830717248
+Belmont,Belmont City College,940,aec-name,-31.9441543633231,115.922917475969
+Belmont,Belmont Park Tennis Club,361,unlocated,,
+Belmont,Belmont Primary School,696,aec-name,-31.9441543633231,115.922917475969
+Belmont,Belmont Voting Centre,906,aec-name,-31.9441543633231,115.922917475969
+Belmont,Carlisle Primary School,729,aec-name,-31.9812322,115.9122758
+Belmont,Hazelmere Community Hall,782,aec-name,-31.9011003292487,115.99379462261
+Belmont,Kewdale Primary School,713,aec-name,-31.9761905922992,115.944151405353
+Belmont,Nations Church,1072,nominatim,-31.9191421,115.916218
+Belmont,Redcliffe Primary School,710,aec-name,-31.9349150420984,115.944482222191
+Belmont,St Augustine's School,876,nominatim,-31.959863,115.9063385
+Bicton,Attadale Primary School,1704,aec-name,-32.0249958504316,115.800578329609
+Bicton,Bicton Primary School,1586,aec-name,-32.03271544,115.78655881
+Bicton,East Fremantle Primary School,883,aec-name,-32.0478793628319,115.759159097295
+Bicton,Melville Primary School,1511,aec-name,-32.0356366107743,115.795240721187
+Bicton,Melville Recreation Centre,496,aec-name,-32.0356366107743,115.795240721187
+Bicton,Melville Senior High School,411,nominatim,-32.046239,115.8054855
+Bicton,Palmyra Primary School,1541,aec-name,-32.045092373369,115.785208869903
+Bicton,Richmond Primary School,633,nominatim,-32.036784,115.7700198
+Bicton,St Peter's Anglican Church Hall,566,unlocated,,
+Bicton,Tricolore Community Centre,528,unlocated,,
+Bunbury,Adam Road Primary School,1012,nominatim,-33.3582552,115.6352215
+Bunbury,Bunbury Catholic College,370,aec-name,-33.333043215133,115.638114855354
+Bunbury,Bunbury Pre-Primary Centre,643,nominatim,-33.318914,115.6359446
+Bunbury,Bunbury Voting Centre,671,aec-name,-33.333043215133,115.638114855354
+Bunbury,Carey Park Primary School,820,aec-name,-33.3490486845072,115.650520774753
+Bunbury,Cooinda Primary School,646,nominatim,-33.3342956,115.6519303
+Bunbury,Dalyellup College,499,aec-name,-33.3998434862709,115.62284465297
+Bunbury,Dalyellup Primary School,1428,aec-name,-33.3998434862709,115.62284465297
+Bunbury,ECU South West Campus,130,nominatim,-33.3667816,115.6533377
+Bunbury,Maidens Park Primary School,700,nominatim,-33.3699914,115.627844
+Bunbury,Milligan Community Learning and Resource Centre,439,unlocated,,
+Bunbury,Picton Primary School,626,nominatim,-33.3407958,115.6883259
+Bunbury,South Bunbury Pre-Primary Centre,690,aec-name,-33.340867,115.643044
+Burns Beach,Bramston Park Community Sporting Facility,729,nominatim,-31.7265166,115.7322877
+Burns Beach,Clarkson Community High School,800,nominatim,-31.6773201,115.7264047
+Burns Beach,Clarkson Youth Centre,582,nominatim,-31.6788865,115.717689
+Burns Beach,Currambine Primary School,915,aec-name,-31.7336366120061,115.749110704702
+Burns Beach,Gumblossom Community Centre,649,nominatim,-31.6717773,115.7049539
+Burns Beach,Kinross Primary School,1186,aec-name,-31.7187866126252,115.736820705309
+Burns Beach,MacNaughton Clubrooms,138,nominatim,-31.7171713,115.7419996
+Burns Beach,Mindarie Primary School,1495,aec-name,-31.6871166140159,115.709390706768
+Burns Beach,Mindarie Senior College,384,aec-name,-31.6871166140159,115.709390706768
+Burns Beach,Quinns Beach Primary School,677,nominatim,-31.6579831,115.6950298
+Burns Beach,Somerly Primary School,801,nominatim,-31.6853226,115.7278308
+Butler,Alkimos Beach Primary School,755,nominatim,-31.6250873,115.6784614
+Butler,Butler College,258,aec-name,-31.6460965142057,115.702747044572
+Butler,Butler Primary School,882,aec-name,-31.6460965142057,115.702747044572
+Butler,Butler Voting Centre,1183,aec-name,-31.6460965142057,115.702747044572
+Butler,East Butler Primary School,940,aec-name,-31.643766,115.711758
+Butler,Merriwa Primary School,1221,aec-name,-31.6686850837476,115.712734954888
+Butler,Northshore Christian Grammar School,178,nominatim,-31.6016012,115.6952059
+Butler,RAAFA Estate - Merriwa,323,nominatim,-31.6715525,115.7193216
+Butler,Two Rocks Primary School,778,aec-name,-31.4893033797762,115.591160968248
+Butler,Yanchep Beach Primary School,1234,nominatim,-31.5436397,115.631833
+Butler,Yanchep Secondary College,684,nominatim,-31.5526445,115.6428248
+Cannington,Bannister Creek Primary School,828,nominatim,-32.0397904,115.9285523
+Cannington,Beckenham Community Church,946,aec-name,-32.0254766015575,115.961660696566
+Cannington,Brookman Primary School,931,nominatim,-32.036706,115.9390488
+Cannington,Fountain College,450,nominatim,-32.0362247,115.9195444
+Cannington,Gibbs Street Primary School,1413,nominatim,-32.0080333,115.9540263
+Cannington,Lynwood Christian Church,526,nominatim,-32.0289853,115.930239
+Cannington,Parkwood Primary School,991,aec-name,-32.0419633741239,115.916209144328
+Cannington,Sevenoaks Senior College,895,nominatim,-32.0123651,115.9422415
+Cannington,St Norbert College,669,nominatim,-32.0046172,115.9403518
+Carine,Carine Senior High School,1632,nominatim,-31.8523429,115.7759274
+Carine,Davallia Primary School,1073,nominatim,-31.8408152,115.7875202
+Carine,Duncraig Primary School,1249,aec-name,-31.831966611236,115.77076070913
+Carine,Glengarry Primary School,1333,nominatim,-31.8275029,115.7822456
+Carine,Karrinyup Primary School,1510,aec-name,-31.8696575210946,115.776299881217
+Carine,Marmion Primary School,1154,aec-name,-31.8441666119161,115.759500711662
+Carine,North Beach Community Centre,417,aec-name,-31.8596166118941,115.761120712611
+Carine,North Beach Primary School,546,aec-name,-31.8596166118941,115.761120712611
+Carine,Poynter Primary School,1103,nominatim,-31.8418612,115.7744538
+Carine,Sacred Heart College,660,nominatim,-31.8275786,115.7465863
+Carine,Sorrento Primary School,967,aec-name,-31.8314766117855,115.760840710502
+Central Wheatbelt,Bakers Hill Primary School,359,aec-name,-31.7473382703642,116.462547373011
+Central Wheatbelt,Bencubbin Community Resource Centre,162,nominatim,-30.8112399,117.8604874
+Central Wheatbelt,Beverley Community Resource Centre,610,nominatim,-32.109423,116.9245547
+Central Wheatbelt,Boddington Shire Chambers,502,aec-name,-32.8015640478604,116.467098650809
+Central Wheatbelt,Brookton District High School,361,nominatim,-32.3720542,117.0087623
+Central Wheatbelt,Bruce Rock Emergency Centre,357,nominatim,-31.8736847,118.1488956
+Central Wheatbelt,Corrigin Senior Citizens Centre,460,nominatim,-32.3687255,117.8001477
+Central Wheatbelt,Cuballing Agricultural Hall,202,nominatim,-32.819005,117.1778152
+Central Wheatbelt,Cunderdin District High School,300,nominatim,-31.6559034,117.2440779
+Central Wheatbelt,Greenhills Hall,114,aec-name,-31.9215336,116.9647408
+Central Wheatbelt,Hyden Community Resource Centre,196,nominatim,-32.4490242,118.8601301
+Central Wheatbelt,Kellerberrin Memorial Hall,434,aec-name,-31.6338465097903,117.722340418059
+Central Wheatbelt,Kondinin Primary School,123,aec-name,-32.4940688487743,118.263721124733
+Central Wheatbelt,Koorda Emergency Centre,155,nominatim,-30.8261066,117.4846683
+Central Wheatbelt,Kulin Resource Centre,265,aec-name,-32.6702587,118.1547618
+Central Wheatbelt,Merredin Community Resource Centre,362,nominatim,-31.4589545,118.2760425
+Central Wheatbelt,Mukinbudin Shire Chambers,216,aec-name,-30.9159764838354,118.207520304979
+Central Wheatbelt,Narembeen District High School,246,nominatim,-32.0633517,118.3912571
+Central Wheatbelt,Northam Primary School,271,aec-name,-31.6560754683037,116.671264197653
+Central Wheatbelt,Northam Town Hall,672,aec-name,-31.6560754683037,116.671264197653
+Central Wheatbelt,Pingelly Recreation and Cultural Centre,376,nominatim,-32.529892,117.0905097
+Central Wheatbelt,Popanyinning Agricultural Hall,86,unlocated,,
+Central Wheatbelt,Quairading Town Hall,385,aec-name,-32.009529,117.402607
+Central Wheatbelt,Southern Cross Community Centre,297,aec-name,-31.23044541,119.32804803
+Central Wheatbelt,Tammin Lesser Hall,149,unlocated,,
+Central Wheatbelt,Trayning (Don Mason) Community Centre,105,unlocated,,
+Central Wheatbelt,Wandering Primary School,173,aec-name,-32.6778865665935,116.672720641402
+Central Wheatbelt,Westonia Shire Office,76,aec-name,-31.3022964639621,118.696780260111
+Central Wheatbelt,Wickepin Community Centre,219,aec-name,-32.78597653,117.49621053
+Central Wheatbelt,Wundowie Community Hall,436,aec-name,-31.7615329,116.3825512
+Central Wheatbelt,Wyalkatchem Community Resource Centre,185,nominatim,-31.196408,117.4332536
+Central Wheatbelt,York District High School,1028,nominatim,-31.8936466,116.7600512
+Churchlands,Churchlands Primary School,1350,aec-name,-31.9272,115.793
+Churchlands,Churchlands Senior High School,354,nominatim,-31.9176252,115.789551
+Churchlands,Doubleview Primary School,946,aec-name,-31.8984374511453,115.777672353218
+Churchlands,Floreat Park Primary School,843,nominatim,-31.9367549,115.7911175
+Churchlands,Floreat Primary - Early Education Centre,587,unlocated,,
+Churchlands,Kapinara Primary School,984,nominatim,-31.9252279,115.7629046
+Churchlands,Lake Monger Primary School,838,nominatim,-31.9240326,115.8213742
+Churchlands,Wembley Downs Primary School,1381,aec-name,-31.9103366115896,115.770620715132
+Churchlands,Wembley Primary School,1518,nominatim,-31.9347881,115.8104016
+Churchlands,West Leederville Primary School,1096,aec-name,-31.9392732582612,115.832950178446
+Churchlands,WestCity Church - Wembley,473,unlocated,,
+Churchlands,Woodlands Primary School,1286,aec-name,-31.9109666105249,115.78984071244
+Cockburn,Atwell Primary School,1467,aec-name,-32.1352666071976,115.867840718363
+Cockburn,Beeliar Primary School,1093,aec-name,-32.1329605897897,115.820733604965
+Cockburn,Coogee Primary School,1172,aec-name,-32.1270766124753,115.771830731549
+Cockburn,Harmony Primary School,983,nominatim,-32.1506844,115.8643586
+Cockburn,Jandakot Primary School,1238,nominatim,-32.1387421,115.8458516
+Cockburn,Lakeland Senior High School,302,nominatim,-32.1089082,115.8461259
+Cockburn,Mater Christi Catholic Primary School,185,nominatim,-32.1251053,115.8267249
+Cockburn,South Coogee Primary School,1304,nominatim,-32.1297744,115.7973735
+Cockburn,St Jerome's School,419,nominatim,-32.1215351,115.7826543
+Cockburn,Success Primary School,1063,aec-name,-32.1525342082827,115.849550282312
+Cockburn,Yangebup Primary School,1222,aec-name,-32.1192066097909,115.819620724074
+Collie-Preston,Allanson Primary School,144,aec-name,-33.3357954898015,116.099015796014
+Collie-Preston,Australind Primary School,318,aec-name,-33.2796880705291,115.716575479312
+Collie-Preston,Boyanup Primary School,582,aec-name,-33.4862969605987,115.731115753432
+Collie-Preston,Capel Community Centre,1012,aec-name,-33.5536,115.563
+Collie-Preston,Clifton Park Primary School,267,aec-name,-33.3090466209091,115.711990832319
+Collie-Preston,Collie Senior High School,273,nominatim,-33.3641566,116.1563623
+Collie-Preston,Dardanup Primary School,610,aec-name,-33.3983616987579,115.757563122483
+Collie-Preston,Donnybrook Soldiers Memorial Hall,1387,unlocated,,
+Collie-Preston,Eaton Community College,1293,aec-name,-33.3218066214722,115.702850834704
+Collie-Preston,Eaton Hall,627,aec-name,-33.3218066214722,115.702850834704
+Collie-Preston,Ferguson Hall,136,aec-name,-33.4319,115.839
+Collie-Preston,Gelorup Community Centre,440,aec-name,-33.4101,115.64197
+Collie-Preston,Kirup Hall,181,aec-name,-33.7065926426056,115.892861266136
+Collie-Preston,Margaretta Wilson Centre,444,unlocated,,
+Collie-Preston,North Collie Hall,337,aec-name,-33.34810719,116.15830464
+Collie-Preston,River Valley Primary School,391,nominatim,-33.3087854,115.8146369
+Collie-Preston,Treendale Primary School,559,nominatim,-33.2828409,115.7367913
+Collie-Preston,Yabberup Hall,202,aec-name,-33.5371401556333,116.007340985438
+Cottesloe,Alf Adams Pavilion,887,nominatim,-32.010679,115.7633727
+Cottesloe,City Beach Primary School,1035,aec-name,-31.9353766120045,115.765140717827
+Cottesloe,Cottesloe Civic Centre Lesser Hall,1321,unlocated,,
+Cottesloe,Cottesloe Primary School,1434,aec-name,-31.9936743428196,115.755098033723
+Cottesloe,Freshwater Bay Primary School,1267,nominatim,-31.9858933,115.7825595
+Cottesloe,Mount Claremont Primary School,1430,aec-name,-31.9680966111741,115.782680717823
+Cottesloe,North Cottesloe Primary School,1420,aec-name,-31.9890015122288,115.765352761899
+Cottesloe,North Fremantle Primary School,981,aec-name,-32.0345668629027,115.756835656608
+Cottesloe,Saint Hilda's Anglican School for Girls - Chidley Campus,992,unlocated,,
+Cottesloe,Swanbourne Primary School,1263,aec-name,-31.9837,115.77
+Darling Range,Armadale Primary School,338,aec-name,-32.1518665000306,115.999795250622
+Darling Range,Bedfordale District Hall,340,aec-name,-32.18166,116.04832
+Darling Range,Byford Voting Centre,876,aec-name,-32.22341875,116.00188924
+Darling Range,Clifton Hills Primary School,548,nominatim,-32.1094932,116.020785
+Darling Range,Jarrahdale Primary School,319,aec-name,-32.3388,116.062
+Darling Range,Karragullen District Hall,107,nominatim,-32.0901678,116.1183621
+Darling Range,Kelmscott Primary School,409,aec-name,-32.1210891258524,116.010318902908
+Darling Range,Marri Grove Primary School,537,nominatim,-32.2123825,116.0055437
+Darling Range,Mundijong Primary School,748,aec-name,-32.2910326,115.9847689
+Darling Range,Oakford Community Hall,565,aec-name,-32.1896095,115.9230259
+Darling Range,Roleystone Hall,816,aec-name,-32.11065349,116.06870143
+Darling Range,Serpentine Jarrahdale Community Recreation Centre,746,nominatim,-32.2256166,116.0002516
+Darling Range,Serpentine Primary School,778,aec-name,-32.3654901019754,115.981399889442
+Darling Range,West Byford Primary School,992,aec-name,-32.2155493414403,115.979130368413
+Dawesville,Coodanup Community College,322,aec-name,-32.5460866155725,115.748990767164
+Dawesville,Dudley Park Primary School,415,aec-name,-32.5412,115.735
+Dawesville,Elevation Church Hall,821,unlocated,,
+Dawesville,Falcon Primary School,338,aec-name,-32.5796003,115.6607044
+Dawesville,Falcon Reserve Football Pavilion,624,unlocated,,
+Dawesville,Glencoe Primary School,962,nominatim,-32.5423164,115.704142
+Dawesville,Halls Head Primary School,788,aec-name,-32.5428157,115.7036895
+Dawesville,Ocean Road Primary School,385,nominatim,-32.6246067,115.6313459
+Dawesville,South Halls Head Primary School,361,aec-name,-32.5501866185986,115.69498077538
+Dawesville,Southern Estuary Progress Association Hall,347,unlocated,,
+Forrestfield,Darling Range Sports College,1827,nominatim,-31.9756406,116.0108408
+Forrestfield,East Kenwick Primary School,821,nominatim,-32.0320802,115.9799147
+Forrestfield,Edney Primary School,1321,nominatim,-31.9471401,116.0070705
+Forrestfield,Forrestfield Primary School,1432,aec-name,-31.9914065988274,116.008840687243
+Forrestfield,High Wycombe Primary School,1859,aec-name,-31.94107,116.002133
+Forrestfield,Maida Vale Primary School,1103,aec-name,-31.9498864,116.0227919
+Forrestfield,Wattle Grove Primary School,1437,aec-name,-31.996949640226,115.983687091261
+Forrestfield,Woodlupine Primary School,395,nominatim,-31.984318,116.0041208
+Fremantle,Christ The King School,1309,nominatim,-32.0723502,115.7731273
+Fremantle,East Fremantle Primary School,541,aec-name,-32.0478793628319,115.759159097295
+Fremantle,East Hamilton Hill Primary School,850,aec-name,-32.0775266112885,115.789290725244
+Fremantle,Fremantle Primary School,1049,aec-name,-32.04861661,115.75623073
+Fremantle,Fremantle Voting Centre,480,aec-name,-32.04861661,115.75623073
+Fremantle,Hilton Primary School,1279,aec-name,-32.0680366115321,115.784150725255
+Fremantle,Palmyra Voting Centre,60,aec-name,-32.045092373369,115.785208869903
+Fremantle,Phoenix Primary School,922,nominatim,-32.0925472,115.7794501
+Fremantle,Rottnest Island Picture Hall,40,unlocated-small,,
+Fremantle,South Metropolitan Education Regional Office,924,nominatim,-32.0670395,115.7581991
+Fremantle,Southwell Primary School,243,nominatim,-32.0898552,115.7914345
+Fremantle,Spearwood Primary School,593,aec-name,-32.1014666115424,115.786610727462
+Fremantle,White Gum Valley Primary School,1237,aec-name,-32.0589198025453,115.765187497277
+Geraldton,Allendale Primary School,817,nominatim,-28.764156,114.6238068
+Geraldton,Bluff Point Primary School,735,aec-name,-28.7403366642281,114.621590623337
+Geraldton,Cape Burney Volunteer Fire Brigade,139,unlocated,,
+Geraldton,Geraldton Primary School,636,aec-name,-28.7786232852248,114.60806624802
+Geraldton,Geraldton Voting Centre,954,aec-name,-28.7786232852248,114.60806624802
+Geraldton,John Batten Drummond Cove Community Centre,383,nominatim,-28.6703949,114.6122391
+Geraldton,Moonyoonooka Polocrosse Club,155,nominatim,-28.7846751,114.7365868
+Geraldton,Mount Tarcoola Primary School,578,aec-name,-28.8005066640182,114.629550627055
+Geraldton,Rangeway Primary School,610,aec-name,-28.7794,114.629
+Geraldton,Spalding Family Centre,356,unlocated,,
+Geraldton,Waggrakine Primary School,906,aec-name,-28.7186901831961,114.636953359733
+Geraldton,Walkaway Primary School,206,aec-name,-28.9392938544101,114.799133216638
+Geraldton,Wandina Primary School,515,aec-name,-28.816889,114.6357233
+Hillarys,Beldon Primary School,993,aec-name,-31.7746466117337,115.757260706675
+Hillarys,Craigie Heights Primary School,1295,nominatim,-31.7901307,115.7601725
+Hillarys,Flinders Park Community Hall,656,nominatim,-31.808004,115.7364752
+Hillarys,Hillarys Primary School,1374,aec-name,-31.8132766121654,115.752570710288
+Hillarys,Mullaloo Heights Primary School,1520,nominatim,-31.777847,115.7485503
+Hillarys,Padbury Primary School,987,aec-name,-31.8045937,115.7602998
+Hillarys,South Padbury Primary School,1585,aec-name,-31.8123,115.764
+Hillarys,Springfield Primary School,1386,nominatim,-31.792253,115.7502385
+Hillarys,St Mark's Anglican Community School,766,nominatim,-31.7986448,115.7434808
+Jandakot,Canning Vale Primary School,1310,aec-name,-32.081521,115.932921
+Jandakot,Forrestdale Primary School,283,aec-name,-32.1536058228124,115.94907866806
+Jandakot,Harrisdale Primary School,2097,aec-name,-32.1246921034004,115.937003869179
+Jandakot,Leeming Primary School,1233,aec-name,-32.0751,115.863
+Jandakot,Nido Early School,664,unlocated,,
+Jandakot,Piara Waters Primary School,2212,aec-name,-32.1264290644515,115.917023330615
+Jandakot,Ranford Primary School,1218,nominatim,-32.0942404,115.9110644
+Jandakot,West Leeming Primary School,1302,aec-name,-32.0702566076106,115.855170715233
+Joondalup,Beaumaris Community Centre,1801,nominatim,-31.7509839,115.7349115
+Joondalup,Connolly Primary School,1167,aec-name,-31.751564612026,115.750177705918
+Joondalup,Currambine Primary School,708,aec-name,-31.7336366120061,115.749110704702
+Joondalup,Eddystone Primary School,575,nominatim,-31.7669488,115.7690948
+Joondalup,Edgewater Primary School,1024,aec-name,-31.7627774303976,115.780345022498
+Joondalup,Joondalup Primary School,1220,aec-name,-31.7239766112698,115.761570702203
+Joondalup,Joondalup Public Library,584,nominatim,-31.743615,115.77357
+Joondalup,Ocean Reef Senior High School,1107,aec-name,-31.7587866126817,115.738980708056
+Joondalup,Poseidon Primary School,1044,nominatim,-31.7609683,115.7511812
+Kalamunda,Carmel Hall,186,aec-name,-32.0200478,116.0890532
+Kalamunda,Churches of Christ in WA,617,unlocated,,
+Kalamunda,Darlington Lesser Hall,1108,unlocated,,
+Kalamunda,Falls Road Primary School,524,nominatim,-31.9921402,116.047083
+Kalamunda,Glen Forrest Primary School,902,aec-name,-31.9152132234727,116.101077528358
+Kalamunda,Gooseberry Hill Primary School,530,aec-name,-31.956469,116.05602
+Kalamunda,Kalamunda Primary School,508,aec-name,-31.9768,116.057
+Kalamunda,Kalamunda Senior High School,616,nominatim,-31.9777922,116.0572935
+Kalamunda,Lesmurdie Primary School,860,aec-name,-32.004057,116.0457773
+Kalamunda,Mahogany Creek Hall,490,aec-name,-31.9063965914761,116.13724066254
+Kalamunda,Mundaring Hall,704,aec-name,-31.894937,116.172974
+Kalamunda,Mundaring Primary School,499,aec-name,-31.894937,116.172974
+Kalamunda,Parkerville Primary School,879,aec-name,-31.87965659128,116.13864066035
+Kalamunda,Pickering Brook Primary School,274,aec-name,-32.0346873023941,116.130815793003
+Kalamunda,Walliston Primary School,797,aec-name,-31.9992243355206,116.070213589042
+Kalgoorlie,Boulder Primary School,894,aec-name,-30.7800132,121.4866233
+Kalgoorlie,Coolgardie Community Recreation Centre,207,nominatim,-30.9537874,121.1646041
+Kalgoorlie,Goldfields Arts Centre,580,nominatim,-30.7506013,121.4761757
+Kalgoorlie,Hannans Primary School,537,aec-name,-30.7235679374911,121.451989397691
+Kalgoorlie,John Paul College,793,nominatim,-30.764593,121.4793512
+Kalgoorlie,Kalgoorlie Health Campus,290,nominatim,-30.7408846,121.4704591
+Kalgoorlie,Kambalda West District High School,489,aec-name,-31.2055043547157,121.620498844617
+Kalgoorlie,Laverton Primary School,93,aec-name,-28.6273290577375,122.40432406986
+Kalgoorlie,Leinster Community Hall,87,aec-name,-27.9159798,120.6989336
+Kalgoorlie,Leonora Recreation Centre,164,aec-name,-28.882007,121.3312738
+Kalgoorlie,Norseman Town Hall,174,aec-name,-32.1918563551206,121.773429864005
+Kalgoorlie,North Kalgoorlie Primary School,919,aec-name,-30.7386365073247,121.459711707268
+Kalgoorlie,O'Connor Primary School,856,aec-name,-30.744342,121.474515
+Kimberley,Broome Civic Centre,756,nominatim,-17.9594915,122.2399042
+Kimberley,Broome North Primary School,237,nominatim,-17.9266044,122.2302366
+Kimberley,Cable Beach Primary School,420,aec-name,-17.9587762595512,122.216489294359
+Kimberley,Derby District High School,339,nominatim,-17.3094872,123.6337744
+Kimberley,Fitzroy Valley District High School,215,nominatim,-18.1882029,125.5646879
+Kimberley,Halls Creek District High School,162,aec-name,-18.2256616914388,127.669364741046
+Kimberley,Kununurra Leisure Centre,639,nominatim,-15.7731173,128.738032
+Kimberley,Roebuck Bay Primary School,327,nominatim,-17.99496,122.32191
+Kimberley,Wyndham District High School,213,nominatim,-15.4885326,128.121214
+Kingsley,Church of Christ Warwick,350,nominatim,-31.8416988,115.8092947
+Kingsley,Creaney Primary School,1804,nominatim,-31.8039944,115.7886458
+Kingsley,East Hamersley Primary School,521,aec-name,-31.8476210386498,115.818615843518
+Kingsley,Glendale Primary School,850,nominatim,-31.8487224,115.8075879
+Kingsley,Goollelal Primary School,1095,nominatim,-31.8148488,115.801321
+Kingsley,Greenwood College,1138,aec-name,-31.8262714400614,115.791454635755
+Kingsley,Greenwood Primary School,1115,aec-name,-31.8262714400614,115.791454635755
+Kingsley,Halidon Primary School,1018,nominatim,-31.8075832,115.8014111
+Kingsley,Hawker Park Primary School,471,nominatim,-31.8403779,115.7975651
+Kingsley,Woodvale Primary School,1123,aec-name,-31.7916,115.801
+Kingsley,Woodvale Secondary College,1263,nominatim,-31.7917288,115.7995007
+Kwinana,Aubin Grove Primary School,1471,aec-name,-32.1730606,115.8623522
+Kwinana,Bertram Primary School,1102,aec-name,-32.2473158,115.8430302
+Kwinana,Calista Primary School,699,aec-name,-32.245652,115.810669
+Kwinana,Casuarina Wellard Community Hall,541,nominatim,-32.2571624,115.8871379
+Kwinana,Hammond Park Primary School,1245,aec-name,-32.1673793,115.8435325
+Kwinana,Honeywood Primary School,1118,nominatim,-32.1970256,115.8614545
+Kwinana,Leda Primary School,622,aec-name,-32.26013,115.804055
+Kwinana,Medina Primary School,717,aec-name,-32.2358411375323,115.804401074731
+Kwinana,North Parmelia Primary School,717,nominatim,-32.2365083,115.8357982
+Kwinana,St Vincent's School,290,nominatim,-32.2526706,115.8260902
+Landsdale,Alexander Heights Community Hall,776,aec-name,-31.8296123157213,115.870150834825
+Landsdale,Alinjarra Primary School,1164,nominatim,-31.8295605,115.8702037
+Landsdale,Ashdale Primary School,1952,nominatim,-31.8088869,115.8437341
+Landsdale,Carnaby Rise Primary School,925,nominatim,-31.8151986,115.8728627
+Landsdale,Hocking Primary School,1258,aec-name,-31.7697231384009,115.816888527846
+Landsdale,Kingsway Christian College,335,nominatim,-31.8109685,115.8373135
+Landsdale,Landsdale Primary School,2352,aec-name,-31.8037,115.863
+Landsdale,Madeley Primary School,1695,aec-name,-31.8067535278421,115.829940298805
+Landsdale,Pearsall Primary School,1162,aec-name,-31.7807563684422,115.817024588665
+Mandurah,Assumption Catholic Primary School,974,nominatim,-32.5100602,115.7464477
+Mandurah,Billy Dower Youth Centre,512,nominatim,-32.5323903,115.7402687
+Mandurah,Coastal Lakes College,1271,nominatim,-32.467315,115.7624505
+Mandurah,Coodanup Community College,415,aec-name,-32.5460866155725,115.748990767164
+Mandurah,Eastlake Church,1156,nominatim,-32.5001925,115.7532723
+Mandurah,Madora Bay Community Hall,854,aec-name,-32.4732623151141,115.751546561153
+Mandurah,Mandurah Seniors Centre,380,unlocated,,
+Mandurah,RAAFA Meadow Springs Estate,532,unlocated,,
+Mandurah,Riverside Primary School,558,nominatim,-32.531361,115.7678966
+Maylands,Bayswater Senior Citizens Centre,1575,nominatim,-31.909036,115.9039135
+Maylands,Embleton Primary School,614,aec-name,-31.9018666038564,115.909810694643
+Maylands,Filipino Australian Club of Perth Inc,835,unlocated,,
+Maylands,Hillcrest Primary School,1394,nominatim,-31.9098064,115.9030672
+Maylands,Inglewood Masonic Hall,893,unlocated,,
+Maylands,Inglewood Primary School,1806,aec-name,-31.9249949351572,115.888037819499
+Maylands,Maylands Peninsula Primary School,1348,nominatim,-31.9326862,115.9047655
+Maylands,School of Instrumental Music,1188,nominatim,-31.9318805,115.8915027
+Midland,Bellevue Hall,425,aec-name,-31.8993565973888,116.027730677639
+Midland,Caversham Valley Primary School,873,nominatim,-31.8678323,115.9690203
+Midland,Clayton View Primary School,425,nominatim,-31.9049541,116.0404922
+Midland,Goodstart Early Learning Stratton,1012,unlocated,,
+Midland,Greenmount Primary School,824,aec-name,-31.8965765963029,116.04744067462
+Midland,Guildford Town Hall,508,aec-name,-31.9023230506752,115.967816816406
+Midland,Helena Valley Primary School,1228,aec-name,-31.9248275963619,116.048662676558
+Midland,Midland Town Hall,895,aec-name,-31.8894389387377,116.002201210536
+Midland,North Metropolitan TAFE Midland Campus,637,nominatim,-31.878193,116.0196567
+Midland,Stratton Community Hall,889,aec-name,-31.867802416762,116.036659264004
+Midland,Swan View Senior High School,1512,aec-name,-31.8874662764309,116.04434452438
+Mirrabooka,Balga Primary School,934,aec-name,-31.8605766072577,115.844810700776
+Mirrabooka,Boyare Primary School,764,nominatim,-31.8573956,115.8733399
+Mirrabooka,Hudson Park Primary School,1010,nominatim,-31.839388,115.8373491
+Mirrabooka,Koondoola Primary School,705,aec-name,-31.8387133462122,115.861985966675
+Mirrabooka,Marangaroo Hepburn Centre,905,nominatim,-31.8264399,115.8314787
+Mirrabooka,Marangaroo Primary School,1071,aec-name,-31.8284766080677,115.827600700786
+Mirrabooka,Mirrabooka Voting Centre,648,nominatim,-31.8701262,115.8583885
+Mirrabooka,North Balga Primary School,941,aec-name,-31.8521,115.834
+Mirrabooka,Rawlinson Primary School,1200,nominatim,-31.8277829,115.8447415
+Mirrabooka,Roseworth Primary School,590,nominatim,-31.8406137,115.8525628
+Mirrabooka,St Andrew's Grammar School,858,nominatim,-31.8706277,115.8752326
+Moore,Badgingarra Community Centre,110,aec-name,-30.3868124,115.4986776
+Moore,Bindoon Town Hall,681,aec-name,-31.3801586712926,116.097110819258
+Moore,Bolgart Primary School,92,nominatim,-31.2735977,116.5108136
+Moore,Calingiri Primary School,127,aec-name,-31.0901,116.449
+Moore,Carnamah District High School,175,nominatim,-29.6873251,115.892824
+Moore,Cervantes Recreation Centre,242,aec-name,-30.49915,115.06592
+Moore,Coorow District Hall,127,aec-name,-29.8805165884188,116.024100529776
+Moore,Dalwallinu District High School,301,nominatim,-30.2704778,116.6611003
+Moore,Dandaragan Primary School,193,aec-name,-30.6730354298967,115.701964701042
+Moore,Dowerin Lesser Hall,267,unlocated,,
+Moore,Eneabba Primary School,83,aec-name,-29.820206630753,115.268170624288
+Moore,Gingin District High School Performing Arts Centre,652,unlocated,,
+Moore,Goomalling Community Resource Centre,294,nominatim,-31.237057,116.787039
+Moore,Green Head Community Centre,138,nominatim,-30.0673041,114.9686839
+Moore,Guilderton Hall,287,aec-name,-31.3489,115.504
+Moore,Immaculate Heart College,722,nominatim,-31.5599809,116.0783192
+Moore,Irwin Recreation Centre,1254,nominatim,-29.2651209,114.9251098
+Moore,Jurien Bay District High School,689,aec-name,-30.3068,115.04
+Moore,Kalannie Primary School,53,nominatim,-30.3614117,117.1137454
+Moore,Lancelin Primary School,430,aec-name,-31.0197178924232,115.332552907875
+Moore,Ledge Point Community Hall,122,aec-name,-31.1081906900957,115.379926138214
+Moore,Leeman Primary School,158,aec-name,-29.9489071682966,114.978444892135
+Moore,Miling Town Hall,54,aec-name,-30.4930456,116.3620967
+Moore,Mingenew-Irwin Group Bankwest Building,187,unlocated,,
+Moore,Moora Performing Arts Centre,413,unlocated,,
+Moore,Morawa District High School,242,nominatim,-29.21149,116.005442
+Moore,Muchea Community Hall,464,aec-name,-31.5814333490694,115.97106135188
+Moore,Mullewa District High School,145,nominatim,-28.5370681,115.5128922
+Moore,Nabawa Community Centre,133,aec-name,-28.49968986,114.79152544
+Moore,New Norcia Institute Study Hall,127,unlocated,,
+Moore,Northampton RSL Hall,522,unlocated,,
+Moore,Perenjori Primary School,105,aec-name,-29.4437406,116.2861508
+Moore,Three Springs Primary School,183,aec-name,-29.5349372513754,115.761107858933
+Moore,Toodyay Memorial Hall,936,aec-name,-31.550430622281,116.466843609799
+Moore,Watheroo Primary School,70,aec-name,-30.2992384,116.0597917
+Moore,Wongan Hills Community Resource Centre,494,aec-name,-30.893473,116.716663
+Moore,Woodridge Community Centre,377,aec-name,-31.3382108386961,115.59843516565
+Morley,Camboon Primary School,1372,aec-name,-31.87743117478,115.891064735467
+Morley,Dianella Heights Primary School,894,aec-name,-31.8827,115.866
+Morley,Dianella Secondary College,866,nominatim,-31.8784781,115.854836
+Morley,Hampton Park Primary School,855,nominatim,-31.8866437,115.916717
+Morley,John Septimus Roe Anglican Community School,583,nominatim,-31.8588967,115.8572761
+Morley,Morley Primary School,837,nominatim,-31.8918719,115.8956478
+Morley,Nollamara Primary School,1272,aec-name,-31.884350037648,115.839651663315
+Morley,Noranda Primary School,1300,aec-name,-31.8773866038581,115.907810693079
+Morley,North Morley Primary School,1170,nominatim,-31.8784412,115.8785438
+Mount Lawley,Australian Islamic College - Dianella,639,nominatim,-31.9030494,115.8747688
+Mount Lawley,Coolbinia Primary School,1072,aec-name,-31.9130766067037,115.859040702732
+Mount Lawley,Dianella Community Centre,480,aec-name,-31.8932913463291,115.86424258049
+Mount Lawley,Mount Lawley Primary School,1321,aec-name,-31.9257466057991,115.876450701209
+Mount Lawley,North Metropolitan TAFE Mount Lawley Campus,495,nominatim,-31.939467,115.8756031
+Mount Lawley,St Patrick's Anglican Church,333,unlocated,,
+Mount Lawley,St Paul's Primary School,636,nominatim,-31.9254092,115.8642888
+Mount Lawley,Sutherland Dianella Primary School,798,nominatim,-31.8933112,115.8642149
+Mount Lawley,Vedanta Church,827,unlocated,,
+Mount Lawley,West Morley Primary School,588,nominatim,-31.8905135,115.8863478
+Mount Lawley,Yokine Community Playgroup,919,unlocated,,
+Mount Lawley,Yokine Primary School,1005,aec-name,-31.9007,115.859
+Murray-Wellington,Austin Cove Baptist College,949,nominatim,-32.6092025,115.8123962
+Murray-Wellington,Australind Primary School,192,aec-name,-33.2796880705291,115.716575479312
+Murray-Wellington,Binningup Community Hall,369,aec-name,-33.1510366211963,115.694740822451
+Murray-Wellington,Brunswick Junction Primary School,399,nominatim,-33.252866,115.8332399
+Murray-Wellington,Carcoola Primary School,410,nominatim,-32.6064587,115.8930966
+Murray-Wellington,Coolup Community Hall,376,aec-name,-32.7396383,115.8757424
+Murray-Wellington,Dwellingup Primary School,274,aec-name,-32.715734,116.0629821
+Murray-Wellington,Kingston Primary School,137,nominatim,-33.2592629,115.7436234
+Murray-Wellington,Lake Clifton Community Centre,222,aec-name,-32.8004676199293,115.690505795563
+Murray-Wellington,North Dandalup Community Hall,345,aec-name,-32.5188792331135,115.972868452343
+Murray-Wellington,North Yunderup CWA Centre,354,unlocated,,
+Murray-Wellington,Parkfield Primary School,357,nominatim,-33.265819,115.7270495
+Murray-Wellington,Pinjarra Senior High School,1056,nominatim,-32.6332057,115.8726307
+Murray-Wellington,Riverlinks Community Centre,382,unlocated,,
+Murray-Wellington,Settlers Hall,190,unlocated,,
+Murray-Wellington,St Anne's Primary School,1501,nominatim,-33.0830717,115.8913646
+Murray-Wellington,Waroona Senior Citizens Centre,1137,nominatim,-32.8492605,115.9082511
+Murray-Wellington,West Murray Community Hall,469,unlocated,,
+Murray-Wellington,Yarloop Primary School,296,aec-name,-32.955146609208,115.896220777105
+Nedlands,Constitutional Centre,393,nominatim,-31.9514714,115.8439612
+Nedlands,Dalkeith Primary School,1507,aec-name,-31.99642776,115.7978827
+Nedlands,Freshwater Bay Primary School,481,nominatim,-31.9858933,115.7825595
+Nedlands,Hollywood Primary School,909,nominatim,-31.9691715,115.8072486
+Nedlands,John Leckie Pavilion,224,unlocated,,
+Nedlands,Jolimont Primary School,1254,aec-name,-31.9488,115.809
+Nedlands,Nedlands Primary School,1126,nominatim,-31.9847986,115.8128406
+Nedlands,Shenton Park Voting Centre,924,aec-name,-31.9606066095848,115.810740713242
+Nedlands,Subiaco Community Centre,786,aec-name,-31.9507,115.825
+Nedlands,Subiaco Primary School,970,aec-name,-31.9507,115.825
+Nedlands,Tresillian Community Centre,396,nominatim,-31.9812383,115.8087473
+Nedlands,University of Western Australia - Nedlands Campus,317,nominatim,-31.950652,115.7978755
+North West Central,Carnarvon Community College (Marmion Street Campus),186,unlocated,,
+North West Central,Carnarvon Woolshed,226,unlocated,,
+North West Central,Coral Bay Learning Centre,52,unlocated,,
+North West Central,Cue Primary School,67,aec-name,-27.4208,117.897
+North West Central,Denham Hall,239,aec-name,-25.9227874702599,113.530954567316
+North West Central,Exmouth Shire Hall,839,aec-name,-21.935851832223,114.13073163186
+North West Central,Kalbarri District High School,554,nominatim,-27.7133335,114.1638255
+North West Central,Meekatharra Shire Hall,140,aec-name,-26.5931167390257,118.495907417022
+North West Central,Mount Magnet Anzac Memorial Hall,120,unlocated,,
+North West Central,Onslow Primary School,207,aec-name,-21.6365017,115.1127062
+North West Central,Pannawonica Primary School,120,aec-name,-21.6348380601506,116.335681994061
+North West Central,Paraburdoo Primary School,215,aec-name,-23.1967,117.673
+North West Central,Tom Price Recreation Centre,676,aec-name,-22.68731988,117.79469248
+North West Central,Wiluna Remote Community School,21,unlocated-small,,
+Perth,150 St George's Terrace Perth,590,unlocated,,
+Perth,Aranmore Catholic College,681,nominatim,-31.9279246,115.8427219
+Perth,Citiplace Community Centre,165,nominatim,-31.9511609,115.860685
+Perth,East Perth Voting Centre,800,aec-name,-31.9510981661472,115.872169683743
+Perth,Greek Orthodox Church,559,nominatim,-31.9402498,115.8521798
+Perth,Highgate Primary School,1378,aec-name,-31.9410787264265,115.866304093821
+Perth,Kyilla Primary School,883,nominatim,-31.9187775,115.8517227
+Perth,Mount Hawthorn Baptist Church Hall,420,aec-name,-31.9181137280311,115.835421016484
+Perth,Mount Hawthorn Community Centre Lesser Hall,938,unlocated,,
+Perth,Mount Hawthorn Primary School,1119,aec-name,-31.9181137280311,115.835421016484
+Perth,North Metropolitan TAFE Leederville Campus,633,nominatim,-31.9342546,115.8425741
+Perth,North Metropolitan TAFE Northbridge Campus,390,nominatim,-31.9480567,115.8610823
+Perth,North Perth Primary School,1132,aec-name,-31.9190566071332,115.851740704227
+Pilbara,Baler Primary School,953,nominatim,-20.4047917,118.6126317
+Pilbara,Dampier Primary School,365,nominatim,-20.6645357,116.7063966
+Pilbara,Hedland Senior High School,602,nominatim,-20.3996441,118.5964216
+Pilbara,Karratha Primary School,557,aec-name,-20.7293749772464,116.85909213341
+Pilbara,Millars Well Primary School,648,aec-name,-20.7422064994976,116.817619847693
+Pilbara,Newman Primary School,586,aec-name,-23.3608455,119.7314233
+Pilbara,Newman Senior High School,447,nominatim,-23.361095,119.7342349
+Pilbara,PCYC Roebourne,144,unlocated,,
+Pilbara,Port Hedland Primary School,885,aec-name,-20.304,118.634
+Pilbara,Tambrey Primary School,1192,nominatim,-20.7427758,116.8011711
+Pilbara,Wickham Primary School,443,aec-name,-20.680878,117.141272
+Riverton,Banksia Park Primary School,1054,nominatim,-32.0718798,115.8754825
+Riverton,Bull Creek Primary School,821,aec-name,-32.0601266072431,115.861020713623
+Riverton,Herald Avenue Senior Citizens Centre,509,nominatim,-32.0386893,115.8882989
+Riverton,Oberthur Primary School,677,nominatim,-32.0598633,115.8686236
+Riverton,RAAFA Estate - Bull Creek,370,unlocated,,
+Riverton,Riverton Primary School,867,aec-name,-32.0350866049716,115.900240706097
+Riverton,Rossmoyne Primary School,786,aec-name,-32.0405974668408,115.866752851315
+Riverton,Rostrata Primary School,1246,nominatim,-32.0506084,115.8980076
+Riverton,Shelley Primary School,848,aec-name,-32.0316,115.886
+Riverton,Willetton Primary School,1051,aec-name,-32.049170196,115.882689739682
+Riverton,Willetton Senior High School,1173,nominatim,-32.0611306,115.8790034
+Rockingham,Bungaree Primary School,502,nominatim,-32.2912077,115.7383949
+Rockingham,Charthouse Primary School,1032,nominatim,-32.3167942,115.7507385
+Rockingham,Cooloongup Primary School,615,aec-name,-32.2981042896967,115.754592818139
+Rockingham,East Waikiki Primary School,258,aec-name,-32.3142899720781,115.757955282243
+Rockingham,Hillman Primary School,512,aec-name,-32.2837266,115.76346074
+Rockingham,Rockingham Beach Primary School,834,nominatim,-32.2828048,115.7217831
+Rockingham,Rockingham Senior High School,869,nominatim,-32.2850901,115.7354331
+Rockingham,Safety Bay Primary School,1418,aec-name,-32.299,115.715
+Rockingham,Safety Bay Senior High School,791,aec-name,-32.299,115.715
+Roe,Bremer Bay Community Resource Centre,213,aec-name,-34.3923353500582,119.379021069226
+Roe,Broomehill Town Hall,146,aec-name,-33.8443304738444,117.638825157409
+Roe,Castletown Primary School,1211,aec-name,-33.8318137493387,121.908468172576
+Roe,Condingup Primary School,73,nominatim,-33.7548366,122.5279841
+Roe,Cranbrook Memorial Hall,288,aec-name,-34.2966,117.55283
+Roe,Dumbleyung Town Hall,161,aec-name,-33.3127,117.739
+Roe,Duranillin Hall,84,aec-name,-33.5153465636252,116.802330682712
+Roe,East Narrogin Primary School,125,aec-name,-32.93575393,117.18786619
+Roe,Esperance Senior Citizens Centre,1001,nominatim,-33.858228,121.8931606
+Roe,Frankland River Community Centre,137,nominatim,-34.3623436,117.0818034
+Roe,Gibson Football Club,102,unlocated,,
+Roe,Gnowangerup Community Resource Centre,266,nominatim,-33.9367015,118.0070662
+Roe,Highbury Hall,88,aec-name,-33.0579,117.237
+Roe,Hopetoun Community Centre,343,aec-name,-33.9450414190529,120.128908196079
+Roe,Jerramungup District High School,192,nominatim,-33.943557,118.9177533
+Roe,Katanning Town Hall,490,aec-name,-33.6904096471974,117.554197989941
+Roe,Kojonup Town Hall,599,aec-name,-33.836799847023,117.160418180877
+Roe,Lake Grace Community Resource Centre,315,aec-name,-33.1033293,118.4583396
+Roe,Lake King Primary School,63,aec-name,-33.0914167123156,119.673479299817
+Roe,Munglinup Primary School,69,aec-name,-33.7047953,120.857935
+Roe,Muradup Hall,92,aec-name,-33.8412710959592,116.981714248808
+Roe,Narrogin Senior Citizens Centre,497,nominatim,-32.998452,117.2730436
+Roe,Newdegate Community Resource Centre,153,nominatim,-33.0937156,119.0221927
+Roe,Nulsen Primary School,704,aec-name,-33.8583,121.87376
+Roe,Nyabing Town Hall,104,aec-name,-33.5413723,118.1485015
+Roe,Ongerup Primary School,116,aec-name,-33.963217595637,118.486022593628
+Roe,Ravensthorpe District High School,206,nominatim,-33.5825284,120.0531071
+Roe,Tambellup Shire Lesser Hall,182,unlocated,,
+Roe,Uniting Church - Wagin,408,aec-name,-33.3118779858477,117.340468416486
+Roe,West Arthur Community Resource Centre,193,nominatim,-33.4392785,116.7392847
+Roe,Williams RSL Hall,353,unlocated,,
+Roe,Woodanilling Shire Hall,115,aec-name,-33.5642590524984,117.432464479938
+Scarborough,Deanmore Primary School,1205,nominatim,-31.8840648,115.7666186
+Scarborough,Doubleview Primary School,1347,aec-name,-31.8984374511453,115.777672353218
+Scarborough,Lake Gwelup Primary School,1299,nominatim,-31.872167,115.7983029
+Scarborough,Newborough Primary School,1474,nominatim,-31.8846983,115.7813335
+Scarborough,North Beach Primary School,1071,aec-name,-31.8596166118941,115.761120712611
+Scarborough,Osborne Park Voting Centre,173,aec-name,-31.8988,115.825
+Scarborough,Scarborough Primary School,1291,aec-name,-31.8906,115.772
+Scarborough,Uniting Church - Scarborough,717,aec-name,-31.8906,115.772
+Scarborough,Yuluma Primary School,1719,nominatim,-31.8922553,115.7899868
+South Perth,Challenger Reserve,1023,nominatim,-32.0176412,115.8754165
+South Perth,Collier Primary School,1041,nominatim,-31.9913262,115.8724967
+South Perth,Como Primary School,1787,aec-name,-32.0037782969138,115.862487529128
+South Perth,Curtin Primary School,872,nominatim,-32.0070189,115.873839
+South Perth,John McGrath Pavilion,505,unlocated,,
+South Perth,Kensington Primary School,1282,aec-name,-31.9806991356611,115.883359154389
+South Perth,South Perth Primary School,1958,aec-name,-31.9812244969852,115.859392277857
+South Perth,St Augustine's Church Hall,685,nominatim,-31.959863,115.9063385
+South Perth,St Pius X Parish Hall,1193,unlocated,,
+South Perth,Uniting Church - South Perth,1124,aec-name,-31.9812244969852,115.859392277857
+Southern River,Ashburton Drive Primary School,880,nominatim,-32.0869294,115.9841933
+Southern River,Bletchley Park Primary School,1781,nominatim,-32.1024191,115.9475094
+Southern River,Caladenia Primary School,1196,nominatim,-32.0752813,115.9330647
+Southern River,Campbell Primary School,992,nominatim,-32.0878045,115.93069
+Southern River,Canning Vale College,693,aec-name,-32.081521,115.932921
+Southern River,Excelsior Primary School,531,nominatim,-32.0818428,115.9436221
+Southern River,Gosnells Primary School,252,aec-name,-32.0777963095033,116.003461604513
+Southern River,Huntingdale Primary School,1305,aec-name,-32.0776212512377,115.97171178906
+Southern River,Southern Grove Primary School,478,nominatim,-32.0990298,115.9594957
+Southern River,Wirrabirra Primary School,358,nominatim,-32.0749493,115.9791665
+Swan Hills,Anne Hamersley Primary School,788,nominatim,-31.7456166,116.0087701
+Swan Hills,Arbor Grove Primary School,1059,nominatim,-31.7714856,115.9626736
+Swan Hills,Bullsbrook College,1629,aec-name,-31.6591531,116.0331345
+Swan Hills,Chidlow Primary School,797,aec-name,-31.857145,116.269107
+Swan Hills,Ellen Stirling Primary School,1228,nominatim,-31.7702357,115.9750119
+Swan Hills,Gidgegannup Shire Hall,893,aec-name,-31.793925,116.196519
+Swan Hills,Herne Hill Primary School,762,aec-name,-31.8306220973088,116.023594003083
+Swan Hills,Malvern Springs Primary School,919,nominatim,-31.7577348,115.9800338
+Swan Hills,Mount Helena Recreation Centre,846,aec-name,-31.8739497,116.2213182
+Swan Hills,Sawyers Valley Primary School,484,aec-name,-31.9019121179005,116.203193912795
+Swan Hills,Upper Swan Primary School,862,aec-name,-31.7868799,116.0233283
+Swan Hills,Wooroloo Primary School,282,aec-name,-31.8037365817066,116.310640630271
+Thornlie,Addie Mills Centre,377,nominatim,-32.0711554,116.0036128
+Thornlie,East Maddington Primary School,655,aec-name,-32.0483195191447,116.007643781694
+Thornlie,Forest Crescent Primary School,1139,nominatim,-32.0760846,115.9499619
+Thornlie,Gosnells Primary School,428,aec-name,-32.0777963095033,116.003461604513
+Thornlie,Maddington Primary School,201,aec-name,-32.0554127493677,116.004134062731
+Thornlie,Thornlie Primary School,831,aec-name,-32.0653195014087,115.960228374923
+Thornlie,Thornlie Senior High School,1413,nominatim,-32.0662244,115.9604986
+Thornlie,Wirrabirra Primary School,558,nominatim,-32.0749493,115.9791665
+Thornlie,Yale Primary School,866,nominatim,-32.0505801,115.9513787
+Thornlie,Yule Brook College,548,nominatim,-32.0482808,116.0075674
+Vasse,Acton Park Hall,247,aec-name,-33.7673891014856,115.380797639444
+Vasse,Busselton Primary School,902,aec-name,-33.6509503428892,115.347682414997
+Vasse,Busselton Senior High School,1378,nominatim,-33.6572044,115.3255132
+Vasse,Cape Naturaliste College,1381,nominatim,-33.676901,115.2439007
+Vasse,Churchill Park Hall,515,nominatim,-33.6474207,115.3510717
+Vasse,Cowaramup Primary School,767,aec-name,-33.8518036975772,115.107150368391
+Vasse,Georgiana Molloy Anglican School,577,nominatim,-33.6605232,115.381352
+Vasse,Lady of the Cape Primary School,264,nominatim,-33.5975194,115.0893268
+Vasse,Naturaliste Community Centre,829,nominatim,-33.6207239,115.10434
+Vasse,Rosa Brook Hall,184,aec-name,-33.9405145527853,115.196225142071
+Vasse,West Busselton Primary School,1425,aec-name,-33.6549,115.315
+Vasse,Yallingup Hall,368,aec-name,-33.6468004509679,115.0344296924
+Victoria Park,Bentley Baptist Church,950,aec-name,-32.0078766039684,115.916300701734
+Victoria Park,Bentley Community Centre,249,aec-name,-32.0078766039684,115.916300701734
+Victoria Park,Carlisle Memorial Hall,723,aec-name,-31.9812322,115.9122758
+Victoria Park,Connect Victoria Park Inc,948,unlocated,,
+Victoria Park,East Victoria Park Primary School,1222,aec-name,-31.9788366042909,115.908100700709
+Victoria Park,Handa Hall (within Perron Place),211,unlocated,,
+Victoria Park,Kent Street Senior High School,189,nominatim,-31.9857001,115.8928523
+Victoria Park,Lathlain Primary School,1356,aec-name,-31.9696,115.909
+Victoria Park,Leisurelife Centre,1118,nominatim,-31.9840685,115.8994814
+Victoria Park,Millen Primary School,1300,nominatim,-31.9973911,115.9016282
+Victoria Park,Swan Village of Care,334,unlocated,,
+Victoria Park,Wilson Primary School,493,aec-name,-32.0177566042626,115.911740703135
+Wanneroo,Banksia Grove Primary School,1005,aec-name,-31.7026205,115.809456
+Wanneroo,Carramar Primary School,1674,aec-name,-31.71148,115.78495
+Wanneroo,Crossways Uniting Church,511,unlocated,,
+Wanneroo,Joseph Banks Secondary College,1125,nominatim,-31.699402,115.7963743
+Wanneroo,Spring Hill Primary School,759,nominatim,-31.722725,115.79324
+Wanneroo,St Anthony's School,738,nominatim,-31.7490582,115.8039783
+Wanneroo,Tapping Primary School,1257,aec-name,-31.7152260595254,115.792260297195
+Wanneroo,Wanneroo Recreation Centre,493,aec-name,-31.7534007596358,115.793316739947
+Wanneroo,Wanneroo Secondary College,1136,nominatim,-31.7577369,115.8154699
+Warnbro,Coastal Community Centre,743,unlocated,,
+Warnbro,Comet Bay College,1093,nominatim,-32.4157405,115.7629827
+Warnbro,Koorana Primary School,870,nominatim,-32.3425905,115.7653343
+Warnbro,Port Kennedy Primary School,1199,aec-name,-32.3585155343985,115.755433271723
+Warnbro,Rockingham Lakes Primary School,690,nominatim,-32.3574984,115.7679977
+Warnbro,Secret Harbour Community Hall,1095,aec-name,-32.4042781259721,115.758736439881
+Warnbro,Singleton Primary School,1145,aec-name,-32.44032,115.75738
+Warnbro,Warnbro Community High School,819,nominatim,-32.3454435,115.7591013
+Warnbro,Warnbro Primary School,427,aec-name,-32.3455,115.759
+Warren-Blackwood,Augusta Community Resource Centre,715,nominatim,-34.3156059,115.1605864
+Warren-Blackwood,Balingup Primary School,332,aec-name,-33.7872665278139,115.986819098039
+Warren-Blackwood,Boyup Brook Town Hall,495,aec-name,-33.83195659,116.38596077
+Warren-Blackwood,Denmark Recreation Centre,1479,aec-name,-34.9652132921865,117.358698060088
+Warren-Blackwood,Greenbushes Primary School,297,aec-name,-33.847179,116.05752
+Warren-Blackwood,Karridale Primary School,308,aec-name,-34.2178331197497,115.095576130859
+Warren-Blackwood,Kendenup Agricultural Pavilion,381,nominatim,-34.4912759,117.6141892
+Warren-Blackwood,Manjimup Town Hall,1236,aec-name,-34.2411366011964,116.14464083896
+Warren-Blackwood,Margaret River Senior High School,1323,aec-name,-33.9553,115.073
+Warren-Blackwood,Mayanup Hall,123,nominatim,-33.9319555,116.4529629
+Warren-Blackwood,Nannup RSL Hall,577,nominatim,-33.9808596,115.7635758
+Warren-Blackwood,Narrikup District Hall,191,aec-name,-34.7758844,117.7042315
+Warren-Blackwood,Northcliffe District High School,272,nominatim,-34.6336682,116.1180044
+Warren-Blackwood,Parryville Hall,220,aec-name,-34.9971,117.137
+Warren-Blackwood,Pemberton Sports Club,423,aec-name,-34.44737,116.02767
+Warren-Blackwood,Plantagenet District Hall,1094,nominatim,-34.6246625,117.6627096
+Warren-Blackwood,Porongurup District Hall,180,aec-name,-34.653,117.877
+Warren-Blackwood,Scotsdale Hall,373,aec-name,-34.92893,117.30171
+Warren-Blackwood,St Brigid's Parish Hall,1130,unlocated,,
+Warren-Blackwood,Tingledale Hall,153,aec-name,-34.95709,116.89008
+Warren-Blackwood,Walpole Community Centre,313,aec-name,-34.9775,116.73259
+Warren-Blackwood,Witchcliffe Druids Hall,410,unlocated,,
+Warren-Blackwood,Yornup Hall,142,nominatim,-34.0529183,116.1687197
+West Swan,Ballajura Community College,1155,aec-name,-31.8285711450171,115.882835902943
+West Swan,Ballajura Primary School,1135,aec-name,-31.8285711450171,115.882835902943
+West Swan,Caversham Primary School,1261,aec-name,-31.86783557,115.96901008
+West Swan,Ellenbrook Secondary College,923,nominatim,-31.7855879,115.9643334
+West Swan,GraceLife Church,923,unlocated,,
+West Swan,Illawarra Primary School,829,nominatim,-31.8286724,115.8819671
+West Swan,South Ballajura Primary School,1125,aec-name,-31.8502,115.911
+West Swan,Swan Valley Anglican Community School,1507,nominatim,-31.7943419,115.9855223
+Willagee,Bibra Lake Primary School,1222,aec-name,-32.0940766085998,115.839160719348
+Willagee,Caralee Community School,862,nominatim,-32.0517871,115.8043155
+Willagee,Coolbellup Community School,1319,aec-name,-32.0818404702251,115.808815832771
+Willagee,Kardinya Primary School,408,aec-name,-32.0622099,115.8228171
+Willagee,Lakeland Senior High School,635,nominatim,-32.1089082,115.8461259
+Willagee,Newton Primary School,662,nominatim,-32.1123376,115.7889361
+Willagee,North Lake Senior Campus,617,nominatim,-32.0733566,115.8135887
+Willagee,Samson Primary School,997,aec-name,-32.0723266105564,115.802080723011
+Willagee,South Lake Primary School,731,aec-name,-32.1059213189088,115.834511520919
+Willagee,Southern Districts Senior Centre,671,unlocated,,
+Willagee,Spearwood Primary School,374,aec-name,-32.1014666115424,115.786610727462
+Willagee,St Jerome's School,307,nominatim,-32.1215351,115.7826543
+Willagee,St Michael Church,142,nominatim,-32.0313068,115.8471687

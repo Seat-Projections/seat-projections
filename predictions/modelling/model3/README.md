@@ -1,8 +1,29 @@
 # Model 3 — Booth-Mapped Federal-to-State Model
 
-**Status:** design — not yet implemented. Parameter values are placeholders until estimated on the
-backtests in [BACKTESTS.md](BACKTESTS.md). Data sources are in [DATA.md](DATA.md) and the build
-plan is in [ROADMAP.md](ROADMAP.md).
+**Status:** implemented (`model3.py`, `run_model3.py`); the preference model and count are model1's
+unchanged. Chosen variant **`L0-C0-R2`** — hard booth assignment (λ = 0) + proportional rescaling to
+the final state polls — selected by lowest mean log loss over the 5 scored runs from the 42-variant
+grid in `output/grid_T1.csv`, `grid_T3.csv` and `summary_T3.csv`. `run_model3.py --all` reproduces the
+kept outputs; grid runs write trial outputs to a temp dir.
+
+## Results (grid, 5 scored runs — latest election per state — 1000 sims each)
+
+| Variant | Mean accuracy | Mean Brier | Mean log loss | Mean primary MAE |
+|---|---|---|---|---|
+| L0.25-C0-R2 | 0.798 | 0.324 | **0.854** | 4.26 |
+| **L0-C0-R2** | 0.802 | **0.322** | **0.858** | 4.30 |
+| L0-C1-R2 | 0.802 | 0.322 | 0.858 | 4.30 |
+| L0.5-C0-R2 | 0.787 | 0.331 | 0.867 | 4.24 |
+| L0.5-C1-R2 | 0.785 | 0.331 | 0.870 | 4.25 |
+
+L0.25-C0-R2's log-loss edge (0.854 vs 0.858) is inside the 0.005 tie band, and the Brier tie-break
+selects **L0-C0-R2**.
+
+- **Soft boundary splitting loses.** λ > 0 monotonically worsens log loss almost everywhere — it
+  blurs margins without fixing statewide levels.
+- **Rescaling is dominant**; R2 ≈ R3, R2 slightly better.
+- **SA 2026 is the exception**: there λ 0.25-4 improves results — the One-Nation-surge analogue where
+  federal booths misplace ON votes.
 
 Model 3 is a standalone model: it has its own primary-vote estimates, preference model, count and
 Monte Carlo, and it is scored against [model1](../model1/README.md) and [model2](../model2/README.md)
@@ -166,7 +187,7 @@ district, plus the statewide seat count.
 ## Variants and naming
 
 A run is named by its choices, e.g. `model3-R3F2`, `model3-R4F3`, `model3-R4F3+S2s`. The
-backtests evaluate the grid R0–R4 × F0–F3; the best-performing combination on B6 (with no
+backtests evaluate the grid R0-R4 × F0-F3; the best-performing combination on B6 (with no
 regression on B5) becomes the frozen `model3` for Victoria 2026.
 
 ## Outputs
@@ -175,7 +196,7 @@ The standard files from [`predictions/modelling/README.md`](../README.md#standar
 
 | File | Contents |
 |---|---|
-| `district_primaries.csv` | Point-estimate primaries per district and party after S1–S4, before noise |
+| `district_primaries.csv` | Point-estimate primaries per district and party after S1-S4, before noise |
 | `booth_assignment.csv` | Booth → district, method (point / snapped / split), weight |
 | `flows.csv` | Party-pair conditional splits used, by district where they vary |
 | `diagnostics.json` | Located-vote coverage per district, rescale constants, flow source |

@@ -1,0 +1,784 @@
+booth,district,weight
+107090,Morley,1.0
+107915,Bicton,1.0
+107916,Balcatta,1.0
+107921,West Swan,1.0
+107923,Maylands,1.0
+108132,Perth,1.0
+108133,Perth,1.0
+108134,Mandurah,1.0
+108340,Warren - Blackwood,1.0
+108341,Southern River,1.0
+108342,Bassendean,1.0
+108343,Balcatta,1.0
+108345,Balcatta,1.0
+108346,Scarborough,1.0
+108347,Morley,1.0
+108356,Forrestfield,1.0
+108427,Kwinana,1.0
+108428,Balcatta,1.0
+108431,Carine,1.0
+108432,Cottesloe,1.0
+108438,Geraldton,1.0
+108455,Vasse,1.0
+108479,Cannington,1.0
+108689,Mid - West,1.0
+11591,Girrawheen,1.0
+11592,West Swan,1.0
+11593,Landsdale,1.0
+11594,Joondalup,1.0
+11596,Morley,1.0
+11598,Girrawheen,1.0
+11599,Cannington,1.0
+11600,Jandakot,1.0
+11602,Mandurah,1.0
+11632,Kingsley,1.0
+11633,Girrawheen,1.0
+11634,Oakford,1.0
+11635,Bateman,1.0
+11894,Mandurah,1.0
+11895,Rockingham,1.0
+11896,Kwinana,1.0
+11897,Mandurah,1.0
+11898,Armadale,1.0
+11899,Collie - Preston,1.0
+11900,Pilbara,1.0
+11901,Midland,1.0
+11902,Joondalup,1.0
+11903,Joondalup,1.0
+11904,Geraldton,1.0
+11905,Forrestfield,1.0
+11906,Victoria Park,1.0
+11907,Riverton,1.0
+11910,Bassendean,1.0
+11911,Kingsley,1.0
+11912,Kingsley,1.0
+31060,Mindarie,1.0
+31061,Joondalup,1.0
+31063,Bateman,1.0
+31065,Murray - Wellington,1.0
+31066,Jandakot,1.0
+31067,Girrawheen,1.0
+31474,Baldivis,1.0
+31476,Thornlie,1.0
+31478,Dawesville,1.0
+31485,Geraldton,1.0
+31674,Secret Harbour,1.0
+31735,West Swan,1.0
+31809,Mandurah,1.0
+31956,Bassendean,1.0
+31962,Mindarie,1.0
+31963,Mindarie,1.0
+31980,Bibra Lake,1.0
+32057,Secret Harbour,1.0
+32064,Secret Harbour,1.0
+32071,Girrawheen,1.0
+32077,Kimberley,1.0
+32376,Carine,1.0
+32446,Carine,1.0
+32450,Joondalup,1.0
+32452,Mindarie,1.0
+32453,Hillarys,1.0
+32458,Scarborough,1.0
+32461,Thornlie,1.0
+32462,Thornlie,1.0
+32474,Wanneroo,1.0
+32506,Kalgoorlie,1.0
+32518,Morley,1.0
+32575,West Swan,1.0
+32576,Murray - Wellington,1.0
+32577,Murray - Wellington,1.0
+32585,Darling Range,1.0
+32761,Roe,1.0
+32762,Mid - West,1.0
+32812,Kingsley,1.0
+32813,Landsdale,1.0
+32815,Albany,1.0
+32817,Vasse,1.0
+32819,Warren - Blackwood,1.0
+32928,Vasse,1.0
+32965,Jandakot,1.0
+33043,Mandurah,1.0
+33044,Armadale,1.0
+33054,Jandakot,1.0
+33059,Cockburn,1.0
+33068,West Swan,1.0
+33073,Mandurah,1.0
+33257,Kimberley,1.0
+34057,Kalgoorlie,1.0
+34112,Murray - Wellington,1.0
+34114,Vasse,1.0
+34115,Collie - Preston,1.0
+34122,Wanneroo,1.0
+34255,Geraldton,1.0
+34335,Rockingham,1.0
+34336,Secret Harbour,1.0
+34337,Baldivis,1.0
+34340,Dawesville,1.0
+34343,Bunbury,1.0
+34351,Pilbara,1.0
+34354,Collie - Preston,1.0
+34357,Warren - Blackwood,1.0
+36411,Landsdale,1.0
+36412,Wanneroo,1.0
+36770,Cockburn,1.0
+38192,Butler,1.0
+38196,Morley,1.0
+38316,Pilbara,1.0
+38449,Kwinana,1.0
+38452,Joondalup,1.0
+38453,Joondalup,1.0
+38455,Girrawheen,1.0
+38501,Jandakot,1.0
+46519,Swan Hills,1.0
+46570,Southern River,1.0
+46571,Murray - Wellington,1.0
+46574,Nedlands,1.0
+46575,Oakford,1.0
+46632,Bunbury,1.0
+47748,Secret Harbour,1.0
+47759,Wanneroo,1.0
+47761,Landsdale,1.0
+47763,Southern River,1.0
+47764,Landsdale,1.0
+47772,Swan Hills,1.0
+47784,Roe,1.0
+47786,Fremantle,1.0
+47791,Cockburn,1.0
+47800,Pilbara,1.0
+58476,Central Wheatbelt,1.0
+58748,Midland,1.0
+58756,Belmont,1.0
+58768,Rockingham,1.0
+58812,Kimberley,1.0
+58824,Mindarie,1.0
+60353,Cottesloe,1.0
+64587,Southern River,1.0
+64591,Baldivis,1.0
+64592,Bicton,1.0
+64598,Oakford,1.0
+65537,Joondalup,1.0
+65665,South Perth,1.0
+65666,Nedlands,1.0
+65667,Geraldton,1.0
+65668,Kalamunda,1.0
+65671,Forrestfield,1.0
+65672,Midland,1.0
+65673,Butler,1.0
+65675,Swan Hills,1.0
+65676,West Swan,1.0
+65679,Kwinana,1.0
+65700,Bassendean,1.0
+65708,Landsdale,1.0
+65709,Albany,1.0
+65761,Secret Harbour,1.0
+65823,Collie - Preston,1.0
+65824,Kimberley,1.0
+65834,Darling Range,1.0
+70737,Armadale,1.0
+71034,Scarborough,1.0
+7467,Armadale,1.0
+7468,Armadale,1.0
+7469,Armadale,1.0
+7470,Armadale,1.0
+7471,Armadale,1.0
+7472,Baldivis,1.0
+7473,Murray - Wellington,1.0
+7475,Murray - Wellington,1.0
+7476,Murray - Wellington,1.0
+7477,Darling Range,1.0
+7478,Kwinana,1.0
+7479,Murray - Wellington,1.0
+7480,Rockingham,1.0
+7481,Murray - Wellington,1.0
+7482,Dawesville,1.0
+7483,Murray - Wellington,1.0
+7484,Dawesville,1.0
+7485,Oakford,1.0
+7487,Murray - Wellington,1.0
+7488,Rockingham,1.0
+7489,Darling Range,1.0
+7490,Secret Harbour,1.0
+7491,Mandurah,1.0
+7492,Mandurah,1.0
+7493,Mandurah,1.0
+7494,Mandurah,1.0
+7495,Dawesville,1.0
+7496,Kwinana,1.0
+7497,Darling Range,1.0
+7499,Murray - Wellington,1.0
+7500,Oakford,1.0
+7501,Kwinana,1.0
+7502,Murray - Wellington,1.0
+7503,Rockingham,1.0
+7504,Rockingham,1.0
+7507,Rockingham,1.0
+7508,Rockingham,1.0
+7509,Darling Range,1.0
+7510,Secret Harbour,1.0
+7511,Baldivis,1.0
+7512,Murray - Wellington,1.0
+7515,Murray - Wellington,1.0
+7516,Murray - Wellington,1.0
+7529,Cannington,1.0
+7531,Forrestfield,1.0
+7532,Forrestfield,1.0
+7533,Forrestfield,1.0
+7534,Thornlie,1.0
+7535,Thornlie,1.0
+7536,Southern River,1.0
+7538,Forrestfield,1.0
+7539,Kalamunda,1.0
+7540,Kalamunda,1.0
+7541,Darling Range,1.0
+7542,Armadale,1.0
+7543,Armadale,1.0
+7544,Armadale,1.0
+7546,Cannington,1.0
+7547,Kalamunda,1.0
+7548,Thornlie,1.0
+7550,Forrestfield,1.0
+7551,Kalamunda,1.0
+7552,Cannington,1.0
+7554,Darling Range,1.0
+7555,Kalamunda,1.0
+7556,Forrestfield,1.0
+7557,Armadale,1.0
+7558,Armadale,1.0
+7562,Girrawheen,1.0
+7563,Girrawheen,1.0
+7564,West Swan,1.0
+7565,Carine,1.0
+7566,Carine,1.0
+7567,Carine,1.0
+7568,Carine,1.0
+7569,Carine,1.0
+7570,Girrawheen,1.0
+7572,Girrawheen,1.0
+7573,Kingsley,1.0
+7574,Kingsley,1.0
+7576,Kingsley,1.0
+7577,Hillarys,1.0
+7578,Kingsley,1.0
+7579,Kingsley,1.0
+7580,Girrawheen,1.0
+7581,Carine,1.0
+7582,Carine,1.0
+7583,Carine,1.0
+7584,Hillarys,1.0
+7585,Hillarys,1.0
+7591,Cottesloe,1.0
+7592,Churchlands,1.0
+7593,Cottesloe,1.0
+7594,Cottesloe,1.0
+7595,Cottesloe,1.0
+7597,Cottesloe,1.0
+7598,Nedlands,1.0
+7600,Churchlands,1.0
+7601,Churchlands,1.0
+7602,Churchlands,1.0
+7606,Cottesloe,1.0
+7607,Nedlands,1.0
+7608,Balcatta,1.0
+7611,Perth,1.0
+7612,Perth,1.0
+7613,Churchlands,1.0
+7614,Cottesloe,1.0
+7616,Perth,1.0
+7617,Perth,1.0
+7619,Nedlands,1.0
+7621,Nedlands,1.0
+7622,Nedlands,1.0
+7628,Nedlands,1.0
+7629,Nedlands,1.0
+7633,Cottesloe,1.0
+7634,Churchlands,1.0
+7635,Churchlands,1.0
+7637,Churchlands,1.0
+7644,Vasse,1.0
+7645,Albany,1.0
+7646,Albany,1.0
+7649,Collie - Preston,1.0
+7650,Warren - Blackwood,1.0
+7651,Collie - Preston,1.0
+7652,Collie - Preston,1.0
+7653,Albany,1.0
+7655,Collie - Preston,1.0
+7656,Warren - Blackwood,1.0
+7657,Warren - Blackwood,1.0
+7660,Bunbury,1.0
+7661,Bunbury,1.0
+7662,Bunbury,1.0
+7665,Collie - Preston,1.0
+7666,Vasse,1.0
+7667,Vasse,1.0
+7668,Collie - Preston,1.0
+7669,Bunbury,1.0
+7670,Bunbury,1.0
+7671,Albany,1.0
+7673,Collie - Preston,1.0
+7674,Collie - Preston,1.0
+7676,Collie - Preston,1.0
+7677,Bunbury,1.0
+7678,Warren - Blackwood,1.0
+7679,Collie - Preston,1.0
+7681,Warren - Blackwood,1.0
+7683,Collie - Preston,1.0
+7684,Vasse,1.0
+7685,Collie - Preston,1.0
+7687,Albany,1.0
+7688,Albany,1.0
+7690,Collie - Preston,1.0
+7691,Collie - Preston,1.0
+7692,Warren - Blackwood,1.0
+7695,Warren - Blackwood,1.0
+7696,Albany,1.0
+7697,Collie - Preston,1.0
+7700,Albany,1.0
+7701,Albany,1.0
+7702,Collie - Preston,1.0
+7703,Albany,1.0
+7706,Warren - Blackwood,1.0
+7707,Warren - Blackwood,1.0
+7709,Warren - Blackwood,1.0
+7714,Albany,1.0
+7715,Warren - Blackwood,1.0
+7716,Albany,1.0
+7717,Warren - Blackwood,1.0
+7720,Warren - Blackwood,1.0
+7721,Bunbury,1.0
+7722,Warren - Blackwood,1.0
+7723,Albany,1.0
+7724,Warren - Blackwood,1.0
+7725,Warren - Blackwood,1.0
+7728,Bunbury,1.0
+7730,Albany,1.0
+7731,Warren - Blackwood,1.0
+7732,Vasse,1.0
+7734,Warren - Blackwood,1.0
+7736,Albany,1.0
+7738,Warren - Blackwood,1.0
+7739,Bunbury,1.0
+7740,Bunbury,1.0
+7741,Albany,1.0
+7742,Vasse,1.0
+7755,Bicton,1.0
+7756,Fremantle,1.0
+7757,Bibra Lake,1.0
+7758,Bicton,1.0
+7760,Cockburn,1.0
+7761,Bibra Lake,1.0
+7763,Fremantle,1.0
+7764,Fremantle,1.0
+7767,Bibra Lake,1.0
+7768,Fremantle,1.0
+7770,Fremantle,1.0
+7771,Cockburn,1.0
+7772,Bateman,1.0
+7773,Bibra Lake,1.0
+7774,Bicton,1.0
+7775,Bicton,1.0
+7777,Bicton,1.0
+7778,Cottesloe,1.0
+7779,Bicton,1.0
+7780,Bicton,1.0
+7781,Bicton,1.0
+7783,Bibra Lake,1.0
+7784,Fremantle,1.0
+7785,Bibra Lake,1.0
+7786,Bibra Lake,1.0
+7787,Bibra Lake,1.0
+7788,Bibra Lake,1.0
+7790,Fremantle,1.0
+7791,Bicton,1.0
+7792,Bicton,1.0
+7793,Cockburn,1.0
+7805,Kalgoorlie,1.0
+7806,Kimberley,1.0
+7808,Mid - West,1.0
+7811,Roe,1.0
+7816,Kalgoorlie,1.0
+7817,Mid - West,1.0
+7820,Mid - West,1.0
+7821,Kimberley,1.0
+7822,Roe,1.0
+7823,Pilbara,1.0
+7826,Kimberley,1.0
+7833,Kimberley,1.0
+7835,Roe,1.0
+7838,Geraldton,1.0
+7839,Kalgoorlie,1.0
+7842,Kalgoorlie,1.0
+7843,Kalgoorlie,1.0
+7846,Kalgoorlie,1.0
+7849,Kalgoorlie,1.0
+7850,Pilbara,1.0
+7851,Pilbara,1.0
+7853,Kimberley,1.0
+7854,Kalgoorlie,1.0
+7855,Kalgoorlie,1.0
+7856,Kalgoorlie,1.0
+7861,Mid - West,1.0
+7864,Mid - West,1.0
+7866,Mid - West,1.0
+7867,Geraldton,1.0
+7868,Roe,1.0
+7869,Geraldton,1.0
+7870,Pilbara,1.0
+7872,Kalgoorlie,1.0
+7873,Geraldton,1.0
+7875,Roe,1.0
+7876,Pilbara,1.0
+7877,Pilbara,1.0
+7878,Pilbara,1.0
+7879,Pilbara,1.0
+7880,Roe,1.0
+7886,Pilbara,1.0
+7887,Pilbara,1.0
+7888,Central Wheatbelt,1.0
+7891,Pilbara,1.0
+7895,Central Wheatbelt,1.0
+7896,Pilbara,1.0
+7899,Kimberley,1.0
+7916,Mid - West,1.0
+7918,Bassendean,1.0
+7919,Hillarys,1.0
+7921,Mid - West,1.0
+7922,Forrestfield,1.0
+7923,Swan Hills,1.0
+7924,Joondalup,1.0
+7926,Mid - West,1.0
+7927,Kalamunda,1.0
+7928,Hillarys,1.0
+7929,Mid - West,1.0
+7930,Kalamunda,1.0
+7931,Bassendean,1.0
+7932,Joondalup,1.0
+7933,Swan Hills,1.0
+7934,Mid - West,1.0
+7935,Kalamunda,1.0
+7936,Midland,1.0
+7938,Joondalup,1.0
+7939,West Swan,1.0
+7940,Swan Hills,1.0
+7941,Mid - West,1.0
+7942,Hillarys,1.0
+7944,Mid - West,1.0
+7945,Mid - West,1.0
+7946,Bassendean,1.0
+7947,Mid - West,1.0
+7948,Kalamunda,1.0
+7949,Midland,1.0
+7950,Midland,1.0
+7951,Swan Hills,1.0
+7953,Kalamunda,1.0
+7954,Mid - West,1.0
+7955,Hillarys,1.0
+7956,Kalamunda,1.0
+7957,Hillarys,1.0
+7958,Kalamunda,1.0
+7959,Mindarie,1.0
+7960,Kalamunda,1.0
+7961,Mid - West,1.0
+7963,Midland,1.0
+7964,Butler,1.0
+7966,Wanneroo,1.0
+7967,Wanneroo,1.0
+7969,Kingsley,1.0
+7970,Kalamunda,1.0
+7971,Butler,1.0
+7977,Central Wheatbelt,1.0
+7981,Central Wheatbelt,1.0
+7982,Central Wheatbelt,1.0
+7984,Geraldton,1.0
+7985,Central Wheatbelt,1.0
+7990,Roe,1.0
+7991,Central Wheatbelt,1.0
+7992,Roe,1.0
+7993,Central Wheatbelt,1.0
+7999,Central Wheatbelt,1.0
+8000,Mid - West,1.0
+8002,Mid - West,1.0
+8003,Central Wheatbelt,1.0
+8004,Roe,1.0
+8005,Roe,1.0
+8007,Central Wheatbelt,1.0
+8009,Mid - West,1.0
+8010,Roe,1.0
+8011,Mid - West,1.0
+8013,Central Wheatbelt,1.0
+8015,Roe,1.0
+8016,Roe,1.0
+8018,Mid - West,1.0
+8020,Roe,1.0
+8023,Geraldton,1.0
+8025,Geraldton,1.0
+8026,Roe,1.0
+8027,Central Wheatbelt,1.0
+8028,Central Wheatbelt,1.0
+8029,Central Wheatbelt,1.0
+8030,Roe,1.0
+8032,Roe,1.0
+8034,Roe,1.0
+8038,Roe,1.0
+8040,Central Wheatbelt,1.0
+8041,Albany,1.0
+8042,Roe,1.0
+8043,Roe,1.0
+8044,Central Wheatbelt,1.0
+8046,Roe,1.0
+8048,Roe,1.0
+8049,Roe,1.0
+8052,Mid - West,1.0
+8054,Central Wheatbelt,1.0
+8057,Mid - West,1.0
+8058,Mid - West,1.0
+8063,Geraldton,1.0
+8064,Mid - West,1.0
+8065,Albany,1.0
+8066,Geraldton,1.0
+8068,Central Wheatbelt,1.0
+8070,Roe,1.0
+8071,Central Wheatbelt,1.0
+8072,Albany,1.0
+8073,Roe,1.0
+8074,Roe,1.0
+8075,Roe,1.0
+8076,Central Wheatbelt,1.0
+8077,Central Wheatbelt,1.0
+8078,Central Wheatbelt,1.0
+8082,Roe,1.0
+8083,Roe,1.0
+8084,Mid - West,1.0
+8086,Central Wheatbelt,1.0
+8090,Albany,1.0
+8092,Central Wheatbelt,1.0
+8095,Geraldton,1.0
+8099,Roe,1.0
+8100,Central Wheatbelt,1.0
+8101,Mid - West,1.0
+8103,Central Wheatbelt,1.0
+8104,Central Wheatbelt,1.0
+8106,Geraldton,1.0
+8107,Roe,1.0
+8108,Geraldton,1.0
+8109,Central Wheatbelt,1.0
+8110,Mid - West,1.0
+8112,Roe,1.0
+8113,Roe,1.0
+8114,Central Wheatbelt,1.0
+8115,Geraldton,1.0
+8116,Roe,1.0
+8119,Central Wheatbelt,1.0
+8120,Central Wheatbelt,1.0
+8123,Central Wheatbelt,1.0
+8127,Bassendean,1.0
+8128,Bassendean,1.0
+8129,Bassendean,1.0
+8130,Maylands,1.0
+8131,Maylands,1.0
+8133,Morley,1.0
+8134,Mount Lawley,1.0
+8135,Mount Lawley,1.0
+8137,Perth,1.0
+8138,Maylands,1.0
+8139,Mount Lawley,1.0
+8140,Bassendean,1.0
+8142,Perth,1.0
+8143,Maylands,1.0
+8144,Perth,1.0
+8145,Maylands,1.0
+8147,Maylands,1.0
+8148,Maylands,1.0
+8149,Maylands,1.0
+8151,Mount Lawley,1.0
+8154,Mount Lawley,1.0
+8155,Mount Lawley,1.0
+8156,Mount Lawley,1.0
+8157,Morley,1.0
+8159,Perth,1.0
+8160,Perth,1.0
+8161,Perth,1.0
+8164,Perth,1.0
+8165,Nedlands,1.0
+8174,Balcatta,1.0
+8175,Balcatta,1.0
+8176,Balcatta,1.0
+8177,Balcatta,1.0
+8178,Scarborough,1.0
+8179,Morley,1.0
+8180,Morley,1.0
+8181,Mount Lawley,1.0
+8186,Scarborough,1.0
+8187,Scarborough,1.0
+8188,Scarborough,1.0
+8189,Morley,1.0
+8190,Morley,1.0
+8192,Balcatta,1.0
+8193,Balcatta,1.0
+8194,Balcatta,1.0
+8195,Scarborough,1.0
+8196,Scarborough,1.0
+8198,Balcatta,1.0
+8199,Churchlands,1.0
+8200,Churchlands,1.0
+8202,Mount Lawley,1.0
+8203,Mount Lawley,1.0
+8204,Mount Lawley,1.0
+8207,Midland,1.0
+8208,Belmont,1.0
+8209,Belmont,1.0
+8210,Victoria Park,1.0
+8211,Victoria Park,1.0
+8213,Victoria Park,1.0
+8214,Belmont,1.0
+8215,Belmont,1.0
+8217,South Perth,1.0
+8218,South Perth,1.0
+8219,Midland,1.0
+8220,Belmont,1.0
+8221,South Perth,1.0
+8223,Belmont,1.0
+8224,Victoria Park,1.0
+8225,South Perth,1.0
+8226,South Perth,1.0
+8228,Victoria Park,1.0
+8230,South Perth,1.0
+8232,Belmont,1.0
+8233,Belmont,1.0
+8234,Belmont,1.0
+8236,South Perth,1.0
+8237,South Perth,1.0
+8241,Belmont,1.0
+8242,Victoria Park,1.0
+8244,Victoria Park,1.0
+8246,Victoria Park,1.0
+82495,Oakford,1.0
+82505,Wanneroo,1.0
+8256,Bateman,1.0
+8258,Bateman,1.0
+8259,Bateman,1.0
+8260,Bateman,1.0
+8261,Bateman,1.0
+8262,Bateman,1.0
+8263,Riverton,1.0
+8264,Riverton,1.0
+8265,Riverton,1.0
+8266,Cannington,1.0
+8267,Cannington,1.0
+8268,Southern River,1.0
+8269,Cannington,1.0
+8270,Jandakot,1.0
+8271,Jandakot,1.0
+82718,Bibra Lake,1.0
+8272,Cannington,1.0
+8273,Riverton,1.0
+82736,Kalgoorlie,1.0
+8274,Bateman,1.0
+8275,Riverton,1.0
+8276,Riverton,1.0
+8277,Riverton,1.0
+82770,Pilbara,1.0
+8279,Thornlie,1.0
+8280,Thornlie,1.0
+8283,Riverton,1.0
+8284,Riverton,1.0
+8285,Riverton,1.0
+82857,Bassendean,1.0
+82858,Butler,1.0
+82859,Mindarie,1.0
+82861,Darling Range,1.0
+82866,Dawesville,1.0
+82867,Cockburn,1.0
+82869,Oakford,1.0
+82871,Swan Hills,1.0
+82876,West Swan,1.0
+82878,Wanneroo,1.0
+82881,Mindarie,1.0
+82882,Wanneroo,1.0
+82884,Landsdale,1.0
+82936,Mindarie,1.0
+82937,Hillarys,1.0
+82938,Kingsley,1.0
+82962,Landsdale,1.0
+82963,Butler,1.0
+82964,Swan Hills,1.0
+82965,Butler,1.0
+82966,Butler,1.0
+82967,Mindarie,1.0
+82968,Mindarie,1.0
+82969,West Swan,1.0
+82971,Cockburn,1.0
+82973,Oakford,1.0
+82974,Rockingham,1.0
+82978,Roe,1.0
+82979,Kalgoorlie,1.0
+82980,Kalgoorlie,1.0
+82993,Geraldton,1.0
+83037,Southern River,1.0
+83045,Baldivis,1.0
+83202,Jandakot,1.0
+83218,Dawesville,1.0
+83252,Vasse,1.0
+83255,Bunbury,1.0
+83257,Collie - Preston,1.0
+83258,Collie - Preston,1.0
+83289,Midland,1.0
+83296,Dawesville,1.0
+83297,Baldivis,1.0
+83301,South Perth,1.0
+83305,Scarborough,1.0
+83306,Butler,1.0
+83307,West Swan,1.0
+83316,Baldivis,1.0
+83318,Kwinana,1.0
+83331,Cannington,1.0
+83332,Cannington,1.0
+83344,Central Wheatbelt,1.0
+83345,Bateman,1.0
+83347,Secret Harbour,1.0
+83357,Churchlands,1.0
+83730,Vasse,1.0
+8850,Darling Range,1.0
+8851,Southern River,1.0
+8852,Vasse,1.0
+8853,Mid - West,1.0
+8855,Bassendean,1.0
+89900,Hillarys,1.0
+89901,Butler,1.0
+95056,Balcatta,1.0
+95837,Southern River,1.0
+95838,Oakford,1.0
+95841,Murray - Wellington,1.0
+95842,Forrestfield,1.0
+97403,South Perth,1.0
+97414,Carine,1.0
+97481,Darling Range,1.0
+97492,Kalamunda,1.0
+97537,Churchlands,1.0
+97650,Kalamunda,1.0
+97656,Churchlands,1.0
+97678,Belmont,1.0
+97679,Thornlie,1.0
+97686,Southern River,1.0
+97689,Rockingham,1.0
+97693,Collie - Preston,1.0
+97697,Landsdale,1.0
+97703,Perth,1.0
+97706,Landsdale,1.0
+97720,Cottesloe,1.0
+97724,Kwinana,1.0
+97731,Carine,1.0
+97734,Joondalup,1.0
+97740,Balcatta,1.0
+97741,Riverton,1.0
+97748,Bicton,1.0
+97749,Mindarie,1.0
+97750,Riverton,1.0
+97766,Bicton,1.0
+97768,Butler,1.0
+98024,Thornlie,1.0
+98168,Midland,1.0
+98173,Kwinana,1.0
+98174,Cockburn,1.0
+98175,Fremantle,1.0

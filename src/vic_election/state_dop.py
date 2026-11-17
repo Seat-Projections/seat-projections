@@ -223,7 +223,7 @@ def _nsw_dop(html: str) -> dict:
 
 def fetch_nsw(year: int, raw_dir: Path, refresh: bool = False) -> dict[str, dict]:
     http = CachedSession(refresh)
-    event = {2023: "SG2301"}[year]
+    event = {2023: "SG2301", 2019: "SG1901"}[year]
     listing = http.text(raw_dir / "results.html", NSWEC_VTR + f"{event.lower()}/la/results")
     slugs = sorted(set(re.findall(rf'href="/{event}/LA/([a-z-]+)/dop/dop"', listing)))
 

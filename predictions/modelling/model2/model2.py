@@ -18,7 +18,7 @@ from collections import Counter, defaultdict
 from dataclasses import dataclass, field
 from statistics import quantiles
 
-from vic_election.benchmark import party_group
+from vic_election.benchmark import norm_district, party_group
 
 POOLED = "*"  # strengths fitted to every source party together: fallback and shrinkage target
 EXH = "EXH"  # pseudo-recipient for exhausted ballots (optional preferential voting, e.g. NSW)
@@ -37,7 +37,8 @@ NOISE = {
     "flow_seat": 0.05,  # seat-level log-noise on every flow strength
 }
 CORE_TOP = 4  # a candidate is core if in the top CORE_TOP of primaries ... (4, not 3: lets a fourth-placed
-#               candidate win, e.g. Finniss SA 2026; on the B1 replays it matches counting every candidate)
+#               candidate win, e.g. Finniss SA 2026; with no smaller candidates standing it matches
+#               counting every candidate)
 CORE_SHARE = 0.05  # ... in at least this share of pre-pass runs
 CORE_PREPASS = 200
 NEW_IND = (15.0, 6.0)  # prior (mean, sd) primary for a credible independent who did not run in 2022
@@ -55,7 +56,7 @@ ON_PRIORS = {
 }
 RIGHT_MINORS = {"FFP", "Freedom Party of Victoria", "Labour DLP", "LDP", "Shooters, Fishers & Farmers Vic",
                 "Angry Victorians Party", "Derryn Hinch's Justice Party", "Health Australia Party",
-                "The Republican Make Australia Great Again", "Safety Victoria – Violent Crime Prevention",
+                "The Republican Make Australia Great Again", "Safety Victoria - Violent Crime Prevention",
                 "Australian Citizens Party (Victorian Division)"}
 
 
@@ -81,7 +82,7 @@ def seats_from_vec(tables: dict, regions: dict[str, str]) -> dict[str, Seat]:
     out = {}
     for d, t in tables.items():
         party = {c["candidate_id"]: party_group(c["party"]) for c in t["candidates"]}
-        out[d] = Seat(d, regions.get(d, ""), [Cand(c, party[c], float(v)) for c, v in t["first_preferences"].items()])
+        out[d] = Seat(d, regions.get(d, regions.get(norm_district(d), "")), [Cand(c, party[c], float(v)) for c, v in t["first_preferences"].items()])
     return out
 
 
@@ -122,12 +123,11 @@ def _luce_mm(obs: list[tuple[list[str], list[float]]], iters: int) -> dict[str, 
     return w
 
 
-def fit_flows(obs, exclude_district: str | None = None, iters: int = 60) -> dict[str, dict[str, float]]:
+def fit_flows(obs, iters: int = 60) -> dict[str, dict[str, float]]:
     """Source party -> {recipient party: strength}, shrunk towards the pooled fit for thinly observed sources."""
     by_src: dict[str, list] = defaultdict(list)
     for d, src, alts, n in obs:
-        if d != exclude_district:
-            by_src[src].append((alts, n))
+        by_src[src].append((alts, n))
     pooled = _luce_mm([o for v in by_src.values() for o in v], iters)
     out = {POOLED: pooled}
     for src, o in by_src.items():
@@ -165,8 +165,8 @@ def on_strength(w: dict[str, dict[str, float]], src: str, dst: str, draw: dict[s
 
 def strength_fn(w, draw: dict[str, float] | None, *noises: dict):
     """
-    (src, dst) -> strength: fitted flows, One Nation priors (unless `draw` is None: replays fit One Nation's
-    observed flows), then each noise table's log-normal factor.
+    (src, dst) -> strength: fitted flows, One Nation priors (skipped when `draw` is None), then each
+    noise table's log-normal factor.
     """
     def st(src: str, dst: str) -> float:
         x = strength(w, src, dst) if draw is None else on_strength(w, src, dst, draw)
@@ -244,8 +244,7 @@ def count_seat(cands: list[Cand], core: set[str], st, exhaust: bool = False, ord
 def central_count(cands: list[Cand], st, exhaust: bool = False) -> dict:
     """
     The count of one scenario shown stage by stage: every candidate is excluded in turn (minor candidates
-    one at a time rather than together), with origin tracking. On the B1 replays this gives the same
-    results as model2's count with a top-four core.
+    one at a time rather than together), with origin tracking.
     """
     stages: list = []
     winner, final, _ = count_seat(cands, {c.cid for c in cands if c.votes > 0}, st, exhaust, stages=stages)
@@ -436,13 +435,13 @@ def central_on_priors() -> dict[str, float]:
 
 def simulate(
     seats: dict[str, Seat],
-    flows_for,  # callable district -> fitted strengths (leave-one-district-out in replays)
+    flows_for,  # callable district -> fitted strengths
     primaries,  # callable rng -> district -> cid -> share
     runs: int,
     seed: int,
     noise=NOISE,
     majority: int = 45,
-    on_priors: bool = True,  # False in replays: One Nation's flows are fitted like every other party's
+    on_priors: bool = True,  # False fits One Nation's flows like every other party's
     exhaust: bool = False,  # optional preferential voting
 ) -> dict:
     rng = random.Random(seed)
