@@ -4,25 +4,34 @@ Notional previous-election results on new boundaries for NSW 2019->2023, WA 2021
 SA 2022->2026 — the same reassignment method as scripts/build_notional_2018.py (which handled
 Vic 2018->2022).
 
-Booth first preferences and vote types come from each commission's results feed (WAEC results API,
-ECSA results API, NSWEC VTR pages; cached under data/<PREV>/raw/). Polling places carry names but no
-coordinates, so each venue is located by:
+NSW uses no venue lookups at all (build_transfer): every new district's notional result is the
+elector-weighted blend of the old districts' actual 2019 primaries, with weights from the
+Redistribution Panel's elector-transfer table (each new district's "From the 2013 District of"
+enrolment rows in the 2021 report, parsed with pdftotext).
+
+For SA and WA, booth first preferences and vote types come from each commission's results feed
+(WAEC results API, ECSA results API; cached under data/<PREV>/raw/). Polling places carry names
+but no coordinates, so each venue is located by:
   a) matching its normalised name to an AEC federal polling place in the same state (nearest federal
      election first), accepting only matches inside its own old district or within AEC_MATCH_MAX_KM;
   b) geocoding "<venue>, <state>, Australia" with OpenStreetMap Nominatim (1 request/second, every
      response cached under the raw dir), accepting only results in the right state within
-     GEOCODE_MAX_KM of the old district;
+     GEOCODE_MAX_KM of the old district, and only for venues with at least 50 formal votes;
   c) still unmatched -> unlocated: its votes are spread over the new districts overlapping its old
-     district in proportion to located votes, exactly like build_notional_2018's declaration votes.
+     district in proportion to the spread weights, exactly like build_notional_2018's declaration
+     votes.
+
+For SA and WA the located state venues supply both the <1% boundary-change test and the spread
+weights, with an area-sampling fallback for old districts holding no located venue.
 
 Outputs per state pair:
   data/<PREV>/notional_<SCORED>_boundaries.json   new district -> party group -> notional votes
   data/<PREV>/notional_<SCORED>_boundaries.csv   the same, long format
-  data/<PREV>/notional_<SCORED>_booths.csv       one row per venue with its location method
+  data/<PREV>/notional_<SCORED>_booths.csv       one row per venue with its location method (SA/WA only)
 
 Validation (printed): share of votes located by method; per-party state totals conserved; and for
-districts whose boundaries did not change, notional primaries must equal the actual result — the key
-correctness check.
+districts whose boundaries did not change, notional primaries must equal the actual result —
+the key correctness check.
 """
 from __future__ import annotations
 
@@ -30,13 +39,12 @@ import csv
 import hashlib
 import json
 import re
+import subprocess
 import time
 import urllib.parse
 import urllib.request
 from collections import Counter, defaultdict
 from pathlib import Path
-
-from bs4 import BeautifulSoup
 
 from vic_election.config import BOUNDARIES_DIR, DATA_DIR
 from vic_election.geo import District, assign_point, fetch_state_districts
@@ -113,48 +121,6 @@ def fetch_wa2021(http: CachedSession, raw: Path) -> dict[str, DistrictBooths]:
     from concurrent.futures import ThreadPoolExecutor
     with ThreadPoolExecutor(max_workers=6) as pool:
         return {b.district: b for b in pool.map(one, districts)}
-
-
-def fetch_nsw2019(http: CachedSession, raw: Path) -> dict[str, DistrictBooths]:
-    """NSWEC VTR 2019: per-district 'fp_summary' table. 'Voting Centres' and named 'Early Voting
-    Centres' are located; 'Declared Facility' rows and the 'Declaration Votes' block are spread."""
-    base = "https://pastvtr.elections.nsw.gov.au/"
-    listing = http.text(raw / "results.html", base + "SG1901/LA/results")
-    slugs = sorted(set(re.findall(r'href="/SG1901/LA/([a-z-]+)/cc/fp_summary"', listing)))
-
-    def one(slug: str) -> DistrictBooths:
-        html = http.text(raw / f"{slug}.html", base + f"SG1901/LA/{slug}/cc/fp_summary")
-        soup = BeautifulSoup(html, "html.parser")
-        district = re.search(r"State Electoral District of ([^<]+)<", html).group(1).strip()
-        tab = next(t for t in soup.find_all("table") if "Venue and Vote Types" in t.get_text())
-        rows = [[c.get_text(" ", strip=True) for c in tr.find_all(["td", "th"])] for tr in tab.find_all("tr")]
-        heads = rows[0][1:-3]
-        cands = [(h, h.rsplit("(", 1)[-1].rstrip(")")) for h in heads]  # 'NAME (PARTY)' stays unique
-        b = DistrictBooths(district, cands)
-        section = None
-        for r in rows[1:]:
-            if not r or not r[0]:
-                continue
-            if len(r) < len(heads) + 1 or r[0].endswith("Votes") and r[0].startswith("Total") or r[0].startswith("%"):
-                if len(r) <= 2 or (r[1] == "" and len(r) <= 3):
-                    section = r[0]
-                    continue
-            if r[0] in ("Voting Centres", "Early Voting Centres", "Declaration Votes"):
-                section = r[0]
-                continue
-            if r[0].startswith("Total") or r[0].startswith("%"):
-                continue
-            votes = {h: float(v.replace(",", "") or 0) for h, v in zip(heads, r[1:len(heads) + 1])}
-            if section in ("Voting Centres", "Early Voting Centres") and "declared facility" not in r[0].lower():
-                b.centres[r[0]] = votes
-            else:
-                b.declaration[f"{section}: {r[0]}"] = votes
-        b.source = "NSWEC VTR (fp_summary)"
-        return b
-
-    from concurrent.futures import ThreadPoolExecutor
-    with ThreadPoolExecutor(max_workers=6) as pool:
-        return {b.district: b for b in pool.map(one, slugs)}
 
 
 # ------------------------------------------------------------- AEC polling-place catalogue
@@ -270,7 +236,8 @@ def nominatim_geocode(venue: str, old: District, state: str, cache_dir: Path) ->
                f"{venue}, {old.name}, {st_name}, Australia",
                f"{stripped}, {old.name}, {st_name}, Australia",
                f"{stripped}, {st_name}, Australia"]
-    for q in dict.fromkeys(q for q in queries if q.strip(", ")):
+    queries = [q for q in dict.fromkeys(q for q in queries if q.strip(", "))]
+    for q in queries:
         for hit in _nominatim(q, cache_dir):
             st = (hit.get("address") or {}).get("state", "")
             if st_name.lower() not in st.lower() and state.lower() not in st.lower():
@@ -279,6 +246,67 @@ def nominatim_geocode(venue: str, old: District, state: str, cache_dir: Path) ->
             if old.contains(lon, lat) or old.distance(lon, lat) <= GEOCODE_MAX_KM:
                 return {"lat": lat, "lon": lon}
     return None
+
+
+# ------------------------------------------------------------- NSW elector-transfer table
+
+NSW_REDIS_URL = ("https://elections.nsw.gov.au/getmedia/34dd92e3-d666-4bf8-a2e7-f86da0b7db70/"
+                 "sr-4044-redistribution-demographic-report-2021")
+
+
+def nsw_transfer_incoming(raw: Path, old_districts: list[District],
+                          new_districts: list[District]) -> tuple[dict, dict] | None:
+    """Parse the Electoral Districts Redistribution Panel 2021 report: each new district's
+    'From the 2013 District of' table lists the electors (2020 enrolment) it draws from each old
+    district. Returns old district (lower) -> {new district name -> share} or None when pdftotext
+    is unavailable / the parse looks wrong."""
+    pdf = raw / "redistribution" / "panel-report-2021.pdf"
+    if not pdf.exists():
+        pdf.parent.mkdir(parents=True, exist_ok=True)
+        data = urllib.request.urlopen(urllib.request.Request(NSW_REDIS_URL, headers=UA), timeout=60).read()
+        pdf.write_bytes(data)
+    try:
+        text = subprocess.run(["pdftotext", "-layout", str(pdf), "-"],
+                              capture_output=True, text=True, timeout=120).stdout
+    except (FileNotFoundError, subprocess.SubprocessError):
+        return None
+    canon = lambda s: re.sub(r"[^a-z]", "", s.lower())
+    old_names = {canon(d.name) for d in old_districts}
+    new_names = {canon(d.name) for d in new_districts}
+    new_proper = {canon(d.name): d.name for d in new_districts}
+    incoming = defaultdict(Counter)   # new (canon) -> old (canon) -> electors
+    cur, in_from = None, False
+    row = re.compile(r"^\s*(.*?)\s{2,}([\d,]+)\s+[\d,]+\s*$")
+    for line in text.splitlines():
+        m = re.match(r"\s*District of (.+?)\s*\(\s*[\d,.]+\s*sq\s*km", line)
+        if m:
+            nm = canon(m.group(1))
+            cur = nm if nm in new_names else None
+            in_from = False
+            continue
+        if cur and re.match(r"\s*From the 2013 District of", line):
+            in_from = True
+            continue
+        if in_from:
+            m = row.match(line)
+            if m:
+                nm = canon(m.group(1).rstrip("0123456789 "))
+                if nm.endswith("total") or nm in ("", "name"):
+                    in_from = False
+                    continue
+                if nm in old_names:
+                    incoming[cur][nm] += int(m.group(2).replace(",", ""))
+                continue
+            if line.strip() and not line.lstrip().startswith(("Current Enrolment", "Projected")):
+                in_from = False
+    if len(incoming) < 80:
+        return None
+    weights = {}
+    for o in old_names:
+        tot = sum(c[o] for c in incoming.values())
+        if tot:
+            weights[o] = {new_proper[n]: c[o] / tot for n, c in incoming.items() if c[o]}
+    return weights, dict(incoming), new_proper
 
 
 # ------------------------------------------------------------- driver
@@ -291,7 +319,7 @@ def build(prev_run: str, refresh: bool = False, geocode: bool = True) -> dict:
     raw = year_dir / "raw" / "notional"
     raw.mkdir(parents=True, exist_ok=True)
     http = CachedSession(refresh)
-    results = {"SA2022": fetch_sa2022, "WA2021": fetch_wa2021, "NSW2019": fetch_nsw2019}[prev_run](http, raw)
+    results = {"SA2022": fetch_sa2022, "WA2021": fetch_wa2021}[prev_run](http, raw)
 
     bounds = BOUNDARIES_DIR / "states"
     old_districts = fetch_state_districts(bounds, state, spec["prev_date"])
@@ -413,10 +441,11 @@ def build(prev_run: str, refresh: bool = False, geocode: bool = True) -> dict:
     small_votes = sum(v for (o, c), m in methods.items() if m == "unlocated-small"
                       for v in [sum(results[o].centres[c].values())])
 
-    meta = {"method": "previous-election booth first preferences located by AEC name match then "
-                      "Nominatim; unlocated booths and declaration/early/postal votes spread over the "
-                      "new districts overlapping each old district by located-vote share; districts whose "
-                      "boundaries changed <1% keep their actual previous-election primaries",
+    method = ("previous-election booth first preferences located by AEC name match then "
+              "Nominatim; unlocated booths and declaration/early/postal votes spread over the "
+              "new districts overlapping each old district by located-vote share; districts whose "
+              "boundaries changed <1% keep their actual previous-election primaries")
+    meta = {"method": method,
             "prev_run": prev_run, "scored_run": spec["scored"],
             "venue_counts": dict(located_by), "located_venue_votes": round(located_votes),
             "total_venue_votes": round(tot_votes), "located_share": round(located_votes / tot_votes, 4),
@@ -464,11 +493,109 @@ def build(prev_run: str, refresh: bool = False, geocode: bool = True) -> dict:
     return report
 
 
+def blend_notional(incoming: dict, act_votes: dict, new_proper: dict) -> dict:
+    """notional[new] = sum over old of (electors moved old->new / old's table total) x actual votes.
+    `incoming`: new-canon -> {old-canon: electors}; `act_votes`: old-canon -> Counter;
+    `new_proper`: new-canon -> output name."""
+    out = defaultdict(Counter)
+    old_tot = Counter()
+    for sources in incoming.values():
+        for o, e in sources.items():
+            old_tot[o] += e
+    for n_canon, sources in incoming.items():
+        for o_canon, electors in sources.items():
+            share = electors / old_tot[o_canon]
+            for party, v in act_votes[o_canon].items():
+                out[new_proper[n_canon]][party] += v * share
+    return dict(out)
+
+
+def build_transfer(prev_run: str = "NSW2019") -> dict:
+    """Notional results purely from the Redistribution Panel elector-transfer table:
+    notional[new] = sum over old of (electors old->new / old's table total) * actual prev primaries.
+    No venue lookups, no separate <1% rule: a district kept intact equals its actual result."""
+    spec = SPECS[prev_run]
+    year_dir = DATA_DIR / prev_run
+    raw = year_dir / "raw" / "notional"
+    raw.mkdir(parents=True, exist_ok=True)
+    old_districts = fetch_state_districts(BOUNDARIES_DIR / "states", spec["state"], spec["prev_date"])
+    new_districts = fetch_state_districts(BOUNDARIES_DIR / "states", spec["state"], spec["scored_date"])
+    tw = nsw_transfer_incoming(raw, old_districts, new_districts)
+    if tw is None:
+        raise SystemExit("elector-transfer table unavailable or unparseable; no fallback permitted")
+    weights, incoming, new_proper = tw
+    canon = lambda s: re.sub(r"[^a-z]", "", s.lower())
+
+    actual = json.loads((year_dir / "distributions" / f"dop_{prev_run}.json").read_text())
+    act_votes, act_totals = {}, Counter()
+    for d, t in actual.items():
+        party = {c["candidate_id"]: c["party"] for c in t["candidates"]}
+        g = Counter()
+        for c, v in t["first_preferences"].items():
+            g[_group(party[c])] += v
+        act_votes[canon(d)] = g
+        act_totals.update(g)
+    missing_old = [d.name for d in old_districts if canon(d.name) not in act_votes]
+    if missing_old:
+        raise SystemExit(f"{prev_run}: DOP districts with no boundary: {missing_old}")
+    missing_dop = [d for d in act_votes if d not in {canon(x.name) for x in old_districts}]
+    if missing_dop:
+        raise SystemExit(f"{prev_run}: boundaries missing DOP districts: {missing_dop}")
+
+    notion = blend_notional(incoming, act_votes, new_proper)
+
+    # same-named pairs keeping >=99% of electors in both directions
+    intact = 0
+    in_tot = {n: sum(c.values()) for n, c in incoming.items()}
+    for o in {canon(d.name) for d in old_districts}:
+        if o not in in_tot or o not in weights:
+            continue
+        tot = sum(c[o] for c in incoming.values())
+        out_share = incoming[o][o] / tot if tot else 0
+        in_share = incoming[o][o] / in_tot[o] if in_tot[o] else 0
+        if out_share >= 0.99 and in_share >= 0.99:
+            intact += 1
+
+    not_totals = Counter()
+    for c in notion.values():
+        not_totals.update(c)
+    diffs = {p: round(not_totals.get(p, 0) - act_totals.get(p, 0), 1)
+             for p in set(act_totals) | set(not_totals)}
+    bad_names = [n for n in notion if n not in {d.name for d in new_districts}]
+    meta = {"method": "elector-transfer table: notional[new] = sum over old districts of "
+                      "(electors moved old->new / old district electors in the 2021 redistribution "
+                      "report) x actual 2019 first preferences by party group",
+            "spread_weights_source": "nswec-redistribution-2021 " + NSW_REDIS_URL,
+            "prev_run": prev_run, "scored_run": spec["scored"],
+            "districts_intact_99pct": intact}
+    out = {"meta": meta,
+           "districts": {d: {p: round(v, 1) for p, v in c.most_common()}
+                         for d, c in sorted(notion.items())}}
+    (year_dir / f"notional_{spec['scored']}_boundaries.json").write_text(
+        json.dumps(out, indent=1), encoding="utf-8")
+    with (year_dir / f"notional_{spec['scored']}_boundaries.csv").open("w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["district", "party_group", "notional_votes"])
+        for d, c in sorted(notion.items()):
+            for p, v in c.most_common():
+                w.writerow([d, p, round(v, 1)])
+    report = {"run": prev_run, "method": "elector-transfer",
+              "districts": len(notion), "intact_99pct": intact,
+              "party_total_diffs_votes": diffs, "unmatched_new_names": bad_names}
+    print(json.dumps(report, indent=1))
+    return report
+
+
 def main() -> None:
-    import sys
-    runs = sys.argv[1:] or list(SPECS)
-    for r in runs:
-        build(r)
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("runs", nargs="*", default=list(SPECS))
+    args = ap.parse_args()
+    for r in args.runs:
+        if r == "NSW2019":
+            build_transfer(r)  # official elector-transfer table only; no venue lookups
+        else:
+            build(r)
 
 
 if __name__ == "__main__":

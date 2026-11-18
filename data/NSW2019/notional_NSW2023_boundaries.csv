@@ -1,0 +1,735 @@
+district,party_group,notional_votes
+Albury,LP,26524.1
+Albury,ALP,11614.7
+Albury,GRN,4327.0
+Albury,SAP,3271.5
+Albury,KSO,987.8
+Albury,IND*,0.4
+Albury,NP,0.2
+Albury,SFF,0.1
+Albury,AC,0.0
+Auburn,ALP,24111.5
+Auburn,LP,15759.6
+Auburn,GRN,3251.4
+Auburn,IND*,2613.1
+Auburn,KSO,878.0
+Auburn,CDP,0.0
+Auburn,AJP,0.0
+Badgerys Creek,LP,25876.2
+Badgerys Creek,ALP,15684.9
+Badgerys Creek,GRN,2503.9
+Badgerys Creek,SAP,1459.6
+Badgerys Creek,ON,1309.5
+Badgerys Creek,IND*,636.4
+Badgerys Creek,KSO,225.1
+Ballina,NP,17920.0
+Ballina,GRN,15355.2
+Ballina,ALP,12033.9
+Ballina,AJP,1213.3
+Ballina,SAP,1081.0
+Ballina,KSO,821.1
+Balmain,GRN,21065.0
+Balmain,ALP,14227.0
+Balmain,LP,9875.0
+Balmain,KSO,2268.0
+Balmain,AJP,1103.0
+Balmain,SAP,761.0
+Bankstown,ALP,27130.5
+Bankstown,LP,11389.8
+Bankstown,GRN,2310.1
+Bankstown,CDP,2224.4
+Bankstown,IND*,1261.3
+Bankstown,KSO,693.7
+Bankstown,AJP,601.5
+Barwon,SFF,15218.0
+Barwon,NP,14027.0
+Barwon,ALP,9661.0
+Barwon,IND*,3300.0
+Barwon,LDP,1571.0
+Barwon,GRN,1395.0
+Barwon,AJP,558.0
+Barwon,SAP,444.0
+Bathurst,NP,28102.9
+Bathurst,ALP,10500.1
+Bathurst,SFF,7545.8
+Bathurst,GRN,2825.3
+Bathurst,SAP,1321.8
+Bathurst,KSO,735.0
+Bathurst,LDP,9.7
+Bathurst,AJP,4.3
+Bathurst,CDP,4.2
+Bathurst,IND*,0.0
+Bathurst,FLUX,0.0
+Bathurst,AC,0.0
+Bega,LP,24796.0
+Bega,ALP,15508.0
+Bega,GRN,4945.0
+Bega,SFF,3275.0
+Bega,AJP,1371.0
+Bega,AC,806.0
+Blacktown,ALP,26572.1
+Blacktown,LP,12508.9
+Blacktown,GRN,3068.6
+Blacktown,CDP,3062.1
+Blacktown,ON,2826.8
+Blacktown,AC,208.9
+Blacktown,IND*,167.1
+Blacktown,AJP,82.9
+Blue Mountains,ALP,24427.9
+Blue Mountains,LP,15561.1
+Blue Mountains,GRN,6191.1
+Blue Mountains,AJP,2079.4
+Blue Mountains,CDP,1874.4
+Blue Mountains,SAP,1542.6
+Blue Mountains,KSO,941.0
+Blue Mountains,ON,283.4
+Blue Mountains,IND*,167.9
+Blue Mountains,SFF,103.0
+Cabramatta,ALP,25910.4
+Cabramatta,IND*,12253.5
+Cabramatta,LP,10792.8
+Cabramatta,GRN,2700.1
+Cabramatta,AJP,267.2
+Cabramatta,CDP,206.7
+Cabramatta,SAP,100.6
+Camden,LP,19888.1
+Camden,ALP,13911.9
+Camden,ON,6136.1
+Camden,IND*,2981.9
+Camden,GRN,1737.7
+Camden,KSO,1054.8
+Camden,SAP,528.9
+Campbelltown,ALP,24267.9
+Campbelltown,LP,12580.7
+Campbelltown,GRN,2374.2
+Campbelltown,CDP,1855.4
+Campbelltown,AJP,1736.3
+Campbelltown,KSO,1709.4
+Campbelltown,SAP,1016.5
+Campbelltown,IND*,601.6
+Campbelltown,ON,204.6
+Campbelltown,SFF,114.3
+Campbelltown,LDP,19.0
+Canterbury,ALP,25327.7
+Canterbury,LP,14512.8
+Canterbury,GRN,5449.9
+Canterbury,CDP,2683.8
+Canterbury,KSO,176.2
+Canterbury,AJP,152.9
+Castle Hill,LP,33342.0
+Castle Hill,ALP,11667.4
+Castle Hill,GRN,4223.2
+Castle Hill,SAP,1565.6
+Castle Hill,CDP,972.4
+Castle Hill,AJP,836.3
+Castle Hill,IND*,272.9
+Castle Hill,SFF,199.2
+Castle Hill,KSO,133.4
+Cessnock,ALP,25842.3
+Cessnock,NP,11511.0
+Cessnock,GRN,3820.8
+Cessnock,AJP,3762.7
+Cessnock,SAP,2495.4
+Cessnock,KSO,0.0
+Cessnock,LP,0.0
+Cessnock,ON,0.0
+Cessnock,SFF,0.0
+Charlestown,ALP,25892.5
+Charlestown,LP,16496.3
+Charlestown,GRN,5793.8
+Charlestown,AJP,2594.1
+Charlestown,IND*,1350.6
+Charlestown,AC,103.1
+Charlestown,SAP,74.0
+Charlestown,SBP,32.8
+Charlestown,SA,23.8
+Charlestown,KSO,23.8
+Clarence,NP,22991.9
+Clarence,ALP,10359.4
+Clarence,SFF,8307.9
+Clarence,GRN,3930.6
+Clarence,IND*,3041.6
+Clarence,SAP,789.0
+Clarence,AJP,1.7
+Clarence,AC,0.8
+Coffs Harbour,NP,20268.0
+Coffs Harbour,IND*,9379.0
+Coffs Harbour,ALP,8371.0
+Coffs Harbour,SFF,3405.0
+Coffs Harbour,GRN,3090.0
+Coffs Harbour,LDP,1542.0
+Coffs Harbour,AJP,1278.0
+Coffs Harbour,SAP,0.0
+Coogee,LP,19594.0
+Coogee,ALP,16946.6
+Coogee,GRN,7225.1
+Coogee,KSO,2502.3
+Coogee,AJP,898.1
+Coogee,SAP,641.4
+Coogee,SBP,466.7
+Coogee,SFF,427.2
+Cootamundra,NP,30206.0
+Cootamundra,ALP,7819.1
+Cootamundra,SFF,7610.2
+Cootamundra,GRN,1518.1
+Cootamundra,LP,672.1
+Cootamundra,SAP,660.0
+Cootamundra,IND*,453.0
+Cootamundra,ON,159.0
+Cootamundra,AJP,42.0
+Cootamundra,LDP,27.9
+Cootamundra,AC,0.0
+Cronulla,LP,32484.0
+Cronulla,ALP,11866.0
+Cronulla,GRN,3789.0
+Cronulla,KSO,1738.0
+Cronulla,SAP,1264.0
+Davidson,LP,34264.8
+Davidson,ALP,7731.7
+Davidson,GRN,7165.3
+Davidson,KSO,2044.3
+Davidson,SAP,1979.0
+Davidson,LDP,234.0
+Drummoyne,LP,29086.6
+Drummoyne,ALP,13338.8
+Drummoyne,GRN,4724.2
+Drummoyne,KSO,1874.5
+Drummoyne,AJP,1354.7
+Drummoyne,AC,80.2
+Dubbo,NP,18327.7
+Dubbo,IND*,13771.0
+Dubbo,ALP,7316.8
+Dubbo,SFF,6763.6
+Dubbo,GRN,1798.7
+Dubbo,AC,681.0
+Dubbo,FLUX,314.0
+Dubbo,LDP,25.7
+Dubbo,SAP,12.8
+Dubbo,AJP,11.5
+Dubbo,CDP,11.1
+East Hills,LP,20718.0
+East Hills,ALP,20515.0
+East Hills,GRN,2451.0
+East Hills,CDP,2158.3
+East Hills,KSO,1772.4
+East Hills,IND*,1566.5
+East Hills,AJP,931.7
+Epping,LP,28165.3
+Epping,ALP,14157.1
+Epping,GRN,4575.7
+Epping,IND*,1521.8
+Epping,KSO,1104.4
+Epping,SAP,442.2
+Epping,CDP,259.9
+Epping,AJP,198.2
+Epping,SA,128.1
+Epping,AC,4.4
+Epping,LDP,2.1
+Fairfield,ALP,26677.8
+Fairfield,LP,12439.7
+Fairfield,CDP,3648.2
+Fairfield,GRN,3449.5
+Fairfield,IND*,816.6
+Gosford,ALP,21640.5
+Gosford,LP,17611.9
+Gosford,GRN,4429.6
+Gosford,SFF,2307.0
+Gosford,AJP,1678.0
+Gosford,SAP,1213.0
+Gosford,AC,17.0
+Goulburn,LP,19284.9
+Goulburn,ALP,14837.9
+Goulburn,SFF,4683.8
+Goulburn,ON,4564.0
+Goulburn,GRN,3961.9
+Goulburn,AJP,1205.0
+Goulburn,LDP,800.1
+Granville,ALP,24451.2
+Granville,LP,17513.3
+Granville,GRN,2223.8
+Granville,CDP,1778.2
+Granville,IND*,1719.9
+Granville,AJP,550.1
+Granville,KSO,212.4
+Hawkesbury,LP,25022.7
+Hawkesbury,ALP,9145.7
+Hawkesbury,SFF,4064.2
+Hawkesbury,IND*,3338.5
+Hawkesbury,GRN,3073.1
+Hawkesbury,AJP,1292.0
+Hawkesbury,SAP,1221.9
+Hawkesbury,KSO,731.3
+Heathcote,LP,23042.7
+Heathcote,ALP,19977.7
+Heathcote,GRN,5367.6
+Heathcote,SFF,1542.5
+Heathcote,AJP,1474.0
+Heathcote,SAP,440.8
+Heathcote,ON,68.2
+Heathcote,CDP,31.6
+Heathcote,KSO,0.0
+Heffron,ALP,17065.4
+Heffron,LP,11566.2
+Heffron,GRN,8254.5
+Heffron,KSO,3834.7
+Heffron,AJP,1338.7
+Heffron,SAP,15.9
+Heffron,SBP,11.3
+Holsworthy,LP,21399.8
+Holsworthy,ALP,17882.6
+Holsworthy,ON,3223.5
+Holsworthy,GRN,2487.5
+Holsworthy,AJP,1706.4
+Holsworthy,LDP,482.3
+Holsworthy,SFF,222.9
+Holsworthy,IND*,125.0
+Holsworthy,CDP,72.2
+Holsworthy,KSO,47.9
+Holsworthy,AC,47.8
+Holsworthy,SAP,46.7
+Hornsby,LP,28682.9
+Hornsby,ALP,11723.0
+Hornsby,GRN,6200.4
+Hornsby,IND*,2593.0
+Hornsby,ON,1626.9
+Hornsby,KSO,1334.6
+Hornsby,AC,645.7
+Hornsby,SAP,637.5
+Hornsby,SFF,121.6
+Hornsby,AJP,38.6
+Keira,ALP,26043.7
+Keira,LP,12588.0
+Keira,GRN,7484.4
+Keira,SAP,1998.5
+Keira,IND*,529.9
+Keira,AJP,288.6
+Keira,KSO,194.0
+Kellyville,LP,30089.6
+Kellyville,ALP,9726.1
+Kellyville,GRN,3611.1
+Kellyville,SAP,1544.6
+Kellyville,CDP,646.3
+Kellyville,AJP,513.8
+Kiama,LP,26230.0
+Kiama,ALP,13803.0
+Kiama,GRN,5815.0
+Kiama,CDP,1671.0
+Kiama,SAP,1427.0
+Kogarah,LP,21398.6
+Kogarah,ALP,20919.5
+Kogarah,GRN,3262.7
+Kogarah,ON,2935.6
+Kogarah,KSO,1476.1
+Kogarah,SFF,53.6
+Kogarah,AJP,49.7
+Kogarah,IND*,36.8
+Lake Macquarie,IND*,25460.4
+Lake Macquarie,ALP,10194.2
+Lake Macquarie,LP,7352.0
+Lake Macquarie,GRN,2390.2
+Lake Macquarie,AJP,1406.4
+Lake Macquarie,SAP,755.9
+Lane Cove,LP,25632.2
+Lane Cove,ALP,10132.3
+Lane Cove,IND*,5641.3
+Lane Cove,GRN,5264.8
+Lane Cove,KSO,1774.3
+Lane Cove,SAP,1003.4
+Lane Cove,CDP,55.7
+Lane Cove,AC,23.0
+Lane Cove,LDP,11.2
+Leppington,ALP,19432.7
+Leppington,LP,15344.5
+Leppington,IND*,2152.2
+Leppington,GRN,2001.4
+Leppington,ON,1447.1
+Leppington,KSO,1014.3
+Leppington,AJP,407.8
+Leppington,SAP,322.2
+Leppington,AC,312.1
+Leppington,CDP,145.6
+Leppington,LDP,88.9
+Lismore,NP,19707.1
+Lismore,ALP,12733.6
+Lismore,GRN,12216.2
+Lismore,IND*,2526.4
+Lismore,AJP,1225.0
+Lismore,SAP,779.0
+Lismore,AC,563.2
+Lismore,KSO,28.9
+Lismore,SFF,0.1
+Liverpool,ALP,24956.5
+Liverpool,LP,13776.8
+Liverpool,IND*,4942.2
+Liverpool,GRN,2499.8
+Liverpool,KSO,894.7
+Liverpool,AC,891.2
+Liverpool,SAP,215.2
+Londonderry,ALP,19646.5
+Londonderry,LP,15700.8
+Londonderry,GRN,2058.3
+Londonderry,SAP,1615.7
+Londonderry,CDP,1451.4
+Londonderry,ON,117.8
+Londonderry,IND*,69.8
+Londonderry,SFF,42.8
+Londonderry,AJP,29.7
+Macquarie Fields,ALP,22981.3
+Macquarie Fields,LP,13198.1
+Macquarie Fields,IND*,3995.1
+Macquarie Fields,GRN,1899.0
+Macquarie Fields,KSO,1867.7
+Macquarie Fields,ON,271.8
+Macquarie Fields,AJP,132.3
+Macquarie Fields,LDP,42.7
+Maitland,ALP,21043.6
+Maitland,LP,12675.1
+Maitland,ON,5186.8
+Maitland,GRN,3074.3
+Maitland,SFF,2548.1
+Maitland,AJP,1304.4
+Maitland,KSO,993.4
+Maitland,SAP,745.6
+Maitland,NP,2.2
+Manly,LP,27424.3
+Manly,GRN,9477.2
+Manly,ALP,9220.1
+Manly,KSO,2590.8
+Manly,SAP,1594.4
+Manly,AJP,1301.8
+Manly,IND*,112.3
+Maroubra,ALP,20453.4
+Maroubra,LP,15580.9
+Maroubra,IND*,6492.0
+Maroubra,GRN,3605.9
+Maroubra,KSO,1271.7
+Maroubra,SAP,931.6
+Maroubra,AC,532.0
+Maroubra,AJP,10.7
+Maroubra,SBP,6.3
+Maroubra,SFF,5.8
+Miranda,LP,27183.4
+Miranda,ALP,14120.9
+Miranda,GRN,3572.2
+Miranda,ON,3237.0
+Miranda,CDP,1500.2
+Miranda,SAP,970.8
+Miranda,SFF,193.6
+Miranda,AJP,185.0
+Monaro,NP,25868.0
+Monaro,ALP,13431.0
+Monaro,GRN,3913.0
+Monaro,SFF,3848.0
+Monaro,IND*,1229.0
+Monaro,AJP,1159.0
+Mount Druitt,ALP,27659.2
+Mount Druitt,LP,14880.5
+Mount Druitt,GRN,3247.2
+Mount Druitt,CDP,2240.6
+Mount Druitt,AC,1309.1
+Mount Druitt,SAP,383.6
+Mount Druitt,AJP,0.0
+Mount Druitt,IND*,0.0
+Murray,SFF,18305.0
+Murray,NP,16636.0
+Murray,ALP,4359.5
+Murray,ON,3949.0
+Murray,IND*,1609.0
+Murray,GRN,1322.0
+Murray,CDP,715.0
+Murray,SAP,518.5
+Murray,LP,514.9
+Murray,KSO,211.2
+Murray,LDP,0.0
+Murray,AJP,0.0
+Myall Lakes,NP,24866.3
+Myall Lakes,ALP,14874.5
+Myall Lakes,IND*,4169.0
+Myall Lakes,SFF,3520.1
+Myall Lakes,GRN,2858.4
+Myall Lakes,SAP,815.5
+Myall Lakes,LDP,0.4
+Myall Lakes,AJP,0.2
+Myall Lakes,CDP,0.2
+Newcastle,ALP,22263.2
+Newcastle,LP,12673.1
+Newcastle,GRN,7936.0
+Newcastle,AJP,1416.4
+Newcastle,SAP,1168.2
+Newcastle,SBP,1128.9
+Newcastle,SA,818.4
+Newcastle,KSO,818.4
+Newcastle,IND*,0.0
+Newtown,GRN,20234.6
+Newtown,ALP,13972.1
+Newtown,LP,7842.5
+Newtown,KSO,3465.6
+Newtown,AJP,1187.6
+Newtown,SAP,898.5
+Newtown,SBP,604.1
+North Shore,LP,22261.0
+North Shore,IND*,9341.0
+North Shore,ALP,5900.0
+North Shore,GRN,5393.0
+North Shore,KSO,1993.0
+North Shore,AJP,827.0
+North Shore,LDP,785.0
+North Shore,SAP,661.0
+North Shore,AC,613.0
+Northern Tablelands,NP,36893.4
+Northern Tablelands,ALP,5670.3
+Northern Tablelands,SFF,4947.1
+Northern Tablelands,GRN,2848.3
+Northern Tablelands,IND*,335.2
+Northern Tablelands,AJP,30.8
+Northern Tablelands,SAP,0.0
+Northern Tablelands,AC,0.0
+Oatley,LP,25747.5
+Oatley,ALP,18014.9
+Oatley,GRN,3118.2
+Oatley,ON,2019.4
+Oatley,SFF,743.4
+Oatley,CDP,380.9
+Oatley,KSO,118.7
+Oatley,AJP,103.0
+Orange,SFF,24718.4
+Orange,NP,12988.5
+Orange,ALP,5126.5
+Orange,GRN,2615.1
+Orange,CDP,1627.0
+Orange,LDP,1037.0
+Orange,IND*,896.0
+Orange,AC,873.0
+Orange,KSO,416.0
+Orange,SAP,0.1
+Oxley,NP,26234.4
+Oxley,ALP,10311.9
+Oxley,GRN,6316.5
+Oxley,SFF,5644.0
+Oxley,SAP,1793.4
+Parramatta,LP,21713.9
+Parramatta,ALP,15383.3
+Parramatta,GRN,3194.5
+Parramatta,IND*,1719.9
+Parramatta,KSO,922.4
+Parramatta,SAP,492.7
+Parramatta,SA,225.9
+Parramatta,CDP,48.2
+Parramatta,AC,40.8
+Parramatta,AJP,19.3
+Penrith,LP,19381.7
+Penrith,ALP,18069.4
+Penrith,ON,3108.8
+Penrith,GRN,2445.1
+Penrith,IND*,1842.3
+Penrith,CDP,1170.2
+Penrith,SFF,1130.2
+Penrith,AJP,783.9
+Penrith,SAP,737.1
+Pittwater,LP,28169.0
+Pittwater,GRN,7517.7
+Pittwater,ALP,6167.8
+Pittwater,SAP,1831.9
+Pittwater,KSO,1643.9
+Pittwater,AJP,1416.9
+Pittwater,AC,1283.0
+Pittwater,IND*,1087.0
+Port Macquarie,NP,31922.6
+Port Macquarie,ALP,11631.4
+Port Macquarie,GRN,3920.6
+Port Macquarie,SAP,2720.3
+Port Stephens,ALP,23891.8
+Port Stephens,LP,19811.0
+Port Stephens,GRN,1885.0
+Port Stephens,IND*,1755.4
+Port Stephens,AJP,1302.8
+Port Stephens,SAP,984.0
+Port Stephens,NP,5.0
+Port Stephens,SFF,3.3
+Port Stephens,LDP,0.7
+Port Stephens,CDP,0.3
+Prospect,ALP,24039.1
+Prospect,LP,18067.0
+Prospect,IND*,2770.9
+Prospect,GRN,2496.6
+Prospect,AJP,1196.5
+Prospect,CDP,206.8
+Prospect,SAP,143.4
+Prospect,AC,128.7
+Riverstone,LP,23670.5
+Riverstone,ALP,17434.9
+Riverstone,GRN,2637.1
+Rockdale,ALP,21339.5
+Rockdale,LP,15673.3
+Rockdale,GRN,3723.3
+Rockdale,KSO,2785.9
+Rockdale,AJP,1750.3
+Rockdale,IND*,1298.2
+Ryde,LP,25331.9
+Ryde,ALP,15297.9
+Ryde,GRN,4456.0
+Ryde,CDP,1991.6
+Ryde,KSO,1396.3
+Ryde,AC,822.6
+Ryde,SAP,808.1
+Ryde,LDP,398.7
+Ryde,IND*,115.8
+Shellharbour,ALP,28940.5
+Shellharbour,LP,13697.5
+Shellharbour,GRN,4734.1
+Shellharbour,SAP,2960.9
+South Coast,LP,27143.0
+South Coast,ALP,15256.0
+South Coast,GRN,6481.0
+South Coast,CDP,0.0
+South Coast,SAP,0.0
+Strathfield,ALP,21782.5
+Strathfield,LP,18449.0
+Strathfield,GRN,4454.0
+Strathfield,KSO,1349.5
+Strathfield,AC,1156.8
+Strathfield,AJP,962.3
+Strathfield,CDP,273.3
+Strathfield,IND*,0.0
+Summer Hill,ALP,22687.8
+Summer Hill,LP,11600.0
+Summer Hill,GRN,9760.3
+Summer Hill,KSO,2597.1
+Summer Hill,AJP,1141.7
+Summer Hill,SAP,644.8
+Summer Hill,CDP,168.3
+Swansea,ALP,25597.7
+Swansea,LP,16932.2
+Swansea,GRN,3704.3
+Swansea,AJP,2840.0
+Swansea,AC,2556.0
+Sydney,IND*,17077.0
+Sydney,LP,13550.0
+Sydney,ALP,7884.1
+Sydney,GRN,6406.9
+Sydney,SBP,1041.5
+Sydney,SAP,764.6
+Sydney,KSO,463.8
+Sydney,AJP,157.2
+Tamworth,NP,27972.8
+Tamworth,SFF,8656.6
+Tamworth,IND*,7947.8
+Tamworth,ALP,5015.2
+Tamworth,GRN,1486.8
+Tamworth,AJP,801.8
+Tamworth,LDP,162.4
+Tamworth,SAP,81.3
+Tamworth,CDP,70.0
+Terrigal,LP,26580.0
+Terrigal,ALP,13134.0
+Terrigal,GRN,5073.0
+Terrigal,IND*,1758.0
+Terrigal,AJP,1542.0
+Terrigal,AC,1202.0
+Terrigal,SAP,995.0
+The Entrance,ALP,21758.1
+The Entrance,LP,18765.3
+The Entrance,GRN,3875.1
+The Entrance,AJP,2034.0
+The Entrance,KSO,1263.0
+The Entrance,SAP,1218.0
+The Entrance,AC,1118.5
+Tweed,NP,22185.0
+Tweed,ALP,14449.0
+Tweed,GRN,6461.0
+Tweed,AJP,1790.0
+Tweed,SAP,1776.0
+Upper Hunter,ALP,16324.5
+Upper Hunter,NP,15535.2
+Upper Hunter,SFF,10002.0
+Upper Hunter,GRN,2649.1
+Upper Hunter,LDP,1952.2
+Upper Hunter,LP,1468.8
+Upper Hunter,AJP,1208.6
+Upper Hunter,SAP,1186.8
+Upper Hunter,CDP,841.3
+Upper Hunter,ON,598.2
+Upper Hunter,KSO,114.6
+Upper Hunter,IND*,0.6
+Vaucluse,LP,27002.3
+Vaucluse,GRN,6684.7
+Vaucluse,ALP,6175.6
+Vaucluse,KSO,3683.0
+Vaucluse,IND*,3112.0
+Vaucluse,AJP,664.0
+Vaucluse,SAP,652.2
+Vaucluse,SBP,47.0
+Wagga Wagga,IND*,22370.6
+Wagga Wagga,NP,12634.8
+Wagga Wagga,ALP,7140.9
+Wagga Wagga,SFF,4241.9
+Wagga Wagga,GRN,1346.0
+Wagga Wagga,AC,843.0
+Wagga Wagga,KSO,0.0
+Wagga Wagga,SAP,0.0
+Wagga Wagga,LP,0.0
+Wahroonga,LP,30117.5
+Wahroonga,ALP,9596.8
+Wahroonga,GRN,6609.6
+Wahroonga,SAP,1503.7
+Wahroonga,KSO,1470.3
+Wahroonga,LDP,819.0
+Wahroonga,IND*,761.6
+Wahroonga,ON,623.1
+Wahroonga,AC,247.3
+Wakehurst,LP,29861.6
+Wakehurst,ALP,8655.4
+Wakehurst,GRN,5184.1
+Wakehurst,KSO,1989.3
+Wakehurst,AJP,1567.3
+Wakehurst,IND*,1493.8
+Wakehurst,SAP,1413.9
+Wakehurst,AC,0.0
+Wallsend,ALP,30977.3
+Wallsend,LP,10313.5
+Wallsend,GRN,4696.6
+Wallsend,AJP,2111.1
+Wallsend,AC,1865.9
+Wallsend,SAP,16.8
+Wallsend,SBP,16.3
+Wallsend,KSO,11.8
+Wallsend,SA,11.8
+Wallsend,ON,0.0
+Wallsend,SFF,0.0
+Willoughby,LP,29820.6
+Willoughby,ALP,7655.9
+Willoughby,GRN,5865.1
+Willoughby,IND*,5059.7
+Willoughby,KSO,1570.4
+Willoughby,AJP,1040.0
+Willoughby,SAP,899.6
+Willoughby,FLUX,384.0
+Willoughby,LDP,0.0
+Willoughby,AC,0.0
+Winston Hills,LP,25033.2
+Winston Hills,ALP,20834.0
+Winston Hills,GRN,3380.8
+Winston Hills,IND*,1440.6
+Winston Hills,SAP,674.2
+Winston Hills,AC,605.5
+Winston Hills,ON,541.2
+Winston Hills,CDP,528.2
+Wollondilly,LP,18667.5
+Wollondilly,IND*,9895.7
+Wollondilly,ALP,7450.2
+Wollondilly,ON,5510.2
+Wollondilly,SFF,3120.7
+Wollondilly,GRN,2746.4
+Wollondilly,AJP,1279.2
+Wollondilly,LDP,518.0
+Wollongong,ALP,24539.2
+Wollongong,LP,11009.1
+Wollongong,GRN,6093.8
+Wollongong,IND*,2300.1
+Wollongong,SAP,2156.2
+Wollongong,AJP,1252.4
+Wollongong,KSO,842.0
+Wyong,ALP,23927.4
+Wyong,LP,14634.8
+Wyong,GRN,4344.3
+Wyong,AC,3008.5

@@ -143,6 +143,48 @@ def test_baseline_coalition_keeps_its_share_when_one_partner_stands() -> None:
     assert base.shares["S"]["NAT, New"] == pytest.approx(50.0)  # the Nationals inherit the absent Liberals' 20%
 
 
+def test_baseline_ind_source_matches_state_independent_shares() -> None:
+    """Federal pseudo-candidate IND* matches nothing; with the state's seats as ind_source the
+    independent shares are identical to the state variant's, and the pooled vote drops out."""
+    # state baseline: named 2022 independent 'SMITH, Jo' won 30%; a minor independent took 4%
+    state_seats = {"A": model2.Seat("A", "R", [Cand("a", "ALP", 300), Cand("l", "LP", 300),
+                                             Cand("SMITH, Jo", "IND*", 300), Cand("m", "IND*", 40),
+                                             Cand("g", "GRN", 60)])}
+    # federal baseline: pooled IND* pseudo-candidate (e.g. a teal seat), same party shares otherwise
+    fed_seats = {"A": model2.Seat("A", "R", [Cand("ALP", "ALP", 300), Cand("LP", "LP", 300),
+                                            Cand("IND*", "IND*", 340), Cand("GRN", "GRN", 60)])}
+    field = [{"district": "A", "candidate": c, "party_group": p} for c, p in
+             (("NEW, Labor", "ALP"), ("NEW, Lib", "LP"), ("SMITH, Jo", "IND*"), ("DOE, Pat", "IND*"))]
+    state_base = model2.baseline_2026(state_seats, field, {"A": 5.0}, [])
+    fed_base = model2.baseline_2026(fed_seats, field, {"A": 5.0}, [], ind_source=state_seats)
+    for cand in ("SMITH, Jo", "DOE, Pat"):
+        assert fed_base.shares["A"][cand] == pytest.approx(state_base.shares["A"][cand])
+    assert state_base.shares["A"]["SMITH, Jo"] == pytest.approx(30.0)   # surname-matched recontesting share
+    assert fed_base.seats["A"].cands != [] and "IND*" not in fed_base.shares["A"]  # pooled IND* drops out
+
+
+def test_baseline_ind_source_none_unchanged() -> None:
+    """ind_source=None keeps the old behaviour: independent shares read from the baseline seats."""
+    seats = {"A": model2.Seat("A", "R", [Cand("a", "ALP", 300), Cand("l", "LP", 300), Cand("SMITH, Jo", "IND*", 300)])}
+    field = [{"district": "A", "candidate": c, "party_group": p}
+             for c, p in (("NEW, Labor", "ALP"), ("NEW, Lib", "LP"), ("SMITH, Jo", "IND*"))]
+    a = model2.baseline_2026(seats, field, {"A": 5.0}, [])
+    b = model2.baseline_2026(seats, field, {"A": 5.0}, [], ind_source=None)
+    c = model2.baseline_2026(seats, field, {"A": 5.0}, [], ind_source=seats)
+    assert a.shares == b.shares == c.shares
+
+
+def test_ipf_margins_and_conservation() -> None:
+    from build_fed_primaries import rake_division
+    seed = {("D1", "ALP"): 60, ("D1", "LP"): 40, ("D2", "ALP"): 30, ("D2", "LP"): 70}
+    m = rake_division(seed, {"D1": 100.0, "D2": 100.0}, {"ALP": 80.0, "LP": 100.0, "ON": 20.0})
+    for d in ("D1", "D2"):
+        assert sum(v for (dd, g), v in m.items() if dd == d) == pytest.approx(100.0, abs=0.01)
+    for g, v in (("ALP", 80.0), ("LP", 100.0), ("ON", 20.0)):
+        assert sum(vv for (dd, gg), vv in m.items() if gg == g) == pytest.approx(v, abs=0.01)
+    assert all(v >= 0 for v in m.values()) and m[("D1", "ON")] > 0  # zero seed party still takes votes
+
+
 def _poll(pollster, end, eligible="true", alp="30", lnp="30", onp="20", grn="10", others="10"):
     return {"pollster": pollster, "fieldwork_end": end, "alp": alp, "lnp": lnp,
             "onp": onp, "grn": grn, "others": others, "eligible_for_average": eligible}
@@ -272,6 +314,8 @@ EXPECTED_SA4_REGIONS = {
     "QLD": {"Brisbane", "Coasts", "Wide Bay-Darling Downs", "Central", "North"},
     "SA": {"Adelaide North", "Adelaide South", "Adelaide Central/West", "Country North & West", "South East"},
     "WA": {"Perth North", "Perth South", "Peel & South West", "Regional"},
+    "NSW": {"Sydney North & East", "Sydney West", "Sydney South & South West",
+            "Hunter & Central Coast", "North Coast & New England", "South & West NSW"},
 }
 
 
@@ -293,3 +337,53 @@ def test_state_region_maps_cover_scored_districts() -> None:
         assert set(regions.values()) <= EXPECTED_SA4_REGIONS[r.state], (
             f"{run_id}: region names outside the documented groups: "
             f"{set(regions.values()) - EXPECTED_SA4_REGIONS[r.state]}")
+
+
+def test_merge_state_exhaustion_imports_exh_strength() -> None:
+    """Federal counts have no EXH alternative; the NSW merge must give every source an EXH strength
+    scaled to its federal ALP strength by the state's EXH/ALP ratio."""
+    import run_model2 as rm
+    fed_tables = {"Div": {"candidates": [{"candidate_id": "a", "party": "ALP"}, {"candidate_id": "b", "party": "LP"},
+                                        {"candidate_id": "c", "party": "GRN"}],
+                          "first_preferences": {"a": 5000, "b": 4000, "c": 1000},
+                          "steps": [{"excluded_candidate": "c", "exhausted": 0.0, "transfers": {"a": 700, "b": 300}}],
+                          "final_totals": {"a": 5700, "b": 4300}}}
+    state_tables = {"Div": {"candidates": [{"candidate_id": "a", "party": "ALP"}, {"candidate_id": "b", "party": "LP"},
+                                           {"candidate_id": "c", "party": "GRN"}],
+                            "first_preferences": {"a": 5000, "b": 4000, "c": 1000},
+                            "steps": [{"excluded_candidate": "c", "exhausted": 400.0, "transfers": {"a": 400, "b": 200}}],
+                            "final_totals": {"a": 5400, "b": 4200}}}
+    fit = model2.fit_flows(model2.flow_observations(fed_tables))
+    assert not any("EXH" in v for v in fit.values())
+    merged = rm.merge_state_exhaustion(fit, state_tables)
+    assert all("EXH" in v for v in merged.values())
+    s = state_tables and model2.fit_flows(model2.flow_observations(state_tables, exhaust=True))
+    assert merged["GRN"]["EXH"] == pytest.approx(merged["GRN"]["ALP"] * s["GRN"]["EXH"] / s["GRN"]["ALP"])
+
+
+def test_federal_runs_use_only_federal_inputs() -> None:
+    """Every federal-baseline run definition points at model1 federal primaries + an AEC DoP file,
+    and never at the scored election's own distributions."""
+    import run_model2 as rm
+    fed = {k: r for k, r in rm.RUNS.items() if r.baseline == "federal"}
+    assert set(fed) == {"VIC2026 (fed2025)", "VIC2022 (F fed2022)", "NSW2023 (F fed2022)",
+                        "QLD2024 (F fed2022)", "WA2025 (F fed2022)", "SA2026 (F fed2025)"}
+    for k, r in fed.items():
+        assert r.fed_primaries.name.startswith("fed_primaries_") and r.fed_primaries.parent.name == "inputs"
+        assert r.fed_dop.name.startswith("HouseDopByDivisionDownload")
+        assert r.notional is None
+        if r.mode == "backtest":
+            scored = r.distributions.resolve()
+            for p in (r.fed_primaries, r.fed_dop, r.prev_distributions, r.prev_tables_for_inds):
+                assert p is None or p.resolve() != scored, k
+
+
+def test_federal_runs_share_state_independent_tables() -> None:
+    """The credible-independent rule is identical between variants: each federal backtest reads
+    the same prev_tables_for_inds as its state-baseline counterpart."""
+    import run_model2 as rm
+    for fed_id, state_id in (("VIC2022 (F fed2022)", "VIC2022 (F)"), ("NSW2023 (F fed2022)", "NSW2023 (F)"),
+                             ("QLD2024 (F fed2022)", "QLD2024 (F)"), ("WA2025 (F fed2022)", "WA2025 (F)"),
+                             ("SA2026 (F fed2025)", "SA2026 (F)")):
+        fed, state = rm.RUNS[fed_id], rm.RUNS[state_id]
+        assert fed.prev_tables_for_inds == (state.prev_tables_for_inds or state.prev_distributions), fed_id

@@ -1,7 +1,7 @@
 "use strict";
 /* projections.html — 2026 forecast: bloc headline, favourite-party map, per-district panel. */
 
-const MODEL_TITLE = { model1: "Baseline Model", model2: "Forecast Model" };
+const MODEL_TITLE = { model1: "Baseline Model", model2: "Forecast Model (state baseline)", model2fed: "Forecast Model (federal baseline)" };
 const BLOC_ORDER = ["COAL", "ALP", "ON", "GRN", "IND*"];
 
 let view = "model2";
@@ -12,9 +12,10 @@ let districtLayer = null;
 let snapDate = null;           // null = latest forecast
 let tl = null;                 // shared timeline-slider widget
 let approx = false;            // slider strictly between marks
-const snapDocs = {};           // date -> forecast doc
+const snapDocs = {};           // view -> {date -> forecast doc}
 
-const fc = () => (view === "model2" && snapDate && snapDocs[snapDate]) || forecasts[view];
+const TIMELINE_VIEWS = new Set(["model2", "model2fed"]);
+const fc = () => (TIMELINE_VIEWS.has(view) && snapDate && snapDocs[view]?.[snapDate]) || forecasts[view];
 const nameOf = (d, id) => (d.candidates.find((c) => c.id === id)?.name) || id;
 const shortOf = (d, id) => dispName(nameOf(d, id).split(",")[0]);
 
@@ -23,13 +24,13 @@ const loadForecast = async (model) => (forecasts[model] ||= await fetch(`/data/$
   return r.json();
 }));
 
-const loadSnapshot = async (date) => (snapDocs[date] ||= await fetch(`/data/snapshots/model2/${date}.json`).then((r) => {
-  if (!r.ok) throw new Error(`data/snapshots/model2/${date}.json missing; run scripts/build_site.py`);
+const loadSnapshot = async (date) => ((snapDocs[view] ||= {})[date] ||= await fetch(`/data/snapshots/${view}/${date}.json`).then((r) => {
+  if (!r.ok) throw new Error(`data/snapshots/${view}/${date}.json missing; run scripts/build_site.py`);
   return r.json();
 }));
 
 function favourite(name) {
-  if (view === "model2" && timeline) {
+  if (timeline && tl) {
     const row = blendedRow(name);
     return row ? row.reduce((a, c) => (c.p_win > a.p_win ? c : a)) : null;
   }
@@ -56,7 +57,7 @@ function forecastStyle(feature) {
 
 function forecastTooltip(layer) {
   const name = layer.feature.properties.district;
-  if (view === "model2" && timeline) {
+  if (timeline && tl) {
     const row = blendedRow(name);
     if (!row) return `<b>${esc(name)}</b>`;
     const top = [...row].sort((a, b) => b.p_win - a.p_win).filter((c) => c.p_win >= 0.01).slice(0, 3);
@@ -235,7 +236,7 @@ function clearDistrict() {
 function syncHash() {
   let h = `#${view}`;
   if (selected) h += `/${encodeURIComponent(selected)}`;
-  if (view === "model2" && snapDate) h += `@${snapDate}`;
+  if (TIMELINE_VIEWS.has(view) && snapDate) h += `@${snapDate}`;
   history.replaceState(null, "", h);
 }
 
@@ -268,7 +269,7 @@ function renderLegend() {
 /* ---------- forecast history (snapshots) ---------- */
 
 function snapBannerHTML() {
-  if (view !== "model2" || !snapDate) return "";
+  if (!TIMELINE_VIEWS.has(view) || !snapDate) return "";
   const m = fc().meta;
   if (m.retrospective) {
     return `<div class="snap-banner"><b>Retrospective estimate for polls to ${esc(fmtSnapDate(snapDate))}</b>. Generated ${esc(fmtSnapDate(m.generated))} using only polls published by that date (fieldwork ended &ge;2 days earlier). Candidate list and model settings are the final November versions, so this is not a forecast we published on ${esc(fmtSnapDate(snapDate))}.</div>`;
@@ -284,9 +285,31 @@ function updateSnapBanner() {
   hero.hidden = !b;
 }
 
+let benchPromise = null;
+
+function updateFedBanner() {
+  const el = document.getElementById("fed-banner");
+  if (!el) return;
+  el.hidden = view !== "model2fed";
+  if (view !== "model2fed") { el.innerHTML = ""; return; }
+  benchPromise ||= fetch("/data/benchmarks.json").then((r) => r.json());
+  benchPromise.then((b) => {
+    if (view !== "model2fed") return;
+    const sum = (rows) => rows.filter((r) => r.raw_seat_count !== "")
+      .reduce((a, r) => ({ se: a.se + +r.raw_seat_count, d: a.d + +r.districts }), { se: 0, d: 0 });
+    const fed = sum(b.forecast_fed_backtests), st = sum(b.forecast_backtests);
+    el.innerHTML = `<div class="snap-banner"><b>You are viewing the Forecast Model with a federal baseline.</b>
+      It scored worse than the default forecast on past elections (${fed.se} of ${fed.d} seats right,
+      against ${st.se}), so treat it as a comparison only.
+      <a href="/#model2">Back to the main forecast</a> &middot;
+      <a href="/methodology/forecast/#benchmarks">Benchmark details</a></div>`;
+  });
+}
+
 /* ---------- blended map timeline (shared widget in common.js) ---------- */
 
-let timeline = null;          // /data/snapshots/map_timeline.json
+let timeline = null;          // current view's map timeline
+const timelines = {};         // view -> /data/snapshots/.../map_timeline.json
 
 /* Interpolated p_win per candidate for one district at the slider position. */
 function blendedRow(name) {
@@ -321,14 +344,22 @@ async function setView(v, keepDistrict, date) {
   document.getElementById("btn-model1").classList.toggle("on", v === "model1");
   document.getElementById("btn-model2").classList.toggle("on", v === "model2");
   const snapUI = document.getElementById("snap-ui");
-  if (snapUI) snapUI.hidden = v !== "model2" || !timeline;
   await loadForecast(v);
-  if (v === "model2" && tl && timeline) {
+  timeline = TIMELINE_VIEWS.has(v) ? timelines[v] : null;
+  if (snapUI) snapUI.hidden = !timeline;
+  if (timeline && snapUI) {
+    tl = timelineSlider(snapUI, timeline.points, {
+      noteText: "Marks are model runs; the map blends between them.",
+      onBlend: (t, mark, frac) => { approx = frac > 0; districtLayer.setStyle(forecastStyle); },
+      onMark: onTimelineMark,
+    });
     const i = date ? timeline.points.findIndex((p) => p.date === date) : -1;
     if (i >= 0) tl.setMark(i); else tl.setDay(tl.totalDays);
-  } else if (v === "model2") {
+  } else {
+    tl = null;
     snapDate = null;
   }
+  updateFedBanner();
   renderHeadline();
   districtLayer.setStyle(forecastStyle);
   renderLegend();
@@ -372,24 +403,16 @@ async function init() {
   document.getElementById("btn-model1").addEventListener("click", () => setView("model1", selected));
   document.getElementById("btn-model2").addEventListener("click", () => setView("model2", selected));
 
-  timeline = await fetch("/data/snapshots/map_timeline.json").then((r) => (r.ok ? r.json() : null)).catch(() => null);
-  const snapUI = document.getElementById("snap-ui");
-  if (timeline && snapUI && timeline.points.length) {
-    tl = timelineSlider(snapUI, timeline.points, {
-      noteText: "Marks are model runs; the map blends between them.",
-      onBlend: (t, mark, frac) => { approx = frac > 0; districtLayer.setStyle(forecastStyle); },
-      onMark: onTimelineMark,
-    });
-  } else if (snapUI) {
-    snapUI.hidden = true;
-  }
+  timelines.model2 = await fetch("/data/snapshots/map_timeline.json").then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  timelines.model2fed = await fetch("/data/snapshots/model2fed/map_timeline.json").then((r) => (r.ok ? r.json() : null)).catch(() => null);
 
-  // #model2, #model2@2026-10-13, #model2/Kew, #model2/Kew@2026-10-13, #Kew, #model1...
-  const m = location.hash.match(/^#(model[12])?(?:\/([^@/]+))?(?:@(\d{4}-\d{2}-\d{2}))?$/)
+  // #model2, #model2@2026-10-13, #model2/Kew, #model2fed, #model2fed/Kew, #Kew, #model1...
+  const m = location.hash.match(/^#(model2fed|model[12])?(?:\/([^@/]+))?(?:@(\d{4}-\d{2}-\d{2}))?$/)
     || location.hash.match(/^#([^@/]+)$/);
   let [, vm, dist, date] = m || [];
   if (vm && !vm.startsWith("model")) { dist = vm; vm = "model2"; }
   if (vm === "model1") await setView("model1", dist ? decodeURIComponent(dist) : null);
+  else if (vm === "model2fed") await setView("model2fed", dist ? decodeURIComponent(dist) : null, date);
   else await setView("model2", dist ? decodeURIComponent(dist) : null, date);
 }
 

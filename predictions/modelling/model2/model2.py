@@ -293,7 +293,8 @@ def _surname(name: str) -> str:
     return name.split(",")[0].strip().lower()
 
 
-def baseline_2026(seats_2022: dict[str, Seat], candidates: list[dict], on_pattern: dict[str, float], independents: list[dict]) -> Baseline:
+def baseline_2026(seats_2022: dict[str, Seat], candidates: list[dict], on_pattern: dict[str, float], independents: list[dict],
+                  ind_source: dict[str, Seat] | None = None) -> Baseline:
     """
     Baseline shares for the actual 2026 candidates (`candidates`: rows of data/2026/candidates_vic2026.csv),
     built from each district's 2022 primaries:
@@ -308,7 +309,14 @@ def baseline_2026(seats_2022: dict[str, Seat], candidates: list[dict], on_patter
       otherwise NEW_IND); others their own 2022 share if recontesting, else the median 2022 minor-independent share.
     2022 candidates whose party does not stand again simply drop out; their votes are shared out when each
     draw renormalises.
+
+    `ind_source` supplies the seats every independent-related rule reads (surname-matched recontesting
+    shares and the minor-independent median). The federal-baseline variant passes the state seats its
+    counterpart uses, since its own baseline holds only a pooled IND* pseudo-candidate; that pooled
+    vote then stands nowhere and drops out like any non-standing party.
     """
+    ind_seats = ind_source if ind_source is not None else seats_2022
+    ind_pct = {d: {c.cid: 100 * c.votes / sum(x.votes for x in s.cands) for c in s.cands} for d, s in ind_seats.items()}
     mean_on = sum(on_pattern.values()) / len(on_pattern)
     pct = {d: {c.cid: 100 * c.votes / sum(x.votes for x in s.cands) for c in s.cands} for d, s in seats_2022.items()}
     by_party: dict[str, dict[str, float]] = defaultdict(lambda: defaultdict(float))  # district -> party -> 2022 %
@@ -323,7 +331,7 @@ def baseline_2026(seats_2022: dict[str, Seat], candidates: list[dict], on_patter
     # Parties contest their best seats first, so a seat a party did not contest in 2022 starts from its
     # 25th-percentile 2022 result, not its mean (e.g. Victorian Socialists: 22 mostly inner-city seats -> all 88)
     party_low = {p: sorted(v)[len(v) // 4] for p, v in contested.items()}
-    minor_ind = sorted(pct[d][c.cid] for d, s in seats_2022.items() for c in s.cands if c.party == IND and pct[d][c.cid] < 10)
+    minor_ind = sorted(ind_pct[d][c.cid] for d, s in ind_seats.items() for c in s.cands if c.party == IND and ind_pct[d][c.cid] < 10)
     minor_ind_share = minor_ind[len(minor_ind) // 2] if minor_ind else 1.0
     credible = {(r["district"], _surname(r["candidate"])): r for r in independents if r["credible"].strip().upper() == "Y"}
 
@@ -332,7 +340,7 @@ def baseline_2026(seats_2022: dict[str, Seat], candidates: list[dict], on_patter
         field[r["district"]].append(r)
     seats, shares, weight = {}, {}, {}
     for d, s in seats_2022.items():
-        prev_ind = {_surname(c.cid): pct[d][c.cid] for c in s.cands if c.party == IND}
+        prev_ind = {_surname(c.cid): ind_pct[d][c.cid] for c in ind_seats[d].cands if c.party == IND} if d in ind_seats else {}
         coalition_2022 = sum(by_party[d].get(p, 0.0) for p in COALITION)
         standing = {r["party_group"] for r in field[d]}
         coalition_now = [p for p in COALITION if p in standing]

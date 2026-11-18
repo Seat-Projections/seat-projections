@@ -18,7 +18,7 @@
 <meta property="og:locale" content="en_AU">
 <meta name="twitter:card" content="summary_large_image">
 <script type="speculationrules">{"prerender":[{"where":{"href_matches":"/*","not":{"href_matches":"/data/*"}},"eagerness":"moderate"}]}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Victorian Election 2026: Seat Projections data","description":"Forecast Model and Baseline Model seat probabilities for all 88 Victorian districts, 2022 official results, polling register and district boundaries.","url":"https://seatprojections.au/methodology/","license":"https://creativecommons.org/licenses/by-sa/4.0/","creator":{"@type":"Organization","name":"Seat Projections","url":"https://seatprojections.au/"},"isAccessibleForFree":true,"keywords":["Victorian election 2026","seat projections","preferential voting","IRV"],"temporalCoverage":"2022/2026","spatialCoverage":{"@type":"Place","name":"Victoria, Australia"},"distribution":[{"@type":"DataDownload","name":"districts.geojson","contentUrl":"https://seatprojections.au/data/downloads/districts.geojson","encodingFormat":"application/geo+json"},{"@type":"DataDownload","name":"vic2022_district_results.csv","contentUrl":"https://seatprojections.au/data/downloads/vic2022_district_results.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"model1_seat_probabilities.csv","contentUrl":"https://seatprojections.au/data/downloads/model1_seat_probabilities.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"model1_statewide_blocs.csv","contentUrl":"https://seatprojections.au/data/downloads/model1_statewide_blocs.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"model2_seat_probabilities.csv","contentUrl":"https://seatprojections.au/data/downloads/model2_seat_probabilities.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"model2_statewide_blocs.csv","contentUrl":"https://seatprojections.au/data/downloads/model2_statewide_blocs.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"candidates_vic2026.csv","contentUrl":"https://seatprojections.au/data/downloads/candidates_vic2026.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"polls_vic2026.csv","contentUrl":"https://seatprojections.au/data/downloads/polls_vic2026.csv","encodingFormat":"text/csv"}]}</script><!-- /seo -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Victorian Election 2026: Seat Projections data","description":"Forecast Model and Baseline Model seat probabilities for all 88 Victorian districts, 2022 official results, polling register and district boundaries.","url":"https://seatprojections.au/methodology/","license":"https://creativecommons.org/licenses/by-sa/4.0/","creator":{"@type":"Organization","name":"Seat Projections","url":"https://seatprojections.au/"},"isAccessibleForFree":true,"keywords":["Victorian election 2026","seat projections","preferential voting","IRV"],"temporalCoverage":"2022/2026","spatialCoverage":{"@type":"Place","name":"Victoria, Australia"},"distribution":[{"@type":"DataDownload","name":"districts.geojson","contentUrl":"https://seatprojections.au/data/downloads/districts.geojson","encodingFormat":"application/geo+json"},{"@type":"DataDownload","name":"vic2022_district_results.csv","contentUrl":"https://seatprojections.au/data/downloads/vic2022_district_results.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"model1_seat_probabilities.csv","contentUrl":"https://seatprojections.au/data/downloads/model1_seat_probabilities.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"model1_statewide_blocs.csv","contentUrl":"https://seatprojections.au/data/downloads/model1_statewide_blocs.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"model2_seat_probabilities.csv","contentUrl":"https://seatprojections.au/data/downloads/model2_seat_probabilities.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"model2_statewide_blocs.csv","contentUrl":"https://seatprojections.au/data/downloads/model2_statewide_blocs.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"model2fed_seat_probabilities.csv","contentUrl":"https://seatprojections.au/data/downloads/model2fed_seat_probabilities.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"model2fed_statewide_blocs.csv","contentUrl":"https://seatprojections.au/data/downloads/model2fed_statewide_blocs.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"candidates_vic2026.csv","contentUrl":"https://seatprojections.au/data/downloads/candidates_vic2026.csv","encodingFormat":"text/csv"},{"@type":"DataDownload","name":"polls_vic2026.csv","contentUrl":"https://seatprojections.au/data/downloads/polls_vic2026.csv","encodingFormat":"text/csv"}]}</script><!-- /seo -->
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="/assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin>
@@ -63,7 +63,7 @@
     <span class="eyebrow">Model methodology &amp; open data documentation</span>
     <h1>How the projections are made</h1>
     <p class="lede">How we turn past election results and current polls into seat projections
-      for Victoria. Explore the two models, see how they performed on past elections,
+      for Victoria. Explore the models, see how they performed on past elections,
       and download the data and code.</p>
     <div class="chips-row" style="margin-top:1rem">
       <span class="chip">Baseline: VEC 2022 official</span>
@@ -149,9 +149,11 @@
     <div class="twocol" style="margin:0">
       <div class="card card-pad">
         <h3 style="font-family:var(--sans);font-size:1.125rem">Forecast Model: past results and current polls</h3>
-        <p class="small" style="margin:0.5rem 0">Starts with past state results and adjusts
+        <p class="small" style="margin:0.5rem 0">Starts with past results and adjusts
           support to current polling. It uses the declared candidates and estimates how
-          preferences decide the contest between the main contenders.</p>
+          preferences decide the contest between the main contenders. Two options set the
+          starting point: the previous state election (the default) or the preceding
+          federal election&rsquo;s votes inside each district.</p>
         <p class="small" style="margin:0.75rem 0 0"><a href="/methodology/forecast/">Read the methodology &rarr;</a></p>
       </div>
       <div class="card card-pad">
@@ -180,9 +182,11 @@
         <h3 style="font-family:var(--sans);font-size:1.125rem">Forecast backtests</h3>
         <p class="small" style="margin:0.5rem 0">These tests were produced after the elections.
           They show how the models perform using inputs available before voting.
-          The Forecast Model uses the previous state result and preference flows, plus
-          pre-election polls and candidates for the election being tested.
-          The Baseline Model uses the preceding federal election.</p>
+          The Forecast Model&rsquo;s state baseline uses the previous state result and preference
+          flows, and its federal baseline uses the preceding federal election&rsquo;s votes and
+          preference counts. Both options add pre-election polls and the candidate list for
+          the election being tested. The Baseline Model uses the preceding federal election
+          without a polling adjustment.</p>
       </div>
       <div class="card card-pad">
         <h3 style="font-family:var(--sans);font-size:1.125rem">The metrics</h3>
@@ -195,6 +199,24 @@
           a losing favourite given a 55% chance and one given a 99% chance.</p>
       </div>
     </div>
+  </section>
+
+  <section class="section">
+    <div class="card" style="overflow-x:auto">
+      <table class="dtable" data-compare>
+        <thead><tr><th>Election</th>
+          <th class="r">Baseline Model, seats</th><th class="r">Baseline, Brier</th>
+          <th class="r">State baseline, seats</th><th class="r">State, Brier</th>
+          <th class="r">Federal baseline, seats</th><th class="r">Federal, Brier</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="small muted" style="margin-top:0.5rem">&ldquo;State baseline&rdquo; and
+      &ldquo;federal baseline&rdquo; are the two Forecast Model options. The total row adds seats
+      right across the five elections and averages Brier scores weighted by each
+      election&rsquo;s district count.
+      <a href="/#model2fed">View the federal-baseline projections</a> (comparison only,
+      not the published forecast).</p>
   </section>
 
   <section class="section">

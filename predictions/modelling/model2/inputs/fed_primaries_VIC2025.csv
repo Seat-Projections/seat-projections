@@ -1,0 +1,748 @@
+district,party,votes,share
+Albert Park,ALP,23278,36.61
+Albert Park,LP,21317,33.52
+Albert Park,GRN,15154,23.83
+Albert Park,ON,1848,2.91
+Albert Park,IND*,1191,1.87
+Albert Park,LTP,788,1.24
+Albert Park,SOPA,15,0.02
+Ashwood,ALP,27263,38.58
+Ashwood,LP,26043,36.85
+Ashwood,GRN,8777,12.42
+Ashwood,IND*,4801,6.79
+Ashwood,FFP,1456,2.06
+Ashwood,ON,1284,1.82
+Ashwood,CYA,1019,1.44
+Ashwood,CEC,11,0.02
+Ashwood,LTP,11,0.02
+Bass,LP,17532,30.69
+Bass,ALP,16598,29.06
+Bass,IND*,9594,16.8
+Bass,ON,4546,7.96
+Bass,GRN,4219,7.39
+Bass,HMP,2051,3.59
+Bass,FFP,1537,2.69
+Bass,CYA,1039,1.82
+Bayswater,ALP,18304,37.55
+Bayswater,LP,16783,34.43
+Bayswater,GRN,6104,12.52
+Bayswater,IND*,2465,5.06
+Bayswater,ON,1897,3.89
+Bayswater,FFP,1381,2.83
+Bayswater,CYA,1287,2.64
+Bayswater,LTP,525,1.08
+Bellarine,ALP,20432,37.5
+Bellarine,LP,19246,35.32
+Bellarine,GRN,6962,12.78
+Bellarine,IND*,2707,4.97
+Bellarine,ON,1789,3.28
+Bellarine,HMP,1489,2.73
+Bellarine,CYA,1314,2.41
+Bellarine,LTP,547,1.0
+Benambra,IND*,19571,44.0
+Benambra,LP,13191,29.66
+Benambra,ALP,3543,7.97
+Benambra,ON,3526,7.93
+Benambra,GRN,1746,3.93
+Benambra,HMP,1332,2.99
+Benambra,FFP,854,1.92
+Benambra,LTP,717,1.61
+Bendigo East,NP,15848,34.08
+Bendigo East,ALP,14797,31.82
+Bendigo East,LP,4795,10.31
+Bendigo East,GRN,3871,8.32
+Bendigo East,ON,2503,5.38
+Bendigo East,HMP,1593,3.43
+Bendigo East,FFP,1588,3.41
+Bendigo East,VNS,578,1.24
+Bendigo East,IND*,502,1.08
+Bendigo East,LTP,409,0.88
+Bendigo East,CYA,11,0.02
+Bendigo East,CEC,5,0.01
+Bendigo West,ALP,18009,34.98
+Bendigo West,NP,14072,27.33
+Bendigo West,GRN,7107,13.8
+Bendigo West,LP,5103,9.91
+Bendigo West,ON,2140,4.16
+Bendigo West,HMP,1729,3.36
+Bendigo West,FFP,1318,2.56
+Bendigo West,VNS,1010,1.96
+Bendigo West,IND*,517,1.0
+Bendigo West,LTP,481,0.93
+Bentleigh,LP,18831,35.25
+Bentleigh,ALP,17214,32.22
+Bentleigh,IND*,7351,13.76
+Bentleigh,GRN,5768,10.8
+Bentleigh,ON,1997,3.74
+Bentleigh,FFP,938,1.76
+Bentleigh,CYA,611,1.14
+Bentleigh,LTP,459,0.86
+Bentleigh,CEC,257,0.48
+Berwick,LP,23071,37.54
+Berwick,ALP,22406,36.46
+Berwick,GRN,6946,11.3
+Berwick,ON,4080,6.64
+Berwick,FFP,2012,3.27
+Berwick,CYA,1868,3.04
+Berwick,HMP,729,1.19
+Berwick,LTP,340,0.55
+Box Hill,ALP,17907,39.87
+Box Hill,LP,14937,33.25
+Box Hill,GRN,6233,13.88
+Box Hill,IND*,2996,6.67
+Box Hill,FFP,864,1.92
+Box Hill,CYA,815,1.81
+Box Hill,ON,726,1.62
+Box Hill,LTP,439,0.98
+Brighton,LP,19682,44.97
+Brighton,IND*,10850,24.79
+Brighton,ALP,6568,15.01
+Brighton,GRN,4759,10.87
+Brighton,ON,726,1.66
+Brighton,LTP,632,1.44
+Brighton,CYA,551,1.26
+Broadmeadows,ALP,14876,35.01
+Broadmeadows,GRN,7731,18.2
+Broadmeadows,LP,7407,17.43
+Broadmeadows,IND*,5439,12.8
+Broadmeadows,ON,2287,5.38
+Broadmeadows,HMP,1058,2.49
+Broadmeadows,CEC,1027,2.42
+Broadmeadows,SAL,943,2.22
+Broadmeadows,CYA,636,1.5
+Broadmeadows,FFP,560,1.32
+Broadmeadows,VNS,206,0.49
+Broadmeadows,LTP,152,0.36
+Broadmeadows,SOPA,134,0.31
+Broadmeadows,GRPF,29,0.07
+Brunswick,GRN,26006,38.78
+Brunswick,ALP,23561,35.14
+Brunswick,LP,7099,10.59
+Brunswick,SAL,5859,8.74
+Brunswick,ON,1764,2.63
+Brunswick,HMP,1530,2.28
+Brunswick,SOPA,757,1.13
+Brunswick,LTP,446,0.66
+Brunswick,IND*,36,0.05
+Bulleen,LP,14566,44.31
+Bulleen,ALP,10463,31.83
+Bulleen,GRN,3125,9.5
+Bulleen,IND*,1934,5.88
+Bulleen,CYA,1120,3.41
+Bulleen,ON,716,2.18
+Bulleen,LTP,493,1.5
+Bulleen,FFP,459,1.4
+Bundoora,ALP,29509,42.94
+Bundoora,LP,19875,28.92
+Bundoora,GRN,8234,11.98
+Bundoora,ON,4065,5.92
+Bundoora,IND*,2038,2.97
+Bundoora,FFP,2037,2.96
+Bundoora,VNS,1149,1.67
+Bundoora,CYA,1039,1.51
+Bundoora,GRPF,613,0.89
+Bundoora,HMP,165,0.24
+Carrum,ALP,18780,39.21
+Carrum,LP,15287,31.92
+Carrum,GRN,5143,10.74
+Carrum,ON,3555,7.42
+Carrum,HMP,2322,4.85
+Carrum,FFP,1309,2.73
+Carrum,IND*,1128,2.35
+Carrum,SOPA,368,0.77
+Caulfield,LP,8564,42.16
+Caulfield,ALP,5579,27.47
+Caulfield,GRN,3346,16.48
+Caulfield,IND*,2026,9.97
+Caulfield,ON,428,2.11
+Caulfield,LTP,262,1.29
+Caulfield,CYA,106,0.52
+Clarinda,ALP,11447,50.61
+Clarinda,LP,5833,25.79
+Clarinda,GRN,2811,12.42
+Clarinda,ON,1298,5.74
+Clarinda,FFP,951,4.2
+Clarinda,CEC,281,1.24
+Cranbourne,ALP,21532,44.95
+Cranbourne,LP,12139,25.34
+Cranbourne,GRN,5283,11.03
+Cranbourne,ON,4277,8.93
+Cranbourne,FFP,2417,5.05
+Cranbourne,HMP,2222,4.64
+Cranbourne,CYA,30,0.06
+Croydon,LP,17044,38.93
+Croydon,ALP,14366,32.81
+Croydon,GRN,5137,11.73
+Croydon,IND*,2839,6.49
+Croydon,ON,1701,3.88
+Croydon,FFP,978,2.23
+Croydon,CYA,956,2.18
+Croydon,LTP,589,1.35
+Croydon,AJP,170,0.39
+Dandenong,ALP,35682,53.98
+Dandenong,LP,13406,20.28
+Dandenong,GRN,8467,12.81
+Dandenong,ON,3705,5.6
+Dandenong,FFP,2269,3.43
+Dandenong,CYA,1117,1.69
+Dandenong,HMP,1091,1.65
+Dandenong,LTP,371,0.56
+Eildon,LP,14945,35.49
+Eildon,ALP,8463,20.1
+Eildon,IND*,7969,18.92
+Eildon,GRN,3987,9.47
+Eildon,ON,3098,7.36
+Eildon,FFP,900,2.14
+Eildon,CYA,855,2.03
+Eildon,AJP,669,1.59
+Eildon,HMP,656,1.56
+Eildon,LTP,345,0.82
+Eildon,GRPF,175,0.42
+Eildon,SOPA,54,0.13
+Eltham,ALP,13364,41.29
+Eltham,LP,9607,29.68
+Eltham,GRN,5261,16.25
+Eltham,IND*,1319,4.08
+Eltham,ON,1286,3.97
+Eltham,FFP,724,2.24
+Eltham,HMP,308,0.95
+Eltham,GRPF,248,0.77
+Eltham,AJP,166,0.51
+Eltham,SOPA,87,0.27
+Essendon,ALP,24031,41.09
+Essendon,LP,18229,31.17
+Essendon,GRN,13203,22.57
+Essendon,ON,3026,5.17
+Eureka,ALP,14386,36.77
+Eureka,LP,11563,29.55
+Eureka,GRN,4711,12.04
+Eureka,ON,4201,10.74
+Eureka,FFP,1452,3.71
+Eureka,HMP,1192,3.05
+Eureka,IND*,797,2.04
+Eureka,AJP,532,1.36
+Eureka,LTP,266,0.68
+Eureka,CYA,25,0.06
+Euroa,NP,8561,22.81
+Euroa,ALP,8559,22.81
+Euroa,IND*,5713,15.22
+Euroa,LP,4983,13.28
+Euroa,ON,3862,10.29
+Euroa,GRN,2465,6.57
+Euroa,FFP,1312,3.5
+Euroa,CYA,988,2.63
+Euroa,HMP,628,1.67
+Euroa,CEC,234,0.62
+Euroa,LTP,182,0.48
+Euroa,VNS,17,0.05
+Euroa,AJP,11,0.03
+Euroa,GRPF,10,0.03
+Euroa,SOPA,3,0.01
+Evelyn,LP,20322,46.72
+Evelyn,ALP,9891,22.74
+Evelyn,GRN,3907,8.98
+Evelyn,IND*,3656,8.4
+Evelyn,ON,2159,4.96
+Evelyn,CYA,1442,3.31
+Evelyn,FFP,1376,3.16
+Evelyn,AJP,747,1.72
+Footscray,ALP,15649,39.26
+Footscray,GRN,11825,29.67
+Footscray,LP,6188,15.53
+Footscray,VNS,3508,8.8
+Footscray,ON,1484,3.72
+Footscray,FFP,1205,3.02
+Frankston,ALP,17630,38.57
+Frankston,LP,14185,31.03
+Frankston,GRN,5738,12.55
+Frankston,ON,2893,6.33
+Frankston,HMP,2261,4.95
+Frankston,IND*,1550,3.39
+Frankston,FFP,1019,2.23
+Frankston,SOPA,431,0.94
+Geelong,ALP,20882,41.3
+Geelong,LP,13472,26.64
+Geelong,GRN,9206,18.21
+Geelong,ON,4034,7.98
+Geelong,IND*,1764,3.49
+Geelong,SAL,1144,2.26
+Geelong,HMP,26,0.05
+Geelong,CYA,20,0.04
+Geelong,LTP,13,0.03
+Gippsland East,NP,23070,57.75
+Gippsland East,ALP,7380,18.48
+Gippsland East,ON,4887,12.23
+Gippsland East,GRN,3403,8.52
+Gippsland East,LTP,1205,3.02
+Gippsland South,NP,15009,35.27
+Gippsland South,ALP,7637,17.95
+Gippsland South,LP,5792,13.61
+Gippsland South,IND*,4893,11.5
+Gippsland South,ON,4618,10.85
+Gippsland South,GRN,2697,6.34
+Gippsland South,LTP,690,1.62
+Gippsland South,HMP,627,1.47
+Gippsland South,CYA,371,0.87
+Gippsland South,FFP,216,0.51
+Glen Waverley,ALP,12779,41.67
+Glen Waverley,LP,11284,36.8
+Glen Waverley,GRN,3143,10.25
+Glen Waverley,IND*,1594,5.2
+Glen Waverley,FFP,676,2.2
+Glen Waverley,ON,586,1.91
+Glen Waverley,CYA,464,1.51
+Glen Waverley,LTP,140,0.46
+Greenvale,ALP,7688,30.28
+Greenvale,IND*,7385,29.09
+Greenvale,LP,3908,15.39
+Greenvale,GRN,2136,8.41
+Greenvale,HMP,1015,4.0
+Greenvale,ON,1015,4.0
+Greenvale,CYA,784,3.09
+Greenvale,CEC,766,3.02
+Greenvale,FFP,692,2.73
+Hastings,LP,14558,36.58
+Hastings,ALP,10924,27.45
+Hastings,IND*,6035,15.16
+Hastings,ON,3297,8.28
+Hastings,GRN,3167,7.96
+Hastings,CYA,1018,2.56
+Hastings,HMP,468,1.18
+Hastings,FFP,251,0.63
+Hastings,SOPA,83,0.21
+Hawthorn,IND*,11372,36.08
+Hawthorn,LP,11227,35.62
+Hawthorn,ALP,4647,14.74
+Hawthorn,GRN,3112,9.88
+Hawthorn,LTP,425,1.35
+Hawthorn,ON,363,1.15
+Hawthorn,CYA,300,0.95
+Hawthorn,FFP,69,0.22
+Ivanhoe,ALP,19239,43.33
+Ivanhoe,LP,12034,27.1
+Ivanhoe,GRN,7550,17.0
+Ivanhoe,IND*,3224,7.26
+Ivanhoe,ON,1339,3.02
+Ivanhoe,FFP,1017,2.29
+Ivanhoe,CYA,0,0.0
+Ivanhoe,LTP,0,0.0
+Kalkallo,ALP,17780,32.59
+Kalkallo,IND*,14476,26.53
+Kalkallo,LP,9813,17.98
+Kalkallo,GRN,4418,8.1
+Kalkallo,ON,2437,4.47
+Kalkallo,HMP,1850,3.39
+Kalkallo,FFP,1384,2.54
+Kalkallo,CYA,859,1.57
+Kalkallo,CEC,811,1.49
+Kalkallo,GRPF,401,0.73
+Kalkallo,AJP,243,0.45
+Kalkallo,SOPA,92,0.17
+Kew,LP,22891,42.61
+Kew,IND*,18342,34.14
+Kew,ALP,6936,12.91
+Kew,GRN,3658,6.81
+Kew,LTP,678,1.26
+Kew,CYA,614,1.14
+Kew,ON,591,1.1
+Kew,FFP,16,0.03
+Kororoit,ALP,26633,45.17
+Kororoit,LP,16405,27.82
+Kororoit,GRN,6705,11.37
+Kororoit,HMP,3208,5.44
+Kororoit,ON,3079,5.22
+Kororoit,FFP,2311,3.92
+Kororoit,LTP,620,1.05
+Lara,ALP,22226,44.71
+Lara,LP,11261,22.65
+Lara,GRN,6314,12.7
+Lara,ON,6290,12.65
+Lara,SAL,1841,3.7
+Lara,IND*,1781,3.58
+Laverton,ALP,22214,45.68
+Laverton,GRN,10572,21.74
+Laverton,LP,9438,19.41
+Laverton,ON,2357,4.85
+Laverton,FFP,2233,4.59
+Laverton,VNS,1810,3.72
+Lowan,NP,14241,31.33
+Lowan,LP,8423,18.53
+Lowan,ALP,6470,14.24
+Lowan,IND*,5052,11.12
+Lowan,ON,3958,8.71
+Lowan,GRN,2989,6.58
+Lowan,FFP,1497,3.29
+Lowan,CYA,1397,3.07
+Lowan,LTP,764,1.68
+Lowan,HMP,429,0.94
+Lowan,CEC,230,0.51
+Macedon,ALP,16679,36.79
+Macedon,LP,13336,29.42
+Macedon,GRN,6459,14.25
+Macedon,ON,2944,6.49
+Macedon,HMP,1381,3.05
+Macedon,GRPF,1202,2.65
+Macedon,NP,922,2.03
+Macedon,AJP,885,1.95
+Macedon,FFP,797,1.76
+Macedon,SOPA,338,0.74
+Macedon,IND*,188,0.41
+Macedon,LTP,111,0.24
+Macedon,VNS,95,0.21
+Malvern,LP,21581,49.73
+Malvern,IND*,8950,20.62
+Malvern,ALP,7250,16.7
+Malvern,GRN,4078,9.4
+Malvern,ON,552,1.27
+Malvern,CYA,432,1.0
+Malvern,LTP,370,0.85
+Malvern,FFP,187,0.43
+Melbourne,GRN,19314,41.76
+Melbourne,ALP,14938,32.3
+Melbourne,LP,8183,17.69
+Melbourne,IND*,1624,3.51
+Melbourne,ON,1276,2.76
+Melbourne,SOPA,884,1.91
+Melbourne,LTP,27,0.06
+Melton,ALP,19396,42.32
+Melton,LP,12994,28.35
+Melton,GRN,4538,9.9
+Melton,ON,4001,8.73
+Melton,HMP,2169,4.73
+Melton,FFP,1989,4.34
+Melton,AJP,720,1.57
+Melton,LTP,26,0.06
+Mildura,NP,20837,50.8
+Mildura,ALP,7426,18.1
+Mildura,ON,4432,10.8
+Mildura,GRN,4053,9.88
+Mildura,FFP,1633,3.98
+Mildura,CYA,1281,3.12
+Mildura,LTP,1013,2.47
+Mildura,CEC,346,0.84
+Mill Park,ALP,8497,42.81
+Mill Park,LP,4184,21.08
+Mill Park,GRN,2106,10.61
+Mill Park,ON,1408,7.09
+Mill Park,CYA,1298,6.54
+Mill Park,VNS,963,4.85
+Mill Park,FFP,822,4.14
+Mill Park,GRPF,569,2.87
+Monbulk,ALP,9039,28.37
+Monbulk,LP,8936,28.04
+Monbulk,GRN,5441,17.08
+Monbulk,IND*,4166,13.07
+Monbulk,ON,1710,5.37
+Monbulk,CYA,1086,3.41
+Monbulk,FFP,823,2.58
+Monbulk,AJP,600,1.88
+Monbulk,LTP,62,0.19
+Mordialloc,ALP,22506,45.94
+Mordialloc,LP,15060,30.74
+Mordialloc,GRN,7058,14.41
+Mordialloc,ON,2367,4.83
+Mordialloc,FFP,1672,3.41
+Mordialloc,HMP,186,0.38
+Mordialloc,IND*,87,0.18
+Mordialloc,SOPA,54,0.11
+Mornington,LP,21097,44.06
+Mornington,ALP,10694,22.33
+Mornington,IND*,9904,20.68
+Mornington,GRN,3238,6.76
+Mornington,ON,1720,3.59
+Mornington,CYA,1041,2.17
+Mornington,HMP,111,0.23
+Mornington,SOPA,46,0.1
+Mornington,FFP,36,0.08
+Morwell,NP,16957,32.53
+Morwell,ALP,13609,26.11
+Morwell,ON,8381,16.08
+Morwell,GRN,4171,8.0
+Morwell,IND*,3187,6.12
+Morwell,LP,2991,5.74
+Morwell,LTP,1521,2.92
+Morwell,HMP,558,1.07
+Morwell,CYA,498,0.96
+Morwell,FFP,248,0.48
+Mulgrave,ALP,17757,49.79
+Mulgrave,LP,9241,25.91
+Mulgrave,GRN,4299,12.06
+Mulgrave,ON,1686,4.73
+Mulgrave,FFP,1381,3.87
+Mulgrave,CEC,862,2.42
+Mulgrave,CYA,169,0.47
+Mulgrave,HMP,124,0.35
+Mulgrave,IND*,105,0.29
+Mulgrave,LTP,38,0.11
+Murray Plains,NP,22785,53.16
+Murray Plains,ALP,7468,17.42
+Murray Plains,ON,4841,11.29
+Murray Plains,GRN,2793,6.52
+Murray Plains,FFP,1984,4.63
+Murray Plains,CYA,1877,4.38
+Murray Plains,CEC,469,1.1
+Murray Plains,LTP,433,1.01
+Murray Plains,LP,146,0.34
+Murray Plains,HMP,41,0.1
+Murray Plains,IND*,14,0.03
+Murray Plains,VNS,8,0.02
+Narracan,LP,16644,36.8
+Narracan,IND*,10305,22.79
+Narracan,ALP,8254,18.25
+Narracan,ON,4222,9.34
+Narracan,GRN,2179,4.82
+Narracan,CYA,1323,2.93
+Narracan,HMP,1204,2.66
+Narracan,FFP,1093,2.42
+Narre Warren North,ALP,12301,43.48
+Narre Warren North,LP,5619,19.86
+Narre Warren North,GRN,3872,13.69
+Narre Warren North,ON,2528,8.94
+Narre Warren North,FFP,1379,4.87
+Narre Warren North,HMP,1148,4.06
+Narre Warren North,CYA,1039,3.67
+Narre Warren North,LTP,404,1.43
+Narre Warren South,ALP,22264,47.72
+Narre Warren South,LP,10132,21.72
+Narre Warren South,GRN,5778,12.38
+Narre Warren South,ON,3538,7.58
+Narre Warren South,FFP,2295,4.92
+Narre Warren South,HMP,1969,4.22
+Narre Warren South,CYA,544,1.16
+Narre Warren South,LTP,137,0.29
+Nepean,LP,17179,41.02
+Nepean,IND*,9913,23.67
+Nepean,ALP,9112,21.76
+Nepean,GRN,2449,5.85
+Nepean,ON,2141,5.11
+Nepean,CYA,1085,2.59
+Niddrie,ALP,14229,40.44
+Niddrie,LP,12704,36.11
+Niddrie,GRN,4834,13.74
+Niddrie,ON,3136,8.91
+Niddrie,HMP,151,0.43
+Niddrie,FFP,98,0.28
+Niddrie,LTP,35,0.1
+Northcote,ALP,21727,42.41
+Northcote,GRN,14088,27.5
+Northcote,LP,7037,13.74
+Northcote,VNS,4387,8.56
+Northcote,ON,2065,4.03
+Northcote,HMP,1921,3.75
+Oakleigh,ALP,27631,46.98
+Oakleigh,LP,15177,25.81
+Oakleigh,GRN,9971,16.95
+Oakleigh,ON,2509,4.27
+Oakleigh,FFP,1641,2.79
+Oakleigh,CEC,1243,2.11
+Oakleigh,IND*,516,0.88
+Oakleigh,CYA,109,0.19
+Oakleigh,LTP,15,0.03
+Ovens Valley,IND*,15313,32.69
+Ovens Valley,LP,9885,21.1
+Ovens Valley,NP,7291,15.56
+Ovens Valley,ALP,5758,12.29
+Ovens Valley,ON,3533,7.54
+Ovens Valley,GRN,1852,3.95
+Ovens Valley,FFP,1018,2.17
+Ovens Valley,HMP,866,1.85
+Ovens Valley,CYA,715,1.53
+Ovens Valley,LTP,492,1.05
+Ovens Valley,CEC,126,0.27
+Pakenham,LP,18610,37.45
+Pakenham,ALP,15537,31.27
+Pakenham,GRN,6913,13.91
+Pakenham,ON,4057,8.16
+Pakenham,CYA,2615,5.26
+Pakenham,FFP,1961,3.95
+Pascoe Vale,ALP,11404,35.97
+Pascoe Vale,GRN,9988,31.5
+Pascoe Vale,LP,5055,15.94
+Pascoe Vale,SAL,2005,6.33
+Pascoe Vale,ON,1433,4.52
+Pascoe Vale,HMP,1122,3.54
+Pascoe Vale,LTP,320,1.01
+Pascoe Vale,SOPA,264,0.83
+Pascoe Vale,VNS,116,0.36
+Point Cook,ALP,23154,46.31
+Point Cook,LP,13593,27.19
+Point Cook,GRN,7226,14.45
+Point Cook,ON,3592,7.18
+Point Cook,FFP,2376,4.75
+Point Cook,IND*,39,0.08
+Point Cook,LTP,21,0.04
+Polwarth,LP,22949,39.24
+Polwarth,ALP,14646,25.04
+Polwarth,IND*,8787,15.03
+Polwarth,GRN,6308,10.79
+Polwarth,ON,1969,3.37
+Polwarth,HMP,1714,2.93
+Polwarth,CYA,1142,1.95
+Polwarth,FFP,536,0.92
+Polwarth,LTP,432,0.74
+Prahran,ALP,9355,32.54
+Prahran,GRN,9144,31.81
+Prahran,LP,7613,26.48
+Prahran,IND*,1450,5.05
+Prahran,ON,747,2.6
+Prahran,SOPA,218,0.76
+Prahran,LTP,209,0.73
+Prahran,CYA,11,0.04
+Preston,ALP,19104,41.48
+Preston,GRN,10086,21.9
+Preston,LP,7750,16.83
+Preston,VNS,3991,8.67
+Preston,ON,3174,6.89
+Preston,HMP,1951,4.24
+Richmond,GRN,19954,38.44
+Richmond,ALP,17030,32.81
+Richmond,LP,9153,17.63
+Richmond,IND*,3174,6.11
+Richmond,ON,1177,2.27
+Richmond,SOPA,777,1.5
+Richmond,VNS,368,0.71
+Richmond,HMP,251,0.48
+Richmond,CYA,15,0.03
+Richmond,LTP,6,0.01
+Ringwood,ALP,13323,36.93
+Ringwood,LP,11669,32.35
+Ringwood,GRN,5255,14.57
+Ringwood,IND*,3203,8.88
+Ringwood,ON,851,2.36
+Ringwood,FFP,744,2.06
+Ringwood,CYA,564,1.56
+Ringwood,LTP,465,1.29
+Ripon,ALP,10825,30.64
+Ripon,LP,6940,19.64
+Ripon,NP,5544,15.69
+Ripon,ON,3535,10.0
+Ripon,GRN,3155,8.93
+Ripon,IND*,2365,6.69
+Ripon,FFP,1104,3.12
+Ripon,CYA,813,2.3
+Ripon,LTP,599,1.69
+Ripon,HMP,324,0.92
+Ripon,CEC,129,0.36
+Rowville,LP,21762,42.18
+Rowville,ALP,19094,37.01
+Rowville,GRN,4952,9.6
+Rowville,IND*,1591,3.08
+Rowville,ON,1457,2.82
+Rowville,FFP,1352,2.62
+Rowville,CYA,980,1.9
+Rowville,LTP,410,0.79
+Sandringham,LP,21384,41.52
+Sandringham,IND*,15301,29.71
+Sandringham,ALP,8020,15.57
+Sandringham,GRN,4207,8.17
+Sandringham,ON,1027,1.99
+Sandringham,CYA,774,1.5
+Sandringham,LTP,604,1.17
+Sandringham,FFP,190,0.37
+Shepparton,NP,21921,46.58
+Shepparton,ALP,11112,23.61
+Shepparton,ON,5113,10.87
+Shepparton,GRN,4140,8.8
+Shepparton,CYA,2197,4.67
+Shepparton,FFP,2052,4.36
+Shepparton,CEC,525,1.12
+South Barwon,ALP,11416,38.77
+South Barwon,LP,8478,28.79
+South Barwon,GRN,5046,17.14
+South Barwon,ON,1444,4.9
+South Barwon,IND*,1279,4.34
+South Barwon,HMP,793,2.69
+South Barwon,CYA,490,1.67
+South Barwon,LTP,279,0.95
+South Barwon,SAL,210,0.71
+South Barwon,FFP,11,0.04
+South-West Coast,LP,22279,42.35
+South-West Coast,IND*,19700,37.45
+South-West Coast,ALP,4494,8.54
+South-West Coast,ON,1890,3.59
+South-West Coast,HMP,1397,2.65
+South-West Coast,GRN,1163,2.21
+South-West Coast,FFP,907,1.72
+South-West Coast,CYA,781,1.48
+St Albans,ALP,14346,45.43
+St Albans,LP,6325,20.03
+St Albans,GRN,6121,19.38
+St Albans,ON,1841,5.83
+St Albans,FFP,1623,5.14
+St Albans,VNS,989,3.13
+St Albans,HMP,265,0.84
+St Albans,LTP,69,0.22
+Sunbury,ALP,16106,38.5
+Sunbury,LP,12805,30.61
+Sunbury,GRN,4520,10.81
+Sunbury,ON,4023,9.62
+Sunbury,HMP,1857,4.44
+Sunbury,FFP,1489,3.56
+Sunbury,AJP,776,1.86
+Sunbury,IND*,206,0.49
+Sunbury,CYA,28,0.07
+Sunbury,CEC,20,0.05
+Sydenham,ALP,19713,41.03
+Sydenham,LP,14558,30.3
+Sydenham,GRN,4824,10.04
+Sydenham,ON,3656,7.61
+Sydenham,HMP,2913,6.06
+Sydenham,FFP,1723,3.59
+Sydenham,LTP,628,1.31
+Sydenham,AJP,30,0.06
+Tarneit,ALP,18433,43.94
+Tarneit,LP,10293,24.54
+Tarneit,GRN,7450,17.76
+Tarneit,ON,2586,6.17
+Tarneit,FFP,1657,3.95
+Tarneit,IND*,1054,2.51
+Tarneit,LTP,472,1.13
+Thomastown,ALP,23493,46.22
+Thomastown,LP,9654,18.99
+Thomastown,GRN,4520,8.89
+Thomastown,VNS,4039,7.95
+Thomastown,CYA,3006,5.91
+Thomastown,ON,2978,5.86
+Thomastown,FFP,1924,3.79
+Thomastown,GRPF,1212,2.38
+Warrandyte,LP,39168,45.21
+Warrandyte,ALP,26669,30.79
+Warrandyte,GRN,8448,9.75
+Warrandyte,IND*,5469,6.31
+Warrandyte,ON,2253,2.6
+Warrandyte,CYA,1863,2.15
+Warrandyte,FFP,1611,1.86
+Warrandyte,LTP,849,0.98
+Warrandyte,AJP,299,0.35
+Wendouree,ALP,31395,43.29
+Wendouree,LP,21345,29.43
+Wendouree,GRN,9987,13.77
+Wendouree,ON,5014,6.91
+Wendouree,FFP,2021,2.79
+Wendouree,IND*,1844,2.54
+Wendouree,LTP,921,1.27
+Werribee,ALP,24314,43.5
+Werribee,LP,15102,27.02
+Werribee,GRN,7506,13.43
+Werribee,ON,4293,7.68
+Werribee,FFP,2836,5.07
+Werribee,IND*,1032,1.85
+Werribee,LTP,792,1.42
+Werribee,SAL,14,0.02
+Williamstown,ALP,21837,44.95
+Williamstown,LP,11923,24.54
+Williamstown,GRN,10083,20.75
+Williamstown,ON,2617,5.39
+Williamstown,FFP,1724,3.55
+Williamstown,VNS,398,0.82
+Yan Yean,ALP,17121,38.16
+Yan Yean,LP,15069,33.59
+Yan Yean,GRN,3993,8.9
+Yan Yean,ON,3046,6.79
+Yan Yean,HMP,1718,3.83
+Yan Yean,GRPF,1520,3.39
+Yan Yean,FFP,1369,3.05
+Yan Yean,AJP,700,1.56
+Yan Yean,SOPA,265,0.59
+Yan Yean,CYA,39,0.09
+Yan Yean,VNS,21,0.05

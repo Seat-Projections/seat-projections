@@ -487,7 +487,8 @@ def benchmarks() -> dict:
         })
     return {
         "model1_runs": rows["model1"],
-        "forecast_backtests": rows["model2"],
+        "forecast_backtests": [r for r in rows["model2"] if "fed" not in r["run"]],
+        "forecast_fed_backtests": [r for r in rows["model2"] if "fed" in r["run"]],
         "model3_backtests": rows["model3"],
     }
 
@@ -862,9 +863,9 @@ def district_page(name, slug_, feature, m2d, m1d, base, run_date, header, footer
   <div class="caveat">
     <h3>Read before quoting</h3>
     <ul>
-      <li><b>The ranges are too narrow.</b> Across four state election backtests, the
+      <li><b>The ranges are too narrow.</b> Across five state election backtests, the
         Forecast Model&rsquo;s 80% ranges for the final two candidates contained the actual vote
-        share about 63% of the time when it picked the correct final pair. Allow for more
+        share about 59% of the time when it picked the correct final pair. Allow for more
         uncertainty than the ranges suggest.</li>
       <li><b>One Nation is harder to estimate.</b> Its local support and preference flows
         rely on assumptions.</li>
@@ -1047,16 +1048,17 @@ def write_seo(downloads, blocs):
 
 
 SNAPSHOT_RUNS = ROOT / "predictions" / "modelling" / "model2" / "output" / "VIC2026 snapshots"
+SNAPSHOT_RUNS_FED = ROOT / "predictions" / "modelling" / "model2" / "output" / "VIC2026 fed snapshots"
 
 MONTHS = ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
 
 
-def load_snapshot_docs():
-    """Forecast Model history docs {date: doc} from output/VIC2026 snapshots/<date>/."""
+def load_snapshot_docs(runs_dir=SNAPSHOT_RUNS, model="model2"):
+    """Forecast Model history docs {date: doc} from output/<snapshot dir>/<date>/."""
     docs = {}
-    if SNAPSHOT_RUNS.exists():
-        for d in sorted(p for p in SNAPSHOT_RUNS.iterdir() if p.is_dir()):
-            doc = forecast_doc(d, FORECASTS["model2"][1])
+    if runs_dir.exists():
+        for d in sorted(p for p in runs_dir.iterdir() if p.is_dir()):
+            doc = forecast_doc(d, FORECASTS[model][1])
             doc["meta"]["description"] = doc["meta"]["description"].replace(
                 "Model 2", "Forecast Model")
             docs[d.name] = doc
@@ -1068,9 +1070,9 @@ def _bloc_summary(doc):
             for b in doc["blocs"]}
 
 
-def write_snapshots(snaps, model2_doc):
-    """site/data/snapshots/model2/<date>.json + index.json."""
-    snap_dir = DATA / "snapshots" / "model2"
+def write_snapshots(snaps, model2_doc, subdir="model2"):
+    """site/data/snapshots/<subdir>/<date>.json + the shared index.json (state baseline only)."""
+    snap_dir = DATA / "snapshots" / subdir
     snap_dir.mkdir(parents=True, exist_ok=True)
     for old in snap_dir.glob("*.json"):
         old.unlink()
@@ -1082,15 +1084,16 @@ def write_snapshots(snaps, model2_doc):
                         "retrospective": m["retrospective"],
                         "polls": m["polls"], "polls_used": m["polls_used"],
                         "blocs": _bloc_summary(doc)})
-    index = {"snapshots": entries,
-             "latest": {"generated": model2_doc["meta"]["timestamp"][:10],
-                        "polls_used": model2_doc["meta"]["polls_used"],
-                        "blocs": _bloc_summary(model2_doc)}}
-    (DATA / "snapshots" / "index.json").write_text(json.dumps(index, separators=(",", ":")))
-    write_map_timeline(snaps, model2_doc)
+    if subdir == "model2":
+        index = {"snapshots": entries,
+                 "latest": {"generated": model2_doc["meta"]["timestamp"][:10],
+                            "polls_used": model2_doc["meta"]["polls_used"],
+                            "blocs": _bloc_summary(model2_doc)}}
+        (DATA / "snapshots" / "index.json").write_text(json.dumps(index, separators=(",", ":")))
+    write_map_timeline(snaps, model2_doc, snap_dir / "map_timeline.json" if subdir != "model2" else None)
 
 
-def write_map_timeline(snaps, model2_doc):
+def write_map_timeline(snaps, model2_doc, path=None):
     """Compact per-district p_win series for the map timeline slider."""
     docs = list(snaps.items()) + [(model2_doc["meta"]["timestamp"][:10], model2_doc)]
     points = [{"date": d, "retrospective": doc["meta"].get("retrospective", False)}
@@ -1111,7 +1114,7 @@ def write_map_timeline(snaps, model2_doc):
              for _, doc in docs]
         districts[name] = {"cands": cands, "p": p}
     out = {"points": points, "districts": districts}
-    (DATA / "snapshots" / "map_timeline.json").write_text(json.dumps(out, separators=(",", ":")))
+    (path or (DATA / "snapshots" / "map_timeline.json")).write_text(json.dumps(out, separators=(",", ":")))
 
 
 def history_card(name, snaps, model2_doc):
@@ -1255,7 +1258,7 @@ def main() -> None:
 
     model_meta = {}
     model2_doc = None
-    for model in ("model1", "model2"):
+    for model in ("model1", "model2", "model2fed"):
         src = VIS / f"{model}_vic2026.json"
         doc = json.loads(src.read_text())
         model_meta[model] = doc["meta"]
@@ -1263,7 +1266,7 @@ def main() -> None:
             "Model 1", "Baseline Model").replace("Model 2", "Forecast Model")
         if model == "model2":
             model2_doc = doc
-        else:
+        elif model == "model1":
             model1_doc = doc
         (DATA / src.name).write_text(json.dumps(doc, separators=(",", ":")))
 
@@ -1295,6 +1298,16 @@ def main() -> None:
             "model2_statewide_blocs.csv",
             ROOT / "predictions" / "modelling" / "model2" / "output" / "VIC2026 (2022)" / "statewide_blocs.csv",
             "Forecast Model: statewide seat distribution per bloc",
+        ),
+        (
+            "model2fed_seat_probabilities.csv",
+            ROOT / "predictions" / "modelling" / "model2" / "output" / "VIC2026 (fed2025)" / "seat_probabilities.csv",
+            "Forecast Model, federal baseline: per-district win and final-two probabilities (VIC2026 (fed2025) run)",
+        ),
+        (
+            "model2fed_statewide_blocs.csv",
+            ROOT / "predictions" / "modelling" / "model2" / "output" / "VIC2026 (fed2025)" / "statewide_blocs.csv",
+            "Forecast Model, federal baseline: statewide seat distribution per bloc",
         ),
         (
             "candidates_vic2026.csv",
@@ -1333,6 +1346,8 @@ def main() -> None:
 
     snaps = load_snapshot_docs()
     write_snapshots(snaps, model2_doc)
+    fed_doc = json.loads((VIS / "model2fed_vic2026.json").read_text())
+    write_snapshots(load_snapshot_docs(SNAPSHOT_RUNS_FED, "model2fed"), fed_doc, subdir="model2fed")
     write_header_chips(model2_doc["blocs"])
     write_headline(model2_doc)
     write_seo(downloads, model2_doc["blocs"])

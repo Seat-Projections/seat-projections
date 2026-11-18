@@ -64,3 +64,19 @@ def test_notional_2018_file_conserves_the_official_count() -> None:
     official = json.loads((DATA_DIR / "2018" / "distributions" / "official_2018.json").read_text())
     assert len(n["districts"]) == 88
     assert sum(sum(c.values()) for c in n["districts"].values()) == pytest.approx(sum(t["formal_votes"] for t in official.values()), abs=50)
+
+
+def test_blend_notional_transfer_arithmetic() -> None:
+    # two old districts feeding two new ones; elector shares must weight each old
+    # district's actual primaries and conserve every vote
+    import sys
+    from pathlib import Path
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
+    from build_notional_state import blend_notional
+    incoming = {"newa": {"olda": 400, "oldb": 100}, "newb": {"oldb": 300}}
+    act = {"olda": Counter({"ALP": 800, "LP": 200}), "oldb": Counter({"ALP": 100, "LP": 500})}
+    out = blend_notional(incoming, act, {"newa": "New A", "newb": "New B"})
+    # oldb total is 400 (100 to New A + 300 to New B), so New A takes 25% of oldb
+    assert out["New A"]["ALP"] == pytest.approx(800 + 25)
+    assert out["New B"]["LP"] == pytest.approx(0.75 * 500)
+    assert sum(v for c in out.values() for v in c.values()) == pytest.approx(1600)

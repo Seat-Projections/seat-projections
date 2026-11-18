@@ -19,7 +19,7 @@ async function init() {
   const isScored = (r) => r.raw_seat_count !== "" && r.raw_seat_count != null;
 
   if ($id("st-runs") || $id("st-seats")) {
-    const scoredRuns = [...bench.model1_runs, ...bench.forecast_backtests].filter(isScored);
+    const scoredRuns = [...bench.model1_runs, ...bench.forecast_backtests, ...(bench.forecast_fed_backtests || [])].filter(isScored);
     if ($id("st-runs")) $id("st-runs").textContent = scoredRuns.length;
     if ($id("st-seats")) $id("st-seats").textContent = fmt(scoredRuns.reduce((a, r) => a + r.districts, 0));
   }
@@ -36,13 +36,43 @@ async function init() {
       <td class="r num">${isScored(r) ? (+r.log_loss).toFixed(3) : "N/A"}</td>${full ? `
       <td class="r num">${r.fp_error ? (+r.fp_error).toFixed(2) : "N/A"}</td>
       <td class="r num">${r.final_two_accuracy ? `${(100 * +r.final_two_accuracy).toFixed(1)}%` : "N/A"}</td>` : ""}</tr>`;
-    const lists = { model1: bench.model1_runs, model2: bench.forecast_backtests };
+    const lists = { model1: bench.model1_runs, model2: bench.forecast_backtests, model2fed: bench.forecast_fed_backtests || [] };
     benchTables.forEach((t) => {
       const key = t.dataset.bench;
       const runs = lists[key] || [];
       const full = t.querySelectorAll("thead th").length > 5;
       t.querySelector("tbody").innerHTML = runs.map((r) => row(r, full)).join("");
     });
+  }
+
+  const cmpTable = document.querySelector("table.dtable[data-compare]");
+  if (cmpTable && bench) {
+    const cols = [
+      { name: "Baseline Model", runs: bench.model1_runs },
+      { name: "Forecast Model, state baseline", runs: bench.forecast_backtests },
+      { name: "Forecast Model, federal baseline", runs: bench.forecast_fed_backtests || [] },
+    ];
+    const byElection = {};
+    cols.forEach((c) => c.runs.forEach((r) => {
+      if (!isScored(r)) return;
+      const el = r.run.match(/^([A-Z]+\d{4})/)[1];
+      (byElection[el] ||= {})[c.name] = r;
+    }));
+    const cell = (r) => (r ? `<td class="r num">${r.raw_seat_count} / ${r.districts}</td><td class="r num">${(+r.brier).toFixed(3)}</td>` : '<td class="r num">N/A</td><td class="r num">N/A</td>');
+    const rows = Object.keys(byElection).sort().map((el) => `<tr><td>${el.replace(/^([A-Z]+)(\d{4})$/, "$1 $2")}</td>${cols.map((c) => cell(byElection[el][c.name])).join("")}</tr>`);
+    let totSeats = 0, totRight = cols.map(() => 0), totBrier = cols.map(() => 0), totDists = 0;
+    Object.keys(byElection).forEach((el) => {
+      cols.forEach((c, i) => {
+        const r = byElection[el][c.name];
+        if (r) { totRight[i] += +r.raw_seat_count; totBrier[i] += +r.brier * r.districts; }
+      });
+    });
+    Object.keys(byElection).forEach((el) => {
+      const d = Math.max(...cols.map((c) => (byElection[el][c.name] || { districts: 0 }).districts));
+      totDists += d;
+    });
+    rows.push(`<tr><td><b>All five elections</b></td>${cols.map((c, i) => `<td class="r num"><b>${totRight[i]} / ${totDists}</b></td><td class="r num"><b>${(totBrier[i] / totDists).toFixed(3)}</b></td>`).join("")}</tr>`);
+    cmpTable.querySelector("tbody").innerHTML = rows.join("");
   }
 
   if ($id("polls-card")) {

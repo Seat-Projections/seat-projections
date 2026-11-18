@@ -322,15 +322,43 @@ Forecast backtests (`(F)` runs, previous-election inputs only — see
 | Run | Seats right | Accuracy | Brier | Log loss | FP error (pp) | Final two |
 |---|---|---|---|---|---|---|
 | `VIC2022 (F)` | 81 / 88 | 92.0% | 0.162 | 0.354 | 3.56 | 48.9% |
+| `NSW2023 (F)` | 76 / 93 | 81.7% | 0.282 | 0.656 | 3.57 | 77.4% |
 | `QLD2024 (F)` | 79 / 93 | 84.9% | 0.234 | 0.410 | 2.66 | 94.6% |
 | `WA2025 (F)` | 55 / 59 | 93.2% | 0.134 | 0.264 | 3.16 | 74.6% |
 | `SA2026 (F)` | 38 / 47 | 80.9% | 0.242 | 0.581 | 3.85 | 83.0% |
 
-All four beat model1's federal-booth replay (72/88, 76/93, 42/59, 36/47) and model3's poll-rescaled
-federal votes on seat-level metrics. Regional deviations outside Victoria now use ABS ASGS Edition 3
+The federal-baseline variants (`(F fed<year>)`) use the preceding federal election as the baseline:
+first preferences are that election's votes in each state district, built by
+`scripts/build_fed_primaries.py` as located booth votes plus each division's declaration and
+unlocated votes raked by iterative proportional fitting so each district part keeps its own
+located party mix while party totals stay exact (`inputs/fed_primaries_<state><year>.csv`), and flows are
+fitted on the AEC's round-by-round federal distributions (`state_dop.aec_division_dops`). The pooled
+federal `IND*` group matches no state candidate, so independent baseline information (recontesting
+shares and the minor-independent median) is read from the same seats the state variant uses
+(`baseline_2026(ind_source=...)`); the pooled vote drops out like any non-standing party. Everything
+else is identical, including the candidate list, credible-independent rule, poll target, regions and
+noise.
+NSW's optional-preferential exception: party-to-party strengths come from the federal counts but
+each source party's EXH strength is imported from the NSW state counts, scaled by that party's
+state EXH/ALP strength ratio (`merge_state_exhaustion` in run_model2.py). Federal pseudo-candidates
+whose party group stands nowhere (including pooled federal independents) drop out of the baseline
+and their votes are redistributed when each draw renormalises.
+
+| Run | Seats right | Accuracy | Brier | Log loss | FP error (pp) | Final two |
+|---|---|---|---|---|---|---|
+| `VIC2022 (F fed2022)` | 78 / 88 | 88.6% | 0.159 | 0.278 | 3.41 | 47.7% |
+| `NSW2023 (F fed2022)` | 72 / 93 | 77.4% | 0.380 | 0.943 | 4.23 | 86.0% |
+| `QLD2024 (F fed2022)` | 80 / 93 | 86.0% | 0.195 | 0.297 | 3.05 | 95.7% |
+| `WA2025 (F fed2022)` | 50 / 59 | 84.7% | 0.266 | 0.841 | 3.16 | 79.7% |
+| `SA2026 (F fed2025)` | 38 / 47 | 80.9% | 0.257 | 0.611 | 3.60 | 80.9% |
+
+All five beat model1's federal-booth replay (72/88, 64/93, 76/93, 42/59, 36/47) and model3's
+poll-rescaled federal votes on seat-level metrics. The NSW baseline blends each old district's
+actual 2019 primaries by the official elector-transfer table in the 2021 redistribution report,
+unlike the located-booth remaps used for SA and WA. Regional deviations outside Victoria now use ABS ASGS Edition 3
 SA4 groups (`data/benchmarks/regions/`); the experiment grid in
 `predictions/benchmarking/region_experiment.csv` found that grouping improved mean log loss only
-slightly (0.412 -> 0.402 across the four runs) with seats right unchanged, and SA4 groups beat the
+slightly (0.412 -> 0.402 across the four non-Victorian runs) with seats right unchanged, and SA4 groups beat the
 coarser Greater-Capital/rest split. The replays that used to be here were removed on
 16 Nov 2026: given the actual primaries, they did not measure forecasting.
 

@@ -1,0 +1,5 @@
+party,seats_mean,seats_p10,seats_p50,seats_p90,p_majority
+ALP,48.2,43.0,48,54.0,0.6378
+COAL,40.72,35.0,41,47.0,0.1056
+IND*,3.54,3.0,3,5.0,0.0
+GRN,0.55,0.0,1,1.0,0.0

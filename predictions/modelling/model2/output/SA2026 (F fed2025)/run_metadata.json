@@ -1,0 +1,115 @@
+{
+  "model": "model2",
+  "run_id": "SA2026 (F fed2025)",
+  "timestamp": "2026-11-17T13:55:40+00:00",
+  "git_commit": "4ee02a80df8a14ed91221a384f03c9195b426407",
+  "runs": 5000,
+  "seed": 1,
+  "noise": {
+    "poll_sd": 2.5,
+    "region_sd": 2.0,
+    "seat_sd": 3.5,
+    "flow_state": 0.15,
+    "flow_seat": 0.05
+  },
+  "on_priors": {
+    "ON->LP|LP,ALP": [
+      0.65,
+      0.8,
+      0.9
+    ],
+    "LP->ON|ON,ALP": [
+      0.45,
+      0.65,
+      0.8
+    ],
+    "ALP->LP|LP,ON": [
+      0.45,
+      0.6,
+      0.75
+    ],
+    "GRN->ON:ALP": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "RIGHT->ON:LP": [
+      1.0,
+      1.43,
+      2.0
+    ],
+    "OTHER->ON:LP": [
+      0.6,
+      0.86,
+      1.2
+    ]
+  },
+  "exhaust": false,
+  "core_rule": {
+    "top": 4,
+    "share": 0.05
+  },
+  "inputs": {
+    "state": "SA",
+    "state_election": "2026-03-21",
+    "districts": 47,
+    "baseline": "previous election",
+    "federal_election": null,
+    "winners": "SA2026",
+    "primaries": "federal first preferences in state districts: located booth votes plus declaration and unlocated votes raked within each division (predictions/modelling/model2/inputs/fed_primaries_SA2025.csv)",
+    "flows": "AEC federal distributions (data/federal/2025/house/HouseDopByDivisionDownload-31496.csv)",
+    "polls": {
+      "ALP": 36.67,
+      "LNP": 17.42,
+      "GRN": 11.17,
+      "ON": 24.0,
+      "OTH": 10.75
+    },
+    "poll_on_reported": true,
+    "poll_rows": [
+      "demosau 2026-03-18",
+      "newspoll 2026-03-18",
+      "yougov 2026-03-17",
+      "resolve 2026-03-16",
+      "fox-and-hedgehog 2026-03-16",
+      "roy-morgan 2026-02-23"
+    ],
+    "polls_source": "data/benchmarks/polls/final_polls.csv",
+    "one_nation_pattern": "predictions/modelling/model1/output/SA2026 (2025)/district_primaries.csv (federal booths, model1), elasticity 0.7",
+    "independents": {
+      "rule": "won the seat as an independent at the previous election, or >=10% primary there",
+      "credible": [
+        "Lou NICHOLSON (Finniss, 19.56%)",
+        "Airlie KEEN (Hammond, 15.74%)",
+        "Fraser ELLIS (Narungga, 32.52%)",
+        "Geoff BROCK (Stuart, 48.46%)"
+      ]
+    },
+    "candidates": "candidate field of the scored election (data/SA2026/distributions/dop_SA2026.json), nominations public before polling day",
+    "leakage_guard": "baseline, flows and poll target all predate the scored election; its distributions were read only for the candidate list and the final score"
+  },
+  "scores": {
+    "districts": 47,
+    "raw_seat_count": 38,
+    "brier": 0.257,
+    "log_loss": 0.6113
+  },
+  "diagnostics": {
+    "final_two_accuracy": 0.8085,
+    "tcp_margin_mae": 3.71,
+    "t1_mae_pp": 3.5993
+  },
+  "actual_seats": {
+    "ALP": 34,
+    "IND*": 4,
+    "LP": 5,
+    "ON": 4
+  },
+  "predicted_seats_mean": {
+    "ALP": 36.0,
+    "GRN": 0.01,
+    "IND*": 1.85,
+    "LP": 4.05,
+    "ON": 5.1
+  }
+}

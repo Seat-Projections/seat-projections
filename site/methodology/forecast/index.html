@@ -72,11 +72,42 @@
         It then adjusts those votes to the polls and estimates how preferences could decide
         each contest.</p>
     </div>
+    <h2 style="font-family:var(--serif);font-size:1.625rem;margin-top:1.5rem">Two baseline options</h2>
+    <div class="prose" style="max-width:46rem">
+      <p>The Forecast Model has two options for where its baseline comes from.
+        The <b>state baseline</b> is the default. It uses the previous state election&rsquo;s
+        results and preference counts in each district. The <b>federal baseline</b> uses the
+        preceding federal election&rsquo;s polling-place votes mapped into state districts and
+        the AEC&rsquo;s round-by-round preference counts. Declaration votes and votes from booths
+        the mapping cannot place are allocated within each federal division so each district
+        keeps its own party pattern, with statewide totals matched exactly to the official
+        AEC figures.</p>
+      <p>Everything else is identical: the candidate list, polling average, regional and
+        district shifts, and the count engine. A few differences remain because of the data
+        itself. Polling places are assigned to districts by location, so the federal baseline
+        is a map of booth votes rather than official district results. Parties with little
+        federal presence, such as the WA Nationals, start low. Federal preference flows come
+        from federal how-to-vote patterns across fewer divisions. New South Wales is the one
+        structural exception: its state elections are optional preferential while federal
+        elections are compulsory preferential, so the federal option takes its party preference
+        shares from the federal count but its exhaustion rates from the previous NSW state
+        count. Finally, the federal baseline has party votes only. Independents use the state
+        election&rsquo;s information in both versions, and the pooled federal independent vote
+        drops out like any party that is not standing.</p>
+      <p>The state baseline is the default because it scored better on the backtests below:
+        329 of 380 seats right across the five elections, against 318 of 380 for the federal
+        option. We also tested widening the federal district differences and it did not
+        improve the backtests. The state baseline is the published forecast on the
+        <a href="/">projections page</a>. The federal baseline is kept for comparison
+        and is linked from the benchmark table below.</p>
+    </div>
     <h2 style="font-family:var(--serif);font-size:1.625rem;margin-top:1.5rem">How the forecast works</h2>
     <div class="prose" style="max-width:46rem">
       <ol class="forecast-steps">
-        <li><b>Start with local votes.</b> The 2022 state election provides the starting
-          first-preference shares in each district. The model uses the declared 2026 candidate list.
+        <li><b>Start with local votes.</b> The baseline election provides the starting
+          first-preference shares in each district: the 2022 state election by default, or
+          the 2025 federal election&rsquo;s votes inside each district for the federal option.
+          The model uses the declared 2026 candidate list.
           One Nation and selected independents use the separate estimates described below.</li>
         <li><b>Adjust to the polls.</b> Each simulation draws a statewide vote target around
           the polling average. Each party group&rsquo;s district votes are scaled proportionally
@@ -172,6 +203,17 @@
       preference flows, the final polls, and that election&rsquo;s candidate list. FP error is the mean
       first-preference error in percentage points.
       <a href="/methodology/baseline/#benchmarks">Baseline Model results &rarr;</a></p>
+    <div class="card" style="overflow-x:auto;margin-top:1rem">
+      <table class="dtable" data-bench="model2fed">
+        <thead><tr><th>Run</th><th>Seats right</th><th class="r">Accuracy</th><th class="r">Brier</th><th class="r">Log loss</th><th class="r">FP error</th><th class="r">Final-two acc.</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="small muted" style="margin-top:0.5rem">Federal baseline backtests: the same
+      forecast method, with the preceding federal election&rsquo;s booth votes and preference
+      counts as the baseline.
+      <a href="/#model2fed">View the federal-baseline projections</a> (a comparison view,
+      not the published forecast).</p>
   </section>
 
   <div class="section" style="display:flex;justify-content:space-between;gap:1rem">

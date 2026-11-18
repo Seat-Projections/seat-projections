@@ -1,0 +1,389 @@
+district,candidate,party,p_win,p_final_two,tcp_p10,tcp_p50,tcp_p90
+Adelaide,Lucy HOOD,ALP,0.9996,0.9996,59.68,65.27,70.67
+Adelaide,Bronte COLMER,GRN,0.0,0.1026,26.6,30.04,33.31
+Adelaide,Julian AMATO,LP,0.0004,0.6074,32.37,36.56,41.3
+Adelaide,Aoi BAXTER,ON,0.0,0.2904,28.25,32.18,36.66
+Adelaide,Keiran SNAPE,IND*,0.0,0.0,,,
+Adelaide,Dan CASEY,AFP,0.0,0.0,,,
+Badcoe,Jayne STINSON,ALP,0.9988,1.0,57.8,63.47,69.3
+Badcoe,Amar SINGH,LP,0.0012,0.6496,33.09,37.89,43.03
+Badcoe,Daniel SHEPHERD,ON,0.0,0.3472,29.02,33.58,38.71
+Badcoe,Joshua ANDERSEN-WARD,GRN,0.0,0.0032,24.55,26.24,30.76
+Badcoe,Radosav JOVANOVIC,FFP,0.0,0.0,,,
+Badcoe,Jonathan ATTARD,AFP,0.0,0.0,,,
+Black,Alex DIGHTON,ALP,1.0,1.0,58.99,63.59,68.21
+Black,Paula WILSON,ON,0.0,0.8738,31.64,36.23,40.84
+Black,Rhees BISHOP,LP,0.0,0.1262,33.59,37.97,42.51
+Black,Sarah LUSCOMBE,GRN,0.0,0.0,,,
+Black,David SPEIRS,IND*,0.0,0.0,,,
+Black,Dianne SQUIRRELL,FFP,0.0,0.0,,,
+Black,Jennifer GAME,FGA,0.0,0.0,,,
+Black,Jethro ATTARD,AFP,0.0,0.0,,,
+Bragg,Rick SARRE,ALP,0.8302,0.9998,48.47,54.32,60.76
+Bragg,Jack BATTY,LP,0.1698,0.9768,39.55,45.84,51.59
+Bragg,Russell James PATERSON,ON,0.0,0.0222,32.65,37.19,42.84
+Bragg,Susan DITTER,GRN,0.0,0.0012,27.65,32.23,36.37
+Bragg,Robert WALKER,AFP,0.0,0.0,,,
+Chaffey,Jenny TROETH,ON,0.3022,0.9074,43.09,48.13,54.18
+Chaffey,Tim WHETSTONE,LP,0.6892,0.8912,47.96,53.1,58.77
+Chaffey,Oscar HARDING,ALP,0.0086,0.2012,38.19,42.78,48.22
+Chaffey,Alice KUERSCH,GRN,0.0,0.0,,,
+Chaffey,Jakob GAMERTSFELDER,IND*,0.0,0.0,,,
+Chaffey,Jason PERRIN,IND*,0.0,0.0002,44.48,44.48,44.48
+Chaffey,Jeff KNIPE,LCP,0.0,0.0,,,
+Chaffey,Tim OAKLEY,AFP,0.0,0.0,,,
+Chaffey,Imelda ADAMSON AGARS,NP,0.0,0.0,,,
+Cheltenham,Joe SZAKACS,ALP,1.0,1.0,61.68,66.28,70.87
+Cheltenham,Melissa HIGGINS,ON,0.0,0.981,29.29,33.77,38.35
+Cheltenham,Steffi MEDROW,GRN,0.0,0.0126,24.83,27.9,30.86
+Cheltenham,Helen PIKE,LP,0.0,0.0064,28.73,33.33,36.42
+Cheltenham,Alex TENNIKOFF,FFP,0.0,0.0,,,
+Cheltenham,Kosta HADJIMARKOU,IND*,0.0,0.0,,,
+Cheltenham,John MARTIN,AFP,0.0,0.0,,,
+Cheltenham,Karoline BROWN,FGA,0.0,0.0,,,
+Colton,Aria BOLKUS,ALP,0.9994,1.0,57.25,62.28,67.37
+Colton,Bec SUTTON,LP,0.0006,0.5974,34.5,38.93,43.65
+Colton,Rocco DeANGELIS,ON,0.0,0.401,31.17,35.8,40.39
+Colton,Adelaide XERRI,GRN,0.0,0.0016,25.49,27.71,29.19
+Colton,Jake HALL-EVANS,IND*,0.0,0.0,,,
+Colton,Mathew SCHULZ,FFP,0.0,0.0,,,
+Colton,Lili PARSONS,AJP,0.0,0.0,,,
+Colton,Tony SCHIRRIPA,AFP,0.0,0.0,,,
+Colton,Brad LLOYD,RCH,0.0,0.0,,,
+Croydon,Peter MALINAUSKAS,ALP,1.0,1.0,66.48,70.73,74.63
+Croydon,Dale BLACKEBY,ON,0.0,0.8486,25.76,29.68,33.73
+Croydon,Ruby DOLLING,GRN,0.0,0.1386,24.0,27.11,30.04
+Croydon,Michael SANTAGATA,LP,0.0,0.0126,25.79,29.96,33.87
+Croydon,Suzanne POPE,AJP,0.0,0.0,,,
+Croydon,Ahmed AZHAR,IND*,0.0,0.0002,25.13,25.13,25.13
+Croydon,Joey ELMS,AFP,0.0,0.0,,,
+Croydon,Daniel BETTINELLI,UVA,0.0,0.0,,,
+Croydon,Hieu PHAM,FFP,0.0,0.0,,,
+Davenport,Erin THOMPSON,ALP,1.0,1.0,59.77,64.57,69.02
+Davenport,Jon HOWELL,ON,0.0,0.8842,30.86,35.27,40.05
+Davenport,Trent BURNARD,LP,0.0,0.1146,32.51,36.8,41.06
+Davenport,John PHOTAKIS,GRN,0.0,0.0012,25.5,26.91,28.4
+Davenport,Dan GOLDING,IND*,0.0,0.0,,,
+Davenport,Mathew FRANCIS,FFP,0.0,0.0,,,
+Davenport,Rachel SMITH,AFP,0.0,0.0,,,
+Dunstan,Cressida O'HANLON,ALP,0.971,1.0,52.48,57.77,63.33
+Dunstan,Anna FINIZIO,LP,0.029,0.8786,37.88,42.78,47.8
+Dunstan,Victoria POLLIFRONE,ON,0.0,0.1196,32.91,37.41,41.98
+Dunstan,Christel MEX,GRN,0.0,0.0018,28.26,29.14,31.06
+Dunstan,Ian McBRYDE,IND*,0.0,0.0,,,
+Dunstan,Fiona LESLIE,FFP,0.0,0.0,,,
+Dunstan,Nick ZOLLO,AFP,0.0,0.0,,,
+Dunstan,Ricci STANLEY,FGA,0.0,0.0,,,
+Dunstan,Miranda SMITH,AJP,0.0,0.0,,,
+Elder,Nadia CLANCY,ALP,0.9984,1.0,57.17,62.4,68.21
+Elder,Shawn VAN GROESEN,LP,0.0016,0.8504,33.24,38.26,43.25
+Elder,Stef ROZITIS,GRN,0.0,0.0062,25.16,27.51,31.83
+Elder,Matt MANGELSDORF,ON,0.0,0.1434,28.44,33.08,38.24
+Elder,Rosanne WALSTON-LEO,FFP,0.0,0.0,,,
+Elder,Linda CHENG,FGA,0.0,0.0,,,
+Elder,Robert LONIE,AFP,0.0,0.0,,,
+Elizabeth,Ella SHAW,ALP,0.9806,1.0,52.9,57.51,62.05
+Elizabeth,Kym HANTON,ON,0.0194,1.0,37.95,42.49,47.1
+Elizabeth,David DEEX,GRN,0.0,0.0,,,
+Elizabeth,Sanja HENDRICK,FFP,0.0,0.0,,,
+Elizabeth,Dawid JURCZAK,LP,0.0,0.0,,,
+Elizabeth,Brae McKEE,AFP,0.0,0.0,,,
+Elizabeth,Marco LORENZI,UVA,0.0,0.0,,,
+Elizabeth,Matthew FIELD,LCP,0.0,0.0,,,
+Elizabeth,Angela ROJAS,FGA,0.0,0.0,,,
+Enfield,Lawrence BEN,ALP,1.0,1.0,60.82,65.74,70.37
+Enfield,Paul MORRELL,ON,0.0,0.7622,29.31,33.66,38.38
+Enfield,Oscar ONG,LP,0.0,0.2358,31.76,36.3,41.03
+Enfield,Chris SICLARI,GRN,0.0,0.002,22.66,25.69,26.62
+Enfield,Leila CLENDON,IND*,0.0,0.0,,,
+Enfield,Andrew RIGLIN,UVA,0.0,0.0,,,
+Enfield,Ariah MERRETT,AFP,0.0,0.0,,,
+Enfield,Daniel SOLOMON,FFP,0.0,0.0,,,
+Finniss,Greg POWELL,ON,0.3438,0.8584,44.15,49.05,54.54
+Finniss,Phoebe REDINGTON,ALP,0.4022,0.6686,45.86,51.01,55.81
+Finniss,Lou NICHOLSON,IND*,0.207,0.3688,44.26,50.61,55.85
+Finniss,David BASHAM,LP,0.047,0.1038,44.79,49.59,55.04
+Finniss,Bartholomew Jon ASTILL-PEARCE,GRN,0.0,0.0004,34.96,38.76,38.34
+Finniss,Bron LEWIS,IND*,0.0,0.0,,,
+Finniss,Tanya HUSSEY,AJP,0.0,0.0,,,
+Finniss,Michael SCOTT,FGA,0.0,0.0,,,
+Finniss,David ABRAM,AFP,0.0,0.0,,,
+Flinders,Brenton HINCKS,ON,0.4542,0.963,44.68,49.72,55.68
+Flinders,Sam TELFER,LP,0.5414,0.8876,45.97,51.08,56.43
+Flinders,Ben ANCHOR,ALP,0.0044,0.142,38.85,43.26,47.99
+Flinders,Rod KEOGH,IND*,0.0,0.0026,37.07,40.53,45.26
+Flinders,Craig William HASLAM,IND*,0.0,0.0012,36.58,40.17,42.69
+Flinders,Kathryn Gay HARDWICK-FRANCO,GRN,0.0,0.0,,,
+Flinders,Meghan PETHERICK,IND*,0.0,0.0036,35.58,40.09,42.21
+Flinders,Sam FULWOOD,AFP,0.0,0.0,,,
+Flinders,Spiro MANOLAKIS,RCH,0.0,0.0,,,
+Flinders,Thomas McNAB,SAB,0.0,0.0,,,
+Flinders,Dylan COWLEY,NP,0.0,0.0,,,
+Florey,Michael BROWN,ALP,0.9996,1.0,58.25,62.89,67.51
+Florey,Riley SIZE,ON,0.0004,0.9844,32.52,37.12,41.72
+Florey,Denise GEORGE,LP,0.0,0.0156,31.55,36.75,42.27
+Florey,Alexandra McGEE,GRN,0.0,0.0,,,
+Florey,Mark HAWKE,FFP,0.0,0.0,,,
+Florey,Frances BEDFORD,IND*,0.0,0.0,,,
+Florey,Trent Mark WILTON,UVA,0.0,0.0,,,
+Florey,Robert JAMESON,FGA,0.0,0.0,,,
+Florey,Dieter FISCHER,AFP,0.0,0.0,,,
+Gibson,Sarah ANDREWS,ALP,0.9954,1.0,55.67,60.96,66.47
+Gibson,Jane FLEMING,LP,0.0046,0.8766,34.79,39.58,44.58
+Gibson,Zoran ANANIJEV,ON,0.0,0.1222,29.61,34.27,39.34
+Gibson,Mike TREWARTHA,GRN,0.0,0.0012,24.76,27.98,29.1
+Gibson,Darryl EASTHER,FFP,0.0,0.0,,,
+Gibson,Bin LIU,AJP,0.0,0.0,,,
+Gibson,John LUTMAN,FGA,0.0,0.0,,,
+Gibson,Glenn O'ROURKE,AFP,0.0,0.0,,,
+Giles,Barry DRAGE,ON,0.655,0.9982,46.54,51.63,56.65
+Giles,Eddie HUGHES,ALP,0.344,0.9992,43.35,48.38,53.47
+Giles,Sunny SINGH,LP,0.001,0.0026,43.54,49.52,53.03
+Giles,Alex TAYLOR,GRN,0.0,0.0,,,
+Giles,Gary BALFORT,FFP,0.0,0.0,,,
+Giles,Jasper PRICE,AFP,0.0,0.0,,,
+Hammond,Robert ROYLANCE,ON,0.5644,0.8196,47.12,51.91,57.58
+Hammond,Adrian PEDERICK,LP,0.189,0.2762,47.26,51.75,56.24
+Hammond,Simone BAILEY,ALP,0.152,0.5476,43.29,47.94,52.45
+Hammond,Airlie KEEN,IND*,0.0946,0.3566,41.1,47.0,52.58
+Hammond,Nicole PALACHICKY,GRN,0.0,0.0,,,
+Hammond,Robert NORTH,FFP,0.0,0.0,,,
+Hammond,Lucas HOPE,IND*,0.0,0.0,,,
+Hammond,Ruby ECKERMANN,AJP,0.0,0.0,,,
+Hammond,Carmelo GRAZIANO,UVA,0.0,0.0,,,
+Hammond,James MURPHY,LCP,0.0,0.0,,,
+Hammond,Tristan IVESON,FGA,0.0,0.0,,,
+Hammond,Bruce HICKS,AFP,0.0,0.0,,,
+Hartley,Jenn ROBERTS,ALP,0.9516,1.0,51.72,57.28,62.81
+Hartley,Vincent TARZIA,LP,0.045,0.6354,39.26,44.18,49.17
+Hartley,David DWYER,ON,0.0034,0.3646,34.93,40.16,45.14
+Hartley,Melanie SEARLE,GRN,0.0,0.0,,,
+Hartley,Hugh THOMPSON,FFP,0.0,0.0,,,
+Hartley,Mara DOTTORE,RCH,0.0,0.0,,,
+Hartley,Bruce SMITH,AFP,0.0,0.0,,,
+Hartley,Robert James Henry MILL,FGA,0.0,0.0,,,
+Hartley,Peter SALERNO,UVA,0.0,0.0,,,
+Heysen,Tom KOVAC,ON,0.1542,0.828,40.22,45.54,52.8
+Heysen,Marisa BELL,ALP,0.7636,0.8924,48.93,54.55,59.87
+Heysen,Genevieve DAWSON-SCOTT,GRN,0.0058,0.099,37.24,41.99,48.63
+Heysen,Josh TEAGUE,LP,0.0764,0.1806,43.5,49.03,56.99
+Heysen,Andrew GRANGER,IND*,0.0,0.0,,,
+Heysen,Chris BAKER,FFP,0.0,0.0,,,
+Heysen,Gregory DAVIS,AJP,0.0,0.0,,,
+Heysen,Tonya Lee SCOTT,FGA,0.0,0.0,,,
+Heysen,Craig WILSON,AFP,0.0,0.0,,,
+Hurtle Vale,Nat COOK,ALP,1.0,1.0,60.8,65.3,69.9
+Hurtle Vale,Katrina EMMERSON,ON,0.0,0.9982,30.12,34.7,39.2
+Hurtle Vale,Tammy SCOTT,GRN,0.0,0.0008,26.27,27.99,30.28
+Hurtle Vale,Charlotte GRUNDY,LP,0.0,0.001,30.16,33.42,35.9
+Hurtle Vale,Sarah KOPEIKIN,FFP,0.0,0.0,,,
+Hurtle Vale,Jannah FAHIZ,AJP,0.0,0.0,,,
+Hurtle Vale,Michael MITCHARD,AFP,0.0,0.0,,,
+Hurtle Vale,Jane SAVAGE,LCP,0.0,0.0,,,
+Kaurna,Chris PICTON,ALP,0.9998,1.0,59.74,64.27,69.02
+Kaurna,Zoe JONES,ON,0.0002,0.9982,30.98,35.74,40.26
+Kaurna,Sean WEATHERLY,GRN,0.0,0.0,,,
+Kaurna,Shane CARTER,LP,0.0,0.0018,31.54,32.99,39.98
+Kaurna,Amanda BROHIER,FFP,0.0,0.0,,,
+Kaurna,Gary HADDRELL,LCP,0.0,0.0,,,
+Kaurna,Patrick AMADIO,AFP,0.0,0.0,,,
+Kaurna,Anastasios MANOLAKIS,RCH,0.0,0.0,,,
+Kavel,Christiaan LOCH,ON,0.3304,0.9394,43.19,48.44,54.12
+Kavel,David LEACH,ALP,0.6304,0.9458,46.6,51.69,56.84
+Kavel,Bradley ORR,LP,0.0382,0.078,45.31,49.86,55.09
+Kavel,Sam TYLER,GRN,0.0008,0.0356,36.3,41.63,46.05
+Kavel,Matt SCHULTZ,IND*,0.0002,0.0012,40.49,43.7,49.74
+Kavel,Dayle BAKER,FFP,0.0,0.0,,,
+Kavel,Jacob Nicholas VAN RAALTE,IND*,0.0,0.0,,,
+Kavel,Padma CHAPLIN,AJP,0.0,0.0,,,
+Kavel,Baden ASHMAN,AFP,0.0,0.0,,,
+Kavel,David STONE,FGA,0.0,0.0,,,
+Kavel,Ashley MOULE,RCH,0.0,0.0,,,
+King,Rhiannon PEARCE,ALP,0.977,1.0,52.62,57.25,62.13
+King,David KERRISON,ON,0.0228,0.995,37.87,42.75,47.4
+King,Amanda HENDRY,LP,0.0002,0.005,36.61,43.1,45.99
+King,Samuel MOORE,GRN,0.0,0.0,,,
+King,Julie GLASGOW,FFP,0.0,0.0,,,
+King,Lukas GLEESON,UVA,0.0,0.0,,,
+King,Tyla Jane FINLAY,FGA,0.0,0.0,,,
+King,Angela ZAKARIAS,AFP,0.0,0.0,,,
+King,Adriana HAYNES,RCH,0.0,0.0,,,
+Lee,David WILKINS,ALP,0.9998,1.0,58.96,63.87,68.73
+Lee,Fabio STURM,ON,0.0002,0.8614,31.15,35.91,40.86
+Lee,Merlindie FARDONE,LP,0.0,0.1384,32.58,37.52,42.23
+Lee,Brett FERRIS,GRN,0.0,0.0002,22.78,22.78,22.78
+Lee,Krystal SCHULZ,FFP,0.0,0.0,,,
+Lee,Bill DAY,AFP,0.0,0.0,,,
+Lee,Vasko VUKOJE,RCH,0.0,0.0,,,
+Lee,Sarah McGRATH,FGA,0.0,0.0,,,
+Light,James AGNESS,ALP,0.9202,1.0,50.5,55.17,59.99
+Light,Alexander BANKS,ON,0.0798,0.9996,40.01,44.83,49.5
+Light,Andrew WILLIAMSON,LP,0.0,0.0004,43.21,46.85,46.44
+Light,James SCALZI,GRN,0.0,0.0,,,
+Light,Jacinta ROBERTS,FFP,0.0,0.0,,,
+Light,Liam MORGAN,LCP,0.0,0.0,,,
+Light,Dan HALE,AFP,0.0,0.0,,,
+MacKillop,Rebekah ROSSER,LP,0.9634,0.9886,52.63,58.22,63.7
+MacKillop,Jason VIRGO,ON,0.0348,0.7602,38.33,43.09,48.31
+MacKillop,Mark BRAES,ALP,0.0018,0.2506,33.99,38.08,43.1
+MacKillop,Steven DAVIES,IND*,0.0,0.0004,34.38,42.67,41.75
+MacKillop,Nick McBRIDE,IND*,0.0,0.0002,34.75,34.75,34.75
+MacKillop,Cathy OLSSON,GRN,0.0,0.0,,,
+MacKillop,Jonathan PIETZSCH,NP,0.0,0.0,,,
+MacKillop,Tim GREEN,LCP,0.0,0.0,,,
+MacKillop,Joanna DAY,AFP,0.0,0.0,,,
+Mawson,Tyler GREEN,ON,0.196,0.9908,40.71,46.24,51.91
+Mawson,Jenni MITTON,ALP,0.802,0.9994,48.08,53.78,59.31
+Mawson,Mike HOLDEN,LP,0.002,0.0096,40.41,45.6,52.78
+Mawson,Lawrence JOHNSON,GRN,0.0,0.0002,38.32,38.32,38.32
+Mawson,Peter IERACI,AFP,0.0,0.0,,,
+Mawson,Kelly SCHUMACHER,RCH,0.0,0.0,,,
+Mawson,Lesley GRAY,LCP,0.0,0.0,,,
+Morialta,Matthew MAROZZI,ALP,0.9896,1.0,54.44,59.88,65.49
+Morialta,Peter ELLERY,ON,0.001,0.5008,33.15,38.28,43.29
+Morialta,Scott KENNEDY,LP,0.0094,0.4984,36.88,41.75,46.99
+Morialta,Jenn TRANTER,GRN,0.0,0.0008,27.43,32.22,32.43
+Morialta,Rosie CIROCCO,FFP,0.0,0.0,,,
+Morialta,James BODYCOTE,AFP,0.0,0.0,,,
+Morialta,Casey Robert MARLEY-DUNCAN,FGA,0.0,0.0,,,
+Morialta,Janice HUTCHISON,RCH,0.0,0.0,,,
+Morphett,Toby PRIEST,ALP,0.9958,1.0,55.16,60.68,66.52
+Morphett,Stephen PATTERSON,LP,0.0042,0.8114,35.15,40.17,45.34
+Morphett,Tim MARCH,ON,0.0,0.1862,30.11,35.1,40.33
+Morphett,Isabella LITT,GRN,0.0,0.0024,25.1,28.59,30.76
+Morphett,Tom BIRDSEYE,RCH,0.0,0.0,,,
+Morphett,Maria RUTA,FGA,0.0,0.0,,,
+Morphett,Craig ATTARD,AFP,0.0,0.0,,,
+Morphett,Ren RYBA,AJP,0.0,0.0,,,
+Mount Gambier,Lamorna ALEXANDER,LP,0.752,0.8012,50.87,55.39,59.83
+Mount Gambier,Anne-Marie LOEF,ON,0.1842,0.5314,43.53,48.26,53.97
+Mount Gambier,Matthew KEY,ALP,0.0636,0.6666,40.07,44.58,49.89
+Mount Gambier,Sharon HOLMES,GRN,0.0,0.0,,,
+Mount Gambier,Travis FATCHEN,IND*,0.0,0.0002,44.69,44.69,44.69
+Mount Gambier,Kate AMOROSO,IND*,0.0,0.0,,,
+Mount Gambier,Cody SCHOLES,IND*,0.0002,0.0006,40.6,42.76,51.54
+Mount Gambier,Rachael KENYON,FFP,0.0,0.0,,,
+Mount Gambier,James THOMSON,AJP,0.0,0.0,,,
+Mount Gambier,Martin GODFREY,LCP,0.0,0.0,,,
+Mount Gambier,Eleanor DAY,AFP,0.0,0.0,,,
+Narungga,Fraser ELLIS,IND*,0.5564,0.9676,44.16,50.97,57.46
+Narungga,Chantelle THOMAS,ON,0.3594,0.7196,43.82,49.99,56.55
+Narungga,Tania STOCK,LP,0.0758,0.287,40.91,46.85,53.05
+Narungga,Esther SHORT,ALP,0.0084,0.0258,43.35,48.44,52.18
+Narungga,John BENNETT,FFP,0.0,0.0,,,
+Narungga,Jessica SCRIVEN,GRN,0.0,0.0,,,
+Narungga,Maria VOTTARI,AFP,0.0,0.0,,,
+Narungga,Nicole LORNIE,LCP,0.0,0.0,,,
+Narungga,Peter ILLINGWORTH,UVA,0.0,0.0,,,
+Narungga,Joanne TAYLERSON,RCH,0.0,0.0,,,
+Newland,Olivia SAVVAS,ALP,0.9964,1.0,55.34,60.49,65.35
+Newland,Alison DEW-FENNELL,ON,0.0034,0.9352,34.56,39.45,44.49
+Newland,Sarai BIRCH,LP,0.0002,0.0648,35.57,40.7,46.12
+Newland,Helen WRIGHT,GRN,0.0,0.0,,,
+Newland,Rachel MATHEW,FFP,0.0,0.0,,,
+Newland,Hayley MARLEY-DUNCAN,FGA,0.0,0.0,,,
+Newland,Colin STANFORD,AFP,0.0,0.0,,,
+Newland,Abe LAZOOTIN,UVA,0.0,0.0,,,
+Ngadjuri,David PATON,ON,0.8938,0.9846,50.2,55.7,60.64
+Ngadjuri,Tony PICCOLO,ALP,0.0382,0.8148,38.93,43.55,48.57
+Ngadjuri,Penny PRATT,LP,0.068,0.2006,43.22,48.19,54.03
+Ngadjuri,Danielle EVERY,GRN,0.0,0.0,,,
+Ngadjuri,Sharon PEARCE,FFP,0.0,0.0,,,
+Ngadjuri,Shari Lynnette OLSSON,FGA,0.0,0.0,,,
+Ngadjuri,Mark LOBBAN,LCP,0.0,0.0,,,
+Ngadjuri,Jonathan JENKINS,AFP,0.0,0.0,,,
+Ngadjuri,Cherie STEELE,AJP,0.0,0.0,,,
+Playford,John FULBROOK,ALP,0.9986,1.0,56.49,61.27,66.01
+Playford,Nickolas TSENTIDIS,ON,0.0014,0.9992,34.0,38.73,43.51
+Playford,David WRIGHT,GRN,0.0,0.0002,22.89,22.89,22.89
+Playford,Christopher JONES,LP,0.0,0.0006,36.03,37.04,39.43
+Playford,Antonio RANGEL,FFP,0.0,0.0,,,
+Playford,Richard BUNTING,AFP,0.0,0.0,,,
+Playford,Trent OEHME,LCP,0.0,0.0,,,
+Playford,Grace BAWDEN,UVA,0.0,0.0,,,
+Port Adelaide,Cheyne RICH,ALP,1.0,1.0,60.84,65.2,69.43
+Port Adelaide,Joel HENDRIE,ON,0.0,0.9734,30.8,34.89,39.19
+Port Adelaide,Hayden SHAW,GRN,0.0,0.0194,26.78,29.76,32.48
+Port Adelaide,Scott ANDERSON,LP,0.0,0.0056,32.63,34.34,36.86
+Port Adelaide,Gary JOHANSON,IND*,0.0,0.0016,33.61,35.61,37.01
+Port Adelaide,Anne McMENAMIN,IND*,0.0,0.0,,,
+Port Adelaide,Claire BOAN,IND*,0.0,0.0,,,
+Port Adelaide,Lucia SNELLING,FFP,0.0,0.0,,,
+Port Adelaide,Galina BRUNOLI,FGA,0.0,0.0,,,
+Port Adelaide,Sallyann KEEN,LCP,0.0,0.0,,,
+Port Adelaide,Aaron MACHADO,UVA,0.0,0.0,,,
+Port Adelaide,Tom DAY,AFP,0.0,0.0,,,
+Ramsay,Zoe BETTISON,ALP,0.9964,1.0,54.7,59.29,64.06
+Ramsay,Ralph CHAMBERS,ON,0.0036,0.9998,35.95,40.71,45.3
+Ramsay,Luke SKINNER,GRN,0.0,0.0,,,
+Ramsay,Daryl McCANN,LP,0.0,0.0002,33.96,33.96,33.96
+Ramsay,Luz Mutya VELASQUEZ,FFP,0.0,0.0,,,
+Ramsay,Mark ECKERMANN,LCP,0.0,0.0,,,
+Ramsay,Nic OWEN,UVA,0.0,0.0,,,
+Ramsay,Leo DEMITRIOU,FGA,0.0,0.0,,,
+Ramsay,Ashley GAYLOR,AFP,0.0,0.0,,,
+Reynell,Katrine HILDYARD,ALP,1.0,1.0,59.96,64.59,69.26
+Reynell,Peter HEGGIE,ON,0.0,0.9996,30.75,35.41,40.04
+Reynell,Miya TAIT,GRN,0.0,0.0004,24.35,26.43,26.2
+Reynell,Haseen ZAMAN,LP,0.0,0.0,,,
+Reynell,Andy FARMER,FFP,0.0,0.0,,,
+Reynell,Adnan KRASNIQI,LCP,0.0,0.0,,,
+Reynell,Aaron O'ROURKE,AFP,0.0,0.0,,,
+Schubert,Bruce PREECE,ON,0.4098,0.746,45.34,50.56,55.98
+Schubert,James ROTHE,ALP,0.3094,0.9202,42.52,48.06,53.64
+Schubert,Ashton HURN,LP,0.2808,0.3334,48.99,54.0,58.67
+Schubert,Beverley MORRIS,GRN,0.0,0.0004,29.53,34.09,33.58
+Schubert,Alice SHORE,AJP,0.0,0.0,,,
+Schubert,Matt WILLIAMS,AFP,0.0,0.0,,,
+Schubert,David DUNCAN,FGA,0.0,0.0,,,
+Stuart,Geoff BROCK,IND*,0.9878,1.0,54.91,61.37,67.49
+Stuart,Brandon TURTON,ON,0.0122,0.965,32.58,38.75,45.16
+Stuart,Leon STEPHENS,LP,0.0,0.0328,30.89,35.77,41.91
+Stuart,David EWINGS,ALP,0.0,0.0022,32.47,37.77,43.25
+Stuart,Poppy PILMORE,GRN,0.0,0.0,,,
+Stuart,Robyn PARNELL,AJP,0.0,0.0,,,
+Stuart,Jessica McKINNON,LCP,0.0,0.0,,,
+Stuart,Stephen TONKIN,AFP,0.0,0.0,,,
+Taylor,Nick CHAMPION,ALP,0.9282,1.0,50.62,55.27,59.99
+Taylor,Peter RENTOULIS,ON,0.0718,1.0,40.01,44.73,49.38
+Taylor,Xander OSBORNE,GRN,0.0,0.0,,,
+Taylor,Ted BOUL HOSN,LP,0.0,0.0,,,
+Taylor,Kylie EVANS,FFP,0.0,0.0,,,
+Taylor,John ATTARD,AFP,0.0,0.0,,,
+Taylor,Brett STEPHENS,LCP,0.0,0.0,,,
+Torrens,Meagan SPENCER,ALP,1.0,1.0,59.95,65.27,70.21
+Torrens,David MEDLOCK,ON,0.0,0.6668,29.56,33.95,38.76
+Torrens,Stella SALVEMINI,GRN,0.0,0.0384,26.6,29.98,33.49
+Torrens,Haritha YARA,LP,0.0,0.2948,32.62,37.15,41.8
+Torrens,Mervin JOSHUA,FFP,0.0,0.0,,,
+Torrens,Bradley WARREN,UVA,0.0,0.0,,,
+Torrens,Malcolm REYNOLDS,AFP,0.0,0.0,,,
+Unley,Alice ROLLS,ALP,0.944,0.9998,51.27,56.63,62.08
+Unley,Rosalie ROTOLO,LP,0.056,0.992,38.08,43.41,48.75
+Unley,Dylan KIERNAN,GRN,0.0,0.0018,28.74,31.63,39.07
+Unley,Jason WILKINSON,ON,0.0,0.0064,30.29,34.92,39.8
+Unley,Ryan HARRISON,IND*,0.0,0.0,,,
+Unley,Peter ATTARD,AFP,0.0,0.0,,,
+Unley,Emma PATERSON,RCH,0.0,0.0,,,
+Unley,Josip IVKA,AJP,0.0,0.0,,,
+Waite,Catherine HUTCHESSON,ALP,0.9996,1.0,59.57,65.15,70.33
+Waite,Declan BRUMFIELD,GRN,0.0,0.1374,27.22,30.7,34.29
+Waite,Frank PANGALLO,LP,0.0004,0.6428,32.52,36.68,41.36
+Waite,Aaron VON FRATTNER,ON,0.0,0.2198,28.37,32.24,36.38
+Waite,Alec GARGETT,IND*,0.0,0.0,,,
+Waite,Ross PAWLEY,AFP,0.0,0.0,,,
+Waite,Mark RUTA,FGA,0.0,0.0,,,
+West Torrens,Tom KOUTSANTONIS,ALP,1.0,1.0,62.56,67.48,72.07
+West Torrens,Judith ALDRIDGE,ON,0.0,0.9346,28.01,32.53,37.43
+West Torrens,Sam BANNON,GRN,0.0,0.016,23.91,27.16,29.8
+West Torrens,Sarika SHARMA,LP,0.0,0.0494,29.09,33.73,38.33
+West Torrens,Mathew WILSON,AFP,0.0,0.0,,,
+West Torrens,Anna WAMAYI,FFP,0.0,0.0,,,
+Wright,Blair BOYER,ALP,0.9972,1.0,55.58,60.36,65.2
+Wright,Sean PORTER,ON,0.0028,0.9952,34.8,39.65,44.43
+Wright,Carston KEONG-WOODHOUSE,LP,0.0,0.0048,34.17,37.54,41.43
+Wright,Samantha SKINNER,GRN,0.0,0.0,,,
+Wright,Sue NANCARROW,FFP,0.0,0.0,,,
+Wright,Deb HORLEY,AJP,0.0,0.0,,,
+Wright,Robin HILL,AFP,0.0,0.0,,,
+Wright,Rosalind WILTON,UVA,0.0,0.0,,,

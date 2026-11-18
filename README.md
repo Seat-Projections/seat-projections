@@ -43,6 +43,8 @@ All commands run from the repository root with the `.venv` from the setup step.
 .venv/bin/python scripts/fetch_vic2026_candidates.py  # 2026 VEC candidate nominations
 .venv/bin/python scripts/build_district_flows.py      # booth-level preference flows per state district
 .venv/bin/python scripts/build_notional_2018.py       # notional 2018 results on 2022 boundaries
+.venv/bin/python scripts/build_notional_state.py      # NSW 2019->2023, WA 2021->2025, SA 2022->2026 notional results
+.venv/bin/python scripts/build_fed_primaries.py       # federal-baseline primaries for model2's (fed<year>) runs
 ```
 
 **2. Verify the count engine** (reproduces all 88 VEC 2022 distributions to the vote):
@@ -60,14 +62,19 @@ All commands run from the repository root with the `.venv` from the setup step.
 .venv/bin/python predictions/modelling/model1/run_model1.py --all               # every benchmark run
 .venv/bin/python predictions/modelling/model1/run_model1.py "VIC2022 (2022)"    # a single run
 .venv/bin/python predictions/modelling/model2/run_model2.py --all               # default 5000 sims, seed 1
+.venv/bin/python predictions/modelling/model2/run_model2.py "VIC2022 (F fed2022)"  # one federal-baseline backtest
+.venv/bin/python predictions/modelling/model3/run_model3.py --all               # research model (not on the site)
 ```
 
 Model 2's `"VIC2026 (2022)"` forecast requires model 1's `"VIC2026 (2025)"` output first (its One
 Nation pattern), plus `data/2026/candidates_vic2026.csv`, `independents_vic2026.csv` and
-`polls_vic2026.csv`. The forecast-history snapshots behind the site's date slider are
-`run_model2.py --snapshots` (every 14 days from 2026-09-01, skipping dates with no new polls) or
+`polls_vic2026.csv`. The federal-baseline runs (`"VIC2026 (fed2025)"` and
+`"<STATEyyyy> (F fed<year>)"`) require `predictions/modelling/model2/inputs/fed_primaries_*.csv`
+from step 1. The forecast-history snapshots behind the site's date slider are
+`run_model2.py --snapshots` (state baseline; `--snapshots-run "VIC2026 (fed2025)"` for the federal
+set — every 14 days from 2026-09-01, skipping dates with no new polls) or
 `--as-of YYYY-MM-DD` for a single date; outputs land in
-`predictions/modelling/model2/output/VIC2026 snapshots/<date>/`.
+`predictions/modelling/model2/output/VIC2026 snapshots/<date>/` (or `VIC2026 fed snapshots/`).
 
 **4. Score and archive:**
 

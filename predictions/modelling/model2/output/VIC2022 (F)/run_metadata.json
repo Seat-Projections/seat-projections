@@ -75,7 +75,7 @@
       "lonergan 2022-11-06"
     ],
     "polls_source": "data/benchmarks/polls/final_polls.csv",
-    "one_nation_pattern": "/Users/philip/Desktop/seat-projections/predictions/modelling/model1/output/VIC2022 (2022)/district_primaries.csv (federal booths, model1), elasticity 0.7",
+    "one_nation_pattern": "predictions/modelling/model1/output/VIC2022 (2022)/district_primaries.csv (federal booths, model1), elasticity 0.7",
     "independents": {
       "rule": "won the seat as an independent at the previous election, or >=10% primary there",
       "credible": [

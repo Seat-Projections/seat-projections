@@ -19,7 +19,7 @@ import dataclasses
 import csv
 import json
 import subprocess
-from collections import Counter
+from collections import Counter, defaultdict
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -31,6 +31,7 @@ from vic_election.benchmark import align_districts, bloc_seats, load_forecast, l
 import vic_election.polls as vic_polls
 from vic_election.config import DATA_DIR, WINNERS_DIR
 from vic_election.geo import districts_from_geojson
+from vic_election.state_dop import aec_division_dops
 
 ROOT = Path(__file__).resolve().parents[3]
 HERE = Path(__file__).resolve().parent
@@ -59,6 +60,12 @@ class Run:
     prev_tables_for_inds: Path | None = None  # previous-election tables for the independent-credibility rule
     on_pattern: Path | None = None  # model1 district_primaries.csv for One Nation's seat pattern
     poll_election: str | None = None  # key into data/benchmarks/polls/final_polls.csv
+    # federal baseline: same model, two inputs swapped for the preceding federal election
+    baseline: str = "state"  # "state" (default) or "federal"
+    fed_primaries: Path | None = None  # inputs/fed_primaries_*.csv: federal FPVs in state districts, declaration votes spread
+    ind_source: tuple[str, Path] | None = None  # ("notional"|"vec", path): seats the independent rules read (same as the state variant)
+    fed_dop: Path | None = None  # AEC HouseDopByDivisionDownload csv (round-by-round federal counts)
+    fed_state: str | None = None  # StateAb filter for the AEC file (defaults to state)
 
 
 def _state(run: str) -> Path:
@@ -94,6 +101,64 @@ RUNS = {
                       poll_election="SA2026",
                       on_pattern=MODEL1_OUTPUT / "SA2026 (2025)" / "district_primaries.csv"),
 }
+
+# Federal-baseline variants: identical model and noise, but baseline votes are the preceding federal
+# election's polling-place first preferences mapped into state districts (model1's assignment) and
+# flows are fitted on that federal election's AEC round-by-round distributions. NSW exhaustion rates
+# still come from the NSW state counts (federal voting is fully preferential).
+_FED = {2022: "HouseDopByDivisionDownload-27966.csv", 2025: "HouseDopByDivisionDownload-31496.csv"}
+
+
+def _fed(year: int) -> Path:
+    return DATA_DIR / "federal" / str(year) / "house" / _FED[year]
+
+
+def _m1(run_id: str) -> Path:
+    return MODEL1_OUTPUT / run_id / "district_primaries.csv"
+
+
+INPUTS = HERE / "inputs"
+
+
+def _fedp(state: str, fed_year: int) -> Path:
+    """inputs/fed_primaries_<state><year>.csv from scripts/build_fed_primaries.py: model1's
+    located booth primaries plus each division's declaration and unlocated votes raked to
+    each district part's own party mix."""
+    return INPUTS / f"fed_primaries_{state}{fed_year}.csv"
+
+
+RUNS.update({
+    "VIC2026 (fed2025)": Run("forecast", "VIC", "2026-11-28", VEC_2022 / "full_2cp_2022.json", None,
+                             baseline="federal", fed_primaries=_fedp("VIC", 2025), fed_dop=_fed(2025),
+                             ind_source=("vec", VEC_2022 / "full_2cp_2022.json")),
+    "VIC2022 (F fed2022)": Run("backtest", "VIC", "2022-11-26", VEC_2022 / "official_2022.json", "vec:2022",
+                               baseline="federal", fed_primaries=_fedp("VIC", 2022), fed_dop=_fed(2022),
+                               ind_source=("notional", NOTIONAL_2018),
+                               prev_tables_for_inds=OFFICIAL_2018, poll_election="VIC2022",
+                               on_pattern=_m1("VIC2022 (2022)")),
+    "NSW2023 (F fed2022)": Run("backtest", "NSW", "2023-03-25", _state("NSW2023"), "NSW2023",
+                               exhaust=True, baseline="federal",
+                               fed_primaries=_fedp("NSW", 2022), fed_dop=_fed(2022),
+                               ind_source=("notional", DATA_DIR / "NSW2019" / "notional_NSW2023_boundaries.json"),
+                               prev_distributions=_state("NSW2019"),  # exhaustion rates only
+                               prev_tables_for_inds=_state("NSW2019"), poll_election="NSW2023",
+                               on_pattern=_m1("NSW2023 (2022)")),
+    "QLD2024 (F fed2022)": Run("backtest", "QLD", "2024-10-26", _state("QLD2024"), "QLD2024",
+                               baseline="federal", fed_primaries=_fedp("QLD", 2022), fed_dop=_fed(2022),
+                               ind_source=("vec", _state("QLD2020")),
+                               prev_tables_for_inds=_state("QLD2020"), poll_election="QLD2024",
+                               on_pattern=_m1("QLD2024 (2022)")),
+    "WA2025 (F fed2022)": Run("backtest", "WA", "2025-03-08", _state("WA2025"), "WA2025",
+                              baseline="federal", fed_primaries=_fedp("WA", 2022), fed_dop=_fed(2022),
+                              ind_source=("notional", DATA_DIR / "WA2021" / "notional_WA2025_boundaries.json"),
+                              prev_tables_for_inds=_state("WA2021"), poll_election="WA2025",
+                              on_pattern=_m1("WA2025 (2022)")),
+    "SA2026 (F fed2025)": Run("backtest", "SA", "2026-03-21", _state("SA2026"), "SA2026",
+                              baseline="federal", fed_primaries=_fedp("SA", 2025), fed_dop=_fed(2025),
+                              ind_source=("notional", DATA_DIR / "SA2022" / "notional_SA2026_boundaries.json"),
+                              prev_tables_for_inds=_state("SA2022"), poll_election="SA2026",
+                              on_pattern=_m1("SA2026 (2025)")),
+})
 
 
 def regions() -> dict[str, str]:
@@ -149,6 +214,37 @@ def seats_from_notional(path: Path, regions_map: dict[str, str]) -> dict[str, mo
             for d, parties in data.items()}
 
 
+def seats_from_district_primaries(path: Path, regions_map: dict[str, str]) -> dict[str, model2.Seat]:
+    """Baseline seats from model1's district_primaries.csv (federal booth first preferences mapped
+    into state districts): one pseudo-candidate per party group, same as seats_from_notional."""
+    votes: dict[str, Counter] = defaultdict(Counter)
+    for row in read_csv(path):
+        votes[row["district"]][row["party"]] += float(row["votes"])
+    return {d: model2.Seat(d, regions_map.get(norm_district(d), ""), [model2.Cand(p, p, float(v)) for p, v in parties.items()])
+            for d, parties in votes.items()}
+
+
+def merge_state_exhaustion(fit: dict, state_tables: dict) -> dict:
+    """
+    NSW exception: federal counts are fully preferential, so party-to-party strengths come from the
+    federal counts while each source party's EXH strength is imported from the state counts
+    (optional preferential there). The imported strength is scaled to the federal fit: each source's
+    state EXH strength relative to its own ALP strength (the best-observed recipient; LP, then the
+    strongest recipient, as fallbacks) is applied to the federal ALP strength. The pooled fit is the
+    fallback for source parties the state election did not observe.
+    """
+    state_fit = model2.fit_flows(model2.flow_observations(state_tables, exhaust=True))
+    for src in fit:
+        s = state_fit.get(src, state_fit[model2.POOLED])
+        if "EXH" not in s:
+            continue
+        ref_s = s.get("ALP") or s.get("LP") or max(s.values())
+        f = fit[src]
+        ref_f = f.get("ALP") or f.get("LP") or max(f.values())
+        f["EXH"] = ref_f * s["EXH"] / ref_s
+    return fit
+
+
 def credible_independents(prev_tables: dict, candidates: list[dict], min_share: float = 10.0) -> list[dict]:
     """
     Mechanical independents list for backtests: an IND* candidate is credible if the same person won the
@@ -201,17 +297,32 @@ def setup(r: Run, as_of=None):
         # leakage guard: every model input must predate the scored election. The scored file supplies
         # only the candidate field (nominations were public) and, after simulation, the actual results.
         input_paths = [p for p in (r.prev_distributions, r.notional, r.prev_tables_for_inds,
-                                   r.on_pattern, FINAL_POLLS) if p is not None]
+                                   r.on_pattern, r.fed_primaries, r.fed_dop, FINAL_POLLS,
+                                   r.ind_source and r.ind_source[1]) if p is not None]
         assert r.distributions not in input_paths, f"{r.election}: scored distributions would leak into the forecast"
         tables = json.loads(r.distributions.read_text())  # candidate field only
-        prev_tables = json.loads(r.prev_distributions.read_text())
-        assert prev_tables is not tables
-        fit = model2.fit_flows(model2.flow_observations(prev_tables, exhaust=r.exhaust))
         seat_regions = state_regions(r.state)
-        if r.notional:
-            seats_prev = seats_from_notional(r.notional, seat_regions)
+        if r.baseline == "federal":
+            fed_tables = aec_division_dops(r.fed_dop, r.fed_state or r.state)
+            fit = model2.fit_flows(model2.flow_observations(fed_tables))
+            if r.exhaust:  # NSW: import state-count exhaustion rates (federal voting is full preferential)
+                fit = merge_state_exhaustion(fit, json.loads(r.prev_distributions.read_text()))
+            ind_tables = json.loads(r.prev_tables_for_inds.read_text())
+            seats_prev = seats_from_district_primaries(r.fed_primaries, seat_regions)
+            ind_seats = None
+            if r.ind_source:
+                ind_kind, ind_path = r.ind_source
+                ind_seats = (seats_from_notional(ind_path, seat_regions) if ind_kind == "notional"
+                             else model2.seats_from_vec(json.loads(ind_path.read_text()), seat_regions))
         else:
-            seats_prev = model2.seats_from_vec(prev_tables, seat_regions)
+            prev_tables = json.loads(r.prev_distributions.read_text())
+            assert prev_tables is not tables
+            fit = model2.fit_flows(model2.flow_observations(prev_tables, exhaust=r.exhaust))
+            ind_tables = json.loads((r.prev_tables_for_inds or r.prev_distributions).read_text())
+            if r.notional:
+                seats_prev = seats_from_notional(r.notional, seat_regions)
+            else:
+                seats_prev = model2.seats_from_vec(prev_tables, seat_regions)
         candidates = candidates_from_distributions(tables)
         canon = {norm_district(x["district"]): x["district"] for x in candidates}  # notional 'Mackillop'/'Collie-Preston' -> scored-election spelling
         seats_prev = {canon.get(norm_district(d), d): dataclasses.replace(s, district=canon.get(norm_district(d), d)) for d, s in seats_prev.items()}
@@ -221,31 +332,58 @@ def setup(r: Run, as_of=None):
         if not r.on_pattern.exists():
             raise SystemExit(f"Needs {r.on_pattern.relative_to(ROOT)}: run model1 first")
         on = {row["district"]: float(row["share"]) for row in read_csv(r.on_pattern) if row["party"] == "ON"}
-        ind_rows = credible_independents(json.loads((r.prev_tables_for_inds or r.prev_distributions).read_text()), candidates)
-        base = model2.baseline_2026(seats_prev, candidates, on, ind_rows)
+        ind_rows = credible_independents(ind_tables, candidates)
+        if r.baseline == "federal" and ind_seats is not None:
+            ind_seats = {canon.get(norm_district(d), d): dataclasses.replace(s, district=canon.get(norm_district(d), d))
+                         for d, s in ind_seats.items()}
+        base = model2.baseline_2026(seats_prev, candidates, on, ind_rows,
+                                    ind_source=ind_seats if r.baseline == "federal" else None)
         poll_rows = vic_polls.load_final_polls(r.poll_election)
         polls = backtest_polls(poll_rows, base)
         on_reported = any(x.get("onp") not in (None, "") for x in poll_rows)
-        meta = {"primaries": (f"notional 2018 primaries on 2022 boundaries ({r.notional.relative_to(ROOT)})"
-                              if r.notional else f"{r.prev_distributions.stem.removeprefix('dop_')} actual primaries"),
-                "flows": f"previous election's distributions only ({r.prev_distributions.relative_to(ROOT)})",
+        if r.baseline == "federal":
+            prim_desc = (f"federal first preferences in state districts: located booth votes plus declaration "
+                         f"and unlocated votes raked within each division ({r.fed_primaries.relative_to(ROOT)})")
+            flow_desc = (f"AEC federal distributions ({r.fed_dop.relative_to(ROOT)})"
+                         + (f"; exhaustion rates from {r.prev_distributions.relative_to(ROOT)}" if r.exhaust else ""))
+        else:
+            prim_desc = (f"notional 2018 primaries on 2022 boundaries ({r.notional.relative_to(ROOT)})"
+                         if r.notional else f"{r.prev_distributions.stem.removeprefix('dop_')} actual primaries")
+            flow_desc = f"previous election's distributions only ({r.prev_distributions.relative_to(ROOT)})"
+        meta = {"primaries": prim_desc,
+                "flows": flow_desc,
                 "polls": {k: round(v, 2) for k, v in polls.items()}, "poll_on_reported": on_reported,
                 "poll_rows": [f"{x['pollster']} {x['fieldwork_end']}" for x in poll_rows],
                 "polls_source": str(FINAL_POLLS.relative_to(ROOT)),
-                "one_nation_pattern": f"{r.on_pattern} (federal booths, model1), elasticity {model2.ON_ELASTICITY}",
+                "one_nation_pattern": f"{r.on_pattern.relative_to(ROOT)} (federal booths, model1), elasticity {model2.ON_ELASTICITY}",
                 "independents": {"rule": "won the seat as an independent at the previous election, or >=10% primary there",
                                  "credible": [f"{x['candidate']} ({x['district']}, {x['prior_mean']}%)" for x in ind_rows]},
                 "candidates": f"candidate field of the scored election ({r.distributions.relative_to(ROOT)}), nominations public before polling day",
                 "leakage_guard": "baseline, flows and poll target all predate the scored election; its distributions were read only for the candidate list and the final score"}
         return base.seats, lambda d: fit, lambda rng: model2.draw_primaries(base, polls, rng), meta
     tables = json.loads(r.distributions.read_text())
-    seats = model2.seats_from_vec(tables, regions() if r.state == "VIC" else {})
-    obs = model2.flow_observations(tables, exhaust=r.exhaust)
     if not ON_PATTERN.exists():
         raise SystemExit(f"Needs {ON_PATTERN.relative_to(ROOT)}: run model1 'VIC2026 (2025)' first")
     on = {row["district"]: float(row["share"]) for row in read_csv(ON_PATTERN) if row["party"] == "ON"}
     if not CANDIDATES.exists():
         raise SystemExit(f"Needs {CANDIDATES.relative_to(ROOT)}: run scripts/fetch_vic2026_candidates.py")
+    if r.baseline == "federal":
+        # federal baseline: 2025 federal booth primaries in state districts, AEC federal flows
+        fed_tables = aec_division_dops(r.fed_dop, r.fed_state or r.state)
+        fit = model2.fit_flows(model2.flow_observations(fed_tables))
+        seats = seats_from_district_primaries(r.fed_primaries, regions())
+        ind_seats = model2.seats_from_vec(tables, regions())  # same independent information as the state variant
+        base = model2.baseline_2026(seats, read_csv(CANDIDATES), on, read_csv(INDEPENDENTS), ind_source=ind_seats)
+        polls = model2.poll_average(read_csv(POLLS), as_of=as_of)
+        meta = {"primaries": f"federal 2025 booth first preferences in state districts ({r.fed_primaries.relative_to(ROOT)})",
+                "flows": f"2025 AEC federal distributions ({r.fed_dop.relative_to(ROOT)})",
+                "polls": {k: round(v, 2) for k, v in polls.items() if k != "_polls"}, "polls_used": polls["_polls"], "polls_source": "electiontracker.au/data/vic2026/polls.csv",
+                "one_nation_pattern": "federal 2025 booth share per district (model1 'VIC2026 (2025)'), elasticity " + str(model2.ON_ELASTICITY),
+                "independents": str(INDEPENDENTS.relative_to(ROOT)),
+                "candidates": f"{CANDIDATES.relative_to(ROOT)} (VEC nominations, closed 9 Nov 2026)"}
+        return base.seats, lambda d: fit, lambda rng: model2.draw_primaries(base, polls, rng), meta
+    seats = model2.seats_from_vec(tables, regions() if r.state == "VIC" else {})
+    obs = model2.flow_observations(tables, exhaust=r.exhaust)
     base = model2.baseline_2026(seats, read_csv(CANDIDATES), on, read_csv(INDEPENDENTS))
     polls = model2.poll_average(read_csv(POLLS), as_of=as_of)
     fit = model2.fit_flows(obs)
@@ -431,6 +569,8 @@ def snapshot_schedule(poll_rows, start: str = "2026-09-01", step_days: int = 14,
 
 
 SNAPSHOT_ROOT = HERE / "output" / "VIC2026 snapshots"
+SNAPSHOT_ROOTS = {"VIC2026 (2022)": SNAPSHOT_ROOT,
+                  "VIC2026 (fed2025)": HERE / "output" / "VIC2026 fed snapshots"}
 
 
 def main() -> None:
@@ -441,6 +581,8 @@ def main() -> None:
     parser.add_argument("--seed", type=int, default=1)
     parser.add_argument("--as-of", metavar="YYYY-MM-DD", help="forecast with polls as of this date (VIC2026 only)")
     parser.add_argument("--snapshots", action="store_true", help="run the VIC2026 forecast-history snapshot schedule")
+    parser.add_argument("--snapshots-run", choices=list(SNAPSHOT_ROOTS), default="VIC2026 (2022)",
+                        help="which VIC2026 run the snapshot schedule executes")
     parser.add_argument("--force", action="store_true", help="overwrite existing snapshot dirs")
     args = parser.parse_args()
     if args.as_of or args.snapshots:
@@ -448,11 +590,11 @@ def main() -> None:
         poll_rows = read_csv(POLLS)
         dates = snapshot_schedule(poll_rows) if args.snapshots else [date.fromisoformat(args.as_of)]
         for d in dates:
-            out_dir = SNAPSHOT_ROOT / d.isoformat()
+            out_dir = SNAPSHOT_ROOTS[args.snapshots_run] / d.isoformat()
             if out_dir.exists() and not args.force:
                 print(f"{d}: snapshot exists, skipping (use --force)", flush=True)
                 continue
-            meta = run("VIC2026 (2022)", args.runs, args.seed, as_of=d, out_dir=out_dir)
+            meta = run(args.snapshots_run, args.runs, args.seed, as_of=d, out_dir=out_dir)
             seats = ", ".join(f"{p} {v:.1f}" for p, v in sorted(meta["predicted_seats_mean"].items(), key=lambda kv: -kv[1]) if v >= 0.05)
             print(f"{d}: {seats}", flush=True)
         return

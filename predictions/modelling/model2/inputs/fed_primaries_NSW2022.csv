@@ -1,0 +1,787 @@
+district,party,votes,share
+Albury,LP,24745,47.16
+Albury,ALP,11105,21.16
+Albury,GRN,6828,13.01
+Albury,ON,3254,6.2
+Albury,ASP,2242,4.27
+Albury,UAPP,1694,3.23
+Albury,IND*,1687,3.21
+Albury,LDP,849,1.62
+Albury,SPP,34,0.06
+Albury,IMO,25,0.05
+Albury,AUD,14,0.03
+Auburn,ALP,23344,56.41
+Auburn,LP,10794,26.08
+Auburn,GRN,2987,7.22
+Auburn,UAPP,2286,5.52
+Auburn,ON,1756,4.24
+Auburn,LDP,85,0.21
+Auburn,SOPA,67,0.16
+Auburn,IND*,61,0.15
+Badgerys Creek,LP,20491,41.62
+Badgerys Creek,ALP,16876,34.28
+Badgerys Creek,ON,3567,7.25
+Badgerys Creek,GRN,3294,6.69
+Badgerys Creek,UAPP,2895,5.88
+Badgerys Creek,LDP,1514,3.08
+Badgerys Creek,IMO,340,0.69
+Badgerys Creek,IND*,178,0.36
+Badgerys Creek,ASP,74,0.15
+Ballina,GRN,15265,32.8
+Ballina,ALP,11528,24.77
+Ballina,NP,10360,22.26
+Ballina,IND*,3265,7.02
+Ballina,LDP,2404,5.16
+Ballina,ON,1534,3.29
+Ballina,IMO,1071,2.3
+Ballina,UAPP,1007,2.16
+Ballina,IAP,58,0.12
+Ballina,CYA,34,0.07
+Ballina,TNL,17,0.04
+Balmain,ALP,32115,52.81
+Balmain,GRN,13241,21.77
+Balmain,LP,10944,18.0
+Balmain,UAPP,1255,2.06
+Balmain,ON,926,1.52
+Balmain,IND*,819,1.35
+Balmain,AJP,492,0.81
+Balmain,SOPA,441,0.73
+Balmain,SAL,348,0.57
+Balmain,CEC,230,0.38
+Bankstown,ALP,28495,56.02
+Bankstown,LP,13373,26.29
+Bankstown,UAPP,3467,6.82
+Bankstown,GRN,2881,5.66
+Bankstown,ON,2634,5.18
+Bankstown,LDP,14,0.03
+Bankstown,IND*,2,0.0
+Barwon,NP,17777,43.95
+Barwon,ALP,9556,23.63
+Barwon,ON,3453,8.54
+Barwon,LDP,2657,6.57
+Barwon,IAP,2290,5.66
+Barwon,GRN,1909,4.72
+Barwon,UAPP,1157,2.86
+Barwon,IND*,1080,2.67
+Barwon,IMO,568,1.4
+Bathurst,NP,23983,46.34
+Bathurst,IND*,9898,19.12
+Bathurst,ALP,8902,17.2
+Bathurst,ON,4579,8.85
+Bathurst,GRN,2578,4.98
+Bathurst,UAPP,1815,3.51
+Bega,ALP,21096,40.29
+Bega,LP,19764,37.75
+Bega,GRN,5045,9.64
+Bega,ON,1961,3.74
+Bega,UAPP,1428,2.73
+Bega,IND*,1237,2.36
+Bega,LDP,807,1.54
+Bega,SPP,553,1.06
+Bega,IMO,345,0.66
+Bega,AUD,120,0.23
+Blacktown,ALP,21959,50.3
+Blacktown,LP,11517,26.38
+Blacktown,GRN,3073,7.04
+Blacktown,UAPP,2287,5.24
+Blacktown,ON,1994,4.57
+Blacktown,LDP,1505,3.45
+Blacktown,IND*,1325,3.03
+Blue Mountains,ALP,25385,49.53
+Blue Mountains,LP,12914,25.2
+Blue Mountains,GRN,7079,13.81
+Blue Mountains,ON,1944,3.79
+Blue Mountains,AJP,1272,2.48
+Blue Mountains,UAPP,1176,2.29
+Blue Mountains,IMO,877,1.71
+Blue Mountains,LDP,607,1.18
+Cabramatta,ALP,13711,34.64
+Cabramatta,IND*,13356,33.74
+Cabramatta,LP,6208,15.68
+Cabramatta,UAPP,2091,5.28
+Cabramatta,GRN,1790,4.52
+Cabramatta,ON,1415,3.58
+Cabramatta,LDP,1014,2.56
+Camden,LP,23787,43.4
+Camden,ALP,13270,24.21
+Camden,IND*,6068,11.07
+Camden,ON,4013,7.32
+Camden,GRN,3295,6.01
+Camden,UAPP,2964,5.41
+Camden,ASP,845,1.54
+Camden,LDP,569,1.04
+Campbelltown,ALP,24805,47.63
+Campbelltown,LP,14689,28.21
+Campbelltown,GRN,4318,8.29
+Campbelltown,ON,4265,8.19
+Campbelltown,UAPP,2863,5.5
+Campbelltown,LDP,928,1.78
+Campbelltown,IND*,173,0.33
+Campbelltown,ASP,37,0.07
+Canterbury,ALP,25476,52.15
+Canterbury,LP,12613,25.82
+Canterbury,GRN,4591,9.4
+Canterbury,UAPP,3679,7.53
+Canterbury,ON,2470,5.06
+Canterbury,IND*,8,0.02
+Canterbury,SOPA,8,0.02
+Canterbury,AJP,4,0.01
+Castle Hill,LP,21688,52.09
+Castle Hill,ALP,10065,24.18
+Castle Hill,GRN,5113,12.28
+Castle Hill,ON,1450,3.48
+Castle Hill,UAPP,1424,3.42
+Castle Hill,LDP,1394,3.35
+Castle Hill,IND*,275,0.66
+Castle Hill,SOPA,161,0.39
+Castle Hill,CYA,60,0.14
+Cessnock,ALP,23581,44.92
+Cessnock,NP,9012,17.17
+Cessnock,ON,5064,9.65
+Cessnock,GRN,4366,8.32
+Cessnock,LP,3530,6.73
+Cessnock,IND*,2623,5.0
+Cessnock,UAPP,2299,4.38
+Cessnock,AJP,1061,2.02
+Cessnock,IMO,690,1.31
+Cessnock,LDP,269,0.51
+Charlestown,ALP,22628,41.6
+Charlestown,LP,15879,29.2
+Charlestown,GRN,7416,13.63
+Charlestown,ON,2815,5.18
+Charlestown,AJP,1560,2.87
+Charlestown,UAPP,1349,2.48
+Charlestown,LDP,1270,2.33
+Charlestown,IND*,1239,2.28
+Charlestown,IMO,121,0.22
+Charlestown,CYA,112,0.21
+Clarence,NP,27593,50.27
+Clarence,ALP,9473,17.26
+Clarence,IND*,6841,12.46
+Clarence,ON,3279,5.97
+Clarence,GRN,2627,4.79
+Clarence,LDP,2169,3.95
+Clarence,UAPP,1549,2.82
+Clarence,IAP,869,1.58
+Clarence,CYA,384,0.7
+Clarence,TNL,107,0.2
+Coffs Harbour,NP,17231,36.65
+Coffs Harbour,IND*,12744,27.1
+Coffs Harbour,ALP,7529,16.01
+Coffs Harbour,ON,3074,6.54
+Coffs Harbour,GRN,2907,6.18
+Coffs Harbour,LDP,2085,4.43
+Coffs Harbour,UAPP,1144,2.43
+Coffs Harbour,IAP,189,0.4
+Coffs Harbour,CYA,91,0.19
+Coffs Harbour,TNL,25,0.05
+Coogee,LP,21499,33.84
+Coogee,ALP,16454,25.9
+Coogee,IND*,12719,20.02
+Coogee,GRN,9695,15.26
+Coogee,UAPP,1505,2.37
+Coogee,ON,1074,1.69
+Coogee,LDP,578,0.91
+Cootamundra,NP,20300,44.18
+Cootamundra,ALP,9114,19.83
+Cootamundra,ON,4076,8.87
+Cootamundra,LDP,2854,6.21
+Cootamundra,LP,2683,5.84
+Cootamundra,ASP,2540,5.53
+Cootamundra,GRN,2060,4.48
+Cootamundra,IND*,1177,2.56
+Cootamundra,UAPP,1145,2.49
+Cronulla,LP,26158,56.04
+Cronulla,ALP,10900,23.35
+Cronulla,GRN,5219,11.18
+Cronulla,ON,1948,4.17
+Cronulla,UAPP,1903,4.08
+Cronulla,IND*,546,1.17
+Davidson,LP,27926,46.69
+Davidson,IND*,16228,27.13
+Davidson,ALP,8389,14.02
+Davidson,GRN,4696,7.85
+Davidson,UAPP,1560,2.61
+Davidson,ON,928,1.55
+Davidson,TNL,70,0.12
+Davidson,AJP,20,0.03
+Drummoyne,LP,17544,41.95
+Drummoyne,ALP,15617,37.34
+Drummoyne,GRN,3974,9.5
+Drummoyne,IND*,1226,2.93
+Drummoyne,UAPP,1126,2.69
+Drummoyne,ON,908,2.17
+Drummoyne,LDP,794,1.9
+Drummoyne,SOPA,635,1.52
+Dubbo,NP,25791,50.48
+Dubbo,ALP,9252,18.11
+Dubbo,ON,3788,7.42
+Dubbo,IND*,3659,7.16
+Dubbo,GRN,2461,4.82
+Dubbo,LDP,2238,4.38
+Dubbo,UAPP,1731,3.39
+Dubbo,IAP,1447,2.83
+Dubbo,IMO,720,1.41
+East Hills,LP,20209,44.68
+East Hills,ALP,15933,35.22
+East Hills,GRN,3529,7.8
+East Hills,UAPP,2905,6.42
+East Hills,ON,1807,4.0
+East Hills,LDP,467,1.03
+East Hills,IND*,384,0.85
+Epping,LP,20446,42.13
+Epping,ALP,17362,35.78
+Epping,GRN,5853,12.06
+Epping,UAPP,1351,2.78
+Epping,LDP,811,1.67
+Epping,ON,805,1.66
+Epping,SOPA,588,1.21
+Epping,IND*,540,1.11
+Epping,AJP,398,0.82
+Epping,DPDA,344,0.71
+Epping,CYA,31,0.06
+Fairfield,ALP,25677,49.98
+Fairfield,LP,10058,19.58
+Fairfield,IND*,6758,13.16
+Fairfield,UAPP,3461,6.74
+Fairfield,GRN,2649,5.16
+Fairfield,ON,1880,3.66
+Fairfield,LDP,886,1.72
+Gosford,ALP,21585,40.2
+Gosford,LP,20108,37.44
+Gosford,GRN,5080,9.46
+Gosford,ON,2149,4.0
+Gosford,UAPP,1649,3.07
+Gosford,AJP,1138,2.12
+Gosford,IAP,725,1.35
+Gosford,IMO,581,1.08
+Gosford,LDP,387,0.72
+Gosford,CEC,164,0.31
+Gosford,CYA,126,0.23
+Gosford,SOPA,8,0.01
+Goulburn,LP,17927,39.0
+Goulburn,ALP,11932,25.96
+Goulburn,IND*,7032,15.3
+Goulburn,GRN,2906,6.32
+Goulburn,ON,2399,5.22
+Goulburn,UAPP,1391,3.03
+Goulburn,ASP,1206,2.62
+Goulburn,LDP,752,1.64
+Goulburn,SPP,247,0.54
+Goulburn,AUD,91,0.2
+Goulburn,IMO,82,0.18
+Granville,ALP,15634,46.13
+Granville,LP,9579,28.27
+Granville,UAPP,2912,8.59
+Granville,GRN,2372,7.0
+Granville,ON,1399,4.13
+Granville,IND*,734,2.16
+Granville,LDP,706,2.08
+Granville,AJP,552,1.63
+Hawkesbury,LP,21917,46.27
+Hawkesbury,ALP,16216,34.24
+Hawkesbury,ON,3206,6.77
+Hawkesbury,GRN,2294,4.84
+Hawkesbury,UAPP,1746,3.69
+Hawkesbury,LDP,760,1.61
+Hawkesbury,AJP,741,1.56
+Hawkesbury,IMO,441,0.93
+Hawkesbury,IND*,33,0.07
+Hawkesbury,SOPA,9,0.02
+Hawkesbury,CYA,1,0.0
+Heathcote,LP,19693,37.65
+Heathcote,ALP,13476,25.76
+Heathcote,IND*,8050,15.39
+Heathcote,GRN,6371,12.18
+Heathcote,UAPP,2771,5.3
+Heathcote,ON,1632,3.12
+Heathcote,LDP,216,0.41
+Heathcote,CEC,103,0.2
+Heffron,ALP,20129,49.75
+Heffron,LP,9846,24.34
+Heffron,GRN,7392,18.27
+Heffron,UAPP,1346,3.33
+Heffron,ON,1122,2.77
+Heffron,SAL,230,0.57
+Heffron,IND*,170,0.42
+Heffron,CEC,165,0.41
+Heffron,SOPA,34,0.08
+Heffron,AJP,23,0.06
+Holsworthy,LP,17354,40.85
+Holsworthy,ALP,12063,28.39
+Holsworthy,IND*,4172,9.82
+Holsworthy,UAPP,4102,9.66
+Holsworthy,GRN,2525,5.94
+Holsworthy,ON,1624,3.82
+Holsworthy,LDP,645,1.52
+Hornsby,LP,31062,47.17
+Hornsby,ALP,14678,22.29
+Hornsby,GRN,10131,15.38
+Hornsby,IND*,3812,5.79
+Hornsby,ON,1978,3.0
+Hornsby,UAPP,1714,2.6
+Hornsby,LDP,1302,1.98
+Hornsby,SOPA,846,1.28
+Hornsby,CYA,335,0.51
+Keira,ALP,20890,41.35
+Keira,LP,12910,25.55
+Keira,GRN,9925,19.64
+Keira,ON,2699,5.34
+Keira,UAPP,2378,4.71
+Keira,LDP,1214,2.4
+Keira,CEC,507,1.0
+Kellyville,LP,36447,55.35
+Kellyville,ALP,15963,24.24
+Kellyville,GRN,7082,10.76
+Kellyville,UAPP,2322,3.53
+Kellyville,LDP,2148,3.26
+Kellyville,ON,1884,2.86
+Kiama,ALP,16947,39.08
+Kiama,LP,15270,35.21
+Kiama,GRN,5356,12.35
+Kiama,ON,2367,5.46
+Kiama,UAPP,1586,3.66
+Kiama,IND*,1062,2.45
+Kiama,LDP,779,1.8
+Kogarah,ALP,25339,44.89
+Kogarah,LP,20359,36.07
+Kogarah,GRN,4870,8.63
+Kogarah,UAPP,3180,5.63
+Kogarah,ON,2277,4.03
+Kogarah,LDP,235,0.42
+Kogarah,IND*,189,0.34
+Lake Macquarie,ALP,16085,36.72
+Lake Macquarie,NP,12072,27.56
+Lake Macquarie,GRN,4622,10.55
+Lake Macquarie,ON,3535,8.07
+Lake Macquarie,IND*,2744,6.26
+Lake Macquarie,UAPP,1744,3.98
+Lake Macquarie,LP,1271,2.9
+Lake Macquarie,AJP,957,2.18
+Lake Macquarie,IMO,695,1.59
+Lake Macquarie,LDP,84,0.19
+Lane Cove,LP,16103,42.66
+Lane Cove,ALP,9745,25.82
+Lane Cove,IND*,5257,13.93
+Lane Cove,GRN,3695,9.79
+Lane Cove,UAPP,917,2.43
+Lane Cove,LDP,563,1.49
+Lane Cove,ON,539,1.43
+Lane Cove,SOPA,294,0.78
+Lane Cove,SPP,219,0.58
+Lane Cove,TNL,168,0.45
+Lane Cove,DPDA,151,0.4
+Lane Cove,IMO,95,0.25
+Leppington,ALP,18347,36.18
+Leppington,LP,16571,32.68
+Leppington,UAPP,4950,9.76
+Leppington,LDP,4657,9.18
+Leppington,GRN,3345,6.6
+Leppington,ON,2835,5.59
+Lismore,NP,18904,37.4
+Lismore,ALP,11312,22.38
+Lismore,GRN,8160,16.14
+Lismore,IND*,5578,11.04
+Lismore,ON,2282,4.51
+Lismore,LDP,1744,3.45
+Lismore,UAPP,1125,2.23
+Lismore,IAP,618,1.22
+Lismore,IMO,422,0.83
+Lismore,CYA,307,0.61
+Lismore,TNL,93,0.18
+Liverpool,ALP,16634,40.61
+Liverpool,LP,10905,26.63
+Liverpool,UAPP,4219,10.3
+Liverpool,GRN,2589,6.32
+Liverpool,LDP,2405,5.87
+Liverpool,IND*,2243,5.48
+Liverpool,ON,1963,4.79
+Londonderry,LP,16953,42.73
+Londonderry,ALP,14270,35.97
+Londonderry,ON,2568,6.47
+Londonderry,GRN,2532,6.38
+Londonderry,UAPP,1860,4.69
+Londonderry,LDP,809,2.04
+Londonderry,IMO,544,1.37
+Londonderry,IND*,134,0.34
+Macquarie Fields,ALP,23642,48.01
+Macquarie Fields,LP,13913,28.25
+Macquarie Fields,GRN,3657,7.43
+Macquarie Fields,ON,2933,5.96
+Macquarie Fields,UAPP,2681,5.44
+Macquarie Fields,LDP,2419,4.91
+Maitland,ALP,22375,42.21
+Maitland,LP,18159,34.26
+Maitland,GRN,4462,8.42
+Maitland,ON,4212,7.95
+Maitland,UAPP,2164,4.08
+Maitland,IMO,900,1.7
+Maitland,LDP,736,1.39
+Manly,IND*,26892,45.3
+Manly,LP,18583,31.3
+Manly,ALP,5085,8.56
+Manly,GRN,4889,8.24
+Manly,UAPP,1500,2.53
+Manly,ON,1415,2.38
+Manly,AJP,976,1.64
+Manly,TNL,28,0.05
+Maroubra,ALP,25025,49.52
+Maroubra,LP,14966,29.62
+Maroubra,GRN,6875,13.6
+Maroubra,UAPP,1940,3.84
+Maroubra,ON,1727,3.42
+Miranda,LP,30799,51.5
+Miranda,ALP,13846,23.15
+Miranda,IND*,4982,8.33
+Miranda,GRN,4670,7.81
+Miranda,UAPP,3120,5.22
+Miranda,ON,2391,4.0
+Monaro,ALP,21620,42.65
+Monaro,LP,16466,32.49
+Monaro,GRN,4917,9.7
+Monaro,ON,2048,4.04
+Monaro,LDP,1290,2.55
+Monaro,SPP,1231,2.43
+Monaro,IND*,1184,2.34
+Monaro,UAPP,1181,2.33
+Monaro,IMO,376,0.74
+Monaro,AUD,374,0.74
+Mount Druitt,ALP,36050,54.94
+Mount Druitt,LP,14724,22.44
+Mount Druitt,ON,4264,6.5
+Mount Druitt,UAPP,3699,5.64
+Mount Druitt,GRN,3515,5.36
+Mount Druitt,LDP,2134,3.25
+Mount Druitt,IND*,1235,1.88
+Murray,LP,26428,57.45
+Murray,ALP,7683,16.7
+Murray,ON,3040,6.61
+Murray,ASP,2879,6.26
+Murray,GRN,2218,4.82
+Murray,UAPP,1509,3.28
+Murray,IND*,1451,3.15
+Murray,LDP,794,1.73
+Myall Lakes,NP,24510,42.29
+Myall Lakes,ALP,11984,20.68
+Myall Lakes,IND*,6492,11.2
+Myall Lakes,ON,4571,7.89
+Myall Lakes,GRN,4309,7.44
+Myall Lakes,LDP,3273,5.65
+Myall Lakes,UAPP,2813,4.85
+Newcastle,ALP,23347,41.2
+Newcastle,LP,14284,25.21
+Newcastle,GRN,13453,23.74
+Newcastle,ON,1981,3.5
+Newcastle,UAPP,1226,2.16
+Newcastle,AJP,1198,2.11
+Newcastle,IMO,635,1.12
+Newcastle,CYA,496,0.88
+Newcastle,LDP,49,0.09
+Newtown,ALP,19867,52.66
+Newtown,GRN,11360,30.11
+Newtown,LP,3963,10.5
+Newtown,UAPP,677,1.79
+Newtown,ON,565,1.5
+Newtown,SAL,456,1.21
+Newtown,IND*,307,0.81
+Newtown,SOPA,256,0.68
+Newtown,AJP,185,0.49
+Newtown,CEC,95,0.25
+North Shore,LP,20484,36.36
+North Shore,IND*,19591,34.77
+North Shore,ALP,8762,15.55
+North Shore,GRN,4390,7.79
+North Shore,UAPP,948,1.68
+North Shore,ON,731,1.3
+North Shore,SPP,352,0.63
+North Shore,TNL,329,0.58
+North Shore,LDP,320,0.57
+North Shore,AJP,297,0.53
+North Shore,IMO,140,0.25
+Northern Tablelands,NP,26540,53.96
+Northern Tablelands,ALP,8490,17.26
+Northern Tablelands,GRN,4666,9.49
+Northern Tablelands,IND*,3625,7.37
+Northern Tablelands,ON,2402,4.88
+Northern Tablelands,LDP,1740,3.54
+Northern Tablelands,UAPP,1209,2.46
+Northern Tablelands,IAP,411,0.84
+Northern Tablelands,IMO,105,0.21
+Oatley,LP,16882,44.93
+Oatley,ALP,12838,34.17
+Oatley,GRN,3623,9.64
+Oatley,UAPP,2128,5.66
+Oatley,ON,1171,3.12
+Oatley,LDP,547,1.46
+Oatley,IND*,385,1.02
+Orange,NP,24903,48.09
+Orange,IND*,9294,17.95
+Orange,ALP,6582,12.71
+Orange,ON,4016,7.75
+Orange,GRN,2315,4.47
+Orange,ASP,2223,4.29
+Orange,UAPP,1570,3.03
+Orange,LDP,886,1.71
+Oxley,NP,21130,41.79
+Oxley,IND*,9604,18.99
+Oxley,ALP,7198,14.24
+Oxley,ON,5744,11.36
+Oxley,GRN,3424,6.77
+Oxley,LDP,1962,3.88
+Oxley,UAPP,1501,2.97
+Parramatta,ALP,21795,41.89
+Parramatta,LP,17491,33.62
+Parramatta,GRN,5101,9.81
+Parramatta,UAPP,2502,4.81
+Parramatta,IND*,1692,3.25
+Parramatta,ON,1155,2.22
+Parramatta,AJP,986,1.89
+Parramatta,LDP,934,1.79
+Parramatta,SOPA,312,0.6
+Parramatta,DPDA,60,0.12
+Penrith,LP,27185,46.26
+Penrith,ALP,18724,31.86
+Penrith,GRN,5216,8.87
+Penrith,ON,3338,5.68
+Penrith,UAPP,2216,3.77
+Penrith,IMO,1191,2.03
+Penrith,LDP,903,1.54
+Pittwater,LP,25693,41.52
+Pittwater,IND*,25013,40.42
+Pittwater,ALP,4203,6.79
+Pittwater,GRN,3430,5.54
+Pittwater,UAPP,1676,2.71
+Pittwater,ON,1604,2.59
+Pittwater,TNL,267,0.43
+Port Macquarie,NP,22366,44.32
+Port Macquarie,IND*,10071,19.96
+Port Macquarie,ALP,8288,16.42
+Port Macquarie,GRN,3221,6.38
+Port Macquarie,ON,3076,6.09
+Port Macquarie,LDP,2255,4.47
+Port Macquarie,UAPP,1105,2.19
+Port Macquarie,LP,84,0.17
+Port Macquarie,SAL,1,0.0
+Port Macquarie,CEC,0,0.0
+Port Stephens,LP,19064,35.65
+Port Stephens,ALP,18443,34.49
+Port Stephens,ON,3946,7.38
+Port Stephens,NP,3707,6.93
+Port Stephens,GRN,3684,6.89
+Port Stephens,UAPP,1804,3.37
+Port Stephens,LDP,1555,2.91
+Port Stephens,IMO,720,1.35
+Port Stephens,IND*,552,1.03
+Prospect,ALP,21957,43.8
+Prospect,LP,14832,29.59
+Prospect,UAPP,3773,7.53
+Prospect,IND*,2843,5.67
+Prospect,GRN,2795,5.58
+Prospect,ON,2371,4.73
+Prospect,LDP,1401,2.8
+Prospect,AJP,155,0.31
+Riverstone,ALP,24724,47.16
+Riverstone,LP,16877,32.19
+Riverstone,GRN,3559,6.79
+Riverstone,IND*,2541,4.85
+Riverstone,UAPP,2012,3.84
+Riverstone,LDP,1409,2.69
+Riverstone,ON,1301,2.48
+Rockdale,ALP,19433,43.4
+Rockdale,LP,14542,32.48
+Rockdale,GRN,5229,11.68
+Rockdale,UAPP,3100,6.92
+Rockdale,ON,2475,5.53
+Ryde,LP,21902,40.72
+Ryde,ALP,20894,38.84
+Ryde,GRN,5809,10.8
+Ryde,UAPP,1634,3.04
+Ryde,SOPA,1198,2.23
+Ryde,ON,936,1.74
+Ryde,LDP,767,1.43
+Ryde,DPDA,653,1.21
+Shellharbour,ALP,27323,48.93
+Shellharbour,LP,13546,24.26
+Shellharbour,GRN,5860,10.49
+Shellharbour,ON,3931,7.04
+Shellharbour,UAPP,3248,5.82
+Shellharbour,LDP,1935,3.47
+South Coast,LP,26698,41.64
+South Coast,ALP,23374,36.46
+South Coast,GRN,5867,9.15
+South Coast,IND*,2929,4.57
+South Coast,ON,2789,4.35
+South Coast,UAPP,1976,3.08
+South Coast,LDP,482,0.75
+Strathfield,ALP,21584,44.03
+Strathfield,LP,17143,34.98
+Strathfield,GRN,4689,9.57
+Strathfield,UAPP,1647,3.36
+Strathfield,ON,1429,2.92
+Strathfield,IND*,1294,2.64
+Strathfield,LDP,672,1.37
+Strathfield,SOPA,556,1.14
+Summer Hill,ALP,35594,52.38
+Summer Hill,LP,13705,20.17
+Summer Hill,GRN,13087,19.26
+Summer Hill,UAPP,1981,2.91
+Summer Hill,ON,1547,2.28
+Summer Hill,IND*,862,1.27
+Summer Hill,SOPA,618,0.91
+Summer Hill,AJP,445,0.65
+Summer Hill,LDP,119,0.17
+Swansea,ALP,20028,38.85
+Swansea,LP,17715,34.37
+Swansea,GRN,3988,7.74
+Swansea,ON,3675,7.13
+Swansea,UAPP,1821,3.53
+Swansea,LDP,1585,3.08
+Swansea,AJP,1564,3.03
+Swansea,IND*,1171,2.27
+Sydney,ALP,23296,39.34
+Sydney,LP,15599,26.34
+Sydney,GRN,9791,16.53
+Sydney,IND*,7237,12.22
+Sydney,UAPP,1199,2.03
+Sydney,ON,902,1.52
+Sydney,CEC,512,0.86
+Sydney,SAL,482,0.81
+Sydney,LDP,198,0.34
+Tamworth,NP,28250,52.43
+Tamworth,ALP,10079,18.71
+Tamworth,IND*,6401,11.88
+Tamworth,ON,2705,5.02
+Tamworth,GRN,2676,4.97
+Tamworth,LDP,1829,3.4
+Tamworth,UAPP,1502,2.79
+Tamworth,IAP,318,0.59
+Tamworth,IMO,120,0.22
+Terrigal,LP,19892,43.72
+Terrigal,ALP,15430,33.91
+Terrigal,GRN,4993,10.97
+Terrigal,ON,1638,3.6
+Terrigal,UAPP,1273,2.8
+Terrigal,AJP,715,1.57
+Terrigal,IMO,498,1.09
+Terrigal,LDP,412,0.91
+Terrigal,IAP,356,0.78
+Terrigal,SOPA,119,0.26
+Terrigal,CEC,100,0.22
+Terrigal,CYA,78,0.17
+The Entrance,ALP,17880,40.74
+The Entrance,LP,15538,35.4
+The Entrance,GRN,4263,9.71
+The Entrance,ON,2901,6.61
+The Entrance,UAPP,1570,3.58
+The Entrance,SOPA,929,2.12
+The Entrance,LDP,607,1.38
+The Entrance,AJP,95,0.22
+The Entrance,IAP,47,0.11
+The Entrance,IMO,36,0.08
+The Entrance,CYA,16,0.04
+The Entrance,CEC,8,0.02
+Tweed,ALP,14415,31.47
+Tweed,NP,12374,27.01
+Tweed,GRN,7470,16.31
+Tweed,LDP,4729,10.32
+Tweed,IND*,2361,5.15
+Tweed,ON,2114,4.62
+Tweed,UAPP,1565,3.42
+Tweed,IMO,778,1.7
+Upper Hunter,NP,17245,36.38
+Upper Hunter,ALP,13794,29.1
+Upper Hunter,ON,5322,11.23
+Upper Hunter,IND*,3838,8.1
+Upper Hunter,GRN,3237,6.83
+Upper Hunter,UAPP,1709,3.6
+Upper Hunter,LDP,1507,3.18
+Upper Hunter,AJP,489,1.03
+Upper Hunter,IMO,263,0.55
+Vaucluse,LP,16614,47.07
+Vaucluse,IND*,11854,33.59
+Vaucluse,ALP,2710,7.68
+Vaucluse,GRN,2479,7.02
+Vaucluse,UAPP,716,2.03
+Vaucluse,LDP,569,1.61
+Vaucluse,ON,352,1.0
+Wagga Wagga,NP,18823,37.28
+Wagga Wagga,ALP,12949,25.65
+Wagga Wagga,GRN,4138,8.2
+Wagga Wagga,ON,3529,6.99
+Wagga Wagga,LDP,3188,6.31
+Wagga Wagga,LP,2549,5.05
+Wagga Wagga,ASP,1810,3.59
+Wagga Wagga,IND*,1645,3.26
+Wagga Wagga,UAPP,1531,3.03
+Wagga Wagga,SPP,195,0.39
+Wagga Wagga,IMO,80,0.16
+Wagga Wagga,AUD,53,0.1
+Wahroonga,LP,18528,43.84
+Wahroonga,ALP,8661,20.49
+Wahroonga,IND*,6894,16.31
+Wahroonga,GRN,5666,13.41
+Wahroonga,UAPP,913,2.16
+Wahroonga,ON,836,1.98
+Wahroonga,LDP,388,0.92
+Wahroonga,SOPA,294,0.7
+Wahroonga,CYA,82,0.19
+Wakehurst,LP,12840,39.28
+Wakehurst,IND*,11798,36.09
+Wakehurst,ALP,3365,10.29
+Wakehurst,GRN,2271,6.95
+Wakehurst,UAPP,1076,3.29
+Wakehurst,ON,958,2.93
+Wakehurst,TNL,209,0.64
+Wakehurst,AJP,174,0.53
+Wallsend,ALP,21721,47.79
+Wallsend,LP,10271,22.6
+Wallsend,GRN,6495,14.29
+Wallsend,ON,2928,6.44
+Wallsend,UAPP,1356,2.98
+Wallsend,AJP,1169,2.57
+Wallsend,CYA,494,1.09
+Wallsend,IMO,457,1.01
+Wallsend,NP,317,0.7
+Wallsend,IND*,161,0.36
+Wallsend,LDP,80,0.18
+Willoughby,LP,22042,38.68
+Willoughby,IND*,14023,24.61
+Willoughby,ALP,12291,21.57
+Willoughby,GRN,4958,8.7
+Willoughby,UAPP,1131,1.98
+Willoughby,ON,741,1.3
+Willoughby,SPP,592,1.04
+Willoughby,LDP,555,0.97
+Willoughby,TNL,389,0.68
+Willoughby,IMO,256,0.45
+Willoughby,AJP,8,0.01
+Winston Hills,ALP,17027,40.27
+Winston Hills,LP,14973,35.41
+Winston Hills,GRN,4212,9.96
+Winston Hills,UAPP,1863,4.41
+Winston Hills,ON,1316,3.11
+Winston Hills,LDP,1294,3.06
+Winston Hills,IND*,1292,3.06
+Winston Hills,AJP,306,0.72
+Wollondilly,LP,19427,42.19
+Wollondilly,ALP,11603,25.2
+Wollondilly,IND*,3742,8.13
+Wollondilly,GRN,3662,7.95
+Wollondilly,ON,3508,7.62
+Wollondilly,UAPP,2098,4.56
+Wollondilly,LDP,1133,2.46
+Wollondilly,ASP,872,1.89
+Wollongong,ALP,20934,43.24
+Wollongong,LP,10812,22.34
+Wollongong,GRN,9482,19.59
+Wollongong,UAPP,2765,5.71
+Wollongong,ON,2737,5.65
+Wollongong,LDP,1192,2.46
+Wollongong,CEC,488,1.01
+Wyong,ALP,24932,45.47
+Wyong,LP,17187,31.34
+Wyong,ON,4573,8.34
+Wyong,GRN,4006,7.31
+Wyong,UAPP,2118,3.86
+Wyong,SOPA,1146,2.09
+Wyong,LDP,873,1.59

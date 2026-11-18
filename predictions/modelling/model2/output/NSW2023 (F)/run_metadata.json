@@ -1,0 +1,118 @@
+{
+  "model": "model2",
+  "run_id": "NSW2023 (F)",
+  "timestamp": "2026-11-17T10:23:02+00:00",
+  "git_commit": "4ee02a80df8a14ed91221a384f03c9195b426407",
+  "runs": 5000,
+  "seed": 1,
+  "noise": {
+    "poll_sd": 2.5,
+    "region_sd": 2.0,
+    "seat_sd": 3.5,
+    "flow_state": 0.15,
+    "flow_seat": 0.05
+  },
+  "on_priors": {
+    "ON->LP|LP,ALP": [
+      0.65,
+      0.8,
+      0.9
+    ],
+    "LP->ON|ON,ALP": [
+      0.45,
+      0.65,
+      0.8
+    ],
+    "ALP->LP|LP,ON": [
+      0.45,
+      0.6,
+      0.75
+    ],
+    "GRN->ON:ALP": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "RIGHT->ON:LP": [
+      1.0,
+      1.43,
+      2.0
+    ],
+    "OTHER->ON:LP": [
+      0.6,
+      0.86,
+      1.2
+    ]
+  },
+  "exhaust": true,
+  "core_rule": {
+    "top": 4,
+    "share": 0.05
+  },
+  "inputs": {
+    "state": "NSW",
+    "state_election": "2023-03-25",
+    "districts": 93,
+    "baseline": "previous election",
+    "federal_election": null,
+    "winners": "NSW2023",
+    "primaries": "notional 2018 primaries on 2022 boundaries (data/NSW2019/notional_NSW2023_boundaries.json)",
+    "flows": "previous election's distributions only (data/NSW2019/distributions/dop_NSW2019.json)",
+    "polls": {
+      "ALP": 36.75,
+      "LNP": 36.0,
+      "GRN": 10.5,
+      "ON": 2.0,
+      "OTH": 14.75
+    },
+    "poll_on_reported": true,
+    "poll_rows": [
+      "newspoll 2023-03-24",
+      "freshwater 2023-03-22",
+      "resolve 2023-03-19",
+      "roy-morgan 2023-03-14"
+    ],
+    "polls_source": "data/benchmarks/polls/final_polls.csv",
+    "one_nation_pattern": "predictions/modelling/model1/output/NSW2023 (2022)/district_primaries.csv (federal booths, model1), elasticity 0.7",
+    "independents": {
+      "rule": "won the seat as an independent at the previous election, or >=10% primary there",
+      "credible": [
+        "TOWNLEY Sally (Coffs Harbour, 17.42%)",
+        "PIPER Greg (Lake Macquarie, 53.53%)",
+        "GREENWICH Alex (Sydney, 41.45%)",
+        "RODDA Mark (Tamworth, 16.38%)",
+        "McGIRR Joe (Wagga Wagga, 44.63%)",
+        "HANNAN Judy (Wollondilly, 20.12%)"
+      ]
+    },
+    "candidates": "candidate field of the scored election (data/NSW2023/distributions/dop_NSW2023.json), nominations public before polling day",
+    "leakage_guard": "baseline, flows and poll target all predate the scored election; its distributions were read only for the candidate list and the final score"
+  },
+  "scores": {
+    "districts": 93,
+    "raw_seat_count": 76,
+    "brier": 0.2818,
+    "log_loss": 0.6562
+  },
+  "diagnostics": {
+    "final_two_accuracy": 0.7742,
+    "tcp_margin_mae": 5.07,
+    "t1_mae_pp": 3.5661
+  },
+  "actual_seats": {
+    "ALP": 45,
+    "GRN": 3,
+    "IND*": 9,
+    "LP": 25,
+    "NP": 11
+  },
+  "predicted_seats_mean": {
+    "ALP": 44.9,
+    "GRN": 3.06,
+    "IND*": 3.1,
+    "LP": 28.12,
+    "NP": 9.99,
+    "ON": 0.0,
+    "SFF": 3.84
+  }
+}

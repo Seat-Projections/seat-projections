@@ -8,7 +8,7 @@ side with the metrics in [`../benchmarking/README.md`](../benchmarking/README.md
 |---|---|---|
 | [`model1`](model1/README.md) | Implemented | "Nothing changes" baseline: federal polling-place votes added up inside each state district and the preferential count replayed with federal preferences, unchanged. Monte Carlo noise only. |
 | [`model2`](model2/README.md) | Implemented | Core-candidate heuristic (2022 VEC baseline swung to 2026 polls): collapse minor candidates into the core, resolve the core contest for every possible exclusion order, Monte Carlo over primaries and preference flows. |
-| [`model3`](model3/README.md) | Design | Booth-mapped federal-to-state model: model1's booth mapping plus rescaling to state polls, preferences from federal booth counts and Senate ballots, full count with Monte Carlo. |
+| [`model3`](model3/README.md) | Implemented (research model, not on the site) | Booth-mapped federal-to-state model: model1's booth mapping plus rescaling to state polls, preferences from federal booth counts and Senate ballots, full count with Monte Carlo. |
 
 ---
 

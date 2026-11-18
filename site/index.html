@@ -65,10 +65,11 @@
     <h1>2026 Victorian Seat Projections</h1>
     <p class="lede" id="run-desc"><!-- run-desc -->Forecast Model (core-candidate heuristic): the declared 2026 candidates, 2022 primaries swung to the 2026 polling average, One Nation on its 2025 federal booth pattern, preferences fitted to the 2022 distributions.<!-- /run-desc --></p>
     <div class="model-toggle" role="tablist">
-      <button id="btn-model2" class="on">Forecast Model: polls &amp; candidates</button>
-      <button id="btn-model1">Baseline Model: federal replay</button>
+      <button id="btn-model2" class="on">Forecast Model</button>
+      <button id="btn-model1">Baseline Model</button>
     </div>
     <p class="muted small" id="run-meta" style="margin-top:0.5rem"><!-- run-meta -->5,000 simulations · run VIC2026 (2022) · 2026-11-16 · commit 7d53e62<!-- /run-meta --></p>
+    <div id="fed-banner" hidden></div>
     <div id="snap-banner" hidden></div>
   </section>
 
@@ -115,15 +116,18 @@
   <div class="caveat">
     <h3>Read before quoting</h3>
     <ul>
-      <li><b>The ranges are too narrow.</b> Across four state election backtests, the
+      <li><b>The ranges are too narrow.</b> Across five state election backtests, the
         Forecast Model&rsquo;s 80% ranges for the final two candidates contained the actual vote
-        share about 63% of the time when it picked the correct final pair. Allow for more
+        share about 59% of the time when it picked the correct final pair. Allow for more
         uncertainty than the ranges suggest. Small differences in win chance are not meaningful.</li>
       <li><b>One Nation is harder to estimate.</b> Its local support and preference flows
         rely on assumptions. The model does not yet use registered how-to-vote cards.</li>
-      <li><b>The models answer different questions.</b> The Forecast Model combines current
-        polls with past results and the declared 2026 candidates. The Baseline Model uses
-        2025 federal support without a polling adjustment.</li>
+      <li><b>The views answer different questions.</b> The switch offers two views: the
+        Forecast Model, which combines current polls with the 2022 state result and the
+        declared 2026 candidates, and the Baseline Model, which uses 2025 federal support
+        without a polling adjustment. A federal-baseline variant of the Forecast Model is
+        also available for comparison through the
+        <a href="/methodology/forecast/#benchmarks">methodology page</a>.</li>
       <li id="caveat-meta"><!-- caveat-meta --><b>Run:</b> VIC2026 (2022), forecast dated 2026-11-16, commit <span class="mono">7d53e62</span>.<!-- /caveat-meta --></li>
     </ul>
   </div>

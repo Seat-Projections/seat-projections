@@ -62,26 +62,40 @@ recent federal election's booth votes; model3 rescales those votes to the final 
 variant `L0-C0-R2`); model2's `(F)` runs start from the previous state election's primaries, flows,
 final polls and candidate list. Regional deviations use the eight Legislative Council regions in
 Victoria and ABS ASGS Edition 3 SA4 groups outside it (`data/benchmarks/regions/`); adopting the SA4
-groups moved model2's mean log loss from 0.412 to 0.402 across the four forecast backtests with
-seats right unchanged (`region_experiment.csv`). Replays given the actual primaries were removed on
-16 Nov 2026 (they did not measure forecasting).
+groups moved model2's mean log loss from 0.412 to 0.402 across the four non-Victorian forecast
+backtests with seats right unchanged (`region_experiment.csv`). The SA and WA `(F)` baselines remap located
+polling-place votes onto the new boundaries; the NSW baseline instead uses the official
+elector-transfer table from the 2021 redistribution report (electors moved between each 2019 and
+2023 district), which conserves every old district's electors exactly. The `model2 fed` rows are the
+same model with a federal baseline: the preceding federal election's votes in each state district
+(located booth votes plus each division's declaration and unlocated votes raked to each district
+part's own party mix, `scripts/build_fed_primaries.py`) and flows fitted on the AEC's round-by-round federal
+distributions; for NSW the exhaustion rates still come from the state counts (federal voting is
+fully preferential). Replays given the actual primaries were removed on 16 Nov 2026
+(they did not measure forecasting).
 
 | Model | Run | Seats right | Brier | Log loss |
 |---|---|---|---|---|
 | model1 | `VIC2022 (2022)` | 72 / 88 | 0.238 | 0.436 |
 | model3 `L0-C0-R2` | `VIC2022 (2022)` | 77 / 88 | 0.173 | 0.316 |
 | model2 | `VIC2022 (F)` | 81 / 88 | 0.162 | 0.354 |
+| model2 fed | `VIC2022 (F fed2022)` | 78 / 88 | 0.159 | 0.278 |
 | model1 | `NSW2023 (2022)` | 64 / 93 | 0.507 | 1.282 |
-| model3 `L0-C0-R2` | `NSW2023 (2022)` | 67 / 93 | 0.476 | 1.261 |
+| model3 `L0-C0-R2` | `NSW2023 (2022)` | 65 / 93 | 0.503 | 1.321 |
+| model2 | `NSW2023 (F)` | 76 / 93 | 0.282 | 0.656 |
+| model2 fed | `NSW2023 (F fed2022)` | 72 / 93 | 0.380 | 0.943 |
 | model1 | `QLD2024 (2022)` | 76 / 93 | 0.272 | 0.507 |
 | model3 `L0-C0-R2` | `QLD2024 (2022)` | 78 / 93 | 0.245 | 0.490 |
 | model2 | `QLD2024 (F)` | 79 / 93 | 0.234 | 0.410 |
+| model2 fed | `QLD2024 (F fed2022)` | 80 / 93 | 0.195 | 0.297 |
 | model1 | `WA2025 (2022)` | 42 / 59 | 0.400 | 1.020 |
 | model3 `L0-C0-R2` | `WA2025 (2022)` | 49 / 59 | 0.283 | 0.862 |
 | model2 | `WA2025 (F)` | 55 / 59 | 0.134 | 0.264 |
+| model2 fed | `WA2025 (F fed2022)` | 50 / 59 | 0.266 | 0.841 |
 | model1 | `SA2026 (2025)` | 36 / 47 | 0.425 | 1.397 |
 | model3 `L0-C0-R2` | `SA2026 (2025)` | 35 / 47 | 0.432 | 1.358 |
 | model2 | `SA2026 (F)` | 38 / 47 | 0.242 | 0.581 |
+| model2 fed | `SA2026 (F fed2025)` | 38 / 47 | 0.257 | 0.611 |
 
 Frozen results, with the analysis and a script to reproduce them, are archived in
 [`archive/2026-11-08_model1/`](archive/2026-11-08_model1/WRITEUP.md) (2026 forecast re-run on the declared candidates in

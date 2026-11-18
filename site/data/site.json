@@ -39,6 +39,34 @@
     "roy-morgan 2026-10-29"
    ],
    "majority": 45
+  },
+  "model2fed": {
+   "model": "model2",
+   "run_id": "VIC2026 (fed2025)",
+   "timestamp": "2026-11-17T12:39:21+00:00",
+   "git_commit": "4ee02a80df8a14ed91221a384f03c9195b426407",
+   "runs": 5000,
+   "seed": 1,
+   "as_of": null,
+   "generated": null,
+   "retrospective": null,
+   "poll_cutoff": null,
+   "description": "Forecast Model (federal baseline): the same model with the 2025 federal polling-place votes in each district as the baseline and preferences fitted to the 2025 federal distributions.",
+   "polls": {
+    "ALP": 21.9,
+    "LNP": 31.3,
+    "ON": 21.6,
+    "GRN": 14.3,
+    "OTH": 10.9
+   },
+   "polls_used": [
+    "Newspoll / Pyxis 2026-10-22",
+    "demosau 2026-11-05",
+    "redbridge-accent 2026-11-10",
+    "resolve 2026-11-07",
+    "roy-morgan 2026-10-29"
+   ],
+   "majority": 45
   }
  },
  "downloads": [
@@ -71,6 +99,16 @@
    "file": "model2_statewide_blocs.csv",
    "size_kb": 0.2,
    "description": "Forecast Model: statewide seat distribution per bloc"
+  },
+  {
+   "file": "model2fed_seat_probabilities.csv",
+   "size_kb": 38.3,
+   "description": "Forecast Model, federal baseline: per-district win and final-two probabilities (VIC2026 (fed2025) run)"
+  },
+  {
+   "file": "model2fed_statewide_blocs.csv",
+   "size_kb": 0.2,
+   "description": "Forecast Model, federal baseline: statewide seat distribution per bloc"
   },
   {
    "file": "candidates_vic2026.csv",

@@ -224,6 +224,8 @@ FORECASTS = {
                                  "standing in 2026, counted with federal preferences. No polling: One Nation stays at its federal level."),
     "model2": ("VIC2026 (2022)", "Model 2 (core-candidate heuristic): the declared 2026 candidates, 2022 primaries swung to the 2026 polling average, "
                                  "One Nation on its 2025 federal booth pattern, preferences fitted to the 2022 distributions."),
+    "model2fed": ("VIC2026 (fed2025)", "Forecast Model (federal baseline): the same model with the 2025 federal polling-place votes in each district "
+                                       "as the baseline and preferences fitted to the 2025 federal distributions."),
 }
 
 
@@ -253,7 +255,8 @@ def build_forecasts() -> None:
     """visualiser/data/<model>_vic2026.json for each model whose 2026 run has a district_counts.json."""
     OUT.mkdir(parents=True, exist_ok=True)
     for model, (run_id, description) in FORECASTS.items():
-        run_dir = ROOT / "predictions" / "modelling" / model / "output" / run_id
+        model_dir = "model2" if model.startswith("model2") else model
+        run_dir = ROOT / "predictions" / "modelling" / model_dir / "output" / run_id
         if not (run_dir / "district_counts.json").exists():
             print(f"Skipped {model} view: no {run_dir.relative_to(ROOT)}/district_counts.json (run the model first)")
             continue

@@ -205,7 +205,10 @@ def _nsw_dop(html: str) -> dict:
     split = [(r[0].split("|") + [""])[:2] for r in cand_rows]  # "NAME|PARTY"; ungrouped independents have no party
     for r, (n, _) in zip(cand_rows, split):
         r[0] = n
-    cands = [(n, _group(p)) for n, p in split]
+    # NSWEC codes Labor 'LAB' in Sydney and 'CLP' (Country Labor) in regional seats; the scored
+    # election uses 'ALP'. NSW only: elsewhere 'CLP' is the NT Country Liberal Party (Coalition).
+    nsw_group = {"LAB": "ALP", "CLP": "ALP"}
+    cands = [(n, nsw_group.get(_group(p), _group(p))) for n, p in split]
     label = {(f"{n} ({p})" if p else n): n for n, p in split}
     first = {r[0]: num(r[1]) for r in cand_rows}
     exhausted = next(r for r in rows if r[0] == "Exhausted Votes")
@@ -257,3 +260,65 @@ def validate(tables: dict[str, dict]) -> list[str]:
         if t["final_totals"] and len(totals) == 2 and any(abs(totals.get(c, -1) - v) > 1.5 for c, v in t["final_totals"].items()):
             issues.append(f"{d}: progressive totals {totals} != final {t['final_totals']}")
     return issues
+
+
+# ------------------------------------------------------------------ federal (AEC DoP by division)
+
+# AEC party abbreviations whose full names do not map through the state DOP/party_group normalisation.
+# 'LNP' is the Queensland Liberal National Party (Coalition); 'IND' here means independent.
+AEC_GROUPS = {"ALP": "ALP", "LP": "LP", "LNP": "LNP", "NP": "NP", "GRN": "GRN", "GVIC": "GRN",
+              "ON": "ON", "IND": "IND*"}
+# divisions whose DoP rows name the electorate differently from the scored state district (none so far)
+
+
+def aec_division_dops(path: Path, state: str) -> dict[str, dict]:
+    """
+    AEC 'House of Representatives Distribution of Preferences By Division' CSV -> the same tables shape
+    the state fetchers produce: {division: {candidates, first_preferences, steps, final_totals}}.
+
+    Each count transfers exactly one excluded candidate's pile (verified for events 27966 and 31496):
+    `steps[i]` = {"excluded_candidate", "exhausted" (always 0 federally: full preferential), "transfers"}
+    where transfers are the votes each continuing candidate received at that count. Party is mapped by
+    PartyAb through AEC_GROUPS, then the full name through `party_group` (e.g. "Centre Alliance" -> XEN).
+    """
+    from vic_election.benchmark import party_group
+    rows = []
+    with path.open(encoding="utf-8-sig", newline="") as f:  # line 1 is a banner; the header is line 2
+        next(f)
+        for r in csv.DictReader(f):
+            if r["StateAb"] == state:
+                rows.append(r)
+    by_div: dict[str, list] = {}
+    for r in rows:
+        by_div.setdefault(r["DivisionNm"], []).append(r)
+    tables = {}
+    for div, rr in by_div.items():
+        counts = sorted({int(r["CountNumber"]) for r in rr})
+        cands = {}
+        for r in rr:
+            if r["CandidateID"] not in cands:
+                cid = f"{r['Surname'].title()}, {r['GivenNm']}" if r["GivenNm"] else r["Surname"].title()
+                group = AEC_GROUPS.get(r["PartyAb"]) or (party_group(r["PartyNm"]) if r["PartyNm"] else "IND*")
+                cands[r["CandidateID"]] = (cid, group, r["Elected"] == "Y")
+        def val(cid: str, count: int, calc: str) -> float:
+            return next((float(r["CalculationValue"]) for r in rr
+                         if r["CandidateID"] == cid and r["CountNumber"] == str(count)
+                         and r["CalculationType"] == calc), 0.0)
+        first = {cands[c][0]: val(c, counts[0], "Preference Count") for c in cands}
+        steps, excluded = [], set()
+        for k in counts[1:]:
+            transfers = {cands[c][0]: val(c, k, "Transfer Count") for c in cands if cands[c][0] not in excluded}
+            neg = [cid for cid, v in transfers.items() if v < 0]
+            if len(neg) != 1:
+                raise ValueError(f"{div} count {k}: expected 1 excluded candidate, found {neg}")
+            x = neg[0]
+            steps.append({"excluded_candidate": x, "exhausted": 0.0,
+                          "transfers": {cid: v for cid, v in transfers.items() if cid != x}})
+            excluded.add(x)
+        remaining = [cands[c][0] for c in cands if cands[c][0] not in excluded]
+        final = {cid: val(next(c for c in cands if cands[c][0] == cid), counts[-1], "Preference Count")
+                 for cid in remaining}
+        t = _table([(cands[c][0], cands[c][1]) for c in cands], first, steps, final)
+        t["declared_winner"] = next((cands[c][0] for c in cands if cands[c][2]), None)
+        tables[div] = t
+    return tables

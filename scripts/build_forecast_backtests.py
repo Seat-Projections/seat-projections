@@ -29,6 +29,8 @@ ELECTIONS = {
     "SA2026": "SA2026 (2025)",
 }
 FORECAST = {"model1": "VIC2026 (2025)", "model2": "VIC2026 (2022)", "model3": f"VIC2026 (2025) {M3_VARIANT}"}
+FED_FORECAST = ("model2", "forecast — not yet scored (federal baseline)", "VIC2026 (fed2025)")
+FED_BACKTEST = {"VIC2022": "fed2022", "NSW2023": "fed2022", "QLD2024": "fed2022", "WA2025": "fed2022", "SA2026": "fed2025"}
 
 
 def meta(model: str, run_dir: str) -> dict:
@@ -68,12 +70,15 @@ def main() -> None:
     rows = []
     for model, run_dir in FORECAST.items():
         rows.append(row(model, "forecast — not yet scored", run_dir, "VIC2026"))
+    rows.append(row(*FED_FORECAST, "VIC2026"))
     for election in reversed(sorted(ELECTIONS, key=lambda e: e[-4:])):
         m1 = ELECTIONS[election]
         rows.append(row("model1", "federal booths, hard assignment, no rescale", m1, election))
         rows.append(row("model3", M3_VARIANT, f"{m1} {M3_VARIANT}", election))
         rows.append(row("model2", "forecast (previous-election inputs only)",
                         f"{election} (F)", election))
+        rows.append(row("model2", "forecast, federal baseline (previous-election inputs only)",
+                        f"{election} (F {FED_BACKTEST[election]})", election))
     with OUT.open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0]))
         w.writeheader()

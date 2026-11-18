@@ -23,6 +23,7 @@ from __future__ import annotations
 
 import csv
 import json
+import sys
 import tempfile
 import urllib.request
 import zipfile
@@ -88,7 +89,7 @@ GCCSA_GROUPS = {
     "WA": {"Greater Perth": ["Perth - Inner", "Perth - North East", "Perth - North West",
                              "Perth - South East", "Perth - South West", "Mandurah"]},
 }
-REST_NAME = {"QLD": "Rest of Qld", "SA": "Rest of SA", "WA": "Rest of WA"}
+REST_NAME = {"QLD": "Rest of Qld", "SA": "Rest of SA", "WA": "Rest of WA", "NSW": "Rest of NSW"}
 
 SETTINGS = ([("A-current", None, 2.0)]
             + [(f"B-sa4-sd{sd}", "sa4", float(sd)) for sd in (1, 2, 3, 4)]
@@ -110,7 +111,7 @@ def load_sa4s() -> dict[str, dict[str, District]]:
     shp = read_shp_polygons(zf.read(next(n for n in zf.namelist() if n.endswith(".shp"))))
     out: dict[str, dict[str, District]] = {}
     for rec, rings in zip(dbf, shp):
-        state = {"Queensland": "QLD", "South Australia": "SA",
+        state = {"Queensland": "QLD", "South Australia": "SA", "New South Wales": "NSW",
                  "Western Australia": "WA"}.get(rec["STE_NAME21"])
         if state is None:
             continue
