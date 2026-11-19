@@ -1,0 +1,735 @@
+district,candidate,party,p_win,p_final_two,tcp_p10,tcp_p50,tcp_p90
+Albert Park,"COOK, Andrew",LP,0.4246,0.9818,43.86,49.26,54.89
+Albert Park,"SEMMENS, Sonya",GRN,0.3274,0.577,45.04,50.75,56.39
+Albert Park,"TAYLOR, Nina",ALP,0.248,0.4368,45.32,50.76,55.91
+Albert Park,"LINDRUM, Tam",ON,0.0,0.0044,35.68,39.67,43.08
+Albert Park,"DRAGWIDGE, Georgie",IND*,0.0,0.0,,,
+Albert Park,"BOLGER, Colleen",VNS,0.0,0.0,,,
+Albert Park,"KING, Adrian William",IND*,0.0,0.0,,,
+Ashwood,"ZOGRAPHOS, Theo",LP,0.772,0.9994,47.69,53.43,59.17
+Ashwood,"FREGON, Matt",ALP,0.201,0.8628,41.06,46.65,52.39
+Ashwood,"RANDALL, Tim",GRN,0.027,0.1378,39.75,45.91,51.67
+Ashwood,"MITCHELL, Steven",ON,0.0,0.0,,,
+Ashwood,"VAN DER EYNDEN, Jacob",VNS,0.0,0.0,,,
+Ashwood,"UWIMANA, Enid",FFP,0.0,0.0,,,
+Ashwood,"JOSHI, Hitendra K.",IND*,0.0,0.0,,,
+Bass,"HALSTEAD, Rochelle",LP,0.9842,0.9926,54.08,59.46,64.99
+Bass,"SCHELLEKENS, Nikole",ON,0.0148,0.6364,37.67,42.15,47.06
+Bass,"BUCKINGHAM, Chris",ALP,0.001,0.3464,33.58,37.93,42.66
+Bass,"THORN, Sophie",GRN,0.0,0.0246,29.9,33.34,36.98
+Bass,"JOBE, Chris",VNS,0.0,0.0,,,
+Bass,"CAUNEAC, Ben",FFP,0.0,0.0,,,
+Bayswater,"KITCHEN, David",LP,0.9388,0.9904,51.55,56.93,62.23
+Bayswater,"BUXTON, Julie",ALP,0.0564,0.962,37.83,43.18,48.73
+Bayswater,"BLEAKNEY, Kayte",ON,0.0048,0.0452,38.21,42.85,50.32
+Bayswater,"KENNEDY, Jess",GRN,0.0,0.0024,34.5,36.9,39.49
+Bayswater,"FERGUSON, Alec",VNS,0.0,0.0,,,
+Bayswater,"COOMBES, Gary",FFP,0.0,0.0,,,
+Bayswater,"HUBBARD, Naomi",Labour DLP,0.0,0.0,,,
+Bayswater,"CLARKE, Mathew",IND*,0.0,0.0,,,
+Bellarine,"WHITEHEAD, Callum",LP,0.663,0.9954,46.36,51.95,57.64
+Bellarine,"MARCHANT, Alison",ALP,0.3308,0.9518,42.64,48.2,53.79
+Bellarine,"POPE, Mitch",GRN,0.006,0.0482,39.25,44.7,50.34
+Bellarine,"MCRAE, Ross",ON,0.0002,0.0046,41.11,44.32,48.26
+Bellarine,"KEOGH, Ronan",VNS,0.0,0.0,,,
+Bellarine,"MANUELL, Guy",FFP,0.0,0.0,,,
+Bellarine,"LOCKHART, Kate",IND*,0.0,0.0,,,
+Bellarine,"WILLIAMS, Dom",Socialist Alliance,0.0,0.0,,,
+Benambra,"MARTIN, Steve",LP,0.9314,0.9798,51.5,56.73,62.12
+Benambra,"SHEPPARD, Kellie",ON,0.0456,0.7024,39.39,44.34,49.14
+Benambra,"McKEEMAN, Lachie",IND*,0.023,0.317,36.14,41.1,47.79
+Benambra,"YOUNG, Oliver",ALP,0.0,0.0002,33.14,33.14,33.14
+Benambra,"PARTON, Graham",GRN,0.0,0.0006,26.09,29.57,31.71
+Benambra,"VANGALEN, Alex",VNS,0.0,0.0,,,
+Benambra,"FUERY, Mike",AJP,0.0,0.0,,,
+Benambra,"PEPPER, Evette",FFP,0.0,0.0,,,
+Benambra,"QUILTY, Tim",LDP,0.0,0.0,,,
+Bendigo East,"RICKWOOD, Tim",ALP,0.53,0.9854,44.57,50.44,56.33
+Bendigo East,"LETHLEAN, Andrew",NP,0.4332,0.7634,45.36,50.75,56.3
+Bendigo East,"HAWKEN, Cheryl",ON,0.0368,0.2466,40.82,45.88,50.96
+Bendigo East,"TOLHURST, Michael",GRN,0.0,0.0046,38.11,42.1,45.31
+Bendigo East,"NORSEN, Denali",VNS,0.0,0.0,,,
+Bendigo East,"DUNN, Bonnie",AJP,0.0,0.0,,,
+Bendigo East,"JOHN, Des",FFP,0.0,0.0,,,
+Bendigo East,"HOSKINS, Kristie",IND*,0.0,0.0,,,
+Bendigo East,"WRIGHT, Liz",IND*,0.0,0.0,,,
+Bendigo West,"BALDWIN, Brenton",ALP,0.729,0.972,47.3,53.14,59.39
+Bendigo West,"HUTCHINGS, David",NP,0.253,0.8002,42.52,47.92,53.53
+Bendigo West,"MORGAN, Ellen",ON,0.011,0.1978,36.93,42.37,48.37
+Bendigo West,"SHAW, Liza",GRN,0.007,0.03,38.68,45.41,52.65
+Bendigo West,"SHALEVSKI, Tayne",VNS,0.0,0.0,,,
+Bendigo West,"HARISOPOULOS, Christos",FFP,0.0,0.0,,,
+Bendigo West,"TRANTER, Debra",AJP,0.0,0.0,,,
+Bentleigh,"PUTT, Tynan",LP,0.8196,0.998,48.4,54.13,60.07
+Bentleigh,"STAIKOS, Nick",ALP,0.18,0.9894,40.08,45.91,51.65
+Bentleigh,"LONSING, Herbert",ON,0.0004,0.0032,38.84,44.94,49.8
+Bentleigh,"PROCTOR, Claire",GRN,0.0,0.0094,34.39,39.09,47.1
+Bentleigh,"KRUGER, Liam",VNS,0.0,0.0,,,
+Bentleigh,"VAINORAS, Tony",Australian Citizens Party (Victorian Division),0.0,0.0,,,
+Berwick,"BATTIN, Brad",LP,0.9924,0.9956,55.51,60.3,65.12
+Berwick,"PIASTRINO, Michael",ON,0.0062,0.3076,37.55,41.48,46.11
+Berwick,"KHAN, Rana",ALP,0.0008,0.6296,34.92,39.14,43.77
+Berwick,"DE SILVA, Roshan",GRN,0.0006,0.0672,31.14,34.97,40.01
+Berwick,"AMARASIRI GUNAWARDANA, Nalinda",VNS,0.0,0.0,,,
+Berwick,"DE PAOLIS, Vincenzo",FFP,0.0,0.0,,,
+Berwick,"KING, Ethelyn",LDP,0.0,0.0,,,
+Berwick,"JOHN, David",IND*,0.0,0.0,,,
+Berwick,"DOWLING, Scott",Australian Citizens Party (Victorian Division),0.0,0.0,,,
+Box Hill,"HOUGUET, Sally",LP,0.6516,0.9998,46.18,51.69,57.41
+Box Hill,"HAMER, Paul",ALP,0.315,0.8884,42.75,48.42,53.86
+Box Hill,"QIN, Aaron",GRN,0.0334,0.1118,41.58,47.67,53.47
+Box Hill,"BAKER, Jamie",ON,0.0,0.0,,,
+Box Hill,"AFAJ, Saravina",VNS,0.0,0.0,,,
+Box Hill,"McGRATH, Sue-Ellen",Labour DLP,0.0,0.0,,,
+Box Hill,"FAGG, Peter",FFP,0.0,0.0,,,
+Box Hill,"CHEUNG, Heena",IND*,0.0,0.0,,,
+Brighton,"NEWBURY, James",LP,0.9974,1.0,57.76,63.36,68.91
+Brighton,"BAIN, Ebony",GRN,0.0022,0.5706,30.96,36.75,42.44
+Brighton,"MULLAHY, Bridget",ALP,0.0004,0.4294,31.42,36.55,41.95
+Brighton,"FAGAN, Alexander",ON,0.0,0.0,,,
+Brighton,"SMITH, Jessica",VNS,0.0,0.0,,,
+Brighton,"HAIN, Anthony",LDP,0.0,0.0,,,
+Brighton,"VINCENT, Barry",FFP,0.0,0.0,,,
+Brighton,"CASLEY, John",IND*,0.0,0.0,,,
+Broadmeadows,"MATTHEWS-WARD, Kathleen",ALP,0.6504,0.9854,46.15,51.8,57.67
+Broadmeadows,"DUZOVA, Baris",LP,0.2986,0.667,44.32,49.46,54.71
+Broadmeadows,"KEIRS, Ethan",ON,0.0444,0.3254,40.68,45.53,50.81
+Broadmeadows,"NASIM, Maryam",GRN,0.0066,0.0222,37.86,42.75,58.36
+Broadmeadows,"YOLBULAN, Mutullah Can",VNS,0.0,0.0,,,
+Broadmeadows,"WILSON, Russell",FFP,0.0,0.0,,,
+Broadmeadows,"ELMUSTAPHA, Mohamad",IND*,0.0,0.0,,,
+Broadmeadows,"UNICOMB, Rachel",AJP,0.0,0.0,,,
+Broadmeadows,"EL YOUSSEF, Mohamad",IND*,0.0,0.0,,,
+Broadmeadows,"BOLTON, Sue",Socialist Alliance,0.0,0.0,,,
+Brunswick,"PULFORD, Adam",GRN,0.9992,1.0,60.78,67.55,75.74
+Brunswick,"STEGER, Gabe",ALP,0.0008,0.6942,29.29,34.51,40.25
+Brunswick,"HELMAN, Adam",ON,0.0,0.1438,20.25,23.93,27.72
+Brunswick,"MARGELIS, John",LP,0.0,0.1616,24.04,28.42,33.12
+Brunswick,"FARMER, Naomi",VNS,0.0,0.0004,24.43,27.05,26.76
+Brunswick,"ROSE, India",AJP,0.0,0.0,,,
+Brunswick,"AMANATIDIS, Jack",IND*,0.0,0.0,,,
+Brunswick,"YUAN, Melissa",IND*,0.0,0.0,,,
+Bulleen,"GUY, Matthew",LP,0.9978,1.0,57.19,62.49,67.77
+Bulleen,"DALE, Tim",ALP,0.002,0.8816,32.65,37.72,42.98
+Bulleen,"LIGHTBODY, Tomas",GRN,0.0002,0.117,30.26,35.51,41.63
+Bulleen,"ATHARI, Mahdi",ON,0.0,0.0014,28.52,33.42,36.15
+Bulleen,"TAFIDIS, Dimitrios",VNS,0.0,0.0,,,
+Bulleen,"HARVEY, Bradley",FFP,0.0,0.0,,,
+Bulleen,"PALIOURAS, Amanda",IND*,0.0,0.0,,,
+Bulleen,"RUBLEE, Greg",IND*,0.0,0.0,,,
+Bundoora,"BROOKS, Colin",ALP,0.4982,0.9278,44.8,50.46,56.54
+Bundoora,"PARR, Chris",LP,0.4124,0.692,45.71,51.06,56.13
+Bundoora,"WHALLEY, Bruce",ON,0.0544,0.3012,41.05,46.07,51.53
+Bundoora,"LAITALA, Nina",GRN,0.035,0.079,39.68,47.4,59.66
+Bundoora,"SANYAL, Sagar",VNS,0.0,0.0,,,
+Bundoora,"RANCIE, Rae",FFP,0.0,0.0,,,
+Bundoora,"NICOLOSI, Chloe",AJP,0.0,0.0,,,
+Bundoora,"MURPHY-WEBSTER, Melissa",IND*,0.0,0.0,,,
+Carrum,"KILKENNY, Sonya",ALP,0.3618,0.9598,42.91,48.47,54.5
+Carrum,"SHELLEY, Jeff",LP,0.4876,0.6298,47.71,53.13,58.11
+Carrum,"MATHEWS, Joshua",ON,0.1492,0.4066,43.63,48.73,53.65
+Carrum,"PEGRUM, Zoe",GRN,0.0014,0.0038,37.85,42.44,53.8
+Carrum,"ABABNEH, Reema",VNS,0.0,0.0,,,
+Carrum,"MACKENZIE, Harley",HMP,0.0,0.0,,,
+Carrum,"MOORE, Carolyn",AJP,0.0,0.0,,,
+Carrum,"SMITH, Trevor",LDP,0.0,0.0,,,
+Caulfield,"SOUTHWICK, David",LP,0.9876,1.0,54.89,60.48,65.98
+Caulfield,"DOLEJŠÍ, Angel",GRN,0.0086,0.5738,33.79,39.62,45.45
+Caulfield,"STAFRACE, Mikaela",ALP,0.0038,0.4258,34.29,39.41,44.77
+Caulfield,"ABELMAN, Michael",ON,0.0,0.0004,35.49,36.47,36.36
+Caulfield,"ABABNEH, Malak",VNS,0.0,0.0,,,
+Caulfield,"SHROOT, Yaakov Ziv",IND*,0.0,0.0,,,
+Caulfield,"GILBERT, Geneviève",FFP,0.0,0.0,,,
+Clarinda,"TAK, Meng Heang",ALP,0.3502,0.97,42.82,48.42,54.51
+Clarinda,"PAGANIS, John",LP,0.59,0.8002,47.34,52.59,57.77
+Clarinda,"BAIN, Gavin",ON,0.058,0.2236,42.15,47.47,52.59
+Clarinda,"BOYD-EEDLE, Conor",GRN,0.0018,0.0062,37.09,40.72,56.33
+Clarinda,"WHITE, Caroline",IND*,0.0,0.0,,,
+Clarinda,"MESSAGE, Kit",VNS,0.0,0.0,,,
+Clarinda,"ROCHE, Liam",LDP,0.0,0.0,,,
+Cranbourne,"HIRST, Andrew",ON,0.5338,0.8088,46.39,51.8,57.08
+Cranbourne,"RICHARDS, Pauline",ALP,0.2006,0.8626,41.94,46.95,52.21
+Cranbourne,"TRIPODI, Gino",LP,0.2654,0.3284,48.26,53.62,58.41
+Cranbourne,"MERCER, Annalise",GRN,0.0002,0.0002,51.68,51.68,51.68
+Cranbourne,"FOREMAN, Shane",FFP,0.0,0.0,,,
+Cranbourne,"YUNIS, Reem",VNS,0.0,0.0,,,
+Cranbourne,"URQUIOLA, Liam",HMP,0.0,0.0,,,
+Cranbourne,"BAIRD, Craig",LDP,0.0,0.0,,,
+Croydon,"WOOLDRIDGE, Toby",LP,0.998,0.9996,56.44,61.49,66.39
+Croydon,"FARR, Richard",ALP,0.0018,0.8208,34.27,38.92,43.84
+Croydon,"BRINDLEY, Glenn",ON,0.0002,0.066,34.71,39.05,43.54
+Croydon,"FERNANDO, Lini",GRN,0.0,0.1136,31.33,35.16,40.12
+Croydon,"GRIMSHAW, Beth",VNS,0.0,0.0,,,
+Croydon,"THOMAS, Nofoao",FFP,0.0,0.0,,,
+Croydon,"SCHWAB, Nathan",LDP,0.0,0.0,,,
+Croydon,"VANDERWOLF, David",IND*,0.0,0.0,,,
+Dandenong,"WILLIAMS, Gabrielle",ALP,0.8206,0.9962,48.58,54.17,59.79
+Dandenong,"WRIGHT, Glenda",ON,0.082,0.6586,39.58,44.95,50.53
+Dandenong,"BILLINGS, William",LP,0.0964,0.3406,42.2,47.71,52.86
+Dandenong,"D'ARCY, Catherine",GRN,0.001,0.0046,35.05,40.11,54.92
+Dandenong,"HARVEY, Jacqueline",FFP,0.0,0.0,,,
+Dandenong,"McMAHON, Jack",VNS,0.0,0.0,,,
+Dandenong,"FORTE, Jordan",LDP,0.0,0.0,,,
+Dandenong,"KHAN, Arshad Ali",IND*,0.0,0.0,,,
+Eildon,"MCLEISH, Cindy",LP,0.9892,0.993,55.78,61.24,66.44
+Eildon,"BARBER, Tim",ON,0.0078,0.4726,37.41,41.43,45.99
+Eildon,"GIBSON, Kevin",ALP,0.0004,0.2632,33.84,37.91,42.19
+Eildon,"GULPILIL, Talia",GRN,0.0026,0.2712,31.37,35.18,39.22
+Eildon,"LITTLE, Dylan",VNS,0.0,0.0,,,
+Eildon,"MOSELY, Joshua",FFP,0.0,0.0,,,
+Eildon,"BOND, Chloe",AJP,0.0,0.0,,,
+Eildon,"WARD, Tom",IND*,0.0,0.0,,,
+Eltham,"BYRNES, Paul",LP,0.8016,0.9956,48.18,53.68,59.21
+Eltham,"WARD, Vicki",ALP,0.1938,0.938,41.19,46.52,51.99
+Eltham,"WEATHERLEY, Jessie",ON,0.0004,0.0058,39.25,42.99,48.4
+Eltham,"BUSBRIDGE, Rachel",GRN,0.0042,0.0606,37.11,42.44,48.67
+Eltham,"RICHES, Maeve",VNS,0.0,0.0,,,
+Eltham,"BROOKSBY, Louise",AJP,0.0,0.0,,,
+Eltham,"MARASEA, Steven",LDP,0.0,0.0,,,
+Essendon,"LE DEUX, Tommy",LP,0.49,0.8678,45.37,50.66,55.99
+Essendon,"THEODOSIS, Kat",ALP,0.305,0.7524,44.29,49.14,54.19
+Essendon,"BARNES, John",ON,0.0068,0.0552,39.05,44.29,50.24
+Essendon,"WILLIAMS, James",GRN,0.0374,0.1426,40.22,46.26,55.75
+Essendon,"YILDIZ, Oscar",IND*,0.1608,0.182,49.6,54.05,58.97
+Essendon,"KEDEM, Michal",VNS,0.0,0.0,,,
+Essendon,"MOHAMUD, Anab",IND*,0.0,0.0,,,
+Essendon,"ADAMS, Ava",IND*,0.0,0.0,,,
+Eureka,"BALLINGER, Paul",ON,0.4778,0.8182,45.72,50.92,56.09
+Eureka,"MUIR, Emma",LP,0.3418,0.4098,48.86,53.52,58.46
+Eureka,"SETTLE, Michaela",ALP,0.1464,0.7034,42.02,46.79,51.8
+Eureka,"McCOLL, Sam",GRN,0.034,0.0686,40.35,49.82,55.25
+Eureka,"RAVEN, Andy",VNS,0.0,0.0,,,
+Eureka,"MORRISON, Wendy",AJP,0.0,0.0,,,
+Eureka,"HARKNESS, Ian Maxwell",FFP,0.0,0.0,,,
+Eureka,"VENDITTI-TAYLOR, Steven",IND*,0.0,0.0,,,
+Eureka,"ZIVKOVIC, Belinda",IND*,0.0,0.0,,,
+Euroa,"CLEELAND, Annabelle",NP,0.9836,0.9994,53.87,58.87,64.25
+Euroa,"CAMPBELL, Steve",ON,0.0164,0.9512,36.31,41.35,46.3
+Euroa,"KELLY, Julian",ALP,0.0,0.0488,31.76,35.97,39.87
+Euroa,"REGAN, Alysia",GRN,0.0,0.0006,27.65,30.63,31.2
+Euroa,"LYLE, Zoe",VNS,0.0,0.0,,,
+Euroa,"TAOUK, Moussa",FFP,0.0,0.0,,,
+Euroa,"KELLY, Karina",AJP,0.0,0.0,,,
+Evelyn,"VALLENCE, Bridget",LP,0.9992,0.9996,57.72,62.44,67.11
+Evelyn,"KILLEY, Daniel",ON,0.0,0.1876,34.9,38.98,43.04
+Evelyn,"SHERLOCK, Analise",ALP,0.0004,0.6706,33.37,37.75,42.28
+Evelyn,"HENLEY, Andrew",GRN,0.0004,0.1422,30.73,34.71,39.33
+Evelyn,"O'BRIEN, Michelle",FFP,0.0,0.0,,,
+Evelyn,"SCANLON, James",VNS,0.0,0.0,,,
+Evelyn,"HEALD, Jan",AJP,0.0,0.0,,,
+Footscray,"PEREYRA, Elena",GRN,0.4798,0.8346,45.2,50.82,59.43
+Footscray,"HALL, Katie",ALP,0.2902,0.5606,45.51,50.15,55.67
+Footscray,"MARSH, Jess",IND*,0.2276,0.3582,46.94,51.11,55.86
+Footscray,"CHANG, Tim",LP,0.0024,0.2136,38.42,42.53,46.51
+Footscray,"LOPEZ, Alexander",ON,0.0,0.033,33.0,36.93,41.16
+Footscray,"DUFF, Jasmine",VNS,0.0,0.0,,,
+Footscray,"FLORES, Ana",FFP,0.0,0.0,,,
+Footscray,"IBRAHIM, Marcus",IND*,0.0,0.0,,,
+Footscray,"DINH, Hai",IND*,0.0,0.0,,,
+Footscray,"CUMMING, Catherine",IND*,0.0,0.0,,,
+Footscray,"LEWIS, Daniel",Free Palestine,0.0,0.0,,,
+Footscray,"NGUYEN, Minh Quan",The West Party,0.0,0.0,,,
+Footscray,"FELATE, Andualem",The Republican Make Australia Great Again,0.0,0.0,,,
+Footscray,"CALDER, Daryle",Climate Action Now,0.0,0.0,,,
+Footscray,"HESS, Kristina",I'm Voting to Avoid the Fine,0.0,0.0,,,
+Frankston,"AMBRY, Bree",LP,0.55,0.7438,47.4,52.58,57.72
+Frankston,"EDBROOKE, Paul",ALP,0.321,0.8068,43.56,48.85,54.78
+Frankston,"STAFFORD, Paul",ON,0.0514,0.257,41.36,46.45,51.74
+Frankston,"GOULAS, Katie",GRN,0.0776,0.1924,40.72,47.29,58.63
+Frankston,"CHEESEMAN, Andrew",VNS,0.0,0.0,,,
+Frankston,"KNIPE, Jeff",HMP,0.0,0.0,,,
+Frankston,"HARMAN, Julie",AJP,0.0,0.0,,,
+Frankston,"NICHOLES, Peter",FFP,0.0,0.0,,,
+Frankston,"BARRY, Nicola",IND*,0.0,0.0,,,
+Frankston,"ABRAHAM, Chrysten",IND*,0.0,0.0,,,
+Frankston,"KELSALL, Henry",IND*,0.0,0.0,,,
+Geelong,"DE LORENZO, John",ON,0.1376,0.6796,41.36,46.57,51.87
+Geelong,"COUZENS, Christine",ALP,0.462,0.7508,45.82,51.25,56.93
+Geelong,"POBJOY, Andy",LP,0.2076,0.3014,46.71,51.86,56.51
+Geelong,"FLYNN, Emilie",GRN,0.1928,0.2682,42.6,54.51,59.92
+Geelong,"BENGTSSON, Maria",FFP,0.0,0.0,,,
+Geelong,"VANDERPOL, Bree",VNS,0.0,0.0,,,
+Geelong,"MACPHERSON, Pippa",AJP,0.0,0.0,,,
+Geelong,"GRULL, Brenden",Socialist Alliance,0.0,0.0,,,
+Gippsland East,"RENDELL, Gemma",NP,0.9922,1.0,54.56,59.38,64.5
+Gippsland East,"GOODMAN, Steve",ON,0.0078,0.9994,35.51,40.63,45.44
+Gippsland East,"STEPHENS, Sonny",ALP,0.0,0.0004,27.42,32.98,32.36
+Gippsland East,"MUNRO, Ash",GRN,0.0,0.0002,24.6,24.6,24.6
+Gippsland East,"MUIR, Ricky","Shooters, Fishers & Farmers Vic",0.0,0.0,,,
+Gippsland East,"ESPESETH, Amy",VNS,0.0,0.0,,,
+Gippsland East,"WATERS, Alison",FFP,0.0,0.0,,,
+Gippsland South,"O'BRIEN, Danny",NP,0.9922,1.0,54.0,58.94,64.3
+Gippsland South,"WILKIE, Bianca",ON,0.0078,0.9694,36.3,41.18,46.07
+Gippsland South,"BARRY-MACAULAY, Amy",ALP,0.0,0.0134,31.88,34.62,37.59
+Gippsland South,"EVANS, Zave",GRN,0.0,0.0172,27.62,30.41,33.01
+Gippsland South,"McGENNISKEN, Lachie",VNS,0.0,0.0,,,
+Gippsland South,"McAULIFFE, Jessica",AJP,0.0,0.0,,,
+Gippsland South,"SCHUHMANN, Phillip",IND*,0.0,0.0,,,
+Glen Waverley,"SUN, Jacky",LP,0.934,1.0,51.01,56.51,62.29
+Glen Waverley,"MULLAHY, John",ALP,0.0658,0.9902,37.81,43.52,49.01
+Glen Waverley,"WHITE, Toyo",GRN,0.0002,0.0096,31.59,37.99,44.02
+Glen Waverley,"COX, Brad",ON,0.0,0.0002,33.95,33.95,33.95
+Glen Waverley,"SIOW, Nicholas",VNS,0.0,0.0,,,
+Glen Waverley,"NADARAJAH, Segar",Labour DLP,0.0,0.0,,,
+Glen Waverley,"DOBIE, Anna",FFP,0.0,0.0,,,
+Greenvale,"WALTERS, Iwan",ALP,0.3686,0.991,42.95,48.61,54.23
+Greenvale,"OVEREND, Jim",LP,0.6206,0.9438,46.3,51.7,57.24
+Greenvale,"MOORE, Chris",ON,0.0106,0.0618,41.0,46.27,51.32
+Greenvale,"MCGINNESS, Declan",GRN,0.0002,0.0032,38.14,41.25,47.9
+Greenvale,"TITHERIDGE, Michael",FFP,0.0,0.0002,38.75,38.75,38.75
+Greenvale,"SMELOV, Kirill",VNS,0.0,0.0,,,
+Greenvale,"FURINA, Rosanna",AJP,0.0,0.0,,,
+Greenvale,"ZOUGHAIB, Yehya",IND*,0.0,0.0,,,
+Greenvale,"SAID, Hassan",IND*,0.0,0.0,,,
+Greenvale,"YOHANNA, Mazen",Australian Citizens Party (Victorian Division),0.0,0.0,,,
+Hastings,"SCHIEFLER, Frank",LP,0.9148,0.9362,52.78,57.57,62.68
+Hastings,"ANGELICO, Peter",ON,0.0644,0.4386,40.46,45.16,51.45
+Hastings,"MERCURIO, Paul",ALP,0.015,0.551,37.34,41.79,47.05
+Hastings,"WILLOUGHBY, Isaac",GRN,0.0058,0.0742,34.09,37.87,48.61
+Hastings,"DENMAN, Michael",VNS,0.0,0.0,,,
+Hastings,"COULSON, Chloe",AJP,0.0,0.0,,,
+Hastings,"SMART, Jason",IND*,0.0,0.0,,,
+Hawthorn,"PESUTTO, John",LP,0.9472,1.0,51.91,59.36,65.73
+Hawthorn,"CROSBY, Clive",ALP,0.0008,0.3132,32.89,38.12,43.66
+Hawthorn,"IBUKI, Shima",IND*,0.051,0.3976,38.69,44.72,50.65
+Hawthorn,"ROCHA, Kylie",GRN,0.001,0.2892,33.04,38.87,44.24
+Hawthorn,"PRIBILOVICS, Paul",ON,0.0,0.0,,,
+Hawthorn,"McENEARNEY, Tess",VNS,0.0,0.0,,,
+Hawthorn,"NICOLL, Adam",FFP,0.0,0.0,,,
+Ivanhoe,"LOPEZ RIOS, Oscar",LP,0.3942,0.9826,43.81,49.01,54.46
+Ivanhoe,"CARBINES, Anthony",ALP,0.4154,0.6596,45.92,51.22,56.42
+Ivanhoe,"CRAWLEY, Nina",GRN,0.1904,0.3538,44.81,50.43,56.11
+Ivanhoe,"HUTCHINSON, Wayne",ON,0.0,0.004,38.3,39.94,44.54
+Ivanhoe,"MILNE, Ben",VNS,0.0,0.0,,,
+Ivanhoe,"CASONATO, Ren",FFP,0.0,0.0,,,
+Ivanhoe,"BERGMAN, Dora",IND*,0.0,0.0,,,
+Ivanhoe,"KENNEDY, Michelle",IND*,0.0,0.0,,,
+Kalkallo,"SPENCE, Ros",ALP,0.7718,0.9992,47.5,53.45,59.64
+Kalkallo,"DADISHO, Eddie",LP,0.2204,0.8234,41.57,47.27,52.92
+Kalkallo,"STEANS, Troy",ON,0.0078,0.1766,37.48,42.83,48.55
+Kalkallo,"TIWARI, Payal",GRN,0.0,0.0008,30.56,35.05,35.74
+Kalkallo,"DOBSON, Jeanette",FFP,0.0,0.0,,,
+Kalkallo,"MILLETT, Courtney",VNS,0.0,0.0,,,
+Kalkallo,"LYNCH, Matthew",AJP,0.0,0.0,,,
+Kalkallo,"ISLAM, Rebeca",IND*,0.0,0.0,,,
+Kew,"WILSON, Jess",LP,0.8248,1.0,48.31,55.1,63.05
+Kew,"TORNEY, Sophie",IND*,0.1752,0.818,40.11,46.19,52.37
+Kew,"SUN, David",ALP,0.0,0.149,32.85,37.63,42.66
+Kew,"CARTER, Jackie",GRN,0.0,0.033,32.32,38.06,43.93
+Kew,"LAIRD, David",ON,0.0,0.0,,,
+Kew,"LINCOLNE, Samantha",VNS,0.0,0.0,,,
+Kew,"SEELEY, Ann",FFP,0.0,0.0,,,
+Kew,"LIANG, Man",IND*,0.0,0.0,,,
+Kew,"HALES, Juliet",AJP,0.0,0.0,,,
+Kew,"DAVIS, Finlay",IND*,0.0,0.0,,,
+Kororoit,"GRIGOROVITCH, Luba",ALP,0.4814,0.9762,44.17,49.93,56.0
+Kororoit,"CHAKOMA, Jack",LP,0.4274,0.6844,46.1,51.41,56.76
+Kororoit,"MELNIKOV, Seva",ON,0.0876,0.3286,42.01,47.31,52.48
+Kororoit,"MCDONALD, Joyce",GRN,0.0036,0.0108,38.78,43.63,57.32
+Kororoit,"HASSAN, Rayan",VNS,0.0,0.0,,,
+Kororoit,"PATTERSON, Nick",FFP,0.0,0.0,,,
+Kororoit,"KANDPAL, Vasundhara",AJP,0.0,0.0,,,
+Kororoit,"PIDI, Divya",The Republican Make Australia Great Again,0.0,0.0,,,
+Kororoit,"SOUTHERN, Donna",The West Party,0.0,0.0,,,
+Lara,"SPYROS, Steven",ON,0.6528,0.9956,46.24,51.72,57.13
+Lara,"GEORGE, Ella",ALP,0.3106,0.936,42.8,48.15,53.62
+Lara,"BEDDOE, Tim",LP,0.0038,0.0062,46.23,50.96,54.63
+Lara,"SLATER, Theresa",GRN,0.0328,0.0622,44.29,50.24,55.77
+Lara,"RANDALL, Oliver",VNS,0.0,0.0,,,
+Lara,"UWIZEYIMANA, Tina",FFP,0.0,0.0,,,
+Lara,"LONG, Samantha",AJP,0.0,0.0,,,
+Lara,"HATHWAY, Sarah",Socialist Alliance,0.0,0.0,,,
+Laverton,"CONNOLLY, Sarah",ALP,0.7564,0.9678,47.73,53.72,59.68
+Laverton,"NOUNE, Ghada",LP,0.1976,0.6458,42.51,47.78,53.35
+Laverton,"PAREDES, Rufo",ON,0.0246,0.3048,38.97,43.85,49.48
+Laverton,"NGUYEN, Lucy",GRN,0.0214,0.0816,37.24,42.82,58.44
+Laverton,"RUDD, Van Thanh",VNS,0.0,0.0,,,
+Laverton,"GARCIA, Jo",FFP,0.0,0.0,,,
+Laverton,"MANSOURI JAJAEE, Shohre",AJP,0.0,0.0,,,
+Laverton,"MENDELSOHN, Emma",The West Party,0.0,0.0,,,
+Laverton,"CHITTEDI, Suchithra",The Republican Make Australia Great Again,0.0,0.0,,,
+Lowan,"KEALY, Emma",NP,0.9982,1.0,56.81,62.07,67.19
+Lowan,"PARTRIDGE, Andrew",ON,0.0018,0.987,33.02,37.99,43.22
+Lowan,"PAVLOVICH, Sue",ALP,0.0,0.0096,26.89,30.74,34.32
+Lowan,"MORAN, Jeff",GRN,0.0,0.0034,24.62,26.8,30.81
+Lowan,"DOWNEY, Jos",VNS,0.0,0.0,,,
+Lowan,"ELMES, Lee-Ann",FFP,0.0,0.0,,,
+Lowan,"BUTLER, Kieran",IND*,0.0,0.0,,,
+Lowan,"HYSLOP, Karen",Australian Democrats,0.0,0.0,,,
+Macedon,"KENDALL, Kate",LP,0.5564,0.7112,47.98,53.09,58.48
+Macedon,"DEATH, Annette",ALP,0.2944,0.8032,43.02,48.54,54.53
+Macedon,"PAROLIN, Damien",ON,0.071,0.3022,41.91,46.99,52.35
+Macedon,"MCRAE MCLEOD, Marley",GRN,0.0782,0.1834,39.94,47.55,58.41
+Macedon,"WILSON, Catherine",VNS,0.0,0.0,,,
+Macedon,"KORINFSKY, Natalie",AJP,0.0,0.0,,,
+Macedon,"MAYNE, Bernadette",FFP,0.0,0.0,,,
+Macedon,"SETON, Michael",IND*,0.0,0.0,,,
+Macedon,"BONANNO, Dom",IND*,0.0,0.0,,,
+Malvern,"HAMER, Amelia",LP,0.9992,1.0,57.87,63.44,68.89
+Malvern,"KATSIKIS, Georgia",GRN,0.0008,0.6612,31.33,36.85,42.43
+Malvern,"MARTIN, Peter",ALP,0.0,0.3388,30.62,36.15,41.26
+Malvern,"BODE, Edward",ON,0.0,0.0,,,
+Malvern,"LEONARD, Gavin",VNS,0.0,0.0,,,
+Malvern,"SEGAL, David",LDP,0.0,0.0,,,
+Malvern,"ZIGOURAS, Christina",IND*,0.0,0.0,,,
+Melbourne,"SANDELL, Ellen",GRN,0.9954,0.9998,57.4,63.88,70.11
+Melbourne,"GRIFFITHS, Davydd",ALP,0.0046,0.2538,35.25,40.19,45.79
+Melbourne,"CAMILLO, Rafael",LP,0.0,0.6602,30.87,35.44,40.57
+Melbourne,"COURTIS, Phillip",ON,0.0,0.0862,24.6,28.5,32.77
+Melbourne,"VAN DEN LAMB, Jordan",VNS,0.0,0.0,,,
+Melbourne,"MCCATHIE, Rob",LDP,0.0,0.0,,,
+Melbourne,"JONES, Naomi",AJP,0.0,0.0,,,
+Melbourne,"YUSUF, Mohamed",IND*,0.0,0.0,,,
+Melbourne,"TUCKFIELD, Rowan",IND*,0.0,0.0,,,
+Melton,"KATSELIS, Matthew",ON,0.654,0.8968,47.16,52.69,58.19
+Melton,"BORG, Broden",ALP,0.132,0.7798,41.04,46.04,51.4
+Melton,"BINGHAM, Jarrod",LP,0.214,0.323,46.12,51.82,57.45
+Melton,"LEVCHENKOVA, Veronika",GRN,0.0,0.0004,45.66,48.38,48.07
+Melton,"KELLY, Daire",VNS,0.0,0.0,,,
+Melton,"WEST, Marlene",FFP,0.0,0.0,,,
+Melton,"ADIN-JAMES, Fiona",AJP,0.0,0.0,,,
+Melton,"FARUQ, M.D. Omor",IND*,0.0,0.0,,,
+Melton,"FRASER, Jason",IND*,0.0,0.0,,,
+Melton,"LEGRO, Hayden",The West Party,0.0,0.0,,,
+Melton,"PERERA, Jason Spencer",IND*,0.0,0.0,,,
+Mildura,"BENHAM, Jade",NP,0.636,1.0,45.66,51.71,57.78
+Mildura,"COOPER, Guy",ON,0.364,1.0,42.22,48.3,54.34
+Mildura,"ZIGOURAS, Stella",ALP,0.0,0.0,,,
+Mildura,"NAYEF, Renee",VNS,0.0,0.0,,,
+Mildura,"CLEMENTS, Katie",GRN,0.0,0.0,,,
+Mildura,"NTAHOMVUKIYE, Joselyne",FFP,0.0,0.0,,,
+Mildura,"FRIES, Vanessa",AJP,0.0,0.0,,,
+Mill Park,"NEALY, Elizabeth",ALP,0.4446,0.964,44.03,49.59,55.14
+Mill Park,"TSOUTSOULIS, Arthur",ON,0.2888,0.6636,44.14,49.33,54.59
+Mill Park,"DRYSDALE, Joel",LP,0.2662,0.371,47.2,52.3,57.44
+Mill Park,"ZACHARIAS, Binoy",GRN,0.0004,0.0014,39.42,48.62,56.57
+Mill Park,"VAN DER END, Kath",FFP,0.0,0.0,,,
+Mill Park,"LEVENS, Eve",AJP,0.0,0.0,,,
+Mill Park,"LAMBOURN, Jesse",VNS,0.0,0.0,,,
+Mill Park,"McLINDON, Aidan",IND*,0.0,0.0,,,
+Monbulk,"FITZMAURICE, Clare",LP,0.6738,0.8238,48.54,53.87,59.38
+Monbulk,"DE MARTINO, Daniela",ALP,0.1588,0.5188,42.66,47.92,53.42
+Monbulk,"DOWELL, Adrian",ON,0.0224,0.183,39.6,44.83,50.53
+Monbulk,"BLAIR, Merran",GRN,0.145,0.4744,39.77,45.95,57.7
+Monbulk,"BRIGGS, Noah",VNS,0.0,0.0,,,
+Monbulk,"WORMALD, Alyssa",AJP,0.0,0.0,,,
+Monbulk,"MANNERS, Craig",FFP,0.0,0.0,,,
+Mordialloc,"O'HALLORAN, Paul",LP,0.708,0.9448,47.53,52.84,58.29
+Mordialloc,"RICHARDSON, Tim",ALP,0.276,0.9594,42.27,47.56,53.06
+Mordialloc,"TICEHURST, Nadia",ON,0.0116,0.063,41.88,46.72,51.2
+Mordialloc,"BRESKIN, Alex",GRN,0.0044,0.0328,36.81,41.86,52.27
+Mordialloc,"HOSSAIN, Mahee",VNS,0.0,0.0,,,
+Mordialloc,"THOMPSON, Renee",HMP,0.0,0.0,,,
+Mordialloc,"POTUCEK, Lily",FFP,0.0,0.0,,,
+Mordialloc,"VERSTEEGEN, Rachel",LDP,0.0,0.0,,,
+Mornington,"CREWTHER, Chris",LP,0.9668,0.9998,52.9,60.64,67.29
+Mornington,"BEARDS, Ashli",ON,0.0002,0.1,32.86,37.07,41.54
+Mornington,"GOFFIN, Melissa",IND*,0.033,0.58,36.62,42.59,48.61
+Mornington,"MACDONALD, Kerry",ALP,0.0,0.2702,31.2,35.71,40.38
+Mornington,"TITCHER, Kai",GRN,0.0,0.05,28.55,32.1,37.26
+Mornington,"BROWNLIE, Gene",VNS,0.0,0.0,,,
+Mornington,"MAHER, Adrian",IND*,0.0,0.0,,,
+Morwell,"MURPHY, Casey",ON,0.739,0.9994,47.26,52.78,58.53
+Morwell,"CAMERON, Martin",NP,0.2608,0.9646,42.09,47.4,52.91
+Morwell,"LUND, Tracie",ALP,0.0002,0.036,33.95,38.8,43.43
+Morwell,"HINE, Rochelle",GRN,0.0,0.0,,,
+Morwell,"ACREMAN, Natalie",VNS,0.0,0.0,,,
+Morwell,"McPHEE, Ross",Labour DLP,0.0,0.0,,,
+Morwell,"CLARKE, Brendan",FFP,0.0,0.0,,,
+Mulgrave,"FOSTER, Eden",ALP,0.8164,0.9842,48.68,53.98,59.18
+Mulgrave,"REBBECHI, Cody",ON,0.042,0.4676,39.67,44.55,49.75
+Mulgrave,"TRAN, Charles",LP,0.0504,0.2542,41.35,46.41,51.78
+Mulgrave,"COOK, Ian",IND*,0.0912,0.2938,42.56,47.93,53.66
+Mulgrave,"SCHOFIELD, Paul J",GRN,0.0,0.0002,35.76,35.76,35.76
+Mulgrave,"BUCHANAN, Connor",VNS,0.0,0.0,,,
+Mulgrave,"THEODOSSOPOULOU, Fotini",LDP,0.0,0.0,,,
+Mulgrave,"DOBRZYNSKI, Stewart",FFP,0.0,0.0,,,
+Murray Plains,"HOSKING, Brett",NP,0.9874,1.0,53.74,58.95,64.23
+Murray Plains,"SMITH, Garner",ON,0.0126,0.9998,35.77,41.06,46.26
+Murray Plains,"GRUNDY, Christine",ALP,0.0,0.0002,30.01,30.01,30.01
+Murray Plains,"MCDONALD, Ewan",FFP,0.0,0.0,,,
+Murray Plains,"COOK, Zoe",GRN,0.0,0.0,,,
+Murray Plains,"SANIF, Asyiqin",VNS,0.0,0.0,,,
+Murray Plains,"COLLARD, Peita",AJP,0.0,0.0,,,
+Narracan,"FARNHAM, Wayne",LP,0.9666,0.9862,53.19,58.6,64.76
+Narracan,"LUCAS, Ben",ON,0.03,0.712,38.55,42.96,47.84
+Narracan,"LANGLEY, Jannette",ALP,0.0008,0.2,34.62,38.64,42.92
+Narracan,"WEAVER, Alyssa",GRN,0.0026,0.1018,31.14,34.67,39.82
+Narracan,"PAGE, Moss",VNS,0.0,0.0,,,
+Narracan,"DETHLEFS, Geoff",FFP,0.0,0.0,,,
+Narre Warren North,"CRUTCHFIELD, Sebastian",ON,0.5514,0.8424,46.35,51.8,56.92
+Narre Warren North,"WILSON, Belinda",ALP,0.2276,0.8788,42.22,47.23,52.72
+Narre Warren North,"NATHANIELSZ, Shemane",LP,0.221,0.2782,48.07,53.2,58.16
+Narre Warren North,"PERRY, Hayley",GRN,0.0,0.0006,42.59,49.65,49.84
+Narre Warren North,"McCRACKEN, Lachlan",VNS,0.0,0.0,,,
+Narre Warren North,"LEAHY, Martin",HMP,0.0,0.0,,,
+Narre Warren North,"EMMANUEL, Cristina",FFP,0.0,0.0,,,
+Narre Warren North,"UTOYO, Joshua",LDP,0.0,0.0,,,
+Narre Warren South,"KOOMEN, Stefan",ALP,0.2652,0.9032,42.26,47.49,53.1
+Narre Warren South,"HAMMOND, Trevor",ON,0.332,0.6252,45.21,50.31,55.61
+Narre Warren South,"PETERSON, Norliah",LP,0.4028,0.4716,49.07,54.18,58.69
+Narre Warren South,"NAMBU, Jill",GRN,0.0,0.0,,,
+Narre Warren South,"CURRIE, Alan",FFP,0.0,0.0,,,
+Narre Warren South,"McCRACKEN, Bailey",VNS,0.0,0.0,,,
+Narre Warren South,"DENKER, Lydia",LDP,0.0,0.0,,,
+Narre Warren South,"WATSON, Scott",IND*,0.0,0.0,,,
+Nepean,"MARSH, Anthony",LP,0.9996,0.9996,58.37,63.07,67.82
+Nepean,"HERCUS, Darren",ON,0.0004,0.192,34.28,38.24,43.24
+Nepean,"SNOWBALL, Surbhi",ALP,0.0,0.7172,32.46,36.96,41.46
+Nepean,"HEALY, Sianan",GRN,0.0,0.0912,29.38,33.17,37.64
+Nepean,"WILLCOCKS, Seth",VNS,0.0,0.0,,,
+Nepean,"CHAMPION, Tamara",AJP,0.0,0.0,,,
+Nepean,"BROWN, Mike",FFP,0.0,0.0,,,
+Nepean,"TOSCANO, Joseph",IND*,0.0,0.0,,,
+Nepean,"ROBBINS, Kim",IND*,0.0,0.0,,,
+Niddrie,"BYRNE, Samantha",LP,0.6386,0.6976,50.33,55.24,59.88
+Niddrie,"TAVERNA, Jason",ON,0.2586,0.5426,44.07,49.68,55.19
+Niddrie,"CARROLL, Ben",ALP,0.102,0.7556,40.38,45.33,50.81
+Niddrie,"NGUYEN, Lana",GRN,0.0008,0.0042,35.35,40.72,52.39
+Niddrie,"METE, Domenic",Labour DLP,0.0,0.0,,,
+Niddrie,"THEODOROU, George",FFP,0.0,0.0,,,
+Niddrie,"LAWS, Brendan",VNS,0.0,0.0,,,
+Niddrie,"HASELGROVE, Salomae",AJP,0.0,0.0,,,
+Niddrie,"SFAMENI, Sam",IND*,0.0,0.0,,,
+Niddrie,"PATRIKEOS, Brett",The West Party,0.0,0.0,,,
+Niddrie,"CHITTEDI, Karthik Reddy",The Republican Make Australia Great Again,0.0,0.0,,,
+Northcote,"GOME, Campbell",GRN,0.7344,0.9972,46.8,53.45,66.48
+Northcote,"THEOPHANOUS, Kat",ALP,0.2656,0.787,42.29,48.17,53.98
+Northcote,"BRADBURY, Christopher",ON,0.0,0.1682,29.1,32.97,37.16
+Northcote,"AWAD, Lynda",LP,0.0,0.0476,33.95,38.44,42.32
+Northcote,"LARKIN, Kath",VNS,0.0,0.0,,,
+Northcote,"HILLMAN, Ian",IND*,0.0,0.0,,,
+Northcote,"PENMAN, Jim",LDP,0.0,0.0,,,
+Northcote,"PILLEY, Clive",I'm Voting to Avoid the Fine,0.0,0.0,,,
+Northcote,"CIMBARO, Richard",FFP,0.0,0.0,,,
+Northcote,"KAFEL, Hannah",Free Palestine,0.0,0.0,,,
+Oakleigh,"JUNG, Martin",LP,0.4828,0.9362,44.63,50.18,55.89
+Oakleigh,"DIMOPOULOS, Steve",ALP,0.4702,0.8808,44.86,50.36,56.26
+Oakleigh,"CARTER, Brooke",ON,0.0032,0.0482,38.09,43.14,49.2
+Oakleigh,"HSIEH, Hsiang-Han",GRN,0.0438,0.1348,40.7,46.87,56.95
+Oakleigh,"BUGTER, Rowdy",VNS,0.0,0.0,,,
+Oakleigh,"GRINTER, Matthew",FFP,0.0,0.0,,,
+Ovens Valley,"McCURDY, Tim",NP,0.9982,1.0,56.12,61.09,66.88
+Ovens Valley,"ROUEL, James",ON,0.0018,0.9192,34.48,39.32,44.07
+Ovens Valley,"SMITH, Jennifer",ALP,0.0,0.024,29.86,33.5,36.89
+Ovens Valley,"GILBERT, Benjamin",GRN,0.0,0.0568,27.34,30.44,33.53
+Ovens Valley,"FIDGE, Julian",LDP,0.0,0.0,,,
+Ovens Valley,"MURPHY, Bronwyn",VNS,0.0,0.0,,,
+Ovens Valley,"NORTON-SMITH, Carol",FFP,0.0,0.0,,,
+Ovens Valley,"LITCHFIELD, Sue",AJP,0.0,0.0,,,
+Ovens Valley,"MANNING, Steve",IND*,0.0,0.0,,,
+Pakenham,"DYSON, Radmila",LP,0.7252,0.8384,49.36,54.65,60.26
+Pakenham,"PICKERING, Warren",ON,0.2506,0.7646,42.66,47.8,54.47
+Pakenham,"SOLIVEN, Alessandra",ALP,0.0224,0.3926,38.51,43.29,48.67
+Pakenham,"YAWARI, Nasser",GRN,0.0018,0.0044,34.51,46.09,53.43
+Pakenham,"GRIGG, Stephanie",VNS,0.0,0.0,,,
+Pakenham,"HANDS, Kate",LDP,0.0,0.0,,,
+Pakenham,"HAMALAINEN, Jesse",Labour DLP,0.0,0.0,,,
+Pakenham,"DAVIES, Stephanie",IND*,0.0,0.0,,,
+Pakenham,"FRENCH, Raymond",IND*,0.0,0.0,,,
+Pakenham,"OGDEN, Lucas",IND*,0.0,0.0,,,
+Pascoe Vale,"PANOPOULOS, Angelica",GRN,0.5428,0.7812,45.27,53.64,62.28
+Pascoe Vale,"CIANFLONE, Anthony",ALP,0.392,0.4804,48.44,53.67,58.39
+Pascoe Vale,"TAGGAR, Rohit",LP,0.0646,0.5658,40.76,45.21,50.43
+Pascoe Vale,"GANCI, Rosemarie Pauline",ON,0.0006,0.1726,34.27,38.39,42.93
+Pascoe Vale,"SHAMSILI, Yasemin",VNS,0.0,0.0,,,
+Pascoe Vale,"ASHTON, Kathrine",FFP,0.0,0.0,,,
+Pascoe Vale,"HICKEY, Amanda",Free Palestine,0.0,0.0,,,
+Pascoe Vale,"LAWRENCE, Stuart",Climate Action Now,0.0,0.0,,,
+Pascoe Vale,"ANDREWARTHA, Jacob",Socialist Alliance,0.0,0.0,,,
+Pascoe Vale,"HAUPT, Kerry",I'm Voting to Avoid the Fine,0.0,0.0,,,
+Point Cook,"REID, Cameron",ON,0.3612,0.6772,45.0,50.41,55.91
+Point Cook,"HILAKARI, Mathew",ALP,0.299,0.9024,42.64,48.09,53.75
+Point Cook,"REDDY, Raja",LP,0.3372,0.4122,48.49,53.47,58.4
+Point Cook,"KRISHNA PANDI, Ponraj",GRN,0.0026,0.0082,39.3,46.77,54.68
+Point Cook,"MEURE, Keith",FFP,0.0,0.0,,,
+Point Cook,"LAINE, Taylor",VNS,0.0,0.0,,,
+Point Cook,"KELLY, Paul",Labour DLP,0.0,0.0,,,
+Point Cook,"ALLE, Kirti",The Republican Make Australia Great Again,0.0,0.0,,,
+Point Cook,"GRECH, Mark",The West Party,0.0,0.0,,,
+Polwarth,"RIORDAN, Richard",LP,0.9776,0.9996,52.92,58.39,63.95
+Polwarth,"HOLDEN, Jesse",GRN,0.0148,0.702,35.6,41.32,47.0
+Polwarth,"HUSSEIN, Hutch",ALP,0.0074,0.2954,37.17,42.15,47.36
+Polwarth,"MALCOLM, Anna",ON,0.0002,0.003,34.44,38.75,46.29
+Polwarth,"TOLLEY, Lula",VNS,0.0,0.0,,,
+Polwarth,"COLLA, Vince",FFP,0.0,0.0,,,
+Polwarth,"CARBINS, Brenton",Australian Citizens Party (Victorian Division),0.0,0.0,,,
+Prahran,"DI CAMILLO, Angelica",GRN,0.9412,0.9994,51.44,56.97,62.69
+Prahran,"WESTAWAY, Rachel",LP,0.0582,0.9956,37.36,43.04,48.57
+Prahran,"HOPPER, Meghan",ALP,0.0006,0.0038,35.98,40.98,50.79
+Prahran,"VIRSU, Shaun",ON,0.0,0.0012,27.65,32.44,32.92
+Prahran,"DOUEIHI, Clayton",VNS,0.0,0.0,,,
+Prahran,"O'NEILL, G. Daniel",AJP,0.0,0.0,,,
+Prahran,"DICKS, Max",IND*,0.0,0.0,,,
+Prahran,"FINNIGAN, Tosh-Jake",IND*,0.0,0.0,,,
+Prahran,"LEETON WATTS, George",IND*,0.0,0.0,,,
+Prahran,"MENADUE, Alan",IND*,0.0,0.0,,,
+Prahran,"WONG, Nicholas",Climate Action Now,0.0,0.0,,,
+Prahran,"JONAS, Morgan",Safety Victoria - Violent Crime Prevention,0.0,0.0,,,
+Prahran,"JONES, Daniel",Free Palestine,0.0,0.0,,,
+Preston,"LAMBERT, Nathan",ALP,0.5172,0.5922,49.32,55.17,59.64
+Preston,"GUARDIANI, Franco",ON,0.0598,0.7616,39.3,43.89,49.32
+Preston,"SANGARYA, Loki",GRN,0.3824,0.5426,41.78,55.46,60.91
+Preston,"AL KATRANJI, Hamza",LP,0.0406,0.1036,43.18,48.88,54.76
+Preston,"ASHMORE, Serena",VNS,0.0,0.0,,,
+Preston,"VALENCIA, Julio",FFP,0.0,0.0,,,
+Preston,"FOWLES, William",IND*,0.0,0.0,,,
+Preston,"CHIN, Zheng",IND*,0.0,0.0,,,
+Preston,"DATE, Tim",I'm Voting to Avoid the Fine,0.0,0.0,,,
+Preston,"DOWER, Simon",Climate Action Now,0.0,0.0,,,
+Preston,"BRYANT, Mark",Free Palestine,0.0,0.0,,,
+Richmond,"de VIETRI, Gabrielle",GRN,0.99,0.9974,55.82,62.38,67.98
+Richmond,"MCKENZIE, Sarah",ALP,0.01,0.2916,36.45,41.68,47.54
+Richmond,"APONSO, Charles",LP,0.0,0.6888,31.69,36.53,41.53
+Richmond,"RINDFLEISH, Harrison",ON,0.0,0.0222,25.17,29.24,34.36
+Richmond,"DITE, Chris",VNS,0.0,0.0,,,
+Richmond,"GRAY, Bernadette",LDP,0.0,0.0,,,
+Richmond,"MEYER, David",IND*,0.0,0.0,,,
+Richmond,"MAYNARD, Christine",IND*,0.0,0.0,,,
+Richmond,"PEAD-PHILIPSON, Jack",Australian Democrats,0.0,0.0,,,
+Ringwood,"McGOWAN, Nick",LP,0.6904,0.998,46.79,52.08,57.5
+Ringwood,"HALSE, Rachel",ALP,0.2438,0.7586,43.05,48.18,53.37
+Ringwood,"MILLS, Amy",GRN,0.0658,0.2422,41.21,47.1,52.63
+Ringwood,"O'CONNOR, John",ON,0.0,0.0012,38.28,43.87,45.19
+Ringwood,"GARDNER, Jack",VNS,0.0,0.0,,,
+Ringwood,"NORTON, Christopher William",Labour DLP,0.0,0.0,,,
+Ringwood,"HUANG, Elaine",FFP,0.0,0.0,,,
+Ringwood,"WALKER, Lyndon",AJP,0.0,0.0,,,
+Ringwood,"CUTTS, Prue",IND*,0.0,0.0,,,
+Ripon,"BUXTON, Donna",ON,0.673,0.9618,45.75,53.19,59.61
+Ripon,"HAYLETT, Martha",ALP,0.0198,0.5546,39.13,43.65,48.18
+Ripon,"ARMSTRONG, Jo",NP,0.2886,0.4058,47.35,52.26,57.35
+Ripon,"READ, Megan",LP,0.0186,0.0778,42.63,47.15,52.4
+Ripon,"DRYLIE, Tim",GRN,0.0,0.0,,,
+Ripon,"WOJTKOWSKI, Krzysztof","Shooters, Fishers & Farmers Vic",0.0,0.0,,,
+Ripon,"BRENNAN-JONES, Taylah",VNS,0.0,0.0,,,
+Ripon,"MCGRATH, Mark",FFP,0.0,0.0,,,
+Ripon,"SKRUZNY, Ronald",Labour DLP,0.0,0.0,,,
+Ripon,"BARRY, Jeff",LDP,0.0,0.0,,,
+Ripon,"ANDREI, Trevor Scott",IND*,0.0,0.0,,,
+Ripon,"QUINCE, Bernard",IND*,0.0,0.0,,,
+Rowville,"WILLIAMS, Max",LP,0.9944,0.9998,55.94,61.5,66.93
+Rowville,"SHAHBAZ, Muhammad",ALP,0.0054,0.9438,33.35,38.68,44.19
+Rowville,"WATT, Bradley",ON,0.0002,0.0228,32.89,36.58,41.24
+Rowville,"MASSEY, David",GRN,0.0,0.0336,28.86,34.26,39.42
+Rowville,"HIEMSTRA, Lars",VNS,0.0,0.0,,,
+Rowville,"DOBRZYNSKI, Fiona",FFP,0.0,0.0,,,
+Rowville,"ROBSON, Scott",LDP,0.0,0.0,,,
+Sandringham,"ROWSWELL, Brad",LP,0.9978,1.0,56.94,62.66,68.29
+Sandringham,"FOTAKIS, Timon",GRN,0.0012,0.5844,31.65,37.38,43.18
+Sandringham,"SAGRIS-DESMOND, Anastasia",ALP,0.001,0.4152,31.78,37.3,42.91
+Sandringham,"BLIGHT, Anthony",ON,0.0,0.0004,27.87,29.04,28.91
+Sandringham,"STEVENSON, Lauren",VNS,0.0,0.0,,,
+Shepparton,"SALI, Shane",NP,0.9124,1.0,50.33,55.81,61.71
+Shepparton,"BRYANT, Phillip",ON,0.0876,1.0,38.29,44.19,49.67
+Shepparton,"FIN, Cayla",ALP,0.0,0.0,,,
+Shepparton,"HOCKING, Karen",VNS,0.0,0.0,,,
+Shepparton,"VERNEY, Grace",GRN,0.0,0.0,,,
+Shepparton,"WHITE, Alison",FFP,0.0,0.0,,,
+Shepparton,"COSTA, Lou",IND*,0.0,0.0,,,
+Shepparton,"VARKEY, Johnson",IND*,0.0,0.0,,,
+Shepparton,"MURPHY-GINGER, Faith",AJP,0.0,0.0,,,
+South Barwon,"PETTIT, Libby",LP,0.664,0.932,46.94,52.35,57.92
+South Barwon,"THISTLETON, Rebecca",ALP,0.3118,0.9296,42.79,48.11,53.75
+South Barwon,"GEARD, Josh",ON,0.0132,0.0692,41.8,46.56,51.55
+South Barwon,"SCHERRER, Izzy",GRN,0.011,0.0692,38.4,43.19,53.21
+South Barwon,"GORMAN, Madilyn",VNS,0.0,0.0,,,
+South Barwon,"BARRON, Alan",FFP,0.0,0.0,,,
+South Barwon,"NELSON, Ron",IND*,0.0,0.0,,,
+South Barwon,"HEDLEY, Freya",Socialist Alliance,0.0,0.0,,,
+South-West Coast,"BRITNELL, Roma",LP,0.9998,0.9998,61.1,66.5,71.61
+South-West Coast,"HUGHES, Richard",ON,0.0,0.4112,30.37,35.12,40.34
+South-West Coast,"GOVANSTONE, Andrew",ALP,0.0,0.5158,28.23,32.73,37.53
+South-West Coast,"WATTS, Silver Rose",GRN,0.0002,0.0732,25.79,29.22,33.76
+South-West Coast,"SHEPPARD, Hera",VNS,0.0,0.0,,,
+South-West Coast,"BUCHAN, Tamhas",FFP,0.0,0.0,,,
+St Albans,"SULEYMAN, Natalie",ALP,0.408,0.9636,43.25,49.08,55.34
+St Albans,"DUNSTAN, Rob",LP,0.4784,0.6656,46.63,52.28,57.57
+St Albans,"COWELL, John",ON,0.1096,0.3608,42.61,47.77,53.27
+St Albans,"HUYNH, Thuc Bao",GRN,0.004,0.01,38.85,42.98,59.62
+St Albans,"NGUYEN, Leanna",VNS,0.0,0.0,,,
+St Albans,"HAKIZIMANA, Alex",FFP,0.0,0.0,,,
+St Albans,"JANTEN, Kerry",IND*,0.0,0.0,,,
+St Albans,DAVINDER KAUR,The Republican Make Australia Great Again,0.0,0.0,,,
+St Albans,"WALKER, Luân",The West Party,0.0,0.0,,,
+Sunbury,"DABROWSKI, Elita",ON,0.412,0.7258,45.3,50.73,56.36
+Sunbury,"COTTOM, Simmone",LP,0.4742,0.5542,49.15,54.09,58.79
+Sunbury,"BULL, Josh",ALP,0.1132,0.7174,41.26,45.98,51.23
+Sunbury,"GRANGER-BROWN, Lauren",GRN,0.0006,0.0026,37.94,48.33,53.23
+Sunbury,"MOHR, Rohanna",AJP,0.0,0.0,,,
+Sunbury,"BATRES, Elmer",FFP,0.0,0.0,,,
+Sunbury,"STAFFORD, John",Labour DLP,0.0,0.0,,,
+Sunbury,"BREMNER, Adam",VNS,0.0,0.0,,,
+Sunbury,"MEDCRAFT, Steve Jack",IND*,0.0,0.0,,,
+Sunbury,"VINE, Geoff",The West Party,0.0,0.0,,,
+Sunbury,"BETHI, Bhasker Reddy",The Republican Make Australia Great Again,0.0,0.0,,,
+Sydenham,"RASIC, Uros",ALP,0.186,0.8468,41.82,46.81,52.22
+Sydenham,"BAUCH, Joh",ON,0.2832,0.5522,45.17,50.15,55.22
+Sydenham,"MOUSSI, Nathalie",LP,0.5306,0.5996,49.68,54.23,58.71
+Sydenham,"JANE, Maggie",GRN,0.0002,0.0014,35.94,43.92,52.4
+Sydenham,"CROES, Nancy G",FFP,0.0,0.0,,,
+Sydenham,"KHAN, Shania",VNS,0.0,0.0,,,
+Sydenham,"SINCLAIR, Brandon",Labour DLP,0.0,0.0,,,
+Sydenham,"POON, Bruce",AJP,0.0,0.0,,,
+Sydenham,"KERR, Maria",IND*,0.0,0.0,,,
+Sydenham,"VANDENBERG, Ashleigh",IND*,0.0,0.0,,,
+Sydenham,"LANCASHIRE, Bruce",The West Party,0.0,0.0,,,
+Sydenham,"LANKALA KENDERLA, Laxmi",The Republican Make Australia Great Again,0.0,0.0,,,
+Tarneit,"WIGHT, Dylan",ALP,0.44,0.9626,43.88,49.56,55.28
+Tarneit,"UPPARLAPALLE, Venkat Ram",LP,0.4288,0.623,46.81,52.13,57.18
+Tarneit,"VILLAGONZALO, Walter",ON,0.127,0.4046,42.92,48.03,53.02
+Tarneit,"RIFAI, A. Raheem",GRN,0.0042,0.0098,38.85,46.2,57.96
+Tarneit,"VAN KEULEN, Leah",VNS,0.0,0.0,,,
+Tarneit,"NIYONGABIRE, Horizana",FFP,0.0,0.0,,,
+Tarneit,"RAHN, Maurita",AJP,0.0,0.0,,,
+Tarneit,"ISLAM, SM Zaberul",IND*,0.0,0.0,,,
+Tarneit,"MOINUDDIN, Aijaz",IND*,0.0,0.0,,,
+Tarneit,"AHMED, Rahima Ibrahim",IND*,0.0,0.0,,,
+Tarneit,"SUDHAGANI, Sindhu",The Republican Make Australia Great Again,0.0,0.0,,,
+Tarneit,"ELSBURY, Andrew",The West Party,0.0,0.0,,,
+Thomastown,"HALFPENNY, Bronwyn",ALP,0.6312,0.9918,45.71,51.7,57.6
+Thomastown,"ANTHONY, Nadia",ON,0.1064,0.4898,41.2,46.5,52.26
+Thomastown,"STOJCEVSKI, Belinda",LP,0.2618,0.517,44.4,50.05,55.66
+Thomastown,"TREWELLA, Gavin",GRN,0.0006,0.0014,35.79,48.13,58.64
+Thomastown,"REDDY, Priya",VNS,0.0,0.0,,,
+Thomastown,"RANCIE, Rob",FFP,0.0,0.0,,,
+Warrandyte,"WERNER, Nicole",LP,0.9978,1.0,56.88,62.41,67.9
+Warrandyte,"PATERSON, Rebecca",ALP,0.0022,0.831,32.76,38.02,43.33
+Warrandyte,"MURADIAN, Vanessa",GRN,0.0,0.1652,29.68,35.25,41.45
+Warrandyte,"BURNSIDE, Mark",ON,0.0,0.0038,31.74,34.78,36.77
+Warrandyte,"STANLEY, John",VNS,0.0,0.0,,,
+Warrandyte,"SCHWAB, Caleb",LDP,0.0,0.0,,,
+Wendouree,"ADDISON, Juliana",ALP,0.3878,0.9424,43.48,48.99,54.84
+Wendouree,"RONAN, Gav",LP,0.4536,0.5954,47.68,52.76,57.65
+Wendouree,"ROBINSON, Stuart",ON,0.146,0.4358,43.3,48.15,53.35
+Wendouree,"BURNS, Ellen",GRN,0.0126,0.0264,39.29,49.62,57.93
+Wendouree,"MEAGHER, Chris",VNS,0.0,0.0,,,
+Wendouree,"COLLINS, Melissa",AJP,0.0,0.0,,,
+Wendouree,"BYRNE, Ruth",FFP,0.0,0.0,,,
+Werribee,"LISTER, John",ALP,0.4124,0.9444,43.58,49.21,55.03
+Werribee,"PATERAS, Paul",ON,0.337,0.7216,44.43,49.63,55.25
+Werribee,"CLARK, Reece",LP,0.25,0.3314,47.41,52.95,57.62
+Werribee,"KUMAR, Tushar",GRN,0.0006,0.0026,39.12,47.08,54.89
+Werribee,"MUNRO, Sue",VNS,0.0,0.0,,,
+Werribee,"EMERSON, Matt",FFP,0.0,0.0,,,
+Werribee,"ORCHARD, Jeremy",Labour DLP,0.0,0.0,,,
+Werribee,"RAIZADA, Monica Sharma",IND*,0.0,0.0,,,
+Werribee,"HOPPER, Paul",The West Party,0.0,0.0,,,
+Werribee,"KAYAGURLA, Sandhya",The Republican Make Australia Great Again,0.0,0.0,,,
+Williamstown,"LINDEMANN, Paul",LP,0.4308,0.821,44.75,50.26,56.11
+Williamstown,"HORNE, Melissa",ALP,0.4092,0.705,45.32,50.9,56.93
+Williamstown,"HOCKING, Ben",GRN,0.1506,0.3256,41.68,49.34,59.7
+Williamstown,"LOUGHNAN, Catherine",ON,0.0094,0.1484,38.25,43.07,48.94
+Williamstown,"MARTIN, Oskar",VNS,0.0,0.0,,,
+Williamstown,"O'REGAN, Bruce",FFP,0.0,0.0,,,
+Williamstown,"BRIFFA, Tony",IND*,0.0,0.0,,,
+Williamstown,"YARRA, Sagar Reddy",The Republican Make Australia Great Again,0.0,0.0,,,
+Williamstown,"GANNON, Gill",The West Party,0.0,0.0,,,
+Yan Yean,"DOW, Amanda",LP,0.8078,0.8444,51.7,56.42,60.93
+Yan Yean,"KATHAGE, Lauren",ALP,0.0692,0.7752,39.04,43.78,49.62
+Yan Yean,"JOHNSON, Jeremy",ON,0.122,0.3768,42.25,47.57,54.3
+Yan Yean,"MOHAMMED, Gufran",GRN,0.001,0.0036,34.09,37.98,52.16
+Yan Yean,"BELL, Andrew",VNS,0.0,0.0,,,
+Yan Yean,"HALL, James",FFP,0.0,0.0,,,
+Yan Yean,"OKATAN, Sinan",AJP,0.0,0.0,,,
+Yan Yean,"CHEERS, Troy",LDP,0.0,0.0,,,

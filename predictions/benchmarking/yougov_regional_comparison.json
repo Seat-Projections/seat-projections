@@ -1,0 +1,46 @@
+{
+  "source": "https://actionnetwork.org/user_files/user_files/000/146/615/original/yougov-vic-mrp-treaty-report-state-voting-intetion-treaty-support.pdf",
+  "fieldwork": [
+    "2026-06-16",
+    "2026-07-10"
+  ],
+  "district_weight": "2022 formal votes (proxy, not current enrolment)",
+  "midyear_cutoff": "2026-07-12",
+  "midyear": {
+    "ALP": 23.33333333333333,
+    "LNP": 27.66666666666667,
+    "ON": 24.0,
+    "GRN": 13.666666666666664,
+    "OTH": 11.333333333333336,
+    "_polls": [
+      "demosau 2026-06-11",
+      "freshwater 2026-06-08",
+      "resolve 2026-06-12"
+    ]
+  },
+  "current": {
+    "ALP": 21.9,
+    "LNP": 31.3,
+    "ON": 21.6,
+    "GRN": 14.3,
+    "OTH": 10.9,
+    "_polls": [
+      "Newspoll / Pyxis 2026-10-22",
+      "demosau 2026-11-05",
+      "redbridge-accent 2026-11-10",
+      "resolve 2026-11-07",
+      "roy-morgan 2026-10-29"
+    ]
+  },
+  "excluded_midyear_records": [
+    "redbridge-2026-07-trades-hall",
+    "redbridge-accent-2026-06-afr"
+  ],
+  "method": "Normalise rounded seat primaries, aggregate to Council regions, rake to midyear then current polling. Recalibrate published model region shares to current polling for a like-for-like geography comparison.",
+  "limitations": [
+    "Old regional pattern assumed stable",
+    "Midyear register may be incomplete",
+    "No MRP uncertainty draws available",
+    "Not a seat forecast"
+  ]
+}

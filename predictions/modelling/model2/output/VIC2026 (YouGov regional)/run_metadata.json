@@ -1,0 +1,152 @@
+{
+  "model": "model2",
+  "run_id": "VIC2026 (YouGov regional)",
+  "timestamp": "2026-11-18T07:42:45+00:00",
+  "git_commit": "11f0702d1ebbf13edbd1652bff329d88ac27b832",
+  "runs": 5000,
+  "seed": 1,
+  "noise": {
+    "poll_sd": 2.5,
+    "region_sd": 2.0,
+    "seat_sd": 3.5,
+    "flow_state": 0.15,
+    "flow_seat": 0.05
+  },
+  "on_priors": {
+    "ON->LP|LP,ALP": [
+      0.65,
+      0.8,
+      0.9
+    ],
+    "LP->ON|ON,ALP": [
+      0.45,
+      0.65,
+      0.8
+    ],
+    "ALP->LP|LP,ON": [
+      0.45,
+      0.6,
+      0.75
+    ],
+    "GRN->ON:ALP": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "RIGHT->ON:LP": [
+      1.0,
+      1.43,
+      2.0
+    ],
+    "OTHER->ON:LP": [
+      0.6,
+      0.86,
+      1.2
+    ]
+  },
+  "exhaust": false,
+  "core_rule": {
+    "top": 4,
+    "share": 0.05
+  },
+  "inputs": {
+    "state": "VIC",
+    "state_election": "2026-11-28",
+    "districts": 88,
+    "baseline": "VEC 2022 state election",
+    "federal_election": null,
+    "winners": null,
+    "primaries": "2022 VEC primaries, proportional swing to the 2026 polling average",
+    "flows": "2022 VEC distributions (all districts)",
+    "polls": {
+      "ALP": 21.9,
+      "LNP": 31.3,
+      "ON": 21.6,
+      "GRN": 14.3,
+      "OTH": 10.9
+    },
+    "polls_used": [
+      "Newspoll / Pyxis 2026-10-22",
+      "demosau 2026-11-05",
+      "redbridge-accent 2026-11-10",
+      "resolve 2026-11-07",
+      "roy-morgan 2026-10-29"
+    ],
+    "polls_source": "electiontracker.au/data/vic2026/polls.csv",
+    "one_nation_pattern": "federal 2025 booth share per district (model1 'VIC2026 (2025)'), elasticity 0.7",
+    "independents": "data/2026/independents_vic2026.csv",
+    "candidates": "data/2026/candidates_vic2026.csv (VEC nominations, closed 9 Nov 2026)",
+    "scenario": "YouGov-only regional pattern, full strength, no age discount",
+    "regional_factors": {
+      "Eastern Victoria": {
+        "ALP": 0.9019778528053657,
+        "LNP": 1.0334996838749535,
+        "GRN": 0.9744164080444838,
+        "ON": 0.9679820944978662,
+        "OTH": 1.1539466504908253
+      },
+      "North-Eastern Metropolitan": {
+        "ALP": 1.0105718358064026,
+        "LNP": 0.9989738947769943,
+        "GRN": 0.9192125705542927,
+        "ON": 1.221900240198305,
+        "OTH": 0.776658199867629
+      },
+      "Northern Metropolitan": {
+        "ALP": 1.1138174272428092,
+        "LNP": 1.0578019192341972,
+        "GRN": 0.9493932472500518,
+        "ON": 0.9512386935008657,
+        "OTH": 0.8862290180809314
+      },
+      "Northern Victoria": {
+        "ALP": 0.9672464034335404,
+        "LNP": 0.9541419767756751,
+        "GRN": 1.058316024309193,
+        "ON": 1.0698285504571101,
+        "OTH": 0.9894407749586411
+      },
+      "South-Eastern Metropolitan": {
+        "ALP": 1.0411073810508564,
+        "LNP": 0.96971114519715,
+        "GRN": 1.2549506638464218,
+        "ON": 1.003607142466993,
+        "OTH": 0.7818887701693639
+      },
+      "Southern Metropolitan": {
+        "ALP": 1.0809837842698287,
+        "LNP": 1.0739799343521579,
+        "GRN": 0.7460204289829632,
+        "ON": 1.088380475776638,
+        "OTH": 0.9886239816003355
+      },
+      "Western Metropolitan": {
+        "ALP": 0.9886468762683287,
+        "LNP": 0.9841184163552739,
+        "GRN": 1.3513635050488078,
+        "ON": 1.0233238508617453,
+        "OTH": 0.7376885618747718
+      },
+      "Western Victoria": {
+        "ALP": 1.006510824886273,
+        "LNP": 0.9377931829004421,
+        "GRN": 1.0283163456806073,
+        "ON": 1.0084407860299018,
+        "OTH": 1.1233645471364415
+      }
+    },
+    "regional_target_source": "predictions/benchmarking/yougov_regional_comparison.csv",
+    "reference_sha256": "5d51bf26335658b3f5bc2482a27010ad404e0ddab39226edb3327f53948e5124",
+    "comparison_sha256": "4a231df977a0cf52a40fdf313a3a5e2b2878f6b5d3a4e8c011ba0e8acf646d85",
+    "regional_method": "Fixed region/category multipliers applied to each draw, then renormalised per seat. Candidate ordering within each category retained. OTH adjustment includes independents. Regional targets are fitted to the reference mean, not forced on every random draw.",
+    "limitation": "Old MRP pattern assumed stable. Existing noise retained, with no additional MRP estimation uncertainty. Not a calibrated improvement."
+  },
+  "predicted_seats_mean": {
+    "ALP": 20.45,
+    "GRN": 7.29,
+    "IND*": 0.38,
+    "LP": 42.08,
+    "NP": 8.63,
+    "ON": 9.19
+  }
+}

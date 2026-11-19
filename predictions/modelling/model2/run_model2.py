@@ -481,9 +481,9 @@ def _cat_of(group: str, on_polled: bool) -> str:
     return "ALP" if group == "ALP" else "OTH"
 
 
-def run(run_id: str, runs: int, seed: int, as_of=None, out_dir=None) -> dict:
+def run(run_id: str, runs: int, seed: int, as_of=None, out_dir=None, setup_fn=None) -> dict:
     r = RUNS[run_id]
-    seats, flows_for, primaries, inputs = setup(r, as_of=as_of)
+    seats, flows_for, primaries, inputs = (setup_fn or setup)(r, as_of=as_of)
     majority = len(seats) // 2 + 1
     sim = model2.simulate(seats, flows_for, primaries, runs=runs, seed=seed, majority=majority,
                           on_priors=True, exhaust=r.exhaust)
