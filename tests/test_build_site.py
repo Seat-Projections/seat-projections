@@ -347,3 +347,48 @@ def test_district_timeline_json():
         lc = {c["id"]: round(c["p_win"], 3) for c in latest["districts"][name_by_slug[f.parent.name]]["candidates"]}
         for cand, v in zip(d["district"]["cands"], d["district"]["rows"][-1]["c"]):
             assert v[2] == lc.get(cand["id"], 0.0), f"{f.parent.name} {cand['id']}"
+
+
+def test_blog_posts_build():
+    """load_posts parses the <!--meta --> header; generated pages carry the title,
+    canonical URL and BlogPosting JSON-LD."""
+    import json, re
+    posts = build_site.load_posts()
+    assert posts, "no posts parsed"
+    assert all({"slug", "title", "description", "date", "body"} <= set(p) for p in posts)
+    assert posts == sorted(posts, key=lambda p: p["date"], reverse=True)
+    for p in posts:
+        f = SITE_DIR / "blog" / p["slug"] / "index.html"
+        assert f.exists(), p["slug"]
+        t = f.read_text()
+        assert p["title"].replace("'", "&#x27;") in t or p["title"] in t
+        assert f'rel="canonical" href="https://seatprojections.au/blog/{p["slug"]}/"' in t
+        assert "post-byline" in t and "min read" in t
+        if p.get("key_points"):
+            assert 'class="card key-points"' in t
+            assert all(k in t for k in p["key_points"])
+        lds = [json.loads(s) for s in re.findall(
+            r'<script type="application/ld\+json">(.*?)</script>', t)]
+        types = [g["@type"] for d in lds for g in d.get("@graph", [d])]
+        assert "BlogPosting" in types and "BreadcrumbList" in types
+    hub = (SITE_DIR / "blog" / "index.html").read_text()
+    assert "post-grid" in hub and "post-card" in hub
+    first = posts[0]
+    assert build_site.post_excerpt(first) in hub or esc_text(build_site.post_excerpt(first)) in hub
+    assert "min read" in hub and "featured" in hub
+
+
+def esc_text(s):
+    from html import escape
+    return escape(s, quote=True)
+
+
+def test_post_excerpt_fallback():
+    """Without a meta excerpt, the first paragraph's plain text is used,
+    cut at the last sentence end inside 320 chars."""
+    post = {"body": "<p>First sentence <a href='/x'>with a link</a>. Second &amp; third.</p>"
+                    "<p>Ignored.</p>"}
+    assert build_site.post_excerpt(post) == "First sentence with a link. Second & third."
+    long_body = "<p>" + "Sentence here. " * 30 + "Tail continues.</p>"
+    out = build_site.post_excerpt({"body": long_body})
+    assert len(out) <= 321 and out.endswith("here.")

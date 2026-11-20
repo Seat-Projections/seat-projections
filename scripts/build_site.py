@@ -651,14 +651,14 @@ SPECULATION = ('<script type="speculationrules">{"prerender":[{"where":{"href_ma
                '"not":{"href_matches":"/data/*"}},"eagerness":"moderate"}]}</script>')
 
 
-def seo_block(title, desc, path, jsonld=None, index=True):
+def seo_block(title, desc, path, jsonld=None, index=True, og_type="website", published=None):
     lines = [f"<title>{esc(title)}</title>",
              f'<meta name="description" content="{esc(desc)}">']
     if index:
         url = DOMAIN + path
         lines += [
             f'<link rel="canonical" href="{url}">',
-            '<meta property="og:type" content="website">',
+            f'<meta property="og:type" content="{og_type}">',
             '<meta property="og:site_name" content="Seat Projections">',
             f'<meta property="og:title" content="{esc(title)}">',
             f'<meta property="og:description" content="{esc(desc)}">',
@@ -670,6 +670,8 @@ def seo_block(title, desc, path, jsonld=None, index=True):
             '<meta property="og:locale" content="en_AU">',
             '<meta name="twitter:card" content="summary_large_image">',
         ]
+        if published:
+            lines.append(f'<meta property="article:published_time" content="{esc(published)}">')
     else:
         lines.append('<meta name="robots" content="noindex">')
     lines.append(SPECULATION)
@@ -687,14 +689,14 @@ def shared_chrome():
     return header, footer
 
 
-def page_head(meta):
+def page_head(meta, og_type="website", published=None):
     title, desc, path, jsonld = meta
     return f"""<!DOCTYPE html>
 <html lang="en-AU">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-{seo_block(title, desc, path, jsonld)}
+{seo_block(title, desc, path, jsonld, og_type=og_type, published=published)}
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="/assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin>
@@ -1208,15 +1210,188 @@ def write_district_pages(simp_features, baseline, model1_doc, model2_doc, snaps=
     (dist_dir / "index.html").write_text(districts_hub(rows, header, footer))
 
 
-def write_sitemap():
+CONTENT = ROOT / "content" / "blog"
+FULL_MONTHS = ("January", "February", "March", "April", "May", "June", "July",
+               "August", "September", "October", "November", "December")
+
+
+def fmt_post_date(iso):
+    y, m, d = (int(x) for x in iso.split("-"))
+    return f"{d} {FULL_MONTHS[m - 1]} {y}"
+
+
+def post_plain(body):
+    """Body HTML as plain text (tags stripped, entities unescaped, whitespace folded)."""
+    from html import unescape
+    text = unescape(re.sub(r"<[^>]+>", " ", body))
+    return " ".join(re.sub(r"\s+([.,!?;:])", r"\1", text).split())
+
+
+def post_excerpt(post):
+    """Card preview: the meta excerpt, else the first paragraph's plain text cut
+    at the last sentence end within 320 chars."""
+    if post.get("excerpt"):
+        return post["excerpt"]
+    m = re.search(r"<p[^>]*>(.*?)</p>", post["body"], re.S)
+    if not m:
+        return post["description"]
+    text = post_plain(m.group(1))
+    if len(text) <= 320:
+        return text
+    cut = text[:321]
+    end = max(cut.rfind(". "), cut.rfind("! "), cut.rfind("? "))
+    return cut[:end + 1] if end > 0 else cut.rstrip() + "..."
+
+
+def reading_minutes(post):
+    return max(1, -(-len(post_plain(post["body"]).split()) // 220))
+
+
+def post_tag(post):
+    return post.get("tag") or "Analysis"
+
+
+def load_posts():
+    """Blog posts from content/blog/*.html: a <!--meta {json}--> header plus the body."""
+    posts = []
+    for p in sorted(CONTENT.glob("*.html")):
+        text = p.read_text()
+        m = re.match(r"\s*<!--meta\s*(\{.*?\})\s*-->\s*(.*)", text, re.S)
+        assert m, f"{p.name}: missing <!--meta ...--> header"
+        meta = json.loads(m.group(1))
+        meta["body"] = m.group(2).strip()
+        posts.append(meta)
+    return sorted(posts, key=lambda x: x["date"], reverse=True)
+
+
+def blog_jsonld(post):
+    url = f"{DOMAIN}/blog/{post['slug']}/"
+    org = {"@type": "Organization", "name": "Seat Projections", "url": "https://seatprojections.au/"}
+    return {"@context": "https://schema.org", "@graph": [
+        {"@type": "BlogPosting", "headline": post["title"], "description": post["description"],
+         "datePublished": post["date"], "dateModified": post["date"], "url": url,
+         "image": f"{DOMAIN}/assets/og-image.png", "inLanguage": "en-AU",
+         "wordCount": len(post_plain(post["body"]).split()),
+         "articleSection": post_tag(post),
+         "author": org, "publisher": org},
+        {"@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Blog", "item": f"{DOMAIN}/blog/"},
+            {"@type": "ListItem", "position": 2, "name": post["title"], "item": url}]}]}
+
+
+def post_card(post, featured=False):
+    """One boxed post card (hub grid and 'More posts'). The title link's ::after
+    covers the card, making the whole card clickable."""
+    return f"""  <article class="card post-card{" featured" if featured else ""}">
+    <span class="post-tag">{esc(post_tag(post))}</span>
+    <h3 class="post-card-title"><a href="/blog/{esc(post['slug'])}/">{esc(post['title'])}</a></h3>
+    <p class="post-card-excerpt">{esc(post_excerpt(post))}</p>
+    <div class="post-card-foot"><span>{fmt_post_date(post['date'])} &middot; {reading_minutes(post)} min read</span><span class="post-card-more">Read &rarr;</span></div>
+  </article>"""
+
+
+def post_page(post, header, footer, others=()):
+    tag = post_tag(post)
+    byline = (f"{fmt_post_date(post['date'])} &middot; "
+              f"{reading_minutes(post)} min read")
+    key_points = ""
+    if post.get("key_points"):
+        lis = "".join(f"<li>{esc(x)}</li>" for x in post["key_points"])
+        key_points = (f'    <div class="card key-points"><h3>Key points</h3>'
+                      f"<ul>{lis}</ul></div>\n")
+    url = f"{DOMAIN}/blog/{post['slug']}/"
+    cite = (f'Source: <a href="{url}">Seat Projections</a>, "{esc(post["title"])}", '
+            f'{fmt_post_date(post["date"])}. Licensed under '
+            '<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.')
+    more = ""
+    if others:
+        cards = "".join(post_card(p) for p in others[:2])
+        more = (f'  <h2 class="post-more-h">More posts</h2>\n'
+                f'  <div class="post-grid">\n{cards}\n  </div>\n')
+    body = f"""
+<main class="wrap">
+  <article class="post">
+    <p class="muted small" style="margin:1.5rem 0 0"><a href="/blog/">Blog</a> &rsaquo; {esc(post['title'])}</p>
+    <span class="post-tag">{esc(tag)}</span>
+    <h1>{esc(post['title'])}</h1>
+    <p class="lede">{esc(post['description'])}</p>
+    <p class="post-byline">{byline}</p>
+{key_points}    <div class="prose">
+{post['body']}
+    </div>
+    <div class="card card-pad" style="margin-top:2rem">
+      <h3 style="font-family:var(--sans);font-size:1rem;margin:0 0 0.5rem">How to credit</h3>
+      <p style="margin:0 0 0.75rem">Credit Seat Projections and link to this page.
+        Our analysis is licensed under CC BY-SA 4.0.</p>
+      <div class="cite">{cite}</div>
+    </div>
+    <div class="post-navrow"><a href="/blog/">&larr; All posts</a><a href="/">Explore the forecast &rarr;</a></div>
+  </article>
+{more}</main>
+"""
+    return (page_head((f"{post['title']} | Seat Projections", post["description"],
+                      f"/blog/{post['slug']}/", blog_jsonld(post)),
+                      og_type="article", published=post["date"])
+            + header + body + footer + page_tail())
+
+
+def blog_hub(posts, header, footer):
+    cards = "".join(post_card(p, featured=(i == 0)) for i, p in enumerate(posts))
+    body = f"""
+<main class="wrap">
+  <section class="hero">
+    <span class="eyebrow">Analysis &middot; Seat Projections</span>
+    <h1>Blog</h1>
+    <p class="lede">Analysis and explainers on the 2026 Victorian state election forecast:
+      seat-by-seat contests, preferences and what moves the model.</p>
+  </section>
+  <div class="post-grid">
+{cards}
+  </div>
+</main>
+"""
+    jsonld = {"@context": "https://schema.org", "@type": "Blog",
+              "name": "Seat Projections Blog", "url": f"{DOMAIN}/blog/",
+              "blogPost": [{"@type": "BlogPosting", "headline": p["title"],
+                            "url": f"{DOMAIN}/blog/{p['slug']}/",
+                            "datePublished": p["date"],
+                            "description": post_excerpt(p)} for p in posts]}
+    desc = ("Analysis and explainers on the 2026 Victorian state election forecast: "
+            "seat-by-seat contests, preferences and what moves the model.")
+    return (page_head(("Blog: Victorian Election 2026 Analysis | Seat Projections",
+                       desc, "/blog/", jsonld))
+            + header + body + footer + page_tail())
+
+
+def write_blog(posts):
+    blog_dir = SITE / "blog"
+    shutil.rmtree(blog_dir, ignore_errors=True)
+    if not posts:
+        return
+    header, footer = shared_chrome()
+    header = header.replace('<a href="/blog/">Blog</a>', '<a href="/blog/" class="active">Blog</a>')
+    blog_dir.mkdir(exist_ok=True)
+    (blog_dir / "index.html").write_text(blog_hub(posts, header, footer))
+    for post in posts:
+        d = blog_dir / post["slug"]
+        d.mkdir()
+        others = [p for p in posts if p is not post]
+        (d / "index.html").write_text(post_page(post, header, footer, others))
+
+
+def write_sitemap(posts=()):
     date = json.loads((DATA / "model2_vic2026.json").read_text())["meta"]["timestamp"][:10]
-    urls = ["/", "/2022-results/", "/methodology/", "/methodology/baseline/",
-            "/methodology/forecast/", "/districts/"]
-    urls += [f"/districts/{p.parent.name}/"
+    urls = [("/", date), ("/2022-results/", date), ("/methodology/", date),
+            ("/methodology/baseline/", date), ("/methodology/forecast/", date),
+            ("/districts/", date)]
+    if posts:
+        urls.append(("/blog/", posts[0]["date"]))
+        urls += [(f"/blog/{p['slug']}/", p["date"]) for p in posts]
+    urls += [(f"/districts/{p.parent.name}/", date)
              for p in sorted((SITE / "districts").rglob("index.html"))
              if p.parent.name != "districts"]
     body = "".join(
-        f"  <url><loc>{DOMAIN}{u}</loc><lastmod>{date}</lastmod></url>\n" for u in urls)
+        f"  <url><loc>{DOMAIN}{u}</loc><lastmod>{d}</lastmod></url>\n" for u, d in urls)
     (SITE / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + body + "</urlset>\n")
@@ -1352,7 +1527,9 @@ def main() -> None:
     write_headline(model2_doc)
     write_seo(downloads, model2_doc["blocs"])
     write_district_pages(simp_features, baseline, model1_doc, model2_doc, snaps)
-    write_sitemap()
+    posts = load_posts()
+    write_blog(posts)
+    write_sitemap(posts)
 
     for path in sorted(DATA.rglob("*")):
         if path.is_file():
