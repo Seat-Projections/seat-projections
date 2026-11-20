@@ -19,7 +19,7 @@ const fc = () => (TIMELINE_VIEWS.has(view) && snapDate && snapDocs[view]?.[snapD
 const nameOf = (d, id) => (d.candidates.find((c) => c.id === id)?.name) || id;
 const shortOf = (d, id) => dispName(nameOf(d, id).split(",")[0]);
 
-const loadForecast = async (model) => (forecasts[model] ||= await fetch(`/data/${model}_vic2026.json`).then((r) => {
+const loadForecast = async (model) => (forecasts[model] ||= await fetch(`/data/${model}_vic2026.json`, { cache: "no-cache" }).then((r) => {
   if (!r.ok) throw new Error(`data/${model}_vic2026.json missing; run scripts/build_site.py`);
   return r.json();
 }));
@@ -345,6 +345,9 @@ async function setView(v, keepDistrict, date) {
   document.getElementById("btn-model2").classList.toggle("on", v === "model2");
   const snapUI = document.getElementById("snap-ui");
   await loadForecast(v);
+  // A new slider starts at Latest and does not fire onMark for its initial mark.
+  snapDate = null;
+  tl = null;
   timeline = TIMELINE_VIEWS.has(v) ? timelines[v] : null;
   if (snapUI) snapUI.hidden = !timeline;
   if (timeline && snapUI) {
@@ -403,8 +406,8 @@ async function init() {
   document.getElementById("btn-model1").addEventListener("click", () => setView("model1", selected));
   document.getElementById("btn-model2").addEventListener("click", () => setView("model2", selected));
 
-  timelines.model2 = await fetch("/data/snapshots/map_timeline.json").then((r) => (r.ok ? r.json() : null)).catch(() => null);
-  timelines.model2fed = await fetch("/data/snapshots/model2fed/map_timeline.json").then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  timelines.model2 = await fetch("/data/snapshots/map_timeline.json", { cache: "no-cache" }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  timelines.model2fed = await fetch("/data/snapshots/model2fed/map_timeline.json", { cache: "no-cache" }).then((r) => (r.ok ? r.json() : null)).catch(() => null);
 
   // #model2, #model2@2026-10-13, #model2/Kew, #model2fed, #model2fed/Kew, #Kew, #model1...
   const m = location.hash.match(/^#(model2fed|model[12])?(?:\/([^@/]+))?(?:@(\d{4}-\d{2}-\d{2}))?$/)

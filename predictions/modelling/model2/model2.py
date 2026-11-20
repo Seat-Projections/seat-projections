@@ -41,7 +41,7 @@ CORE_TOP = 4  # a candidate is core if in the top CORE_TOP of primaries ... (4, 
 #               counting every candidate)
 CORE_SHARE = 0.05  # ... in at least this share of pre-pass runs
 CORE_PREPASS = 200
-NEW_IND = (15.0, 6.0)  # prior (mean, sd) primary for a credible independent who did not run in 2022
+NEW_IND = (10.0, 6.0)  # prior (mean, sd) primary for a credible independent who did not run in 2022
 RECONTEST_IND_SD = 6.0
 ON_ELASTICITY = 0.7  # One Nation's 2026 seat pattern: (federal 2025 share / mean) ** elasticity
 

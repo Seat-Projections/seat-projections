@@ -1147,8 +1147,8 @@ def history_card(name, snaps, model2_doc):
         <h3>How the forecast has moved</h3>
         <table class="dtable"><tr>{head}</tr>{rows}</table>
         <p class="muted small">Retrospective rows were generated on {int(gen[8:])} {MONTHS[int(gen[5:7]) - 1]} {gen[:4]} using only polls
-          published by each date. The candidate list and model settings are the final November
-          versions. <a href="/methodology/forecast/#history">Forecast history &rarr;</a></p>
+          published by each date and the model settings in use when those rows were generated.
+          <a href="/methodology/forecast/#history">Forecast history and revisions &rarr;</a></p>
       </section>"""
 
 

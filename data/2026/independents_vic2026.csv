@@ -1,5 +1,5 @@
 district,candidate,credible,prior_mean,prior_sd,basis,source
-Kew,"TORNEY, Sophie",Y,,,"Climate 200 endorsed; former Boroondara mayor; recontesting (2022 primary used)","The Age, 19 Mar 2026"
+Kew,"TORNEY, Sophie",Y,15,,"Recontesting; 15% is a modelling assumption, not a poll result (21.1% primary in 2022; 17% in March 2026 campaign-commissioned poll)","VEC 2022; independent_primary_comparisons.csv"
 Hawthorn,"IBUKI, Shima",Y,,,"Climate 200 endorsed; Melissa Lowe 20% here in 2022","Crikey, 21 Oct 2026"
 Mornington,"GOFFIN, Melissa",Y,,,"Climate 200 seat; Kate Lardner reached 49.3% 2CP in 2022","Crikey, 21 Oct 2026"
 Benambra,"McKEEMAN, Lachie",Y,,,"Community independent; open seat (Tilley retiring); Hawkins 49.1% 2CP in 2022","ABC candidate guide"

@@ -306,7 +306,8 @@ and leave the count.
   (`data/benchmarks/regions/`; each district takes the SA4 group holding the largest share of its
   counted federal booth votes at the preceding federal election).
 - **Credible independents:** their 2022 primary if recontesting (matched by surname in the same
-  district), otherwise 15%, with SD 6 points; party shares are renormalised around them.
+  district), otherwise a starting estimate of 10%, with SD 6 points. This is not a cap;
+  a simulated primary can exceed 10%. Party shares are renormalised around them.
 
 **Outputs.** The standard files plus `core_stage.csv` (mean primary, core flag and
 `p_excluded_at_core` per candidate) and `district_counts.json` (per district: win and final-two

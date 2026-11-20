@@ -282,12 +282,11 @@ def test_snapshots_respect_poll_cutoff_and_retrospective():
     for r in csv.DictReader(open(SITE_DIR.parent / "data/2026/polls_vic2026.csv")):
         end_by_label[f"{r['pollster']} {r['fieldwork_end']}"] = date.fromisoformat(r["fieldwork_end"])
     idx = json.loads((SITE_DIR / "data/snapshots/index.json").read_text())
-    today = date.today()
     for s in idx["snapshots"]:
         d = date.fromisoformat(s["date"])
         for label in s["polls_used"]:
             assert end_by_label[label] + timedelta(days=2) <= d, f"{s['date']}: {label} too new"
-        assert s["retrospective"] == (d < today)
+        assert s["retrospective"] == (d < date.fromisoformat(s["generated"]))
 
 
 def test_robots_disallows_snapshots_sitemap_clean():

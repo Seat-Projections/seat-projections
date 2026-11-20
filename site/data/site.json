@@ -2,7 +2,7 @@
  "brand": "Seat Projections",
  "domain": "seatprojections.au",
  "repo_url": "https://github.com/Seat-Projections/seat-projections",
- "build_date": "2026-11-16",
+ "build_date": "2026-11-20",
  "models": {
   "model1": {
    "model": "model1",
@@ -11,6 +11,10 @@
    "git_commit": null,
    "runs": 1000,
    "seed": 1,
+   "as_of": null,
+   "generated": null,
+   "retrospective": null,
+   "poll_cutoff": null,
    "description": "Baseline Model (\"nothing changes\"): 2025 federal polling-place votes inside each district, restricted to the parties standing in 2026, counted with federal preferences. No polling: One Nation stays at its federal level.",
    "polls": null,
    "polls_used": null,
@@ -19,10 +23,14 @@
   "model2": {
    "model": "model2",
    "run_id": "VIC2026 (2022)",
-   "timestamp": "2026-11-16T00:43:12+00:00",
-   "git_commit": "7d53e62cefa319f9482b12d1be3c847c3fd57611",
+   "timestamp": "2026-11-20T04:12:35+00:00",
+   "git_commit": "7167037b578ac9ee3042eec4cea810975c8718f0",
    "runs": 5000,
    "seed": 1,
+   "as_of": "2026-11-16",
+   "generated": "2026-11-20",
+   "retrospective": false,
+   "poll_cutoff": "fieldwork ended at least 2 days before as_of",
    "description": "Forecast Model (core-candidate heuristic): the declared 2026 candidates, 2022 primaries swung to the 2026 polling average, One Nation on its 2025 federal booth pattern, preferences fitted to the 2022 distributions.",
    "polls": {
     "ALP": 21.9,
@@ -43,7 +51,7 @@
   "model2fed": {
    "model": "model2",
    "run_id": "VIC2026 (fed2025)",
-   "timestamp": "2026-11-17T12:39:21+00:00",
+   "timestamp": "2026-11-17T13:55:55+00:00",
    "git_commit": "4ee02a80df8a14ed91221a384f03c9195b426407",
    "runs": 5000,
    "seed": 1,
