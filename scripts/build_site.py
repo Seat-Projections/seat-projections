@@ -1279,10 +1279,10 @@ def blog_jsonld(post):
             {"@type": "ListItem", "position": 2, "name": post["title"], "item": url}]}]}
 
 
-def post_card(post, featured=False):
+def post_card(post):
     """One boxed post card (hub grid and 'More posts'). The title link's ::after
     covers the card, making the whole card clickable."""
-    return f"""  <article class="card post-card{" featured" if featured else ""}">
+    return f"""  <article class="card post-card">
     <span class="post-tag">{esc(post_tag(post))}</span>
     <h3 class="post-card-title"><a href="/blog/{esc(post['slug'])}/">{esc(post['title'])}</a></h3>
     <p class="post-card-excerpt">{esc(post_excerpt(post))}</p>
@@ -1336,7 +1336,7 @@ def post_page(post, header, footer, others=()):
 
 
 def blog_hub(posts, header, footer):
-    cards = "".join(post_card(p, featured=(i == 0)) for i, p in enumerate(posts))
+    cards = "".join(post_card(p) for p in posts)
     body = f"""
 <main class="wrap">
   <section class="hero">

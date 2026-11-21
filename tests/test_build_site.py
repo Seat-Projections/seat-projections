@@ -374,7 +374,7 @@ def test_blog_posts_build():
     assert "post-grid" in hub and "post-card" in hub
     first = posts[0]
     assert build_site.post_excerpt(first) in hub or esc_text(build_site.post_excerpt(first)) in hub
-    assert "min read" in hub and "featured" in hub
+    assert "min read" in hub and "featured" not in hub
 
 
 def esc_text(s):
