@@ -1,8 +1,8 @@
 {
   "model": "model2",
   "run_id": "VIC2026 (2022)",
-  "timestamp": "2026-11-20T04:12:35+00:00",
-  "git_commit": "7167037b578ac9ee3042eec4cea810975c8718f0",
+  "timestamp": "2026-11-25T22:04:47+00:00",
+  "git_commit": "c3ad143aaaa1bd3c139effaf0de27894f2899c26",
   "runs": 5000,
   "seed": 1,
   "noise": {
@@ -59,74 +59,30 @@
     "primaries": "2022 VEC primaries, proportional swing to the 2026 polling average",
     "flows": "2022 VEC distributions (all districts)",
     "polls": {
-      "ALP": 21.9,
-      "LNP": 31.3,
-      "ON": 21.6,
-      "GRN": 14.3,
-      "OTH": 10.9
+      "ALP": 21.3,
+      "LNP": 32.2,
+      "ON": 21.8,
+      "GRN": 14.4,
+      "OTH": 10.3
     },
     "polls_used": [
       "Newspoll / Pyxis 2026-10-22",
       "demosau 2026-11-05",
-      "redbridge-accent 2026-11-10",
-      "resolve 2026-11-07",
-      "roy-morgan 2026-10-29"
+      "redbridge-accent 2026-11-20",
+      "resolve 2026-11-23",
+      "roy-morgan 2026-11-19"
     ],
     "polls_source": "electiontracker.au/data/vic2026/polls.csv",
     "one_nation_pattern": "federal 2025 booth share per district (model1 'VIC2026 (2025)'), elasticity 0.7",
     "independents": "data/2026/independents_vic2026.csv",
-    "candidates": "data/2026/candidates_vic2026.csv (VEC nominations, closed 9 Nov 2026)",
-    "scenario": "Refined independent primary priors",
-    "independent_priors_mean_sd": {
-      "Benambra": {
-        "McKEEMAN, Lachie": [
-          10.0,
-          6.0
-        ]
-      },
-      "Essendon": {
-        "YILDIZ, Oscar": [
-          10.0,
-          6.0
-        ]
-      },
-      "Footscray": {
-        "MARSH, Jess": [
-          10.0,
-          6.0
-        ]
-      },
-      "Hawthorn": {
-        "IBUKI, Shima": [
-          10.0,
-          6.0
-        ]
-      },
-      "Kew": {
-        "TORNEY, Sophie": [
-          15.0,
-          6.0
-        ]
-      },
-      "Mornington": {
-        "GOFFIN, Melissa": [
-          10.0,
-          6.0
-        ]
-      }
-    },
-    "revision": "20 November forecast revision: unchanged 16 November polling cutoff; revised independent first-preference priors."
+    "candidates": "data/2026/candidates_vic2026.csv (VEC nominations, closed 9 Nov 2026)"
   },
-  "as_of": "2026-11-16",
-  "generated": "2026-11-20",
-  "poll_cutoff": "fieldwork ended at least 2 days before as_of",
-  "retrospective": false,
   "predicted_seats_mean": {
-    "ALP": 18.25,
-    "GRN": 8.12,
-    "IND*": 0.39,
-    "LP": 43.34,
-    "NP": 9.03,
-    "ON": 8.87
+    "ALP": 15.44,
+    "GRN": 8.14,
+    "IND*": 0.37,
+    "LP": 46.08,
+    "NP": 9.3,
+    "ON": 8.66
   }
 }

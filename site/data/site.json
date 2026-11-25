@@ -2,7 +2,7 @@
  "brand": "Seat Projections",
  "domain": "seatprojections.au",
  "repo_url": "https://github.com/Seat-Projections/seat-projections",
- "build_date": "2026-11-20",
+ "build_date": "2026-11-25",
  "models": {
   "model1": {
    "model": "model1",
@@ -23,36 +23,36 @@
   "model2": {
    "model": "model2",
    "run_id": "VIC2026 (2022)",
-   "timestamp": "2026-11-20T04:12:35+00:00",
-   "git_commit": "7167037b578ac9ee3042eec4cea810975c8718f0",
+   "timestamp": "2026-11-25T22:04:47+00:00",
+   "git_commit": "c3ad143aaaa1bd3c139effaf0de27894f2899c26",
    "runs": 5000,
    "seed": 1,
-   "as_of": "2026-11-16",
-   "generated": "2026-11-20",
-   "retrospective": false,
-   "poll_cutoff": "fieldwork ended at least 2 days before as_of",
+   "as_of": null,
+   "generated": null,
+   "retrospective": null,
+   "poll_cutoff": null,
    "description": "Forecast Model (core-candidate heuristic): the declared 2026 candidates, 2022 primaries swung to the 2026 polling average, One Nation on its 2025 federal booth pattern, preferences fitted to the 2022 distributions.",
    "polls": {
-    "ALP": 21.9,
-    "LNP": 31.3,
-    "ON": 21.6,
-    "GRN": 14.3,
-    "OTH": 10.9
+    "ALP": 21.3,
+    "LNP": 32.2,
+    "ON": 21.8,
+    "GRN": 14.4,
+    "OTH": 10.3
    },
    "polls_used": [
     "Newspoll / Pyxis 2026-10-22",
     "demosau 2026-11-05",
-    "redbridge-accent 2026-11-10",
-    "resolve 2026-11-07",
-    "roy-morgan 2026-10-29"
+    "redbridge-accent 2026-11-20",
+    "resolve 2026-11-23",
+    "roy-morgan 2026-11-19"
    ],
    "majority": 45
   },
   "model2fed": {
    "model": "model2",
    "run_id": "VIC2026 (fed2025)",
-   "timestamp": "2026-11-17T13:55:55+00:00",
-   "git_commit": "4ee02a80df8a14ed91221a384f03c9195b426407",
+   "timestamp": "2026-11-25T22:05:19+00:00",
+   "git_commit": "c3ad143aaaa1bd3c139effaf0de27894f2899c26",
    "runs": 5000,
    "seed": 1,
    "as_of": null,
@@ -61,18 +61,18 @@
    "poll_cutoff": null,
    "description": "Forecast Model (federal baseline): the same model with the 2025 federal polling-place votes in each district as the baseline and preferences fitted to the 2025 federal distributions.",
    "polls": {
-    "ALP": 21.9,
-    "LNP": 31.3,
-    "ON": 21.6,
-    "GRN": 14.3,
-    "OTH": 10.9
+    "ALP": 21.3,
+    "LNP": 32.2,
+    "ON": 21.8,
+    "GRN": 14.4,
+    "OTH": 10.3
    },
    "polls_used": [
     "Newspoll / Pyxis 2026-10-22",
     "demosau 2026-11-05",
-    "redbridge-accent 2026-11-10",
-    "resolve 2026-11-07",
-    "roy-morgan 2026-10-29"
+    "redbridge-accent 2026-11-20",
+    "resolve 2026-11-23",
+    "roy-morgan 2026-11-19"
    ],
    "majority": 45
   }
@@ -125,7 +125,7 @@
   },
   {
    "file": "polls_vic2026.csv",
-   "size_kb": 8.5,
+   "size_kb": 10.1,
    "description": "2026 Victorian polling register used for the forecast model average (from electiontracker.au)"
   }
  ]

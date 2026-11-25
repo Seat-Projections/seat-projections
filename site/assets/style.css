@@ -407,10 +407,6 @@ a:hover { text-decoration: underline; }
 }
 .snap-ticks .tl:first-child { transform: none; }
 .snap-ticks .tl:last-child { transform: translateX(-100%); }
-.tl-compact .snap-ticks .tl.thin { display: none; }
-@media (max-width: 480px) {
-  .snap-ticks .tl.thin { display: none; }
-}
 
 #dtl-hist tr.hist-cur td { background: #EEF2F7; }
 

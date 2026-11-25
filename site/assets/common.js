@@ -99,16 +99,27 @@ function timelineSlider(container, points, opts = {}) {
   const slider = container.querySelector(".tl-range");
   const label = container.querySelector(".tl-label");
 
-  const compact = () => container.classList.toggle("tl-compact", container.clientWidth < 560);
-  compact();
-  if (window.ResizeObserver) new ResizeObserver(compact).observe(container);
-
   const pct = (i) => `${(100 * pdays[i] / total).toFixed(3)}%`;
-  const tight = (i) => (i < points.length - 1 && pdays[i + 1] - pdays[i] < total * 0.09 ? " thin" : "");
   container.querySelector(".snap-notches").innerHTML =
     points.map((p, i) => `<span class="notch${p.latest ? " latest" : ""}" style="left:${pct(i)}"></span>`).join("");
-  container.querySelector(".snap-ticks").innerHTML =
-    points.map((p, i) => `<span class="tl${tight(i)}" style="left:${pct(i)}">${p.latest ? "Latest" : esc(fmtSnapShort(p.date))}</span>`).join("");
+  const ticks = container.querySelector(".snap-ticks");
+  ticks.innerHTML =
+    points.map((p, i) => `<span class="tl" style="left:${pct(i)}">${p.latest ? "Latest" : esc(fmtSnapShort(p.date))}</span>`).join("");
+
+  const declutter = () => {
+    const els = [...ticks.children];
+    els.forEach((el) => { el.style.visibility = ""; });
+    const gap = 6;
+    let edge = els.length ? els[els.length - 1].getBoundingClientRect().left : 0;
+    const first = els.length ? els[0].getBoundingClientRect().right : 0;
+    for (let i = els.length - 2; i >= 1; i--) {
+      const r = els[i].getBoundingClientRect();
+      if (r.right + gap > edge || r.left - gap < first) els[i].style.visibility = "hidden";
+      else edge = r.left;
+    }
+  };
+  declutter();
+  if (window.ResizeObserver) new ResizeObserver(declutter).observe(container);
 
   const markAt = (x) => {
     let i = 0;

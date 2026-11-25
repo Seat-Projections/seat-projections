@@ -1,8 +1,8 @@
 {
   "model": "model2",
   "run_id": "VIC2026 (fed2025)",
-  "timestamp": "2026-11-17T13:55:55+00:00",
-  "git_commit": "4ee02a80df8a14ed91221a384f03c9195b426407",
+  "timestamp": "2026-11-25T22:05:19+00:00",
+  "git_commit": "c3ad143aaaa1bd3c139effaf0de27894f2899c26",
   "runs": 5000,
   "seed": 1,
   "noise": {
@@ -59,18 +59,18 @@
     "primaries": "federal 2025 booth first preferences in state districts (predictions/modelling/model2/inputs/fed_primaries_VIC2025.csv)",
     "flows": "2025 AEC federal distributions (data/federal/2025/house/HouseDopByDivisionDownload-31496.csv)",
     "polls": {
-      "ALP": 21.9,
-      "LNP": 31.3,
-      "ON": 21.6,
-      "GRN": 14.3,
-      "OTH": 10.9
+      "ALP": 21.3,
+      "LNP": 32.2,
+      "ON": 21.8,
+      "GRN": 14.4,
+      "OTH": 10.3
     },
     "polls_used": [
       "Newspoll / Pyxis 2026-10-22",
       "demosau 2026-11-05",
-      "redbridge-accent 2026-11-10",
-      "resolve 2026-11-07",
-      "roy-morgan 2026-10-29"
+      "redbridge-accent 2026-11-20",
+      "resolve 2026-11-23",
+      "roy-morgan 2026-11-19"
     ],
     "polls_source": "electiontracker.au/data/vic2026/polls.csv",
     "one_nation_pattern": "federal 2025 booth share per district (model1 'VIC2026 (2025)'), elasticity 0.7",
@@ -78,11 +78,11 @@
     "candidates": "data/2026/candidates_vic2026.csv (VEC nominations, closed 9 Nov 2026)"
   },
   "predicted_seats_mean": {
-    "ALP": 23.2,
-    "GRN": 2.02,
-    "IND*": 1.63,
-    "LP": 42.2,
-    "NP": 7.01,
-    "ON": 11.94
+    "ALP": 20.68,
+    "GRN": 2.13,
+    "IND*": 1.0,
+    "LP": 45.04,
+    "NP": 7.41,
+    "ON": 11.75
   }
 }
