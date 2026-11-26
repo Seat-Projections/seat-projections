@@ -762,7 +762,7 @@ def pair_block(pr, cand_by_id):
 
 
 def district_page(name, slug_, feature, m2d, m1d, base, run_date, header, footer,
-                  snaps=None, model2_doc=None):
+                  snaps=None, model2_doc=None, region_peers=()):
     fav = max(m2d["candidates"], key=lambda c: c["p_win"])
     cand_by_id = {c["id"]: c for c in m2d["candidates"]}
     f2 = base["final_two"]
@@ -795,6 +795,8 @@ def district_page(name, slug_, feature, m2d, m1d, base, run_date, header, footer
         for c in base["primary"])
 
     region = esc(feature["properties"]["region"])
+    peer_links = " &middot; ".join(
+        f'<a href="/districts/{slug(peer)}/">{esc(peer)}</a>' for peer in region_peers)
     enc = name.replace(" ", "%20")
 
     body = f"""
@@ -803,7 +805,9 @@ def district_page(name, slug_, feature, m2d, m1d, base, run_date, header, footer
   <section class="hero" style="padding-top:0.75rem">
     <span class="eyebrow">District &middot; {region}</span>
     <h1>{esc(name)}</h1>
-    <p class="lede">2026 Victorian state election forecast &middot; {region}</p>
+    <p class="lede">In our latest 2026 Victorian election forecast, {esc(disp_names(fav["id"]))}
+      ({esc(pname(fav["party"]))}) wins {esc(name)} in {100 * fav["p_win"]:.1f}% of simulations.
+      {esc(disp_names(base["winner"]))} won the seat in 2022.</p>
   </section>
 
   <div class="twocol">
@@ -877,6 +881,10 @@ def district_page(name, slug_, feature, m2d, m1d, base, run_date, header, footer
 
   <p><a href="/#model2/{enc}">Explore on the interactive forecast map &rarr;</a><br>
      <a href="/2022-results/#{enc}">See the 2022 result on the map &rarr;</a></p>
+  <nav aria-label="Other districts in this region">
+    <h2>Other districts in {region}</h2>
+    <p>{peer_links}</p>
+  </nav>
 </main>
 """
     title = f"{name}: 2026 Victorian Election Forecast | Seat Projections"
@@ -1206,7 +1214,9 @@ def write_district_pages(simp_features, baseline, model1_doc, model2_doc, snaps=
         (d / "index.html").write_text(
             district_page(name, s, feats[name], m2d, model1_doc["districts"][name],
                           base, run_date, header, footer, snaps=snaps,
-                          model2_doc=model2_doc))
+                          model2_doc=model2_doc, region_peers=sorted(
+                              n for n in model2_doc["districts"] if n != name and
+                              feats[n]["properties"]["region"] == feats[name]["properties"]["region"])))
     (dist_dir / "index.html").write_text(districts_hub(rows, header, footer))
 
 
@@ -1396,7 +1406,9 @@ def write_sitemap(posts=()):
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + body + "</urlset>\n")
     (SITE / "robots.txt").write_text(
-        "User-agent: *\nAllow: /\nDisallow: /data/snapshots/\n\n"
+        "User-agent: *\nAllow: /\nDisallow: /data/snapshots/\n"
+        "Allow: /data/snapshots/map_timeline.json\n"
+        "Allow: /data/snapshots/model2fed/map_timeline.json\n\n"
         "Sitemap: https://seatprojections.au/sitemap.xml\n")
 
 

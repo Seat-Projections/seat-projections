@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /data/snapshots/
+Allow: /data/snapshots/map_timeline.json
+Allow: /data/snapshots/model2fed/map_timeline.json
 
 Sitemap: https://seatprojections.au/sitemap.xml
