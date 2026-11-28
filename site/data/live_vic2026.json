@@ -837,6 +837,254 @@
      "call": "ALP"
     }
    ]
+  },
+  {
+   "id": "5",
+   "time": "2026-11-28T23:31:29+11:00",
+   "text": "With about 39% of votes counted, the ABC has called 60 seats: Coalition 48 (Liberal 38, Nationals 10), Greens 7 and Labor 5. Another 28 are still in doubt.\n\nSince our last update, the ABC has called Bellarine for the Liberals, Dandenong for Labor and Prahran for the Greens. We favoured all three. It has also called Werribee for the Liberals. We had Werribee as a three-way contest with One Nation narrowly favoured (40%), ahead of Labor (31%) and the Liberals (30%).\n\nThat makes Werribee our seventh miss. Our forecast has picked the winning party in 53 of the 60 called seats, close to the 50 we'd expect from our favourites' win chances. One Nation still hasn't won a called seat, and three of our seven misses are seats where we favoured it.",
+   "replace_calls": true,
+   "calls": [
+    {
+     "district": "Ashwood",
+     "call": "LP"
+    },
+    {
+     "district": "Bass",
+     "call": "LP"
+    },
+    {
+     "district": "Bayswater",
+     "call": "LP"
+    },
+    {
+     "district": "Bellarine",
+     "call": "LP"
+    },
+    {
+     "district": "Bendigo East",
+     "call": "NP"
+    },
+    {
+     "district": "Bendigo West",
+     "call": "NP"
+    },
+    {
+     "district": "Bentleigh",
+     "call": "LP"
+    },
+    {
+     "district": "Berwick",
+     "call": "LP"
+    },
+    {
+     "district": "Box Hill",
+     "call": "LP"
+    },
+    {
+     "district": "Brighton",
+     "call": "LP"
+    },
+    {
+     "district": "Broadmeadows",
+     "call": "ALP"
+    },
+    {
+     "district": "Brunswick",
+     "call": "GRN"
+    },
+    {
+     "district": "Bulleen",
+     "call": "LP"
+    },
+    {
+     "district": "Carrum",
+     "call": "LP"
+    },
+    {
+     "district": "Caulfield",
+     "call": "LP"
+    },
+    {
+     "district": "Croydon",
+     "call": "LP"
+    },
+    {
+     "district": "Dandenong",
+     "call": "ALP"
+    },
+    {
+     "district": "Eildon",
+     "call": "LP"
+    },
+    {
+     "district": "Eltham",
+     "call": "LP"
+    },
+    {
+     "district": "Euroa",
+     "call": "NP"
+    },
+    {
+     "district": "Evelyn",
+     "call": "LP"
+    },
+    {
+     "district": "Footscray",
+     "call": "GRN"
+    },
+    {
+     "district": "Frankston",
+     "call": "LP"
+    },
+    {
+     "district": "Gippsland East",
+     "call": "NP"
+    },
+    {
+     "district": "Gippsland South",
+     "call": "NP"
+    },
+    {
+     "district": "Glen Waverley",
+     "call": "LP"
+    },
+    {
+     "district": "Hawthorn",
+     "call": "LP"
+    },
+    {
+     "district": "Kew",
+     "call": "LP"
+    },
+    {
+     "district": "Laverton",
+     "call": "ALP"
+    },
+    {
+     "district": "Lowan",
+     "call": "NP"
+    },
+    {
+     "district": "Macedon",
+     "call": "LP"
+    },
+    {
+     "district": "Malvern",
+     "call": "LP"
+    },
+    {
+     "district": "Melbourne",
+     "call": "GRN"
+    },
+    {
+     "district": "Mildura",
+     "call": "NP"
+    },
+    {
+     "district": "Monbulk",
+     "call": "LP"
+    },
+    {
+     "district": "Mordialloc",
+     "call": "LP"
+    },
+    {
+     "district": "Mornington",
+     "call": "LP"
+    },
+    {
+     "district": "Morwell",
+     "call": "NP"
+    },
+    {
+     "district": "Mulgrave",
+     "call": "LP"
+    },
+    {
+     "district": "Nepean",
+     "call": "LP"
+    },
+    {
+     "district": "Niddrie",
+     "call": "LP"
+    },
+    {
+     "district": "Northcote",
+     "call": "GRN"
+    },
+    {
+     "district": "Ovens Valley",
+     "call": "NP"
+    },
+    {
+     "district": "Pakenham",
+     "call": "LP"
+    },
+    {
+     "district": "Pascoe Vale",
+     "call": "GRN"
+    },
+    {
+     "district": "Point Cook",
+     "call": "LP"
+    },
+    {
+     "district": "Polwarth",
+     "call": "LP"
+    },
+    {
+     "district": "Prahran",
+     "call": "GRN"
+    },
+    {
+     "district": "Richmond",
+     "call": "GRN"
+    },
+    {
+     "district": "Ringwood",
+     "call": "LP"
+    },
+    {
+     "district": "Ripon",
+     "call": "LP"
+    },
+    {
+     "district": "Rowville",
+     "call": "LP"
+    },
+    {
+     "district": "Sandringham",
+     "call": "LP"
+    },
+    {
+     "district": "Shepparton",
+     "call": "NP"
+    },
+    {
+     "district": "South Barwon",
+     "call": "LP"
+    },
+    {
+     "district": "South-West Coast",
+     "call": "LP"
+    },
+    {
+     "district": "St Albans",
+     "call": "ALP"
+    },
+    {
+     "district": "Warrandyte",
+     "call": "LP"
+    },
+    {
+     "district": "Werribee",
+     "call": "LP"
+    },
+    {
+     "district": "Williamstown",
+     "call": "ALP"
+    }
+   ]
   }
  ]
 }
