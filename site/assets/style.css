@@ -464,3 +464,10 @@ a:hover { text-decoration: underline; }
 .prose table th, .prose table td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--border); text-align: left; white-space: nowrap; }
 .prose table th { background: var(--surface-low); font-weight: 600; }
 .prose table tbody tr:nth-child(even) td { background: var(--surface-low); }
+
+/* ---------- live results ---------- */
+.live-entry { border-top: 1px solid var(--border); padding: 1rem 0; max-width: 46rem; }
+.live-entry:first-child { border-top: none; }
+.live-entry p { margin: 0.25rem 0 0; font-family: var(--serif); font-size: 1.0625rem; line-height: 1.75rem; }
+.live-meta { display: flex; align-items: center; gap: 0.625rem; font-size: 0.8125rem; color: var(--ink-2); flex-wrap: wrap; }
+.live-board .dtable td:first-child { width: 40%; }

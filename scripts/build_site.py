@@ -676,7 +676,8 @@ def seo_block(title, desc, path, jsonld=None, index=True, og_type="website", pub
         lines.append('<meta name="robots" content="noindex">')
     lines.append(SPECULATION)
     if jsonld is not None:
-        lines.append(f'<script type="application/ld+json">{json.dumps(jsonld, separators=(",", ":"))}</script>')
+        safe = json.dumps(jsonld, separators=(",", ":")).replace("<", "\\u003c")
+        lines.append(f'<script type="application/ld+json">{safe}</script>')
     return "\n".join(lines)
 
 
@@ -1354,6 +1355,7 @@ def blog_hub(posts, header, footer):
     <h1>Blog</h1>
     <p class="lede">Analysis and explainers on the 2026 Victorian state election forecast:
       seat-by-seat contests, preferences and what moves the model.</p>
+    <p class="small"><a href="/live/"><b>Live results</b> on election night &rarr;</a></p>
   </section>
   <div class="post-grid">
 {cards}
@@ -1389,6 +1391,120 @@ def write_blog(posts):
         (d / "index.html").write_text(post_page(post, header, footer, others))
 
 
+LIVE_JSON = DATA / "live_vic2026.json"
+LIVE_FORECAST_JSON = DATA / "live_forecast_vic2026.json"
+LIVE_DIR = SITE / "live"
+
+
+def live_jsonld(live):
+    from datetime import datetime, timedelta
+    start = live["coverage_start"]
+    end = (datetime.fromisoformat(start) + timedelta(days=3)).isoformat()
+    updates = [{"@type": "BlogPosting", "headline": e["text"][:100],
+                "datePublished": e["time"], "url": f"{DOMAIN}/live/#e{e['id']}"}
+               for e in live.get("entries", [])][-20:]
+    return {"@context": "https://schema.org", "@type": "LiveBlogPosting",
+            "coverageStartTime": start, "coverageEndTime": end,
+            "headline": live["title"], "url": f"{DOMAIN}/live/",
+            "liveBlogUpdate": updates}
+
+
+def live_scoreboard_html(sb):
+    rows = "".join(
+        f'<tr><td>{esc(label)}</td><td class="r num"><b>{called}</b></td>'
+        f'<td class="r num">{f"{exp:.1f}" if exp is not None else "&mdash;"}</td>'
+        f'<td class="muted small">{note or ""}</td></tr>'
+        for label, called, exp, note in sb["rows"])
+    y = sb["called"]
+    pct = round(100 * sb["correct"] / y) if y else 0
+    return (f'<table class="dtable"><thead><tr><th>Party</th><th class="r">Called</th>'
+            f'<th class="r">Forecast</th><th></th></tr></thead><tbody>{rows}</tbody></table>'
+            f'<p class="small muted" style="margin:0.5rem 0 0"><b>{y} of 88 seats called.</b> '
+            f'Our forecast favourite won {sb["correct"]} of {y} called seats ({pct}%).</p>')
+
+
+def live_calls_table_html(live, forecast):
+    from live import effective_calls
+    calls = effective_calls(live.get("entries", []))
+    rows = "".join(
+        f'<tr><td><a href="/districts/{esc(f["slug"])}/"><b>{esc(d)}</b></a></td>'
+        f'<td><span class="swatch" style="background:{pcolour(e["call"])}"></span>{esc(pname(e["call"]))}</td>'
+        f'<td>{esc(f["fav_name"])} ({esc(pname(f["fav_party"]))})</td>'
+        f'<td class="r num">{round(100 * f["p_win"])}%</td>'
+        f'<td>{"&#10003;" if e["call"] == f["fav_party"] else "&#10007;"}</td></tr>'
+        for d, e in sorted(calls.items(), key=lambda kv: -int(kv[1]["id"]))
+        for f in [forecast["districts"].get(d, {})])
+    return (f'<table class="dtable"><thead><tr><th>District</th><th>Called for</th>'
+            f'<th>Our favourite</th><th class="r">Win %</th><th></th></tr></thead>'
+            f'<tbody>{rows}</tbody></table>')
+
+
+def live_feed_html(live, forecast):
+    from live import fmt_live_time
+    entries = live.get("entries", [])
+    if not entries:
+        return '<p class="muted">Live coverage starts when polls close at 6pm on Saturday 28 November.</p>'
+    out = []
+    for e in reversed(entries):
+        meta = [f'<b>{esc(fmt_live_time(e["time"]))}</b>']
+        if e.get("district"):
+            f = forecast["districts"].get(e["district"], {})
+            meta.append(f'<a href="/districts/{esc(f.get("slug", ""))}/">{esc(e["district"])}</a>')
+        if e.get("call"):
+            meta.append(f'<span class="swatch" style="background:{pcolour(e["call"])}"></span>'
+                        f'{esc(pname(e["call"]))}')
+        paras = "".join(f"<p>{esc(p_)}</p>" for p_ in e["text"].split("\n\n"))
+        out.append(f'<div class="live-entry" id="e{esc(e["id"])}">'
+                   f'<div class="live-meta">{" ".join(meta)}</div>{paras}</div>')
+    return "".join(out)
+
+
+def write_live(live_file=None, forecast_file=None, out_dir=None):
+    """Render /live/ from the live entries JSON + the frozen forecast. Fast page-only
+    build (called by live.py after every write and by main())."""
+    from live import scoreboard
+    live_file = Path(live_file or LIVE_JSON)
+    forecast_file = Path(forecast_file or LIVE_FORECAST_JSON)
+    out_dir = Path(out_dir or LIVE_DIR)
+    if not live_file.exists() or not forecast_file.exists():
+        return False
+    live = json.loads(live_file.read_text())
+    forecast = json.loads(forecast_file.read_text())
+    header, footer = shared_chrome()
+    from live import fmt_frozen
+    sb = live_scoreboard_html(scoreboard(live, forecast))
+    calls = live_calls_table_html(live, forecast)
+    feed = live_feed_html(live, forecast)
+    frozen = fmt_frozen(forecast["frozen_at"])
+    body = f"""
+<main class="wrap">
+  <section class="hero">
+    <span class="eyebrow">Election night &middot; 28 November 2026</span>
+    <h1>{esc(live["title"])}</h1>
+    <p class="lede">Results as they come in, compared with our final forecast
+      from {esc(frozen)}.</p>
+  </section>
+  <section class="card card-pad" style="margin:1.5rem 0">
+    <h3 style="margin-top:0">Scoreboard</h3>
+    <div id="live-score-body">{sb}</div>
+  </section>
+  <section class="card" style="overflow-x:auto;margin-bottom:1.5rem" id="live-calls-wrap">
+    <div id="live-calls-body">{calls}</div>
+  </section>
+  <h2 style="font-family:var(--serif);font-size:1.5rem;font-weight:600">Updates</h2>
+  <p class="small muted" id="live-updated" hidden>Updated <span id="live-updated-t"></span></p>
+  <div class="live-feed" id="live-feed">{feed}</div>
+</main>
+"""
+    out_dir.mkdir(parents=True, exist_ok=True)
+    desc = ("Live results and seat calls for the 2026 Victorian state election, "
+            "compared with the Seat Projections forecast.")
+    (out_dir / "index.html").write_text(
+        page_head((f"{live['title']} | Seat Projections", desc, "/live/", live_jsonld(live)))
+        + header + body + footer + page_tail('<script src="/assets/live.js" defer></script>'))
+    return True
+
+
 def write_sitemap(posts=()):
     date = json.loads((DATA / "model2_vic2026.json").read_text())["meta"]["timestamp"][:10]
     urls = [("/", date), ("/2022-results/", date), ("/methodology/", date),
@@ -1397,6 +1513,11 @@ def write_sitemap(posts=()):
     if posts:
         urls.append(("/blog/", posts[0]["date"]))
         urls += [(f"/blog/{p['slug']}/", p["date"]) for p in posts]
+    if LIVE_JSON.exists() and (SITE / "live" / "index.html").exists():
+        live = json.loads(LIVE_JSON.read_text())
+        entries = live.get("entries", [])
+        urls.append(("/live/", entries[-1]["time"][:10] if entries
+                     else live["coverage_start"][:10]))
     urls += [(f"/districts/{p.parent.name}/", date)
              for p in sorted((SITE / "districts").rglob("index.html"))
              if p.parent.name != "districts"]
@@ -1541,6 +1662,7 @@ def main() -> None:
     write_district_pages(simp_features, baseline, model1_doc, model2_doc, snaps)
     posts = load_posts()
     write_blog(posts)
+    write_live()
     write_sitemap(posts)
 
     for path in sorted(DATA.rglob("*")):

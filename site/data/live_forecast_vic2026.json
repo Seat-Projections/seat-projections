@@ -1,0 +1,565 @@
+{
+ "frozen_at": "2026-11-25T22:04:47+00:00",
+ "run_id": "VIC2026 (2022)",
+ "git_commit": "c3ad143aaaa1bd3c139effaf0de27894f2899c26",
+ "blocs": {
+  "COAL": {
+   "seats_mean": 55.38,
+   "p_majority": 0.877
+  },
+  "ALP": {
+   "seats_mean": 15.44,
+   "p_majority": 0.0012
+  },
+  "ON": {
+   "seats_mean": 8.66,
+   "p_majority": 0.0
+  },
+  "GRN": {
+   "seats_mean": 8.14,
+   "p_majority": 0.0
+  },
+  "IND*": {
+   "seats_mean": 0.37,
+   "p_majority": 0.0
+  }
+ },
+ "seats": {
+  "LP": 46.08,
+  "ALP": 15.44,
+  "NP": 9.3,
+  "ON": 8.66,
+  "GRN": 8.14,
+  "IND*": 0.37
+ },
+ "districts": {
+  "Albert Park": {
+   "slug": "albert-park",
+   "fav_party": "GRN",
+   "fav_name": "Sonya Semmens",
+   "p_win": 0.4774
+  },
+  "Ashwood": {
+   "slug": "ashwood",
+   "fav_party": "LP",
+   "fav_name": "Theo Zographos",
+   "p_win": 0.7802
+  },
+  "Bass": {
+   "slug": "bass",
+   "fav_party": "LP",
+   "fav_name": "Rochelle Halstead",
+   "p_win": 0.994
+  },
+  "Bayswater": {
+   "slug": "bayswater",
+   "fav_party": "LP",
+   "fav_name": "David Kitchen",
+   "p_win": 0.9636
+  },
+  "Bellarine": {
+   "slug": "bellarine",
+   "fav_party": "LP",
+   "fav_name": "Callum Whitehead",
+   "p_win": 0.7728
+  },
+  "Benambra": {
+   "slug": "benambra",
+   "fav_party": "LP",
+   "fav_name": "Steve Martin",
+   "p_win": 0.9772
+  },
+  "Bendigo East": {
+   "slug": "bendigo-east",
+   "fav_party": "NP",
+   "fav_name": "Andrew Lethlean",
+   "p_win": 0.5494
+  },
+  "Bendigo West": {
+   "slug": "bendigo-west",
+   "fav_party": "ALP",
+   "fav_name": "Brenton Baldwin",
+   "p_win": 0.63
+  },
+  "Bentleigh": {
+   "slug": "bentleigh",
+   "fav_party": "LP",
+   "fav_name": "Tynan Putt",
+   "p_win": 0.8376
+  },
+  "Berwick": {
+   "slug": "berwick",
+   "fav_party": "LP",
+   "fav_name": "Brad Battin",
+   "p_win": 0.9972
+  },
+  "Box Hill": {
+   "slug": "box-hill",
+   "fav_party": "LP",
+   "fav_name": "Sally Houguet",
+   "p_win": 0.6728
+  },
+  "Brighton": {
+   "slug": "brighton",
+   "fav_party": "LP",
+   "fav_name": "James Newbury",
+   "p_win": 0.9992
+  },
+  "Broadmeadows": {
+   "slug": "broadmeadows",
+   "fav_party": "ALP",
+   "fav_name": "Kathleen Matthews-Ward",
+   "p_win": 0.5964
+  },
+  "Brunswick": {
+   "slug": "brunswick",
+   "fav_party": "GRN",
+   "fav_name": "Adam Pulford",
+   "p_win": 1.0
+  },
+  "Bulleen": {
+   "slug": "bulleen",
+   "fav_party": "LP",
+   "fav_name": "Matthew Guy",
+   "p_win": 0.9992
+  },
+  "Bundoora": {
+   "slug": "bundoora",
+   "fav_party": "ALP",
+   "fav_name": "Colin Brooks",
+   "p_win": 0.4804
+  },
+  "Carrum": {
+   "slug": "carrum",
+   "fav_party": "LP",
+   "fav_name": "Jeff Shelley",
+   "p_win": 0.5972
+  },
+  "Caulfield": {
+   "slug": "caulfield",
+   "fav_party": "LP",
+   "fav_name": "David Southwick",
+   "p_win": 0.9922
+  },
+  "Clarinda": {
+   "slug": "clarinda",
+   "fav_party": "LP",
+   "fav_name": "John Paganis",
+   "p_win": 0.6922
+  },
+  "Cranbourne": {
+   "slug": "cranbourne",
+   "fav_party": "ON",
+   "fav_name": "Andrew Hirst",
+   "p_win": 0.5466
+  },
+  "Croydon": {
+   "slug": "croydon",
+   "fav_party": "LP",
+   "fav_name": "Toby Wooldridge",
+   "p_win": 0.9984
+  },
+  "Dandenong": {
+   "slug": "dandenong",
+   "fav_party": "ALP",
+   "fav_name": "Gabrielle Williams",
+   "p_win": 0.7434
+  },
+  "Eildon": {
+   "slug": "eildon",
+   "fav_party": "LP",
+   "fav_name": "Cindy McLeish",
+   "p_win": 0.9988
+  },
+  "Eltham": {
+   "slug": "eltham",
+   "fav_party": "LP",
+   "fav_name": "Paul Byrnes",
+   "p_win": 0.824
+  },
+  "Essendon": {
+   "slug": "essendon",
+   "fav_party": "LP",
+   "fav_name": "Tommy Le Deux",
+   "p_win": 0.5922
+  },
+  "Eureka": {
+   "slug": "eureka",
+   "fav_party": "LP",
+   "fav_name": "Emma Muir",
+   "p_win": 0.4386
+  },
+  "Euroa": {
+   "slug": "euroa",
+   "fav_party": "NP",
+   "fav_name": "Annabelle Cleeland",
+   "p_win": 0.9974
+  },
+  "Evelyn": {
+   "slug": "evelyn",
+   "fav_party": "LP",
+   "fav_name": "Bridget Vallence",
+   "p_win": 1.0
+  },
+  "Footscray": {
+   "slug": "footscray",
+   "fav_party": "GRN",
+   "fav_name": "Elena Pereyra",
+   "p_win": 0.5066
+  },
+  "Frankston": {
+   "slug": "frankston",
+   "fav_party": "LP",
+   "fav_name": "Bree Ambry",
+   "p_win": 0.6628
+  },
+  "Geelong": {
+   "slug": "geelong",
+   "fav_party": "ALP",
+   "fav_name": "Christine Couzens",
+   "p_win": 0.3892
+  },
+  "Gippsland East": {
+   "slug": "gippsland-east",
+   "fav_party": "NP",
+   "fav_name": "Gemma Rendell",
+   "p_win": 0.9974
+  },
+  "Gippsland South": {
+   "slug": "gippsland-south",
+   "fav_party": "NP",
+   "fav_name": "Danny O'Brien",
+   "p_win": 0.9964
+  },
+  "Glen Waverley": {
+   "slug": "glen-waverley",
+   "fav_party": "LP",
+   "fav_name": "Jacky Sun",
+   "p_win": 0.9556
+  },
+  "Greenvale": {
+   "slug": "greenvale",
+   "fav_party": "LP",
+   "fav_name": "Jim Overend",
+   "p_win": 0.6904
+  },
+  "Hastings": {
+   "slug": "hastings",
+   "fav_party": "LP",
+   "fav_name": "Frank Schiefler",
+   "p_win": 0.9472
+  },
+  "Hawthorn": {
+   "slug": "hawthorn",
+   "fav_party": "LP",
+   "fav_name": "John Pesutto",
+   "p_win": 0.9916
+  },
+  "Ivanhoe": {
+   "slug": "ivanhoe",
+   "fav_party": "LP",
+   "fav_name": "Oscar Lopez Rios",
+   "p_win": 0.3892
+  },
+  "Kalkallo": {
+   "slug": "kalkallo",
+   "fav_party": "ALP",
+   "fav_name": "Ros Spence",
+   "p_win": 0.7248
+  },
+  "Kew": {
+   "slug": "kew",
+   "fav_party": "LP",
+   "fav_name": "Jess Wilson",
+   "p_win": 0.9646
+  },
+  "Kororoit": {
+   "slug": "kororoit",
+   "fav_party": "LP",
+   "fav_name": "Jack Chakoma",
+   "p_win": 0.5084
+  },
+  "Lara": {
+   "slug": "lara",
+   "fav_party": "ON",
+   "fav_name": "Steven Spyros",
+   "p_win": 0.6948
+  },
+  "Laverton": {
+   "slug": "laverton",
+   "fav_party": "ALP",
+   "fav_name": "Sarah Connolly",
+   "p_win": 0.6866
+  },
+  "Lowan": {
+   "slug": "lowan",
+   "fav_party": "NP",
+   "fav_name": "Emma Kealy",
+   "p_win": 1.0
+  },
+  "Macedon": {
+   "slug": "macedon",
+   "fav_party": "LP",
+   "fav_name": "Kate Kendall",
+   "p_win": 0.6948
+  },
+  "Malvern": {
+   "slug": "malvern",
+   "fav_party": "LP",
+   "fav_name": "Amelia Hamer",
+   "p_win": 0.9996
+  },
+  "Melbourne": {
+   "slug": "melbourne",
+   "fav_party": "GRN",
+   "fav_name": "Ellen Sandell",
+   "p_win": 0.9986
+  },
+  "Melton": {
+   "slug": "melton",
+   "fav_party": "ON",
+   "fav_name": "Matthew Katselis",
+   "p_win": 0.6218
+  },
+  "Mildura": {
+   "slug": "mildura",
+   "fav_party": "NP",
+   "fav_name": "Jade Benham",
+   "p_win": 0.7724
+  },
+  "Mill Park": {
+   "slug": "mill-park",
+   "fav_party": "ALP",
+   "fav_name": "Elizabeth Nealy",
+   "p_win": 0.4256
+  },
+  "Monbulk": {
+   "slug": "monbulk",
+   "fav_party": "LP",
+   "fav_name": "Clare Fitzmaurice",
+   "p_win": 0.742
+  },
+  "Mordialloc": {
+   "slug": "mordialloc",
+   "fav_party": "LP",
+   "fav_name": "Paul O'Halloran",
+   "p_win": 0.8176
+  },
+  "Mornington": {
+   "slug": "mornington",
+   "fav_party": "LP",
+   "fav_name": "Chris Crewther",
+   "p_win": 0.9974
+  },
+  "Morwell": {
+   "slug": "morwell",
+   "fav_party": "ON",
+   "fav_name": "Casey Murphy",
+   "p_win": 0.7116
+  },
+  "Mulgrave": {
+   "slug": "mulgrave",
+   "fav_party": "ALP",
+   "fav_name": "Eden Foster",
+   "p_win": 0.7532
+  },
+  "Murray Plains": {
+   "slug": "murray-plains",
+   "fav_party": "NP",
+   "fav_name": "Brett Hosking",
+   "p_win": 0.9974
+  },
+  "Narracan": {
+   "slug": "narracan",
+   "fav_party": "LP",
+   "fav_name": "Wayne Farnham",
+   "p_win": 0.984
+  },
+  "Narre Warren North": {
+   "slug": "narre-warren-north",
+   "fav_party": "ON",
+   "fav_name": "Sebastian Crutchfield",
+   "p_win": 0.5762
+  },
+  "Narre Warren South": {
+   "slug": "narre-warren-south",
+   "fav_party": "LP",
+   "fav_name": "Norliah Peterson",
+   "p_win": 0.4914
+  },
+  "Nepean": {
+   "slug": "nepean",
+   "fav_party": "LP",
+   "fav_name": "Anthony Marsh",
+   "p_win": 1.0
+  },
+  "Niddrie": {
+   "slug": "niddrie",
+   "fav_party": "LP",
+   "fav_name": "Samantha Byrne",
+   "p_win": 0.7062
+  },
+  "Northcote": {
+   "slug": "northcote",
+   "fav_party": "GRN",
+   "fav_name": "Campbell Gome",
+   "p_win": 0.8274
+  },
+  "Oakleigh": {
+   "slug": "oakleigh",
+   "fav_party": "LP",
+   "fav_name": "Martin Jung",
+   "p_win": 0.4642
+  },
+  "Ovens Valley": {
+   "slug": "ovens-valley",
+   "fav_party": "NP",
+   "fav_name": "Tim McCurdy",
+   "p_win": 0.9996
+  },
+  "Pakenham": {
+   "slug": "pakenham",
+   "fav_party": "LP",
+   "fav_name": "Radmila Dyson",
+   "p_win": 0.781
+  },
+  "Pascoe Vale": {
+   "slug": "pascoe-vale",
+   "fav_party": "GRN",
+   "fav_name": "Angelica Panopoulos",
+   "p_win": 0.6562
+  },
+  "Point Cook": {
+   "slug": "point-cook",
+   "fav_party": "LP",
+   "fav_name": "Raja Reddy",
+   "p_win": 0.3924
+  },
+  "Polwarth": {
+   "slug": "polwarth",
+   "fav_party": "LP",
+   "fav_name": "Richard Riordan",
+   "p_win": 0.9912
+  },
+  "Prahran": {
+   "slug": "prahran",
+   "fav_party": "GRN",
+   "fav_name": "Angelica Di Camillo",
+   "p_win": 0.9846
+  },
+  "Preston": {
+   "slug": "preston",
+   "fav_party": "GRN",
+   "fav_name": "Loki Sangarya",
+   "p_win": 0.5166
+  },
+  "Richmond": {
+   "slug": "richmond",
+   "fav_party": "GRN",
+   "fav_name": "Gabrielle De Vietri",
+   "p_win": 0.996
+  },
+  "Ringwood": {
+   "slug": "ringwood",
+   "fav_party": "LP",
+   "fav_name": "Nick McGowan",
+   "p_win": 0.7026
+  },
+  "Ripon": {
+   "slug": "ripon",
+   "fav_party": "ON",
+   "fav_name": "Donna Buxton",
+   "p_win": 0.587
+  },
+  "Rowville": {
+   "slug": "rowville",
+   "fav_party": "LP",
+   "fav_name": "Max Williams",
+   "p_win": 0.999
+  },
+  "Sandringham": {
+   "slug": "sandringham",
+   "fav_party": "LP",
+   "fav_name": "Brad Rowswell",
+   "p_win": 0.998
+  },
+  "Shepparton": {
+   "slug": "shepparton",
+   "fav_party": "NP",
+   "fav_name": "Shane Sali",
+   "p_win": 0.967
+  },
+  "South Barwon": {
+   "slug": "south-barwon",
+   "fav_party": "LP",
+   "fav_name": "Libby Pettit",
+   "p_win": 0.777
+  },
+  "South-West Coast": {
+   "slug": "south-west-coast",
+   "fav_party": "LP",
+   "fav_name": "Roma Britnell",
+   "p_win": 1.0
+  },
+  "St Albans": {
+   "slug": "st-albans",
+   "fav_party": "LP",
+   "fav_name": "Rob Dunstan",
+   "p_win": 0.5538
+  },
+  "Sunbury": {
+   "slug": "sunbury",
+   "fav_party": "LP",
+   "fav_name": "Simmone Cottom",
+   "p_win": 0.5266
+  },
+  "Sydenham": {
+   "slug": "sydenham",
+   "fav_party": "LP",
+   "fav_name": "Nathalie Moussi",
+   "p_win": 0.5746
+  },
+  "Tarneit": {
+   "slug": "tarneit",
+   "fav_party": "LP",
+   "fav_name": "Venkat Ram Upparlapalle",
+   "p_win": 0.5132
+  },
+  "Thomastown": {
+   "slug": "thomastown",
+   "fav_party": "ALP",
+   "fav_name": "Bronwyn Halfpenny",
+   "p_win": 0.5782
+  },
+  "Warrandyte": {
+   "slug": "warrandyte",
+   "fav_party": "LP",
+   "fav_name": "Nicole Werner",
+   "p_win": 0.9996
+  },
+  "Wendouree": {
+   "slug": "wendouree",
+   "fav_party": "LP",
+   "fav_name": "Gav Ronan",
+   "p_win": 0.5676
+  },
+  "Werribee": {
+   "slug": "werribee",
+   "fav_party": "ON",
+   "fav_name": "Paul Pateras",
+   "p_win": 0.395
+  },
+  "Williamstown": {
+   "slug": "williamstown",
+   "fav_party": "LP",
+   "fav_name": "Paul Lindemann",
+   "p_win": 0.5396
+  },
+  "Yan Yean": {
+   "slug": "yan-yean",
+   "fav_party": "LP",
+   "fav_name": "Amanda Dow",
+   "p_win": 0.8884
+  }
+ }
+}

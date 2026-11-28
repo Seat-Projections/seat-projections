@@ -1,0 +1,205 @@
+{
+ "title": "Live: 2026 Victorian election results",
+ "coverage_start": "2026-11-28T18:00:00+11:00",
+ "entries": [
+  {
+   "id": "1",
+   "time": "2026-11-28T20:47:26+11:00",
+   "text": "Results so far, based on the 48 seats the ABC has called with about 15% of votes counted: Coalition 38 (Liberal 31, Nationals 7), Greens 7, Labor 2 and One Nation 1. Another 40 seats are still in doubt.\n\nOur final forecast picked the winning party in 47 of those 48 seats. The one miss so far is Geelong. We had it as a four-way contest with Labor narrowly favoured (39%), ahead of the Liberals (28%). The ABC has called it for the Liberals.\n\nOur favourites' win chances in these seats imply about seven misses, so the forecast is doing better than expected so far. The early calls are mostly the clearer contests, though. The real test is the 40 seats still in doubt.",
+   "calls": [
+    {
+     "district": "Ashwood",
+     "call": "LP"
+    },
+    {
+     "district": "Bayswater",
+     "call": "LP"
+    },
+    {
+     "district": "Bellarine",
+     "call": "LP"
+    },
+    {
+     "district": "Bendigo East",
+     "call": "NP"
+    },
+    {
+     "district": "Bentleigh",
+     "call": "LP"
+    },
+    {
+     "district": "Berwick",
+     "call": "LP"
+    },
+    {
+     "district": "Box Hill",
+     "call": "LP"
+    },
+    {
+     "district": "Brighton",
+     "call": "LP"
+    },
+    {
+     "district": "Broadmeadows",
+     "call": "ALP"
+    },
+    {
+     "district": "Brunswick",
+     "call": "GRN"
+    },
+    {
+     "district": "Bulleen",
+     "call": "LP"
+    },
+    {
+     "district": "Carrum",
+     "call": "LP"
+    },
+    {
+     "district": "Caulfield",
+     "call": "LP"
+    },
+    {
+     "district": "Clarinda",
+     "call": "LP"
+    },
+    {
+     "district": "Croydon",
+     "call": "LP"
+    },
+    {
+     "district": "Eildon",
+     "call": "LP"
+    },
+    {
+     "district": "Eltham",
+     "call": "LP"
+    },
+    {
+     "district": "Euroa",
+     "call": "NP"
+    },
+    {
+     "district": "Evelyn",
+     "call": "LP"
+    },
+    {
+     "district": "Footscray",
+     "call": "GRN"
+    },
+    {
+     "district": "Frankston",
+     "call": "LP"
+    },
+    {
+     "district": "Geelong",
+     "call": "LP"
+    },
+    {
+     "district": "Gippsland East",
+     "call": "NP"
+    },
+    {
+     "district": "Gippsland South",
+     "call": "NP"
+    },
+    {
+     "district": "Glen Waverley",
+     "call": "LP"
+    },
+    {
+     "district": "Kew",
+     "call": "LP"
+    },
+    {
+     "district": "Laverton",
+     "call": "ALP"
+    },
+    {
+     "district": "Lowan",
+     "call": "NP"
+    },
+    {
+     "district": "Macedon",
+     "call": "LP"
+    },
+    {
+     "district": "Malvern",
+     "call": "LP"
+    },
+    {
+     "district": "Melbourne",
+     "call": "GRN"
+    },
+    {
+     "district": "Melton",
+     "call": "ON"
+    },
+    {
+     "district": "Mordialloc",
+     "call": "LP"
+    },
+    {
+     "district": "Mornington",
+     "call": "LP"
+    },
+    {
+     "district": "Nepean",
+     "call": "LP"
+    },
+    {
+     "district": "Niddrie",
+     "call": "LP"
+    },
+    {
+     "district": "Northcote",
+     "call": "GRN"
+    },
+    {
+     "district": "Ovens Valley",
+     "call": "NP"
+    },
+    {
+     "district": "Pascoe Vale",
+     "call": "GRN"
+    },
+    {
+     "district": "Polwarth",
+     "call": "LP"
+    },
+    {
+     "district": "Preston",
+     "call": "GRN"
+    },
+    {
+     "district": "Richmond",
+     "call": "GRN"
+    },
+    {
+     "district": "Ringwood",
+     "call": "LP"
+    },
+    {
+     "district": "Rowville",
+     "call": "LP"
+    },
+    {
+     "district": "Sandringham",
+     "call": "LP"
+    },
+    {
+     "district": "Shepparton",
+     "call": "NP"
+    },
+    {
+     "district": "South-West Coast",
+     "call": "LP"
+    },
+    {
+     "district": "Warrandyte",
+     "call": "LP"
+    }
+   ]
+  }
+ ]
+}
