@@ -7,6 +7,7 @@ const liveFetch = (u) => fetch(u, { cache: "no-cache" }).then((r) => (r.ok ? r.j
 function effectiveCalls(entries) {
   const calls = {};
   for (const e of entries) {
+    if (e.replace_calls) for (const k of Object.keys(calls)) delete calls[k];
     if (e.district && e.call) calls[e.district] = e;
     for (const c of e.calls || []) calls[c.district] = { ...e, district: c.district, call: c.call };
   }

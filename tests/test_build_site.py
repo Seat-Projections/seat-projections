@@ -106,8 +106,9 @@ SITE_DIR = Path(__file__).resolve().parent.parent / "site"
 
 
 def site_pages():
-    """Site pages: every *.html under site/, excluding vendored files."""
-    return [f for f in sorted(SITE_DIR.rglob("*.html")) if "vendor" not in f.parts]
+    """Site pages: every *.html under site/, excluding vendored files and redirect stubs."""
+    return [f for f in sorted(SITE_DIR.rglob("*.html"))
+            if "vendor" not in f.parts and 'http-equiv="refresh"' not in f.read_text()]
 
 
 def test_all_pages_have_identical_header():

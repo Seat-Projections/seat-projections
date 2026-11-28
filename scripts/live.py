@@ -15,7 +15,7 @@ Commands:
   delete <id> [--push]
 
 Party codes: LP, NP, ALP, GRN, ON, IND*, OTH (aliases LIB, NAT, LAB, ONP, IND).
-Every write regenerates site/live/index.html via build_site.write_live (fast, not a full build).
+Every write regenerates site/blog/ and site/blog/live/index.html (fast, not a full build).
 """
 from __future__ import annotations
 
@@ -41,7 +41,7 @@ DATA = SITE / "data"
 MODEL_JSON = DATA / "model2_vic2026.json"
 LIVE = DATA / "live_vic2026.json"
 FORECAST = DATA / "live_forecast_vic2026.json"
-LIVE_DIR = SITE / "live"
+LIVE_DIR = SITE / "blog" / "live"
 
 PARTY_CODES = ["LP", "NP", "ALP", "GRN", "ON", "IND*", "OTH"]
 ALIASES = {"LIB": "LP", "NAT": "NP", "LAB": "ALP", "ONP": "ON", "IND": "IND*"}
@@ -81,6 +81,8 @@ def effective_calls(entries):
     """Latest entry with district+call per district wins -> {district: entry}."""
     calls = {}
     for e in entries:
+        if e.get("replace_calls"):
+            calls = {}
         if e.get("district") and e.get("call"):
             calls[e["district"]] = e
         for c in e.get("calls", []):
@@ -123,16 +125,18 @@ def now_aedt():
 
 
 def regen():
+    posts = build_site.load_posts()
+    build_site.write_blog(posts)
     ok = build_site.write_live(LIVE, FORECAST, LIVE_DIR)
     if not ok:
         raise SystemExit("write_live skipped: live data files missing (run init first)")
-    build_site.write_sitemap(build_site.load_posts())
+    build_site.write_sitemap(posts)
 
 
 def git_push(message):
     """Stage only live files (and sitemap if it changed), commit TZ=UTC, push via gh credentials."""
     rel = lambda p: str(p.relative_to(ROOT))
-    paths = [rel(LIVE), rel(LIVE_DIR / "index.html")]
+    paths = [rel(LIVE), rel(LIVE_DIR / "index.html"), rel(SITE / "blog" / "index.html")]
     if (SITE / "sitemap.xml").exists():
         paths.append(rel(SITE / "sitemap.xml"))
     env = {**os.environ, "TZ": "UTC"}

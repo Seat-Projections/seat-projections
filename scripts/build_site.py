@@ -1346,8 +1346,28 @@ def post_page(post, header, footer, others=()):
             + header + body + footer + page_tail())
 
 
+def live_card():
+    """Pinned card for the live blog at the top of the blog hub (empty if no live data)."""
+    if not LIVE_JSON.exists():
+        return ""
+    from live import effective_calls, fmt_live_time
+    live = json.loads(LIVE_JSON.read_text())
+    entries = live.get("entries", [])
+    called = len(effective_calls(entries))
+    if entries:
+        foot = f"Updated {fmt_live_time(entries[-1]['time'])} &middot; {called} of 88 seats called"
+    else:
+        foot = "Starts 6pm, Saturday 28 November"
+    return f"""  <article class="card post-card post-card-live">
+    <span class="post-tag">Live</span>
+    <h3 class="post-card-title"><a href="/blog/live/">{esc(live["title"])}</a></h3>
+    <p class="post-card-excerpt">Seat calls and updates through the count, compared with our final forecast.</p>
+    <div class="post-card-foot"><span>{foot}</span><span class="post-card-more">Follow &rarr;</span></div>
+  </article>"""
+
+
 def blog_hub(posts, header, footer):
-    cards = "".join(post_card(p) for p in posts)
+    cards = live_card() + "".join(post_card(p) for p in posts)
     body = f"""
 <main class="wrap">
   <section class="hero">
@@ -1355,7 +1375,6 @@ def blog_hub(posts, header, footer):
     <h1>Blog</h1>
     <p class="lede">Analysis and explainers on the 2026 Victorian state election forecast:
       seat-by-seat contests, preferences and what moves the model.</p>
-    <p class="small"><a href="/live/"><b>Live results</b> on election night &rarr;</a></p>
   </section>
   <div class="post-grid">
 {cards}
@@ -1393,7 +1412,8 @@ def write_blog(posts):
 
 LIVE_JSON = DATA / "live_vic2026.json"
 LIVE_FORECAST_JSON = DATA / "live_forecast_vic2026.json"
-LIVE_DIR = SITE / "live"
+LIVE_DIR = SITE / "blog" / "live"
+LIVE_REDIRECT_DIR = SITE / "live"
 
 
 def live_jsonld(live):
@@ -1401,11 +1421,11 @@ def live_jsonld(live):
     start = live["coverage_start"]
     end = (datetime.fromisoformat(start) + timedelta(days=3)).isoformat()
     updates = [{"@type": "BlogPosting", "headline": e["text"][:100],
-                "datePublished": e["time"], "url": f"{DOMAIN}/live/#e{e['id']}"}
+                "datePublished": e["time"], "url": f"{DOMAIN}/blog/live/#e{e['id']}"}
                for e in live.get("entries", [])][-20:]
     return {"@context": "https://schema.org", "@type": "LiveBlogPosting",
             "coverageStartTime": start, "coverageEndTime": end,
-            "headline": live["title"], "url": f"{DOMAIN}/live/",
+            "headline": live["title"], "url": f"{DOMAIN}/blog/live/",
             "liveBlogUpdate": updates}
 
 
@@ -1460,7 +1480,7 @@ def live_feed_html(live, forecast):
 
 
 def write_live(live_file=None, forecast_file=None, out_dir=None):
-    """Render /live/ from the live entries JSON + the frozen forecast. Fast page-only
+    """Render /blog/live/ from the live entries JSON + the frozen forecast. Fast page-only
     build (called by live.py after every write and by main())."""
     from live import scoreboard
     live_file = Path(live_file or LIVE_JSON)
@@ -1471,6 +1491,7 @@ def write_live(live_file=None, forecast_file=None, out_dir=None):
     live = json.loads(live_file.read_text())
     forecast = json.loads(forecast_file.read_text())
     header, footer = shared_chrome()
+    header = header.replace('<a href="/blog/">Blog</a>', '<a href="/blog/" class="active">Blog</a>')
     from live import fmt_frozen
     sb = live_scoreboard_html(scoreboard(live, forecast))
     calls = live_calls_table_html(live, forecast)
@@ -1478,7 +1499,8 @@ def write_live(live_file=None, forecast_file=None, out_dir=None):
     frozen = fmt_frozen(forecast["frozen_at"])
     body = f"""
 <main class="wrap">
-  <section class="hero">
+  <p class="muted small" style="margin:1.5rem 0 0"><a href="/blog/">Blog</a> &rsaquo; Live results</p>
+  <section class="hero" style="padding-top:0.75rem">
     <span class="eyebrow">Election night &middot; 28 November 2026</span>
     <h1>{esc(live["title"])}</h1>
     <p class="lede">Results as they come in, compared with our final forecast
@@ -1500,8 +1522,17 @@ def write_live(live_file=None, forecast_file=None, out_dir=None):
     desc = ("Live results and seat calls for the 2026 Victorian state election, "
             "compared with the Seat Projections forecast.")
     (out_dir / "index.html").write_text(
-        page_head((f"{live['title']} | Seat Projections", desc, "/live/", live_jsonld(live)))
+        page_head((f"{live['title']} | Seat Projections", desc, "/blog/live/", live_jsonld(live)))
         + header + body + footer + page_tail('<script src="/assets/live.js" defer></script>'))
+    if out_dir == LIVE_DIR:
+        LIVE_REDIRECT_DIR.mkdir(parents=True, exist_ok=True)
+        (LIVE_REDIRECT_DIR / "index.html").write_text(
+            '<!DOCTYPE html>\n<html lang="en-AU"><head><meta charset="utf-8">'
+            '<title>Live results moved | Seat Projections</title>'
+            f'<link rel="canonical" href="{DOMAIN}/blog/live/">'
+            '<meta name="robots" content="noindex">'
+            '<meta http-equiv="refresh" content="0; url=/blog/live/"></head>'
+            '<body><p><a href="/blog/live/">Live results have moved to the blog</a>.</p></body></html>\n')
     return True
 
 
@@ -1513,10 +1544,10 @@ def write_sitemap(posts=()):
     if posts:
         urls.append(("/blog/", posts[0]["date"]))
         urls += [(f"/blog/{p['slug']}/", p["date"]) for p in posts]
-    if LIVE_JSON.exists() and (SITE / "live" / "index.html").exists():
+    if LIVE_JSON.exists() and (LIVE_DIR / "index.html").exists():
         live = json.loads(LIVE_JSON.read_text())
         entries = live.get("entries", [])
-        urls.append(("/live/", entries[-1]["time"][:10] if entries
+        urls.append(("/blog/live/", entries[-1]["time"][:10] if entries
                      else live["coverage_start"][:10]))
     urls += [(f"/districts/{p.parent.name}/", date)
              for p in sorted((SITE / "districts").rglob("index.html"))

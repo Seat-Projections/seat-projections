@@ -143,3 +143,14 @@ def test_batch_calls_entry_counts_each_seat():
     calls = live.effective_calls(entries)
     assert {d: e["call"] for d, e in calls.items()} == {"Kew": "LP", "Footscray": "GRN"}
     assert calls["Kew"]["id"] == "2"
+
+
+def test_replace_calls_entry_drops_seats_back_in_doubt():
+    import live
+    entries = [
+        {"id": "1", "time": "2026-11-28T20:47:00+11:00", "text": "a",
+         "calls": [{"district": "Geelong", "call": "LP"}, {"district": "Kew", "call": "LP"}]},
+        {"id": "2", "time": "2026-11-28T21:34:00+11:00", "text": "b", "replace_calls": True,
+         "calls": [{"district": "Kew", "call": "LP"}]},
+    ]
+    assert list(live.effective_calls(entries)) == ["Kew"]

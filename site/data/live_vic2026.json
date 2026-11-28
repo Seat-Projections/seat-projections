@@ -199,6 +199,211 @@
      "district": "Warrandyte",
      "call": "LP"
     }
+   ],
+   "replace_calls": true
+  },
+  {
+   "id": "2",
+   "time": "2026-11-28T21:34:18+11:00",
+   "text": "With about 23% of votes counted, the ABC has now called 49 seats: Coalition 39 (Liberal 30, Nationals 9), Greens 7 and Labor 3. Another 39 are still in doubt.\n\nFive seats from our last update are back in doubt, including Geelong, our only miss at that point, and Melton, which the ABC had called for One Nation. They're out of the tally until the ABC calls them again.\n\nOur forecast picked the winning party in 47 of the 49 called seats. The ABC has called Bendigo West for the Nationals, where we favoured Labor (63%). It has called St Albans for Labor, where we narrowly favoured the Liberals (55%).\n\nPoint Cook, now called for the Liberals, was one of our closest seats. We had it as a near coin flip between the Liberals and One Nation, with the Liberals fractionally ahead.",
+   "replace_calls": true,
+   "calls": [
+    {
+     "district": "Ashwood",
+     "call": "LP"
+    },
+    {
+     "district": "Bayswater",
+     "call": "LP"
+    },
+    {
+     "district": "Bendigo East",
+     "call": "NP"
+    },
+    {
+     "district": "Bendigo West",
+     "call": "NP"
+    },
+    {
+     "district": "Bentleigh",
+     "call": "LP"
+    },
+    {
+     "district": "Berwick",
+     "call": "LP"
+    },
+    {
+     "district": "Box Hill",
+     "call": "LP"
+    },
+    {
+     "district": "Brighton",
+     "call": "LP"
+    },
+    {
+     "district": "Broadmeadows",
+     "call": "ALP"
+    },
+    {
+     "district": "Brunswick",
+     "call": "GRN"
+    },
+    {
+     "district": "Bulleen",
+     "call": "LP"
+    },
+    {
+     "district": "Carrum",
+     "call": "LP"
+    },
+    {
+     "district": "Caulfield",
+     "call": "LP"
+    },
+    {
+     "district": "Croydon",
+     "call": "LP"
+    },
+    {
+     "district": "Eildon",
+     "call": "LP"
+    },
+    {
+     "district": "Eltham",
+     "call": "LP"
+    },
+    {
+     "district": "Euroa",
+     "call": "NP"
+    },
+    {
+     "district": "Evelyn",
+     "call": "LP"
+    },
+    {
+     "district": "Footscray",
+     "call": "GRN"
+    },
+    {
+     "district": "Frankston",
+     "call": "LP"
+    },
+    {
+     "district": "Gippsland East",
+     "call": "NP"
+    },
+    {
+     "district": "Gippsland South",
+     "call": "NP"
+    },
+    {
+     "district": "Glen Waverley",
+     "call": "LP"
+    },
+    {
+     "district": "Kew",
+     "call": "LP"
+    },
+    {
+     "district": "Laverton",
+     "call": "ALP"
+    },
+    {
+     "district": "Lowan",
+     "call": "NP"
+    },
+    {
+     "district": "Malvern",
+     "call": "LP"
+    },
+    {
+     "district": "Melbourne",
+     "call": "GRN"
+    },
+    {
+     "district": "Mildura",
+     "call": "NP"
+    },
+    {
+     "district": "Monbulk",
+     "call": "LP"
+    },
+    {
+     "district": "Mordialloc",
+     "call": "LP"
+    },
+    {
+     "district": "Mornington",
+     "call": "LP"
+    },
+    {
+     "district": "Narracan",
+     "call": "LP"
+    },
+    {
+     "district": "Nepean",
+     "call": "LP"
+    },
+    {
+     "district": "Niddrie",
+     "call": "LP"
+    },
+    {
+     "district": "Northcote",
+     "call": "GRN"
+    },
+    {
+     "district": "Ovens Valley",
+     "call": "NP"
+    },
+    {
+     "district": "Pascoe Vale",
+     "call": "GRN"
+    },
+    {
+     "district": "Point Cook",
+     "call": "LP"
+    },
+    {
+     "district": "Polwarth",
+     "call": "LP"
+    },
+    {
+     "district": "Preston",
+     "call": "GRN"
+    },
+    {
+     "district": "Richmond",
+     "call": "GRN"
+    },
+    {
+     "district": "Ringwood",
+     "call": "LP"
+    },
+    {
+     "district": "Rowville",
+     "call": "LP"
+    },
+    {
+     "district": "Sandringham",
+     "call": "LP"
+    },
+    {
+     "district": "Shepparton",
+     "call": "NP"
+    },
+    {
+     "district": "South-West Coast",
+     "call": "LP"
+    },
+    {
+     "district": "St Albans",
+     "call": "ALP"
+    },
+    {
+     "district": "Warrandyte",
+     "call": "LP"
+    }
    ]
   }
  ]
